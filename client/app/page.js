@@ -1,8 +1,7 @@
 import React from 'react'
 import  HomePage  from './HomePage/HomePage'
 
-const 
-asd = () => {
+const page = () => {
   return (
     <div>
       <HomePage />
@@ -10,5 +9,4 @@ asd = () => {
   )
 }
 
-export default 
-asd
+export default page

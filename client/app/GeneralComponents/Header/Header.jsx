@@ -7,6 +7,8 @@ import Logo from './Icons/Logo.png'
 import Hamburger from './Icons/Hamburger'
 import KidIcon from "./Icons/KidIcon.png"
 import Phone from './Icons/Phone'
+import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
+import Google from './Icons/SocialMedia/Google'
 
 // Örnek sosyal medya ikonları (public/Icons/...) varsayıyoruz
 // TripAdvisor => tripadvisor.png
@@ -190,25 +192,20 @@ export default function Header() {
           {/* SOSYAL İKONLAR (TripAdvisor, Google, Facebook, YouTube, Instagram) */}
           <div className="flex items-center justify-center gap-4 mt-6">
             {/* Her ikon link halinde; src => kendi ikon dosyan */}
-            <Link href="https://www.tripadvisor.com/" target="_blank">
-              <Image
+            <Link href="https://www.tripadvisor.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex' >
+            <TripAdvisor className="flex" width={34} height={34}/>
+              {/* <Image
                 src="/Icons/tripadvisor.png"
                 alt="TripAdvisor"
                 width={50}
                 height={50}
                 className="object-contain"
-              />
+              /> */}
             </Link>
-            <Link href="https://www.google.com/" target="_blank">
-              <Image
-                src="/Icons/google.png"
-                alt="Google"
-                width={50}
-                height={50}
-                className="object-contain"
-              />
+            <Link href="https://www.google.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
+              <Google className="flex" width={70} height={70}/>
             </Link>
-            <Link href="https://www.facebook.com/" target="_blank">
+            <Link href="https://www.facebook.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom' items-center justify-center flex>
               <Image
                 src="/Icons/facebook.png"
                 alt="Facebook"
@@ -217,7 +214,7 @@ export default function Header() {
                 className="object-contain"
               />
             </Link>
-            <Link href="https://www.youtube.com/" target="_blank">
+            <Link href="https://www.youtube.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
               <Image
                 src="/Icons/youtube.png"
                 alt="YouTube"
@@ -226,7 +223,7 @@ export default function Header() {
                 className="object-contain"
               />
             </Link>
-            <Link href="https://www.instagram.com/" target="_blank">
+            <Link href="https://www.instagram.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
               <Image
                 src="/Icons/instagram.png"
                 alt="Instagram"

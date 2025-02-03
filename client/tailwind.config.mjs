@@ -11,6 +11,14 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        jost: ['Jost', 'sans-serif'],
+        marcellus:['Marcellus','sans-serif'],
+      },
+
+       boxShadow: {
+        custom: '0px 2px 13px 0px rgba(0, 0, 0, 0.10)',  
+      },
     },
   },
   plugins: [],
