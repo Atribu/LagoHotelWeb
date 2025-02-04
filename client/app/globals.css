@@ -104,4 +104,10 @@ body {
 
 .custom-scroll {
   overflow: hidden; /* Kaydırma çubuğunu gizler */
+
+.menu-panel, /* ya da className */
+.reservation-bar {
+  background-color: rgba(29, 29, 27, 0.5);
+  mix-blend-mode: lighten; /* veya screen, overlay, difference vs. */
+
 }
