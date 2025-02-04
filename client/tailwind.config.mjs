@@ -16,8 +16,15 @@ export default {
         marcellus:['Marcellus','sans-serif'],
       },
 
+      colors:{
+        lagoBlack: '#1D1D1B',
+        lagoGray: '#4B4E4F',
+        lagoBrown:'#24292C'
+      },
+
        boxShadow: {
         custom: '0px 2px 13px 0px rgba(0, 0, 0, 0.10)',  
+        buttonCustom: '0px 0px 50px 0px rgba(20, 12, 41, 0.07)',  
       },
     },
   },

@@ -84,6 +84,20 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Marcellus';
+  src: url('/fonts/Marcellus-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .social-shadow {
   box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
