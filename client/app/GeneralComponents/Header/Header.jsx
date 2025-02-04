@@ -9,13 +9,7 @@ import KidIcon from "./Icons/KidIcon.png"
 import Phone from './Icons/Phone'
 import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
-
-// Örnek sosyal medya ikonları (public/Icons/...) varsayıyoruz
-// TripAdvisor => tripadvisor.png
-// Google => google.png
-// Facebook => facebook.png
-// YouTube => youtube.png
-// Instagram => instagram.png
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,19 +20,18 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full z-10">
         <div
           className="
-            relative 
-            h-[144px] 
-            px-4 
-            flex 
-            items-center 
-            bg-gradient-to-b 
-            from-black/70 
+            relative
+            h-[144px]
+            px-4
+            flex
+            items-center
+            bg-gradient-to-b
+            from-black/70
             to-transparent
           "
         >
           <div className="absolute inset-0 pointer-events-none" />
 
-          {/* Hamburger butonu (sadece menü kapalıyken görünür) */}
           {!isMenuOpen && (
             <button className="flex z-20 ml-5" onClick={toggleMenu}>
               <Hamburger width={40} height={40} color="white" className="object-contain" />
@@ -56,20 +49,20 @@ export default function Header() {
             />
           </div>
 
-          {/* Sağdaki Contact ve Book Now */}
+          {/* Sağ Contact & Book Now */}
           <div className="ml-auto flex items-center space-x-4 mr-5 z-20">
             <Link 
               href="/contact"
               className="
-                text-white 
-                text-[16px] 
-                font-medium 
-                leading-normal 
-                uppercase 
-                hover:underline 
-                underline-offset-4 
-                decoration-solid 
-                px-[30px] 
+                text-white
+                text-[16px]
+                font-medium
+                leading-normal
+                uppercase
+                hover:underline
+                underline-offset-4
+                decoration-solid
+                px-[30px]
                 py-[15px]
               "
             >
@@ -77,13 +70,13 @@ export default function Header() {
             </Link>
             <button
               className="
-                px-[30px] 
-                py-[15px] 
-                text-white 
-                text-[16px] 
-                font-medium 
+                px-[30px]
+                py-[15px]
+                text-white
+                text-[16px]
+                font-medium
                 leading-normal
-                uppercase 
+                uppercase
                 bg-transparent
                 border
                 border-white
@@ -104,19 +97,19 @@ export default function Header() {
         />
       )}
 
-      {/* Sol menü paneli (responsive genişlik) */}
+      {/* Menü paneli => lighten blend mode */}
       <div
         className={`
-          fixed top-0 left-0 
-          w-3/4 sm:w-1/3 md:w-1/4 
-          h-full 
-          bg-black bg-opacity-50 
-          z-50 
+          fixed top-0 left-0
+          w-3/4 sm:w-1/3 md:w-1/4
+          h-full
+          bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
+          z-50
           transform transition-transform duration-300
           ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
         `}
       >
-        {/* Menü kapatma butonu (X) */}
+        {/* Menü kapatma butonu */}
         <button
           onClick={toggleMenu}
           className="absolute top-4 right-4 text-white text-3xl font-bold p-2 hover:text-gray-200"
@@ -164,9 +157,8 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* TELEFON + BUTON ALANI (NAV DIŞINDA) */}
+        {/* TELEFON + BUTON ALANI */}
         <div className="ml-2 px-4 w-full max-w-[392px] mt-[100px] flex flex-col items-center">
-          {/* Telefon satırı */}
           <div className="flex items-center justify-center gap-5 text-white">
             <Phone className="flex" width={18} height={18} />
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
@@ -189,48 +181,42 @@ export default function Header() {
             LET US CALL YOU
           </button>
 
-          {/* SOSYAL İKONLAR (TripAdvisor, Google, Facebook, YouTube, Instagram) */}
+          {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-6">
-            {/* Her ikon link halinde; src => kendi ikon dosyan */}
-            <Link href="https://www.tripadvisor.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex' >
-            <TripAdvisor className="flex" width={34} height={34}/>
-              {/* <Image
-                src="/Icons/tripadvisor.png"
-                alt="TripAdvisor"
-                width={50}
-                height={50}
-                className="object-contain"
-              /> */}
+            <Link
+              href="https://www.tripadvisor.com/"
+              target="_blank"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+            >
+              <TripAdvisor className="flex" width={34} height={34} />
             </Link>
-            <Link href="https://www.google.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
-              <Google className="flex" width={70} height={70}/>
+            <Link
+              href="https://www.google.com/"
+              target="_blank"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+            >
+              <Google className="flex" width={70} height={70} />
             </Link>
-            <Link href="https://www.facebook.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom' items-center justify-center flex>
-              <Image
-                src="/Icons/facebook.png"
-                alt="Facebook"
-                width={50}
-                height={50}
-                className="object-contain"
-              />
+            <Link
+              href="https://www.facebook.com/"
+              target="_blank"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+            >
+              <FaFacebookF className="w-6 h-6" />
             </Link>
-            <Link href="https://www.youtube.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
-              <Image
-                src="/Icons/youtube.png"
-                alt="YouTube"
-                width={50}
-                height={50}
-                className="object-contain"
-              />
+            <Link
+              href="https://www.youtube.com/"
+              target="_blank"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+            >
+              <FaYoutube className="w-6 h-6" />
             </Link>
-            <Link href="https://www.instagram.com/" target="_blank" className='bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom items-center justify-center flex'>
-              <Image
-                src="/Icons/instagram.png"
-                alt="Instagram"
-                width={50}
-                height={50}
-                className="object-contain"
-              />
+            <Link
+              href="https://www.instagram.com/"
+              target="_blank"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+            >
+              <FaInstagram className="w-6 h-6" />
             </Link>
           </div>
         </div>
