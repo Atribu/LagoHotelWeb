@@ -1,98 +1,148 @@
 "use client"
-import ArrawDown from "@/app/GeneralComponents/Header/Icons/ArrawDown";
-import React, { useState, useEffect } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 
-const Reservation = () => {
-  const [checkInDate, setCheckInDate] = useState(null);
-  const [checkOutDate, setCheckOutDate] = useState(null);
-  const [showGuests, setShowGuests] = useState(false);
-  const [adults, setAdults] = useState(0);
-  const [children, setChildren] = useState(0);
-  const [guestInfo, setGuestInfo] = useState({});
+import ArrawDown from "@/app/HomePage/Components/Icons/ArrawDown"
+import React, { useState, useEffect } from "react"
+import DatePicker from "react-datepicker"
+import "react-datepicker/dist/react-datepicker.css"
 
-  useEffect(() => {
-    setGuestInfo({
-      checkInDate,
-      checkOutDate,
-      adults,
-      children,
-    });
-  }, [checkInDate, checkOutDate, adults, children]);
+export default function Reservation() {
+  const [checkInDate, setCheckInDate] = useState(null)
+  const [checkOutDate, setCheckOutDate] = useState(null)
+  const [showGuests, setShowGuests] = useState(false)
+  const [adults, setAdults] = useState(0)
+  const [children, setChildren] = useState(0)
+  const [guestInfo, setGuestInfo] = useState({})
 
   useEffect(() => {
-    console.log("Guest Information:", guestInfo);
-  }, [guestInfo]);
+    setGuestInfo({ checkInDate, checkOutDate, adults, children })
+  }, [checkInDate, checkOutDate, adults, children])
 
-  const toggleGuestsDropdown = () => {
-    setShowGuests((prev) => !prev);
-  };
+  useEffect(() => {
+    console.log("Guest Information:", guestInfo)
+  }, [guestInfo])
 
-  const incrementAdults = () => setAdults(adults + 1);
-  const decrementAdults = () => adults > 0 && setAdults(adults - 1);
+  const toggleGuestsDropdown = () => setShowGuests((prev) => !prev)
 
-  const incrementChildren = () => setChildren(children + 1);
-  const decrementChildren = () => children > 0 && setChildren(children - 1);
+  const incrementAdults = () => setAdults(adults + 1)
+  const decrementAdults = () => adults > 0 && setAdults(adults - 1)
+
+  const incrementChildren = () => setChildren(children + 1)
+  const decrementChildren = () => children > 0 && setChildren(children - 1)
 
   return (
     <section
-      className="flex w-screen h-[100px] items-center justify-center bg-[#1D1D1B]"
+      /* 
+        1) absolute, top-0 + z-20 => videonun ve diğer öğelerin üstünde yer alabilir
+        2) bg-[#1D1D1B] + bg-opacity-50 => header ile aynı renk ve opacity
+        3) istediğin kadar top değeri verebilirsin (ör. top-[100px]) 
+      */
+      className="
+        absolute 
+        top-[861px]  /* header yüksekliğine göre ayarla */ 
+        left-0 
+        w-screen 
+        h-[100px] 
+        z-20
+        flex 
+        items-center 
+        justify-center
+        bg-[#1D1D1B] 
+        bg-opacity-50
+      "
       aria-labelledby="reservation-heading"
     >
-      {/* <h2 id="reservation-heading" className="sr-only">
-        Reservation Form
-      </h2> */}
+      {/* Ekran okuyucu kullanıcılar için (opsiyonel) */}
+      {/* <h2 id="reservation-heading" className="sr-only">Reservation Form</h2> */}
 
       <form
-        className="lg:flex lg:flex-row grid grid-cols-2 w-[90%] lg:w-[80%] 
-                   items-center justify-center text-[#ffff] font-monserrat 
-                   font-light text-[15px] lg:text-[20px] leading-normal 
-                   text-center my-[100px]"
+        className="
+          lg:flex 
+          lg:flex-row 
+          grid 
+          grid-cols-2 
+          w-[90%] 
+          lg:w-[80%]
+          items-center 
+          justify-center 
+          text-[#ffff] 
+          font-monserrat 
+          font-light 
+          text-[15px] 
+          lg:text-[20px] 
+          leading-normal 
+          text-center
+          /* my-[100px] kaldırıldı; artık absolute konumdasınız */
+        "
       >
         <div>
-          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px]">Book your perfect stay</p>
+          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px]">
+            Book your perfect stay
+          </p>
         </div>
-        <div className="w-[1px] h-[11px] bg-white flex"></div>
 
+        {/* İnce çizgi */}
+        <div className="w-[1px] h-[11px] bg-white" />
+
+        {/* CHECK-IN */}
         <div className="relative flex items-center justify-center w-full lg:w-auto">
-          <label htmlFor="checkInDate" className="sr-only text-white" >
-            Check In <ArrawDown className="flex" width={12} height={12}/>
+          <label htmlFor="checkInDate" className="sr-only text-white">
+            Check In
           </label>
           <DatePicker
             id="checkInDate"
             selected={checkInDate}
             onChange={(date) => setCheckInDate(date)}
             placeholderText="Check In"
-            className="cursor-pointer lg:px-[3vw] py-[1.2vh] min-h-[30px] w-[45vw] lg:w-auto
-                       flex text-customGray focus:outline-none  bg-transparent 
-                       items-center justify-center text-center placeholder:text-customGray"
+            className="
+              cursor-pointer 
+              lg:px-[3vw] 
+              py-[1.2vh] 
+              min-h-[30px] 
+              w-[45vw] 
+              lg:w-auto 
+              text-customGray 
+              focus:outline-none 
+              bg-transparent 
+              text-center 
+              placeholder:text-customGray
+            "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
-            dayClassName={(date) =>
-              "custom-day hover:bg-blue-100 focus:outline-none"
-            }
+            dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}
           />
+          <ArrawDown className="absolute right-3" width={12} height={12} />
         </div>
+
+        {/* CHECK-OUT */}
         <div className="relative flex items-center justify-center w-full lg:w-auto">
           <label htmlFor="checkOutDate" className="sr-only">
-            Check Out <ArrawDown className="flex" width={12} height={12}/>
+            Check Out
           </label>
           <DatePicker
             id="checkOutDate"
             selected={checkOutDate}
             onChange={(date) => setCheckOutDate(date)}
             placeholderText="Check Out"
-            className="cursor-pointer px-[3vw] py-[1.2vh] w-[45vw] lg:w-auto flex
-                       text-customGray focus:outline-none bg-transparent 
-                       items-center justify-center placeholder:text-customGray text-center"
+            className="
+              cursor-pointer 
+              px-[3vw] 
+              py-[1.2vh] 
+              w-[45vw] 
+              lg:w-auto 
+              text-customGray 
+              focus:outline-none 
+              bg-transparent 
+              text-center 
+              placeholder:text-customGray
+            "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
-            dayClassName={(date) =>
-              "custom-day hover:bg-blue-100 focus:outline-none"
-            }
+            dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}
           />
+          <ArrawDown className="absolute right-3" width={12} height={12} />
         </div>
+
+        {/* GUESTS */}
         <div className="relative">
           <label htmlFor="guests-button" className="sr-only">
             Select number of guests
@@ -100,8 +150,17 @@ const Reservation = () => {
           <button
             id="guests-button"
             onClick={toggleGuestsDropdown}
-            className="cursor-pointer px-[3vw] py-[1.2vh] w-full text-customGray 
-                       focus:outline-none relative   text-center"
+            className="
+              cursor-pointer
+              px-[3vw] 
+              py-[1.2vh] 
+              w-full 
+              text-customGray
+              bg-transparent
+              focus:outline-none
+              text-center
+              relative
+            "
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button"
@@ -111,13 +170,29 @@ const Reservation = () => {
 
           {showGuests && (
             <div
-              className="absolute top-full left-0 mt-2 bg-transparent border border-gray-300 
-                         text-[#ffff] text-[14px] font-semibold rounded-lg shadow-lg 
-                         w-full min-w-[180px] p-3 xl:p-4"
+              className="
+                absolute 
+                top-full 
+                left-0 
+                mt-2 
+                bg-transparent 
+                border 
+                border-gray-300 
+                text-[#ffff] 
+                text-[14px] 
+                font-semibold 
+                rounded-lg 
+                shadow-lg 
+                w-full 
+                min-w-[180px] 
+                p-3 
+                xl:p-4
+              "
               role="dialog"
               aria-modal="false"
               aria-label="Select number of adults and children"
             >
+              {/* Adults */}
               <div className="flex justify-between items-center mb-3">
                 <label
                   htmlFor="adultCounter"
@@ -126,14 +201,23 @@ const Reservation = () => {
                 >
                   Adult(s)
                 </label>
-                <div
-                  className="flex items-center gap-1 lg:gap-2"
-                  id="adultCounter"
-                >
+                <div className="flex items-center gap-1 lg:gap-2" id="adultCounter">
                   <button
                     onClick={decrementAdults}
-                    className="cursor-pointer w-5 h-5 xl:w-6 xl:h-6 border border-gray-400 
-                               rounded-full flex items-center justify-center font-medium"
+                    className="
+                      cursor-pointer 
+                      w-5 
+                      h-5 
+                      xl:w-6 
+                      xl:h-6 
+                      border 
+                      border-gray-400 
+                      rounded-full 
+                      flex 
+                      items-center 
+                      justify-center 
+                      font-medium
+                    "
                     aria-labelledby="adultCounterLabel"
                     aria-label="Decrease adults"
                     type="button"
@@ -143,8 +227,20 @@ const Reservation = () => {
                   <span>{adults}</span>
                   <button
                     onClick={incrementAdults}
-                    className="cursor-pointer w-5 h-5 xl:w-6 xl:h-6 border border-gray-400 
-                               rounded-full flex items-center justify-center font-medium"
+                    className="
+                      cursor-pointer 
+                      w-5 
+                      h-5 
+                      xl:w-6 
+                      xl:h-6 
+                      border 
+                      border-gray-400 
+                      rounded-full 
+                      flex 
+                      items-center 
+                      justify-center 
+                      font-medium
+                    "
                     aria-labelledby="adultCounterLabel"
                     aria-label="Increase adults"
                     type="button"
@@ -153,6 +249,8 @@ const Reservation = () => {
                   </button>
                 </div>
               </div>
+
+              {/* Children */}
               <div className="flex justify-between items-center">
                 <label
                   htmlFor="childrenCounter"
@@ -161,14 +259,23 @@ const Reservation = () => {
                 >
                   Child(ren)
                 </label>
-                <div
-                  className="flex items-center gap-1 lg:gap-2"
-                  id="childrenCounter"
-                >
+                <div className="flex items-center gap-1 lg:gap-2" id="childrenCounter">
                   <button
                     onClick={decrementChildren}
-                    className="cursor-pointer w-5 h-5 xl:w-6 xl:h-6 border border-gray-400 
-                               rounded-full flex items-center justify-center font-medium"
+                    className="
+                      cursor-pointer 
+                      w-5 
+                      h-5 
+                      xl:w-6 
+                      xl:h-6 
+                      border 
+                      border-gray-400 
+                      rounded-full 
+                      flex 
+                      items-center 
+                      justify-center 
+                      font-medium
+                    "
                     aria-labelledby="childrenCounterLabel"
                     aria-label="Decrease children"
                     type="button"
@@ -178,8 +285,20 @@ const Reservation = () => {
                   <span>{children}</span>
                   <button
                     onClick={incrementChildren}
-                    className="cursor-pointer w-5 h-5 xl:w-6 xl:h-6 border border-gray-400 
-                               rounded-full flex items-center justify-center font-medium"
+                    className="
+                      cursor-pointer 
+                      w-5 
+                      h-5 
+                      xl:w-6 
+                      xl:h-6 
+                      border 
+                      border-gray-400 
+                      rounded-full 
+                      flex 
+                      items-center 
+                      justify-center 
+                      font-medium
+                    "
                     aria-labelledby="childrenCounterLabel"
                     aria-label="Increase children"
                     type="button"
@@ -191,18 +310,27 @@ const Reservation = () => {
             </div>
           )}
         </div>
+
         <button
           onClick={() => console.log("Final Guest Information:", guestInfo)}
-          className="cursor-pointer border-[0.7px] border-[#00000033] px-[3vw] py-[1.2vh] 
-                     font-bold text-white bg-[#233038] lg:max-w-[304px] max-h-[60px] 
-                     whitespace-nowrap"
+          className="
+            cursor-pointer 
+            border-[0.7px] 
+            border-[#00000033] 
+            px-[3vw] 
+            py-[1.2vh] 
+            font-bold
+            border-white
+            text-white
+            lg:max-w-[304px] 
+            max-h-[60px] 
+            whitespace-nowrap
+          "
           type="button"
         >
           Search
         </button>
       </form>
     </section>
-  );
-};
-
-export default Reservation;
+  )
+}
