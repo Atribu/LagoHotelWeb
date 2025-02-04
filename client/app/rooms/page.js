@@ -4,6 +4,7 @@ import RoomsInfoSection from './components/RoomsInfoSection'
 import RoomsSection from './components/RoomsSection'
 import RoomsSectionReverse from './components/RoomsSectionReverse'
 import RoomsParallaxSection from './components/RoomsParallaxSection'
+import ContactSection from '../GeneralComponents/ContactSection'
 
 const page = () => {
   return (
@@ -13,8 +14,10 @@ const page = () => {
       <RoomsSection/>
       <RoomsSectionReverse/>
       <RoomsParallaxSection/>
+      <ContactSection/>
       <RoomsSection/>
       <RoomsSectionReverse/>
+      
     </div>
   )
 }
