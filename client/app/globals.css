@@ -117,6 +117,7 @@ body {
 
 }
 
+
 .gallery{
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -137,3 +138,8 @@ body {
   -webkit-transition:all 350ms ease;
   margin-bottom: 12px;
 }
+
+}
+
+
+
