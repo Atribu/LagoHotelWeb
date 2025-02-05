@@ -38,10 +38,10 @@ export default function Reservation() {
       */
       className="
         absolute 
-        top-[861px]  /* header yüksekliğine göre ayarla */ 
+        bottom-0  
         left-0 
         w-screen 
-        h-[100px] 
+        h-auto 
         z-20
         flex 
         items-center 
@@ -63,6 +63,8 @@ export default function Reservation() {
           w-[90%] 
           lg:w-[80%]
           items-center 
+          h-auto
+          max-h-content
           justify-center 
           text-[#ffff] 
           font-monserrat 
@@ -71,7 +73,7 @@ export default function Reservation() {
           lg:text-[20px] 
           leading-normal 
           text-center
-          /* my-[100px] kaldırıldı; artık absolute konumdasınız */
+         
         "
       >
         <div>
@@ -95,16 +97,21 @@ export default function Reservation() {
             placeholderText="Check In"
             className="
               cursor-pointer 
-              lg:px-[3vw] 
-              py-[1.2vh] 
-              min-h-[30px] 
+              lg:px-[2vw] 
+              py-[30px] 
+              
               w-[45vw] 
               lg:w-auto 
               text-customGray 
               focus:outline-none 
               bg-transparent 
               text-center 
-              placeholder:text-customGray
+               placeholder:text-white
+              placeholder:uppercase
+              placeholder:text-[16px]
+              placeholder:leading-[24px]
+              placeholder:font-medium
+              placeholder:font-jost
             "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
@@ -125,15 +132,20 @@ export default function Reservation() {
             placeholderText="Check Out"
             className="
               cursor-pointer 
-              px-[3vw] 
-              py-[1.2vh] 
+              px-[2vw] 
+              py-[30px] 
               w-[45vw] 
               lg:w-auto 
               text-customGray 
               focus:outline-none 
               bg-transparent 
               text-center 
-              placeholder:text-customGray
+              placeholder:text-white
+              placeholder:uppercase
+              placeholder:text-[16px]
+              placeholder:leading-[24px]
+              placeholder:font-medium
+              placeholder:font-jost
             "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
@@ -153,13 +165,19 @@ export default function Reservation() {
             className="
               cursor-pointer
               px-[3vw] 
-              py-[1.2vh] 
+              py-[30px] 
               w-full 
               text-customGray
               bg-transparent
               focus:outline-none
               text-center
               relative
+               placeholder:text-white
+              uppercase
+             text-[16px]
+              leading-[24px]
+              font-medium
+              font-jost
             "
             aria-haspopup="dialog"
             aria-expanded={showGuests}
@@ -315,16 +333,21 @@ export default function Reservation() {
           onClick={() => console.log("Final Guest Information:", guestInfo)}
           className="
             cursor-pointer 
-            border-[0.7px] 
-            border-[#00000033] 
-            px-[3vw] 
-            py-[1.2vh] 
-            font-bold
+            border 
+            px-[47px] 
+            py-[12px] 
             border-white
             text-white
             lg:max-w-[304px] 
-            max-h-[60px] 
             whitespace-nowrap
+            text-[16px]
+            font-medium
+            uppercase
+            font-jost
+            text-center 
+            justify-center
+            items-center
+            bg-transparent
           "
           type="button"
         >

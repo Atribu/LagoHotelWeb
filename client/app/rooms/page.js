@@ -4,7 +4,7 @@ import RoomsInfoSection from './components/RoomsInfoSection'
 import RoomsSection from './components/RoomsSection'
 import RoomsSectionReverse from './components/RoomsSectionReverse'
 import RoomsParallaxSection from './components/RoomsParallaxSection'
-import ContactSection from '../GeneralComponents/ContactSection'
+import ContactSection from '../GeneralComponents/Contact/ContactSection'
 
 const page = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import Reservation from './Reservation'
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         />
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
+      <Reservation/>
     </div>
   )
 }

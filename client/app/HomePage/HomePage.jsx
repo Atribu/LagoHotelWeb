@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div>
         <HomePage1 />
-        <Reservation/>
+        
         <HomePage2 />
     </div>
   )

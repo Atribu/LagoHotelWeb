@@ -104,10 +104,35 @@ body {
 
 .custom-scroll {
   overflow: hidden; /* Kaydırma çubuğunu gizler */
+}
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
 
 .menu-panel, /* ya da className */
 .reservation-bar {
   background-color: rgba(29, 29, 27, 0.5);
   mix-blend-mode: lighten; /* veya screen, overlay, difference vs. */
 
+}
+
+.gallery{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+  transition: all 350ms ease;
+  cursor: pointer;
+  -webkit-transition:all 350ms ease;
+  margin-bottom: 12px;
+}
+
+.pics{
+  transition: all 350ms ease;
+  cursor: pointer;
+  -webkit-transition:all 350ms ease;
+  margin-bottom: 12px;
 }
