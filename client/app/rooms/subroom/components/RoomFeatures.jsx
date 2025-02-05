@@ -4,27 +4,38 @@ import BabycribSvg from "./BabycribSvg";
 import SinglebedSvg from "./SinglebedSvg";
 import PoolSvg2 from "./PoolSvg2";
 import AreaSvg from "../../components/svg/AreaSvg";
+import DarkPhoneSvg from "./DarkPhoneSvg";
+import DresserSvg from "./DresserSvg";
+import SmokingSvg from "./SmokingSvg";
+import FridgeSvg from "./FridgeSvg";
+import SafeboxSvg from "./SafeboxSvg";
+import HairdryerSvg from "./HairdryerSvg";
+import ShowerSvg from "./ShowerSvg";
+import HandsoapSvg from "./HandsoapSvg";
+import TeaCoffeeSvg from "./TeaCoffeeSvg";
+import LedTvSvg from "./LedTvSvg";
+import BalconySvg from "./BalconySvg";
 
 const items = [
   { text: "Private Pool", icon: PoolSvg2 },
   { text: "48 m2", icon: AreaSvg },
-  { text: "Makeup Table", icon: PoolSvg2 },
-  { text: "No Smoke", icon: PoolSvg2 },
-  { text: "Mini Bar", icon: PoolSvg2 },
-  { text: "Safe Box", icon: PoolSvg2 },
-  { text: "Hair Dryer", icon: PoolSvg2 },
-  { text: "Bath Essentials", icon: PoolSvg2 },
-  { text: "Tea & Coffee Setup", icon: PoolSvg2 },
-  { text: "LedTv & Wifi", icon: PoolSvg2 },
-  { text: "Balcony", icon: PoolSvg2 },
-  { text: "Shower", icon: PoolSvg2 },
+  { text: "Makeup Table", icon: DresserSvg },
+  { text: "No Smoke", icon: SmokingSvg },
+  { text: "Mini Bar", icon: FridgeSvg },
+  { text: "Safe Box", icon: SafeboxSvg },
+  { text: "Hair Dryer", icon: HairdryerSvg },
+  { text: "Bath Essentials", icon: HandsoapSvg },
+  { text: "Tea & Coffee Setup", icon: TeaCoffeeSvg },
+  { text: "LedTv & Wifi", icon: LedTvSvg },
+  { text: "Balcony", icon: BalconySvg },
+  { text: "Shower", icon: ShowerSvg },
 ];
 
 const RoomFeatures = () => {
   return (
     <div className="flex w-screen h-auto my-[93px] items-center justify-center bg-[#fbfbfb]">
-      <div className="flex w-[77%] items-center justify-center gap-[61px]">
-        <div className="flex flex-col gap-[35px] w-[63.4%] items-start justify-start font-jost">
+      <div className="flex w-[77%] items-start justify-center gap-[61px]">
+        <div className="flex flex-col gap-[35px] w-[60%] items-start justify-start font-jost">
           <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[17px]">
             <span className="text-lagoGray text-[12px] leading-[14px] font-medium tracking-[0.48px] uppercase">
               FUN FOR ALL ages
@@ -112,13 +123,22 @@ const RoomFeatures = () => {
         </div>
 
         {/* resevation */}
-        <div className="flex flex-col max-[347px] w-[32%] py-[40px] px-[36px] items-center justify-center text-center gap-[20px] bg-white shadow-divCustom">
+        <div className="flex flex-col w-[39%] max-w-[347px] gap-[35px]">
+        <div className="flex flex-col  w-full py-[40px] px-[36px] items-center justify-center text-center gap-[20px] bg-white shadow-divCustom">
             <h3 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
             <p className="text-[18px] text-lagoBrown leading-[140%] font-normal mb-[5px]">Pick up the dates for your stay</p>
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
             <button className="flex p-5 items-center justify-center text-center bg-lagoBlack border border-lagoBlack w-[175px] shadow-buttonCustom text-[18px] uppercase font-semibold font-jost leading-[120%] -tracking-[0.36px] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+        </div>
+        <div className="flex flex-col  items-center justify-center w-full gap-[17px] bg-white py-[15px]">
+          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px]">Contact us now</h4>
+          <div className="flex gap-[11px] items-center justify-center w-full">
+            <DarkPhoneSvg className="flex" width={20} height={20} />
+          <p className="text-[16px] text-lagoBlack font-mediumfont-jost leading-[120%] -tracking-[0.32px]">+90 123 456 78 90</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
