@@ -1,8 +1,9 @@
 import React from 'react'
+import Reservation from './Reservation'
 
 export default function HomePage() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
+    <div className="relative w-screen min-h-[calc(100vh+73px)] overflow-hidden">
       <video
         autoPlay
         loop
@@ -16,6 +17,7 @@ export default function HomePage() {
         />
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
+      <Reservation/>
     </div>
   )
 }

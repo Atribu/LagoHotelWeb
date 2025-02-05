@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div>
         <HomePage1 />
-        <Reservation/>
+        
         <HomePage2 />
         <HomePage3 />
         <HomePage4 />

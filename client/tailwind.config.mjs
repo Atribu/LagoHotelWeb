@@ -25,6 +25,7 @@ export default {
        boxShadow: {
         custom: '0px 2px 13px 0px rgba(0, 0, 0, 0.10)',  
         buttonCustom: '0px 0px 50px 0px rgba(20, 12, 41, 0.07)',  
+        divCustom:'2px 5px 100px 6px rgba(20, 12, 41, 0.05)'
       },
     },
   },

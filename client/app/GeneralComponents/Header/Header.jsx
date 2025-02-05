@@ -93,16 +93,16 @@ export default function Header() {
       {isMenuOpen && (
         <div
           onClick={toggleMenu}
-          className="fixed inset-0 z-40"
+          className="relative inset-0 z-40 "
         />
       )}
 
       {/* Menü paneli => lighten blend mode */}
       <div
         className={`
-          fixed top-0 left-0
-          w-3/4 sm:w-1/3 md:w-1/4
-          h-full
+          absolute top-0 left-0
+          w-[420px]
+          h-[calc(100vh-16.6px)]
           bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
           z-50
           transform transition-transform duration-300
@@ -118,26 +118,26 @@ export default function Header() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-28 ml-7 px-4 w-full max-w-[392px] space-y-[22px]">
-          <Link href="/offers" className="block text-white text-[20px] font-normal leading-normal">
+        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-white font-jost uppercase">
+          <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
           </Link>
-          <Link href="/accomodation" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/rooms" className="block  font-normal leading-[26.667px]">
             ACCOMODATION
           </Link>
-          <Link href="/beachpool" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/beachpool" className="block  font-normal leading-[26.667px]">
             BEACH & POOL
           </Link>
-          <Link href="/restaurants" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/restaurants" className="block font-normal leading-[26.667px]">
             RESTAURANTS
           </Link>
-          <Link href="/bars" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/bars" className="block font-normal leading-[26.667px]">
             BARS AND CAFÉS
           </Link>
-          <Link href="/experiences" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/experiences" className="block font-normal leading-[26.667px]">
             EXPERIENCES
           </Link>
-          <Link href="/kidsclub" className="block text-white text-[20px] font-normal leading-normal flex items-center gap-2">
+          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex">
             KIDS CLUB
             <Image 
               src={KidIcon}
@@ -158,31 +158,35 @@ export default function Header() {
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
-        <div className="ml-2 px-4 w-full max-w-[392px] mt-[100px] flex flex-col items-center">
-          <div className="flex items-center justify-center gap-5 text-white">
+        <div className="ml-2 px-4 w-full max-w-[392px]  mt-[38%] flex flex-col items-center font-jost">
+          <div className="flex items-center justify-center gap-[15px] text-white">
             <Phone className="flex" width={18} height={18} />
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
           </div>
 
           <button
             className="
-              mt-4
+             flex justify-center
+             items-center
+              mt-[20px]
               w-[253px]
               h-[42px]
-              bg-black
+              bg-[#181818]
               text-white
               uppercase
-              py-3
               text-center
-              font-medium
+              font-semibold
               hover:bg-gray-800
+              leading-[24px]
+              py-[15px]
+              px-[19px]
             "
           >
             LET US CALL YOU
           </button>
 
           {/* Sosyal İkonlar */}
-          <div className="flex items-center justify-center gap-4 mt-6">
+          <div className="flex items-center justify-center gap-4 mt-[18.79px]">
             <Link
               href="https://www.tripadvisor.com/"
               target="_blank"
