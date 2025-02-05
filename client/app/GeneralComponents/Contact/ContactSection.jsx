@@ -66,10 +66,10 @@ const ContactSection = () => {
 
         <div className='flex w-[60%] h-[95%] '>
           <div className='flex flex-col w-full overflow-auto hover:overflow-scroll custom-scroll h-auto'>
-          <div class="columns-3 gap-3 px-3 mb-3 transition-all duration-[350ms] ease-in-out cursor-pointer ">
+          <div className="columns-3 gap-3 px-3 mb-3 transition-all duration-[350ms] ease-in-out cursor-pointer ">
                 {images.map((item,index)=>{
                     return(
-                      <div class="mb-3 transition-all duration-[350ms] ease-in-out cursor-pointer" key={index}>
+                      <div className="mb-3 transition-all duration-[350ms] ease-in-out cursor-pointer" key={index}>
                         <Image src={item.imgSrc} alt="contact" className='w-[100%] '/>
                     </div>
                     )

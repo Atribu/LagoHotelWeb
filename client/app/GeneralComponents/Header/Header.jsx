@@ -93,16 +93,16 @@ export default function Header() {
       {isMenuOpen && (
         <div
           onClick={toggleMenu}
-          className="fixed inset-0 z-40 "
+          className="relative inset-0 z-40 "
         />
       )}
 
       {/* Menü paneli => lighten blend mode */}
       <div
         className={`
-          fixed top-0 left-0
-          w-3/4 sm:w-1/3 md:w-1/4
-          h-[89.8%]
+          absolute top-0 left-0
+          w-[420px]
+          h-[calc(100vh-16.6px)]
           bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
           z-50
           transform transition-transform duration-300
@@ -158,7 +158,7 @@ export default function Header() {
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
-        <div className="ml-2 px-4 w-full max-w-[392px] mt-[15%] flex flex-col items-center font-jost">
+        <div className="ml-2 px-4 w-full max-w-[392px]  mt-[38%] flex flex-col items-center font-jost">
           <div className="flex items-center justify-center gap-[15px] text-white">
             <Phone className="flex" width={18} height={18} />
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
@@ -186,11 +186,11 @@ export default function Header() {
           </button>
 
           {/* Sosyal İkonlar */}
-          <div className="grid grid-cols-3 xl:flex items-center justify-center gap-4 mt-[18.79px]">
+          <div className="flex items-center justify-center gap-4 mt-[18.79px]">
             <Link
               href="https://www.tripadvisor.com/"
               target="_blank"
-              className="bg-white h-[35px] w-[35px] xl:h-[42.412px] xl:w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
+              className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <TripAdvisor className="flex" width={34} height={34} />
             </Link>

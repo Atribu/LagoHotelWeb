@@ -40,6 +40,7 @@ export default function Reservation() {
         absolute 
         bottom-0  
         left-0 
+        right-0
         w-screen 
         h-auto 
         z-20
@@ -61,7 +62,7 @@ export default function Reservation() {
           grid 
           grid-cols-2 
           w-[90%] 
-          lg:w-[80%]
+          lg:w-screen
           items-center 
           h-auto
           max-h-content
@@ -83,7 +84,7 @@ export default function Reservation() {
         </div>
 
         {/* İnce çizgi */}
-        <div className="w-[1px] h-[11px] bg-white" />
+        <div className="w-[1px] h-[11px] bg-white ml-6" />
 
         {/* CHECK-IN */}
         <div className="relative flex items-center justify-center w-full lg:w-auto">
