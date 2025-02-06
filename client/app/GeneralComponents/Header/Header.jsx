@@ -1,6 +1,7 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
+import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from './Icons/Logo.png'
@@ -13,7 +14,31 @@ import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const menuRef = useRef(null);
+  const pathname = usePathname(); // Şu anki sayfanın yolunu al
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
+    // **Sayfanın herhangi bir yerine tıklayınca kapansın**
+    useEffect(() => {
+      function handleClickOutside(event) {
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+          setIsMenuOpen(false);
+        }
+      }
+  
+      if (isMenuOpen) {
+        document.addEventListener("mousedown", handleClickOutside);
+      }
+  
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [isMenuOpen]);
+
+    useEffect(() => {
+      setIsMenuOpen(false);
+    }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
   return (
     <>
@@ -99,6 +124,7 @@ export default function Header() {
 
       {/* Menü paneli => lighten blend mode */}
       <div
+        ref={menuRef} // **Referans atadık**
         className={`
           absolute top-0 left-0
           w-[420px]
