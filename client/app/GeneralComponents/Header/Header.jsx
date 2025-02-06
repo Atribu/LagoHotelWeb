@@ -42,23 +42,23 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full z-10">
+      <header className="fixed top-0 left-0 w-screen z-10 items-center justify-center">
         <div
           className="
             relative
             h-[144px]
-            px-4
             flex
             items-center
             bg-gradient-to-b
             from-black/70
             to-transparent
+            w-full
           "
         >
-          <div className="absolute inset-0 pointer-events-none" />
+          <div className="absolute inset-0 pointer-events-none w-full" />
 
           {!isMenuOpen && (
-            <button className="flex z-20 ml-5" onClick={toggleMenu}>
+            <button className="flex z-20 ml-10" onClick={toggleMenu}>
               <Hamburger width={40} height={40} color="white" className="object-contain" />
             </button>
           )}
@@ -75,7 +75,7 @@ export default function Header() {
           </div>
 
           {/* Sağ Contact & Book Now */}
-          <div className="ml-auto flex items-center space-x-4 mr-5 z-20">
+          <div className="ml-auto flex items-center space-x-4 mr-12 z-20">
             <Link 
               href="/contact"
               className="

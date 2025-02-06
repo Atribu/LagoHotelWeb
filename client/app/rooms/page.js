@@ -8,7 +8,7 @@ import ContactSection from '../GeneralComponents/Contact/ContactSection'
 
 const page = () => {
   return (
-    <div className='flex flex-col bg-white w-screen'>
+    <div className='overflow-hidden'>
       <RoomsBanner/>
       <RoomsInfoSection/>
       <RoomsSection/>

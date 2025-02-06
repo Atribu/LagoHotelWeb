@@ -3,6 +3,10 @@ import React from 'react'
 import img1 from "./images/contactGaleri.png"
 import img2 from "./images/contactGaleri2.png"
 import imgBackground from "./images/socialgalleryback1.png"
+import LeafSvg from '../Header/Icons/LeafSvg'
+import InstagramSvg from './icons/InstagramSvg'
+import FacebookSvg from './icons/FacebookSvg'
+import YoutubeSvg from './icons/YoutubeSvg'
 
 const ContactSection = () => {
   const images=[
@@ -43,7 +47,8 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className='flex w-screen h-[750px]  items-center justify-start bg-cover bg-bottom' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+    <div className='flex w-screen h-[750px]  items-center justify-start bg-cover bg-bottom relative' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+      <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
       <div className='flex w-[80%] items-center justify-center bg-white h-[88%]'>
 
         <div className='flex w-[39%] font-jost text-black items-start justify-center '>
@@ -56,8 +61,12 @@ const ContactSection = () => {
             Call Center: <span className='underline '>+90 242 524 57 87</span> <br></br>
             Email: <span className='underline '>sales@lagohotel.com</span> <br></br>
             </p>
-            <div className='flex w-full items-center justify-center gap-[20px] '>
-                <div className='flex items-center justify-center gap-[18px]'></div>
+            <div className='flex w-full items-center justify-start gap-[20px] '>
+                <div className='flex items-center justify-center gap-[18px]'>
+                  <InstagramSvg className="flex" width={31} height={31}/>
+                  <FacebookSvg className="flex" width={30} height={30}/>
+                  <YoutubeSvg className="flex" width={31} height={31}/>
+                </div>
                 <div className='flex bg-black h-[20px] w-[1px]'></div>
                 <span className='text-lagoBrown underline text-[16px] font-normal leading-[30px] uppercase'>Stay updated</span>
             </div>
