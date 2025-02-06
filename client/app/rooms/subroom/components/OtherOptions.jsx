@@ -6,6 +6,7 @@ import options2 from "../images/option2.webp"
 import options3 from "../images/option3.webp"
 import user from "../images/user1.png"
 import Image from 'next/image'
+import Link from "next/link";
 
 const rooms = [
   {
@@ -15,22 +16,28 @@ const rooms = [
     description: "Room for all the family members",
     size: "38-41 m2",
     capacity: "2 adults + 1 child",
+    text:"Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+    link:"/"
   },
   {
     id: 2,
     img: options2,
-    title: "Luxury Suite",
-    description: "A premium experience",
+    title: "Swim-up Room",
+    description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
     size: "40-43 m2",
     capacity: "2 adults + 1 child",
+     text:"Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+     link:"/"
   },
   {
     id: 3,
-    img: options1,
-    title: "Deluxe Room",
-    description: "Elegant and spacious",
+    img: options3,
+    title: "Superior Room",
+    description: "COMFORT FOR A GOOD PRICE",
     size: "30-32 m2",
     capacity: "2 adults + 1 child",
+     text:"Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
+     link:"/"
   }
 ];
 
@@ -51,10 +58,10 @@ const OtherOptions = () => {
         {rooms.map((room) => (
           <div
             key={room.id}
-            className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] xl:flex-[0_0_33.33%] min-w-0 "
+            className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31%] min-w-0 ml-[2%]"
           >
-            <div className="flex flex-col h-auto items-start text-start justify-center gap-[25px] font-jost text-black ">
-              <Image src={room.img} alt={room.title} width={372} height={250}  />
+            <div className="flex flex-col w-full items-start text-start justify-center gap-[25px] font-jost text-black ">
+              <Image src={room.img} alt={room.title} width={room.img.width} height={room.img.height}  />
               <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
                 {room.description}
               </span>
@@ -66,11 +73,11 @@ const OtherOptions = () => {
                     <p className='text-lagoBrown text-[16px] font-normal leading-normal'>2 adults + 1  child</p>
             </div>
               <p className="text-[14px] leading-[21px] font-normal">
-                Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in.
+               {room.text}
               </p>
-              <button className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[14px] px-[40px] py-[10px] border border-lagoBrown text-center justify-center items-center">
+              <Link href={room.link} className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[14px] px-[40px] py-[10px] border border-lagoBrown text-center justify-center items-center">
                 Learn more
-              </button>
+              </Link>
             </div>
           </div>
         ))}
