@@ -9,7 +9,7 @@ import OtherOptions from './components/OtherOptions'
 
 const page = () => {
   return (
-    <div className='flex flex-col bg-white'>
+    <div className=' overflow-hidden'>
       <SubRoomBanner/>
       <SubroomCarousel/>
       <RoomFeatures/>
