@@ -19,6 +19,7 @@ export default {
       colors:{
         lagoBlack: '#1D1D1B',
         lagoGray: '#4B4E4F',
+        lagoGray2: "#a6a6a6",
         lagoBrown:'#24292C'
       },
 
