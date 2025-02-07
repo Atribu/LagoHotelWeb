@@ -18,6 +18,9 @@ import DiscoverBackground from './components/DiscoverBackground'
 import img1 from "./images/bistres1.webp"
 import img2 from "./images/bist2.webp"
 
+import img3 from "./images/art1.webp"
+import img4 from "./images/art2.webp"
+
 const cuisines = [
     {
       id: 1,
@@ -72,13 +75,14 @@ const cuisines = [
     }
   ];
 
-
+const textsClinary=["LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with anendless open buffet where delicious dishes feature uniqueness from Turkish cuisine as well as fresh flavors reflecting the spirit of the Mediterranean",
+  "Ana Restoran: Kahvaltı, Öğlen ve Akşam Yemeği","Bistro Restoran: 24 Saat","Snack Bars: 24 Saat"]
 
 const page = () => {
   return (
     <div className='overflow-hidden'>
       <RestaurantMainBanner/>
-      <ClinaryInfoSection/>
+      <ClinaryInfoSection img1={img3} img2={img4} span="Perfect Fine Dine Experiences" header=" Culinary Art at LAGO" texts={textsClinary} />
       <MainRestaurantSection/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="LAGO’s World Cuisines" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={cuisines}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Bistro Restaurant" text1=" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates.Let’s learn more about this concept." text2=" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."/>
