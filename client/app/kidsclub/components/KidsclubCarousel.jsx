@@ -44,7 +44,7 @@ const KidsclubCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className='flex flex-col w-screen items-center justify-center my-[75px] gap-[50px]'>
+    <div className='flex flex-col w-screen items-center justify-center my-[75px] gap-[50px] mb-[25px]'>
       <div className='flex flex-col w-[76.8%] items-center justify-center '>
         <div className='flex flex-col gap-[17px] items-center justify-center font-jost text-black'>
             <PandaSvg className="flex" width={99} height={54}/>
@@ -74,7 +74,7 @@ const KidsclubCarousel = () => {
               />
               <div className="absolute inset-0 text-center top-[9%]  w-full items-center justify-center">
                 <div className="w-[100%] flex items-center justify-center text-center">
-                <text className="text-[40px] -tracking-[0.88px] font-normal font-marcellus text-white w-[50%]">{headers[index]}</text>
+                <p className="text-[40px] -tracking-[0.88px] font-normal font-marcellus text-white w-[50%]">{headers[index]}</p>
                 </div>
               </div>
             
