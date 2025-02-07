@@ -157,7 +157,7 @@ export default function Header() {
           <Link href="/restaurants" className="block font-normal leading-[26.667px]">
             RESTAURANTS
           </Link>
-          <Link href="/bars" className="block font-normal leading-[26.667px]">
+          <Link href="/barcafes" className="block font-normal leading-[26.667px]">
             BARS AND CAFÉS
           </Link>
           <Link href="/experiences" className="block font-normal leading-[26.667px]">

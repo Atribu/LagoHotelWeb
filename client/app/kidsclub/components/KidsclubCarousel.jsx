@@ -102,7 +102,7 @@ const KidsclubCarousel = () => {
     height={110}
     className="absolute -bottom-4 transition-all duration-900"
     style={{
-      left: `calc(${selectedIndex * 10}% + 7%)`, // Aktif index'e göre sola kaydır
+      left: `calc(${selectedIndex * 10}% + 9%)`, // Aktif index'e göre sola kaydır
     }}
   />
 </div>

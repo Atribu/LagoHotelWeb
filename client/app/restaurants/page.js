@@ -15,6 +15,9 @@ import tapaz from "./images/tapaz.webp"
 import fuego from "./images/fuego.webp"
 import DiscoverBackground from './components/DiscoverBackground'
 
+import img1 from "./images/bistres1.webp"
+import img2 from "./images/bist2.webp"
+
 const cuisines = [
     {
       id: 1,
@@ -30,7 +33,7 @@ const cuisines = [
       title: "Gusto",
       description: "CUISINE: Italian ",
        text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-       link:"/"
+       link:"/restaurants/gustorestaurant"
     },
     {
       id: 3,
@@ -69,6 +72,8 @@ const cuisines = [
     }
   ];
 
+
+
 const page = () => {
   return (
     <div className='overflow-hidden'>
@@ -76,7 +81,7 @@ const page = () => {
       <ClinaryInfoSection/>
       <MainRestaurantSection/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="LAGO’s World Cuisines" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={cuisines}/>
-      <ClinaryReverseInfo/>
+      <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Bistro Restaurant" text1=" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates.Let’s learn more about this concept." text2=" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Always Fresh and Delicious" text="As the Lago family, we are making your dreams come true on the shore where the sand and the sea meet, looking at the horizon, accompanied by the deep blue waters of the Mediterranean. We choose the freshest and best quality fish of our country, surrounded by seas on 3 sides, and add our love to it." cuisines={cuisines2}/>
       <DiscoverBackground/>
       <ContactSection/>
