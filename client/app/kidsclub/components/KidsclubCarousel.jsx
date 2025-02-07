@@ -83,7 +83,7 @@ const KidsclubCarousel = () => {
         </div>
        
       </div>
-      <div className="flex items-end justify-end gap-1 w-full mt-[50px] relative">
+      <div className="flex items-end justify-end w-full mt-[50px] relative">
   {images.map((_, i) => (
     <div
       key={i}
@@ -100,7 +100,7 @@ const KidsclubCarousel = () => {
     alt="bamboo"
     width={81}
     height={110}
-    className="absolute -bottom-4 transition-all duration-300"
+    className="absolute -bottom-4 transition-all duration-900"
     style={{
       left: `calc(${selectedIndex * 10}% + 7%)`, // Aktif index'e göre sola kaydır
     }}
