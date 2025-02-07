@@ -34,7 +34,7 @@ const CuisinesCarousel = ({span,header,text, cuisines}) => {
               <p className="text-[14px] leading-[21px] font-normal">
                {room.text}
               </p>
-              <Link href={room.link} className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[14px] px-[40px] py-[10px] border border-lagoBrown text-center justify-center items-center">
+              <Link href={room.link} className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[14px] px-[40px] py-[10px] border border-lagoBrown text-center justify-center items-center hover:bg-black hover:text-white">
                 EXPLORE MORE
               </Link>
             </div>

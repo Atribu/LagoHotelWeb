@@ -14,7 +14,7 @@ const page = () => {
       <SubroomCarousel/>
       <RoomFeatures/>
       <BackgroundSection/>
-      <RoomTour/>
+      <RoomTour span="CHOOSE THE BEST ROOM FOR YOU" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
       <OtherOptions/>
       <div className='my-10'></div>
       <ContactSection/>
