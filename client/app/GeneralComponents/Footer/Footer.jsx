@@ -110,7 +110,7 @@ export default function Footer() {
         {/* Alt ince çizgi */}
         <div className="w-full h-[1px] bg-gray-400 mt-6" />
         <div className="flex text-center items-center justify-center mt-2">
-            powerd by ecemon
+            dgtlface
         </div>
       </div>
     </footer>
