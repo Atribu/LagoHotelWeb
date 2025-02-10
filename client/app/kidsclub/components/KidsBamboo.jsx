@@ -83,7 +83,7 @@ const KidsBamboo = () => {
           className="flex flex-col w-[33%] items-center justify-end pb-6 h-[58vh] bg-center bg-cover relative group "
           style={{ backgroundImage: `url(${juniorclub.src})` }}
         >
-          <div className="absolute bg-black/10 inset-0 z-1"></div>
+          <div className="absolute bg-black/25 inset-0 z-1"></div>
           <div className="flex flex-col w-5/6 items-start justify-end z-10">
             <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]  transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
               8-12 yaş grubu
@@ -98,6 +98,7 @@ const KidsBamboo = () => {
     translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out"
           >
             <div className="flex flex-col w-5/6 gap-[10px] itesm-start justify-center">
+            
               <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
                 8-12 yaş grubu
               </span>

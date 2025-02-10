@@ -42,7 +42,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-screen z-10 items-center justify-center">
+      <header className="fixed top-0 left-0 w-screen z-[999] items-center justify-center">
         <div
           className="
             relative
