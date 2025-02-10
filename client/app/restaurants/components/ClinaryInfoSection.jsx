@@ -14,12 +14,12 @@ const ClinaryInfoSection = ({img1,img2,span,header,texts=[]}) => {
           </span>
           <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px]">
            {header}
-           <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+          </h2>
+          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
               {texts[0]}
             </p>
-          </h2>
           {/* Eğer `texts.length` 2'den küçükse sadece `texts[0]` göster */}
-          {texts.length <= 2 ? (
+          {texts.length < 3 ? (
             
              <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
              {texts[1]}

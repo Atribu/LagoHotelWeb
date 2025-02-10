@@ -172,13 +172,13 @@ export default function Header() {
               height={28}
             />
           </Link>
-          <Link href="/spa" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/spawellness" className="block text-white  font-normal leading-normal">
             SPA & WELLNESS
           </Link>
-          <Link href="/gallery" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/gallery" className="block text-white  font-normal leading-normal">
             GALLERY
           </Link>
-          <Link href="/hotel" className="block text-white text-[20px] font-normal leading-normal">
+          <Link href="/hotel" className="block text-white font-normal leading-normal">
             OUR HOTEL
           </Link>
         </nav>

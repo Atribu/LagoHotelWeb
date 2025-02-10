@@ -1,14 +1,9 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
-import img1 from "../images/SRF_4307 (2).webp"
-import img2 from "../images/SRF_3813.webp"
-import img3 from "../images/SRF_4487.webp"
 import Image from "next/image";
 
-const images =[img1,img2,img3]
-
-const KidsMomentCarousel = () => {
+const KidsMomentCarousel = ({images,header}) => {
     const [emblaRef, emblaApi] = useCarousel({
         loop: true,
         align: "center",
@@ -36,7 +31,7 @@ const KidsMomentCarousel = () => {
 
   return (
     <div className='flex flex-col w-screen justify-center items-center my-[100px] text-center gap-[50px]'>
-      <h2 className='text-[48px] text-black font-marcellus font-normal leading-[48px]'>Every Moment is Worth Sharing</h2>
+      <h2 className='text-[48px] text-black font-marcellus font-normal leading-[48px]'>{header}</h2>
 
       <div className="flex flex-col w-full justify-center items-center h-full">
            {/* carousel */}
