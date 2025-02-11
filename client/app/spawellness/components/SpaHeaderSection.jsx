@@ -2,13 +2,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
 import Image from "next/image";
-import gallery1 from "../images/gallery1.webp";
-import gallery2 from "../images/gallery2.webp";
-import gallery3 from "../images/gallery3.webp";
 
-const images = [gallery1, gallery2, gallery3];
-
-const SpaHeaderSection = () => {
+const SpaHeaderSection = ({span, header,text,images=[]}) => {
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "center",
@@ -38,15 +33,13 @@ const SpaHeaderSection = () => {
     <div className="flex flex-col w-screen items-center justify-center mt-[100px] gap-[50px]">
       <div className="flex flex-col items-center justify-center text-center w-[76.8%] text-black font-jost gap-[35px]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-          Perfect Fine Dine Experiences
+          {span}
         </span>
         <h3 className="text-[40px] leading-normal font-normal font-marcellus">
-          Lorem ipsum dolor sit amet
+         {header}
         </h3>
         <p className="text-[16px] font-normal leading-normal w-[59%]">
-          Lorem ipsum dolor sit amet consectetur. Sed sit venenatis nisi enim id
-          aenean natoque aliquet et. Et aliquam viverra enim sapien. Dignissim
-          arcu volutpat enim nisl condimentum.
+         {text}
         </p>
       </div>
 
