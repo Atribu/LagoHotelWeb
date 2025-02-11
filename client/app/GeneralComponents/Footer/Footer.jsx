@@ -6,7 +6,7 @@ import Logo from "../Header/Icons/Logo.png"
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#1A1A16] text-gray-200 text-sm py-16 flex justify-center z-[999]">
+    <footer className="w-full bg-[#1A1A16] text-gray-200 text-sm py-16 flex justify-center z-10">
       <div className="w-full px-44">
         <div className="grid grid-cols-5 gap-12">
           {/* SOL: 4 SÜTUN (QUICK MENU, TERMS, COMPANY, CONTACT) */}
