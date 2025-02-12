@@ -4,7 +4,7 @@ import Image from "next/image";
 const ClinaryReverseInfo = ({img1,img2,span,header,text1,text2}) => {
   return (
     <div className="flex w-screen h-[555px] my-[100px] items-center justify-center">
-      <div className="flex flex-row-reverse w-[76.8%] items-center justify-center gap-[2.5%]">
+      <div className="flex flex-row-reverse w-[76.8%] items-center justify-center gap-[2.5%] h-full">
 
         <div className="flex flex-col w-[49%] items-start justify-center text-start gap-[35.07px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">

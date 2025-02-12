@@ -38,7 +38,7 @@ const KidsMomentCarousel = ({images,header}) => {
            <div className="flex overflow-hidden relative w-full flex-col justify-center items-center " ref={emblaRef}>
         <div className="flex grid-flow-col">
           {images.map((image, index) => (
-            <div className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_80%] xl:flex-[0_0_70.5%] min-w-0 mr-[1.8%] h-[66vh]" key={index}>
+            <div className="flex-[0_0_auto] min-w-0 ml-[10px] h-[66vh]" key={index}>
               <Image
                 src={image.src}
                 layout="cover"
@@ -46,7 +46,7 @@ const KidsMomentCarousel = ({images,header}) => {
                 height={image.height}
                 alt={`Slide ${index + 1}`}
                 objectPosition="center"
-                className="flex w-full"
+                className="flex h-full"
               />
             
             </div>

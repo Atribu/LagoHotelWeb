@@ -6,7 +6,7 @@ import Image from "next/image";
 const ClinaryInfoSection = ({img1,img2,span,header,texts=[]}) => {
   return (
     <div className="flex w-screen h-[555px] my-[100px] items-center justify-center">
-      <div className="flex w-[76.8%] items-center justify-between ml-32">
+      <div className="flex w-[76.8%] items-center justify-between ml-32 h-full">
 
         <div className="flex flex-col w-[47%] items-start justify-center text-start gap-[35.07px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">

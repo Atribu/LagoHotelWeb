@@ -1,6 +1,6 @@
 "use client"
 
-import React from "react"
+import React, { useState, useEffect, useCallback } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
@@ -26,13 +26,13 @@ export default function Slider1() {
   // Birleştirilmiş => 10 slayt
   const slidesCombined = [...slidesOriginal, ...slidesClone]
 
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
   // Embla Carousel
-  // loop: false => Embla “jump” yapmaz
-  // Autoplay => sürekli scrollNext() diyerek “sonsuz” hissi
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       align: "start",
-      loop: true,         // Aslında false
+      loop: true,         
       slidesToScroll: 1,
       containScroll: false,
       skipSnaps: false
@@ -47,24 +47,28 @@ export default function Slider1() {
     ]
   )
 
-  React.useEffect(() => {
-    if (!emblaApi) return
-    const onSelect = () => {
-      const lastIndex = slidesCombined.length - 1
-      // e.g. eğer en sondan 1 slayt önceyse -> index >= lastIndex - 1
-      // otomatik 0. slayda sardır
-      if (emblaApi.selectedScrollSnap() >= lastIndex - 1) {
-        // “aniden” 0. indexe atarsak seamless olabilir
-        emblaApi.scrollTo(0, false) 
-      }
-    }
+  // Seçili index değişimini takip et
+  useEffect(() => {
+    if (!emblaApi) return;
 
-    emblaApi.on("select", onSelect)
-    return () => emblaApi.off("select", onSelect)
-  }, [emblaApi, slidesCombined.length])
+    const onSelect = () => {
+      const index = emblaApi.selectedScrollSnap() % slidesOriginal.length;
+      setSelectedIndex(index);
+    };
+
+    emblaApi.on("select", onSelect);
+    onSelect(); // İlk yüklemede aktif olanı belirle
+
+    return () => emblaApi.off("select", onSelect);
+  }, [emblaApi, slidesOriginal.length]);
+
+  // Seçili index'e göre kaydırma fonksiyonu
+  const handleJump = useCallback((index) => {
+    if (emblaApi) emblaApi.scrollTo(index);
+  }, [emblaApi]);
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden items-end justify-end">
       <div ref={emblaRef} className="overflow-hidden w-full ml-60">
         <div className="flex">
           {slidesCombined.map((slide, index) => (
@@ -101,6 +105,19 @@ export default function Slider1() {
           ))}
         </div>
       </div>
+
+      {/* Scroll Bar */}
+      <div className="flex items-end justify-end ml-[12.6%] w-[87.4%] mt-[50px] relative">
+        {slidesOriginal.map((_, i) => (
+          <div
+            key={i}
+            className={`transition-all mt-[20px] lg:mt-[30px] w-[25%] h-[2px] bg-[#24292C] rounded-full ${
+              selectedIndex === i ? "bg-[#24292C] h-[4px]" : "bg-[#848383]"
+            }`}
+            onClick={() => handleJump(i)}
+          />
+        ))}
+      </div>
     </section>
-  )
+  );
 }
