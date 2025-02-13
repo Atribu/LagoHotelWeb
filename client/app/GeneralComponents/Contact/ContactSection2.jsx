@@ -7,7 +7,7 @@ import minigallery from "./images/minigallery.webp"
 
 const ContactSection2 = () => {
   return (
-    <div className='flex w-full mt-[7%] h-[50vh]  mb-[7%]'>
+    <div className='flex w-full mt-[7%] h-[50vh]  mb-[7%] max-w-[1444px]'>
       <div className='flex w-11/12 flex-row justify-center items-center border-[1px] border-black'>
         <div className='flex flex-col justify-center items-center w-5/12 ml-[4%] gap-5'>
           <span className='font-jost ml-[2%] w-7/12 text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase self-center'>

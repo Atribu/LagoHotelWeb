@@ -5,7 +5,6 @@ import cafebar1 from "./images/cafebar1.webp"
 import cafebar2 from "./images/cafebars2.webp"
 import DiscoverBackground from '../restaurants/components/DiscoverBackground'
 import backgroundImg from "./images/BackgroundCafes.webp"
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import BackgroundSection from '../rooms/subroom/components/BackgroundSection'
 import backgroundImg2 from "./images/fullphoto.webp"
 import backgroundImg3 from "./images/fullphoto2.webp"
@@ -19,6 +18,7 @@ import piano from "./images/piano.webp"
 import abella from "./images/abella.webp"
 import lago from "./images/lago.webp"
 import house from "./images/house.webp"
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const clinaryTexts=["Lago, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet where delicious dishes feature uniqueness from Turkish cuisine as well as fresh flavors reflecting the spirit of the Mediterranean"]
 const backgroundTexts=["For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies."]
@@ -105,7 +105,7 @@ const page = () => {
       <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Lobby Bars and Cafes" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions2}/>
       <BarCarouselSection/>
       <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/barcafes" img={backgroundImg}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

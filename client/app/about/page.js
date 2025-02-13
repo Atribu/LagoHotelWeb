@@ -1,7 +1,6 @@
 import React from 'react'
 import MainBanner2 from '../GeneralComponents/MainBanner2'
 import mainImg from "./images/mainAbout.webp"
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import exactImg from "./images/exactplace.webp"
 import SpaTypesInfoSection from '../spawellness/components/SpaTypesInfoSection'
 import MissionVisionSection from './components/MissionVisionSection'
@@ -13,6 +12,7 @@ import img3 from "./images/SRF_8456.webp"
 import img4 from "./images/SRF_8394-min.webp"
 import leftImg from "./images/sol.webp"
 import rightImg from "./images/sag.webp"
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const images =[img1, img2,img3,img4]
 
@@ -28,7 +28,7 @@ const page = () => {
       <KidsMomentCarousel header=""  images={images}/>
       <MissionVisionSection texts={texts} texts2={texts2} texts3={texts3} leftImg={leftImg} rightImg={rightImg} showLink={false}/>
       <EmblaCarousel options={{ loop: true }}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

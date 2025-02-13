@@ -4,7 +4,7 @@ import mainImg from "./images/eglence.webp"
 import ActivitiesSection from './components/ActivitiesSection'
 import EntertainmentTypesSection from './components/EntertainmentTypesSection'
 import ActivityBackgroundSection from './components/ActivityBackgroundSection'
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {
   return (
@@ -13,7 +13,7 @@ const page = () => {
       <ActivitiesSection/>
       <EntertainmentTypesSection/>
       <ActivityBackgroundSection/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

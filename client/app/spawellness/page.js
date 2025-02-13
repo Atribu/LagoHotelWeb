@@ -11,13 +11,13 @@ import MassageCarousel from './components/MassageCarousel'
 import SpaTypesInfoSection from './components/SpaTypesInfoSection'
 import indoorImg from "./images/indoor.webp"
 import turkishImg from "./images/turkish.webp"
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import img1 from "./images/Spa.webp";
 import img2 from "./images/Sauna and hamam.webp";
 import aromatic from "./images/aromatic.webp"
 import oriental from "./images/oriental.webp"
 import clasmassage from "./images/clasmassage.webp"
 import facial from "./images/masagefaci.webp"
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const galleryImages=[gallery1,gallery2,gallery3]
 
@@ -39,7 +39,7 @@ const page = () => {
       <MassageCarousel span="RELAX AND FORGET" header="Massage Options" text="Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim. Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate." headers={massageHeaders} images={massageImages}/>
       <SpaTypesInfoSection isImageLeft={true} showLink={false} span="Workıng Hours: 9:00 - 20:00" header="Indoor Pool" text=" Lorem ipsum dolor sit amet consectetur. Vitae maecenas facilisis leo ultrices neque massa. Accumsan urna risus in porttitor velit suspendisse purus orci volutpat. Nulla scelerisque id convallis lacus blandit et sed. Elementum vel dolor senectus in morbi. Risus est praesent ultrices vestibulum velit feugiat fusce. Nibh bibendum." img={indoorImg}/>
       <SpaTypesInfoSection isImageLeft={false} showLink={false} span="Experience traditional culture" header="Turkish Hammam" text="Lorem ipsum dolor sit amet consectetur. Et blandit et maecenas in diam tristique pellentesque duis. Proin a volutpat lacinia posuere eu interdum aliquam egestas. Eget dui arcu arcu quam. Sed nulla pellentesque suspendisse viverra sodales quisque commodo. Arcu cursus sit neque amet eget ipsum. Auctor ipsum volutpat " img={turkishImg}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

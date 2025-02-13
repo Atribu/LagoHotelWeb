@@ -4,7 +4,6 @@ import RoomsInfoSection from "./components/RoomsInfoSection";
 import RoomsSection from "./components/RoomsSection";
 import RoomsSectionReverse from "./components/RoomsSectionReverse";
 import RoomsParallaxSection from "./components/RoomsParallaxSection";
-import ContactSection from "../GeneralComponents/Contact/ContactSection";
 
 import imgFamily from "./images/odalar2-1.webp";
 import imgFamily2 from "./images/oda2-2.webp";
@@ -22,10 +21,11 @@ import imgTinyvilla2 from "./images/oda5-2.webp";
 
 import imgDuplex from "./images/oda6-1.webp";
 import imgDuplex2 from "./images/odalar6-2.webp";
+import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
 
 const page = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden flex flex-col items-center justify-center">
       <RoomsBanner />
       <RoomsInfoSection />
       <RoomsSection
@@ -88,7 +88,7 @@ const page = () => {
       />
 
       <RoomsParallaxSection />
-      <ContactSection />
+      <ContactSection2/>
     </div>
   );
 };

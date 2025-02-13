@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const RoomsSection = ({img,img2, header,text,span,span2,link}) => {
   return (
-    <div className="flex w-screen h-auto my-[87px] items-center justify-center">
-      <div className="flex items-center justify-between w-[80%] gap-[42px]">
-        <div className="flex items-center w-[72.5%] gap-[10px]">
+    <div className="flex w-screen h-auto my-[87px] items-center justify-center ">
+      <div className="flex items-center justify-between w-[76.8%] gap-[42px] max-w-[1208px] ">
+        <div className="flex items-center w-[72.5%] gap-[10px] 2xl:gap-[20px]">
           <Image
             src={img}
             width={img.width}

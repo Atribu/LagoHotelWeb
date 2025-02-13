@@ -9,7 +9,6 @@ import gallery1 from "./images/gallery1.webp"
 import gallery2 from "./images/gallery2.webp"
 import gallery3 from "./images/gallery3.webp"
 import ClinaryReverseInfo from '@/app/restaurants/components/ClinaryReverseInfo'
-import ContactSection from '@/app/GeneralComponents/Contact/ContactSection'
 import backgroundImg from "../images/BackgroundCafes.webp"
 import mignon from "../images/mignon.webp"
 import joie from "../images/joie.webp"
@@ -17,6 +16,7 @@ import maldiva from "../images/maldiva.webp"
 import vagobar from "../images/vagobar.webp"
 import DiscoverBackground from '../../restaurants/components/DiscoverBackground'
 import OtherOptions4 from '../components/OtherOptions4'
+import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 
 const galleryImages=[gallery1,gallery2,gallery3];
 
@@ -64,7 +64,7 @@ const page = () => {
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
       <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Exclusive Pool Bars" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>
       <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/barcafes" img={backgroundImg}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

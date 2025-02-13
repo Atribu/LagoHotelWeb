@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const RoomsBanner = () => {
   return (
-    <div className='flex w-screen h-screen items-end justify-center lg:justify-end bg-center bg-cover' style={{ backgroundImage: `url(${roomsBanner.src})` }}>
+    <div className='flex w-screen h-screen items-end justify-center lg:justify-end bg-center bg-cover ' style={{ backgroundImage: `url(${roomsBanner.src})` }}>
       <div className='flex h-full w-full lg:w-[40%] bg-[#1D1D1B]/40 justify-center items-end lg:items-center'>
-      <div className="flex flex-col gap-[34px] w-[80%] h-auto text-white text-center justify-center items-center mt-[16%]">
-        <h2 className='font-marcellus text-[40px] leading-[20px] -tracking-[0.88px] font-normal'>Room Types</h2>
+      <div className="flex flex-col gap-[34px] 2xl:gap-[45px] w-[80%] h-auto text-white text-center justify-center items-center mt-[16%]">
+        <h2 className='font-marcellus text-[40px] leading-[20px] -tracking-[0.88px] font-normal 2xl:mb-4'>Room Types</h2>
         <Link href="/rooms/subroom" className='flex py-[10px] px-[40px] border-[3px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] lg:min-w-[337px]'>Superior Room</Link>
         <button className='flex py-[10px] px-[40px] border-[3px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] lg:min-w-[337px]'>Family Room</button>
         <button className='flex py-[10px] px-[40px] border-[3px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] lg:min-w-[337px]'>Swim-up Room</button>

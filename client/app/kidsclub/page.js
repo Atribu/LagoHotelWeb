@@ -14,6 +14,7 @@ import KidsMomentCarousel from './components/KidsMomentCarousel'
 import img1 from "./images/SRF_4307 (2).webp"
 import img2 from "./images/SRF_3813.webp"
 import img3 from "./images/SRF_4487.webp"
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const momentImages=[img1,img2,img3]
 
@@ -54,7 +55,7 @@ const page = () => {
       <KidsRestaurantCarousel/>
       <CuisinesCarousel span="Bamboo kıds club" header="Kids Pool" text="Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla." cuisines={kids}/>
       <KidsMomentCarousel images={momentImages} header="Every Moment is Worth Sharing"/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }
