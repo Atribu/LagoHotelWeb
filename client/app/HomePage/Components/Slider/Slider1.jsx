@@ -1,6 +1,6 @@
 "use client"
 
-import React from "react"
+import React, { useState, useEffect, useCallback } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
@@ -25,6 +25,7 @@ export default function Slider1({ slides }) {
   const slidesClone = [...slidesOriginal]
   const slidesCombined = [...slidesOriginal, ...slidesClone]
 
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       align: "start",
@@ -43,21 +44,26 @@ export default function Slider1({ slides }) {
     ]
   )
 
-  React.useEffect(() => {
-    if (!emblaApi) return
+  // Seçili index değişimini takip et
+  useEffect(() => {
+    if (!emblaApi) return;
+
     const onSelect = () => {
+
       const lastIndex = slidesCombined.length - 1
       if (emblaApi.selectedScrollSnap() >= lastIndex - 1) {
         emblaApi.scrollTo(0, false) 
       }
     }
 
-    emblaApi.on("select", onSelect)
-    return () => emblaApi.off("select", onSelect)
-  }, [emblaApi, slidesCombined.length])
+
+  // Seçili index'e göre kaydırma fonksiyonu
+  const handleJump = useCallback((index) => {
+    if (emblaApi) emblaApi.scrollTo(index);
+  }, [emblaApi]);
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden items-end justify-end">
       <div ref={emblaRef} className="overflow-hidden w-full ml-60">
         <div className="flex">
           {slidesCombined.map((slide, index) => (
@@ -93,6 +99,19 @@ export default function Slider1({ slides }) {
           ))}
         </div>
       </div>
+
+      {/* Scroll Bar */}
+      <div className="flex items-end justify-end ml-[12.6%] w-[87.4%] mt-[50px] relative">
+        {slidesOriginal.map((_, i) => (
+          <div
+            key={i}
+            className={`transition-all mt-[20px] lg:mt-[30px] w-[25%] h-[2px] bg-[#24292C] rounded-full ${
+              selectedIndex === i ? "bg-[#24292C] h-[4px]" : "bg-[#848383]"
+            }`}
+            onClick={() => handleJump(i)}
+          />
+        ))}
+      </div>
     </section>
-  )
+  );
 }

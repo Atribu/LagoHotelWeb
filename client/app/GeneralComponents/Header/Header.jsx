@@ -160,7 +160,7 @@ export default function Header() {
           <Link href="/barcafes" className="block font-normal leading-[26.667px]">
             BARS AND CAFÉS
           </Link>
-          <Link href="/experiences" className="block font-normal leading-[26.667px]">
+          <Link href="/entertainment" className="block font-normal leading-[26.667px]">
             EXPERIENCES
           </Link>
           <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex">
@@ -178,7 +178,7 @@ export default function Header() {
           <Link href="/gallery" className="block text-white  font-normal leading-normal">
             GALLERY
           </Link>
-          <Link href="/hotel" className="block text-white font-normal leading-normal">
+          <Link href="/about" className="block text-white font-normal leading-normal">
             OUR HOTEL
           </Link>
         </nav>

@@ -18,21 +18,33 @@ const ActivitiesSection = () => {
         </div>
 
         <div className='flex w-full items-center justify-center relative'>
-           <div className='flex w-[76.8%] gap-[2%] items-center justify-center'>
-           <Image src={daytime} alt="daytime" width={daytime.width} height={daytime.height} className='w-[49%]'/>
-            <Image src={nighttime} alt="nighttime" width={nighttime.width} height={nighttime.height} className='w-[49%]'/>
+           <div className='flex w-[76.8%] gap-[30px] items-center justify-center '>
+
+           <div className='flex flex-col w-[538px] h-full relative'>
+           <Image src={daytime} alt="daytime" width={daytime.width} height={daytime.height} className='w-full'/>
+           <div className='flex flex-col absolute bottom-[38px] left-[35px] items-start justify-center text-start gap-[35px] pb-[10px] text-white leading-[57.6px]'>
+            <span className='text-[12px] font-normal uppercase  font-jost '>experiences</span>
+            <h4 className='font-marcellus text-[30px] font-normal'>Daytime Activities</h4>
+           </div>
+           </div>
+           
+            <div className='flex flex-col w-[538px] h-full relative'>
+            <Image src={nighttime} alt="nighttime" width={nighttime.width} height={nighttime.height} className='w-full'/>
+           <div className='flex flex-col absolute bottom-[38px] left-[35px] items-start justify-center text-start gap-[35px] pb-[10px] text-white leading-[57.6px]'>
+            <span className='text-[12px] font-normal uppercase  font-jost '>experiences</span>
+            <h4 className='font-marcellus text-[30px] font-normal'>Daytime Activities</h4>
+           </div>
+           </div>
            </div>
 
-            <div className='absolute inset-0 items-center justify-center gap-[5.5%] flex w-full'>
+            {/* <div className='absolute inset-0 items-center justify-center gap-[5.5%] flex w-full'>
                 <LSvg className="flex" width={223} height={641}/>
                 <ASvg className="flex" width={335} height={641}/>
                 <GSvg className="flex" width={302} height={660}/>
                 <OSvg className="flex" width={301} height={660}/>
-            </div>
+            </div> */}
         </div>
-        <div className='flex w-[60%]'>
-          <span className='text-[14px] font-jost text-lagoGray font-normal leading-normal'>* LAGO Hotel Ultra All Inclusive concept, activities and services may vary depending on the season and weather conditions, without prior notice. All rights of LAGO HOTEL in this regard are reserved.</span>
-        </div>
+       
       </div>
     </div>
   )
