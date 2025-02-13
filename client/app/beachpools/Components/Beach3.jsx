@@ -1,5 +1,9 @@
 import React from 'react'
 import Slider from "../../HomePage/Components/Slider/Slider1"
+import Slide1 from '../Images/Slide/slider1.webp'
+import Slide2 from '../Images/Slide/beachbar.webp'
+import Slide3 from '../Images/Slide/watersport.webp'
+import Slide4 from '../Images/Slide/celebration.webp'
 
 const Beach3 = () => {
     const slides = [
@@ -7,10 +11,14 @@ const Beach3 = () => {
         { src: Slide2, title: "Beach & Pools", link: "/beachpool" },
         { src: Slide3, title: "Experiences", link: "/entertainment" },
         { src: Slide4, title: "Flavours", link: "/flavours" },
-        { src: Slide5, title: "Kids", link: "/kidsclub" },
       ]
   return (
-    <div className='flex mt-12'>
+    <div className='flex flex-col mt-[5%] w-full'>
+        <div className='flex flex-col ml-[16%] gap-4 w-4/6 items-start'>
+          <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>RELAX AND FORGET</p>
+          <h3 className='font-marcellus text-[48px] font-normal leading-[57.6px]'>Activities at the Beach</h3>
+          <p className='font-jost text-[16px] font-normal leading-[24px] mb-[4%]'>Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim.<br/> Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate.</p>
+        </div>
         <Slider slides={slides} />
     </div>
   )
