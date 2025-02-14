@@ -10,7 +10,7 @@ import despina from "../images/despina.webp"
 import anatolia from "../images/anatolia.webp"
 import RoomTour from '@/app/rooms/subroom/components/RoomTour'
 import DiscoverBackground from '../components/DiscoverBackground'
-import ContactSection from '@/app/GeneralComponents/Contact/ContactSection'
+import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 
 const otherOptions = [
     {
@@ -47,7 +47,7 @@ const page = () => {
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Other options" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={otherOptions}/>
       <DiscoverBackground/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

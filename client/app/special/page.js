@@ -3,9 +3,9 @@ import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import mainImg from "./images/specialMain.webp"
 import SpecialTypesSection from './components/SpecialTypesSection'
 import SpecialGridSection from './components/SpecialGridSection'
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import SpecialInfoSection from './components/SpecialInfoSection'
 import SpecialCarousel from './components/SpecialCarousel'
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {
   return (
@@ -15,7 +15,7 @@ const page = () => {
       <SpecialGridSection/>
       <SpecialInfoSection/>
       <SpecialCarousel/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

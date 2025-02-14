@@ -8,7 +8,7 @@ const CuisinesCarousel = ({span,header,text, cuisines}) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start" });
 
   return (
-    <div className='flex w-screen h-auto items-center justify-center mb-[100px]'>
+    <div className='flex w-screen h-auto items-center justify-center mb-[100px] max-w-[1444px]'>
       <div className='flex flex-col w-[76.8%] items-start justify-center gap-[50px]'>
         <div className='flex flex-col items-start justify-center w-[65.5%] text-black gap-[35px]'>
             <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost'>{span}</span>

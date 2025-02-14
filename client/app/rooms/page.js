@@ -4,7 +4,6 @@ import RoomsInfoSection from "./components/RoomsInfoSection";
 import RoomsSection from "./components/RoomsSection";
 import RoomsSectionReverse from "./components/RoomsSectionReverse";
 import RoomsParallaxSection from "./components/RoomsParallaxSection";
-import ContactSection from "../GeneralComponents/Contact/ContactSection";
 
 import imgFamily from "./images/odalar2-1.webp";
 import imgFamily2 from "./images/oda2-2.webp";
@@ -22,13 +21,15 @@ import imgTinyvilla2 from "./images/oda5-2.webp";
 
 import imgDuplex from "./images/oda6-1.webp";
 import imgDuplex2 from "./images/odalar6-2.webp";
+import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
 
 const page = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden flex flex-col items-center justify-center">
       <RoomsBanner />
       <RoomsInfoSection />
       <RoomsSection
+      id="superiorroom"
         img={imgSuperior}
         img2={imgSuperior2}
         header=" Superior Rooms"
@@ -40,6 +41,7 @@ const page = () => {
         link="rooms/superior-room"
       />
       <RoomsSectionReverse
+      id="familyroom"
         img={imgFamily}
         img2={imgFamily2}
         header="Family Room"
@@ -50,6 +52,7 @@ const page = () => {
       />
 
       <RoomsSection
+      id="swimuproom"
         img={imgSwim}
         img2={imgSwim2}
         header=" Swim-up Room"
@@ -69,6 +72,7 @@ const page = () => {
       />
 
       <RoomsSection
+      id="tinyvilla"
         img={imgTinyvilla}
         img2={imgTinyvilla2}
         header=" Tiny Villa"
@@ -78,6 +82,7 @@ const page = () => {
         link="rooms/tinyvilla"
       />
       <RoomsSectionReverse
+      id="duplexfamilyroom"
         img={imgDuplex}
         img2={imgDuplex2}
         header="Duplex Family Room"
@@ -88,7 +93,7 @@ const page = () => {
       />
 
       <RoomsParallaxSection />
-      <ContactSection />
+      <ContactSection2/>
     </div>
   );
 };

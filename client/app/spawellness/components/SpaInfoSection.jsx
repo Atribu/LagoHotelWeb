@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SpaInfoSection = ({img1,img2, texts=[],texts2=[],texts3=[]}) => {
   return (
-    <div className="flex w-screen h-auto my-[50px] items-end justify-center">
+    <div className="flex w-screen h-auto my-[50px] items-end justify-center max-w-[1440px]">
       <div className="flex w-[76.8%] items-end justify-center gap-[2%]">
         <div className="flex flex-col w-[53%] justify-center items-start gap-[50px]">
           <div className="flex flex-col w-full items-start justify-center text-start gap-[35px] text-black font-jost">

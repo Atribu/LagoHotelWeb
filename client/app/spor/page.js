@@ -17,7 +17,7 @@ import Spa from '../HomePage/Components/Icons/Spa'
 import SpaTypesInfoSection from '../spawellness/components/SpaTypesInfoSection'
 import beachvolley from "./images/beachvoleyball.webp"
 import personal from "./images/personal.webp"
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const galleryImages =[gallery1,gallery2,gallery3]
 
@@ -36,7 +36,7 @@ const page = () => {
       <MassageCarousel span="RELAX AND FORGET" header="Activities and Lessons" text="Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim. Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate." images={activitiesImage} headers={activitiesHeaders}/>
       <SpaTypesInfoSection isImageLeft={true} showLink={false} span="Water Polo, beach volleyball" header="Beach Voleyball" text="Lorem ipsum dolor sit amet consectetur. Vitae maecenas facilisis leo ultrices neque massa. Accumsan urna risus in porttitor velit suspendisse purus orci volutpat. Nulla scelerisque id convallis lacus blandit et sed. Elementum vel dolor senectus in morbi. Risus est praesent ultrices vestibulum velit feugiat fusce. Nibh bibendum." img={beachvolley}/>
       <SpaTypesInfoSection isImageLeft={false} showLink={false} span="Experience traditional culture" header="Personal Trainer" text="Lorem ipsum dolor sit amet consectetur. Vitae maecenas facilisis leo ultrices neque massa. Accumsan urna risus in porttitor velit suspendisse purus orci volutpat. Nulla scelerisque id convallis lacus blandit et sed. Elementum vel dolor senectus in morbi. Risus est praesent ultrices vestibulum velit feugiat fusce. Nibh bibendum." img={personal}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

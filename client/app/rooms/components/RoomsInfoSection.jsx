@@ -3,8 +3,8 @@ import ClockSvg from "./svg/ClockSvg";
 
 const RoomsInfoSection = () => {
   return (
-    <div className="flex w-screen pt-[80px] h-auto justify-center items-center bg-white">
-      <div className="flex flex-col w-[60%] gap-[26px] items-center justify-center text-center font-jost leading-normal font-normal">
+    <div className="flex w-screen pt-[80px] h-auto justify-center items-center bg-white max-w-[1444px]">
+      <div className="flex flex-col w-[76.8%] gap-[26px] items-center justify-center text-center font-jost leading-normal font-normal ">
         <span className="text-lagoGray text-[12px] uppercase tracking-[0.48px] font-medium leading-[14px] items-stretch">
           Comfort stay for you and your famıly
         </span>

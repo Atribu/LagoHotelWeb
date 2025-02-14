@@ -47,7 +47,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className='flex w-screen h-[750px]  items-center justify-start bg-cover bg-bottom relative mt-[100px]' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+    <div className='flex w-screen h-[750px] 2xl:h-[1100px]  items-center justify-start bg-cover bg-bottom relative mt-[100px]' style={{ backgroundImage: `url(${imgBackground.src})` }}>
       <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
       <div className='flex w-[80%] items-center justify-center bg-white h-[88%]'>
 

@@ -5,7 +5,7 @@ import React from 'react'
 
 const MissionVisionSection = ({texts=[],texts2=[],texts3=[], leftImg, rightImg, showLink, link1, link2}) => {
   return (
-    <div className='flex w-screen items-center justify-center my-[100px]'>
+    <div className='flex w-screen items-center justify-center my-[100px] max-w-[1444px]'>
       <div className='flex flex-col w-[76.8%] items-center justify-center gap-[50px]'>
         <div className='flex flex-col items-center justify-normal w-[65%] text-center font-jost text-black gap-[35px]'>
             <span className='text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px]'>{texts[0]}</span>
@@ -20,7 +20,7 @@ const MissionVisionSection = ({texts=[],texts2=[],texts3=[], leftImg, rightImg, 
                 <h4 className='text-[30px] font-normal leading-[57.6px] capitalize font-marcellus'>{texts2[1]}</h4>
                 <p className='text-[14px] font-normal leading-[21px] w-[99%]'>{texts[2]} </p>
                 {showLink && (
-            <Link href={link1} className='flex w-[170.585px] py-[16px] px-[32px] font-jost text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>MORE ABOUT</Link>
+            <Link href={link1} className='flex w-[170.585px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>MORE ABOUT</Link>
         )
         }
             </div>
@@ -31,7 +31,7 @@ const MissionVisionSection = ({texts=[],texts2=[],texts3=[], leftImg, rightImg, 
                 <h4 className='text-[30px] font-normal leading-[57.6px] capitalize font-marcellus'>{texts2[1]}</h4>
                 <p className='text-[14px] font-normal leading-[21px] w-[99%]'>{texts3[2]}<br></br></p>
                 {showLink && (
-            <Link href={link2} className='flex w-[170.585px] py-[16px] px-[32px] font-jost text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>MORE ABOUT</Link>
+            <Link href={link2} className='flex w-[170.585px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>MORE ABOUT</Link>
         )
         }
             </div>

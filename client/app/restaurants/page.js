@@ -1,7 +1,6 @@
 import React from 'react'
 import RestaurantMainBanner from './components/RestaurantMainBanner'
 import ClinaryInfoSection from './components/ClinaryInfoSection'
-import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import MainRestaurantSection from './components/MainRestaurantSection'
 import CuisinesCarousel from './components/CuisinesCarousel'
 import ClinaryReverseInfo from './components/ClinaryReverseInfo'
@@ -20,6 +19,7 @@ import img2 from "./images/bist2.webp"
 
 import img3 from "./images/art1.webp"
 import img4 from "./images/art2.webp"
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const cuisines = [
     {
@@ -80,7 +80,7 @@ const textsClinary=["LAGO, you will enjoy your vacation with international cuisi
 
 const page = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden items-center justify-center flex flex-col'>
       <RestaurantMainBanner/>
       <ClinaryInfoSection img1={img3} img2={img4} span="Perfect Fine Dine Experiences" header=" Culinary Art at LAGO" texts={textsClinary} />
       <MainRestaurantSection/>
@@ -88,7 +88,7 @@ const page = () => {
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Bistro Restaurant" text1=" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates.Let’s learn more about this concept." text2=" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Always Fresh and Delicious" text="As the Lago family, we are making your dreams come true on the shore where the sand and the sea meet, looking at the horizon, accompanied by the deep blue waters of the Mediterranean. We choose the freshest and best quality fish of our country, surrounded by seas on 3 sides, and add our love to it." cuisines={cuisines2}/>
       <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars and Cafes" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
-      <ContactSection/>
+      <ContactSection2/>
     </div>
   )
 }

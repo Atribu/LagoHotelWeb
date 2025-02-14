@@ -151,7 +151,7 @@ export default function Header() {
           <Link href="/rooms" className="block  font-normal leading-[26.667px]">
             ACCOMODATION
           </Link>
-          <Link href="/beachpool" className="block  font-normal leading-[26.667px]">
+          <Link href="/beachpools" className="block  font-normal leading-[26.667px]">
             BEACH & POOL
           </Link>
           <Link href="/restaurants" className="block font-normal leading-[26.667px]">
