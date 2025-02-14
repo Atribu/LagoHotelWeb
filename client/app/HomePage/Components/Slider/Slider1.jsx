@@ -63,7 +63,7 @@ export default function Slider1({ slides }) {
           {slidesCombined.map((slide, index) => (
             <div
               key={index}
-              className="relative w-[360px] h-[540px] basis-1/4 shrink-0 flex justify-center items-center -mr-9"
+              className="relative w-[360px] h-[540px] basis-1/4 2xl:basis-[16%] shrink-0 flex justify-center items-center -mr-9"
             >
               <Image
                 src={slide.src}

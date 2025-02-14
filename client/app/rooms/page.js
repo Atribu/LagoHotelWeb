@@ -29,6 +29,7 @@ const page = () => {
       <RoomsBanner />
       <RoomsInfoSection />
       <RoomsSection
+      id="superiorroom"
         img={imgSuperior}
         img2={imgSuperior2}
         header=" Superior Rooms"
@@ -40,6 +41,7 @@ const page = () => {
         link="rooms/superior-room"
       />
       <RoomsSectionReverse
+      id="familyroom"
         img={imgFamily}
         img2={imgFamily2}
         header="Family Room"
@@ -50,6 +52,7 @@ const page = () => {
       />
 
       <RoomsSection
+      id="swimuproom"
         img={imgSwim}
         img2={imgSwim2}
         header=" Swim-up Room"
@@ -69,6 +72,7 @@ const page = () => {
       />
 
       <RoomsSection
+      id="tinyvilla"
         img={imgTinyvilla}
         img2={imgTinyvilla2}
         header=" Tiny Villa"
@@ -78,6 +82,7 @@ const page = () => {
         link="rooms/tinyvilla"
       />
       <RoomsSectionReverse
+      id="duplexfamilyroom"
         img={imgDuplex}
         img2={imgDuplex2}
         header="Duplex Family Room"

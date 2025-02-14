@@ -4,9 +4,9 @@ import TreeSvg from "./svg/TreeSvg";
 import ViewSvg from "./svg/ViewSvg";
 import Image from "next/image";
 
-const RoomsSectionReverse = ({img,img2, header,text,span,span2,link}) => {
+const RoomsSectionReverse = ({img,img2, header,text,span,span2,link, id}) => {
   return (
-    <div className="flex w-screen h-auto my-[87px] items-center justify-center">
+    <div id={id} className="flex w-screen h-auto my-[87px] items-center justify-center">
       <div className="flex flex-row-reverse items-center justify-between w-[76.8%] gap-[42px] max-w-[1208px] ">
         <div className="flex items-center w-[72.5%] h-[630px] gap-[10px] ">
           <Image
