@@ -34,11 +34,11 @@ const KidsRestaurantCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className='flex flex-row-reverse w-screen justify-between items-center h-[436px] my-[75px]'>
+    <div className='flex flex-row-reverse w-screen justify-between items-center h-[436px] my-[75px] max-w-[1444px]'>
       <div className='flex flex-col w-[48%] font-jost text-lagoBlack gap-[35px] items-start justify-center'>
         <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px]'>bamboo kıds club</span>
         <h2 className='text-[48px] leading-[57.6px] font-marcellus font-normal'>Magna Kids Restoran</h2>
-        <p className='text-[14px] leading-[21px] font-normal text-[#24292C] w-[70%]'>Lorem ipsum dolor sit amet consectetur. Nisi urna felis accumsan auctor iaculis nibh diam. Id in phasellus ipsum in ullamcorper. Pharetra eu libero varius tempor viverra pulvinar quis mauris quam. Ipsum maecenas morbi at </p>
+        <p className='text-[14px] leading-[21px] font-normal text-[#24292C] '>Lorem ipsum dolor sit amet consectetur. Nisi urna felis accumsan auctor iaculis nibh diam. Id in phasellus ipsum in ullamcorper. Pharetra eu libero varius tempor viverra pulvinar quis mauris quam. Ipsum maecenas morbi at </p>
         <ul className="text-[14px] font-normal leading-[21px] list-disc pl-5 marker:text-xs marker:text-lagoBlack">
            <li> Breakfast: 07:00 - 10:30 </li>
           <li>  Lunch: 12:30 - 14:00</li>

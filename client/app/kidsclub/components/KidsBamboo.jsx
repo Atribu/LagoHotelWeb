@@ -7,7 +7,7 @@ import teenageclub from "../images/kids3.webp";
 
 const KidsBamboo = () => {
   return (
-    <div className="flex flex-col w-screen items-center justify-center h-auto my-[100px] gap-[50px]">
+    <div className="flex flex-col w-screen items-center justify-center h-auto my-[100px] gap-[50px] max-w-[1444px]">
       <div className="flex flex-col w-[76.8%] gap-[14px] justify-start items-start font-jost text-black">
         <div className="flex justify-between items-center gap-[66px] w-full">
           <Image
@@ -38,7 +38,7 @@ const KidsBamboo = () => {
 
       <div className="flex gap-[28px] w-[76.8%] justify-between items-center text-white font-jost ">
         <div
-          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[58vh] bg-center bg-cover relative group"
+          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[510px]  bg-center bg-cover relative group"
           style={{ backgroundImage: `url(${miniclub.src})` }}
         >
           {/* Hafif karartma (her zaman görünür) */}
@@ -80,7 +80,7 @@ const KidsBamboo = () => {
         </div>
 
         <div
-          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[58vh] bg-center bg-cover relative group "
+          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[510px]  bg-center bg-cover relative group "
           style={{ backgroundImage: `url(${juniorclub.src})` }}
         >
           <div className="absolute bg-black/25 inset-0 z-1"></div>
@@ -116,7 +116,7 @@ const KidsBamboo = () => {
         </div>
 
         <div
-          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[58vh] bg-center bg-cover relative group "
+          className="flex flex-col w-[33%] items-center justify-end pb-6 h-[510px]  bg-center bg-cover relative group "
           style={{ backgroundImage: `url(${teenageclub.src})` }}
         >
           <div className="absolute bg-black/10 inset-0 z-1"></div>

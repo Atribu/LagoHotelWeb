@@ -30,7 +30,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen items-center justify-center mt-[100px] gap-[50px]">
+    <div className="flex flex-col w-screen items-center justify-center mt-[100px] gap-[50px] max-w-[1444px]">
       <div className="flex flex-col items-center justify-center text-center w-[76.8%] text-black font-jost gap-[35px]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {span}
@@ -52,7 +52,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
           <div className="flex grid-flow-col">
             {images.map((image, index) => (
               <div
-                className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_80%] xl:flex-[0_0_35.5%] min-w-0 mr-[1%] h-[60vh]"
+                className="flex-[0_0_auto] min-w-0 mr-[10px] h-[600px]"
                 key={index}
               >
                 <Image

@@ -12,7 +12,7 @@ const backgroundTexts=["Guests staying in Swim-Up rooms are welcomed with a VIP 
 
 const page = () => {
   return (
-    <div className=' overflow-hidden'>
+    <div className=' overflow-hidden flex flex-col items-center justify-center'>
       <SubRoomBanner/>
       <SubroomCarousel/>
       <RoomFeatures/>

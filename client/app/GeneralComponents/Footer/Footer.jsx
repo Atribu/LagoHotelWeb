@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter } from "react-icons/fa"
 import Logo from "../Header/Icons/Logo.png"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -21,7 +22,7 @@ export default function Footer() {
                 <li>Service</li>
                 <li>Portfolio</li>
                 <li>Product</li>
-                <li>Blog</li>
+                <li><Link href="/news">Blog</Link></li>
                 <li>FAQ</li>
               </ul>
             </div>
@@ -36,7 +37,7 @@ export default function Footer() {
                 <li>Bookings & Cancellations</li>
                 <li>Website Terms</li>
                 <li>Product</li>
-                <li>Blog</li>
+                <li><Link href="/news">Blog</Link></li>
                 <li>FAQ</li>
               </ul>
             </div>
@@ -48,7 +49,7 @@ export default function Footer() {
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-4">
                 <li>About Company</li>
-                <li>Contact</li>
+                <li><Link href="/connect">Contact</Link></li>
                 <li>Terms & Condition</li>
                 <li>Privacy & Policy</li>
                 <li>Help Center</li>
@@ -58,7 +59,7 @@ export default function Footer() {
             {/* CONTACT */}
             <div>
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase mb-7">
-                CONTACT
+              <Link href="/connect">Contact</Link>
               </h4>
               <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] mb-4">
                 Phone: +90 242 756 99 00

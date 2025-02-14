@@ -130,7 +130,7 @@ const RoomFeatures = () => {
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
             <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
-            <button className="flex p-5 items-center justify-center text-center bg-lagoBlack border border-lagoBlack w-[175px] shadow-buttonCustom text-[18px] uppercase font-semibold font-jost leading-[120%] -tracking-[0.36px] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+            <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border border-lagoBlack w-[175px] shadow-buttonCustom text-[18px] uppercase font-semibold font-jost leading-[120%] -tracking-[0.36px] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
         </div>
         <div className="flex flex-col  items-center justify-center w-full gap-[17px] bg-white py-[15px]">
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px]">Contact us now</h4>

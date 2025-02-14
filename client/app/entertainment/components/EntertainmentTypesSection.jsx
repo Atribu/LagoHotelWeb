@@ -69,7 +69,7 @@ const activities = [
 
 const EntertainmentTypesSection = () => {
   return (
-    <div className="flex w-screen items-center justify-center my-[100px]">
+    <div className="flex w-screen items-center justify-center my-[100px] max-w-[1920px]">
       <div className="flex flex-col w-[76.8%] items-start justify-center gap-[50px]">
         
         {/* Başlık Bölümü */}

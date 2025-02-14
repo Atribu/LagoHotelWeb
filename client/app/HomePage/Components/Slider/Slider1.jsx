@@ -57,7 +57,7 @@ export default function Slider1({ slides }) {
   }, [emblaApi, slidesCombined.length])
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden mt-[100px]">
       <div ref={emblaRef} className="overflow-hidden w-full ml-60">
         <div className="flex">
           {slidesCombined.map((slide, index) => (

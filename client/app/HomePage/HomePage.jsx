@@ -7,13 +7,17 @@ import HomePage4 from "./Components/HomePage3"
 import HomePage5 from "./Components/HomePage4"
 import HomePage6 from "./Components/HomePage5"
 import ContactSection from '../GeneralComponents/Contact/ContactSection'
+import EmblaCarousel from "./Components/Slider/Slider1"
 
 const HomePage = () => {
   return (
     <div>
         <HomePage1 />
         <HomePage2 />
-        <HomePage3 />
+        <EmblaCarousel options={{ loop: true }}/>
+     <div className='flex flex-col items-center justify-center w-screen'>
+     <HomePage3 />
+     </div>
         <HomePage4 />
         <HomePage5 />
         <ContactSection />

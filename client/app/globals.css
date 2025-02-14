@@ -130,6 +130,19 @@
   }
 }
 
+.custom-calendar {
+  @apply bg-[#1D1D1B] text-white rounded-lg shadow-lg p-3 border border-gray-700 transition-opacity duration-300;
+}
+
+.custom-day {
+  @apply text-gray-300 hover:bg-gray-600 hover:text-gray-800 rounded-full w-10 h-10 flex items-center justify-center;
+}
+
+.selected-day {
+  @apply bg-[#EDEDED] text-black font-bold rounded-full w-10 h-10 flex items-center justify-center;
+}
+
+
 
 
 

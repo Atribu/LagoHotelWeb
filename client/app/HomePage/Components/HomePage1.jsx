@@ -23,9 +23,7 @@ export default function HomePage1() {
         DISCOVER MORE
       </button>
 
-      <div className='flex mt-20'>
-        <EmblaCarousel  options={{ loop: true }} />
-      </div>
+      
     </div>
   )
 }
