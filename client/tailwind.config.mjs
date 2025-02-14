@@ -39,7 +39,7 @@ export default {
   
         'desktop': '1280px',
 
-        "laptopMac":"1728px" 
+        "laptopMac":"1920px" 
         
       },
     },

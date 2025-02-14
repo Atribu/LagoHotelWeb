@@ -7,6 +7,7 @@ import LeafSvg from '../Header/Icons/LeafSvg'
 import InstagramSvg from './icons/InstagramSvg'
 import FacebookSvg from './icons/FacebookSvg'
 import YoutubeSvg from './icons/YoutubeSvg'
+import minigallery from "./images/minigallery.webp"
 
 const ContactSection = () => {
   const images=[
@@ -47,7 +48,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className='flex w-screen h-[750px] 2xl:h-[1100px]  items-center justify-start bg-cover bg-bottom relative mt-[100px]' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+    <div className='flex w-screen h-[750px] laptopMac:h-[950px]  items-center justify-start bg-cover bg-bottom relative mt-[100px] ' style={{ backgroundImage: `url(${imgBackground.src})` }}>
       <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
       <div className='flex w-[80%] items-center justify-center bg-white h-[88%]'>
 
@@ -74,7 +75,11 @@ const ContactSection = () => {
         </div>
 
         <div className='flex w-[60%] h-[95%] '>
-          <div className='flex flex-col w-full overflow-auto hover:overflow-scroll custom-scroll h-auto'>
+        <div className='w-full h-full overflow-y-auto scroll-smooth '>
+            {/* Resmin yüksekliğini container yüksekliğinden büyük veriyoruz */}
+            <Image src={minigallery} height={700} width={1200} alt="Minigallery" />
+          </div>
+          {/* <div className='flex flex-col w-full overflow-auto hover:overflow-scroll custom-scroll h-auto'>
           <div className="columns-3 gap-3 px-3 mb-3 transition-all duration-[350ms] ease-in-out cursor-pointer ">
                 {images.map((item,index)=>{
                     return(
@@ -84,7 +89,7 @@ const ContactSection = () => {
                     )
                 })}
             </div>
-          </div>
+          </div> */}
         
           </div>       
 
