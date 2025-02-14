@@ -65,13 +65,15 @@ export default function Header() {
 
           {/* Ortadaki Logo */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <Image 
+           <Link className='w-full' href="/">
+           <Image 
               src={Logo}
               alt="Logo"
               width={70}
               height={52}
               className="object-contain"
-            />
+              
+            /></Link>
           </div>
 
           {/* Sağ Contact & Book Now */}
@@ -126,7 +128,7 @@ export default function Header() {
       <div
         ref={menuRef} // **Referans atadık**
         className={`
-          absolute top-0 left-0
+          fixed top-0 left-0
           w-[420px]
           h-[calc(100vh-16.6px)]
           bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
@@ -232,21 +234,21 @@ export default function Header() {
               target="_blank"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
-              <FaFacebookF className="w-6 h-6" />
+              <FaFacebookF className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
               href="https://www.youtube.com/"
               target="_blank"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
-              <FaYoutube className="w-6 h-6" />
+              <FaYoutube className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
               href="https://www.instagram.com/"
               target="_blank"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
-              <FaInstagram className="w-6 h-6" />
+              <FaInstagram className="w-6 h-6" color='#505050'/>
             </Link>
           </div>
         </div>

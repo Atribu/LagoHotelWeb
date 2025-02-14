@@ -30,7 +30,7 @@ const MassageCarousel = ({span,header,text,headers=[],images=[]}) => {
       }, [emblaApi]);
 
   return (
-    <div className='flex flex-col w-screen items-center justify-center gap-[50px] my-[100px] max-w-[1440px]'>
+    <div className='flex flex-col w-screen items-center justify-center gap-[50px] my-[100px] max-w-[1920px]'>
       <div className='flex flex-col items-start justify-start gap-[35px] text-black font-jost w-[76.8%]'>
         <span className='text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>{span}</span>
         <h3 className='text-[48px] font-marcellus font-normal leading-[57.6px]'>{header}</h3>

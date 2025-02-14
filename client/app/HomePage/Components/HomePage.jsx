@@ -18,6 +18,7 @@ export default function HomePage() {
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
       <Reservation/>
+      
     </div>
   )
 }

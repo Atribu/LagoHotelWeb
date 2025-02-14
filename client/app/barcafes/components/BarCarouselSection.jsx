@@ -40,7 +40,7 @@ const BarCarouselSection = () => {
     }
   }, [emblaApi]);
   return (
-    <div className='flex w-screen h-auto my-[50px] items-center justify-center gap-[1%]'>
+    <div className='flex w-screen h-auto my-[50px] items-center justify-center gap-[1%] max-w-[1920px]'>
         <div className='flex flex-col items-start justify-center lg:ml-[11.6%] w-[33.4%] gap-[35px] text-black font-jost'>
             <span className='text-[12px] font-medium leading-normal uppercase tracking-[0.48px] '>Experience traditional culture</span>
             <h2 className='text-[48px] font-marcellus font-normal leading-[57.6px]'>Hungry for more?</h2>

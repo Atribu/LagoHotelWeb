@@ -20,7 +20,7 @@ const ActivityBackgroundSection = () => {
       <div className='flex w-full h-[73vh] relative' >
         <Image src={img1} width={img1.width} height={img1.height} className='w-[40%] z-10' alt='activity '/>
         <Image src={img2} width={img2.width} height={img2.height} className='w-[60%] z-10' alt='activity'/>
-        <div className='absolute inset-0 items-center justify-center gap-[95px] flex w-full z-30'>
+        <div className='absolute inset-0 items-center justify-center gap-[95px] 2xl:justify-between flex w-full z-30'>
                 <L2Svg className="flex z-50" width={227} height={645} />
                 <A2Svg className="flex" width={341} height={645}/>
                 <G2Svg className="flex" width={285} height={645}/>

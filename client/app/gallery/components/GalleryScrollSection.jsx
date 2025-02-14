@@ -43,7 +43,7 @@ const GalleryScrollSection = () => {
       ];
 
   return (
-    <div className='flex w-screen items-center justify-center mt-[50px]'>
+    <div className='flex w-screen items-center justify-center mt-[50px] max-w-[1920px]'>
       <div className='flex flex-col items-center justify-between w-[75%] gap-[40px]'>
         <div className='flex items-center justify-between gap-[10px]'>
             <Link href="/" className='flex border border-lagoGray items-center justify-center whitespace-nowrap py-[16px] px-[20] w-[140px] text-[14px] text-lagoGray font-medium uppercase leading-[125%] -tracking-[0.308px] font-jost'>GENERAL VIEW</Link>

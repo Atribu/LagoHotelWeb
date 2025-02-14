@@ -45,7 +45,7 @@ const OtherOptions = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start" });
 
   return (
-    <div className='flex w-screen h-auto items-center justify-center'>
+    <div className='flex w-screen h-auto items-center justify-center max-w-[1444px]'>
       <div className='flex flex-col w-[76.8%] items-start justify-center gap-[69px]'>
         <div className='flex flex-col items-start justify-center w-full text-black'>
             <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost'>CHOOSE THE BEST ROOM FOR YOU</span>
