@@ -1,12 +1,18 @@
 import React from 'react'
 import Connect1 from "./components/Connect1.jsx"
 import Connect2 from './components/Connect2.jsx'
+import Connect3 from './components/Connect3.jsx'
+import ContactSection2 from '../GeneralComponents/Contact/ContactSection2.jsx'
+import HomePage6 from "../HomePage/Components/HomePage5.jsx"
 
 const page = () => {
   return (
     <div>
       <Connect1 />
       <Connect2 />
+      <Connect3 />
+      <ContactSection2 />
+      <HomePage6 />
     </div>
   )
 }
