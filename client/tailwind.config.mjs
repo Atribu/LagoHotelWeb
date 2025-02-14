@@ -29,6 +29,19 @@ export default {
         buttonCustom: '0px 0px 50px 0px rgba(20, 12, 41, 0.07)',  
         divCustom:'2px 5px 100px 6px rgba(20, 12, 41, 0.05)'
       },
+
+      screens: {
+        'tablet': '640px',
+        
+  
+        'laptop': '1024px',
+        
+  
+        'desktop': '1280px',
+
+        "laptopMac":"1728px" 
+        
+      },
     },
   },
   plugins: [],
