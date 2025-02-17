@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const SpecialInfoSection = () => {
   return (
-    <div className="flex w-screen h-[555px]  items-center justify-center relative">
-      <div className="flex w-[76.8%] items-center justify-between  h-full max-w-[1444px]">
+    <div className="flex w-screen h-[555px] items-center justify-center relative  max-w-[1444px]">
+      <div className="flex w-[76.8%] items-center justify-between h-full gap-[4%]">
         <div className="flex flex-col w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
           Perfect Fine Dine Experiences
@@ -23,9 +23,9 @@ const SpecialInfoSection = () => {
             
         </div>
 
-        <div className="flex w-[49%] items-start justify-start relative h-full">
-            <Image src={img2} alt="art" width={300} height={450}/>
-            <Image src={img1} alt="art" width={300} height={450} className="absolute top-[24%] left-[30%]"/>
+        <div className="flex w-[49%] items-end justify-end relative h-full">
+            <Image src={img1} alt="art" width={300} height={450} className="z-[99]"/>
+            <Image src={img2} alt="art" width={300} height={450} className="absolute bottom-[105px] right-[215px]"/>
         </div>
 
       </div>

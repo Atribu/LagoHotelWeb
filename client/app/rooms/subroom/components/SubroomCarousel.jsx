@@ -9,7 +9,7 @@ import img4 from "../images/ImagePlaceholder4.webp";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 const SubroomCarousel = () => {
-  const [emblaRef] = useEmblaCarousel({ align: "center" });
+  const [emblaRef] = useEmblaCarousel({ align: "center",  loop: true, });
   const images = [img1, img2, img3, img4, img1, img2, img3, img4];
 
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -45,11 +45,11 @@ const SubroomCarousel = () => {
     <>
       {/* Carousel */}
       <div className="overflow-hidden w-screen mt-[9px]" ref={emblaRef}>
-        <div className="flex gap-[5px]">
+        <div className="flex gap-[5px] ">
           {images.map((img, index) => (
             <div
               key={index}
-              className="flex-[0_0_calc(100vw/3.9)] min-w-[372px] h-[38vh] bg-gray-300 overflow-hidden cursor-pointer"
+              className="flex-[0_0_calc(100vw/3.9)] 2xl:flex-[0_0_calc(100vw/4.9)] 2xl:h-[28vh] min-w-[372px] h-[38vh]  bg-gray-300 overflow-hidden cursor-pointer"
               onClick={() => openImage(index)}
             >
               <Image
@@ -79,11 +79,11 @@ const SubroomCarousel = () => {
           </button>
 
           {/* Seçili Resim */}
-          <div className="relative flex items-center justify-center mt-16">
+          <div className="relative flex items-center justify-center mt-1">
             <Image
               src={selectedImage}
               alt="Selected Image"
-              className=" max-w-[90vw] max-h-[80vh] h-[600px] object-contain rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-100 hover:scale-105"
+              className=" max-w-[90vw] max-h-[80vh] object-contain rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-100 hover:scale-105"
               width={800}
               height={600}
             />

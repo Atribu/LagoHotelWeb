@@ -6,7 +6,7 @@ import GreenAndBlueFull from "./Images/GreenAndBlueFull.png"
 export default function HomePage5() {
   return (
     <div
-      className="relative w-full h-[596px] mt-[330px] bg-cover bg-center items-start justify-start"
+      className="relative w-full h-[596px] mt-[350px] bg-cover bg-center items-start justify-start"
       style={{
         backgroundImage: `url(${GreenAndBlueFull.src})`
       }}
@@ -16,7 +16,7 @@ export default function HomePage5() {
         absolute top-0 left-0 w-full h-[150px]
       */}
       <div className="absolute top-0 left-0 w-full h-[150px] bg-gradient-to-b from-white to-transparent" />
-      <section className="w-full flex flex-col items-center justify-start z-[99] absolute gap-[35px] -top-[230px]">
+      <section className="w-full flex flex-col items-center justify-start z-[99] absolute gap-[35px] -top-[250px]">
       {/* Küçük üst başlık */}
       <p className=" font-jost text-[12px] leading-[14px] tracking-[0.48px] uppercase  font-medium text-black">
         A Unique Feast of Taste

@@ -32,27 +32,31 @@ const RoomsSectionReverse = ({img,img2, header,text,span,span2,link, id}) => {
           <h3 className="text-lagoBlack font-marcellus text-[30px] font-normal leading-[125%] -tracking-[0.66px] capitalize">
          {header}
           </h3>
-          <p className="text-lagoBrown font-normal leading-normal text-[16px]">
+          <p className="text-lagoBrown font-normal leading-normal text-[16px] w-[93%]">
           {text}
           </p>
           <div className="flex w-full items-center justify-start gap-[27px]">
             <div className="flex items-start justify-start gap-[7px]">
               <AreaSvg className="flex" width={17} height={18} />
-              <p className="text-lagoBrown text-[14px] font-normal leadin-[125%]">
+              <p className="text-lagoBrown text-[14px] font-normal leading-[125%]">
                {span}
               </p>
             </div>
             <div className="flex items-center justify-start gap-[7px]">
               <TreeSvg className="flex" width={15} height={16} />
               <ViewSvg className="flex" width={15} height={16} />
-              <p className="text-lagoBrown text-[14px] font-normal leadin-[125%]">
+              <p className="text-lagoBrown text-[14px] font-normal leading-[125%]">
               {span2}
               </p>
             </div>
           </div>
-          <Link href={link} className="flex border border-lagoBrown items-center justify-center py-[10px] px-[40px] shadow-buttonCustom bg-transparent text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
+          <div className="flex gap-2">
+          <Link href={link} className="flex border border-lagoBrown items-center justify-center py-[20px] px-[40px] h-[41px] shadow-buttonCustom bg-transparent text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
             EXPLORE
           </Link>
+      
+
+          </div>
         </div>
       </div>
     </div>

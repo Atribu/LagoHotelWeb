@@ -6,12 +6,13 @@ import img1 from "../images/pool.webp";
 import img2 from "../images/kadeh.webp";
 import img3 from "../images/horse.webp";
 
-const images = [img1, img2, img3, img1];
+const images = [img1, img2, img3];
 
 const SpecialCarousel = () => {
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "center",
+    startIndex:1,
     containScroll: "trimSnaps", // Yanlardaki resimlerin taşmasını engeller
   });
 
@@ -43,12 +44,11 @@ const SpecialCarousel = () => {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] ml-[10px] h-[788px]"
-              >
+                className="flex-[0_0_auto] ml-[10px] h-[788px]">
                 <Image
                   src={image.src}
                   layout="cover"
-                  width={554}
+                  width={image.width}
                   height={788}
                   alt={`Slide ${index + 1}`}
                   objectPosition="center"

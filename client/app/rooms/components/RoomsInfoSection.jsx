@@ -3,8 +3,8 @@ import ClockSvg from "./svg/ClockSvg";
 
 const RoomsInfoSection = () => {
   return (
-    <div className="flex w-screen pt-[80px] h-auto justify-center items-center bg-white max-w-[1444px]">
-      <div className="flex flex-col w-[76.8%] gap-[26px] items-center justify-center text-center font-jost leading-normal font-normal ">
+    <div className="flex w-screen  h-auto justify-center items-center bg-white max-w-[1444px]">
+      <div className="flex flex-col w-[76.8%] gap-[14px] items-center justify-center text-center font-jost leading-normal font-normal ">
         <span className="text-lagoGray text-[12px] uppercase tracking-[0.48px] font-medium leading-[14px] items-stretch">
           Comfort stay for you and your famıly
         </span>
@@ -19,7 +19,7 @@ const RoomsInfoSection = () => {
           sollicitudin odio amet. Eu donec in nullam amet consectetur orci
           nullam sed. Felis in.
         </p>
-        <div className="flex w-[42%] justify-between gap-[70px] items-center">
+        <div className="flex w-[42%] justify-between gap-[70px] items-center mt-[24px]">
           <div className="flex gap-[22px] items-center justify-center">
             <ClockSvg className="flex" width={14} height={14} />
             <p className="text-lagoGray text-[14px] ">CHECK-IN: 14:00</p>
