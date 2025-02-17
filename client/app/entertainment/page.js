@@ -8,7 +8,7 @@ import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center gap-[100px]'>
       <MainBannerSection img={mainImg}/>
       <ActivitiesSection/>
       <EntertainmentTypesSection/>

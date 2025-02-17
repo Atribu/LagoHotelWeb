@@ -53,7 +53,7 @@ const OtherOptions4 = ({ span, header, text, images }) => {
   const [emblaRef] = useEmblaCarousel({ align: "start" });
 
   return (
-    <div className="flex w-screen h-auto items-center justify-center mb-[100px] max-w-[1444px]">
+    <div className="flex w-screen h-auto items-center justify-center  max-w-[1444px]">
       <div className="flex flex-col w-[76.8%] items-center justify-center gap-[50px]">
         <OtherOptionsHeader span={span} header={header} text={text} />
         <div className="overflow-hidden w-full" ref={emblaRef}>

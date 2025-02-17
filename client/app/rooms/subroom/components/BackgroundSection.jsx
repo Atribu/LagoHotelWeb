@@ -13,7 +13,7 @@ const BackgroundSection = ({
 
   return (
     <div
-      className="flex w-screen h-[63vh] items-end justify-end my-[100px] bg-cover bg-center"
+      className="flex w-screen h-[63vh] items-end justify-end bg-cover bg-center"
       style={{ backgroundImage }}
     >
       <div className="flex h-full w-[45%] items-center justify-center bg-[#2D2D26]/50">

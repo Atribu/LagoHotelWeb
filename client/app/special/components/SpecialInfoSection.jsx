@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const SpecialInfoSection = () => {
   return (
-    <div className="flex w-screen h-[555px] my-[100px] items-center justify-center relative">
-      <div className="flex w-[76.8%] items-center justify-between ml-32 h-full">
+    <div className="flex w-screen h-[555px]  items-center justify-center relative">
+      <div className="flex w-[76.8%] items-center justify-between  h-full max-w-[1444px]">
         <div className="flex flex-col w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
           Perfect Fine Dine Experiences

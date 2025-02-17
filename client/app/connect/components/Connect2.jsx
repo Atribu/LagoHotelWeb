@@ -4,7 +4,7 @@ import image from '../Image/SRF_7996-min.webp'
 
 const Connect2 = () => {
   return (
-    <div className="relative w-full min-h-[80vh] flex flex-col items-center">
+    <div className="relative w-full ] flex flex-col items-center">
       {/* Arka plan resmi container'ı: genişlik 978px, yükseklik 744px, solda kaydırılmış */}
       <div className="relative w-[978px] h-[744px] -ml-[15%]">
         <Image

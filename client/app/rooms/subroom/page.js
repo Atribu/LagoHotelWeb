@@ -12,14 +12,15 @@ const backgroundTexts=["Guests staying in Swim-Up rooms are welcomed with a VIP 
 
 const page = () => {
   return (
-    <div className=' overflow-hidden flex flex-col items-center justify-center'>
-      <SubRoomBanner/>
-      <SubroomCarousel/>
+    <div className=' overflow-hidden flex flex-col items-center justify-center gap-[100px]'>
+     <div className='flex flex-col'>
+     <SubRoomBanner/>
+     <SubroomCarousel/>
+     </div>
       <RoomFeatures/>
       <BackgroundSection span="EXCLUSIVE PRIVILEGES" header="Swim-Up Room VIP Benefits" texts={backgroundTexts} link="/" img={backgroundImg}/>
       <RoomTour span="CHOOSE THE BEST ROOM FOR YOU" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa." link="/"/>
       <OtherOptions/>
-      <div className='my-10'></div>
       <ContactSection2/>
     </div>
   )

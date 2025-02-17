@@ -9,7 +9,7 @@ import OSvg from './OSvg'
 
 const ActivitiesSection = () => {
   return (
-    <div className='flex w-screen h-auto my-[50px] items-center justify-center'>
+    <div className='flex w-screen h-auto  items-center justify-center'>
       <div className='flex flex-col w-full items-center justify-center gap-[50px]'>
         <div className='flex flex-col w-[76.8%] gap-[35px] items-center justify-center text-black font-jost text-center'>
             <span className='text-[12px] leading-[14px] font-medium uppercase tracking-[0.48px]'>Entertainment & Actıvıtıes</span>

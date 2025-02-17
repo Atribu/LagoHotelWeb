@@ -6,7 +6,7 @@ import StaffSvg from './StaffSvg'
 
 const KidsIconsSection = () => {
   return (
-    <div className='flex w-screen items-center justify-center my-[50px] max-w-[1444px]'>
+    <div className='flex w-screen items-center justify-center  max-w-[1444px]'>
       <div className='w-[76.8%] flex justify-between items-center '>
         <div className='flex flex-col gap-[18px] items-center justify-center'>
             <div className='flex bg-[#84C9EA] rounded-full p-[32px]'>

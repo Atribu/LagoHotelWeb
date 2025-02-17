@@ -45,7 +45,7 @@ const GallerySection = () => {
 
 const ContactSection2 = () => {
   return (
-    <div className="flex w-full mt-[7%] h-[50vh] mb-[7%] max-w-[1444px]">
+    <div className="flex w-full h-[50vh] max-w-[1444px] mb-[100px]">
       <div className="flex w-11/12 flex-row justify-center items-center border-[1px] border-black">
         <ContactDetails />
         <GallerySection />

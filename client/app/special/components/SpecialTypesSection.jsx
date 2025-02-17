@@ -51,7 +51,7 @@ const SpecialTypesSection = () => {
   const [selectedConcept, setSelectedConcept] = useState(concepts.Honeymoon);
 
   return (
-    <div className="flex flex-col w-screen items-center justify-center my-[100px] gap-[50px]">
+    <div className="flex flex-col w-screen items-center justify-center gap-[50px]">
       {/* Başlık Alanı */}
       <div className="flex flex-col items-center justify-center text-center w-[76.8%]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">

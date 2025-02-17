@@ -14,7 +14,7 @@ const SpaTypesInfoSection = ({
   const containerDirection = isImageLeft ? "flex-row" : "flex-row-reverse"
 
   return (
-    <div className="flex w-screen items-center justify-center my-[100px] max-w-[1444px]">
+    <div className="flex w-screen items-center justify-center  max-w-[1444px]">
       <div className={`flex w-[76.8%] items-center justify-center gap-[3.5%] ${containerDirection}`}>
         <Image 
           src={img} 

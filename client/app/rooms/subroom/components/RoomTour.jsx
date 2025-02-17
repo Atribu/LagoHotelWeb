@@ -2,7 +2,7 @@ import React from 'react'
 
 const RoomTour = ({span,header,text}) => {
   return (
-    <div className='flex w-screen h-auto my-[100px] items-center justify-center'>
+    <div className='flex w-screen h-auto items-center justify-center'>
       <div className='flex flex-col w-[76.8%] items-center justify-center gap-[50px]'>
 
        <div className='flex flex-col items-start justify-center gap-[35px] text-black text-start'>
