@@ -85,9 +85,17 @@
   background-size: cover;
 }
 
-.custom-scroll {
-  overflow: hidden; /* Kaydırma çubuğunu gizler */
+.custom-scroll::-webkit-scrollbar {
+  width: 0px; /* Scroll bar tamamen gizlendi */
+  height: 0px;
+  display: none;
 }
+
+.custom-scroll {
+  scrollbar-width: none; /* Firefox için */
+  -ms-overflow-style: none; /* Edge ve IE için */
+}
+
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
