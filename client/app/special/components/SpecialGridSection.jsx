@@ -72,11 +72,11 @@ const SpecialGridSection = () => {
         </div>
 
         {/* Dinamik Grid Bölümü */}
-        <div className="grid grid-cols-3 gap-[27px] w-full">
+        <div className="grid grid-cols-3 gap-[27px] w-[1106px]">
           {gridData.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col w-[100%] items-start justify-end pb-[38px] h-[57vh] bg-center bg-cover relative group"
+              className="flex flex-col w-[100%] items-start justify-end pb-[35px] h-[502px] bg-center bg-cover relative group"
               style={{ backgroundImage: `url(${item.image.src})` }}
             >
               {/* Hafif karartma (her zaman görünür) */}

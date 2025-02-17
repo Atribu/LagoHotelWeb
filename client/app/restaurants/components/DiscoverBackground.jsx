@@ -13,7 +13,7 @@ const DiscoverBackground = ({
 
   return (
     <div
-      className="flex w-screen h-[400px] 2xl:h-[950px] items-center justify-center bg-center bg-cover relative"
+      className="flex w-screen h-[400px]  items-center justify-center bg-center bg-cover relative"
       style={{ backgroundImage }}
     >
       {/* Yarı saydam siyah katman */}
