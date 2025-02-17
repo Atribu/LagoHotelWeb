@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export default function HomePage2() {
     return (
-        <div className="flex w-screen h-[785px] my-[100px] items-center justify-center max-w-[1444px]">
+        <div className="flex w-screen h-[785px] mt-[150px] items-center justify-center max-w-[1444px]">
           <div className="flex flex-row-reverse w-[76.8%] items-center justify-center gap-[52px] h-full">
     
             <div className="flex flex-col w-[48.5%] items-start justify-center text-start gap-[35px] text-black font-jost">

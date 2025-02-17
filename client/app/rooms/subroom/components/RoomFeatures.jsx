@@ -33,7 +33,7 @@ const items = [
 
 const RoomFeatures = () => {
   return (
-    <div className="flex w-screen h-auto my-[93px] items-center justify-center bg-[#fbfbfb]">
+    <div className="flex w-screen h-auto  items-center justify-center bg-[#fbfbfb]">
       <div className="flex w-[77%] items-start justify-center gap-[61px]">
         <div className="flex flex-col gap-[35px] w-[60%] items-start justify-start font-jost">
           <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[17px]">

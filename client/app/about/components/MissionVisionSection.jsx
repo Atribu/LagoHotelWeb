@@ -28,7 +28,7 @@ const MissionColumn = ({ img, spanText, heading, paragraph, showLink, link }) =>
 
 const MissionVisionSection = ({ texts = [], texts2 = [], texts3 = [], leftImg, rightImg, showLink, link1, link2 }) => {
   return (
-    <div className="flex w-screen items-center justify-center my-[100px] max-w-[1444px]">
+    <div className="flex w-screen items-center justify-center  max-w-[1444px]">
       <div className="flex flex-col w-[76.8%] items-center justify-center gap-[50px]">
         <div className="flex flex-col items-center justify-normal w-[65%] text-center font-jost text-black gap-[35px]">
           <span className="text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px]">

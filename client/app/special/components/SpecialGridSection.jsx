@@ -55,7 +55,7 @@ const gridData = [
 
 const SpecialGridSection = () => {
   return (
-    <div className="flex w-screen items-center justify-center mb-[100px]">
+    <div className="flex w-screen items-center justify-center ">
       <div className="flex flex-col w-[76.8%] items-center justify-center gap-[50px]">
         {/* Başlık Alanı */}
         <div className="flex flex-col w-[70%] items-center justify-center text-center text-black font-jost gap-[34px]">

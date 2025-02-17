@@ -10,7 +10,7 @@ import O2Svg from './O2Svg'
 
 const ActivityBackgroundSection = () => {
   return (
-    <div className='flex flex-col w-screen items-center justify-center gap-[50px] mb-[100px]' >
+    <div className='flex flex-col w-screen items-center justify-center gap-[50px] ' >
       <div className='flex flex-col w-[65%] items-center justify-center text-center font-jost text-black gap-[35px]'>
         <span className='text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>Entertainment & Actıvıtıes</span>
         <h3 className='text-[48px] font-normal leading-[57.6px] capitalize text-lagoBlack'>catch the rhythm</h3>

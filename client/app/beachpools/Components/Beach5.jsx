@@ -18,9 +18,9 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
             </p>
         </div>
         {/* Havuz içeriklerini grid yapısında 3 sütun 3 satır şeklinde düzenliyoruz ve gap'ı azaltıyoruz */}
-        <div className='grid grid-cols-3 mt-[5%] gap-[30px] w-[76.8%]' >
+        <div className='grid grid-cols-3  gap-[30px] w-[76.8%]' >
             {poolItems.map((pool, index) => (
-              <div key={index} className="flex flex-col gap-[15px] mb-[50px] w-[100%]">
+              <div key={index} className="flex flex-col gap-[15px] w-[100%]">
                 <Image 
                   src={pool.src} 
                   alt={pool.title}

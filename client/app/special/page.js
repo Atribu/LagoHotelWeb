@@ -9,7 +9,7 @@ import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center gap-[100px]'>
       <MainBannerSection span="HAPPY MOMENTS UNFORGETTABLE" header="Special Occasions" text="Lago team works for you to accumulate unforgettable memories with your loved ones on your special days. " img={mainImg}/>
       <SpecialTypesSection/>
       <SpecialGridSection/>

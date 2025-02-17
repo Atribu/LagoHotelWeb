@@ -6,6 +6,7 @@ import img1 from "../images/ImagePlaceholder1.webp";
 import img2 from "../images/ImagePlaceholder2.webp";
 import img3 from "../images/ImagePlaceholder3.webp";
 import img4 from "../images/ImagePlaceholder4.webp";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 const SubroomCarousel = () => {
   const [emblaRef] = useEmblaCarousel({ align: "center" });
@@ -71,34 +72,37 @@ const SubroomCarousel = () => {
             onClick={closeImage}
             className="absolute top-5 right-5 text-white text-4xl font-bold bg-gray-900 bg-opacity-50 px-4 py-2 rounded-full hover:bg-opacity-75 transition"
           >
-            X
+             <div className='flex bg-black/50 items-center justify-center h-10 w-10 rounded-[4px] '>
+          <div className='flex h-[2px] w-6 rotate-[-45deg] flex-shrink-0 bg-white'></div>
+          <div className='flex absolute h-[2px] w-6 rotate-[45deg] flex-shrink-0 bg-white'></div>
+          </div>
           </button>
 
           {/* Seçili Resim */}
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center mt-16">
             <Image
               src={selectedImage}
               alt="Selected Image"
-              className="w-auto h-auto max-w-[90vw] max-h-[80vh] object-contain rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-100 hover:scale-105"
+              className=" max-w-[90vw] max-h-[80vh] h-[600px] object-contain rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-100 hover:scale-105"
               width={800}
               height={600}
             />
           </div>
 
           {/* Geri & İleri Butonları (Resmin Altında) */}
-          <div className="flex gap-10 mt-4">
+          <div className="flex w-full justify-center gap-20 mt-6">
             <button
               onClick={prevImage}
-              className="text-white text-2xl font-bold bg-gray-900 bg-opacity-50 px-6 py-3 rounded-lg hover:bg-opacity-75 transition"
+              className="text-white text-2xl font-bold bg-gray-900 bg-opacity-50 p-2 rounded-lg hover:bg-opacity-75 transition"
             >
-              ↩ 
+              <MdKeyboardArrowLeft size={40}/>
             </button>
 
             <button
               onClick={nextImage}
-              className="text-white text-2xl font-bold bg-gray-900 bg-opacity-50 px-6 py-3 rounded-lg hover:bg-opacity-75 transition"
+              className="text-white text-2xl font-bold bg-gray-900 bg-opacity-50 p-2 rounded-lg hover:bg-opacity-75 transition"
             >
-             ❯
+             <MdKeyboardArrowRight size={40}/>
             </button>
           </div>
         </div>

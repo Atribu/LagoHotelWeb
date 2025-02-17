@@ -38,7 +38,7 @@ export default function HomePage3() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   return (
-    <div className="flex w-full mt-60">
+    <div className="flex w-full my-[100px]">
       {images.map((img, index) => {
         // Hover yoksa 3 resim eşit (w-1/3),
         // Hover varsa: hovered => w-1/2, diğer => w-1/4

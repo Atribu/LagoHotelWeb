@@ -120,7 +120,7 @@ export default function Header() {
       {isMenuOpen && (
         <div
           onClick={toggleMenu}
-          className="relative inset-0 z-40 "
+          className="relative inset-0 z-[9999] "
         />
       )}
 
@@ -132,7 +132,7 @@ export default function Header() {
           w-[420px]
           h-[calc(100vh-16.6px)]
           bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
-          z-50
+          z-[9999]
           transform transition-transform duration-300
           ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
         `}
@@ -140,13 +140,17 @@ export default function Header() {
         {/* Menü kapatma butonu */}
         <button
           onClick={toggleMenu}
-          className="absolute top-4 right-4 text-white text-3xl font-bold p-2 hover:text-gray-200"
+          className="absolute top-4 right-4 text-white text-3xl font-bold p-2 hover:text-gray-200 "
         >
-          x
+          <div className='flex bg-black/50 items-center justify-center h-10 w-10 rounded-[4px] '>
+          <div className='flex h-[2px] w-6 rotate-[-45deg] flex-shrink-0 bg-white'></div>
+          <div className='flex absolute h-[2px] w-6 rotate-[45deg] flex-shrink-0 bg-white'></div>
+          </div>
         </button>
 
         {/* MENÜ LİNKLERİ */}
         <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-white font-jost uppercase">
+          
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
           </Link>
@@ -192,7 +196,8 @@ export default function Header() {
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
           </div>
 
-          <button
+          <Link
+          href="/connect"
             className="
              flex justify-center
              items-center
@@ -211,7 +216,7 @@ export default function Header() {
             "
           >
             LET US CALL YOU
-          </button>
+          </Link>
 
           {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-[18.79px]">

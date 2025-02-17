@@ -35,7 +35,7 @@ const SpecialCarousel = () => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen justify-center items-center my-[100px] text-center gap-[50px]">
+    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
       <div className="flex flex-col w-full justify-center items-center h-full">
         {/* Carousel */}
         <div className="overflow-hidden relative w-full" ref={emblaRef}>
@@ -43,7 +43,7 @@ const SpecialCarousel = () => {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] ml-[10px] h-[80vh]"
+                className="flex-[0_0_auto] ml-[10px] h-[788px]"
               >
                 <Image
                   src={image.src}

@@ -47,7 +47,7 @@ const kids = [
 
 const page = () => {
   return (
-    <div className='overflow-hidden flex flex-col items-center justify-center'>
+    <div className='overflow-hidden flex flex-col items-center justify-center gap-[100px]'>
       <MainBannerSection img={image} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Bamboo Kids Club" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
       <KidsBamboo/>
       <KidsIconsSection/>

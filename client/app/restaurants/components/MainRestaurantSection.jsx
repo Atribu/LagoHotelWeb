@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const MainRestaurantSection = () => {
   return (
-    <div className='flex w-screen h-[450px] 2xl:h-[950px] items-center justify-start bg-center bg-cover mb-[100px] relative' style={{ backgroundImage: `url(${img.src})` }}>
+    <div className='flex w-screen h-[450px] 2xl:h-[950px] items-center justify-start bg-center bg-cover  relative' style={{ backgroundImage: `url(${img.src})` }}>
         <div className='absolute inset-0 z-[1] bg-lagoBlack/30'></div>
       <div className='flex flex-col ml-[20%] w-[38%] items-start justify-center gap-[30px] font-jost text-white z-10'>
         <span className='text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>A UNIQUE FEAST OF TASTE</span>

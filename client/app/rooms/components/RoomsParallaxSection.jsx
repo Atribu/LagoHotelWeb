@@ -7,7 +7,7 @@ import TvSvg from './svg/TvSvg'
 
 const RoomsParallaxSection = () => {
   return (
-    <div className='flex w-screen h-[610px] 2xl:h-[800px] mb-[104px] items-center justify-center parallax relative ' style={{ backgroundImage: `url(${oda.src})` }}>
+    <div className='flex w-screen h-[610px] 2xl:h-[800px] items-center justify-center parallax relative ' style={{ backgroundImage: `url(${oda.src})` }}>
         <div className='absolute inset-0 bg-lagoBlack/35 z-[1] '></div>
       <div className='flex flex-col w-[76.8%] items-start justify-center gap-[38px] font-jost text-white z-50 max-w-[1920px]'>
       <span className=' text-[12px] font-medium leading-[14px] -tracking-[0.48px] uppercase'>The Essential In-Room AmenitieS</span>

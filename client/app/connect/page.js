@@ -7,7 +7,7 @@ import HomePage6 from "../HomePage/Components/HomePage5.jsx"
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center gap-[100px]'>
       <Connect1 />
       <Connect2 />
       <Connect3 />
