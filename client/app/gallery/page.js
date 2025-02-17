@@ -6,7 +6,7 @@ import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center overflow-hidden'>
       <MainBanner2 img={mainImg} span="Expolre the hotel" header="Lago Gallery"/>
       <GalleryScrollSection/>
       <ContactSection2/>
