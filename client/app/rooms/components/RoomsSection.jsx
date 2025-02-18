@@ -10,7 +10,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id}) => {
   return (
     <div id={id} className="flex w-screen h-auto items-center justify-center ">
       <div className="flex items-center justify-between w-[76.8%] gap-[42px] max-w-[1208px] ">
-        <div className="flex items-center w-[72.5%] gap-[10px] 2xl:gap-[20px]">
+        <div className="flex items-center w-[72.5%] gap-[10px] ">
           <Image
             src={img}
             width={img.width}
@@ -33,7 +33,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id}) => {
           <h3 className="text-lagoBlack font-marcellus text-[30px] font-normal leading-[125%] -tracking-[0.66px] capitalize">
            {header}
           </h3>
-          <p className="text-lagoBrown font-normal leading-normal text-[16px]">
+          <p className="text-lagoBrown font-normal leading-normal text-[16px] w-[93%]">
            {text}
           </p>
           <div className="flex w-full items-center justify-start gap-[27px]">
@@ -51,7 +51,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id}) => {
               </p>
             </div>
           </div>
-          <Link href={link} className="flex border border-lagoBrown items-center justify-center py-[10px] px-[40px] shadow-buttonCustom bg-transparent text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
+          <Link href={link} className="flex border border-lagoBrown items-center h-[41px] justify-center py-[12px] px-[32px] shadow-buttonCustom bg-transparent text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
             EXPLORE
           </Link>
         </div>
