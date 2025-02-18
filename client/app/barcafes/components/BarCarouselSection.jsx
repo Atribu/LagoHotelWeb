@@ -57,7 +57,7 @@ const BarCarouselSection = () => {
   }, [emblaApi]);
 
   return (
-    <div className="flex w-screen h-auto items-center justify-center gap-[1%] max-w-[1920px]">
+    <div className="flex w-screen h-auto items-center justify-center gap-[1%] max-w-[1440px]">
       {/* Text Column */}
       <div className="flex flex-col items-start justify-center lg:ml-[11.6%] w-[33.4%] gap-[35px] text-black font-jost">
         <span className="text-[12px] font-medium leading-normal uppercase tracking-[0.48px]">
@@ -71,14 +71,14 @@ const BarCarouselSection = () => {
         </p>
         <Link
           href="/"
-          className="flex border border-lagoBrown py-[4px] px-[28px] w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px]"
+          className="flex border border-lagoBrown py-[4px] px-[28px] w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px] bg-[#fbfbfb]"
         >
           LEARN MORE
         </Link>
       </div>
       
       {/* Carousel Column */}
-      <div className="flex flex-col w-[54%] justify-end items-end h-full">
+      <div className="flex flex-col w-[54%] justify-end items-end h-full overflow-y-auto">
         <div
           className="flex overflow-hidden relative w-full h-full flex-col justify-end items-end"
           ref={emblaRef}

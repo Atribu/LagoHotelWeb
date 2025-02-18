@@ -10,13 +10,13 @@ const ClinaryReverseInfo = ({img1,img2,span,header,text1,text2}) => {
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
         {span}
           </span>
-          <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px]">
+          <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px] capsizedText2">
           {header}
           </h2>
-          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
          {text1}
           </p>
-          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
           {text2}
           </p>
           

@@ -13,11 +13,11 @@ const BackgroundSection = ({
 
   return (
     <div
-      className="flex w-screen h-[63vh] items-end justify-end bg-cover bg-center"
+      className="flex w-screen h-[45vh] min-h-[453px] items-end justify-end bg-cover bg-center"
       style={{ backgroundImage }}
     >
-      <div className="flex h-full w-[45%] items-center justify-center bg-[#2D2D26]/50">
-        <div className="flex flex-col items-start justify-center w-[80%] gap-[30px] text-white font-jost text-start">
+      <div className="flex h-full w-[46%] max-w-[840px] items-center justify-start bg-[#2D2D26]/50">
+        <div className="flex flex-col items-start justify-center w-[66%] min-w-[443px]  gap-[30px] ml-[10%] mb-[8%] mt-[9%]  text-white font-jost text-start">
           {/* span varsa göster */}
           {span && (
             <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
@@ -27,7 +27,7 @@ const BackgroundSection = ({
 
           {/* header varsa göster */}
           {header && (
-            <h2 className="text-[48px] font-marcellus font-normal leading-[57.6px]">
+            <h2 className="text-[48px] font-marcellus font-normal leading-[63.6094px] capsizedText2">
               {header}
             </h2>
           )}
@@ -58,7 +58,7 @@ const BackgroundSection = ({
           {/* Bağlantı */}
           <Link
             href={link}
-            className="text-[12px] font-normal leading-[30px] font-marcellus uppercase underline"
+            className="text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
             DISCOVER MORE
           </Link>

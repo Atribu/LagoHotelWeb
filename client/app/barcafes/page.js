@@ -19,6 +19,7 @@ import abella from "./images/abella.webp"
 import lago from "./images/lago.webp"
 import house from "./images/house.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
+import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 
 const clinaryTexts=["Lago, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet where delicious dishes feature uniqueness from Turkish cuisine as well as fresh flavors reflecting the spirit of the Mediterranean"]
 const backgroundTexts=["For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies."]
@@ -96,8 +97,8 @@ const otherOptions2 = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px]'>
-      <MainBannerSection img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Bars and Cafés" text="Enjoy a various amount of dining options from around the world."/>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+      <RestaurantMainBanner img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Bars and Cafés" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={cafebar1} img2={cafebar2} span="Perfect Fine Dine Experiences" header="Exceptional Bars and Cafes at LAGO" texts={clinaryTexts}/>
       <BackgroundSection span="A UNIQUE FEAST OF TASTE" header="Cool Down and Relax" texts={backgroundTexts} link="/" img={backgroundImg2}/>
       <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Exclusive Pool Bars" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>

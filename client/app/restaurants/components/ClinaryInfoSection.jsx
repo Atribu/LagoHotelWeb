@@ -12,7 +12,7 @@ const ClinaryInfoSection = ({
   texts = [],
 }) => {
   return (
-    <div className="flex w-screen h-[555px] 2xl:h-[832.5px] items-center justify-center max-w-[1444px]">
+    <div className="flex w-screen h-[555px]  items-center justify-center max-w-[1444px]">
       <div className="flex w-[76.8%] items-center justify-center gap-[52px] h-full">
         
         {/* Metin Alanı */}
@@ -24,14 +24,14 @@ const ClinaryInfoSection = ({
           )}
 
           {header && (
-            <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px]">
+            <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px] capsizedText2">
               {header}
             </h2>
           )}
 
           {/* İlk metin (her zaman paragraf olarak gösterilir) */}
           {texts[0] && (
-            <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+            <p className="text-[16px] font-normal leading-[24px] leading-trim-both text-edge-cap capsizedText4">
               {texts[0]}
             </p>
           )}

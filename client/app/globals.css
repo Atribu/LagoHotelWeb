@@ -129,14 +129,84 @@
   margin-bottom: 12px;
 }
 
+
+/* header 80px */
 @layer utilities {
-  .leading-trim-both {
-    leading-trim: both;
+  .capsizedText::before {
+    content: "";
+    margin-bottom: -0.31em;
+    display: table;
   }
-  .text-edge-cap {
-    text-edge: cap;
+
+  
+  .capsizedText::after {
+    content: "";
+    margin-top: -0.315em;
+    display: table;
   }
 }
+
+/* header 48px */
+@layer utilities {
+  .capsizedText2::before {
+    content: "";
+    margin-bottom: -0.3096em;
+    display: table;
+  }
+
+  .capsizedText2::after {
+    content: "";
+    margin-top: -0.3154em;
+    display: table;
+  }
+}
+
+/* text px */
+@layer utilities {
+  .capsizedText3::before {
+    content: "";
+    margin-bottom: -0.4137em;
+    display: table;
+  }
+
+  .capsizedText3::after {
+    content: "";
+    margin-top: -0.4196em;
+    display: table;
+  }
+}
+
+/* text 14px-16px */
+@layer utilities {
+  .capsizedText4::before {
+    content: "";
+    margin-bottom: -0.3975em;
+    display: table;
+  }
+
+  .capsizedText4::after {
+    content: "";
+    margin-top: -0.4025em;
+    display: table;
+  }
+}
+
+/* header 26px */
+@layer utilities {
+  .capsizedText5::before {
+    content: "";
+    margin-bottom: -0.3817em;
+    display: table;
+  }
+
+  .capsizedText5::after {
+    content: "";
+    margin-top: -0.3875em;
+    display: table;
+  }
+}
+
+
 
 .custom-calendar {
   @apply bg-[#1D1D1B] text-white rounded-lg shadow-lg p-3 border border-gray-700 transition-opacity duration-300;

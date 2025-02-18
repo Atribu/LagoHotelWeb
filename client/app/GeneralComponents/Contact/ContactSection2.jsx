@@ -7,7 +7,7 @@ import minigallery from "./images/minigallery.webp"
 
 const ContactDetails = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-5/12 ml-[4%] gap-5">
+    <div className="flex flex-col justify-start items-start w-5/12 ml-[4%] gap-5">
       <span className="font-jost ml-[2%] w-7/12 text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
         CONTACT US FOR MORE
       </span>
@@ -18,7 +18,7 @@ const ContactDetails = () => {
         <span>Call Center: +90 242 524 57 87</span>
         <span>Email: sales@lagohotel.com</span>
       </p>
-      <div className="flex w-8/12 ml-[7%] gap-[20px] whitespace-nowrap">
+      <div className="flex gap-[20px] whitespace-nowrap">
         <div className="flex items-center justify-center gap-[18px]">
           <InstagramSvg width={31} height={31} />
           <FacebookSvg width={30} height={30} />

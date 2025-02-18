@@ -33,16 +33,16 @@ const items = [
 
 const RoomFeatures = () => {
   return (
-    <div className="flex w-screen h-auto  items-center justify-center bg-[#fbfbfb]">
-      <div className="flex w-[77%] items-start justify-center gap-[61px]">
+    <div className="flex w-screen h-auto  items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
+      <div className="flex w-[76.8%] items-start justify-center gap-[4.5%] ">
         
-        <div className="flex flex-col gap-[35px] w-[60%] items-start justify-start font-jost">
+        <div className="flex flex-col gap-[30px] w-[63%] items-start justify-start font-jost">
 
-          <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[17px]">
+          <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[10px]">
             <span className="text-lagoGray text-[12px] leading-[14px] font-medium tracking-[0.48px] uppercase">
               FUN FOR ALL ages
             </span>
-            <h2 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-[120px]">
+            <h2 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-normal">
               Swim Up Family Room
             </h2>
             <p className="text-lagoBlack text-[16px] leading-normal font-normal">
@@ -63,15 +63,16 @@ const RoomFeatures = () => {
               Family-friendly Amenities
             </h3>
             <div className="flex gap-[15px] w-full items-center justify-start">
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px]">
+
+              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
                 <PoolSvg className="flex" width={65} height={60} />
                 <p className="text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Independent Pool
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px]">
-                <div className="flex">
+              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
+                <div className="flex py-[10px] px-[6px]">
                   <SinglebedSvg className="flex" width={32} height={35} />
                   <SinglebedSvg
                     className="flex -ml-[12px]"
@@ -84,8 +85,8 @@ const RoomFeatures = () => {
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px]">
-                <BabycribSvg className="flex" width={38} height={38} />
+              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
+                <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
                 <p className="text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Extra Baby Crib
                 </p>
@@ -93,7 +94,7 @@ const RoomFeatures = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full items-start justify-center gap-[17px]">
+          <div className="flex flex-col w-full items-start justify-center gap-[10px]">
             <h3 className="text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
               Room Features
             </h3>
@@ -106,14 +107,13 @@ const RoomFeatures = () => {
               THE POOLS IN THE SWIMUP ROOMS ARE NOT HEATED.
             </p>
           </div>
-
           <div className="grid grid-cols-4 gap-[35px] items-start justify-start w-full">
             {items.map((item, index) => (
               <div
                 key={index}
                 className="flex gap-[14px] items-center justify-start"
               >
-                <div className="p-[10px] flex border bg-transparent border-lagoBrown items-center justify-center text-center">
+                <div className="p-[8px] flex border bg-transparent border-lagoBrown items-center justify-center text-center">
                   <item.icon className="flex" width={20} height={20} />
                 </div>
                 <p className="text-lagoBrown text-[15px] font-medium leading-[120%] -tracking-[0.3px]">
@@ -125,20 +125,22 @@ const RoomFeatures = () => {
         </div>
 
         {/* resevation */}
-        <div className="flex flex-col w-[39%] max-w-[347px] gap-[35px]">
-        <div className="flex flex-col  w-full py-[40px] px-[36px] items-center justify-center text-center gap-[20px] bg-white shadow-divCustom">
+        <div className="flex flex-col w-[32.5%] gap-[35px] pb-[16px] font-jost">
+        <div className="flex flex-col  w-full py-[50px]  pl-[50px] items-start justify-center text-center gap-[20px] bg-white shadow-divCustom">
+            <div className="flex flex-col gap-[10px] w-full mb-[5px] items-start text-start">
             <h3 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
-            <p className="text-[18px] text-lagoBrown leading-[140%] font-normal mb-[5px]">Pick up the dates for your stay</p>
-            <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
-            <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
-            <div className="flex items-center justify-start p-[18px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
-            <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border border-lagoBlack w-[175px] shadow-buttonCustom text-[18px] uppercase font-semibold font-jost leading-[120%] -tracking-[0.36px] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+            <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">Pick up the dates for your stay</p>
+            </div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
+            <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
         </div>
-        <div className="flex flex-col  items-center justify-center w-full gap-[17px] bg-white py-[15px]">
-          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px]">Contact us now</h4>
+        <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
+          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-mediumfont-jost leading-[120%] -tracking-[0.32px]">+90 123 456 78 90</p>
+          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 123 456 78 90</p>
           </div>
         </div>
         </div>

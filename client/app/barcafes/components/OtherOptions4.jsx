@@ -10,10 +10,10 @@ const OtherOptionsHeader = ({ span, header, text }) => (
     <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost">
       {span}
     </span>
-    <h2 className="text-[48px] font-marcellus font-normal leading-[57.6px]">
+    <h2 className="text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
       {header}
     </h2>
-    <p className="text-[16px] font-normal leading-[24px] w-[70%] font-jost">
+    <p className="text-[16px] font-normal leading-[24px] w-[70%] font-jost capsizedText4">
       {text}
     </p>
   </div>
@@ -22,7 +22,7 @@ const OtherOptionsHeader = ({ span, header, text }) => (
 // Her bir slide'ı render eden bileşen
 const OtherOptionSlide = ({ room }) => (
   <div className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_25%] xl:flex-[0_0_23.5%] min-w-0 mr-[1.5%]">
-    <div className="flex flex-col w-full items-start justify-center gap-[15px] font-jost text-black">
+    <div className="flex flex-col w-full items-start justify-center gap-[20px] font-jost text-black">
       <Image 
         src={room.img} 
         alt={room.title} 
@@ -33,18 +33,18 @@ const OtherOptionSlide = ({ room }) => (
       <span className="text-[12px] font-medium leading-normal tracking-[0.48px] uppercase">
         {room.description}
       </span>
-      <h3 className="text-[26px] leading-normal font-normal font-marcellus">
+      <h3 className="text-[26px] leading-normal font-normal font-marcellus capsizedText5">
         {room.title}
       </h3>
-      <p className="text-[14px] leading-normal font-normal w-[98%]">
+      <p className="text-[14px] leading-[21px] font-normal w-[98%] capsizedText4">
         {room.text}
       </p>
-      <Link 
-        href={room.link} 
-        className="flex text-lagoBrown font-marcellus leading-[30px] uppercase font-normal text-[14px] text-start underline"
-      >
-        DISCOVER MORE
-      </Link>
+      <Link
+            href={room.link}
+            className="text-[16px] font-normal leading-normal font-marcellus uppercase border-b border-lagoBlack pb-[8px] h-[24px] text-center w-auto items-center justify-center"
+          >
+            DISCOVER MORE
+          </Link>
     </div>
   </div>
 );

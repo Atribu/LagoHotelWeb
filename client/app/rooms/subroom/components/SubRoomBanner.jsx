@@ -14,7 +14,7 @@ const SubRoomBanner = () => {
     <div className='flex w-screen h-[80vh] items-center justify-center bg-cover bg-center' style={{ backgroundImage: `url(${mainImg.src})` }}>
       <div className='flex flex-col w-[80%] h-full items-center justify-center text-white font-jost gap-[39px]'>
         <span className='text-[15px] font-medium leading-[14px] tracking-[0.6px] uppercase'>exclusive stay with an INDEPENDENT pool</span>
-        <h2 className='text-[80px] font-medium leading-[50px]'>Family Swim-Up</h2>
+        <h2 className="capsizedText text-[80px] leading-[106px] font-medium ">Family Swim-Up</h2>
 
         <div className='flex w-full items-center justify-center gap-[16px] h-[103px]'>
 
