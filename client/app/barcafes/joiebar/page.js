@@ -5,8 +5,8 @@ import img1 from "./images/fresh1.webp"
 import img2 from "./images/fresh2.webp"
 import RoomTour from '@/app/rooms/subroom/components/RoomTour'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
-import gallery1 from "./images/gallery1.webp"
-import gallery2 from "./images/gallery2.webp"
+import gallery2 from "./images/gallery1.webp"
+import gallery1 from "./images/gallery2.webp"
 import gallery3 from "./images/gallery3.webp"
 import ClinaryReverseInfo from '@/app/restaurants/components/ClinaryReverseInfo'
 import backgroundImg from "../images/BackgroundCafes.webp"

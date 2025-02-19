@@ -17,11 +17,12 @@ const HomePage = () => {
         <EmblaCarousel options={{ loop: true }}/>
      <div className='flex flex-col items-center justify-center w-screen'>
      <HomePage3 />
-     </div>
-        <HomePage4 />
+     <HomePage4 />
         <HomePage5 />
         <ContactSection />
         <HomePage6 />
+     </div>
+        
     </div>
   )
 }

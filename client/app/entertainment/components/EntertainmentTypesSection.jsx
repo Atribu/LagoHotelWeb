@@ -79,18 +79,18 @@ const activities = [
 
 const EntertainmentTypesSection = () => {
   return (
-    <div className="flex w-screen items-center justify-center max-w-[1920px]">
-      <div className="flex flex-col w-[76.8%] items-start justify-center gap-[50px]">
+    <div className="flex w-screen items-center justify-center max-w-[1440px]">
+      <div className="flex flex-col w-[76.8%] items-start justify-center gap-[50px] max-w-[1106px]">
         
         {/* Başlık Bölümü */}
         <div className="flex flex-col items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             Entertainment & Actıvıtıes
           </span>
-          <h3 className="text-[46px] font-normal font-marcellus leading-[57.6px]">
+          <h3 className="text-[48px] font-normal font-marcellus leading-[57.6px] capsizedText2">
             Events are held daily, Except Sundays
           </h3>
-          <p className="text-[16px] font-normal leading-[24px]">
+          <p className="text-[16px] font-normal leading-[24px] w-[65%] capsizedText4">
             LAGO, which offers a variety of activities like disco, bocce, beach volleyball, table tennis, cinema, beach activities, water sports, and night entertainment, is ready to welcome you with sporting
           </p>
         </div>
@@ -105,10 +105,10 @@ const EntertainmentTypesSection = () => {
                   <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
                     {activity.category}
                   </span>
-                  <h4 className="text-[30px] font-normal leading-[32px] capitalize font-marcellus">
+                  <h4 className="text-[30px] font-normal leading-[40px] capitalize font-marcellus capsizedText3">
                     {activity.title}
                   </h4>
-                  <p className="text-[14px] font-normal leading-[21px]">
+                  <p className="text-[14px] font-normal leading-[21px] capsizedText4">
                     {activity.description}
                   </p>
                 </div>

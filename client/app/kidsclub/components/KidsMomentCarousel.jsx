@@ -49,14 +49,15 @@ const KidsMomentCarousel = ({ images, header }) => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] min-w-0 ml-[10px] w-auto h-[600px]"
+                className="flex-[0_0_auto] min-w-0 ml-[10px] h-[600px]"
               >
                 <Image
                   src={img.src}
+                  layout="cover"
                   width={img.width}
                   height={img.height}
-                  alt={`Slide ${index + 1}`}
-                  style={{ objectPosition: "center" }}
+                   alt={`Slide ${index + 1}`}
+                  objectPosition="center"
                   className="flex h-full w-auto"
                 />
               </div>

@@ -11,6 +11,11 @@ import Phone from './Icons/Phone'
 import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
+import logosvg from "./Icons/Asset 2.svg"
+import gradient from "./Icons/Rectangle 4160.png"
+import gradient2 from "./Icons/Rectangle 4161.png"
+import gradient3 from "./Icons/gradient.png"
+import gradient4 from "./Icons/header.png"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -49,35 +54,35 @@ export default function Header() {
             h-[144px]
             flex
             items-center
-            bg-gradient-to-b
-            from-black/70
+      
             to-transparent
             w-full
           "
         >
-          <div className="absolute inset-0 pointer-events-none w-full" />
+          <div className='absolute flex -top-[6px] w-full'>
+            <Image src={gradient4} width={gradient4.width} height={gradient4.header} className='w-full  h-[144px] ' alt='header'/>
+          </div>
 
           {!isMenuOpen && (
-            <button className="flex z-20 ml-10" onClick={toggleMenu}>
-              <Hamburger width={40} height={40} color="white" className="object-contain" />
+            <button className="flex z-20 ml-[4%] " onClick={toggleMenu}>
+              <Hamburger width={30} height={30} color="white" className="object-contain" />
             </button>
           )}
 
           {/* Ortadaki Logo */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-           <Link className='w-full' href="/">
+           <Link className='w-full items-center justify-center flex' href="/">
            <Image 
-              src={Logo}
+              src={logosvg}
               alt="Logo"
-              width={70}
-              height={52}
-              className="object-contain"
-              
+
+              className="object-contain w-[30%] items-center justify-center"
+
             /></Link>
           </div>
 
           {/* Sağ Contact & Book Now */}
-          <div className="ml-auto flex items-center space-x-4 mr-12 z-20">
+          <div className="ml-auto flex items-center justify-center space-x-[5px] mr-[4%] z-20 h-full">
             <Link 
               href="/contact"
               className="
@@ -86,19 +91,23 @@ export default function Header() {
                 font-medium
                 leading-normal
                 uppercase
-                hover:underline
-                underline-offset-4
+                 underline
+                underline-offset-[5px]
                 decoration-solid
                 px-[30px]
-                py-[15px]
+                pb-[15px]
+                pt-[8px]
+                font-jost
+                h-[41px]
               "
             >
               Contact
             </Link>
             <button
               className="
-                px-[30px]
-                py-[15px]
+               flex
+                px-[35px]
+                py-[17px]
                 text-white
                 text-[16px]
                 font-medium
@@ -108,6 +117,10 @@ export default function Header() {
                 border
                 border-white
                 border-solid
+                 h-[42px]
+                 w-auto
+                 items-center justify-center
+                 font-jost
               "
             >
               Book Now
