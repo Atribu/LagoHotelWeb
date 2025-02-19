@@ -77,11 +77,11 @@ const page = () => {
   return (
     <div className='overflow-hidden overflow-y-hidden'>
       <Beach1 />
-     <div className='flex flex-col items-center justify-center'>
+     <div className='flex flex-col items-center justify-center gap-[100px]'>
      <Beach2 />
       <Beach3 />
       <Beach4 />
-      <Beach5 showLink={false} span="Dive Into Our Exclusive Pool Selection" header=" All Pools at a Glance" text=" Lorem ipsum dolor sit amet consectetur. Mauris et cras ut odio phasellus. Volutpat leo tempor quam lobortis purus nulla. Turpis felis sit sed tristique ut fermentum gravida aenean nam. Facilisi neque sit donec <br/> vitae velit diam eget ut. Imperdiet vivamus molestie volutpat at tellus scelerisque velit. Nibh integer odio." poolItems={poolItems}/>
+      <Beach5 showLink={false} span="Dive Into Our Exclusive Pool Selection" header=" All Pools at a Glance" text=" Lorem ipsum dolor sit amet consectetur. Mauris et cras ut odio phasellus. Volutpat leo tempor quam lobortis purus nulla. Turpis felis sit sed tristique ut fermentum gravida aenean nam. Facilisi neque sit donec vitae velit diam eget ut. Imperdiet vivamus molestie volutpat at tellus scelerisque velit. Nibh integer odio." poolItems={poolItems}/>
       <ContactSection2 />
      </div>
     </div>

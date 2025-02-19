@@ -4,8 +4,8 @@ import Swimm from "../Images/Swimming.png"
 
 const Beach4 = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full mt-[5%]'>
-        <div className='flex flex-col justify-center items-center gap-6 mb-[4%]'>
+    <div className='flex flex-col justify-center items-center w-full gap-[50px]'>
+        <div className='flex flex-col justify-center items-center gap-[35px]'>
             <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>Pools Designed for Every Moment</p>
             <h2 className='font-marcellus text-[40px] leading-normal'>Float Into Relaxation</h2>
             <p className='font-jost text-[16px] leading-normal'>Lorem ipsum dolor sit amet consectetur. Diam pharetra ipsum elementum felis. Faucibus <br/> mauris mattis egestas ultricies convallis egestas sodales. Ac neque duis libero vitae <br/> pellentesque ornare ac sem massa. Sit lectus pretium pulvinar cras magna nisi in. Odio sed.</p>

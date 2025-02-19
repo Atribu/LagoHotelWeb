@@ -116,18 +116,13 @@ export default function Slider1({ slides }) {
   }, [emblaApi]);
 
   return (
-    <section className="relative w-full overflow-hidden mt-[100px]">
+    <section className="relative w-full overflow-hidden">
       <div
         ref={emblaRef}
         className="
           overflow-hidden
           w-full
-          ml-4
-          sm:ml-8
-          md:ml-12
-          lg:ml-16
-          xl:ml-24
-          2xl:ml-60
+          ml-[11.6%]
         "
       >
         <div className="flex">

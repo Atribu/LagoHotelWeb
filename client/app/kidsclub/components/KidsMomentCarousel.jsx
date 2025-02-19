@@ -35,7 +35,7 @@ const KidsMomentCarousel = ({ images, header }) => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px] max-w-[1920px]">
+    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
       <h2 className="text-[48px] text-black font-marcellus font-normal leading-[48px]">
         {header}
       </h2>
@@ -49,7 +49,7 @@ const KidsMomentCarousel = ({ images, header }) => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] min-w-0 ml-[10px] h-[600px]"
+                className="flex-[0_0_auto] min-w-0 ml-[10px] w-auto h-[600px]"
               >
                 <Image
                   src={img.src}
