@@ -57,9 +57,10 @@ const BarCarouselSection = () => {
   }, [emblaApi]);
 
   return (
-    <div className="flex w-screen h-auto items-center justify-center gap-[1%] max-w-[1440px]">
+    <div className="flex w-screen h-auto items-center justify-between">
       {/* Text Column */}
-      <div className="flex flex-col items-start justify-center lg:ml-[11.6%] w-[33.4%] gap-[35px] text-black font-jost">
+    <div className="flex items-end justify-end w-[49%]">
+    <div className="flex flex-col items-start justify-center max-w-[520px] gap-[35px] text-black font-jost">
         <span className="text-[12px] font-medium leading-normal uppercase tracking-[0.48px]">
           Experience traditional culture
         </span>
@@ -76,9 +77,10 @@ const BarCarouselSection = () => {
           LEARN MORE
         </Link>
       </div>
+    </div>
       
       {/* Carousel Column */}
-      <div className="flex flex-col w-[54%] justify-end items-end h-full overflow-y-auto">
+      <div className="flex flex-col w-[50%] justify-end items-end h-full overflow-y-auto">
         <div
           className="flex overflow-hidden relative w-full h-full flex-col justify-end items-end"
           ref={emblaRef}
