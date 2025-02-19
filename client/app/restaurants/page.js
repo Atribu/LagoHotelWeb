@@ -22,6 +22,7 @@ import img3 from "./images/art1.webp"
 import img4 from "./images/art2.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import Image from 'next/image'
+import mainBanner from "./images/restaurantMain.webp"
 
 const cuisines = [
     {
@@ -83,13 +84,13 @@ const textsClinary=["LAGO, you will enjoy your vacation with international cuisi
 const page = () => {
   return (
     <div className='overflow-hidden items-center justify-center flex flex-col gap-[100px]'>
-      <RestaurantMainBanner/>
+      <RestaurantMainBanner img={mainBanner} span="Curated Culinary Experiences" header="Restaurants" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={img3} img2={img4} span="Perfect Fine Dine Experiences" header=" Culinary Art at LAGO" texts={textsClinary} />
       <MainRestaurantSection/>
       <CuisinesCarousel span="Perfect Fine Dine Experiences" header="LAGO’s World Cuisines" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={cuisines}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Bistro Restaurant" text1=" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates.Let’s learn more about this concept." text2=" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."/>
      <div className='flex flex-col relative'>
-     <Image src={bistro} width={bistro.width} height={bistro.header} className='absolute right-[190px] -top-[160px]' alt='bistro'/>
+     <Image src={bistro} width={bistro.width} height={bistro.header} className='absolute right-[190px] -top-[30%]' alt='bistro'/>
      <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Always Fresh and Delicious" text="As the Lago family, we are making your dreams come true on the shore where the sand and the sea meet, looking at the horizon, accompanied by the deep blue waters of the Mediterranean. We choose the freshest and best quality fish of our country, surrounded by seas on 3 sides, and add our love to it." cuisines={cuisines2}/>
      </div>
       <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Bars and Cafes" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>

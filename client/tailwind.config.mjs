@@ -42,6 +42,7 @@ export default {
         "laptopMac":"1920px" 
         
       },
+      
     },
   },
   plugins: [],

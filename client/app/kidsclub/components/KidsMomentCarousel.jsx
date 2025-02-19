@@ -35,7 +35,7 @@ const KidsMomentCarousel = ({ images, header }) => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px] max-w-[1920px]">
+    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
       <h2 className="text-[48px] text-black font-marcellus font-normal leading-[48px]">
         {header}
       </h2>
@@ -53,10 +53,11 @@ const KidsMomentCarousel = ({ images, header }) => {
               >
                 <Image
                   src={img.src}
+                  layout="cover"
                   width={img.width}
                   height={img.height}
-                  alt={`Slide ${index + 1}`}
-                  style={{ objectPosition: "center" }}
+                   alt={`Slide ${index + 1}`}
+                  objectPosition="center"
                   className="flex h-full w-auto"
                 />
               </div>

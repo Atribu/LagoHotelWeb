@@ -51,8 +51,9 @@ export default function HomePage4() {
   ]
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-16">
+    <section className="max-w-[1440px] mx-auto px-4 py-16">
       {/* Üst küçük başlık */}
+      <div className="flex flex-col w-[1106px]">
       <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost mb-2">
         Discover the services we offer
       </p>
@@ -92,6 +93,7 @@ export default function HomePage4() {
         <button className="border-b border-gray-900 uppercase text-sm font-normal leading-[30px] tracking-widest hover:text-gray-500 transition">
           Discover More
         </button>
+      </div>
       </div>
     </section>
   )

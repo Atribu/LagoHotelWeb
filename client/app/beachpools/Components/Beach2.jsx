@@ -9,11 +9,11 @@ const Beach2 = () => {
 
   return (
     <div
-      className="flex flex-col w-full mt-20 max-w-[1920px] h-[1080px] bg-cover bg-center"
+      className="flex flex-col w-full bg-cover bg-center h-[45vh] min-h-[532px] mt-[100px]"
       style={{ backgroundImage }}
     >
       {/* Yarı saydam siyah blok (arka plan) */}
-      <div className="flex flex-col items-start mt-[20%] justify-center h-full w-5/12 gap-4 p-4 bg-black bg-opacity-50 text-white">
+      <div className="flex flex-col items-start justify-center h-full w-5/12 gap-4 p-4 bg-black bg-opacity-50 text-white">
         <p className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase ml-12">
           Cabana and Pavilion Rentals
         </p>

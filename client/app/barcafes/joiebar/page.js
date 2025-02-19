@@ -5,8 +5,8 @@ import img1 from "./images/fresh1.webp"
 import img2 from "./images/fresh2.webp"
 import RoomTour from '@/app/rooms/subroom/components/RoomTour'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
-import gallery1 from "./images/gallery1.webp"
-import gallery2 from "./images/gallery2.webp"
+import gallery2 from "./images/gallery1.webp"
+import gallery1 from "./images/gallery2.webp"
 import gallery3 from "./images/gallery3.webp"
 import ClinaryReverseInfo from '@/app/restaurants/components/ClinaryReverseInfo'
 import backgroundImg from "../images/BackgroundCafes.webp"
@@ -17,8 +17,9 @@ import vagobar from "../images/vagobar.webp"
 import DiscoverBackground from '../../restaurants/components/DiscoverBackground'
 import OtherOptions4 from '../components/OtherOptions4'
 import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
+import RestaurantMainBanner from '@/app/restaurants/components/RestaurantMainBanner'
 
-const galleryImages=[gallery1,gallery2,gallery3];
+const galleryImages=[gallery1,gallery2,gallery3,gallery1,gallery2,gallery3];
 
 const otherOptions = [
     {
@@ -58,7 +59,8 @@ const otherOptions = [
 const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[100px]'>
-      <MainBannerSection img={mainImg} span="Fresh drınks and musıc" header="Joie Bar" text="Enjoy a various amount of dining options from around the world."/>
+      <RestaurantMainBanner img={mainImg} span="Fresh drınks and musıc" header="Joie Bar" text="Enjoy a various amount of dining options from around the world."/>
+      {/* <MainBannerSection img={mainImg} span="Fresh drınks and musıc" header="Joie Bar" text="Enjoy a various amount of dining options from around the world."/> */}
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Fresh Drinks at the Pool" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
       <KidsMomentCarousel images={galleryImages} header=""/>
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>

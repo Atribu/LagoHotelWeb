@@ -7,7 +7,7 @@ import LeafSvg from '../Header/Icons/LeafSvg'
 import InstagramSvg from './icons/InstagramSvg'
 import FacebookSvg from './icons/FacebookSvg'
 import YoutubeSvg from './icons/YoutubeSvg'
-import minigallery from "./images/minigallery.webp"
+import minigallery from "./images/minigallery.png"
 
 const ContactSection = () => {
   const images=[

@@ -3,7 +3,7 @@ import Reservation from './Reservation'
 
 export default function HomePage() {
   return (
-    <div className="relative w-screen min-h-[calc(100vh+73px)] overflow-hidden">
+    <div className="relative w-screen min-h-screen overflow-hidden">
       <video
         autoPlay
         loop
