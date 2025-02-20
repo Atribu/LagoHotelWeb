@@ -44,8 +44,8 @@ const KidsclubCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className='flex flex-col w-screen items-center justify-center  gap-[50px] pb-[30px] max-w-[1440px] '>
-      <div className='flex flex-col w-[76.8%] items-center justify-center '>
+    <div className='flex flex-col w-screen items-center justify-center  gap-[50px] pb-[30px] '>
+      <div className='flex flex-col w-[76.8%] items-center justify-center max-w-[1106px] '>
         <div className='flex flex-col gap-[17px] items-center justify-center font-jost text-black'>
             <PandaSvg className="flex" width={99} height={54}/>
            <div className='flex flex-col gap-[35px] items-center justify-center text-center'>
@@ -57,17 +57,17 @@ const KidsclubCarousel = () => {
       </div>
 
 
-           <div className="flex flex-col w-[100%] justify-end items-end">
+      <div className="flex flex-col w-[87.4%] ml-[11.6%] justify-end items-end">
            {/* carousel */}
-           <div className="flex overflow-hidden relative w-full lg:w-11/12 h-full flex-col justify-end items-end" ref={emblaRef}>
+           <div className="flex overflow-hidden relative w-full h-full flex-col justify-end items-end" ref={emblaRef}>
         <div className="flex grid-flow-col">
           {images.map((image, index) => (
-            <div className="relative flex w-full md:w-[calc(92%-1rem)] mx-2 flex-[0_0_auto] border-[2px] border-gray-100 shadow-lg lg:w-[calc(30%-1.2rem)] xl:w-[calc(26%-1.2rem)] xl:mx-3 " key={index}>
+            <div className="relative flex w-auto h-[540px] flex-[0_0_auto] mx-[7px]  shadow-lg  " key={index}>
               <Image
                 src={image.src}
                 layout="contain"
-                width={image.width}
-                height={image.height}
+                width={360}
+                height={540}
                 alt={`Slide ${index + 1}`}
                 objectPosition="center"
                 className="flex h-[383px] md:h-auto lg:h-[540px] xl:h-auto  w-full"
@@ -87,7 +87,7 @@ const KidsclubCarousel = () => {
   {images.map((_, i) => (
     <div
       key={i}
-      className={`transition-all mt-[20px] lg:mt-[30px] w-[10%] h-[2px] bg-[#24292C] rounded-full ${
+      className={`transition-all w-[11.11%] h-[2px] bg-[#24292C] rounded-full ${
         selectedIndex === i ? "p-[2px]" : "bg-[#848383] "
       }`}
       onClick={() => handleJump(i)}
@@ -102,7 +102,7 @@ const KidsclubCarousel = () => {
     height={110}
     className="absolute -bottom-4 transition-all duration-900"
     style={{
-      left: `calc(${selectedIndex * 10}% + 9%)`, // Aktif index'e göre sola kaydır
+      left: `calc(${selectedIndex * 11}% + 0%)`, // Aktif index'e göre sola kaydır
     }}
   />
 </div>

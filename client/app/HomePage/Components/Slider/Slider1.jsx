@@ -48,6 +48,9 @@ function Slide({ slide, marginClass }) {
         items-center
         ${marginClass}
         flex-[0_0_auto]
+         min-h-[540px]
+         w-[360px]
+        
       `}
     >
       <Image
@@ -127,6 +130,7 @@ export default function Slider1({ slides }) {
           overflow-hidden
           w-full
           ml-[11.6%]
+         
         "
       >
         <div className="flex">
@@ -148,7 +152,7 @@ export default function Slider1({ slides }) {
       </div>
 
 
-      {/* <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
+      <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
   {slidesCombined.map((_, i) => (
     <div
       key={i}
@@ -160,7 +164,7 @@ export default function Slider1({ slides }) {
   ))}
 
 
-</div> */}
+</div>
     </section>
   );
 }
