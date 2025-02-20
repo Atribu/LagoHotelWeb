@@ -90,7 +90,7 @@ export default function HomePage4() {
 
       {/* Alt kısım: Discover More link/button */}
       <div className="mt-12">
-        <button className="border-b border-gray-900 uppercase text-sm font-normal leading-[30px] tracking-widest hover:text-gray-500 transition">
+        <button className="border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[18px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
         </button>
       </div>

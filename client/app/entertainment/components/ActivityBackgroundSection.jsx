@@ -55,10 +55,10 @@ const ActivityBackgroundSection = () => {
           className="flex overflow-hidden relative w-full flex-col justify-center items-center "
           ref={emblaRef}
         >
-          <div className="flex grid-flow-col w-full space-x-0">
+          <div className="flex grid-flow-col w-full space-x-0 bg-black">
             {images.map((image, index) => (
               <div
-                className="flex-[0_0_auto] min-w-0 h-[650px] -ml-1"
+                className="flex-[0_0_auto] min-w-0 h-[650px] -mx-[2px]"
                 key={index}
               >
                 <Image

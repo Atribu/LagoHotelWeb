@@ -47,8 +47,8 @@ export default function Header() {
     }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
   return (
-    <>
-      <header className="absolute top-0 left-0 w-screen z-[999] items-center justify-center">
+    <div className="flex w-screen">
+      <header className="absolute right-0 top-0 left-0 w-full z-[999] items-center justify-center">
         <div
           className="
             relative
@@ -281,6 +281,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

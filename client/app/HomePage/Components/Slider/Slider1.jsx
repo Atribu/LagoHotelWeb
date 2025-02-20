@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
@@ -10,12 +10,12 @@ const DEFAULT_SLIDES = [
   {
     src: require("./Images/Accommodation.webp"),
     title: "Accommodation",
-    link: "/accommodation",
+    link: "/rooms",
   },
   {
     src: require("./Images/BeachAndPool.webp"),
     title: "Beach & Pools",
-    link: "/beachpool",
+    link: "/beachpools",
   },
   {
     src: require("./Images/Entertainment.webp"),
@@ -25,7 +25,7 @@ const DEFAULT_SLIDES = [
   {
     src: require("./Images/Flavours.webp"),
     title: "Flavours",
-    link: "/flavours",
+    link: "/restaurants",
   },
   {
     src: require("./Images/Kids.webp"),
@@ -36,6 +36,8 @@ const DEFAULT_SLIDES = [
 
 // Tekil slayt bileşeni
 function Slide({ slide, marginClass }) {
+
+
   return (
     <div
       className={`
@@ -45,24 +47,7 @@ function Slide({ slide, marginClass }) {
         justify-center 
         items-center
         ${marginClass}
-
-        /* Mobil (default) */
-        w-[260px] h-[390px]
-
-        /* sm (~640px ve üstü) */
-        sm:w-[300px] sm:h-[450px]
-
-        /* md (~768px ve üstü) */
-        md:w-[360px] md:h-[540px]
-
-        /* lg (~1024px ve üstü) */
-        lg:w-[420px] lg:h-[630px]
-
-        /* xl (~1280px ve üstü) */
-        xl:w-[480px] xl:h-[720px]
-
-        2xl:w-[750px] 2xl:h-[600px]
-        basis-1/4 2xl:basis-[16%]
+        flex-[0_0_auto]
       `}
     >
       <Image
@@ -77,8 +62,8 @@ function Slide({ slide, marginClass }) {
           href={slide.link}
           className="
             text-white
-            text-[40px] font-normal leading-[20px] tracking-[-0.88px]
-            font-marcellus px-4 py-2 transition
+            text-[40px] font-normal leading-[20px] -tracking-[0.88px]
+            font-marcellus transition
           "
         >
           {slide.title}
@@ -110,6 +95,25 @@ export default function Slider1({ slides }) {
     ]
   );
 
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.on("select", () => {
+        setSelectedIndex(emblaApi.selectedScrollSnap());
+      });
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    }
+  }, [emblaApi]);
+
   useEffect(() => {
     if (!emblaApi) return;
     emblaApi.on("select", () => {});
@@ -136,12 +140,27 @@ export default function Slider1({ slides }) {
               <Slide 
                 key={index} 
                 slide={slide} 
-                marginClass={marginClass} 
+                marginClass="mr-4"
               />
             );
           })}
         </div>
       </div>
+
+
+      {/* <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
+  {slidesCombined.map((_, i) => (
+    <div
+      key={i}
+      className={`transition-all w-[20%] h-[2px] bg-[#24292C] rounded-full ${
+        selectedIndex === i ? "p-[2px]" : "bg-[#848383] "
+      }`}
+      onClick={() => handleJump(i)}
+    />
+  ))}
+
+
+</div> */}
     </section>
   );
 }
