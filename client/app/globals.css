@@ -161,7 +161,7 @@
   }
 }
 
-/* text px */
+/* text 30px */
 @layer utilities {
   .capsizedText3::before {
     content: "";

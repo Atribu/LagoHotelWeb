@@ -6,23 +6,25 @@ export default function HomePage1() {
   
 
   return (
-    <div className='flex flex-col w-full items-center justify-center mt-16 gap-5'>
-      <div className='flex font-jost text-[#000] text-[12px] font-[500px] leading-[14px] tracking-[0.48px] uppercase'>
+    <div className='flex flex-col w-full items-center justify-center my-[50px]'>
+      <div className="flex flex-col w-[76.8%] gap-[35px] items-center justify-center text-center text-[#000] font-jost">
+      <span className=' text-[12px] font-[500px] leading-[14px] tracking-[0.48px] uppercase'>
         WELCOME TO LAGO HOTEL
-      </div>
-      <div className='flex text-[#000] text-[40px] font-marcellus font-normal leading-[57.6px]'>
+      </span>
+      <h2 className=' text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2'>
         Exclusive Holiday Experience
-      </div>
-      <div className='flex text-center font-jost text-[16px] font-normal leading-[24px]'>
-      We offer you a pleasant holiday experience that will feel like home in our rooms designed <br></br> 
-      in accordance with varied tastes and needs, merging beauty and comfort with their eye- <br></br>
-      catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the <br></br>
+      </h2>
+      <p className=' text-center text-[16px] font-normal leading-[24px] max-w-[736px]'>
+      We offer you a pleasant holiday experience that will feel like home in our rooms designed 
+      in accordance with varied tastes and needs, merging beauty and comfort with their eye- 
+      catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the
        deep blue world of LAGO. Come to LAGO where everything is possible.
-      </div>
-      <button className='flex underline underline-offset-4 text-[#24292c] text-[18px] font-normal uppercase leading-[30px]'>
+      </p>
+      <button className='flex underline underline-offset-[6px] text-lagoBrown text-[16px] font-normal uppercase leading-[30px] font-marcellus'>
         DISCOVER MORE
       </button>
 
+      </div>
       
     </div>
   )

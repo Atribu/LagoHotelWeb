@@ -4,21 +4,40 @@ import React, { useState, useRef, useEffect } from 'react'
 import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from './Icons/Logo.png'
 import Hamburger from './Icons/Hamburger'
 import KidIcon from "./Icons/KidIcon.png"
 import Phone from './Icons/Phone'
 import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
-import logosvg from "./Icons/Asset 2.svg"
+import logosvg from "./Icons/blacklogo.svg"
 import gradient from "./Icons/Rectangle 4160.png"
 import gradient2 from "./Icons/Rectangle 4161.png"
 import gradient3 from "./Icons/gradient.png"
 import gradient4 from "./Icons/header.png"
 import DownArrow from './Icons/DownArrow';
 
-export default function Header() {
+export default function HeaderWhite() {
+
+    // 1 ekran scrolldan sonra headerin gözükmesi için
+    const [showHeader, setShowHeader] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > window.innerHeight) {
+          setShowHeader(true); // 1 ekran (100vh) kadar scroll yapınca header görünsün
+        } else {
+          setShowHeader(false);
+        }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    // -------
+
+
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const menuRef = useRef(null);
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
@@ -47,37 +66,32 @@ export default function Header() {
     }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
   return (
-    <div className="flex w-screen">
-      <header className="absolute right-0 top-0 left-0 w-full z-[999] items-center justify-center">
+    <>
+      <header className={`fixed top-0 left-0 w-screen z-[999] items-center justify-center transition-all duration-500 ease-in-out ${
+        showHeader ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
+      }`}>
         <div
           className="
             relative
-            h-[144px]
+            h-[77px]
             flex
             items-center
-      
-            to-transparent
+            bg-white/70 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-[10px] 
             w-full
           "
         >
-          <div className='absolute flex -top-[6px] w-full'>
-            <Image src={gradient4} width={gradient4.width} height={gradient4.header} className='w-full  h-[144px] ' alt='header'/>
-          </div>
 
           {!isMenuOpen && (
-            <div className="flex items-center justify-center ml-[4%] ">
-              <button className="flex z-20 " onClick={toggleMenu}>
-              <Hamburger width={30} height={30} color="white" className="object-contain" />
+            <button className="flex z-20 ml-[4%] " onClick={toggleMenu}>
+              <Hamburger width={30} height={30} color="#1D1D1B" className="object-contain" />
             </button>
-            <div className="flex items-center justify-center h-full gap-[4px] ml-[15px] z-[20]">
-            <span className="text-white text-[16px] font-medium leading-[125%] uppercase -tracking-[0.352px] font-jost capsizedText4">EN</span>
-            <DownArrow className="flex" width={12} height={12} color="#ffffff"/>
-          </div>
-            </div>
           )}
 
-            {/* EN bar */}
-            
+          {/* EN bar */}
+          <div className="flex items-center justify-center h-full gap-[4px] ml-[15px]">
+            <span className="text-lagoBlack text-[16px] font-medium leading-[125%] uppercase -tracking-[0.352px] font-jost capsizedText4">EN</span>
+            <DownArrow className="flex" width={12} height={12} color="#1D1D1B"/>
+          </div>
 
           {/* Ortadaki Logo */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -96,7 +110,7 @@ export default function Header() {
             <Link 
               href="/contact"
               className="
-                text-white
+                text-lagoBlack
                 text-[16px]
                 font-medium
                 leading-normal
@@ -118,14 +132,14 @@ export default function Header() {
                flex
                 px-[35px]
                 py-[17px]
-                text-white
+               text-lagoBlack
                 text-[16px]
                 font-medium
                 leading-normal
                 uppercase
                 bg-transparent
                 border
-                border-white
+                border-lagoBlack
                 border-solid
                  h-[42px]
                  w-auto
@@ -153,8 +167,8 @@ export default function Header() {
         className={`
           fixed top-0 left-0
           w-[420px]
-          h-[calc(100vh-90.2px)]
-          bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
+          h-full
+          bg-white/70 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-[10px] 
           z-[9999]
           transform transition-transform duration-300
           ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
@@ -172,7 +186,7 @@ export default function Header() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-white font-jost uppercase">
+        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-lagoBlack font-jost uppercase">
           
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
@@ -201,21 +215,21 @@ export default function Header() {
               height={28}
             />
           </Link>
-          <Link href="/spawellness" className="block text-white  font-normal leading-normal">
+          <Link href="/spawellness" className="block text-lagoBlack  font-normal leading-normal">
             SPA & WELLNESS
           </Link>
-          <Link href="/gallery" className="block text-white  font-normal leading-normal">
+          <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal">
             GALLERY
           </Link>
-          <Link href="/about" className="block text-white font-normal leading-normal">
+          <Link href="/about" className="block text-lagoBlack font-normal leading-normal">
             OUR HOTEL
           </Link>
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
         <div className="ml-2 px-4 w-full max-w-[392px]  mt-[38%] flex flex-col items-center font-jost">
-          <div className="flex items-center justify-center gap-[15px] text-white">
-            <Phone className="flex" width={18} height={18} color="#ffffff"/>
+          <div className="flex items-center justify-center gap-[15px] text-lagoBlack">
+            <Phone className="flex" width={18} height={18} color="#1D1D1B"/>
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
           </div>
 
@@ -281,6 +295,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
