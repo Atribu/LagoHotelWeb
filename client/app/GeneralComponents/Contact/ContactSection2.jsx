@@ -1,12 +1,8 @@
 "use client"
 import React,{ useEffect, useRef } from "react";
 import Image from 'next/image'
-import InstagramSvg from './icons/InstagramSvg'
-import FacebookSvg from './icons/FacebookSvg'
-import YoutubeSvg from './icons/YoutubeSvg'
 import minigallery from "./images/minigallery2.png"
 import Link from 'next/link'
-import { AiOutlineFacebook,AiOutlineInstagram,AiOutlineYoutube } from "react-icons/ai";
 import { PiInstagramLogoLight,PiMetaLogoLight,PiFacebookLogoLight, PiYoutubeLogoLight} from "react-icons/pi";
 
 const ContactDetails = () => {

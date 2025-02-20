@@ -61,33 +61,29 @@ export default function Reservation() {
           lg:flex-row 
           grid 
           grid-cols-2 
-          w-[90%] 
-          lg:w-screen
+          w-screen
           items-center 
           h-auto
           max-h-content
           justify-center 
           text-[#ffff] 
-          font-monserrat 
-          font-light 
-          text-[15px] 
-          lg:text-[20px] 
+          font-jost 
           leading-normal 
           text-center
-         
+         gap-[50px]
         "
       >
         <div>
-          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px]">
+          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px] w-auto">
             Book your perfect stay
           </p>
         </div>
 
         {/* İnce çizgi */}
-        <div className="w-[1px] h-[11px] bg-white ml-6" />
+        <div className="w-[1px] h-[11px] bg-white" />
 
         {/* CHECK-IN */}
-        <div className="relative flex items-center justify-center w-full lg:w-auto">
+        <div className="relative flex items-center justify-center w-auto">
           <label htmlFor="checkInDate" className="sr-only text-white">
             Check In
           </label>
@@ -98,10 +94,7 @@ export default function Reservation() {
             placeholderText="Check In"
             className="
               cursor-pointer 
-              lg:px-[2vw] 
               py-[30px] 
-              
-              w-[45vw] 
               lg:w-auto 
               text-customGray 
               focus:outline-none 
@@ -113,16 +106,22 @@ export default function Reservation() {
               placeholder:leading-[24px]
               placeholder:font-medium
               placeholder:font-jost
+              
             "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
             dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}
           />
-          <ArrawDown className="absolute right-3" width={12} height={12} />
+          <ArrawDown className="absolute right-[10px]" width={12} height={12} />
         </div>
 
+
+        {/* İnce çizgi */}
+        <div className="w-[1px] h-[11px] bg-white" />
+
+
         {/* CHECK-OUT */}
-        <div className="relative flex items-center justify-center w-full lg:w-auto">
+        <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkOutDate" className="sr-only">
             Check Out
           </label>
@@ -133,10 +132,7 @@ export default function Reservation() {
             placeholderText="Check Out"
             className="
               cursor-pointer 
-              px-[2vw] 
               py-[30px] 
-              w-[45vw] 
-              lg:w-auto 
               text-customGray 
               focus:outline-none 
               bg-transparent 
@@ -146,17 +142,22 @@ export default function Reservation() {
               placeholder:text-[16px]
               placeholder:leading-[24px]
               placeholder:font-medium
-              placeholder:font-jost
-            "
+              placeholder:font-jost"
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
-            dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}
-          />
-          <ArrawDown className="absolute right-3" width={12} height={12} />
+            dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}/>
+          <ArrawDown className="absolute right-[10px]" width={12} height={12} />
         </div>
 
+
+        {/* İnce çizgi */}
+        <div className="w-[1px] h-[11px] bg-white " />
+
+
+
+
         {/* GUESTS */}
-        <div className="relative">
+        <div className="relative flex items-center justify-center w-auto">
           <label htmlFor="guests-button" className="sr-only">
             Select number of guests
           </label>
@@ -164,8 +165,8 @@ export default function Reservation() {
             id="guests-button"
             onClick={toggleGuestsDropdown}
             className="
-              cursor-pointer
-              px-[3vw] 
+              flex
+              items-center justify-center
               py-[30px] 
               w-full 
               text-customGray
@@ -178,15 +179,13 @@ export default function Reservation() {
              text-[16px]
               leading-[24px]
               font-medium
-              font-jost
-            "
+              font-jost"
             aria-haspopup="dialog"
             aria-expanded={showGuests}
-            type="button"
-          >
+            type="button">
             Guests
+            <ArrawDown className="flex ml-[10px]" width={12} height={12} />
           </button>
-
           {showGuests && (
             <div
               className="
@@ -205,19 +204,16 @@ export default function Reservation() {
                 w-full 
                 min-w-[180px] 
                 p-3 
-                xl:p-4
-              "
+                xl:p-4"
               role="dialog"
               aria-modal="false"
-              aria-label="Select number of adults and children"
-            >
+              aria-label="Select number of adults and children">
               {/* Adults */}
               <div className="flex justify-between items-center mb-3">
                 <label
                   htmlFor="adultCounter"
                   id="adultCounterLabel"
-                  className="whitespace-nowrap"
-                >
+                  className="whitespace-nowrap">
                   Adult(s)
                 </label>
                 <div className="flex items-center gap-1 lg:gap-2" id="adultCounter">
@@ -235,13 +231,10 @@ export default function Reservation() {
                       flex 
                       items-center 
                       justify-center 
-                      font-medium
-                    "
+                      font-medium"
                     aria-labelledby="adultCounterLabel"
                     aria-label="Decrease adults"
-                    type="button"
-                  >
-                    -
+                    type="button" >-
                   </button>
                   <span>{adults}</span>
                   <button
@@ -258,12 +251,10 @@ export default function Reservation() {
                       flex 
                       items-center 
                       justify-center 
-                      font-medium
-                    "
+                      font-medium"
                     aria-labelledby="adultCounterLabel"
                     aria-label="Increase adults"
-                    type="button"
-                  >
+                    type="button" >
                     +
                   </button>
                 </div>
@@ -326,8 +317,10 @@ export default function Reservation() {
                   </button>
                 </div>
               </div>
+              
             </div>
           )}
+       
         </div>
 
         <button
@@ -336,10 +329,9 @@ export default function Reservation() {
             cursor-pointer 
             border 
             px-[47px] 
-            py-[12px] 
+            py-[13px] 
             border-white
             text-white
-            lg:max-w-[304px] 
             whitespace-nowrap
             text-[16px]
             font-medium
@@ -349,6 +341,7 @@ export default function Reservation() {
             justify-center
             items-center
             bg-transparent
+            capsizedText4
           "
           type="button"
         >

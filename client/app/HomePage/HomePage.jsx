@@ -8,6 +8,7 @@ import HomePage5 from "./Components/HomePage4"
 import HomePage6 from "./Components/HomePage5"
 import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import EmblaCarousel from "./Components/Slider/Slider1"
+import TwoAnimationImage from "./Components/TwoAnimationImage"
 
 const HomePage = () => {
   return (
@@ -15,8 +16,9 @@ const HomePage = () => {
         <HomePage1 />
         <HomePage2 />
         <EmblaCarousel options={{ loop: true }}/>
-     <div className='flex flex-col items-center justify-center w-screen'>
-     <HomePage3 />
+     <div className='flex flex-col items-center justify-center w-screen gap-[100px]'>
+     {/* <HomePage3 /> */}
+     <TwoAnimationImage/>
      <HomePage4 />
         <HomePage5 />
         <ContactSection />

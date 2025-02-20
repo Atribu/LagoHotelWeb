@@ -103,7 +103,7 @@ export default function Footer() {
             </div>
 
             {/* Alt linkler */}
-            <div className="flex items-center gap-6 whitespace-nowrap text-lagoGray2">
+            <div className="flex flex-col lg:flex-row items-center gap-6 whitespace-nowrap text-lagoGray2">
               <a href="#" className="hover:underline">Terms of Use</a>
               <a href="#" className="hover:underline">Privacy Notice</a>
               <a href="#" className="hover:underline">Sustainability</a>
