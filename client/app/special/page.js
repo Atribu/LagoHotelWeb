@@ -6,11 +6,12 @@ import SpecialGridSection from './components/SpecialGridSection'
 import SpecialInfoSection from './components/SpecialInfoSection'
 import SpecialCarousel from './components/SpecialCarousel'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
+import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px]'>
-      <MainBannerSection span="HAPPY MOMENTS UNFORGETTABLE" header="Special Occasions" text="Lago team works for you to accumulate unforgettable memories with your loved ones on your special days. " img={mainImg}/>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+      <RestaurantMainBanner span="HAPPY MOMENTS UNFORGETTABLE" header="Special Occasions" text="Lago team works for you to accumulate unforgettable memories with your loved ones on your special days. " img={mainImg}/>
       <SpecialTypesSection/>
       <SpecialGridSection/>
       <SpecialInfoSection/>

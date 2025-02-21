@@ -75,9 +75,9 @@ const poolItems = [
 
 const page = () => {
   return (
-    <div className='overflow-hidden overflow-y-hidden'>
+    <div className='overflow-hidden overflow-y-hidden '>
       <Beach1 />
-     <div className='flex flex-col items-center justify-center gap-[100px]'>
+     <div className='flex w-screen flex-col items-center justify-center gap-[100px] mt-[100px]'>
      <Beach2 />
       <Beach3 />
       <Beach4 />

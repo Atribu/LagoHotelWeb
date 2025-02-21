@@ -29,7 +29,7 @@ const activitiesHeaders=["Yoga & Pilatess Classes","Zumba Classes","Hiit Cardio 
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px]'>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
       <MainBannerSection img={mainImg} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Spor & Fitness" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
       <SpaInfoSection img1={infoImg} img2={infoImg2} texts={texts} texts2={texts2} texts3={texts3}/>
       <SpaHeaderSection span="Perfect Fine Dine Experiences" header="Lorem ipsum dolor sit amet" text="Lorem ipsum dolor sit amet consectetur. Sed sit venenatis nisi enim id aenean natoque aliquet et. Et aliquam viverra enim sapien. Dignissim arcu volutpat enim nisl condimentum." images={galleryImages}/>

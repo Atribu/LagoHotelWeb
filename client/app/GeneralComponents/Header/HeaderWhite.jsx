@@ -78,7 +78,7 @@ export default function HeaderWhite() {
         >
 
           {!isMenuOpen && (
-            <button className="flex z-20 ml-[4%] " onClick={toggleMenu}>
+            <button className="flex z-20 ml-[75%] sm:ml-[80%] md:ml-[4%] " onClick={toggleMenu}>
               <Hamburger width={30} height={30} color="#1D1D1B" className="object-contain" />
             </button>
           )}
@@ -90,13 +90,13 @@ export default function HeaderWhite() {
           </div>
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-[16%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
            <Link className='w-full items-center justify-center flex' href="/">
            <Image 
               src={logosvg}
               alt="Logo"
 
-              className="object-contain w-[30%] items-center justify-center"
+              className="object-contain w-[22%] md:w-[30%] items-center justify-center"
 
             /></Link>
           </div>
@@ -106,6 +106,8 @@ export default function HeaderWhite() {
             <Link 
               href="/contact"
               className="
+              hidden
+              lg:flex
                 text-lagoBlack
                 text-[16px]
                 font-medium
@@ -125,7 +127,8 @@ export default function HeaderWhite() {
             </Link>
             <button
               className="
-               flex
+              hidden
+               md:flex
                 px-[35px]
                 py-[17px]
                text-lagoBlack

@@ -3,7 +3,6 @@ import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import mainImg from "./images/mainSpa.webp"
 import SpaInfoSection from './components/SpaInfoSection'
 import SpaHeaderSection from './components/SpaHeaderSection'
-import KidsMomentCarousel from '../kidsclub/components/KidsMomentCarousel'
 import gallery1 from "./images/gallery1.webp"
 import gallery2 from "./images/gallery2.webp"
 import gallery3 from "./images/gallery3.webp"
@@ -18,6 +17,7 @@ import oriental from "./images/oriental.webp"
 import clasmassage from "./images/clasmassage.webp"
 import facial from "./images/masagefaci.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
+import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 
 const galleryImages=[gallery1,gallery2,gallery3]
 
@@ -30,8 +30,8 @@ const page = () => {
   const spaTextsInfo3=["  SPA & WELLNESS"," Spa Treatments","Opening Hours: 9:00 - 18:00","16 Massage Rooms","2 VIP Massage Rooms","Turkish Bath and Pouch Foam Rooms","Steam room","Sauna"]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px]'>
-      <MainBannerSection img={mainImg} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Spa & Wellness" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+      <RestaurantMainBanner img={mainImg} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Spa & Wellness" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
       <SpaInfoSection img1={img1} img2={img2} texts={spaTextsInfo1} texts2={spaTextsInfo2} texts3={spaTextsInfo3}/> 
       <SpaHeaderSection span="Perfect Fine Dine Experiences" header=" Lorem ipsum dolor sit amet" text=" Lorem ipsum dolor sit amet consectetur. Sed sit venenatis nisi enim id
           aenean natoque aliquet et. Et aliquam viverra enim sapien. Dignissim

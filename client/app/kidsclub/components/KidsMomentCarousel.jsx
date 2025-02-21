@@ -58,7 +58,7 @@ const KidsMomentCarousel = ({ images, header }) => {
                   height={img.height}
                    alt={`Slide ${index + 1}`}
                   objectPosition="center"
-                  className="flex h-full w-auto"
+                  className="flex lg:h-full h-[38vh] w-auto"
                 />
               </div>
             ))}

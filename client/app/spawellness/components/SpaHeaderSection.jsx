@@ -35,7 +35,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {span}
         </span>
-        <h3 className="text-[40px] leading-normal font-normal font-marcellus">
+        <h3 className="text-[48px] leading-[57.6px] capsizedText2 font-normal font-marcellus">
          {header}
         </h3>
         <p className="text-[16px] font-normal leading-normal w-[59%]">
