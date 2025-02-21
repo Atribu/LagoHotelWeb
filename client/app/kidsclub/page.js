@@ -5,7 +5,7 @@ import KidsBamboo from './components/KidsBamboo'
 import KidsIconsSection from './components/KidsIconsSection'
 import KidsclubCarousel from './components/KidsclubCarousel'
 import ContactSection from '../GeneralComponents/Contact/ContactSection'
-import kids1 from "./images/KIDSPOOL1.webp"
+import kids1 from "./images/AquaMaldiva.webp"
 import kids2 from "./images/KIDS2.webp"
 import kids3 from "./images/KIDS.webp"
 import CuisinesCarousel from '../restaurants/components/CuisinesCarousel'
@@ -23,7 +23,7 @@ const kids = [
   {
     id: 1,
     img: kids1,
-    title: "aqua Maldvas Kids Pool",
+    title: "Maldvas ",
     description: "bamboo kıds club ",
     text:"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
     link:"/"
@@ -31,7 +31,7 @@ const kids = [
   {
     id: 2,
     img: kids2,
-    title: "Kids Pools (Water games)",
+    title: "Kid Aqua Park ",
     description: "bamboo kıds club",
      text:"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
      link:"/"
@@ -54,7 +54,7 @@ const page = () => {
       <KidsIconsSection/>
       <KidsclubCarousel/>
       <KidsRestaurantCarousel/>
-      <CuisinesCarousel span="Bamboo kıds club" header="Kids Pool" text="Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla." cuisines={kids}/>
+      <CuisinesCarousel span="Bamboo kıds club" header="Kid Pools" text="Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla." cuisines={kids}/>
       <KidsMomentCarousel images={momentImages} header="Every Moment is Worth Sharing"/>
       <ContactSection2/>
     </div>

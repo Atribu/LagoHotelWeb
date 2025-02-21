@@ -11,10 +11,6 @@ import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
 import logosvg from "./Icons/blacklogo.svg"
-import gradient from "./Icons/Rectangle 4160.png"
-import gradient2 from "./Icons/Rectangle 4161.png"
-import gradient3 from "./Icons/gradient.png"
-import gradient4 from "./Icons/header.png"
 import DownArrow from './Icons/DownArrow';
 
 export default function HeaderWhite() {

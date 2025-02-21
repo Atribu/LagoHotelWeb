@@ -4,17 +4,13 @@ import React, { useState, useRef, useEffect } from 'react'
 import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from './Icons/Logo.png'
 import Hamburger from './Icons/Hamburger'
 import KidIcon from "./Icons/KidIcon.png"
 import Phone from './Icons/Phone'
 import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
-import logosvg from "./Icons/Asset 2.svg"
-import gradient from "./Icons/Rectangle 4160.png"
-import gradient2 from "./Icons/Rectangle 4161.png"
-import gradient3 from "./Icons/gradient.png"
+import logosvg from "./Icons/Asset2.svg"
 import gradient4 from "./Icons/header.png"
 import DownArrow from './Icons/DownArrow';
 
