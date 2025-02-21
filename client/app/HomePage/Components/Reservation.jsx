@@ -71,6 +71,7 @@ export default function Reservation() {
           leading-normal 
           text-center
          gap-[50px]
+   
         "
       >
         <div>
@@ -124,6 +125,7 @@ export default function Reservation() {
         <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkOutDate" className="sr-only">
             Check Out
+      
           </label>
           <DatePicker
             id="checkOutDate"
@@ -146,7 +148,7 @@ export default function Reservation() {
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
             dayClassName={() => "custom-day hover:bg-blue-100 focus:outline-none"}/>
-          <ArrawDown className="absolute right-[10px]" width={12} height={12} />
+             <ArrawDown className="absolute right-[3px]" width={12} height={12} />
         </div>
 
 
@@ -184,7 +186,7 @@ export default function Reservation() {
             aria-expanded={showGuests}
             type="button">
             Guests
-            <ArrawDown className="flex ml-[10px]" width={12} height={12} />
+            <ArrawDown className="flex ml-[13px]" width={12} height={12} />
           </button>
           {showGuests && (
             <div

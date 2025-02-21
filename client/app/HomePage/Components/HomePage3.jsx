@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import FamilySwimUpRoom from "./Images/FamilySwimUpRoom.png";
-import TinyVilla from "./Images/TinyVilla.png";
-import SuperiorRoom from "./Images/SuperiorRoom.png";
+import FamilySwimUpRoom from "./Images/FamilySwim.jpg";
+import Swimup from "./Images/Swimup.jpg";
+import SuperiorRoom from "./Images/Superior.webp";
 import Area from "./Icons/Area";
 import Tree from "./Icons/Tree";
 import Sea from "./Icons/Sea";
@@ -14,21 +14,28 @@ export default function HomePage3() {
     {
       src: FamilySwimUpRoom,
       title: "Family Swim-up Room",
-      desc: `Family Swim-up Rooms in the main building <br/>
-             have 2 bedrooms (double bed + <br/> convertible sofa), 
-             a bathroom, and a sitting <br/> area.
-             Forest view rooms share a pool, 
-             while <br/> sea view rooms have a private one.`,
+      desc: `This room type with sea or forest view is 50 - 55 m2 and is located in the main building. 
+      It consists of 2 separate bedrooms (with interconnecting door): a double bed (for two adults) and a luxury sofa that can be opened for two adults,
+       including a bathroom and a sitting area. `,
+             area:"50-55 m2",
+             span:"Land / Sea View",
+             link:"/"
     },
     {
-      src: TinyVilla,
-      title: "Tiny Villa",
-      desc: "Our garden villas feature 2 bedrooms, 2 <br/> bathrooms, and a seating area (50 m²), <br/> accommodating 4 guests (1 double, 2 <br/> single beds). Each has a terrace with <br/> seating and a private 24 m² pool with sun <br/> loungers, parasols, and a hammock.",
+      src: Swimup,
+      title: "Swim Up Room",
+      desc: "This room type with sea or forest view is 40 - 43 m2 and is located in the main building. This room type has 1 double bed and 1 single bed. Sea view and Wald  view rooms have an additional sofa or seating area and feature a pool and terrace. Swimup room with sea view, offers a private pool.",
+      area:"40-43 m2",
+             span:"Land / Sea View",
+             link:"/"
     },
     {
       src: SuperiorRoom,
       title: "Superior Room",
-      desc: "This room type with sea or forest view is 30 <br/> - 32 m2 and is located in the main <br/> building. The room has 1 double bed, 1 <br/> single bed and 1 sofa and has a balcony. <br/> Max capacity: 3 adults + 1 child.",
+      desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
+      area:" 30-32 m2",
+      span:"Land / Sea View",
+             link:"/"
     },
   ];
 
@@ -100,16 +107,16 @@ export default function HomePage3() {
               {/* Soldaki dikey yarı saydam şerit */}
               <div
                 className="
-                  h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-1/2 gap-[20px]
+                  h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-1/3 min-w-[437px] gap-[20px]
                   opacity-0 translate-x-[-10px] group-hover:opacity-100 group-hover:translate-x-0
-                  transition-all duration-[800ms] ease-in-out
+                  transition-all duration-[800ms] ease-in-out font-jost
                 "
               >
                 <h3 className="text-[30px] leading-[37.5px] tracking-[-0.66px] capitalize font-marcellus font-normal text-left w-auto ml-16 ">
                   {img.title}
                 </h3>
                 <p
-                  className="text-[16px] font-jost font-normal leading-normal text-left w-auto  ml-16"
+                  className="text-[16px] w-[80%] font-jost font-normal leading-normal text-left ml-16 line-clamp-6"
                   dangerouslySetInnerHTML={{ __html: img.desc }}
                 />
 
@@ -117,7 +124,7 @@ export default function HomePage3() {
                 <div className="flex items-center gap-4 ml-16">
                   <div className="flex items-center gap-1">
                     <Area width={24} height={24} />
-                    <span>50-52 m2</span>
+                    <span className="font-jost">{img.area}</span>
                   </div>
                   <div className="flex flex-row gap-1">
                     {index !== 1 && (
@@ -128,7 +135,7 @@ export default function HomePage3() {
 
                     <div className="flex items-center gap-2">
                       <Sea width={24} height={24} />
-                      <span>Land/Sea View</span>
+                      <span>{img.span}</span>
                     </div>
                   </div>
                 </div>

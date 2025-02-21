@@ -13,7 +13,7 @@ const DEFAULT_SLIDES = [
     link: "/rooms",
   },
   {
-    src: require("./Images/BeachAndPool.webp"),
+    src: require("./Images/BeachAndPool2.webp"),
     title: "Beach & Pools",
     link: "/beachpools",
   },
@@ -23,7 +23,7 @@ const DEFAULT_SLIDES = [
     link: "/entertainment",
   },
   {
-    src: require("./Images/Flavours.webp"),
+    src: require("./Images/Flavours2.webp"),
     title: "Flavours",
     link: "/restaurants",
   },
@@ -78,7 +78,7 @@ function Slide({ slide, marginClass }) {
 
 export default function Slider1({ slides }) {
   const slidesOriginal = slides || DEFAULT_SLIDES;
-  const slidesCombined = [...slidesOriginal, ...slidesOriginal];
+  const slidesCombined = [...slidesOriginal, ...slidesOriginal]; // Loop için ekstra slaytlar
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
@@ -101,70 +101,44 @@ export default function Slider1({ slides }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const scrollPrev = useCallback(() => {
-    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+    if (emblaApi) emblaApi.scrollPrev();
   }, [emblaApi]);
 
   const scrollNext = useCallback(() => {
-    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+    if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
   useEffect(() => {
     if (emblaApi) {
       emblaApi.on("select", () => {
-        setSelectedIndex(emblaApi.selectedScrollSnap());
+        setSelectedIndex(emblaApi.selectedScrollSnap() % slidesOriginal.length); // Index düzeltildi
       });
-      setSelectedIndex(emblaApi.selectedScrollSnap());
     }
-  }, [emblaApi]);
-
-  useEffect(() => {
-    if (!emblaApi) return;
-    emblaApi.on("select", () => {});
   }, [emblaApi]);
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div
-        ref={emblaRef}
-        className="
-          overflow-hidden
-          w-full
-          ml-[11.6%]
-         
-        "
-      >
+      <div ref={emblaRef} className="overflow-hidden w-full ml-[11.6%]">
         <div className="flex">
-          {slidesCombined.map((slide, index) => {
-            const length = slidesOriginal.length;
-            const isEndOfSet = (index + 1) % length === 0;
-            // Örnek: Tüm slaytlara aynı boşluk "mr-4"
-            // veya set sonu için farklı margin istersen: mr-8
-            const marginClass = isEndOfSet ? "mr-4" : "mr-4";
-            return (
-              <Slide 
-                key={index} 
-                slide={slide} 
-                marginClass="mr-4"
-              />
-            );
-          })}
+          {slidesCombined.map((slide, index) => (
+            <Slide key={index} slide={slide} marginClass="mr-4" />
+          ))}
         </div>
       </div>
 
-
+      {/* Scroll Indicator (5 parça olacak) */}
       <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
-  {slidesCombined.map((_, i) => (
-    <div
-      key={i}
-      className={`transition-all w-[20%] h-[2px] bg-[#24292C] rounded-full ${
-        selectedIndex === i ? "p-[2px]" : "bg-[#848383] "
-      }`}
-      onClick={() => handleJump(i)}
-    />
-  ))}
-
-
-</div>
+        {slidesOriginal.map((_, i) => (
+          <div
+            key={i}
+            className={`transition-all w-[20%] h-[1px] bg-[#24292C] ${
+              selectedIndex === i ? "p-[1px]" : "bg-[#848383]"
+            }`}
+            onClick={() => emblaApi && emblaApi.scrollTo(i)}
+          />
+        ))}
+      </div>
     </section>
   );
 }
+

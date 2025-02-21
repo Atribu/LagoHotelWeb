@@ -15,6 +15,7 @@ import img1 from "./images/SRF_4307 (2).webp"
 import img2 from "./images/SRF_3813.webp"
 import img3 from "./images/SRF_4487.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
+import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 
 const momentImages=[img1,img2,img3]
 
@@ -48,7 +49,7 @@ const kids = [
 const page = () => {
   return (
     <div className='overflow-hidden flex flex-col items-center justify-center gap-[100px]'>
-      <MainBannerSection img={image} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Bamboo Kids Club" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
+      <RestaurantMainBanner img={image} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Bamboo Kids Club" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
       <KidsBamboo/>
       <KidsIconsSection/>
       <KidsclubCarousel/>

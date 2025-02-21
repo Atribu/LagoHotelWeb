@@ -3,7 +3,7 @@ import React,{ useEffect, useRef } from "react";
 import Image from 'next/image'
 import img1 from "./images/contactGaleri.png"
 import img2 from "./images/contactGaleri2.png"
-import imgBackground from "./images/socialgalleryback1.png"
+import imgBackground from "./images/socialgalleryback3.webp"
 import LeafSvg from '../Header/Icons/LeafSvg'
 import minigallery from "./images/minigallery2.png"
 import Link from 'next/link'
@@ -76,9 +76,9 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className='flex w-screen h-[750px]  items-center justify-start bg-cover bg-bottom relative  ' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+    <div className='flex w-screen h-[750px] 2xl:h-[850px] items-center justify-start bg-cover bg-center relative  max-w-[1920px] overflow-hidden' style={{ backgroundImage: `url(${imgBackground.src})` }}>
       <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
-      <div className='flex w-[80%] items-center justify-center bg-white h-[88%]'>
+      <div className='flex w-[80%] items-center justify-center bg-white h-[88%] max-w-[1440px] '>
 
         <div className='flex w-[39%] font-jost text-black items-start justify-center '>
            <div className='flex flex-col w-[79%] items-start justify-center gap-[30px]'>
@@ -104,9 +104,9 @@ const ContactSection = () => {
         </div>
 
         <div className='flex w-[60%] h-[95%] '>
-        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[789px]  overflow-auto hover:overflow-scroll custom-scroll scroll-smooth mr-[4%]">
+        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[99%] overflow-auto hover:overflow-scroll custom-scroll scroll-smooth ">
       <div className="flex flex-col">
-          {[...Array(2)].flatMap((_, loopIndex) =>
+          {[...Array(8)].flatMap((_, loopIndex) =>
             [minigallery].map((img, index) => (
               <Image
                 key={`${loopIndex}-${index}`}

@@ -153,7 +153,8 @@ export default function Header() {
         className={`
           fixed top-0 left-0
           w-[420px]
-          h-[calc(100vh-90.2px)]
+          h-[100vh]
+          lg:h-[calc(100vh-84.2px)]
           bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
           z-[9999]
           transform transition-transform duration-300
