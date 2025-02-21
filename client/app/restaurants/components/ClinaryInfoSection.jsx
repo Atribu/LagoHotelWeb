@@ -12,7 +12,7 @@ const ClinaryInfoSection = ({
   texts = [],
 }) => {
   return (
-    <div className="flex w-screen h-[555px]  items-center justify-center max-w-[1444px]">
+    <div className="flex w-screen h-[555px]  items-center justify-center max-w-[1440px]">
       <div className="flex w-[76.8%] items-center justify-center gap-[52px] h-full">
         
         {/* Metin Alanı */}

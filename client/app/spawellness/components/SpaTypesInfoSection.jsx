@@ -27,7 +27,7 @@ const SpaTypesInfoSection = ({
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             {span}
           </span>
-          <h3 className="text-[48px] font-normal leading-[57.6px] font-marcellus">
+          <h3 className="text-[48px] font-normal leading-[57.6px] font-marcellus capsizedtext2">
             {header}
           </h3>
           <p className="text-[14px] font-normal leading-[21px]">

@@ -61,7 +61,7 @@ export default function Header() {
           </div>
 
           {!isMenuOpen && (
-            <div className="flex items-center justify-center ml-[4%] ">
+            <div className="flex items-center justify-center ml-[75%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 " onClick={toggleMenu}>
               <Hamburger width={30} height={30} color="white" className="object-contain" />
             </button>
@@ -76,7 +76,7 @@ export default function Header() {
             
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-[20%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
            <Link className='w-full items-center justify-center flex' href="/">
            <Image 
               src={logosvg}
@@ -92,6 +92,7 @@ export default function Header() {
             <Link 
               href="/contact"
               className="
+              hidden lg:flex
                 text-white
                 text-[16px]
                 font-medium
@@ -111,7 +112,8 @@ export default function Header() {
             </Link>
             <button
               className="
-               flex
+                hidden 
+                md:flex
                 px-[35px]
                 py-[17px]
                 text-white

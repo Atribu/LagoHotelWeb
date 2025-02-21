@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import Girl from "../Images/GirlAndLongSand.webp";
+import Girl from "../Images/beach8.webp";
 import Yazı from "../Images/Beach&Poolsyazısı.webp";
-import Dalga from "../Images/222.png";
+import Dalga from "../Images/waves2.webp";
 import ClinaryInfoSection from "@/app/restaurants/components/ClinaryInfoSection";
 import img1 from "../Images/beach1.webp";
 import img2 from "../Images/beach2.webp";
@@ -57,26 +57,26 @@ export default function Beach1() {
 
   // Dalga animasyonu
   const dalgaStyle = animate
-    ? "top-[50%] transition-all duration-700"
-    : "top-[70%] transition-all duration-700";
+    ? "top-[24%] transition-all duration-700"
+    : "top-[45%] transition-all duration-700";
 
   return (
     <>
       {/* HERO BÖLÜMÜ */}
       <div
         ref={containerRef}
-        className="relative flex flex-col w-full min-h-screen"
+        className="relative flex flex-col w-full h-screen "
       >
         {/* Arka Plan Resmi */}
         <img
           src={Girl.src}
           alt="Girl"
-          className="absolute w-full h-full object-cover object-[100%_12%] top-0 left-0 -z-10"
+          className="absolute w-full h-full object-cover top-0 left-0 -z-10"
         />
 
         {/* Beach & Pools Yazısı */}
         <div
-          className={`absolute inset-0 top-[15%] flex items-center justify-center transition-all duration-700 ${yaziTransition}`}
+          className={`absolute inset-0 top-[18%] 2xl:top-[12%] flex items-center justify-center transition-all duration-700 ${yaziTransition}`}
         >
           <img
             src={Yazı.src}
@@ -90,7 +90,7 @@ export default function Beach1() {
           <img
             src={Dalga.src}
             alt="Sea wave"
-            className="w-full object-cover"
+            className="w-full object-cover "
           />
         </div>
       </div>
@@ -105,9 +105,9 @@ export default function Beach1() {
         className={`
           relative z-10 transition-all duration-700
           ${textVisible ? "opacity-100" : "opacity-0"}
-          w-full min-h-screen
+          w-full min-h-content
           px-4 text-[#1d3535] text-center
-          flex flex-col items-center justify-center gap-5
+          flex flex-col items-center justify-center gap-5 my
         `}
       >
         <p className="uppercase text-[12px] leading-[14px] tracking-[0.48px] font-medium font-jost">
@@ -129,7 +129,7 @@ export default function Beach1() {
         </button>
 
         {/* Ek içerik - Ortada görünmesi için extra margin-top'u azaltabilir veya kaldırabilirsin. */}
-        <div className="flex relative mt-16 justify-center">
+        <div className="flex relative mt-[220px] justify-center">
           <ClinaryInfoSection
             img1={img1}
             img2={img2}

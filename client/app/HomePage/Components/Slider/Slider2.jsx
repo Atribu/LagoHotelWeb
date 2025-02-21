@@ -10,27 +10,27 @@ const DEFAULT_SLIDES = [
   {
     src: require("./Images/Accommodation.webp"),
     title: "Accommodation",
-    link: "/rooms",
+    span: "/rooms",
   },
   {
     src: require("./Images/BeachAndPool2.webp"),
     title: "Beach & Pools",
-    link: "/beachpools",
+    span: "/beachpools",
   },
   {
     src: require("./Images/Entertainment.webp"),
     title: "Experiences",
-    link: "/entertainment",
+    span: "/entertainment",
   },
   {
     src: require("./Images/Flavours2.webp"),
     title: "Flavours",
-    link: "/restaurants",
+    span: "/restaurants",
   },
   {
     src: require("./Images/Kids.webp"),
     title: "Kids",
-    link: "/kidsclub",
+    span: "/kidsclub",
   },
 ];
 
@@ -60,23 +60,24 @@ function Slide({ slide, marginClass }) {
         height={540}
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 flex items-center justify-center pb-4">
-        <a
-          href={slide.link}
+      <div className="absolute flex flex-col text-white left-1/2 -translate-x-1/2 -translate-y-[10%] items-center justify-center text-center top-[10%] gap-[23px]">
+        <h4 className="text-[30px] font-normal leading-[36px] -tracking-[0.66px] font-marcellus w-[100%]">{slide.title}</h4>
+        <div className="flex bg-white h-[1px] w-full"></div>
+        <span
           className="
             text-white
-            text-[40px] font-normal leading-[20px] -tracking-[0.88px]
-            font-marcellus transition
+            text-[12px] font-medium leading-[14px] -tracking-[0.48px]
+            font-jost transition uppercase
           "
         >
-          {slide.title}
-        </a>
+          {slide.span}
+        </span>
       </div>
     </div>
   );
 }
 
-export default function Slider1({ slides }) {
+export default function Slider2({ slides }) {
   const slidesOriginal = slides || DEFAULT_SLIDES;
   const slidesCombined = [...slidesOriginal, ...slidesOriginal]; // Loop için ekstra slaytlar
 
@@ -122,7 +123,7 @@ export default function Slider1({ slides }) {
         <div className="flex h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-4" />
-          ))}
+          ))}         
         </div>
       </div>
 
@@ -131,7 +132,7 @@ export default function Slider1({ slides }) {
         {slidesOriginal.map((_, i) => (
           <div
             key={i}
-            className={`transition-all ${slidesOriginal.length==4 ? "w-[25%]" : "w-[20%]"}  h-[1px] bg-[#24292C] ${
+            className={`transition-all w-[25%]  h-[1px] bg-[#24292C] ${
               selectedIndex === i ? "p-[1px]" : "bg-[#848383]"
             }`}
             onClick={() => emblaApi && emblaApi.scrollTo(i)}

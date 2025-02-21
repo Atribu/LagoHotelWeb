@@ -206,6 +206,21 @@
   }
 }
 
+/* text 12px */
+@layer utilities {
+  .capsizedText6::before {
+    content: "";
+    margin-bottom: -0.9863em;
+    display: table;
+  }
+
+  .capsizedText6::after {
+    content: "";
+    margin-top: -1.0137em;
+    display: table;
+  }
+}
+
 
 
 .custom-calendar {

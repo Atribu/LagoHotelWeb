@@ -10,10 +10,10 @@ const SpaInfoSection = ({img1,img2, texts=[],texts2=[],texts3=[]}) => {
             <span className="text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px]">
               {texts[0]}
             </span>
-            <h2 className="text-[48px] font-marcellus font-normal leaidng-[57.6px]">
+            <h2 className="text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
             {texts[1]}
             </h2>
-            <p className="text-[16px] font-normal leading-[24px]">
+            <p className="text-[16px] font-normal leading-[24px] capsizedText4">
             {texts[2]}
             </p>
           </div>

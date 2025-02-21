@@ -83,7 +83,7 @@ const textsClinary=["LAGO, you will enjoy your vacation with international cuisi
 
 const page = () => {
   return (
-    <div className='overflow-hidden items-center justify-center flex flex-col gap-[100px]'>
+    <div className='overflow-hidden items-center justify-center flex flex-col gap-[100px] bg-[#fbfbfb]'>
       <RestaurantMainBanner img={mainBanner} span="Curated Culinary Experiences" header="Restaurants" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={img3} img2={img4} span="Perfect Fine Dine Experiences" header=" Culinary Art at LAGO" texts={textsClinary} />
       <MainRestaurantSection/>
