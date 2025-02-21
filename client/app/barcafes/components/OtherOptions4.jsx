@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,7 +50,28 @@ const OtherOptionSlide = ({ room }) => (
 );
 
 const OtherOptions4 = ({ span, header, text, images }) => {
-  const [emblaRef] = useEmblaCarousel({ align: "start" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
+    align: "start",
+    startIndex: 0, });
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+    
+  const scrollPrev = useCallback(() => {
+    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.on("select", () => {
+        setSelectedIndex(emblaApi.selectedScrollSnap());
+      });
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    }
+  }, [emblaApi]);
 
   return (
     <div className="flex w-screen h-auto items-center justify-center  max-w-[1444px]">
@@ -63,6 +84,19 @@ const OtherOptions4 = ({ span, header, text, images }) => {
             ))}
           </div>
         </div>
+
+        <div className="flex lg:hidden items-end justify-end w-full mt-[50px] relative">
+  {images.map((_, i) => (
+    <div
+      key={i}
+      className={`transition-all w-[25%] h-[1px] bg-[#24292C] ${
+        selectedIndex === i ? "p-[1px]" : "bg-[#848383] "
+      }`}
+      onClick={() => handleJump(i)}
+    />
+  ))}
+</div>
+
       </div>
     </div>
   );

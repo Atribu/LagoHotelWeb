@@ -92,7 +92,7 @@ const GallerySection = () => {
 const ContactSection2 = () => {
   return (
     <div className="flex w-screen  max-w-[1440px] mb-[100px] justify-start ">
-      <div className="flex justify-center items-center border-[1px] border-lagoBlack 2xl:min-w-[1401px] h-[34vh] min-h-[422px] ">
+      <div className="flex justify-center items-center border-[1px] border-lagoBlack xl:min-w-[90vw] 2xl:min-w-[1401px] h-[34vh] min-h-[422px] ">
         <ContactDetails />
         <GallerySection />
       </div>

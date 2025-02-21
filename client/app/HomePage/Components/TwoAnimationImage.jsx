@@ -1,23 +1,37 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import img1 from "./Images/sag1.webp";
-import img2 from "./Images/sol2.webp";
+import img1 from "./Images/sag3.jpg";
+import img2 from "./Images/sol3.jpg";
 import Link from "next/link";
 
 const TwoAnimationImage = ({ span, header, text1, text2 }) => {
   const [animate, setAnimate] = useState(false);
+  const sectionRef = useRef(null); // Bölümü takip etmek için referans
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setAnimate((prev) => !prev); // Her 3 saniyede bir animate state'ini değiştir
-    }, 1000); // 3 saniye aralıklarla değişsin
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(true); // Sayfa bölüme geldiğinde animasyonu tetikle
+          observer.disconnect(); // **Bir kez çalıştıktan sonra izlemeyi bırak**
+        }
+      },
+      { threshold: 0.5 } // %50 görünür olduğunda tetikle
+    );
 
-    return () => clearInterval(interval); // Component unmount olursa temizle
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect(); // Component kaldırılırsa temizle
   }, []);
 
   return (
-    <div className="flex w-screen h-[555px] items-center justify-center max-w-[1444px] mt-[100px]">
+    <div
+      ref={sectionRef} // Ref'i div'e bağladık
+      className="flex w-screen h-[555px] items-center justify-center max-w-[1444px] mt-[150px] mb-[50px]"
+    >
       <div className="flex flex-row-reverse w-[76.8%] items-center justify-center gap-[52px] h-full">
         <div className="flex flex-col w-[48.5%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
@@ -49,19 +63,19 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
           <Image
             src={img2}
             alt="art"
-            width={img2.width}
-            height={img2.height}
+            width={300}
+            height={450}
             className={`absolute bottom-[105px] right-[215px] z-10 transition-all duration-1000 ease-in-out ${
-              animate ? "translate-y-4" : "-translate-y-4"
+              animate ? "translate-y-4 opacity-100" : "-translate-y-4 opacity-0"
             }`}
           />
           <Image
             src={img1}
             alt="art"
-            width={img1.width}
-            height={img1.height}
+            width={300}
+            height={450}
             className={`z-50 transition-all duration-1000 ease-in-out ${
-              animate ? "-translate-y-4" : "translate-y-4"
+              animate ? "-translate-y-4 opacity-100" : "translate-y-4 opacity-0"
             }`}
           />
         </div>

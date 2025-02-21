@@ -8,7 +8,7 @@ export default function HomePage1() {
   return (
     <div className='flex flex-col w-full items-center justify-center my-[50px]'>
       <div className="flex flex-col w-[76.8%] gap-[35px] items-center justify-center text-center text-[#000] font-jost">
-      <span className=' text-[12px] font-[500px] leading-[14px] tracking-[0.48px] uppercase'>
+      <span className=' text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>
         WELCOME TO LAGO HOTEL
       </span>
       <h2 className=' text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2'>
