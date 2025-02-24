@@ -37,14 +37,15 @@ export default function Reservation() {
         3) istediğin kadar top değeri verebilirsin (ör. top-[100px]) 
       */
       className="
+        hidden
+        md:flex
         absolute 
         bottom-0  
         left-0 
         right-0
         w-screen 
         h-auto 
-        z-20
-        flex 
+        z-20 
         items-center 
         justify-center
         bg-[#1D1D1B] 
@@ -57,34 +58,34 @@ export default function Reservation() {
 
       <form
         className="
-          lg:flex 
-          lg:flex-row 
-          grid 
-          grid-cols-2 
-          w-screen
+          flex 
+          flex-row 
+          w-[95%]
+          lg:w-screen
           items-center 
           h-auto
           max-h-content
           justify-center 
-          text-[#ffff] 
+          text-[#ffffff] 
           font-jost 
           leading-normal 
           text-center
-         gap-[50px]
+          gap-[40px]
+          lg:gap-[50px]
    
         "
       >
-        <div>
-          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px] w-auto">
+        <div className="hidden lg:flex">
+          <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px] w-auto ">
             Book your perfect stay
           </p>
         </div>
 
         {/* İnce çizgi */}
-        <div className="w-[1px] h-[11px] bg-white" />
+        <div className="w-[1px] h-[11px] bg-white hidden lg:flex" />
 
         {/* CHECK-IN */}
-        <div className="relative flex items-center justify-center w-auto">
+        <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkInDate" className="sr-only text-white">
             Check In
           </label>
@@ -107,7 +108,6 @@ export default function Reservation() {
               placeholder:leading-[24px]
               placeholder:font-medium
               placeholder:font-jost
-              
             "
             popperPlacement="bottom-start"
             calendarClassName="custom-calendar"
@@ -344,6 +344,8 @@ export default function Reservation() {
             items-center
             bg-transparent
             capsizedText4
+            max-w-[156px]
+            
           "
           type="button"
         >
