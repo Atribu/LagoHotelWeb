@@ -8,6 +8,7 @@ import logosvg from "../Header/Icons/Asset2.svg"
 import Phone from "../Header/Icons/Phone"
 import LocationSvg from "./LocationSvg"
 import MessageSvg from "./MessageSvg"
+import ArrawDown from "@/app/HomePage/Components/Icons/ArrawDown"
 
 export default function Footer() {
   return (
@@ -229,10 +230,75 @@ export default function Footer() {
       </div>
 
 
+      <div className="flex md:hidden bg-lagoBlack w-screen h-full pt-[29px] pb-[67px] items-center justify-center">
+        <div className="flex flex-col gap-[35px] items-center justify-center w-[92%]">
+        <Image 
+              src={logosvg}
+              alt="Logo"
+              width={73}
+              height={54}
+              className="object-contain items-center justify-center"
+
+            />
+
+            <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[14px] font-normal leading-[24px] w-full ml-[2%]">
+              <div className="flex gap-[15px] items-center justify-center">
+                <Phone className="flex" width={25} height={25} color="#A6A6A6"/>
+                <div className="flex flex-col gap-[10px] items-start justify-start">
+                  <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">Hotel Line</span>
+                  <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
+                  <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">+ 90 242 756 99 00</p>
+                </div>
+              </div>
+
+              <div className="flex gap-[15px] items-center justify-center">
+                <Phone className="flex" width={25} height={25} color="#A6A6A6"/>
+                <div className="flex flex-col gap-[10px] items-start justify-start">
+                  <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">Call Center</span>
+                  <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
+                  <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6">+ 90 242 524 57 87</p>
+                </div>
+              </div>
+
+              <div className="flex gap-[15px] items-center justify-center">
+                <LocationSvg className="flex" width={26} height={26} color="#A6A6A6"/>
+                <div className="flex flex-col gap-[10px] items-start justify-start">
+                  <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">Adress</span>
+                  <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
+                  <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">Manavgat/Antalya, TR</p>
+                </div>
+              </div>
+
+              <div className="flex gap-[15px] items-center justify-center">
+                <MessageSvg className="flex" width={26} height={26} color="#A6A6A6"/>
+                <div className="flex flex-col gap-[10px] items-start justify-start">
+                  <span className="text-[#A6A6A6] leading-[32.53px] capsizedText6 tracking-[0.3px]">E-mail</span>
+                  <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
+                  <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">info@lagohotel.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col w-full gap-[15px] items-center justify-center font-jost font-normal text-[14px]">
+              <Link href="/" className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]">ACCOMODATION <ArrawDown className="flex" width={25} height={25}/></Link>
+              <Link href="/" className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]">EXPERIENCES <ArrawDown className="flex" width={25} height={25}/></Link>
+              <Link href="/" className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]">CONTACT US </Link>
+              <Link href="/" className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]">MORE <ArrawDown className="flex" width={25} height={25}/></Link>
+            </div>
+
+            <div className="flex w-full items-center justify-between gap-[10px]">
+
+            </div>
+
+            <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] text-center justify-center items-center">
+            Powered by DGTLFACE
+            </div>
+        </div>
+      </div>
 
 
       {/* Alt ince çizgi */}
-      <div className="w-full h-[1px] bg-gray-400 mt-[60px]" />
+      <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
       <div className="flex text-center items-center justify-center text-[15px] font-normal leading-[26px]">
             Powered by DGTLFACE
         </div>

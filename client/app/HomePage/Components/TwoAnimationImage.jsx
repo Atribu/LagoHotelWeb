@@ -62,13 +62,13 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
           </Link>
         </div>
 
-        <div className="flex md:w-[45%] lg:w-[48.8%] items-end justify-end relative h-full mt-[67px] md:mt-0">
+        <div className="flex w-[88%] md:w-[45%] h-[327px] md:h-full lg:w-[48.8%] items-end justify-end relative  mt-[67px] md:mt-0">
           <Image
             src={img2}
             alt="art"
             width={300}
             height={450}
-            className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] absolute bottom-[67px] right-[76px] md:bottom-[110px] md:right-[104px] lg:bottom-[105px] lg:right-[215px] z-10 transition-all duration-1000 ease-in-out ${
+            className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] absolute bottom-[100px] right-[140px] md:bottom-[110px] md:right-[104px] lg:bottom-[105px] lg:right-[215px] z-10 transition-all duration-1000 ease-in-out ${
               animate ? "translate-y-4 opacity-100" : "-translate-y-4 opacity-0"
             }`}
           />

@@ -165,7 +165,8 @@ export default function HeaderWhite() {
         ref={menuRef} // **Referans atadık**
         className={`
           fixed top-0 left-0
-          w-[420px]
+          w-full
+          lg:w-[420px]
           h-full
           bg-white/70 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-[10px] 
           z-[9999]
@@ -185,7 +186,7 @@ export default function HeaderWhite() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-lagoBlack font-jost uppercase">
+        <nav className="mt-[21%] ml-7 px-4 w-full lg:max-w-[392px] space-y-[22px] text-[16px] text-lagoBlack font-jost uppercase">
           
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
@@ -226,7 +227,7 @@ export default function HeaderWhite() {
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
-        <div className="ml-2 px-4 w-full max-w-[392px]  mt-[38%] flex flex-col items-center font-jost">
+        <div className="ml-2 px-4 w-full lg:max-w-[392px] mt-[15%]  lg:mt-[38%] flex flex-col items-center font-jost">
           <div className="flex items-center justify-center gap-[15px] text-lagoBlack">
             <Phone className="flex" width={18} height={18} color="#1D1D1B"/>
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
