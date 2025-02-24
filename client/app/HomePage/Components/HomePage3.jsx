@@ -42,7 +42,13 @@ export default function HomePage3() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="flex w-full">
+ <div className="flex flex-col w-screen gap-[30px] lg:gap-[64px] items-center justify-center">
+  <div className="flex flex-col w-[85%] gap-[17px] md:gap-[25px] lg:gap-[30px] items-center justify-center text-center">
+    <span className="text-[12px] leading-[14px] uppercase tracking-[0.48px] font-medium font-jost">Choose your accommodation type</span>
+    <h3 className="text-[28px] md:text-[32px] md:leading-[57.6px] lg:text-[48px] capsizedText2 font-marcellus font-normal leading-normal">Stay Experience</h3>
+  </div>
+
+     <div className="flex w-full h-[274px] md:min-h-[354px] lg:h-[498px]">
       {images.map((img, index) => {
         let widthClass;
         if (hoveredIndex === null) {
@@ -165,5 +171,6 @@ export default function HomePage3() {
         );
       })}
     </div>
+ </div>
   );
 }

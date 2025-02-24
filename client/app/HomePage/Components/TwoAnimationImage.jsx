@@ -30,22 +30,25 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
   return (
     <div
       ref={sectionRef} // Ref'i div'e bağladık
-      className="flex w-screen h-[555px] items-center justify-center max-w-[1444px] mt-[150px] mb-[50px]"
+      className="flex w-screen md:h-[365px] lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[150px] mb-[50px]"
     >
-      <div className="flex flex-row-reverse w-[76.8%] items-center justify-center gap-[52px] h-full">
-        <div className="flex flex-col w-[48.5%] items-start justify-center text-start gap-[35px] text-black font-jost">
-          <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
+      <div className="flex flex-col md:flex-row-reverse w-[92%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
+        <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
+          <span className="text-[12px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
             Perfect Fine Dine Experiences
           </span>
-          <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px] capsizedText2">
+          <h2 className="hidden lg:flex lg:text-[48.089px] font-normal font-marcellus md:leading-normal lg:leading-[57.707px] capsizedText2">
             Where green and blue meets
           </h2>
-          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
+          <h2 className="text-[28px] md:text-[32px] lg:text-[48.089px] font-normal font-marcellus md:leading-normal lg:hidden capsizedText2">
+             Exclusive Holiday 
+          </h2>
+          <p className="text-[14px] md:text-[13.943px] lg:text-[16.03px] font-normal leading-[130%] lg:leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
             With its 350 m long golden yellow beach located on the sands of the
             most breathtaking blue hues, LAGO will provide you with an
             unforgettable holiday.
           </p>
-          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
+          <p className="text-[14px] md:text-[13.943px] lg:text-[16.03px] font-normal leading-[130%] lg:leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
             Enjoy cooling off in pools of different sizes in the deep blue world
             of LAGO. The facility has a heated indoor pool, and there is also a
             heated relax pool in the area where the outdoor swimming pool is
@@ -53,19 +56,19 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
           </p>
           <Link
             href="/gallery"
-            className="flex py-[16px] px-[32px] items-center justify-center text-center text-[16px] h-[41px] text-lagoBrown uppercase leading-[0px] font-medium border border-lagoBrown shadow-buttonCustom"
+            className="flex py-[16px] px-[32px] items-center justify-center text-center text-[14px] lg:text-[16px] h-[38px] md:h-[37.88px] lg:h-[41px] text-lagoBrown uppercase md:leading-[29.878px] leading-[30px] font-medium border border-lagoBrown shadow-buttonCustom"
           >
             Go to gallery
           </Link>
         </div>
 
-        <div className="flex w-[48.8%] items-end justify-end relative h-full">
+        <div className="flex md:w-[45%] lg:w-[48.8%] items-end justify-end relative h-full mt-[67px] md:mt-0">
           <Image
             src={img2}
             alt="art"
             width={300}
             height={450}
-            className={`absolute bottom-[105px] right-[215px] z-10 transition-all duration-1000 ease-in-out ${
+            className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] absolute bottom-[67px] right-[76px] md:bottom-[110px] md:right-[104px] lg:bottom-[105px] lg:right-[215px] z-10 transition-all duration-1000 ease-in-out ${
               animate ? "translate-y-4 opacity-100" : "-translate-y-4 opacity-0"
             }`}
           />
@@ -74,7 +77,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
             alt="art"
             width={300}
             height={450}
-            className={`z-50 transition-all duration-1000 ease-in-out ${
+            className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] z-50 transition-all duration-1000 ease-in-out ${
               animate ? "-translate-y-4 opacity-100" : "translate-y-4 opacity-0"
             }`}
           />

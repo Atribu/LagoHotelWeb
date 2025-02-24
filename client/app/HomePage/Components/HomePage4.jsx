@@ -51,36 +51,36 @@ export default function HomePage4() {
   ]
 
   return (
-    <section className="max-w-[1440px] mx-auto px-4">
+    <section className="max-w-[1440px] mx-auto px-4 w-screen items-center justify-center">
       {/* Üst küçük başlık */}
-      <div className="flex flex-col w-[1106px]">
-      <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost mb-2">
+      <div className="flex flex-col 2xl:w-[1106px] w-[92%] items-start ml-[4%] justify-center gap-[15px] text-lagoBlack">
+      <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost">
         Discover the services we offer
       </p>
 
       {/* Büyük başlık */}
-      <h2 className="text-[48px] font-marcellus font-normal tracking-tight mb-8">
+      <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2">
         All the Essentials for a <br className="hidden md:block" />
         Comfortable Stay
       </h2>
 
       {/* İkon + metin grid (2 satır x 3 sütun) */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-10">
+      <div className="flex flex-col items-start md:grid gap-[15px] md:gap-20 lg:gap-[29px] md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 w-full">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex gap-6 items-center justify-center"
+            className="flex gap-[15px] md:gap-[10px] lg:gap-[17px] items-center justify-center lg:mb-[26px]"
           >
             {/* İkon */}
             <div className="shrink-0 items-center justify-center">
               <service.Icon width={50} height={50} />
             </div>
             {/* Başlık + açıklama */}
-            <div>
-              <h3 className="font-jost text-[18px] font-normal leading-[30px] mb-1">
+            <div className="flex flex-col gap-[4px] md:gap-[10px] lg:gap-[17px]">
+              <h3 className="font-jost text-[16px] leading-normal lg:text-[18px] font-normal md:leading-[30px]">
                 {service.title}
               </h3>
-              <p className="font-jost text-[14px] font-normal leading-normal">
+              <p className="font-jost text-[12px] lg:text-[14px] font-normal leading-normal">
                 {service.description}
               </p>
             </div>
@@ -89,8 +89,8 @@ export default function HomePage4() {
       </div>
 
       {/* Alt kısım: Discover More link/button */}
-      <div className="mt-12">
-        <button className="border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[18px] font-normal leading-[30px] transition cursor-pointer">
+      <div className="hidden lg:flex mt-[19px]">
+        <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[18px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
         </button>
       </div>

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./GeneralComponents/Header/Header";
 import Footer from "./GeneralComponents/Footer/Footer";
 import HeaderWhite from "./GeneralComponents/Header/HeaderWhite";
+import BookNow from "./GeneralComponents/BookNow";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <HeaderWhite/>
+        <BookNow/>
         {children}
         <Footer />
       </body>

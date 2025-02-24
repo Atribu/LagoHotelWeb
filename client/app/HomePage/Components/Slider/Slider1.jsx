@@ -48,8 +48,10 @@ function Slide({ slide, marginClass }) {
         items-center
         ${marginClass}
         flex-[0_0_auto]
-         min-h-[540px]
-         w-[360px]
+         lg:min-h-[540px]
+         lg:w-[360px]
+         md:w-[270px] md:h-[405px]
+         h-[266px] w-[177.3px]
         
       `}
     >
@@ -58,14 +60,14 @@ function Slide({ slide, marginClass }) {
         alt={slide.title}
         width={360}
         height={540}
-        className="w-full h-full object-cover"
+        className="lg:w-full lg:h-full md:w-[270px] md:h-[405px] h-[266px] w-[177.3px] object-cover"
       />
       <div className="absolute inset-0 flex items-center justify-center pb-4">
         <a
           href={slide.link}
           className="
             text-white
-            text-[40px] font-normal leading-[20px] -tracking-[0.88px]
+            text-[20px] md:text-[30px] lg:text-[40px] leading-[9.852px] -tracking-[0.44px] font-normal md:leading-[15px] lg:leading-[20px] md:-tracking-[0.66px] lg:-tracking-[0.88px]
             font-marcellus transition
           "
         >
@@ -119,7 +121,7 @@ export default function Slider1({ slides }) {
   return (
     <section className="relative w-full overflow-hidden">
       <div ref={emblaRef} className="overflow-hidden w-full ml-[11.6%]">
-        <div className="flex h-[540px] w-auto">
+        <div className="flex md:h-[405px] lg:h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-4" />
           ))}

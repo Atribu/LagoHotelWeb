@@ -76,15 +76,15 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className='flex w-screen h-[750px] 2xl:h-[850px] items-center justify-start bg-cover bg-center relative  max-w-[1920px] overflow-hidden' style={{ backgroundImage: `url(${imgBackground.src})` }}>
+    <div className='flex w-screen h-screen md:h-[497px] lg:h-[750px] 2xl:h-[850px] items-center md:justify-start bg-cover bg-center relative  max-w-[1920px] overflow-hidden justify-center' style={{ backgroundImage: `url(${imgBackground.src})` }}>
       <LeafSvg className="absolute top-6 -left-24" width={498} height={652}/>
-      <div className='flex w-[80%] items-center justify-center bg-white h-[88%] max-w-[1440px] '>
+      <div className='flex flex-col md:flex-row w-[95%]  md:w-[88%] lg:w-[80%] items-center justify-center bg-white h-[85%] lg:h-[88%] max-w-[1440px] gap-[20px]'>
 
-        <div className='flex w-[39%] font-jost text-black items-start justify-center '>
-           <div className='flex flex-col w-[79%] items-start justify-center gap-[30px]'>
+        <div className='flex h-[39%] md:h-auto w-[90%] md:w-[45%] lg:w-[39%] font-jost text-black items-center md:items-start justify-center '>
+           <div className='flex flex-col md:w-[79%] items-center text-center md:text-start md:items-start justify-center gap-[15px] md:gap-[23.19px] lg:gap-[30px]'>
            <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] '>CONTACT US FOR MORE</span>
-            <h2 className='font-marcellus font-normal text-[48px] leading-[57.6px] capsizedText2'>@LagoHotels</h2>
-            <p className='text-[16px] font-normal leading-[24px] '>
+            <h2 className='font-marcellus font-normal text-[32px] lg:text-[48px] md:leading-normal lg:leading-[57.6px] lg:capsizedText2'>@LagoHotels</h2>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-[24px] '>
             Titreyengol, Sorgun / Manavgat/ Antalya / TR <br></br>
             Phone: <Link href="/" className='underline '>+90 242 756 99 00 </Link> <br></br>
             Call Center: <Link href="/" className='underline '>+90 242 524 57 87</Link> <br></br>
@@ -98,12 +98,13 @@ const ContactSection = () => {
                  <PiYoutubeLogoLight size={28} />
                 </div>
                 <div className='flex bg-black h-[20px] w-[1px]'></div>
-                <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">Stay updated</span>
+                <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal hidden lg:flex leading-[30px] uppercase">Stay updated</span>
+                <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[14px] font-normal md:leading-[19.88px] flex lg:hidden uppercase">BOOK NOW</span>
             </div>
            </div>
         </div>
 
-        <div className='flex w-[60%] h-[95%] '>
+        <div className='flex w-[90%] md:w-[55%] lg:w-[60%] h-[59%] md:h-[95%] '>
         <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[99%] overflow-auto hover:overflow-scroll custom-scroll scroll-smooth ">
       <div className="flex flex-col">
           {[...Array(8)].flatMap((_, loopIndex) =>

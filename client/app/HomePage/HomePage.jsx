@@ -16,7 +16,7 @@ const HomePage = () => {
         <HomePage1 />
         <HomePage2 />
         <EmblaCarousel options={{ loop: true }}/>
-     <div className='flex flex-col items-center justify-center w-screen gap-[100px] bg-[#fbfbfb]'>
+     <div className='flex flex-col items-center justify-center w-screen gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
      {/* <HomePage3 /> */}
      <TwoAnimationImage/>
      <HomePage4 />
