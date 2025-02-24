@@ -8,8 +8,8 @@ import Link from "next/link";
 const RoomsSectionReverse = ({img,img2, header,text,span,span2,link, id}) => {
   return (
     <div id={id} className="flex w-screen h-auto items-center justify-center">
-      <div className="flex flex-row-reverse items-center justify-between w-[76.8%] gap-[42px] max-w-[1208px] ">
-        <div className="flex items-center w-[72.5%] h-[630px] gap-[10px] ">
+      <div className="flex flex-col lg:flex-row-reverse items-center justify-between w-full lg:w-[76.8%] gap-[42px] max-w-[1208px] px-4 lg:px-0">
+        <div className="flex flex-row items-center w-full lg:w-[72.5%] h-[630px] gap-[10px]">
           <Image
             src={img}
             width={img.width}
@@ -28,7 +28,7 @@ const RoomsSectionReverse = ({img,img2, header,text,span,span2,link, id}) => {
         </div>
 
         {/* text section */}
-        <div className="flex flex-col w-[26.5%] items-start justify-center h-full text-start font-jost gap-[25px]">
+        <div className="flex flex-col w-full lg:w-[26.5%] items-start justify-center h-full text-start font-jost gap-[25px] mt-8 lg:mt-0">
           <h3 className="text-lagoBlack font-marcellus text-[30px] font-normal leading-[125%] -tracking-[0.66px] capitalize">
          {header}
           </h3>
