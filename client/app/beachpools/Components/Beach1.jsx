@@ -28,20 +28,16 @@ export default function Beach1() {
     if (!container) return;
 
     const handleWheel = (e) => {
-      // İlk kez scroll yapılırken animasyonun çalışması için
       if (scrollAttempt === 0) {
         e.preventDefault();
-        // Animasyon henüz başlamadıysa başlat
         if (!animate) {
           setAnimate(true);
-          // Dalga animasyonu süresi: 700ms
           setTimeout(() => {
             setScrollAttempt(1);
             setTextVisible(true);
           }, 700);
         }
       }
-      // scrollAttempt === 1 olduğunda ise normal scroll'a izin veriyoruz
     };
 
     container.addEventListener("wheel", handleWheel, { passive: false });
@@ -55,59 +51,52 @@ export default function Beach1() {
     ? "translate-y-[200px] opacity-0"
     : "translate-y-0 opacity-100";
 
-  // Dalga animasyonu
+  // Dalga animasyonu:
+  // Animate false durumunda dalga "top-[65%]" konumundan,
+  // animate true durumunda ise "top-[55%]" konumuna kayıyor.
   const dalgaStyle = animate
-    ? "top-[24%] transition-all duration-700"
-    : "top-[45%] transition-all duration-700";
+    ? "top-[45%] transition-all duration-700"
+    : "top-[65%] transition-all duration-700";
 
   return (
     <>
       {/* HERO BÖLÜMÜ */}
-      <div
-        ref={containerRef}
-        className="relative flex flex-col w-full h-screen "
-      >
+      <div ref={containerRef} className="relative flex flex-col w-full h-screen">
         {/* Arka Plan Resmi */}
         <img
           src={Girl.src}
           alt="Girl"
-          className="absolute w-full h-full object-cover top-0 left-0 -z-10"
+          className="absolute w-full h-full object-cover top-0 left-0 -z-10 transform scale-[1.7] lg:scale-100 transition-transform duration-700"
         />
 
         {/* Beach & Pools Yazısı */}
         <div
-          className={`absolute inset-0 top-[18%] 2xl:top-[12%] flex items-center justify-center transition-all duration-700 ${yaziTransition}`}
+          className={`
+            absolute inset-0 lg:top-[18%] top-[18%] flex items-center justify-center 
+            transition-all duration-700 ${yaziTransition}
+          `}
         >
           <img
             src={Yazı.src}
             alt="Beach & Pools Yazı"
-            className="object-contain max-w-[80%] md:max-w-[40%]"
+            className="object-contain max-w-[50%] lg:max-w-[20%]"
           />
         </div>
 
         {/* Dalga Animasyonu */}
         <div className={`absolute left-0 w-full ${dalgaStyle}`}>
-          <img
-            src={Dalga.src}
-            alt="Sea wave"
-            className="w-full object-cover "
-          />
+          <img src={Dalga.src} alt="Sea wave" className="w-full object-cover" />
         </div>
       </div>
 
       {/* METİN BLOĞU VE EK İÇERİKLER */}
-      {/*
-        Burada container'ımız min-h-screen yapıda; böylece sayfanın tamamını
-        kaplayarak içeriği ortalayabiliyoruz. items-center & justify-center
-        ile hem yatay hem dikey ortalama sağlanıyor.
-      */}
       <div
         className={`
           relative z-10 transition-all duration-700
           ${textVisible ? "opacity-100" : "opacity-0"}
           w-full min-h-content
           px-4 text-[#1d3535] text-center
-          flex flex-col items-center justify-center gap-5 my
+          flex flex-col items-center justify-center gap-5 -mt-24 mb-10
         `}
       >
         <p className="uppercase text-[12px] leading-[14px] tracking-[0.48px] font-medium font-jost">
@@ -128,8 +117,8 @@ export default function Beach1() {
           Discover More
         </button>
 
-        {/* Ek içerik - Ortada görünmesi için extra margin-top'u azaltabilir veya kaldırabilirsin. */}
-        <div className="flex relative mt-[220px] justify-center">
+        {/* Ek içerik: Mobilde mt değeri düşük, lg'de orijinal tasarıma uygun yüksek margin */}
+        <div className="flex relative mt-10 lg:mt-[220px] justify-center">
           <ClinaryInfoSection
             img1={img1}
             img2={img2}
