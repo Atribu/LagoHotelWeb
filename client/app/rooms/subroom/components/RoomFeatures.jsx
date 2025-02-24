@@ -33,8 +33,8 @@ const items = [
 
 const RoomFeatures = () => {
   return (
-    <div className="flex w-screen h-auto  items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
-      <div className="flex w-[76.8%] items-start justify-center gap-[4.5%] ">
+    <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
+      <div className="flex md:w-[92%] lg:w-[76.8%] items-start justify-center gap-[4.5%] ">
         
         <div className="flex flex-col gap-[30px] w-[63%] items-start justify-start font-jost">
 
@@ -126,15 +126,15 @@ const RoomFeatures = () => {
 
         {/* resevation */}
         <div className="flex flex-col w-[32.5%] gap-[35px] pb-[16px] font-jost">
-        <div className="flex flex-col  w-full py-[50px]  pl-[50px] items-start justify-center text-center gap-[20px] bg-white shadow-divCustom">
-            <div className="flex flex-col gap-[10px] w-full mb-[5px] items-start text-start">
-            <h3 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
+        <div className="flex flex-col w-full py-[50px] lg:pl-[50px] items-center lg:items-start justify-center text-center gap-[20px] bg-white shadow-divCustom lg:min-w-[330px]">
+            <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-start text-center lg:text-start">
+            <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
             <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">Pick up the dates for your stay</p>
             </div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
-            <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
+            <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>

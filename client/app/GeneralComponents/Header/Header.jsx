@@ -13,6 +13,7 @@ import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
 import logosvg from "./Icons/Asset2.svg"
 import gradient4 from "./Icons/header.png"
 import DownArrow from './Icons/DownArrow';
+import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,6 +21,8 @@ export default function Header() {
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
+  const [isRoomsOpen, setIsRoomsOpen] = useState(false);
 
     // **Sayfanın herhangi bir yerine tıklayınca kapansın**
     useEffect(() => {
@@ -150,10 +153,12 @@ export default function Header() {
         ref={menuRef} // **Referans atadık**
         className={`
           fixed top-0 left-0
-          w-[420px]
+          w-full
+          lg:w-[420px]
           h-[100vh]
           lg:h-[calc(100vh-84.2px)]
-          bg-[#1D1D1B] bg-opacity-50      /* <-- EKLENDİ */
+          lg:bg-[#1D1D1B] lg:    bg-opacity-50   
+            bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px]
           z-[9999]
           transform transition-transform duration-300
           ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
@@ -171,14 +176,30 @@ export default function Header() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[16px] text-white font-jost uppercase">
+        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[18px] text-white font-jost uppercase">
           
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
           </Link>
-          <Link href="/rooms" className="block  font-normal leading-[26.667px]">
+          <div className='relative'>
+          <Link  onClick={() => setIsRoomsOpen(!isRoomsOpen)} href="/rooms" className="flex items-center font-normal leading-[26.667px] gap-[11.11px]">
             ACCOMODATION
+            <IoMdArrowDropdown className={`w-4 h-4 transition-transform ${isRoomsOpen ? "rotate-180" : "rotate-0"}`} />
           </Link>
+
+          <div  className={`overflow-hidden transition-all duration-500 ease-in-out ${
+            isRoomsOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"
+          }`}>
+          <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
+            <Link href="/rooms/" className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase">Superior Room</Link>
+            <Link href="/rooms/"  className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase">Family Room</Link>
+            <Link href="/rooms/"  className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase">Swim-up Room</Link>
+            <Link href="/rooms/subroom"  className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase">Family Swim-up Room</Link>
+            <Link href="/rooms/"  className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase">Duplex Family Room</Link>
+          </div>
+          </div>
+
+          </div>
           <Link href="/beachpools" className="block  font-normal leading-[26.667px]">
             BEACH & POOL
           </Link>
