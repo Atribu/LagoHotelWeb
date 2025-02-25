@@ -80,23 +80,23 @@ const activities = [
 const EntertainmentTypesSection = () => {
   return (
     <div className="flex w-screen items-center justify-center max-w-[1440px]">
-      <div className="flex flex-col w-[76.8%] items-start justify-center gap-[50px] max-w-[1106px]">
+      <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[30px] md:gap-[50px] max-w-[1106px]">
         
         {/* Başlık Bölümü */}
-        <div className="flex flex-col items-start justify-center text-start gap-[35px] text-black font-jost">
+        <div className="flex flex-col items-start justify-center text-start gap-[15px] md:gap-[25px] lg:gap-[35px] text-black font-jost">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             Entertainment & Actıvıtıes
           </span>
-          <h3 className="text-[48px] font-normal font-marcellus leading-[57.6px] capsizedText2">
+          <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal font-marcellus leading-normal lg:leading-[57.6px] capsizedText2">
             Events are held daily, Except Sundays
           </h3>
-          <p className="text-[16px] font-normal leading-[24px] w-[65%] capsizedText4">
+          <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] capsizedText4">
             LAGO, which offers a variety of activities like disco, bocce, beach volleyball, table tennis, cinema, beach activities, water sports, and night entertainment, is ready to welcome you with sporting
           </p>
         </div>
 
         {/* Dinamik Kartlar */}
-        <div className="grid grid-cols-3 w-full items-center justify-center gap-[31px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full items-center justify-center gap-[31px]">
           {activities.map((activity, index) => (
             <div key={index} className="flex flex-col items-center justify-center relative mb-[180px]">
               <div className="w-full flex flex-col items-center justify-end cursor-pointer">
@@ -105,7 +105,7 @@ const EntertainmentTypesSection = () => {
                   <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
                     {activity.category}
                   </span>
-                  <h4 className="text-[30px] font-normal leading-[40px] capitalize font-marcellus capsizedText3">
+                  <h4 className="text-[28px] lg:text-[30px] font-normal leading-[40px] capitalize font-marcellus capsizedText3">
                     {activity.title}
                   </h4>
                   <p className="text-[14px] font-normal leading-[21px] capsizedText4">

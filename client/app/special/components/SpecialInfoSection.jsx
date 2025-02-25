@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const SpecialInfoSection = () => {
   return (
-    <div className="flex w-screen h-[555px] items-center justify-center relative  max-w-[1444px]">
-      <div className="flex w-[76.8%] items-center justify-between h-full gap-[4%]">
-        <div className="flex flex-col w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
+    <div className="flex w-screen h-auto lg:h-[555px] items-center justify-center relative max-w-[1444px]">
+      <div className="flex flex-col md:flex-row w-[80%] lg:w-[76.8%] items-center justify-between h-full gap-[130px] md:gap-[4%]">
+        <div className="flex flex-col w-[92%] md:w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
           Perfect Fine Dine Experiences
           </span>
@@ -23,9 +23,9 @@ const SpecialInfoSection = () => {
             
         </div>
 
-        <div className="flex w-[49%] items-end justify-end relative h-full">
+        <div className="flex w-[80%] md:w-[49%] items-end justify-end relative h-full">
             <Image src={img1} alt="art" width={300} height={450} className="z-[99]"/>
-            <Image src={img2} alt="art" width={300} height={450} className="absolute bottom-[105px] right-[215px]"/>
+            <Image src={img2} alt="art" width={300} height={450} className="absolute bottom-[105px] right-[215px] z-20"/>
         </div>
 
       </div>

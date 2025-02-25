@@ -30,11 +30,11 @@ const CuisinesCarousel = ({span,header,text, cuisines}) => {
 
   return (
     <div className='flex w-screen h-auto items-center justify-center max-w-[1440px]'>
-      <div className='flex flex-col w-[90%] lg:w-[90%] xl:w-[76.8%] items-start justify-center gap-[50px]'>
-        <div className='flex flex-col items-start justify-center w-[65.5%] text-black gap-[35px]'>
+      <div className='flex flex-col w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-start justify-center gap-[50px]'>
+        <div className='flex flex-col items-start justify-center w-[65.5%] text-black gap-[15px] md:gap-[25px] lg:gap-[35px]'>
             <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost'>{span}</span>
-            <h2 className='text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2'>{header}</h2>
-            <p className="text-[16px] font-normal leading-[24px] font-jost capsizedText4 w-[100%] lg:w-[728px]">{text}</p>
+            <h2 className='text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2'>{header}</h2>
+            <p className="text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[24px] font-jost capsizedText4 w-[100%] lg:w-[728px]">{text}</p>
         </div>
 
 {/* embla carousel */}

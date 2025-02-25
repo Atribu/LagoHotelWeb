@@ -42,14 +42,14 @@ const ActivityBackgroundSection = () => {
   }, [emblaApi]);
 
   return (
-    <div className='flex flex-col w-screen items-center justify-center gap-[50px] ' >
-      <div className='flex flex-col w-[65%] items-center justify-center text-center font-jost text-black gap-[35px] max-w-[1440px]'>
+    <div className='flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px] ' >
+      <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[65%] items-center justify-center text-center font-jost text-black gap-[15px] md:gap-[25px] lg:gap-[35px] xl:max-w-[1440px]'>
       <span className='text-[12px] leading-[14px] font-medium uppercase tracking-[0.48px]'>Entertainment & Actıvıtıes</span>
-            <h2 className='text-[48px] leading-[57.6px] font-normal font-marcellus capsizedText2'>Catch The Rhythm</h2>
-            <p className='text-[16px] font-normal leading-[24px] w-[43%] min-w-[608px]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
+            <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-normal font-marcellus capsizedText2'>Catch The Rhythm</h2>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-normal lg:leading-[24px] lg:w-[43%] lg:min-w-[608px]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
       </div>
 
-       <div className="flex flex-col w-full justify-center items-center min-h-[650px] ">
+       <div className="flex flex-col w-full justify-center items-center h-[400px] lg:min-h-[650px] ">
         {/* carousel */}
         <div
           className="flex overflow-hidden relative w-full flex-col justify-center items-center "

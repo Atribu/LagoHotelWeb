@@ -56,27 +56,27 @@ const gridData = [
 const SpecialGridSection = () => {
   return (
     <div className="flex w-screen items-center justify-center ">
-      <div className="flex flex-col w-[76.8%] items-center justify-center gap-[50px]">
+      <div className="flex flex-col w-[90%] lg:w-[84%] xl:w-[76.8%] items-center justify-center gap-[50px]">
         {/* Başlık Alanı */}
         <div className="flex flex-col w-[70%] items-center justify-center text-center text-black font-jost gap-[34px]">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             Crafting Timeless Memories at LAGO Hotel
           </span>
-          <h3 className="text-[36px] font-normal font-marcellus capitalize leading-[57.6px]">
+          <h3 className="text-[36px] font-normal font-marcellus capitalize leading-[57.6px] capsizedText3">
             Celebrate Life’s Precious Moments
           </h3>
-          <p className="text-[16px] font-normal leading-[24px]">
+          <p className="text-[16px] font-normal leading-[24px] capsizedText4 lg:max-w-[527px]">
             At LAGO Hotel, we specialize in turning life’s milestones into extraordinary experiences. From personalized
             services to tailored celebrations, every detail is crafted to perfection for a memory that lasts forever.
           </p>
         </div>
 
         {/* Dinamik Grid Bölümü */}
-        <div className="grid grid-cols-3 gap-[27px] w-[1106px]">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-[27px] w-full xl:w-[1106px]">
           {gridData.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col w-[100%] items-start justify-end pb-[35px] h-[502px] bg-center bg-cover relative group"
+              className="flex flex-col w-[100%] items-start justify-end pb-[35px] h-[360px] lg:h-[44vh] xl:h-[500px] bg-center bg-cover relative group"
               style={{ backgroundImage: `url(${item.image.src})` }}
             >
               {/* Hafif karartma (her zaman görünür) */}
@@ -87,7 +87,7 @@ const SpecialGridSection = () => {
                 <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px] transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
                   {item.span}
                 </span>
-                <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
+                <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 capsizedText3">
                   {item.title}
                 </h4>
               </div>
@@ -97,14 +97,14 @@ const SpecialGridSection = () => {
 
               {/* Hover ile aşağıdan kayan içerik */}
               <div
-                className="absolute inset-0 text-white flex flex-col justify-start items-center text-start font-montserrat gap-[20px] top-1/2 
+                className="absolute bottom-[52.28px] text-white flex flex-col justify-start items-center text-start font-montserrat gap-[20px] 
                 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out"
               >
                 <div className="flex flex-col w-5/6 gap-[10px] items-start justify-center">
                   <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
                     {item.span}
                   </span>
-                  <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize">
+                  <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize capsizedText3">
                     {item.title}
                   </h4>
                   <div className="flex w-full h-[1px] bg-grayLight"></div>

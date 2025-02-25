@@ -34,10 +34,9 @@ const items = [
 const RoomFeatures = () => {
   return (
     <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
-      <div className="flex md:w-[92%] lg:w-[76.8%] items-start justify-center gap-[4.5%] ">
+      <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[35px] md:gap-[4.5%] ">
         
-        <div className="flex flex-col gap-[30px] w-[63%] items-start justify-start font-jost">
-
+        <div className="flex flex-col gap-[30px] w-[95%] md:w-[63%] items-start justify-start font-jost">
           <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[10px]">
             <span className="text-lagoGray text-[12px] leading-[14px] font-medium tracking-[0.48px] uppercase">
               FUN FOR ALL ages
@@ -125,7 +124,7 @@ const RoomFeatures = () => {
         </div>
 
         {/* resevation */}
-        <div className="flex flex-col w-[32.5%] gap-[35px] pb-[16px] font-jost">
+        <div className="flex flex-col w-[95%] md:w-[32.5%] gap-[35px] pb-[16px] font-jost">
         <div className="flex flex-col w-full py-[50px] lg:pl-[50px] items-center lg:items-start justify-center text-center gap-[20px] bg-white shadow-divCustom lg:min-w-[330px]">
             <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-start text-center lg:text-start">
             <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>

@@ -53,7 +53,7 @@ export default function HomePage4() {
   return (
     <section className="max-w-[1440px] mx-auto px-4 w-screen items-center justify-center">
       {/* Üst küçük başlık */}
-      <div className="flex flex-col 2xl:w-[1106px] w-[92%] items-start ml-[4%] justify-center gap-[15px] text-lagoBlack">
+      <div className="flex flex-col 2xl:w-[1106px] w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] justify-center gap-[15px] text-lagoBlack">
       <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost">
         Discover the services we offer
       </p>
