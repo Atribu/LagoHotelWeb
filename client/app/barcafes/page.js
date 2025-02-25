@@ -1,4 +1,3 @@
-import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import imgBanner from "./images/mainbar.webp"
 import ClinaryInfoSection from '../restaurants/components/ClinaryInfoSection'
 import cafebar1 from "./images/cafebar1.webp"

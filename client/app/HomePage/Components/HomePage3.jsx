@@ -43,20 +43,20 @@ export default function HomePage3() {
 
   return (
  <div className="flex flex-col w-screen gap-[30px] lg:gap-[64px] items-center justify-center">
-  <div className="flex flex-col w-[85%] gap-[17px] md:gap-[25px] lg:gap-[30px] items-center justify-center text-center">
+  <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[17px] md:gap-[25px] lg:gap-[30px] items-center justify-center text-center">
     <span className="text-[12px] leading-[14px] uppercase tracking-[0.48px] font-medium font-jost">Choose your accommodation type</span>
     <h3 className="text-[28px] md:text-[32px] md:leading-[57.6px] lg:text-[48px] capsizedText2 font-marcellus font-normal leading-normal">Stay Experience</h3>
   </div>
 
-     <div className="flex w-full h-[274px] md:min-h-[354px] lg:h-[498px]">
+     <div className="flex flex-col md:flex-row w-full md:h-[49vh] md:min-h-[354px] lg:h-[498px]">
       {images.map((img, index) => {
         let widthClass;
         if (hoveredIndex === null) {
-          widthClass = "w-1/3";
+          widthClass = "w-full md:w-1/3";
         } else if (hoveredIndex === index) {
-          widthClass = "w-1/2";
+          widthClass = "w-full md:w-1/2";
         } else {
-          widthClass = "w-1/4";
+          widthClass = "w-full md:w-1/4";
         }
 
         return (
@@ -113,21 +113,21 @@ export default function HomePage3() {
               {/* Soldaki dikey yarı saydam şerit */}
               <div
                 className="
-                  h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-1/3 min-w-[437px] gap-[20px]
-                  opacity-0 translate-x-[-10px] group-hover:opacity-100 group-hover:translate-x-0
+                  h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-full md:w-1/3 md:min-w-[437px] gap-[20px]
+                  md:opacity-0 md:translate-x-[-10px] opacity-100 md:group-hover:opacity-100 md:group-hover:translate-x-0
                   transition-all duration-[800ms] ease-in-out font-jost
                 "
               >
-                <h3 className="text-[30px] leading-[37.5px] tracking-[-0.66px] capitalize font-marcellus font-normal text-left w-auto ml-16 ">
+                <h3 className="text-[28px] lg:text-[30px] leading-[37.5px] tracking-[-0.66px] capitalize font-marcellus font-normal text-left w-auto ml-6 lg:ml-16 ">
                   {img.title}
                 </h3>
                 <p
-                  className="text-[16px] w-[80%] font-jost font-normal leading-normal text-left ml-16 line-clamp-6"
+                  className="text-[14px] lg:text-[16px] w-[80%] font-jost font-normal leading-normal text-left ml-6 lg:ml-16 line-clamp-6"
                   dangerouslySetInnerHTML={{ __html: img.desc }}
                 />
 
                 {/* İkon satırı */}
-                <div className="flex items-center gap-4 ml-16">
+                <div className="flex items-center gap-4 ml-6 lg:ml-16 text-[14px] lg:text-[16px]">
                   <div className="flex items-center gap-1">
                     <Area width={24} height={24} />
                     <span className="font-jost">{img.area}</span>
@@ -150,19 +150,19 @@ export default function HomePage3() {
                 <button
                   className="
                     w-1/3
-                    ml-16
+                    ml-6 lg:ml-16
                     border
                     border-white
                     px-6
                     py-2
+                    text-[14px]
+                    lg:text-[16px]
                     uppercase
                     text-sm
                     font-medium
                     tracking-wider
                     hover:bg-black hover:text-white hover:underline hover:underline-offset-2
-                    transition
-                  "
-                >
+                    transition">
                   Explore
                 </button>
               </div>

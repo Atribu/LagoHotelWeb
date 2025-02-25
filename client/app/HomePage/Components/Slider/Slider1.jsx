@@ -120,7 +120,7 @@ export default function Slider1({ slides }) {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div ref={emblaRef} className="overflow-hidden w-full ml-[11.6%]">
+      <div ref={emblaRef} className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:ml-[11.6%]">
         <div className="flex md:h-[405px] lg:h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-4" />
@@ -129,7 +129,7 @@ export default function Slider1({ slides }) {
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}
-      <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
+      <div className="flex items-end justify-end w-[87.79%] md:w-[91.4%] ml-[6.10%] md:ml-[4.3%] lg:w-[87.4%] lg:ml-[11.6%] mt-[62px] relative">
         {slidesOriginal.map((_, i) => (
           <div
             key={i}

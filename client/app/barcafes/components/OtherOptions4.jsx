@@ -10,10 +10,10 @@ const OtherOptionsHeader = ({ span, header, text }) => (
     <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost">
       {span}
     </span>
-    <h2 className="text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
+    <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
       {header}
     </h2>
-    <p className="text-[16px] font-normal leading-[24px] w-[70%] font-jost capsizedText4">
+    <p className="text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[24px] w-[70%] font-jost capsizedText4">
       {text}
     </p>
   </div>
@@ -41,7 +41,7 @@ const OtherOptionSlide = ({ room }) => (
       </p>
       <Link
             href={room.link}
-            className="text-[16px] font-normal leading-normal font-marcellus uppercase border-b border-lagoBlack pb-[8px] h-[24px] text-center w-auto items-center justify-center"
+            className="text-[14px] lg:text-[16px] font-normal leading-normal font-marcellus uppercase border-b border-lagoBlack pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
             DISCOVER MORE
           </Link>
@@ -75,7 +75,7 @@ const OtherOptions4 = ({ span, header, text, images }) => {
 
   return (
     <div className="flex w-screen h-auto items-center justify-center  max-w-[1444px]">
-      <div className="flex flex-col w-[76.8%] items-center justify-center gap-[50px]">
+      <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[50px]">
         <OtherOptionsHeader span={span} header={header} text={text} />
         <div className="overflow-hidden w-full" ref={emblaRef}>
           <div className="flex">

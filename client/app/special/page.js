@@ -1,5 +1,4 @@
 import React from 'react'
-import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import mainImg from "./images/specialMain.webp"
 import SpecialTypesSection from './components/SpecialTypesSection'
 import SpecialGridSection from './components/SpecialGridSection'

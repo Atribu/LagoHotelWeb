@@ -12,61 +12,64 @@ const ClinaryInfoSection = ({
   texts = [],
 }) => {
   return (
-    <div className="flex w-screen h-[555px]  items-center justify-center max-w-[1440px]">
-      <div className="flex w-[76.8%] items-center justify-center gap-[52px] h-full">
+    <div className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] h-auto">
+      <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-center justify-center gap-[30px] md:gap-[36.83px] lg:gap-[52px] h-full">
         
         {/* Metin Alanı */}
-        <div className="flex flex-col w-[49%] items-start justify-center text-start gap-[35.07px] text-black font-jost">
+        <div className="flex flex-col w-[90%] md:w-[49%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] lg:gap-[35px] text-black font-jost">
           {span && (
-            <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
+            <span className="text-[12px] font-medium leading-[14px] tracking-[0.481px] uppercase">
               {span}
             </span>
           )}
 
           {header && (
-            <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px] capsizedText2">
+            <h2 className="text-[28px] md:text-[32px] lg:text-[48.089px] font-normal font-marcellus leading-[57.707px] lg:capsizedText2">
               {header}
             </h2>
           )}
 
           {/* İlk metin (her zaman paragraf olarak gösterilir) */}
           {texts[0] && (
-            <p className="text-[16px] font-normal leading-[24px] leading-trim-both text-edge-cap capsizedText4">
+            <p className="text-[14px] lg:text-[16px] font-normal leading-[18.126px] lg:leading-[24px] leading-trim-both text-edge-cap capsizedText4">
               {texts[0]}
             </p>
           )}
 
-          {/* Eğer metin sayısı 2'den az (1 veya 2 ise) ikinci metni normal paragraf olarak göster */}
+          <div className="flex flex-col items-start justify-start text-start gap-[15px] md:gap-[25px] lg:gap-[35px]">
+            {/* Eğer metin sayısı 2'den az (1 veya 2 ise) ikinci metni normal paragraf olarak göster */}
           {texts.length < 3 && texts[1] && (
-            <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+            <p className="text-[14px] lg:text-[16.03px]  font-normal leading-[18.126px] lg:leading-[24px] leading-trim-both text-edge-cap">
               {texts[1]}
             </p>
           )}
 
           {/* Eğer metin sayısı 3 veya daha fazlaysa ilk metinden sonrasını liste olarak göster */}
           {texts.length >= 3 && (
-            <ul className="text-[16.03px] font-normal leading-[24.045px] list-disc pl-5 marker:text-xs marker:text-black">
+            <ul className="text-[14px] lg:text-[16.03px] font-normal leading-[18.126px] lg:leading-[24.045px] list-disc pl-5 marker:text-xs marker:text-black">
               {texts.slice(1).map((text, index) => (
                 <li key={index}>{text}</li>
               ))}
             </ul>
           )}
+          </div>
         </div>
 
         {/* Görsel Alanı */}
-        <div className="flex w-[48%] items-start justify-start relative h-[555px]">
+        <div className="flex w-[50%] md:w-[48%] items-start md:items-center lg:items-start  mt-[67px] md:mt-0 justify-start relative md:h-[555px] h-auto mb-[60px]">
           <Image
             src={img2}
             alt="art"
             width={img2.width}
             height={img2.height}
+            className="w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"
           />
           <Image
             src={img1}
             alt="art"
             width={img1.width}
             height={img1.height}
-            className="absolute top-[105px] left-[215px]"
+            className="absolute top-[80px] left-[126px] md:top-[208px] md:left-[135px] lg:top-[105px] lg:left-[215px] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"
           />
         </div>
 
