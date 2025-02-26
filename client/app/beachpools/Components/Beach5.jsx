@@ -5,22 +5,22 @@ import Link from 'next/link'
 
 const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
   return (
-    <div className='flex flex-col w-full max-w-[1444px] items-center justify-center gap-[50px]'>
-        <div className='flex flex-col justify-start items-start w-[76.8%] gap-[35px]'>
+    <div className='flex flex-col w-full max-w-[1440px] items-center justify-center gap-[30px] lg:gap-[50px]'>
+        <div className='flex flex-col justify-start items-start  w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[15px] md:gap-[25px] lg:gap-[35px]'>
             <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>
             {span}
             </p>
-            <h4 className='font-marcellus text-[48px] leading-[57.6px]'>
+            <h4 className='font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[57.6px]'>
              {header}
             </h4>
-            <p className='font-jost text-[16px] leading-[24px] w-[65.6%]'>
+            <p className='font-jost text-[14px] lg:text-[16px] leading-[24px] lg:w-[65.6%]'>
              {text}
             </p>
         </div>
         {/* Havuz içeriklerini grid yapısında 3 sütun 3 satır şeklinde düzenliyoruz ve gap'ı azaltıyoruz */}
-        <div className='grid grid-cols-3  gap-[30px] w-[76.8%]' >
+        <div className='grid grid-cols-2 lg:grid-cols-3  gap-[30px] w-[87.79%] md:w-[91.4%] lg:w-[76.8%]' >
             {poolItems.map((pool, index) => (
-              <div key={index} className="flex flex-col gap-[25px] w-[100%] mb-[20px]">
+              <div key={index} className="flex flex-col gap-[15px] lg:gap-[25px] w-[100%] mb-[20px]">
                 <Image 
                   src={pool.src} 
                   alt={pool.title}
@@ -28,13 +28,13 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
                   height={233}
                   className="object-cover w-full"
                 />
-                <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase mt-[2%] '>
+                <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase '>
                   {pool.subtitle}
                 </p>
-                <h5 className='font-marcellus text-[30px] leading-[57.6px] uppercase'>
+                <h5 className='font-marcellus text-[25px] lg:text-[30px] leading-[57.6px] uppercase capsizedText3'>
                   {pool.title}
                 </h5>
-                <p className='font-jost text-[14px] leading-[21px] '>
+                <p className='font-jost text-[12px] lg:text-[14px] leading-[21px] capsizedText4'>
                   {pool.description}
                 </p>
                 {showLink && (
