@@ -44,25 +44,25 @@ const KidsclubCarousel = () => {
       }, [emblaApi]);
 
   return (
-    <div className='flex flex-col w-screen items-center justify-center  gap-[50px] pb-[30px] '>
-      <div className='flex flex-col w-[76.8%] items-center justify-center max-w-[1106px] '>
+    <div className='flex flex-col w-screen items-center justify-center gap-[30px]  lg:gap-[50px] pb-[30px] '>
+      <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center max-w-[1106px] '>
         <div className='flex flex-col gap-[17px] items-center justify-center font-jost text-black'>
             <PandaSvg className="flex" width={99} height={54}/>
            <div className='flex flex-col gap-[35px] items-center justify-center text-center'>
-           <span className='text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>Welcome to LAGO Kids Club</span>
-            <h2  className='text-[48px] font-normal leading-[26px] font-marcellus'>Where Fun and Education Meet</h2>
-            <p className='text-[16px] font-normal leading-[26px]'>LAGO Kids Club, her yaş grubundan çocuğa hitap eden eğitici ve eğlenceli aktiviteler sunar. <br></br> Çocuğunuzun yaratıcılığını geliştirecek ve hayallerini gerçekleştirecek bir ortam hazırladık.</p>
+           <span className='text-[14px] lg:text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>Welcome to LAGO Kids Club</span>
+            <h2  className='text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[26px] font-marcellus'>Where Fun and Education Meet</h2>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[26px]'>LAGO Kids Club, her yaş grubundan çocuğa hitap eden eğitici ve eğlenceli aktiviteler sunar. <br></br> Çocuğunuzun yaratıcılığını geliştirecek ve hayallerini gerçekleştirecek bir ortam hazırladık.</p>
            </div>
         </div>
       </div>
 
 
-      <div className="flex flex-col w-[87.4%] ml-[11.6%] justify-end items-end">
+      <div className="flex flex-col w-[93.89%] md:w-[95.7%] lg:w-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] justify-end items-end">
            {/* carousel */}
            <div className="flex overflow-hidden relative w-full h-full flex-col justify-end items-end" ref={emblaRef}>
         <div className="flex grid-flow-col">
           {images.map((image, index) => (
-            <div className="relative flex w-auto h-[540px] flex-[0_0_auto] mx-[7px]  shadow-lg  " key={index}>
+            <div className="relative flex w-auto lg:h-[540px] flex-[0_0_auto] mx-[7px]  shadow-lg  " key={index}>
               <Image
                 src={image.src}
                 layout="contain"
@@ -72,9 +72,9 @@ const KidsclubCarousel = () => {
                 objectPosition="center"
                 className="flex h-[383px] md:h-auto lg:h-[540px] xl:h-auto  w-full"
               />
-              <div className="absolute inset-0 text-center top-[9%]  w-full items-center justify-center">
+              <div className="absolute inset-0 text-center top-[9%] w-full items-center justify-center">
                 <div className="w-[100%] flex items-center justify-center text-center">
-                <p className="text-[40px] -tracking-[0.88px] font-normal font-marcellus text-white w-[50%]">{headers[index]}</p>
+                <p className="text-[30px] lg:text-[40px] -tracking-[0.88px] font-normal font-marcellus text-white w-[50%]">{headers[index]}</p>
                 </div>
               </div>
             
