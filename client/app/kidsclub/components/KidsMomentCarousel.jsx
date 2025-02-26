@@ -36,7 +36,7 @@ const KidsMomentCarousel = ({ images, header }) => {
 
   return (
     <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
-      <h2 className="text-[48px] text-black font-marcellus font-normal leading-[48px]">
+      <h2 className="text-[28px] md:text-[32px] lg:text-[48px] text-black font-marcellus font-normal leading-[48px]">
         {header}
       </h2>
 
@@ -49,7 +49,7 @@ const KidsMomentCarousel = ({ images, header }) => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] min-w-0 ml-[10px] h-[600px]"
+                className="flex-[0_0_auto] min-w-0 ml-[10px] lg:h-[600px]"
               >
                 <Image
                   src={img.src}
@@ -58,7 +58,7 @@ const KidsMomentCarousel = ({ images, header }) => {
                   height={img.height}
                    alt={`Slide ${index + 1}`}
                   objectPosition="center"
-                  className="flex lg:h-full h-[38vh] w-auto"
+                  className="flex lg:h-full md:min-h-[420px] h-[38vh] w-auto"
                 />
               </div>
             ))}
