@@ -25,7 +25,7 @@ import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
 
 const page = () => {
   return (
-    <div className="overflow-hidden flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]">
+    <div className="overflow-hidden flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]">
       <RoomsBanner />
       <RoomsInfoSection />
       <RoomsSection

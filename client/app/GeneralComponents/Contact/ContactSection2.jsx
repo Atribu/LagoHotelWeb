@@ -69,7 +69,7 @@ const GallerySection = () => {
     const scrollContainer = scrollRef.current;
     if (!scrollContainer) return;
 
-    let scrollSpeed = 1; // Daha yavaş kayma için 1px
+    let scrollSpeed = 2.5; // Daha yavaş kayma için 1px
     let scrollInterval;
 
     const startScrolling = () => {
@@ -93,7 +93,7 @@ const GallerySection = () => {
       <div
         style={{ scrollBehavior: "smooth" }}
         ref={scrollRef}
-        className="w-full h-[27vh] justify-center items-center md:min-h-[322px] max-w-[789px] overflow-auto hover:overflow-scroll custom-scroll scroll-smooth md:mr-[4%]"
+        className="w-full h-[27vh] justify-center items-center md:min-h-[322px] max-w-[789px] overflow-hidden custom-scroll scroll-smooth md:mr-[4%]"
       >
         <div className="flex flex-col">
           {[...Array(100)].flatMap((_, loopIndex) =>
