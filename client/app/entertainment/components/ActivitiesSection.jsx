@@ -11,14 +11,14 @@ const ActivitiesSection = () => {
   return (
     <div className='flex w-screen h-auto  items-center justify-center'>
       <div className='flex flex-col w-full items-center justify-center gap-[50px]'>
-        <div className='flex flex-col w-[76.8%] gap-[35px] items-center justify-center text-black font-jost text-center max-w-[1106px]'>
+        <div className='flex flex-col  w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[35px] items-center justify-center text-black font-jost text-center max-w-[1106px]'>
             <span className='text-[12px] leading-[14px] font-medium uppercase tracking-[0.48px]'>Entertainment & Actıvıtıes</span>
-            <h2 className='text-[48px] leading-[57.6px] font-normal font-marcellus capsizedText2'>Unlimited Fun and Activities</h2>
-            <p className='text-[16px] font-normal leading-[24px] w-[55%]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
+            <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-normal font-marcellus capsizedText2'>Unlimited Fun and Activities</h2>
+            <p className='text-[14px] leading-[18px] lg.text-[16px] font-normal lg:leading-[24px] lg:w-[55%]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
         </div>
 
         <div className='flex w-full items-center justify-center relative max-w-[1440px]'>
-           <div className='flex w-[76.8%] gap-[30px] items-center justify-center '>
+           <div className='flex w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[20px] lg:gap-[30px] items-center justify-center '>
 
            <div className='flex flex-col w-[538px] h-full relative'>
            <Image src={daytime} alt="daytime" width={daytime.width} height={daytime.height} className='w-full'/>
