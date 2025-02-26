@@ -104,7 +104,7 @@ export default function HeaderWhite() {
           {/* Sağ Contact & Book Now */}
           <div className="ml-auto flex items-center justify-center space-x-[5px] mr-[4%] z-20 h-full">
             <Link 
-              href="/contact"
+              href="/connect"
               className="
               hidden
               lg:flex

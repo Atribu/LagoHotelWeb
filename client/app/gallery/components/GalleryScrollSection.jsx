@@ -199,16 +199,16 @@ const GalleryScrollSection = () => {
   const [selectedCategory, setSelectedCategory] = useState("GENERAL VIEW")
 
   return (
-    <div className="flex w-screen items-center justify-center mt-[50px] max-w-[1444px]">
-      <div className="flex flex-col items-center justify-between w-[76.8%] gap-[40px]">
+    <div className="flex w-screen items-center justify-center mt-[50px] max-w-[1440px]">
+      <div className="flex flex-col items-center justify-between w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[40px]">
         
         {/* Butonlar */}
-        <div className="flex items-center justify-between gap-[10px] w-full max-w-[1008px]">
+        <div className=" grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:flex items-center justify-center xl:justify-between gap-[10px] w-full max-w-[1008px]">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`flex border border-lagoGray items-center justify-center whitespace-nowrap py-[16px] px-[20px] w-[140px] text-[14px] font-medium uppercase leading-[125%] -tracking-[0.33px] font-jost ${
+              className={`flex border border-lagoGray items-center justify-center whitespace-nowrap py-[12px] px-[16px] lg:py-[16px] lg:px-[20px] lg:w-[140px] text-[12px] lg:text-[14px] font-medium uppercase leading-[125%] -tracking-[0.33px] font-jost ${
                 selectedCategory === category ? "bg-lagoGray text-white" : "text-lagoGray"
               }`}
             >
@@ -218,12 +218,12 @@ const GalleryScrollSection = () => {
         </div>
 
         {/* Resimler */}
-        <div className="flex w-[1006px] h-[1700px]">
+        <div className="flex lg:w-[1006px] h-[500px] md:h-[1000px] lg:h-[1700px]">
           <div className="flex flex-col w-full overflow-auto hover:overflow-scroll custom-scroll h-auto">
-            <div className="columns-3 gap-[0px] transition-all duration-[350ms] ease-in-out cursor-pointer">
+            <div className="columns-2 lg:columns-3 gap-[16px] lg:gap-[0px] transition-all duration-[350ms] ease-in-out cursor-pointer">
               {imageCategories[selectedCategory].map((imgSrc, index) => (
                 <div className="mb-[19.16px] transition-all duration-[350ms] ease-in-out cursor-pointer" key={index}>
-                  <Image src={imgSrc} alt="gallery" className="w-[322px] h-full"/>
+                  <Image src={imgSrc} alt="gallery" className="lg:w-[322px] h-full"/>
                 </div>
               ))}
             </div>

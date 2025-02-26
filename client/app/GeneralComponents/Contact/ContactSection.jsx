@@ -17,7 +17,7 @@ const ContactSection = () => {
     const scrollContainer = scrollRef.current;
     if (!scrollContainer) return;
 
-    let scrollSpeed = 1; // Daha yavaş kayma için 1px
+    let scrollSpeed = 2.5; // Daha yavaş kayma için 1px
     let scrollInterval;
 
     const startScrolling = () => {
@@ -105,7 +105,7 @@ const ContactSection = () => {
         </div>
 
         <div className='flex w-[90%] md:w-[55%] lg:w-[60%] h-[59%] md:h-[95%] '>
-        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[99%] overflow-auto hover:overflow-scroll custom-scroll scroll-smooth ">
+        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[99%] overflow-hidden custom-scroll scroll-smooth ">
       <div className="flex flex-col">
           {[...Array(8)].flatMap((_, loopIndex) =>
             [minigallery].map((img, index) => (
