@@ -49,7 +49,7 @@ const ActivityBackgroundSection = () => {
             <p className='text-[14px] lg:text-[16px] font-normal leading-normal lg:leading-[24px] lg:w-[43%] lg:min-w-[608px]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
       </div>
 
-       <div className="flex flex-col w-full justify-center items-center h-[400px] lg:min-h-[650px] ">
+       <div className="flex flex-col w-full justify-center items-center  lg:min-h-[650px] ">
         {/* carousel */}
         <div
           className="flex overflow-hidden relative w-full flex-col justify-center items-center "
@@ -58,7 +58,7 @@ const ActivityBackgroundSection = () => {
           <div className="flex grid-flow-col w-full space-x-0 bg-black">
             {images.map((image, index) => (
               <div
-                className="flex-[0_0_auto] min-w-0 h-[650px] -mx-[2px]"
+                className="flex-[0_0_auto] min-w-0 lg:h-[650px] -mx-[2px]"
                 key={index}
               >
                 <Image
@@ -75,17 +75,25 @@ const ActivityBackgroundSection = () => {
             ))}
            
           </div>
-          <div className='absolute left-1/2 -translate-x-1/2 items-center justify-between flex w-[1440px] z-30'>
+          <div className='absolute left-1/2 -translate-x-1/2 items-center justify-between hidden lg:flex w-[1440px] z-30'>
                 <L2Svg className="flex z-50" width={227} height={645} />
                 <A2Svg className="flex" width={341} height={645}/>
                 <G2Svg className="flex" width={285} height={645}/>
                 <O2Svg className="flex" width={299} height={645}/>
                 
             </div>
+
+            <div className='absolute left-1/2 -translate-x-1/2 items-center justify-between lg:hidden flex w-full z-30'>
+                <L2Svg className="flex z-50" width={113.5} height={322} />
+                <A2Svg className="flex" width={170.5} height={322}/>
+                <G2Svg className="flex" width={142.5} height={322}/>
+                <O2Svg className="flex" width={149.5} height={322}/>
+                
+            </div>
         </div>
       </div>
-      <div className='flex w-[42%] items-center text-center justify-center -mt-[25px]'>
-          <span className='text-[14px] font-jost text-lagoGray font-normal leading-normal w-[43%] min-w-[608px]'>* LAGO Hotel Ultra All Inclusive concept, activities and services may vary depending on the season and weather conditions, without prior notice. All rights of LAGO HOTEL in this regard are reserved.</span>
+      <div className='flex w-[87.79%] md:w-[91.4%] lg:w-[42%] items-center text-center justify-center -mt-[25px]'>
+          <span className='text-[12px] lg:text-[14px] font-jost text-lagoGray font-normal leading-normal lg:w-[43%] lg:min-w-[608px]'>* LAGO Hotel Ultra All Inclusive concept, activities and services may vary depending on the season and weather conditions, without prior notice. All rights of LAGO HOTEL in this regard are reserved.</span>
         </div>
     </div>
   )
