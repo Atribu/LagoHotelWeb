@@ -47,9 +47,10 @@ function Slide({ slide, marginClass }) {
         justify-center 
         items-center
         ${marginClass}
-        flex-[0_0_auto]
-         min-h-[540px]
-         w-[360px]
+        flex-[0_0_60%]
+        sm:flex-[0_0_auto]
+         lg:min-h-[540px]
+         lg:w-[360px]
         
       `}
     >
@@ -60,8 +61,8 @@ function Slide({ slide, marginClass }) {
         height={540}
         className="w-full h-full object-cover"
       />
-      <div className="absolute flex flex-col text-white left-1/2 -translate-x-1/2 -translate-y-[10%] items-center justify-center text-center top-[10%] gap-[23px]">
-        <h4 className="text-[30px] font-normal leading-[36px] -tracking-[0.66px] font-marcellus w-[100%]">{slide.title}</h4>
+      <div className="absolute flex flex-col text-white left-1/2 -translate-x-1/2 -translate-y-[10%] items-center justify-center text-center top-[10%] gap-[10px] lg:gap-[23px]">
+        <h4 className="text-[24px] md:text-[28px] lg:text-[30px] font-normal leading-[36px] -tracking-[0.66px] font-marcellus w-[100%]">{slide.title}</h4>
         <div className="flex bg-white h-[1px] w-full"></div>
         <span
           className="
@@ -119,8 +120,8 @@ export default function Slider2({ slides }) {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div ref={emblaRef} className="overflow-hidden w-full ml-[11.6%]">
-        <div className="flex h-[540px] w-auto">
+      <div ref={emblaRef} className="overflow-hidden w-full ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%]">
+        <div className="flex lg:h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-4" />
           ))}         
@@ -128,7 +129,7 @@ export default function Slider2({ slides }) {
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}
-      <div className="flex items-end justify-end w-[87.4%] ml-[11.6%] mt-[62px] relative">
+      <div className="flex items-end justify-end w-[93.89%] md:w-[95.7%] lgw-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] mt-[30px] sm:mt-[40px] md:mt-[62px] relative">
         {slidesOriginal.map((_, i) => (
           <div
             key={i}

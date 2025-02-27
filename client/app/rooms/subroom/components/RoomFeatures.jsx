@@ -34,17 +34,17 @@ const items = [
 const RoomFeatures = () => {
   return (
     <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
-      <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[35px] md:gap-[4.5%] ">
+      <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center md:items-start justify-center gap-[35px] md:gap-[4.5%] ">
         
         <div className="flex flex-col gap-[30px] w-[95%] md:w-[63%] items-start justify-start font-jost">
           <div className="flex flex-col w-full items-start justify-center text-start font-jost gap-[10px]">
             <span className="text-lagoGray text-[12px] leading-[14px] font-medium tracking-[0.48px] uppercase">
               FUN FOR ALL ages
             </span>
-            <h2 className="text-[32px] text-lagoBrown font-marcellus font-normal leading-normal">
+            <h2 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-normal">
               Swim Up Family Room
             </h2>
-            <p className="text-lagoBlack text-[16px] leading-normal font-normal">
+            <p className="text-lagoBlack text-[14px] lg:text-[16px] leading-normal font-normal">
               It is located in our main building with a volume of 50-55 m2 with
               sea and forest view. This room type consists of 2 separate
               bedrooms (with intermediate door) with double bedroom (for 2
@@ -58,19 +58,19 @@ const RoomFeatures = () => {
           </div>
 
           <div className="flex flex-col w-full items-start justify-center gap-[17px]">
-            <h3 className="text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
+            <h3 className="text-[25px] lg:text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
               Family-friendly Amenities
             </h3>
-            <div className="flex gap-[15px] w-full items-center justify-start">
 
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
+            <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[15px] w-full items-center justify-start">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <PoolSvg className="flex" width={65} height={60} />
-                <p className="text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Independent Pool
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <div className="flex py-[10px] px-[6px]">
                   <SinglebedSvg className="flex" width={32} height={35} />
                   <SinglebedSvg
@@ -79,14 +79,14 @@ const RoomFeatures = () => {
                     height={35}
                   />
                 </div>
-                <p className="text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   2 Single Beds
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[32%] gap-[10px] bg-[#4B4E4F14] h-[60px]">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
-                <p className="text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Extra Baby Crib
                 </p>
               </div>
@@ -94,10 +94,10 @@ const RoomFeatures = () => {
           </div>
 
           <div className="flex flex-col w-full items-start justify-center gap-[10px]">
-            <h3 className="text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
+            <h3 className="text-[25px] lg:text-[28px] text-lagoBlack leading-[120%] font-normal font-marcellus">
               Room Features
             </h3>
-            <p className="text-[16px] font-normal leading-normal text-lagoBlack">
+            <p className="text-[14px] lg:text-[16px] font-normal leading-normal text-lagoBlack">
               Services offered to all rooms (Key System with Chip Armband, Daily
               Mini Bar Refill, Bathroom Cosmetics, Tea-Coffee Set-Up)
               <br></br>6 of our rooms are specially designed for our disabled
@@ -106,7 +106,7 @@ const RoomFeatures = () => {
               THE POOLS IN THE SWIMUP ROOMS ARE NOT HEATED.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-[35px] items-start justify-start w-full">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-[15px] md:gap-[25px] lg:gap-[35px] items-start justify-start w-full">
             {items.map((item, index) => (
               <div
                 key={index}

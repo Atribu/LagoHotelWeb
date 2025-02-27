@@ -54,7 +54,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
   };
 
   return (
-    <div className="flex flex-col w-screen items-center justify-center gap-[50px]">
+    <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
       <div className="flex flex-col items-start justify-start gap-[35px] text-black font-jost w-[87.79%] md:w-[91.4%] lg:w-[76.8%]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {span}
@@ -73,7 +73,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
           className="flex overflow-hidden relative w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] h-full flex-col justify-start items-start"
           ref={emblaRef}
         >
-          <div className="flex grid-flow-col h-[540px] w-auto">
+          <div className="flex grid-flow-col lg:h-[540px] w-auto">
             {imagesCombined.map((image, index) => (
               <div
                 key={index}
@@ -106,7 +106,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="flex items-start justify-start  w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] mt-[50px] relative">
+        <div className="flex items-start justify-start  w-[93.89%] ml-[6.1%] md:w-[95.7%] md:ml-[4.3%] lg:w-[88.6%] lg:ml-[11.6%] mt-[20px] lg:mt-[50px] relative">
           {images.map((_, i) => (
             <div
               key={i}

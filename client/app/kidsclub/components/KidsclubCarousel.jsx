@@ -70,7 +70,7 @@ const KidsclubCarousel = () => {
                 height={540}
                 alt={`Slide ${index + 1}`}
                 objectPosition="center"
-                className="flex h-[383px] md:h-auto lg:h-[540px] xl:h-auto  w-full"
+                className="flex h-[383px] md:h-[420px] lg:h-[540px] xl:h-auto  w-full"
               />
               <div className="absolute inset-0 text-center top-[9%] w-full items-center justify-center">
                 <div className="w-[100%] flex items-center justify-center text-center">

@@ -27,8 +27,8 @@ const BackgroundSection = ({
 
           {/* header varsa göster */}
           {header && (
-            <h2 className="text-[32px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-normal lg:leading-[63.6094px] capsizedText2">
-              {header}
+            <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-normal lg:leading-[63.6094px] capsizedText2">
+              {header} 
             </h2>
           )}
 

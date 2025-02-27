@@ -56,7 +56,7 @@ const ClinaryInfoSection = ({
         </div>
 
         {/* Görsel Alanı */}
-        <div className="flex w-[50%] md:w-[48%] items-start md:items-center lg:items-start  mt-[67px] md:mt-0 justify-start relative md:h-[555px] h-auto mb-[60px]">
+        <div className="flex w-[65%] sm:w-[50%] min-w-[310px] md:w-[48.8%] items-center md:items-center lg:items-start  mt-[67px] md:mt-0 justify-start relative md:h-[555px] h-auto mb-[60px]">
           <Image
             src={img2}
             alt="art"
