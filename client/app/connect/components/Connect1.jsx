@@ -6,15 +6,15 @@ import { FiPhone } from "react-icons/fi";
 
 // Divider bileşeni: md ve üzeri ekranlarda görünür, responsive negatif margin ile sola kayar.
 const Divider = () => (
-  <div className='hidden md:flex items-center justify-start'>
+  <div className='hidden lg:flex items-center justify-start'>
     <div className='bg-black w-[1px] h-20 md:-ml-12 lg:-ml-16 xl:-ml-8 2xl:-ml-24 3xl:-ml-30' />
   </div>
 );
 
 // İletişim sütunu bileşeni: ikon, başlık ve açıklama alanını içerir.
 const ContactColumn = ({ icon, title, children }) => (
-  <div className='flex flex-col items-start gap-4 p-4'>
-    <span className='flex flex-row items-center gap-2 font-marcellus text-[24px] leading-[32px] text-lagoBlack2'>
+  <div className='flex flex-col items-start gap-[17px] '>
+    <span className='flex flex-row items-center gap-[17px] font-marcellus text-[24px] leading-[32px] text-lagoBlack -ml-[40px]'>
       {icon}
       {title}
     </span>
@@ -26,9 +26,9 @@ const ContactColumn = ({ icon, title, children }) => (
 
 const Page = () => {
   return (
-    <div className='flex flex-col justify-center items-center mb-[4%] w-full'>
+    <div className='flex flex-col justify-center items-center mb-[4%] w-screen'>
       {/* Resim ve overlay container */}
-      <div className='relative flex w-full max-h-[80vh]'>
+      <div className='relative flex w-full h-[60vh]'>
         <Image 
           src={image1} 
           width={1000} 
@@ -47,22 +47,24 @@ const Page = () => {
       </div>
       
       {/* İletişim bilgileri: Özel grid yapısı */}
-      <div className='grid grid-cols-1 md:grid-cols-[1fr_auto_1fr_auto_1fr] items-center w-full md:w-7/12 mt-8 gap-y-8 md:gap-x-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-center items-center w-[60%] sm:w-[75%] lg:w-7/12 mt-8 gap-y-8 lg:gap-x-8'>
         
         <ContactColumn icon={<CiLocationOn />} title="Our Address:">
-          Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya
+       <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>
         </ContactColumn>
         
         <Divider />
         
         <ContactColumn icon={<FiPhone />} title="Phone Number:">
-          +90 242 756 99 00<br />+90 242 524 57 87
+         <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>
+         +90 242 756 99 00<br />+90 242 524 57 87
+         </span>
         </ContactColumn>
         
         <Divider />
         
         <ContactColumn icon={<CiLocationOn />} title="Email Address:">
-          sales@lagohotel.com<br />info@lagohotel.com
+         <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> sales@lagohotel.com<br />info@lagohotel.com</span>
         </ContactColumn>
       </div>
     </div>

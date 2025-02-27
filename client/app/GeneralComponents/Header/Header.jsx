@@ -64,11 +64,11 @@ export default function Header() {
           </div>
 
           {!isMenuOpen && (
-            <div className="flex items-center justify-center ml-[75%] sm:ml-[80%] md:ml-[4%] ">
+            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[75%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 " onClick={toggleMenu}>
               <Hamburger width={30} height={30} color="white" className="object-contain" />
             </button>
-            <div className="flex items-center justify-center h-full gap-[4px] ml-[15px] z-[20]">
+            <div className="flex items-center justify-center h-full gap-[4px] mr-[15px] md:ml-[15px] z-[20]">
             <span className="text-white text-[16px] font-medium leading-[125%] uppercase -tracking-[0.352px] font-jost capsizedText4">EN</span>
             <DownArrow className="flex" width={12} height={12} color="#ffffff"/>
           </div>
@@ -79,13 +79,13 @@ export default function Header() {
             
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[20%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-[18%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
            <Link className='w-full items-center justify-center flex' href="/">
            <Image 
               src={logosvg}
               alt="Logo"
 
-              className="object-contain w-[30%] items-center justify-center"
+              className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:h-auto items-center justify-center"
 
             /></Link>
           </div>
@@ -148,7 +148,7 @@ export default function Header() {
         />
       )}
 
-      {/* Menü paneli => lighten blend mode */}
+      {/* Menü paneli => lighten blend mode lg:h-[calc(100vh-84.2px)]*/}
       <div
         ref={menuRef} // **Referans atadık**
         className={`
@@ -156,12 +156,13 @@ export default function Header() {
           w-full
           lg:w-[420px]
           h-[100vh]
-          lg:h-[calc(100vh-84.2px)]
-          lg:bg-[#1D1D1B] lg:    bg-opacity-50   
+          
+          lg:bg-[#1D1D1B] lg:bg-opacity-50   
             bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px]
           z-[9999]
           transform transition-transform duration-300
-          ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+          items-center justify-center
+          ${isMenuOpen ? 'translate-x-0 md:translate-x-0' : 'translate-x-full md:-translate-x-full'}
         `}
       >
         {/* Menü kapatma butonu */}
@@ -176,13 +177,13 @@ export default function Header() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-[21%] ml-7 px-4 w-full max-w-[392px] space-y-[22px] text-[18px] text-white font-jost uppercase">
+        <nav className="mt-[21%] 2xl:mt-[29%] md:mt-[12%] lg:mt-[20%] items-center justify-center ml-[20%] sm:ml-[25%] lg:ml-7 px-4 w-full lg:max-w-[392px] space-y-[11px] text-[18px] text-white font-jost uppercase">
           
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
           </Link>
           <div className='relative'>
-          <Link  onClick={() => setIsRoomsOpen(!isRoomsOpen)} href="/rooms" className="flex items-center font-normal leading-[26.667px] gap-[11.11px]">
+          <Link  onClick={() => setIsRoomsOpen(!isRoomsOpen)} href="/rooms" className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             ACCOMODATION
             <IoMdArrowDropdown className={`w-4 h-4 transition-transform ${isRoomsOpen ? "rotate-180" : "rotate-0"}`} />
           </Link>
@@ -200,19 +201,19 @@ export default function Header() {
           </div>
 
           </div>
-          <Link href="/beachpools" className="block  font-normal leading-[26.667px]">
+          <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             BEACH & POOL
           </Link>
-          <Link href="/restaurants" className="block font-normal leading-[26.667px]">
+          <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             RESTAURANTS
           </Link>
-          <Link href="/barcafes" className="block font-normal leading-[26.667px]">
+          <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             BARS AND CAFÉS
           </Link>
-          <Link href="/entertainment" className="block font-normal leading-[26.667px]">
+          <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             EXPERIENCES
           </Link>
-          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex">
+          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             KIDS CLUB
             <Image 
               src={KidIcon}
@@ -221,19 +222,19 @@ export default function Header() {
               height={28}
             />
           </Link>
-          <Link href="/spawellness" className="block text-white  font-normal leading-normal">
+          <Link href="/spawellness" className="block text-white  font-normal leading-normal w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             SPA & WELLNESS
           </Link>
-          <Link href="/gallery" className="block text-white  font-normal leading-normal">
+          <Link href="/gallery" className="block text-white  font-normal leading-normal w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             GALLERY
           </Link>
-          <Link href="/about" className="block text-white font-normal leading-normal">
+          <Link href="/about" className="block text-white font-normal leading-normal w-[70%] max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none">
             OUR HOTEL
           </Link>
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
-        <div className="ml-2 px-4 w-full max-w-[392px]  mt-[38%] flex flex-col items-center font-jost">
+        <div className="ml-[2%] sm:ml-[4%] lg:ml-2 px-4 w-full lg:max-w-[392px] mt-[14%] sm:mt-[10%] lg:mt-[38%] 2xl:mt-[50%] flex flex-col items-center font-jost">
           <div className="flex items-center justify-center gap-[15px] text-white">
             <Phone className="flex" width={18} height={18} color="#ffffff"/>
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>

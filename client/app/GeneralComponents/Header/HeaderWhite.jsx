@@ -76,15 +76,21 @@ export default function HeaderWhite() {
             w-full
           "
         >
+          {/* EN bar mobile*/}
+           <div className="flex md:hidden items-center justify-center h-full gap-[4px] ml-[75%] sm:ml-[80%] md:ml-[15px]">
+            <span className="text-lagoBlack text-[16px] font-medium leading-[125%] uppercase -tracking-[0.352px] font-jost capsizedText4">EN</span>
+            <DownArrow className="flex" width={12} height={12} color="#1D1D1B"/>
+          </div>
+
 
           {!isMenuOpen && (
-            <button className="flex z-20 ml-[75%] sm:ml-[80%] md:ml-[4%] " onClick={toggleMenu}>
+            <button className="flex z-20 ml-[15px] md:ml-[4%] " onClick={toggleMenu}>
               <Hamburger width={30} height={30} color="#1D1D1B" className="object-contain" />
             </button>
           )}
 
           {/* EN bar */}
-          <div className="flex items-center justify-center h-full gap-[4px] ml-[15px]">
+          <div className="hidden md:flex items-center justify-center h-full gap-[4px] ml-[15px]">
             <span className="text-lagoBlack text-[16px] font-medium leading-[125%] uppercase -tracking-[0.352px] font-jost capsizedText4">EN</span>
             <DownArrow className="flex" width={12} height={12} color="#1D1D1B"/>
           </div>
@@ -96,7 +102,7 @@ export default function HeaderWhite() {
               src={logosvg}
               alt="Logo"
 
-              className="object-contain w-[22%] md:w-[30%] items-center justify-center"
+              className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:h-auto items-center justify-center"
 
             /></Link>
           </div>
@@ -171,7 +177,7 @@ export default function HeaderWhite() {
           bg-white/70 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-[10px] 
           z-[9999]
           transform transition-transform duration-300
-          ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+           ${isMenuOpen ? 'translate-x-0 md:translate-x-0' : 'translate-x-full md:-translate-x-full'}
         `}
       >
         {/* Menü kapatma butonu */}
@@ -186,7 +192,7 @@ export default function HeaderWhite() {
         </button>
 
         {/* MENÜ LİNKLERİ */}
-        <nav className="mt-[21%] ml-7 px-4 w-full lg:max-w-[392px] space-y-[22px] text-[16px] text-lagoBlack font-jost uppercase">
+        <nav className="mt-[21%] 2xl:mt-[29%] ml-7 px-4 w-full lg:max-w-[392px] space-y-[22px] text-[16px] text-lagoBlack font-jost uppercase">
           
           <Link href="/offers" className="block  font-normal leading-[26.667px] ">
             OFFERS
@@ -227,7 +233,7 @@ export default function HeaderWhite() {
         </nav>
 
         {/* TELEFON + BUTON ALANI */}
-        <div className="ml-2 px-4 w-full lg:max-w-[392px] mt-[15%]  lg:mt-[38%] flex flex-col items-center font-jost">
+        <div className="ml-2 px-4 w-full lg:max-w-[392px] mt-[15%] lg:mt-[38%] 2xl:mt-[50%] flex flex-col items-center font-jost">
           <div className="flex items-center justify-center gap-[15px] text-lagoBlack">
             <Phone className="flex" width={18} height={18} color="#1D1D1B"/>
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
