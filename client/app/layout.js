@@ -4,6 +4,7 @@ import Header from "./GeneralComponents/Header/Header";
 import Footer from "./GeneralComponents/Footer/Footer";
 import HeaderWhite from "./GeneralComponents/Header/HeaderWhite";
 import BookNow from "./GeneralComponents/BookNow";
+import CookiePopup from "./GeneralComponents/CookiePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,9 @@ export default function RootLayout({ children }) {
         <Header />
         <HeaderWhite/>
         <BookNow/>
+        <div className="hidden md:flex">
+          <CookiePopup/>
+        </div>
         {children}
         <Footer />
       </body>

@@ -30,7 +30,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
   return (
     <div
       ref={sectionRef} // Ref'i div'e bağladık
-      className="flex w-screen md:h-[365px] lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[150px] mb-[50px]"
+      className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[150px] mb-[50px]"
     >
       <div className="flex flex-col md:flex-row-reverse w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
         <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
@@ -62,7 +62,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
           </Link>
         </div>
 
-        <div className="flex w-[50%] md:w-[45%] h-[327px] md:h-full lg:w-[48.8%] items-end justify-end relative  mt-[67px] md:mt-0">
+        <div className="flex w-[65%] min-w-[310px] md:w-[50%] h-[327px] md:h-full lg:w-[48.8%] items-end justify-end relative  mt-[67px] md:mt-0">
           <Image
             src={img2}
             alt="art"

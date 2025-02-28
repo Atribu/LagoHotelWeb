@@ -19,7 +19,7 @@ const Beach4 = () => {
                 className="absolute top-0 left-0 w-full h-full object-cover object-center"
             >
                 <source 
-                src="https://s3-figma-videos-production-sig.figma.com/video/TEAM/1188089547498931215/cb805ea008b01e5fb54de3eb7657cf110c9121fe?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JeH4KCzfZmxBc~LPQgzffG~Ke~XVsSRqNce66NeyX7Jld6w7dBnRHhCVHNPs7KYpTUNTX7XZD7LrLZxlbhWtRuEPsZ64eWI~Y6RzocI0-lVViSt4CqLJEg39cxYTRLH4BhQ2FpExHE8DBZ1sHtGRVetqzgGznZdqmw76MOfwcOh1uxg-e-8o6ngAsDkedBLnRcUdZkeg9dTfMtdB7IcVchiKV52-FeLolVkdvtNQ99A-IHeOg6YqM4BwvY9pSbMqbkvngNBMa9obVpgTuQUjRAwjVgS4rRsallZXlv2Bt6NRe4gJx9gN1NFfeXemVvTkxW7rSFEAbPaQLdON91wbQQ__"
+                src="https://s3-figma-videos-production-sig.figma.com/video/TEAM/1188089547498931215/cb805ea008b01e5fb54de3eb7657cf110c9121fe?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UrYo-ibhrFlazh3SaGFb1Qq7vCxJhx-PQFwcu1epAMRu~JF5CjGLcqiE01s~Hgng6dhcBoUPrshqgznOFDmh9QKG2zOp64aQQfdiq0jwK9MK822kQJvlw-zudo63C2QrAtNqt8vgyqW5NacbEm65owWXfKpTmaWowfWrqM2YzLyYcGP6~8OnFSLIN7xCL-RqADM~2tnONXy8XpC5K6GVzv1OLreN6PvvVuTcYNrmUeSNJrtZIExtMJzbGpinRnDkpvN9nykzNeTslnKNc44qyXETNdr7qj7lTMAtUGqEN~-hId7xTXi6ZDeXfaAfWtyeKM3OM7B~4ya-AlC9lG1zlQ__"
                 type="video/mp4"
                 />
                 Tarayıcınız bu videoyu desteklemiyor.
