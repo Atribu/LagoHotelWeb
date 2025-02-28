@@ -21,13 +21,22 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
         <div className='grid grid-cols-2 lg:grid-cols-3  gap-[30px] w-[87.79%] md:w-[91.4%] lg:w-[76.8%]' >
             {poolItems.map((pool, index) => (
               <div key={index} className="flex flex-col gap-[15px] lg:gap-[25px] w-[100%] mb-[20px]">
+                <div className='relative group'>
                 <Image 
                   src={pool.src} 
                   alt={pool.title}
                   width={349} 
                   height={233}
-                  className="object-cover w-full"
+                  className="object-cover w-full transition-opacity duration-300 group-hover:opacity-0"
                 />
+                  <Image
+                  src={pool.hoverSrc ? pool.hoverSrc : pool.src}
+                  alt={`${pool.title} hover`}
+                  width={349}
+                  height={233}
+                  className="object-cover w-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                />
+                </div>
                 <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase '>
                   {pool.subtitle}
                 </p>
