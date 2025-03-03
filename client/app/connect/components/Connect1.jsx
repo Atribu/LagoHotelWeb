@@ -47,7 +47,7 @@ const Page = () => {
       </div>
       
       {/* İletişim bilgileri: Özel grid yapısı */}
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-center items-center w-[60%] sm:w-[75%] lg:w-7/12 mt-8 gap-y-8 lg:gap-x-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-center items-center w-[60%] sm:w-[75%] lg: mt-8 gap-y-8 lg:gap-x-8'>
         
         <ContactColumn icon={<CiLocationOn />} title="Our Address:">
        <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>

@@ -6,6 +6,8 @@ import {
   FaLinkedinIn,
   FaFacebook,
   FaTwitter,
+  FaYoutube,
+  FaTripadvisor
 } from "react-icons/fa";
 import Logo from "../Header/Icons/Logo.png";
 import Link from "next/link";
@@ -18,6 +20,7 @@ import DgtlfaceSvg from "./DgtlfaceSvg";
 import TripadvisorSvg from "./TripadvisorSvg";
 import BSvg from "./BSvg";
 import FacebookSvg from "../Contact/icons/FacebookSvg";
+import B2SVG from "./B2SVG";
 
 export default function Footer() {
   const [isRoomsOpen, setIsRoomsOpen] = useState(false);
@@ -471,12 +474,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex w-full items-center justify-center">
-            <TripadvisorSvg className="flex" width={69} height={69} />
-            <BSvg className="flex" width={70} height={69} />
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center mr-[18px]"></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center mr-[18px]"></div>
-            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"></div>
+          <div className="flex w-full items-center justify-center gap-[10px]">
+            {/* <TripadvisorSvg className="flex" width={69} height={69} /> */}
+            
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"><FaTripadvisor className="w-6 h-6" color="#A7ABAD"/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <BSvg className="flex" width={70} height={63}/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <FaFacebook className="w-6 h-6" color='#A7ABAD'/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "> <FaYoutube className="w-6 h-6" color='#A7ABAD'/></div>
+            <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"><FaInstagram className="w-6 h-6" color='#A7ABAD'/></div>
           </div>
 
           <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] text-center justify-center items-center gap-[9.13px]">

@@ -37,10 +37,10 @@ export default function Form({ isOpen, onClose }) {
     return () => document.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
+  if (!isOpen) return null; // Eğer form açık değilse hiçbir şey render etme!
+
   return (
-    <div className={`flex flex-col items-center justify-around min-h-screen bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px]${
-        isOpen ? "translate-x-0" : "translate-x-full"
-      }`}>
+<div className="flex flex-col fixed inset-0 justify-center items-center w-screen z-50 bg-[rgba(29,29,27,0.85)] backdrop-blur-[12px]">
       <div className="flex w-[90%] items-center justify-between">
         <Image
           src={logosvg}
