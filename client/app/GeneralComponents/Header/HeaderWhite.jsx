@@ -13,10 +13,13 @@ import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa"
 import logosvg from "./Icons/blacklogo.svg"
 import DownArrow from './Icons/DownArrow';
 import { IoMdArrowDropdown } from "react-icons/io";
+import Form from "../Form";
 
 export default function HeaderWhite() {
     // 1 ekran scrolldan sonra headerin gözükmesi için
     const [showHeader, setShowHeader] = useState(false);
+
+    const [isFormOpen, setIsFormOpen] = useState(false);
 
     useEffect(() => {
       const handleScroll = () => {
@@ -66,7 +69,7 @@ export default function HeaderWhite() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 w-screen z-[990] items-center justify-center transition-all duration-500 ease-in-out ${
+      <header className={`fixed top-0 left-0 w-screen z-[99] items-center justify-center transition-all duration-500 ease-in-out ${
         showHeader ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
       }`}>
         <div
@@ -186,7 +189,7 @@ export default function HeaderWhite() {
 
         {/* Menü kapatma butonu */}
         {/* MENÜ LİNKLERİ */}
-        <div className="flex flex-col w-[100%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[9%]">
+        <div className="flex flex-col w-[98%] ml-[2%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[30px]">
           <div className="flex w-[90%] lg:w-[90%] items-center justify-between">
             <Image
               src={logosvg}
@@ -205,12 +208,12 @@ export default function HeaderWhite() {
           </div>
 
 
-        <nav className="items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[22px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto">
+        <nav className="items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto">
         <div className="relative">
               <Link
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
                 href="/rooms"
-                className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none"
+                className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
               >
                 ACCOMODATION
                 <IoMdArrowDropdown
@@ -227,7 +230,7 @@ export default function HeaderWhite() {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
+                <div className="mt-2 space-y-2 pl-4 font-jost">
                   <Link
                     href="/rooms/"
                     className="block text-[14px]  leading-[29.639px] uppercase"
@@ -261,19 +264,19 @@ export default function HeaderWhite() {
                 </div>
               </div>
             </div>
-          <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BEACH & POOL
           </Link>
-          <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             RESTAURANTS
           </Link>
-          <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BARS AND CAFÉS
           </Link>
-          <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             EXPERIENCES
           </Link>
-          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             KIDS CLUB
             <Image 
               src={KidIcon}
@@ -282,13 +285,13 @@ export default function HeaderWhite() {
               height={28}
             />
           </Link>
-          <Link href="/spawellness" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/spawellness" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             SPA & WELLNESS
           </Link>
-          <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             GALLERY
           </Link>
-          <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#000000] lg:border-none">
+          <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             OUR HOTEL
           </Link>
         </nav>
@@ -300,8 +303,8 @@ export default function HeaderWhite() {
             <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
           </div>
 
-          <Link
-          href="/connect"
+          <button
+          onClick={() => setIsFormOpen(true)}
             className="
              flex justify-center
              items-center
@@ -320,7 +323,9 @@ export default function HeaderWhite() {
             "
           >
             LET US CALL YOU
-          </Link>
+          </button>
+
+          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
 
           {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-[18.79px]">

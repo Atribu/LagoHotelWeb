@@ -1,243 +1,235 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState,useEffect } from "react";
 import DropdownCookieArrow from "./Contact/icons/DropdownCookieArrow";
 import logosvg from "./Header/Icons/Asset2.svg";
 import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
 
-// ModalPortal Componenti: Modal içeriği body içerisine taşır.
-const ModalPortal = ({ children, onClose }) => {
-  return ReactDOM.createPortal(
-    <div
-      className="fixed top-0 left-0 h-screen w-screen z-[9999] flex items-center justify-center"
-      onClick={onClose}
-    >
-      <div onClick={(e) => e.stopPropagation()} className="w-full h-screen lg:w-[715px] lg:h-[621px] bg-[rgba(29,29,27,0.60)] backdrop-blur-[10px]">
-        {children}
-      </div>
-    </div>,
-    document.body
-  );
-};
+const Cookie2 = ({ isOpen, onClose }) => {
+    
+    const [selectedContent, setSelectedContent] = useState(0);
+
+    const [cookies, setCookies] = useState({
+        necessary: false, // Zorunlu çerezler her zaman aktiftir.
+        performance: false,
+        functional: false,
+        targeting: false,
+      });
+    
+      const handleToggle = (type) => {
+        setCookies((prevCookies) => ({
+          ...prevCookies,
+          [type]: !prevCookies[type],
+        }));
+      };
+
+    const [isDropdown1Open, setIsDropdown1Open] = useState(false);
+    const [isDropdown2Open, setIsDropdown2Open] = useState(false);
+    const [isDropdown3Open, setIsDropdown3Open] = useState(false);
+    const [isDropdown4Open, setIsDropdown4Open] = useState(false);
+
+    useEffect(() => {
+        const handleEsc = (event) => {
+          if (event.key === "Escape") {
+            onClose();
+          }
+        };
+        document.addEventListener("keydown", handleEsc);
+        return () => document.removeEventListener("keydown", handleEsc);
+      }, [onClose]);
 
 
-const CookiePopup = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-
-  const [selectedContent, setSelectedContent] = useState(0);
-
-  const [cookies, setCookies] = useState({
-    necessary: false, // Zorunlu çerezler her zaman aktiftir.
-    performance: false,
-    functional: false,
-    targeting: false,
-  });
-
-  const handleToggle = (type) => {
-    setCookies((prevCookies) => ({
-      ...prevCookies,
-      [type]: !prevCookies[type],
-    }));
-  };
-
-  const [isDropdown1Open, setIsDropdown1Open] = useState(false);
-  const [isDropdown2Open, setIsDropdown2Open] = useState(false);
-  const [isDropdown3Open, setIsDropdown3Open] = useState(false);
-  const [isDropdown4Open, setIsDropdown4Open] = useState(false);
-
-  const contents = [
-    // third button
-    <div className="flex flex-col h-full w-[96%] text-start items-start justify-start overflow-y-scroll thin-scrollbar gap-[15px]">
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6] ">
-        <div
-          onClick={() => setIsDropdown1Open(!isDropdown1Open)}
-          className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
-        >
-          <div className="flex items-center cursor-pointer transition-transform duration-300">
+      const contents = [
+        // third button
+        <div className="flex flex-col h-full w-[96%] text-start items-start justify-start overflow-y-scroll thin-scrollbar gap-[15px]">
+        <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6] ">
+          <div onClick={() => setIsDropdown1Open(!isDropdown1Open)} className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]">
+          <div
+            className="flex items-center cursor-pointer transition-transform duration-300"
+            
+          >
             <DropdownCookieArrow
               className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
                 isDropdown1Open ? "rotate-90" : "rotate-0"
               }`}
             />
           </div>
-
+  
           <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Strictly Necessary
           </h4>
-        </div>
-        <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300  ${
-            cookies.analytics ? "bg-[#439150]" : "bg-[#676766]"
-          }`}
-          onClick={() => handleToggle("analytics")}
-        >
+          </div>
           <div
-            className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.analytics ? "translate-x-[14px]" : "translate-x-1"
+            className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300  ${
+              cookies.analytics ? "bg-[#439150]" : "bg-[#676766]"
             }`}
-          />
+            onClick={() => handleToggle("analytics")}
+          >
+            <div
+              className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
+                cookies.analytics ? "translate-x-[14px]" : "translate-x-1"
+              }`}
+            />
+          </div>
         </div>
-      </div>
-      <div
-        className={`overflow-hidden transition-all duration-500 ${
-          isDropdown1Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
-        }`}
-      >
-        <p className="text-[#FFF] text-[13px] font-jost leading-[150%] w-[92%] h-auto">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
-        </p>
-      </div>
-
-      {/* 2.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
-          onClick={() => setIsDropdown2Open(!isDropdown2Open)}
-          className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
+          className={`overflow-hidden transition-all duration-500 ${
+            isDropdown1Open
+              ? "max-h-[200px] opacity-100 py-4"
+              : "max-h-0 opacity-0"
+          }`}
         >
-          <div className="flex items-center cursor-pointer transition-transform duration-300">
+          <p className="text-[#FFF] text-[13px] font-jost leading-[150%] w-[92%] h-auto">
+            Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
+            sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
+            tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
+            sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
+            olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
+            bilgileri saklamaz.
+          </p>
+        </div>
+  
+        {/* 2.toggle */}
+        <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+          <div  onClick={() => setIsDropdown2Open(!isDropdown2Open)} className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]">
+          <div
+            className="flex items-center cursor-pointer transition-transform duration-300"
+           
+          >
             <DropdownCookieArrow
               className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
                 isDropdown2Open ? "rotate-90" : "rotate-0"
               }`}
             />
           </div>
-
+  
           <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
             Performance
           </h4>
-        </div>
-        <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
-            cookies.performance ? "bg-[#439150]" : "bg-[#676766]"
-          }`}
-          onClick={() => handleToggle("performance")}
-        >
+          </div>
           <div
-            className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.performance ? "translate-x-[14px]" : "translate-x-1"
+            className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
+              cookies.performance ? "bg-[#439150]" : "bg-[#676766]"
             }`}
-          />
+            onClick={() => handleToggle("performance")}
+          >
+            <div
+              className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
+                cookies.performance ? "translate-x-[14px]" : "translate-x-1"
+              }`}
+            />
+          </div>
         </div>
-      </div>
-      <div
-        className={`overflow-hidden transition-all duration-500 ${
-          isDropdown2Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
-        }`}
-      >
-        <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
-        </p>
-      </div>
-
-      {/* 3.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
-          className="flex items-center cursor-pointer transition-transform duration-300"
-          onClick={() => setIsDropdown3Open(!isDropdown3Open)}
-        >
-          <DropdownCookieArrow
-            className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
-              isDropdown3Open ? "rotate-90" : "rotate-0"
-            }`}
-          />
-        </div>
-
-        <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-          Functional
-        </h4>
-        <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
-            cookies.functional ? "bg-[#439150]" : "bg-[#676766]"
+          className={`overflow-hidden transition-all duration-500 ${
+            isDropdown2Open
+              ? "max-h-[200px] opacity-100 py-4"
+              : "max-h-0 opacity-0"
           }`}
-          onClick={() => handleToggle("functional")}
         >
+          <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
+            Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
+            sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
+            tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
+            sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
+            olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
+            bilgileri saklamaz.
+          </p>
+        </div>
+  
+        {/* 3.toggle */}
+        <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
           <div
-            className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.functional ? "translate-x-[14px]" : "translate-x-1"
+            className="flex items-center cursor-pointer transition-transform duration-300"
+            onClick={() => setIsDropdown3Open(!isDropdown3Open)}
+          >
+            <DropdownCookieArrow
+              className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
+                isDropdown3Open ? "rotate-90" : "rotate-0"
+              }`}
+            />
+          </div>
+  
+          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+            Functional
+          </h4>
+          <div
+            className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
+              cookies.functional ? "bg-[#439150]" : "bg-[#676766]"
             }`}
-          />
+            onClick={() => handleToggle("functional")}
+          >
+            <div
+              className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
+                cookies.functional ? "translate-x-[14px]" : "translate-x-1"
+              }`}
+            />
+          </div>
         </div>
-      </div>
-      <div
-        className={`overflow-hidden transition-all duration-500 ${
-          isDropdown3Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
-        }`}
-      >
-        <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
-        </p>
-      </div>
-
-      {/* 4.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
-          className="flex items-center cursor-pointer transition-transform duration-300"
-          onClick={() => setIsDropdown4Open(!isDropdown4Open)}
-        >
-          <DropdownCookieArrow
-            className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
-              isDropdown4Open ? "rotate-90" : "rotate-0"
-            }`}
-          />
-        </div>
-
-        <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-          Targeting
-        </h4>
-        <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
-            cookies.targeting ? "bg-[#439150]" : "bg-[#676766]"
+          className={`overflow-hidden transition-all duration-500 ${
+            isDropdown3Open
+              ? "max-h-[200px] opacity-100 py-4"
+              : "max-h-0 opacity-0"
           }`}
-          onClick={() => handleToggle("targeting")}
         >
-          <div
-            className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.targeting ? "translate-x-[14px]" : "translate-x-1"
-            }`}
-          />
+          <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
+            Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
+            sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
+            tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
+            sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
+            olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
+            bilgileri saklamaz.
+          </p>
         </div>
-      </div>
-      <div
-        className={`overflow-hidden transition-all duration-500 ${
-          isDropdown4Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
-        }`}
-      >
-        <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
-        </p>
-      </div>
-    </div>,
+  
+        {/* 4.toggle */}
+        <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+          <div
+            className="flex items-center cursor-pointer transition-transform duration-300"
+            onClick={() => setIsDropdown4Open(!isDropdown4Open)}
+          >
+            <DropdownCookieArrow
+              className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
+                isDropdown4Open ? "rotate-90" : "rotate-0"
+              }`}
+            />
+          </div>
+  
+          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+            Targeting
+          </h4>
+          <div
+            className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
+              cookies.targeting ? "bg-[#439150]" : "bg-[#676766]"
+            }`}
+            onClick={() => handleToggle("targeting")}
+          >
+            <div
+              className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
+                cookies.targeting ? "translate-x-[14px]" : "translate-x-1"
+              }`}
+            />
+          </div>
+        </div>
+        <div
+          className={`overflow-hidden transition-all duration-500 ${
+            isDropdown4Open
+              ? "max-h-[200px] opacity-100 py-4"
+              : "max-h-0 opacity-0"
+          }`}
+        >
+          <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
+            Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
+            sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
+            tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
+            sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
+            olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
+            bilgileri saklamaz.
+          </p>
+        </div>
+      </div>,
 
     <div className="flex flex-col h-full w-[91%] sm:w-[95%] lg:w-[99%] text-start text-[#FBFBFB] overflow-y-scroll overflow-x-hidden z-[9999] font-jost thin-scrollbar">
       <p className="text-[13px] font-normal leading-[19.5px] pr-[4%] lg:pr-[7.5%]">
@@ -466,66 +458,26 @@ const CookiePopup = () => {
         sunabileceğimiz hizmetlerin deneyiminizi etkileyebilir.
       </p>
     </div>,
+
+
   ];
 
-  const handleModalToggle = () => {
-    setIsModalOpen(!isModalOpen);
-  };
 
-  const handleClose = () => {
-    setIsVisible(false);
-  };
+    if (!isOpen) return null; 
+
+      // ESC tuşuna basılınca kapansın
 
   return (
-    isVisible && (
-      <div className="fixed flex z-[9999] bottom-0 bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px] right-0 left-0 w-screen items-center justify-center h-[72px]">
-        <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] py-[25px] gap-[20px]  font-montserrat text-center items-center justify-center text-[#FBFBFB] font-jost">
-          <p className="md:hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center md:min-w-[39%]">
-            <span className="font-medium underline">We Use Cookies:</span> We
-            use our own and third-party cookies to <br /> personalize content
-            and to analyze web traffic. 
-            <br />
-            <Link href="/" className="font-medium underline">
-              Read more
-            </Link>
-             about cookies
-          </p>
-
-          <div className="md:flex hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center sm:w-[45%] md:min-w-[38%] ml-[2%] ">
-            <p>
-              <span className="font-medium underline">We Use Cookies:</span> We
-              use our own and third-party cookies to personalize content and to
-              analyze web traffic. 
-              <Link href="/" className="font-medium underline">
-                Read more
-              </Link>
-               about cookies
-            </p>
-          </div>
-          <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] mr-[2%] sm:w-[55%] ">
-            <button
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer "
-              onClick={handleClose}
-            >
-              Deny All Cookies
-            </button>
-            <button
-              onClick={handleClose}
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer "
-            >
-              Accept All Cookies
-            </button>
-
-            <button
-              onClick={handleModalToggle}
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer col-span-2 "
-            >
-              Manage Cookie Preferences
-            </button>
-            {isModalOpen && (
-              
-                 <ModalPortal onClose={handleModalToggle}>
-                  <div className="flex flex-col">
+    <div className='w-screen h-screen flex bg-gray-400 relative'>
+    
+              <div
+                className="flex fixed h-screen w-screen z-[9999]"
+                onClick={onClose}
+              >
+                <div
+                  className="flex flex-col w-full h-screen bg-[rgba(29,29,27,0.60)] backdrop-blur-[10px] items-center justify-start z-[9999] lg:w-[715px] lg:h-[621px]"
+                  onClick={(e) => e.stopPropagation()}
+                >
                   <div className="flex w-[80%] lg:w-[90%] items-start justify-between lg:mt-[27px] lg:gap-[23px] mt-[24%] md:mt-[83px] lg:h-[39px] h-[52px]">
                     <Image
                       src={logosvg}
@@ -533,38 +485,39 @@ const CookiePopup = () => {
                       className="object-contain w-[62px] h-[46px] lg:h-[39px] lg:w-[52px] items-center justify-center"
                     />
                     <div className="hidden lg:flex flex-row w-[98%] md:w-[90%] lg:w-auto text-center items-center text-[16px] font-bold ml-[11%] lg:ml-0 gap-[23px] h-[29px]">
-                      {[
-                        "Cookie Policy",
-                        "Cookie Clarification Text",
-                        "What Are Cookies?",
-                      ].map((buttonLabel, index) => (
-                        <button
-                          key={index}
-                          onClick={() => setSelectedContent(index)}
-                          className={
-                            selectedContent === index
-                              ? "text-white text-[16px] font-jost leading-normal font-medium w-[60%] max-w-[191px] cursor-pointer p-[10px] border-b  whitespace-nowrap  items-start justify-start text-start underline] h-[48px] lg:h-[37px]"
-                              : " text-[16px] font-jost leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer p-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px]"
-                          }
-                        >
-                          {buttonLabel}
-                        </button>
-                      ))}
-                    </div>
+                        {[
+                           "Cookie Policy",
+                          "Cookie Clarification Text",
+                          "What Are Cookies?"
+                        ].map((buttonLabel, index) => (
+                          <button
+                            key={index}
+                            onClick={() => setSelectedContent(index)}
+                            className={
+                              selectedContent === index
+                                ? "text-white text-[16px] font-jost leading-normal font-medium w-[60%] max-w-[191px] cursor-pointer p-[10px] border-b  whitespace-nowrap  items-start justify-start text-start underline] h-[48px] lg:h-[37px]"
+                                : " text-[16px] font-jost leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer p-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px]"
+                            }
+                          >
+                            {buttonLabel}
+                          </button>
+                        ))}
+                      </div>
                     <button
                       className="flex text-[40px] text-stoneLight text-white items-center justify-center h-full"
-                      onClick={handleModalToggle}
+                      onClick={onClose}
                     >
-                      <RxCross2 size={24} color="#fff" />
+                     <RxCross2 size={24} color="#fff"/>
                     </button>
                   </div>
                   <div className="flex flex-col gap-4 items-center justify-center pb-2 lg:pb-0 md:h-[90%] text-[#FBFBFB] max-w-screen lg:mt-[36px] h-auto">
                     <div className="flex flex-col w-[90%] lg:w-[100%] justify-center items-center lg:items-start lg:justify-start gap-[14.5px] lg:gap-[15px] ">
                       <div className="flex flex-row lg:hidden text-start text-[16px] font-bold gap-[10px] w-[85%] lg:mb-[36px] items-center justify-start overflow-x-auto scrollbar-thin ">
                         {[
-                          "Cookie Policy",
+                           "Cookie Policy",
                           "Cookie Clarification Text",
                           "What Are Cookies?",
+                         
                         ].map((buttonLabel, index) => (
                           <button
                             key={index}
@@ -580,17 +533,17 @@ const CookiePopup = () => {
                         ))}
                       </div>
 
-                      {/* Dinamik Başlık */}
-                      <button className="hidden lg:flex text-[16px] font-medium text-[#FBFBFB] font-jost leading-normal border-b border-[#FBFBFB] ml-[8%] lg:ml-[7%]">
-                        {
-                          [
-                            "Cookie Policy",
-                            "Cookie Clarification Text",
-                            "What Are Cookies?",
-                          ][selectedContent]
-                        }
-                      </button>
-
+                       {/* Dinamik Başlık */}
+                       <button className="hidden lg:flex text-[16px] font-medium text-[#FBFBFB] font-jost leading-normal border-b border-[#FBFBFB] ml-[8%] lg:ml-[7%]">
+                          {
+                            ["Cookie Policy",
+                              "Cookie Clarification Text",
+                              "What Are Cookies?",
+                              
+                            ][selectedContent]
+                          }
+                        </button>
+                        
                       <div className="flex flex-col w-[92vw] h-[58vh] md:h-[55vh] lg:h-[376px] lg:w-[85%] ml-[4%] lg:ml-[7%] mt-[2vw] lg:mt-0 items-start justify-start text-start ">
                         {/* Dinamik Başlık */}
                         {/* İçerik */}
@@ -615,15 +568,11 @@ const CookiePopup = () => {
                       </div>
                     </div>
                   </div>
-                  </div>
-                 </ModalPortal>
-               
-            )}
-          </div>
-        </div>
-      </div>
-    )
-  );
-};
+                </div>
+              </div>
+         
+    </div>
+  )
+}
 
-export default CookiePopup;
+export default Cookie2

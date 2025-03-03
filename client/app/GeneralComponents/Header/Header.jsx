@@ -197,7 +197,7 @@ export default function Header() {
         </button> */}
 
         {/* MENÜ LİNKLERİ */}
-        <div className="flex flex-col w-[100%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[9%]">
+        <div className="flex flex-col w-[98%] ml-[2%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[30px]">
           <div className="flex w-[90%] lg:w-[90%] items-center justify-between">
             <Image
               src={logosvg}
@@ -215,12 +215,12 @@ export default function Header() {
             </button>
           </div>
 
-          <nav className=" items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[11px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto">
+          <nav className=" items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto">
             <div className="relative">
               <Link
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
                 href="/rooms"
-                className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+                className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
               >
                 ACCOMODATION
                 <IoMdArrowDropdown
@@ -237,7 +237,7 @@ export default function Header() {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
+                <div className="mt-2 space-y-2 pl-4  border-white/30 font-jost">
                   <Link
                     href="/rooms/"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
@@ -273,50 +273,50 @@ export default function Header() {
             </div>
             <Link
               href="/beachpools"
-              className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               BEACH & POOL
             </Link>
             <Link
               href="/restaurants"
-              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               RESTAURANTS
             </Link>
             <Link
               href="/barcafes"
-              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               BARS AND CAFÉS
             </Link>
             <Link
               href="/entertainment"
-              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               EXPERIENCES
             </Link>
             <Link
               href="/kidsclub"
-              className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               KIDS CLUB
               <Image src={KidIcon} alt="KidIcon" width={23} height={28} />
             </Link>
             <Link
               href="/spawellness"
-              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               SPA & WELLNESS
             </Link>
             <Link
               href="/gallery"
-              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               GALLERY
             </Link>
             <Link
               href="/about"
-              className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] pb-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+              className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               OUR HOTEL
             </Link>
@@ -356,8 +356,6 @@ export default function Header() {
             </button>
               {/* Contact Form bileşeni burada çağrılıyor */}
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-
-
 
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">

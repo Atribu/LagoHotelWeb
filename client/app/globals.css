@@ -3,6 +3,23 @@
 @tailwind utilities;
 
 
+  .thin-scrollbar::-webkit-scrollbar {
+    width: 1px; /* Scrollbar genişliği */
+    
+  }
+
+  .thin-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1); /* Scroll çubuğu rengi */
+    border-radius: 10px;
+  }
+
+  .thin-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Arka plan rengi */
+  }
+
+
+
+
 @font-face {
   font-family: 'Jost';
   src: url('/fonts/Jost-Bold.ttf') format('opentype');

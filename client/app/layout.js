@@ -32,11 +32,11 @@ export default function RootLayout({ children }) {
           <meta name="theme-color" content="#FBFBFBCC" />
         <Header />
         <HeaderWhite/>
-        <BookNow/>
-        <div className="hidden md:flex">
-          <CookiePopup/>
-        </div>
+       
         {children}
+        
+          <CookiePopup/>
+   
         <Footer />
       </body>
     </html>

@@ -102,7 +102,7 @@ export default function Reservation() {
               focus:outline-none 
               bg-transparent 
               text-center 
-               placeholder:text-white
+            placeholder:text-white
               placeholder:uppercase
               placeholder:text-[16px]
               placeholder:leading-[24px]
@@ -176,7 +176,7 @@ export default function Reservation() {
               focus:outline-none
               text-center
               relative
-               placeholder:text-white
+            placeholder:text-white
               uppercase
              text-[16px]
               leading-[24px]
@@ -192,8 +192,8 @@ export default function Reservation() {
             <div
               className="
                 absolute 
-                top-full 
-                left-0 
+                bottom-full 
+                -left-1/2 
                 mt-2 
                 bg-transparent 
                 border 
