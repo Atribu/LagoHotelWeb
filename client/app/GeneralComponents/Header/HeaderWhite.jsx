@@ -69,7 +69,7 @@ export default function HeaderWhite() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 w-screen z-[990] items-center justify-center transition-all duration-500 ease-in-out ${
+      <header className={`fixed top-0 left-0 w-screen z-[99] items-center justify-center transition-all duration-500 ease-in-out ${
         showHeader ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
       }`}>
         <div

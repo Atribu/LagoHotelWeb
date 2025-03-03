@@ -357,8 +357,6 @@ export default function Header() {
               {/* Contact Form bileşeni burada çağrılıyor */}
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
 
-
-
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">
               <Link
