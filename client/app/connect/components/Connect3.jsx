@@ -7,7 +7,7 @@ const Connect3 = () => {
       {/* Üst Çizgi kaldırıldı veya başka yerde kullanılabilir */}
 
       {/* Başlık */}
-      <h2 className="text-[40px] md:text-3xl font-marcellus font-normal text-center mt-5 mb-5">
+      <h2 className="text-[32px] lg:text-[40px] font-marcellus font-normal text-center mt-5 mb-5">
         Address
       </h2>
 
@@ -15,7 +15,7 @@ const Connect3 = () => {
       <hr className="w-full max-w-4xl border-gray-300 mb-6 mx-auto" />
 
       {/* Adres Metni */}
-      <p className="text-center text-lagoBlack font-normal font-jost text-[16px] leading-[24px] mb-12 underline">
+      <p className="text-center text-lagoBlack font-normal font-jost text-[14px] lg:text-[16px] leading-[24px] mb-12 underline">
         Sorgun, Titreyengöl Mevkii, 07600 Manavgat/Antalya
       </p>
 

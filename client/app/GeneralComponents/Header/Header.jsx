@@ -15,6 +15,7 @@ import gradient4 from "./Icons/header.png";
 import DownArrow from "./Icons/DownArrow";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Form from "../Form";
+import { RxCross2 } from "react-icons/rx";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,14 +51,13 @@ export default function Header() {
 
   return (
     <div className="flex w-screen">
-      <header className="absolute right-0 top-0 left-0 w-full z-[99] items-center justify-center">
+      <header className="absolute right-0 -top-[10px] left-0 w-full z-[99] items-center justify-center">
         <div
           className="
             relative
             h-[144px]
             flex
-            items-center
-      
+            items-center justify-center
             to-transparent
             w-full
           "
@@ -67,13 +67,13 @@ export default function Header() {
               src={gradient4}
               width={gradient4.width}
               height={gradient4.header}
-              className="w-full  h-[144px] "
+              className="w-full h-[144px] "
               alt="header"
             />
           </div>
 
           {!isMenuOpen && (
-            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[75%] sm:ml-[80%] md:ml-[4%] ">
+            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[71%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 " onClick={toggleMenu}>
                 <Hamburger
                   width={30}
@@ -99,12 +99,12 @@ export default function Header() {
           {/* EN bar */}
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[18%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-[18%] sm:left-[15%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
             <Link className="w-full items-center justify-center flex" href="/">
               <Image
                 src={logosvg}
                 alt="Logo"
-                className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:h-auto items-center justify-center"
+                className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:max-w-[300px] lg:h-auto items-center justify-center"
               />
             </Link>
           </div>
@@ -172,9 +172,8 @@ export default function Header() {
           w-full
           lg:w-[420px]
           h-[100vh]
-          
           lg:bg-[#1D1D1B] lg:bg-opacity-50  
-            bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px]
+            bg-[rgba(29,29,27,0.70)] backdrop-blur-[10px]
           z-[9999]
           transform transition-transform duration-300
           items-center justify-center
@@ -183,8 +182,7 @@ export default function Header() {
               ? "translate-x-0 md:translate-x-0"
               : "translate-x-full md:-translate-x-full"
           }
-        `}
-      >
+        `}>
         {/* Menü kapatma butonu */}
         {/* <button
           onClick={toggleMenu}
@@ -197,29 +195,31 @@ export default function Header() {
         </button> */}
 
         {/* MENÜ LİNKLERİ */}
-        <div className="flex flex-col w-[98%] ml-[2%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[30px]">
-          <div className="flex w-[90%] lg:w-[90%] items-center justify-between">
+        <div className="flex flex-col w-[98%] ml-[1%] h-[95%] items-center justify-around py-[30px] lg:py-[15px] gap-[30px]">
+        <button
+              onClick={toggleMenu}
+              className="hidden lg:flex absolute top-8 right-6 text-[40px] p-2 text-stoneLight text-white"
+            >
+              <RxCross2 size={24} color="#fff" />
+            </button>
+        <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between mt-[30px]">
             <Image
               src={logosvg}
               alt="Logo"
-              className="object-contain w-[62px] h-[46px] items-center justify-center"
+              className="flex object-contain w-[62px] h-[46px] items-center justify-center"
             />
             <button
               onClick={toggleMenu}
               className="flex text-[40px] text-stoneLight text-white"
             >
-              <div className="flex bg-black/50 items-center justify-center h-10 w-10 rounded-[4px] ">
-                <div className="flex h-[2px] w-6 rotate-[-45deg] flex-shrink-0 bg-white"></div>
-                <div className="flex absolute h-[2px] w-6 rotate-[45deg] flex-shrink-0 bg-white"></div>
-              </div>
+              <RxCross2 size={24} color="#fff" />
             </button>
           </div>
 
-          <nav className=" items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto">
+          <nav className=" items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
             <div className="relative">
-              <Link
+              <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
-                href="/rooms"
                 className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
               >
                 ACCOMODATION
@@ -228,7 +228,7 @@ export default function Header() {
                     isRoomsOpen ? "rotate-180" : "rotate-0"
                   }`}
                 />
-              </Link>
+              </div>
 
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
@@ -238,20 +238,26 @@ export default function Header() {
                 }`}
               >
                 <div className="mt-2 space-y-2 pl-4  border-white/30 font-jost">
-                  <Link
+                <Link
                     href="/rooms/"
+                    className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
+                  >
+                    All Rooms
+                  </Link>
+                  <Link
+                    href="/rooms/subroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Superior Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Family Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Swim-up Room
@@ -263,7 +269,7 @@ export default function Header() {
                     Family Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Duplex Family Room
@@ -323,7 +329,7 @@ export default function Header() {
           </nav>
 
           {/* TELEFON + BUTON ALANI */}
-          <div className=" px-4 w-full lg:max-w-[392px]  flex flex-col items-center font-jost">
+          <div className=" px-4 w-full lg:max-w-[392px] flex flex-col items-center font-jost">
             <div className="flex items-center justify-center gap-[15px] text-white">
               <Phone className="flex" width={18} height={18} color="#ffffff" />
               <span className="text-[15px] font-normal leading-[24px]">

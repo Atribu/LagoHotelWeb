@@ -108,7 +108,7 @@ export default function HeaderWhite() {
               src={logosvg}
               alt="Logo"
 
-              className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:h-auto items-center justify-center"
+              className="object-contain w-[62px] h-[46px] lg:w-[30%] lg:max-w-[300px] lg:h-auto items-center justify-center"
 
             /></Link>
           </div>

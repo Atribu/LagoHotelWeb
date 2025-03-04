@@ -40,8 +40,13 @@ export default function Form({ isOpen, onClose }) {
   if (!isOpen) return null; // Eğer form açık değilse hiçbir şey render etme!
 
   return (
-<div className="flex flex-col fixed inset-0 justify-center items-center w-screen z-50 bg-[rgba(29,29,27,0.85)] backdrop-blur-[12px]">
-      <div className="flex w-[90%] items-center justify-between">
+<div className="flex flex-col fixed inset-0 justify-center items-center w-screen lg:w-[420px] z-50 bg-[rgba(29,29,27,0.85)] backdrop-blur-[12px]">
+<button
+        onClick={onClose}
+          className="absolute lg:flex hidden text-[40px] top-1 right-4 text-stoneLight text-white" >
+          &times;
+        </button>
+      <div className="flex w-[96%] px-[34px] items-center justify-between ">
         <Image
           src={logosvg}
           alt="Logo"
@@ -49,7 +54,7 @@ export default function Form({ isOpen, onClose }) {
         />
         <button
         onClick={onClose}
-          className="flex text-[40px] text-stoneLight text-white"
+          className="flex lg:hidden text-[40px] text-stoneLight text-white"
           
         >
           &times;
@@ -57,7 +62,7 @@ export default function Form({ isOpen, onClose }) {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="w-[90%] md:w-[400px] p-[30px]  text-[#FBFBFB] font-jost flex flex-col items-center justify-center gap-[25px]"
+        className="w-[96%] md:w-[400px] p-[34px]  text-[#FBFBFB] font-jost flex flex-col items-center justify-center gap-[25px]"
       >
         <div className="flex flex-col gap-[10px] w-full">
           <label className="block mb-2 text-[16px] font-medium leading-[26.667px]">
@@ -121,7 +126,9 @@ export default function Form({ isOpen, onClose }) {
             name="policyAccepted"
             checked={formData.policyAccepted}
             onChange={handleChange}
-            className="w-[20px] h-[20px] placeholder:text-[16px] placeholder:text-[#A6A6A6]"
+            className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#A6A6A6] bg-transparent focus:outline-none
+               checked:after:content-['✓']  checked:after:text-white checked:after:text-[16px]
+               checked:after:flex checked:after:items-center checked:after:justify-center "
           />
           <label className="text-[16px] font-normal leading-[26.667px] text-[#A6A6A6] cursor-pointer underline">
             Contact Form Policy
@@ -130,7 +137,7 @@ export default function Form({ isOpen, onClose }) {
 
         <button
           type="submit"
-          className="flex py-[15px] px-[58.5px] w-[226px] h-[42px] items-center justify-center border border-white text-white text-center hover:bg-gray-700 transition whitespace-nowrap"
+          className="flex text-[15px] py-[15px] px-[58.5px] w-[226px] h-[42px] items-center justify-center border border-white text-white text-center hover:bg-gray-700 transition whitespace-nowrap"
         >
           SEND REQUEST
         </button>

@@ -11,10 +11,13 @@ import { RxCross2 } from "react-icons/rx";
 const ModalPortal = ({ children, onClose }) => {
   return ReactDOM.createPortal(
     <div
-      className="fixed top-0 left-0 h-screen w-screen z-[9999] flex items-center justify-center"
+      className="fixed top-0 left-0 h-screen w-screen z-[9999] flex items-center justify-center "
       onClick={onClose}
     >
-      <div onClick={(e) => e.stopPropagation()} className="w-full h-screen lg:w-[715px] lg:h-[621px] bg-[rgba(29,29,27,0.60)] backdrop-blur-[10px]">
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="w-full h-screen lg:w-[715px] lg:h-[651px] bg-[rgba(29,29,27,0.70)] backdrop-blur-[10px]"
+      >
         {children}
       </div>
     </div>,
@@ -22,12 +25,23 @@ const ModalPortal = ({ children, onClose }) => {
   );
 };
 
-
 const CookiePopup = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
 
-  const [selectedContent, setSelectedContent] = useState(0);
+  const buttonsData = [
+    { id: 0, label: "Cookie Policy" },
+    { id: 1, label: "Cookie Clarification Text" },
+    { id: 2, label: "What Are Cookies?" },
+  ];
+
+  const [selectedContent, setSelectedContent] = React.useState(0);
+
+  // Aktif butonu listenin başına alacak şekilde yeniden sıralama
+  const orderedButtons = [
+    buttonsData.find((btn) => btn.id === selectedContent),
+    ...buttonsData.filter((btn) => btn.id !== selectedContent),
+  ];
 
   const [cookies, setCookies] = useState({
     necessary: false, // Zorunlu çerezler her zaman aktiftir.
@@ -50,8 +64,8 @@ const CookiePopup = () => {
 
   const contents = [
     // third button
-    <div className="flex flex-col h-full w-[96%] text-start items-start justify-start overflow-y-scroll thin-scrollbar gap-[15px]">
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6] ">
+    <div className="flex flex-col h-full w-[96%] text-start font-jost items-start justify-start  gap-[7.5px] overflow-y-scroll thin-scrollbar max-h-[500px]">
+      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6] pr-[2%]">
         <div
           onClick={() => setIsDropdown1Open(!isDropdown1Open)}
           className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
@@ -64,7 +78,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] ">
+          <h4 className="text-[16px] font-medium leading-[26.667px]">
             Strictly Necessary
           </h4>
         </div>
@@ -84,11 +98,11 @@ const CookiePopup = () => {
       <div
         className={`overflow-hidden transition-all duration-500 ${
           isDropdown1Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
+            ? "max-h-[200px] min-h-[100px] opacity-100 py-[10px] ml-[5%]"
+            : "max-h-0 opacity-0 ml-[5%]"
         }`}
       >
-        <p className="text-[#FFF] text-[13px] font-jost leading-[150%] w-[92%] h-auto">
+        <p className="text-[#FFF] text-[13px] font-jost leading-[150%] w-[92%] h-auto ">
           Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
           sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
           tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
@@ -99,7 +113,7 @@ const CookiePopup = () => {
       </div>
 
       {/* 2.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
           onClick={() => setIsDropdown2Open(!isDropdown2Open)}
           className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
@@ -132,8 +146,8 @@ const CookiePopup = () => {
       <div
         className={`overflow-hidden transition-all duration-500 ${
           isDropdown2Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
+            ? "max-h-[200px] min-h-[100px] opacity-100 py-[10px] ml-[5%]"
+            : "max-h-0 opacity-0  ml-[5%]"
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
@@ -147,21 +161,23 @@ const CookiePopup = () => {
       </div>
 
       {/* 3.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
-          className="flex items-center cursor-pointer transition-transform duration-300"
           onClick={() => setIsDropdown3Open(!isDropdown3Open)}
+          className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
         >
-          <DropdownCookieArrow
-            className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
-              isDropdown3Open ? "rotate-90" : "rotate-0"
-            }`}
-          />
-        </div>
+          <div className="flex items-center cursor-pointer transition-transform duration-300">
+            <DropdownCookieArrow
+              className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
+                isDropdown3Open ? "rotate-90" : "rotate-0"
+              }`}
+            />
+          </div>
 
-        <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-          Functional
-        </h4>
+          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+            Functional
+          </h4>
+        </div>
         <div
           className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
             cookies.functional ? "bg-[#439150]" : "bg-[#676766]"
@@ -178,8 +194,8 @@ const CookiePopup = () => {
       <div
         className={`overflow-hidden transition-all duration-500 ${
           isDropdown3Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
+            ? "max-h-[200px] min-h-[100px] opacity-100 py-[10px] ml-[5%]"
+            : "max-h-0 opacity-0  ml-[5%]"
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
@@ -193,21 +209,23 @@ const CookiePopup = () => {
       </div>
 
       {/* 4.toggle */}
-      <div className="flex w-full py-[10] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
         <div
-          className="flex items-center cursor-pointer transition-transform duration-300"
           onClick={() => setIsDropdown4Open(!isDropdown4Open)}
+          className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
         >
-          <DropdownCookieArrow
-            className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
-              isDropdown4Open ? "rotate-90" : "rotate-0"
-            }`}
-          />
-        </div>
+          <div className="flex items-center cursor-pointer transition-transform duration-300">
+            <DropdownCookieArrow
+              className={`w-[25px] h-[26px] transform transition-transform duration-300 ${
+                isDropdown4Open ? "rotate-90" : "rotate-0"
+              }`}
+            />
+          </div>
 
-        <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-          Targeting
-        </h4>
+          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+            Targeting
+          </h4>
+        </div>
         <div
           className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 ${
             cookies.targeting ? "bg-[#439150]" : "bg-[#676766]"
@@ -224,8 +242,8 @@ const CookiePopup = () => {
       <div
         className={`overflow-hidden transition-all duration-500 ${
           isDropdown4Open
-            ? "max-h-[200px] opacity-100 py-4"
-            : "max-h-0 opacity-0"
+            ? "max-h-[200px] min-h-[100px] opacity-100 py-[10px] ml-[5%]"
+            : "max-h-0 opacity-0  ml-[5%]"
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-jost leading-[150%]">
@@ -239,8 +257,8 @@ const CookiePopup = () => {
       </div>
     </div>,
 
-    <div className="flex flex-col h-full w-[91%] sm:w-[95%] lg:w-[99%] text-start text-[#FBFBFB] overflow-y-scroll overflow-x-hidden z-[9999] font-jost thin-scrollbar">
-      <p className="text-[13px] font-normal leading-[19.5px] pr-[4%] lg:pr-[7.5%]">
+    <div className="flex flex-col h-full w-[96%] ml-[2%] sm:w-[95%] lg:w-[99%] text-start text-[#FBFBFB] overflow-y-scroll overflow-x-hidden z-[9999] font-jost thin-scrollbar">
+      <p className="text-[13px] font-normal leading-[19.5px] pr-[3.5%] lg:pr-[7.5%]">
         Veri Sorumlusunun Kimliği: Cebeci Global Turizm Ticaret Anonim Şirketi –
         Adres: (Sorgun mah. Titreyengöl mevkii No:26 Manavgat Antalya) ve
         bünyesinde bulunan Lago Hotel olarak, ulusal veri koruma kanunumuz 6698
@@ -289,7 +307,7 @@ const CookiePopup = () => {
         Turizm Ticaret Anonim Şirketi olarak, tarafından kullanılan çerezler;
         Aşağıda kategorilerine göre web sitemizde kullanılan çerezler ile ilgili
         çerezleri sağlayanlar, çerezler ile kullanım amaçlarına ve hukuki
-        sebeplerine yer verilmiştir: Zorunlu Çerezler: Web sitesinin kullanımı
+        sebeplerine yer verilmiştir: 1.Zorunlu Çerezler: Web sitesinin kullanımı
         ve işlevselliği için elzem olan çerezlerdir. Bu çerezler devre dışı
         bırakıldığında, web sitesinin tamamına veya bir kısmına erişim mümkün
         olmayabilir. Zorunlu çerezler aracılığıyla işlenen kişisel veriler, ürün
@@ -297,43 +315,9 @@ const CookiePopup = () => {
         yürütülmesi için gereklidir. Bu nedenle, KVKK Madde 5/2e hükümleri
         gereğince bir hakkın tesis edilmesi, kullanılması veya korunması
         amacıyla zorunlu veri işleme gerekliliği olduğunda bu çerezler
-        kullanılmaktadır. Pazarlama Çerezleri Pazarlama amaçlı çerezler ile
-        internet ortamında kullanıcıların çevrim içi hareketleri takip edilerek
-        kişisel ilgi alanlarının saptanıp bu ilgi alanlarına yönelik internet
-        ortamında kullanıcılara reklam gösterilmesi hedeflenen çerezlerdir.
-        Kullanıcıların ilgi alanlarına göre reklam ve kampanyaların sunulması,
-        pazarlama çalışmalarının etkinliğinin ölçülmesi amacıyla kullanılan
-        çerezlerdir. Pazarlama çerezleri aracılığıyla işlenen kişisel veriler,
-        ürün ve hizmetlerin pazarlama süreçlerinin yönetilmesi, pazarlama analiz
-        çalışmalarının yürütülmesi, reklam, kampanya ve promosyon süreçlerinin
-        yönetilmesi amacıyla KVKK Madde 5/1 ve Madde 9/1 hükümleri gereğince
-        açık rızanız alınarak işlenmektedir. Bu veriler, uluslararası çerez
-        sağlayıcılarıyla paylaşılmaktadır, ancak açık bir şekilde belirtmek
-        gerekirse, bu bilgilerin korunması ve gizliliği önemlidir. Analitik
-        Çerezler İnternet sitelerinde, kullanıcı davranışlarını analiz etmek
-        amacıyla kullanılan çerezlerdir. Bu çerezler, genellikle web sitesinin
-        iyileştirilmesine yardımcı olmak için kullanılır ve bu kapsamda
-        reklamların kullanıcılar üzerindeki etkisinin ölçülmesi de dahil
-        edilebilir. Analitik çerezler, kullanıcıların web sitesini nasıl
-        kullandıkları hakkında bilgi toplamak amacıyla kullanılır. Bu tür
-        çerezler, kullanıcı deneyimini geliştirmeyi amaçlar ve kullanıcıların
-        hangi sayfaları ziyaret ettikleri, hangi sayfalara tıkladıkları,
-        sayfaları nasıl kaydırdıkları ve hangi saatlerde siteyi ziyaret
-        ettikleri gibi bilgileri toplar. Analitik çerezler aracılığıyla işlenen
-        kişisel veriler, pazarlama analiz çalışmalarının yürütülmesi, ziyaretçi
-        kayıtlarının oluşturulması ve takip edilmesi gibi amaçlarla KVKK Madde
-        5/1 ve Madde 9/1 hükümleri gereğince açık rızanız alınarak işlenir ve bu
-        veriler yurt dışındaki çerez sağlayıcılarıyla paylaşılabilir. Zorunlu
-        ÇerezlerWeb sitesinin kullanımı ve işlevselliği için elzem olan
-        çerezlerdir. Bu çerezler devre dışı bırakıldığında, web sitesinin
-        tamamına veya bir kısmına erişim mümkün olmayabilir. Zorunlu çerezler
-        aracılığıyla işlenen kişisel veriler, ürün ve hizmetlerin sunulabilmesi
-        ve mevzuata uygun şekilde faaliyetlerin yürütülmesi için gereklidir. Bu
-        nedenle, KVKK Madde 5/2e hükümleri gereğince bir hakkın tesis edilmesi,
-        kullanılması veya korunması amacıyla zorunlu veri işleme gerekliliği
-        olduğunda bu çerezler kullanılmaktadır. Web sitemizde kullanılan zorunlu
-        çerezlerin sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir: 2.
-        Pazarlama Çerezleri   Pazarlama amaçlı çerezler ile internet ortamında
+        kullanılmaktadır. Web sitemizde kullanılan zorunlu çerezlerin
+        sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir: 2.Pazarlama
+        Çerezleri Pazarlama amaçlı çerezler ile internet ortamında
         kullanıcıların çevrim içi hareketleri takip edilerek kişisel ilgi
         alanlarının saptanıp bu ilgi alanlarına yönelik internet ortamında
         kullanıcılara reklam gösterilmesi hedeflenen çerezlerdir. Kullanıcıların
@@ -345,9 +329,9 @@ const CookiePopup = () => {
         yönetilmesi amacıyla KVKK Madde 5/1 ve Madde 9/1 hükümleri gereğince
         açık rızanız alınarak işlenmektedir. Bu veriler, uluslararası çerez
         sağlayıcılarıyla paylaşılmaktadır, ancak açık bir şekilde belirtmek
-        gerekirse, bu bilgilerin korunması ve gizliliği önemlidir. Web sitemizde
+        gerekirse, bu bilgilerin korunması ve gizliliği önemlidir. Web sitemizde
         kullanılan pazarlama çerezlerinin sağlayıcıları ve kullanım amaçları
-        aşağıda belirtilmiştir: Analitik Çerezler İnternet sitelerinde,
+        aşağıda belirtilmiştir: 3. Analitik Çerezler  İnternet sitelerinde,
         kullanıcı davranışlarını analiz etmek amacıyla kullanılan çerezlerdir.
         Bu çerezler, genellikle web sitesinin iyileştirilmesine yardımcı olmak
         için kullanılır ve bu kapsamda reklamların kullanıcılar üzerindeki
@@ -361,98 +345,553 @@ const CookiePopup = () => {
         yürütülmesi, ziyaretçi kayıtlarının oluşturulması ve takip edilmesi gibi
         amaçlarla KVKK Madde 5/1 ve Madde 9/1 hükümleri gereğince açık rızanız
         alınarak işlenir ve bu veriler yurt dışındaki çerez sağlayıcılarıyla
-        paylaşılabilir. Web sitemizde kullanılan analitik çerezler,
-        sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir: Fonksiyonel
-        Çerezler İnternet sitemizdeki sistemlerin düzgün işleyişine yardımcı
-        olmak adına kullanılan çerezlerdir. Web sitemizden yapılan üçüncü taraf
-        yönlendirmeler aşağıda belirtilmiştir: Lago Hotel rezarvasyon linkimiz” 
-        lagohotel.hotelagent.com Lago Hotel için TripAdvisor yorum sayfası 
-        https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html
-        Lago Hotel için Holidaycheck yorum sayfası 
-        https://www.holidaycheck.de/hi/lago-hotel/2e44d958-7e5e-4423-92b2-84bb298826b0
-        Lago Hotel için TopHotels yorum sayfası 
-        https://tophotels.ru/hotel/al24898 Lago Hotel Facebook sayfası 
-        https://www.facebook.com/lagohotels Lago Hotel İnstagram sayfası 
-        https://www.instagram.com/lagohotels/ Lago Hotel Youtube
-        sayfası https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ  Diğer
-        internet sitelerine bağlantılar İnternet sitemizdeki içerikler üçüncü
-        taraflara ait internet sitelerine bağlantılar içerebilir ve bu internet
-        siteleri için, ilgili internet sitelerinin ve tüzel kişiliklerin veri
-        koruma düzenlemeleri geçerli olup, şirketimizin düzenlemeleri geçerli
-        değildir. Bu internet sitelerine ilişkin hiçbir sorumluluk kabul
-        etmiyoruz. Üçüncü kişilere ait internet siteleriyle verilerinizi
-        paylaşmadan önce onların veri koruma düzenlemelerine ilişkin yasal
-        dökümanları okumalısınız. İşlem Güvenliği Kişisel verilerin korunması ve
-        yetkisiz erişimin önlenmesi Cebeci Global Turizm Ticaret Anonim
-        Şirketi bünyesinde bulunan Lago Hotel tarafından son derece ciddi bir
-        şekilde ele alınmaktadır. Misafirlerimizin ve potansiyel misafir 
-        mağduriyet yaşamaması için gerekli teknik ve idari tedbirler titizlikle
-        uygulanmaktadır. Bu tedbirler, yazılımların endüstri standartlarına
-        uygunluğunu sağlamak, üçüncü tarafları dikkatle seçmek ve şirket içinde
-        veri koruma politikasına sıkı bir şekilde uymak gibi unsurları içerir.
-        Güvenlik önlemleri sürekli olarak gözden geçirilmekte ve
-        iyileştirilmektedir. Sitemizi ziyaretinizle birlikte birtakım kişisel
-        verileriniz çerezler dışında başka tanımlayıcılar aracılığıyla da
-        işlenmektedir. Aşağıda sitemizde gezinme sürecinde işlenen kişisel
-        verileriniz, verilerin işleme amaçları ve kanuni gerekçeleri hakkında
-        detaylı bilgilendirileceksiniz. Sitemizde tüm gezinme süreçleri başlık
-        halinde belirtilmiş olup, belirtilen süreçler içerisinde yer almanız
-        durumunda ilgili başlığın alt kısmını okuyup doğrudan süreçler hakkında
-        bilgi sahibi olabilirsiniz. Çerezler aracılığıyla elde edilen kişisel
-        verilerinize; Kişisel verilerinizin işlenip işlenmediğini öğrenme, (b)
-        Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme, (c)
-        Kişisel verilerinizin işlenme amacını ve bunların amacına uygun
-        kullanılıp kullanılmadığını öğrenme, (ç) Yurt içinde veya yurt dışında
-        kişisel verilerin aktarıldığı üçüncü kişileri bilme, (d) Kişisel
-        verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların
-        düzeltilmesini isteme, (e) Kişisel verilerinizin işlenmesini gerektiren
-        sebeplerin ortadan kalkması halinde kişisel verilerinizin silinmesini
-        veya yok edilmesini isteme, (f) (d) ve (e) bentleri uyarınca yapılan
-        işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini
-        isteme, (g) İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla
-        analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya
-        çıkmasına itiraz etme, (ğ) Kişisel verilerin kanuna aykırı olarak
-        işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep
-        etme. Kişisel verilerinize ilişkin işbu haklarınızı VERİ SORUMLUSUNA
-        BAŞVURU FORMUMUZU doldurmak suretiyle yazılı olarak ya da kayıtlı
-        elektronik posta  adresi, güvenli elektronik imza, mobil imzanızı
-        kullanmak suretiyle tarafımıza iletebilirsiniz. Çerezlerin Kullanımını
-        Nasıl Engellersiniz? Çerezlerin kullanılması, web sitesinin daha iyi
-        hizmet vermesine yardımcı olur, ancak isterseniz çerezlerin kullanımını
+        paylaşılabilir. Zorunlu Çerezler: Web sitesinin kullanımı ve
+        işlevselliği için elzem olan çerezlerdir. Bu çerezler devre dışı
+        bırakıldığında, web sitesinin tamamına veya bir kısmına erişim mümkün
+        olmayabilir. Zorunlu çerezler aracılığıyla işlenen kişisel veriler, ürün
+        ve hizmetlerin sunulabilmesi ve mevzuata uygun şekilde faaliyetlerin
+        yürütülmesi için gereklidir. Bu nedenle, KVKK Madde 5/2e hükümleri
+        gereğince bir hakkın tesis edilmesi, kullanılması veya korunması
+        amacıyla zorunlu veri işleme gerekliliği olduğunda bu çerezler
+        kullanılmaktadır. Web sitemizde kullanılan zorunlu çerezlerin
+        sağlayıcıları ve kullanım amaçları aşağıda belirtilmiştir:
+        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+          <thead>
+            <tr className="color-[#233038] border-[#fff]">
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Servis Sağlayıcısı
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez İsmi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Açıklaması
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Tipi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Süresi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Kategorisi
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _gcl_au
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Google Analytics işlevselliğini desteklemek amacıyla
+                kullanılmaktadır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                3 Ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                www.lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                wp-wpml_current_language
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Geçerli dili saklar. Bu çerez, AJAX işlemleri için Dil
+                filtreleme özelliğini kullanan sitelerde varsayılan olarak
+                etkindir.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Oturum
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .google.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                AEC
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                İnternette gezinme oturumundaki isteklerin başka siteler değil,
+                kullanıcı tarafından yapılmasını sağlar. Bu çerezler, kötü
+                amaçlı sitelerin kullanıcının bilgisi olmadan kullanıcı adına
+                hareket etmesini önler.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                6 ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .google.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                NID
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Kullanıcının son aramaları ve önceki etkileşimlerine dayalı
+                olarak Google'ın kişiselleştirilmiş reklamlar sunması için
+                kullanılır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                6 ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className="color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _ga
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Google Analytics işlevselliğini desteklemek amacıyla
+                kullanılmaktadır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                2 yıl
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _ga_*
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Google Analytics bu çerezi sayfa görüntülemelerini saklamak ve
+                saymak için ayarlar.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                1 yıl
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .doubleclick.net
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                test_cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Bu çerez, web sitesi ziyaretçisinin tarayıcısının çerezleri
+                destekleyip desteklemediğini belirlemek için DoubleClick
+                (Google'a aittir) tarafından ayarlanır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                15 Dakika
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _ga_KXPQT1BLP9
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Google Analytics işlevselliğini desteklemek amacıyla
+                kullanılmaktadır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                24 Ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+
+            <tr className=" color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _ga_R5Y8HBEP1H
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Google Analytics işlevselliğini desteklemek amacıyla
+                kullanılmaktadır.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                24 Ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Zorunlu
+              </th>
+            </tr>
+          </tbody>
+        </table>
+        2.Pazarlama Çerezleri :  Pazarlama amaçlı çerezler ile internet
+        ortamında kullanıcıların çevrim içi hareketleri takip edilerek kişisel
+        ilgi alanlarının saptanıp bu ilgi alanlarına yönelik internet ortamında
+        kullanıcılara reklam gösterilmesi hedeflenen çerezlerdir. Kullanıcıların
+        ilgi alanlarına göre reklam ve kampanyaların sunulması, pazarlama
+        çalışmalarının etkinliğinin ölçülmesi amacıyla kullanılan çerezlerdir.
+        Pazarlama çerezleri aracılığıyla işlenen kişisel veriler, ürün ve
+        hizmetlerin pazarlama süreçlerinin yönetilmesi, pazarlama analiz
+        çalışmalarının yürütülmesi, reklam, kampanya ve promosyon süreçlerinin
+        yönetilmesi amacıyla KVKK Madde 5/1 ve Madde 9/1 hükümleri gereğince
+        açık rızanız alınarak işlenmektedir. Bu veriler, uluslararası çerez
+        sağlayıcılarıyla paylaşılmaktadır, ancak açık bir şekilde belirtmek
+        gerekirse, bu bilgilerin korunması ve gizliliği önemlidir. Web sitemizde
+        kullanılan pazarlama çerezlerinin sağlayıcıları ve kullanım amaçları
+        aşağıda belirtilmiştir:
+        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+          <thead>
+            <tr className="color-[#233038] border-[#fff]">
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Servis Sağlayıcısı
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez İsmi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Açıklaması
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Tipi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Süresi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Kategorisi
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _fbp
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Facebook, bu çerezi, web sitesini ziyaret ettikten sonra
+                Facebook’ta veya Facebook reklamcılığı tarafından desteklenen
+                bir dijital platformda reklam görüntülemek üzere ayarlar.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                3 Ay
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Pazarlama
+              </th>
+            </tr>
+          </tbody>
+        </table>
+        3.Analitik Çerezler İnternet sitelerinde, kullanıcı davranışlarını
+        analiz etmek amacıyla kullanılan çerezlerdir. Bu çerezler, genellikle
+        web sitesinin iyileştirilmesine yardımcı olmak için kullanılır ve bu
+        kapsamda reklamların kullanıcılar üzerindeki etkisinin ölçülmesi de
+        dahil edilebilir. Analitik çerezler, kullanıcıların web sitesini nasıl
+        kullandıkları hakkında bilgi toplamak amacıyla kullanılır. Bu tür
+        çerezler, kullanıcı deneyimini geliştirmeyi amaçlar ve kullanıcıların
+        hangi sayfaları ziyaret ettikleri, hangi sayfalara tıkladıkları,
+        sayfaları nasıl kaydırdıkları ve hangi saatlerde siteyi ziyaret
+        ettikleri gibi bilgileri toplar. Analitik çerezler aracılığıyla işlenen
+        kişisel veriler, pazarlama analiz çalışmalarının yürütülmesi, ziyaretçi
+        kayıtlarının oluşturulması ve takip edilmesi gibi amaçlarla KVKK Madde
+        5/1 ve Madde 9/1 hükümleri gereğince açık rızanız alınarak işlenir ve bu
+        veriler yurt dışındaki çerez sağlayıcılarıyla paylaşılabilir. Web
+        sitemizde kullanılan analitik çerezler, sağlayıcıları ve kullanım
+        amaçları aşağıda belirtilmiştir:
+        <table class="w-[90%] border-collapse my-[15px] text-[12px] overflow-x-scroll">
+          <thead>
+            <tr className="color-[#233038] border-[#fff]">
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Servis Sağlayıcısı
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez İsmi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Açıklaması
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Tipi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Süresi
+              </th>
+              <th className="border p-[2px] text-left leading-normal">
+                Çerez Kategorisi
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="color-[#233038] font-medium">
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                .lagohotel.com
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                _gid
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Ziyaretçinin web sitesini nasıl kullandığına ilişkin
+                istatistiksel veriler oluşturmak için kullanılan benzersiz bir
+                kimlik kaydeder.
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Persistent Cookie
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                1 Gün
+              </th>
+              <th className="border p-[2px] text-left leading-normal  font-medium">
+                Analitik
+              </th>
+            </tr>
+          </tbody>
+        </table>
+        4.Fonksiyonel Çerezler İnternet sitemizdeki sistemlerin düzgün
+        işleyişine yardımcı olmak adına kullanılan çerezlerdir.
+        <ul className="text-[12px] font-normal leading-[21px] my-2 list-disc capsizedText4 pl-5 marker:text-xs marker:text-white ">
+          Web sitemizden yapılan üçüncü taraf yönlendirmeler aşağıda
+          belirtilmiştir:
+          <li> Lago Hotel rezarvasyon linkimiz”  lagohotel.hotelagent.com</li>
+          <li>
+            Lago Hotel için TripAdvisor yorum sayfası
+            https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html
+          </li>
+          <li>
+            Lago Hotel için Holidaycheck yorum sayfası
+            https://www.holidaycheck.de/hi/lago-hotel/2e44d958-7e5e-4423-92b2-84bb298826b0
+          </li>
+          <li>
+            Lago Hotel için TopHotels yorum sayfası
+            https://tophotels.ru/hotel/al24898
+          </li>
+          <li>
+            Lago Hotel Facebook sayfası https://www.facebook.com/lagohotels
+          </li>
+          <li>
+            Lago Hotel İnstagram sayfası https://www.instagram.com/lagohotels/
+          </li>
+          <li>
+            Lago Hotel Youtube sayfası
+            https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ{" "}
+          </li>
+        </ul>
+        Diğer internet sitelerine bağlantılar <br />
+        İnternet sitemizdeki içerikler üçüncü taraflara ait internet sitelerine
+        bağlantılar içerebilir ve bu internet siteleri için, ilgili internet
+        sitelerinin ve tüzel kişiliklerin veri koruma düzenlemeleri geçerli
+        olup, şirketimizin düzenlemeleri geçerli değildir. Bu internet
+        sitelerine ilişkin hiçbir sorumluluk kabul etmiyoruz. Üçüncü kişilere
+        ait internet siteleriyle verilerinizi paylaşmadan önce onların veri
+        koruma düzenlemelerine ilişkin yasal dökümanları okumalısınız. <br />
+        İşlem Güvenliği
+        <br />
+        Kişisel verilerin korunması ve yetkisiz erişimin önlenmesi Cebeci Global
+        Turizm Ticaret Anonim Şirketi bünyesinde bulunan Lago Hotel tarafından
+        son derece ciddi bir şekilde ele alınmaktadır. Misafirlerimizin ve
+        potansiyel misafir  mağduriyet yaşamaması için gerekli teknik ve idari
+        tedbirler titizlikle uygulanmaktadır. Bu tedbirler, yazılımların
+        endüstri standartlarına uygunluğunu sağlamak, üçüncü tarafları dikkatle
+        seçmek ve şirket içinde veri koruma politikasına sıkı bir şekilde uymak
+        gibi unsurları içerir. Güvenlik önlemleri sürekli olarak gözden
+        geçirilmekte ve iyileştirilmektedir.
+        <br /> Sitemizi ziyaretinizle birlikte birtakım kişisel verileriniz
+        çerezler dışında başka tanımlayıcılar aracılığıyla da işlenmektedir.
+        Aşağıda sitemizde gezinme sürecinde işlenen kişisel verileriniz,
+        verilerin işleme amaçları ve kanuni gerekçeleri hakkında detaylı
+        bilgilendirileceksiniz. Sitemizde tüm gezinme süreçleri başlık halinde
+        belirtilmiş olup, belirtilen süreçler içerisinde yer almanız durumunda
+        ilgili başlığın alt kısmını okuyup doğrudan süreçler hakkında bilgi
+        sahibi olabilirsiniz.
+        <br /> Çerezler aracılığıyla elde edilen kişisel verilerinize;
+        <br />
+        Kişisel verilerinizin işlenip işlenmediğini öğrenme, (b) Kişisel
+        verileriniz işlenmişse buna ilişkin bilgi talep etme, (c) Kişisel
+        verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp
+        kullanılmadığını öğrenme, (ç) Yurt içinde veya yurt dışında kişisel
+        verilerin aktarıldığı üçüncü kişileri bilme, (d) Kişisel verilerinizin
+        eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini
+        isteme, (e) Kişisel verilerinizin işlenmesini gerektiren sebeplerin
+        ortadan kalkması halinde kişisel verilerinizin silinmesini veya yok
+        edilmesini isteme, (f) (d) ve (e) bentleri uyarınca yapılan işlemlerin,
+        kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, (g)
+        İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz
+        edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına
+        itiraz etme, (ğ) Kişisel verilerin kanuna aykırı olarak işlenmesi
+        sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme.{" "}
+        <br />
+        Kişisel verilerinize ilişkin işbu haklarınızı VERİ SORUMLUSUNA BAŞVURU
+        FORMUMUZU doldurmak suretiyle yazılı olarak ya da kayıtlı elektronik
+        posta  adresi, güvenli elektronik imza, mobil imzanızı kullanmak
+        suretiyle tarafımıza iletebilirsiniz. <br />
+        Çerezlerin Kullanımını Nasıl Engellersiniz? <br />
+        Çerezlerin kullanılması, web sitesinin daha iyi hizmet vermesine
+        yardımcı olur, ancak isterseniz çerezlerin kullanımını
         engelleyebilirsiniz. Çerezleri engellemek için internet tarayıcınızın
         ayarlarını değiştirmeniz gerekmektedir. Bu ayarlar, kullandığınız cihaza
         ve tarayıcıya göre değişiklik gösterebilir. Aşağıda, çerezlerin
         kullanımını engellemek için farklı internet tarayıcıları üzerinden
-        izlenmesi gereken adımlar hakkında bilgiler bulunmaktadır: Microsoft
-        EdgeMicrosoft Edge tarayıcınızın sağ üst köşesinde bulunan üç nokta
-        simgesine tıklayın ve Ayarlar’a gidin.2.    Temizlenecek Öğeleri Seç
-        seçeneğine tıklayın ve temizlemek istediğiniz bölümleri seçin.3.  
-         Seçiminizi yaparak temizleme işlemine başlayabilirsiniz. Google
-        ChromeBilgisayarınızda Chrome’u açın.2.    Sağ üst köşede bulunan Diğer
-        Ayarlar’ı tıklayın.3.    Gelişmiş’i tıklayın.4.    “Gizlilik ve
-        Güvenlik” altında İçerik Ayarları’nı seçin.5.    Çerezler’e
-        tıklayın.6.    “Tüm çerezler ve site verileri” altında istediğiniz web
-        sitesini bulun.7.    Sitenin yanındaki Kaldır simgesine tıklayın.
-        Mozilla Firefox Firefox Menü düğmesine tıklayın ve Seçenekler’i
-        seçin.2.    Gizlilik ve Güvenlik bölümünü seçin, ardından Geçmiş
-        bölümüne gidin.3.    “Firefox, geçmiş için özel ayarları kullan”
-        seçeneğini işaretleyin.4.    Çerezleri göster… düğmesine tıklayın.5.  
-         Arama: alanına, silmek istediğiniz web sitesinin adını yazın.6.  
-         Silmek istediğiniz çerezleri seçin ve Seçilenleri Sil’e tıklayın.7.  
-         Çerezler penceresini kapatın ve ardından about:preferences sayfasını
-        kapatın. SafariSafari Tercihler’i seçin.2.    Gizlilik öğesini
-        tıklayın.3.    Web Sitesi Verilerini tıklayın.4.    Bir veya daha fazla
-        web sitesi seçin ve sonra Sil veya Tümünü Sil’e tıklayın. Internet
-        ExplorerBilgisayarınızın masaüstünde Internet Explorer simgesine
-        tıklayın.2.    Araçlar düğmesine ve ardından İnternet Seçenekleri’ne
-        tıklayın.3.    Gizlilik sekmesine tıklayın, sonra tüm tanımlama
-        bilgilerini engellemek için Ayarlar altında bulunan kaydırıcıyı yukarıya
-        çekin ve Tamam düğmesine tıklayın.
+        izlenmesi gereken adımlar hakkında bilgiler bulunmaktadır: <br />
+        <ul className="text-[12px] mt-2 font-normal leading-normal list-disc capsizedText4 pl-5 marker:text-xs marker:text-white">
+          <li>
+            {" "}
+            Microsoft Edge
+            <ol className=" list-decimal list-inside">
+              <li>
+                Microsoft Edge tarayıcınızın sağ üst köşesinde bulunan üç nokta
+                simgesine tıklayın ve Ayarlar’a gidin.
+              </li>
+              <li>
+                {" "}
+                Temizlenecek Öğeleri Seç seçeneğine tıklayın ve temizlemek
+                istediğiniz bölümleri seçin.
+              </li>
+              <li>Seçiminizi yaparak temizleme işlemine başlayabilirsiniz.</li>
+            </ol>
+          </li>
+          <li className="my-2">
+            Google Chrome
+            <ol className=" list-decimal list-inside">
+              <li>Bilgisayarınızda Chrome’u açın.</li>
+              <li> Sağ üst köşede bulunan Diğer Ayarlar’ı tıklayın.</li>
+              <li>Gelişmiş’i tıklayın.</li>
+              <li> “Gizlilik ve Güvenlik” altında İçerik Ayarları’nı seçin.</li>
+              <li> Çerezler’e tıklayın.</li>
+              <li>
+                “Tüm çerezler ve site verileri” altında istediğiniz web sitesini
+                bulun.
+              </li>
+              <li>Sitenin yanındaki Kaldır simgesine tıklayın.</li>
+            </ol>
+          </li>
+          <li className="my-2">
+            Mozilla Firefox
+            <ol className=" list-decimal list-inside">
+              <li>Firefox Menü düğmesine tıklayın ve Seçenekler’i seçin.</li>
+              <li>
+                Gizlilik ve Güvenlik bölümünü seçin, ardından Geçmiş bölümüne
+                gidin.
+              </li>
+              <li>
+                {" "}
+                “Firefox, geçmiş için özel ayarları kullan” seçeneğini
+                işaretleyin.
+              </li>
+              <li> Çerezleri göster… düğmesine tıklayın.</li>
+              <li>
+                {" "}
+                Arama: alanına, silmek istediğiniz web sitesinin adını yazın.
+              </li>
+              <li>
+                {" "}
+                Silmek istediğiniz çerezleri seçin ve Seçilenleri Sil’e
+                tıklayın.
+              </li>
+              <li>
+                {" "}
+                Çerezler penceresini kapatın ve ardından about:preferences
+                sayfasını kapatın.
+              </li>
+            </ol>
+          </li>
+          <li className="my-2">
+            Safari
+            <ol className=" list-decimal list-inside">
+              <li>Safari Tercihler’i seçin.</li>
+              <li>Gizlilik öğesini tıklayın.</li>
+              <li> Web Sitesi Verilerini tıklayın.</li>
+              <li>
+                Bir veya daha fazla web sitesi seçin ve sonra Sil veya Tümünü
+                Sil’e tıklayın.
+              </li>
+            </ol>
+          </li>
+          <li className="my-2">
+            Internet Explorer
+            <ol className=" list-decimal list-inside">
+              <li>
+                Bilgisayarınızın masaüstünde Internet Explorer simgesine
+                tıklayın.
+              </li>
+              <li>
+                {" "}
+                Araçlar düğmesine ve ardından İnternet Seçenekleri’ne tıklayın.
+              </li>
+              <li>
+                {" "}
+                Gizlilik sekmesine tıklayın, sonra tüm tanımlama bilgilerini
+                engellemek için Ayarlar altında bulunan kaydırıcıyı yukarıya
+                çekin ve Tamam düğmesine tıklayın.
+              </li>
+            </ol>
+          </li>
+        </ul>
       </p>
     </div>,
 
     // second text
-    <div className="flex flex-col h-full w-full text-start items-start justify-start">
+    <div className="flex flex-col h-full text-start items-start justify-start w-[96%]">
       <p className="text-[13px] font-normal leading-[150%]">
         Web sitemizi ziyaret ettiğinizde, çoğunlukla çerezler şeklinde
         tarayıcınızda bilgi depolanabilir veya alınabilir. Bu bilgiler sizin,
@@ -478,9 +917,9 @@ const CookiePopup = () => {
 
   return (
     isVisible && (
-      <div className="fixed flex z-[9999] bottom-0 bg-[rgba(29,29,27,0.85)] backdrop-blur-[10px] right-0 left-0 w-screen items-center justify-center h-[72px]">
-        <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] py-[25px] gap-[20px]  font-montserrat text-center items-center justify-center text-[#FBFBFB] font-jost">
-          <p className="md:hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center md:min-w-[39%]">
+      <div className="fixed flex z-[9999] bottom-0 bg-[rgba(29,29,27,0.70)] backdrop-blur-[10px] right-0 left-0 w-screen items-center justify-center">
+        <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[80%] xl:max-w-[1270px] py-[25px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-jost">
+          <p className="md:hidden text-[13px] lg:text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center md:min-w-[39%] lg:w-[]">
             <span className="font-medium underline">We Use Cookies:</span> We
             use our own and third-party cookies to <br /> personalize content
             and to analyze web traffic. 
@@ -491,7 +930,7 @@ const CookiePopup = () => {
              about cookies
           </p>
 
-          <div className="md:flex hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center sm:w-[45%] md:min-w-[38%] ml-[2%] ">
+          <div className="md:flex hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center xl:text-start sm:w-[45%] md:min-w-[38%] ml-[2%] ">
             <p>
               <span className="font-medium underline">We Use Cookies:</span> We
               use our own and third-party cookies to personalize content and to
@@ -502,31 +941,30 @@ const CookiePopup = () => {
                about cookies
             </p>
           </div>
-          <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] mr-[2%] sm:w-[55%] ">
+          <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] mr-[2%]  ">
             <button
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer "
+              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer  "
               onClick={handleClose}
             >
               Deny All Cookies
             </button>
             <button
               onClick={handleClose}
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer "
+              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
               Accept All Cookies
             </button>
 
             <button
               onClick={handleModalToggle}
-              className="text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer col-span-2 "
+              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer col-span-2 "
             >
               Manage Cookie Preferences
             </button>
             {isModalOpen && (
-              
-                 <ModalPortal onClose={handleModalToggle}>
-                  <div className="flex flex-col">
-                  <div className="flex w-[80%] lg:w-[90%] items-start justify-between lg:mt-[27px] lg:gap-[23px] mt-[24%] md:mt-[83px] lg:h-[39px] h-[52px]">
+              <ModalPortal onClose={handleModalToggle}>
+                <div className="flex flex-col items-center justify-center gap-[15px] lg:gap-[39px]">
+                  <div className="flex w-[90%] items-start justify-between lg:mt-[27px] lg:gap-[23px] mt-[10%] md:mt-[83px] lg:h-[39px] h-[52px]">
                     <Image
                       src={logosvg}
                       alt="Logo"
@@ -558,30 +996,26 @@ const CookiePopup = () => {
                       <RxCross2 size={24} color="#fff" />
                     </button>
                   </div>
-                  <div className="flex flex-col gap-4 items-center justify-center pb-2 lg:pb-0 md:h-[90%] text-[#FBFBFB] max-w-screen lg:mt-[36px] h-auto">
-                    <div className="flex flex-col w-[90%] lg:w-[100%] justify-center items-center lg:items-start lg:justify-start gap-[14.5px] lg:gap-[15px] ">
-                      <div className="flex flex-row lg:hidden text-start text-[16px] font-bold gap-[10px] w-[85%] lg:mb-[36px] items-center justify-start overflow-x-auto scrollbar-thin ">
-                        {[
-                          "Cookie Policy",
-                          "Cookie Clarification Text",
-                          "What Are Cookies?",
-                        ].map((buttonLabel, index) => (
+                  <div className="flex flex-col gap-4 items-center justify-center pb-2 lg:pb-0 md:h-[100%] text-[#FBFBFB] max-w-screen  h-auto">
+                    <div className="flex flex-col w-[75%] sm:w-[90%] lg:w-[100%] justify-center items-center lg:items-start lg:justify-start gap-[14.5px] lg:gap-[15px] ">
+                      <div className="flex flex-row lg:hidden text-start text-[16px] lg:-ml-[4%] font-bold gap-[10px] w-[90%] lg:w-[100%] lg:mb-[36px] items-center justify-start overflow-x-auto scrollbar-thin">
+                        {orderedButtons.map((button) => (
                           <button
-                            key={index}
-                            onClick={() => setSelectedContent(index)}
+                            key={button.id}
+                            onClick={() => setSelectedContent(button.id)}
                             className={
-                              selectedContent === index
-                                ? "text-white text-[16px] font-jost leading-normal font-medium w-fit cursor-pointer p-[10px] border-b  whitespace-nowrap  items-start justify-start text-start h-[48px] lg:h-[37px] underline]"
-                                : " text-[16px] font-jost leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer p-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit "
+                              selectedContent === button.id
+                                ? "text-white text-[16px] font-jost leading-normal font-medium w-fit cursor-pointer pt-[10px] px-[10px] border-b whitespace-nowrap items-start justify-start text-start h-[48px] lg:h-[37px]"
+                                : "text-[16px] font-jost leading-normal font-medium text-[#A6A6A6] whitespace-nowrap cursor-pointer pt-[10px] px-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit"
                             }
                           >
-                            {buttonLabel}
+                            {button.label}
                           </button>
                         ))}
                       </div>
 
                       {/* Dinamik Başlık */}
-                      <button className="hidden lg:flex text-[16px] font-medium text-[#FBFBFB] font-jost leading-normal border-b border-[#FBFBFB] ml-[8%] lg:ml-[7%]">
+                      <button className="hidden lg:flex text-[16px] font-medium text-[#FBFBFB] font-jost leading-normal border-b border-[#FBFBFB] lg:ml-[7%]">
                         {
                           [
                             "Cookie Policy",
@@ -591,12 +1025,12 @@ const CookiePopup = () => {
                         }
                       </button>
 
-                      <div className="flex flex-col w-[92vw] h-[58vh] md:h-[55vh] lg:h-[376px] lg:w-[85%] ml-[4%] lg:ml-[7%] mt-[2vw] lg:mt-0 items-start justify-start text-start ">
+                      <div className="flex flex-col w-[88%] h-[54vh] md:h-[55vh] lg:h-[376px] lg:w-[85%] ml-[2%] lg:ml-[7%] mt-[2vw] lg:mt-0 items-start justify-start text-start ">
                         {/* Dinamik Başlık */}
                         {/* İçerik */}
                         {contents[selectedContent]}
                       </div>
-                      <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] mb-[20px] lg:mt-[21.5px] lg:mb-6">
+                      <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] mb-[20px] lg:mt-[21.5px] lg:mb-6 font-jost">
                         <button className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px]">
                           Deny All Cookies
                         </button>
@@ -605,19 +1039,18 @@ const CookiePopup = () => {
                         </button>
                       </div>
 
-                      <div className="absolute bottom-[4%] sm:bottom-[8%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] ">
-                        <button className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px]">
+                      <div className="absolute bottom-[14vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-jost">
+                        <button className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px] w-[44vw]">
                           Deny All Cookies
                         </button>
-                        <button className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px]">
+                        <button className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px] w-[44vw]">
                           Accept All Cookies
                         </button>
                       </div>
                     </div>
                   </div>
-                  </div>
-                 </ModalPortal>
-               
+                </div>
+              </ModalPortal>
             )}
           </div>
         </div>

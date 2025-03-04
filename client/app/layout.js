@@ -34,9 +34,8 @@ export default function RootLayout({ children }) {
         <HeaderWhite/>
        
         {children}
-        
-          <CookiePopup/>
-   
+        <BookNow/>
+        <CookiePopup/>
         <Footer />
       </body>
     </html>

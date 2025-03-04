@@ -306,7 +306,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex md:hidden bg-lagoBlack w-screen h-full pt-[29px] pb-[67px] items-center justify-center">
+      <div className="flex md:hidden bg-lagoBlack w-screen h-full pt-[29px] pb-[35px] items-center justify-center">
         <div className="flex flex-col gap-[35px] items-center justify-center w-[92%]">
           <Image
             src={logosvg}
@@ -475,25 +475,19 @@ export default function Footer() {
           </div>
 
           <div className="flex w-full items-center justify-center gap-[10px]">
-            {/* <TripadvisorSvg className="flex" width={69} height={69} /> */}
-            
             <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"><FaTripadvisor className="w-6 h-6" color="#A7ABAD"/></div>
             <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <BSvg className="flex" width={70} height={63}/></div>
             <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center ]"> <FaFacebook className="w-6 h-6" color='#A7ABAD'/></div>
             <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center "> <FaYoutube className="w-6 h-6" color='#A7ABAD'/></div>
             <div className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"><FaInstagram className="w-6 h-6" color='#A7ABAD'/></div>
           </div>
-
-          <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] text-center justify-center items-center gap-[9.13px]">
-            Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
-          </div>
         </div>
       </div>
 
       {/* Alt ince çizgi */}
       <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
-      <div className="md:flex hidden text-center items-center justify-center text-[15px] font-normal leading-[26px]">
-        Powered by DGTLFACE
+      <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px]">
+            Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
       </div>
     </footer>
   );
