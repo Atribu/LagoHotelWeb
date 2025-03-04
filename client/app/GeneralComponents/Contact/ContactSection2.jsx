@@ -16,7 +16,7 @@ const ContactDetails = () => {
         <h2 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[36px] md:leading-[57.6px] lg:capsizedText2">
           @LagoHotels
         </h2>
-        <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 md:gap-6">
+        <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 ">
           {/* Mobil görünüm (lg'den küçük) */}
           <span className="capsizedText4 lg:hidden">
             Titreyengol, Sorgun / Manavgat/ Antalya / TR

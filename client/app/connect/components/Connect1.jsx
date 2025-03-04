@@ -7,20 +7,20 @@ import { FiPhone } from "react-icons/fi";
 // Divider bileşeni: md ve üzeri ekranlarda görünür, responsive negatif margin ile sola kayar.
 const Divider = () => (
   <div className='hidden lg:flex items-center justify-start'>
-    <div className='bg-black w-[1px] h-20 md:-ml-12 lg:-ml-16 xl:-ml-8 2xl:-ml-24 3xl:-ml-30' />
+    <div className='bg-lagoBlack w-[1px] h-[90px] ' />
   </div>
 );
 
 // İletişim sütunu bileşeni: ikon, başlık ve açıklama alanını içerir.
 const ContactColumn = ({ icon, title, children }) => (
-  <div className='flex flex-col items-start gap-[17px] '>
-    <span className='flex flex-row items-center gap-[17px] font-marcellus text-[24px] leading-[32px] text-lagoBlack -ml-[40px]'>
+  <div className='flex items-start justify-start gap-[17px] '>
+    <div className='flex'>
       {icon}
-      {title}
-    </span>
-    <p className='text-left font-jost text-[18px] leading-[26px] tracking-[0.72px] underline underline-offset-4 text-lagoGray'>
-      {children}
-    </p>
+    </div>
+    <div className='flex flex-col items-start justify-start text-start gap-[10px] lg:gap-[17px]'>
+      <h4 className='text-lagoBlack font-marcellus text-[22px] lg:text-[24px] leading-[32px] capitalize font-normal'>{title}</h4>
+      <p className='text-lagoGray font-jost text-[18px] font-normal leading-[26px] tracking-[0.72px] underline'>{children}</p>
+    </div>
   </div>
 );
 
@@ -47,24 +47,24 @@ const Page = () => {
       </div>
       
       {/* İletişim bilgileri: Özel grid yapısı */}
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-center items-center w-[60%] sm:w-[75%] lg: mt-8 gap-y-8 lg:gap-x-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-start items-start w-[87.79%] md:w-[91.4%] lg:w-[76.8%] lg:min-w-[976px] xl:w-[1106px] gap-[30px] md:gap-[50px] xl:gap-[79px] mt-[100px]'>
         
-        <ContactColumn icon={<CiLocationOn />} title="Our Address:">
-       <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>
+        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Our Address:">
+       <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F] whitespace-nowrap'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>
         </ContactColumn>
         
         <Divider />
         
-        <ContactColumn icon={<FiPhone />} title="Phone Number:">
-         <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>
+        <ContactColumn icon={<FiPhone size={22} className='mt-1' color='#1D1D1B'/>} title="Phone Number:">
+         <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>
          +90 242 756 99 00<br />+90 242 524 57 87
          </span>
         </ContactColumn>
         
         <Divider />
         
-        <ContactColumn icon={<CiLocationOn />} title="Email Address:">
-         <span className='text-[18px] font-normal leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> sales@lagohotel.com<br />info@lagohotel.com</span>
+        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Email Address:">
+         <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> sales@lagohotel.com<br />info@lagohotel.com</span>
         </ContactColumn>
       </div>
     </div>

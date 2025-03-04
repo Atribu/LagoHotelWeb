@@ -17,12 +17,12 @@ const RoomsParallaxSection = () => {
       {/* İçerik container */}
       <div className="z-50 w-[87.79%] md:w-[91.4%] xl:w-[76.8%] flex flex-col items-center justify-center gap-[15px] lg:gap-[38px] font-jost text-white text-center lg:text-left">
         {/* Tagline */}
-        <span className="uppercase text-[12px] font-medium leading-[14px] tracking-[0.48px] w-full pt-6">
+        <span className="uppercase text-[12px] font-medium leading-[14px] tracking-[0.48px] w-full pt-6 ml-[12%]">
           The Essential In-Room AmenitieS
         </span>
 
         {/* İçerik kolonlarının bulunduğu wrapper */}
-        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-[40px] px-4 lg:px-0">
+        <div className="w-full flex flex-col lg:flex-row items-center justify-around gap-[40px] px-4 lg:px-0">
           {/* Sol Kolon */}
           <div className="w-full xl:w-[537px] flex flex-col items-center lg:items-start lg:text-start justify-center gap-[18px] lg:gap-[38px] xl:gap-[68px]">
             {/* Başlık */}
