@@ -941,7 +941,7 @@ const CookiePopup = () => {
                about cookies
             </p>
           </div>
-          <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] mr-[2%]  ">
+          <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
             <button
               className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer  "
               onClick={handleClose}

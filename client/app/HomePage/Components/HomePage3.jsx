@@ -115,7 +115,7 @@ export default function HomePage3() {
                 className="
                   h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-full md:w-1/3 md:min-w-[437px] gap-[20px]
                   md:opacity-0 md:translate-x-[-10px] opacity-100 md:group-hover:opacity-100 md:group-hover:translate-x-0
-                  transition-all duration-[800ms] ease-in-out font-jost
+                  transition-all duration-[800ms] ease-in-out font-jost 
                 "
               >
                 <h3 className="text-[28px] lg:text-[30px] leading-[37.5px] tracking-[-0.66px] capitalize font-marcellus font-normal text-left w-auto ml-6 lg:ml-16 ">

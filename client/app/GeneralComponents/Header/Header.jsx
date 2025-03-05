@@ -51,11 +51,11 @@ export default function Header() {
 
   return (
     <div className="flex w-screen">
-      <header className="absolute right-0 -top-[10px] left-0 w-full z-[99] items-center justify-center">
+      <header className="absolute right-0  left-0 w-full z-[99] items-center justify-center">
         <div
           className="
             relative
-            h-[144px]
+            h-[77px]
             flex
             items-center justify-center
             to-transparent
@@ -73,7 +73,7 @@ export default function Header() {
           </div>
 
           {!isMenuOpen && (
-            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[71%] sm:ml-[80%] md:ml-[4%] ">
+            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 " onClick={toggleMenu}>
                 <Hamburger
                   width={30}
@@ -99,7 +99,7 @@ export default function Header() {
           {/* EN bar */}
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[18%] sm:left-[15%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
+          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
             <Link className="w-full items-center justify-center flex" href="/">
               <Image
                 src={logosvg}

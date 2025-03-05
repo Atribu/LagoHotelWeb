@@ -14,6 +14,7 @@ import logosvg from "./Icons/blacklogo.svg"
 import DownArrow from './Icons/DownArrow';
 import { IoMdArrowDropdown } from "react-icons/io";
 import Form from "../Form";
+import { RxCross2 } from "react-icons/rx";
 
 export default function HeaderWhite() {
     // 1 ekran scrolldan sonra headerin gözükmesi için
@@ -102,7 +103,7 @@ export default function HeaderWhite() {
           </div>
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[16%] sm:left-[15%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
            <Link className='w-full items-center justify-center flex' href="/">
            <Image 
               src={logosvg}
@@ -190,7 +191,14 @@ export default function HeaderWhite() {
         {/* Menü kapatma butonu */}
         {/* MENÜ LİNKLERİ */}
         <div className="flex flex-col w-[98%] ml-[2%] h-full items-center justify-around py-[30px] lg:py-[15px] gap-[30px]">
-          <div className="flex w-[90%] lg:w-[90%] items-center justify-between">
+        <button
+              onClick={toggleMenu}
+              className="hidden lg:flex absolute top-8 right-6 text-[40px] p-2 text-stoneLight text-white"
+            >
+              <RxCross2 size={24} color="#000" />
+            </button> 
+
+          <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between mt-[30px]">
             <Image
               src={logosvg}
               alt="Logo"
@@ -200,19 +208,15 @@ export default function HeaderWhite() {
               onClick={toggleMenu}
               className="flex text-[40px] text-stoneLight text-white"
             >
-              <div className="flex bg-black/50 items-center justify-center h-10 w-10 rounded-[4px] ">
-                <div className="flex h-[2px] w-6 rotate-[-45deg] flex-shrink-0 bg-white"></div>
-                <div className="flex absolute h-[2px] w-6 rotate-[45deg] flex-shrink-0 bg-white"></div>
-              </div>
+               <RxCross2 size={24} color="#000" />
             </button>
           </div>
 
 
-        <nav className="items-center md:w-[70%] justify-center ml-2 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto">
+        <nav className="items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto">
         <div className="relative">
-              <Link
+              <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
-                href="/rooms"
                 className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
               >
                 ACCOMODATION
@@ -221,7 +225,7 @@ export default function HeaderWhite() {
                     isRoomsOpen ? "rotate-180" : "rotate-0"
                   }`}
                 />
-              </Link>
+              </div>
 
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
@@ -231,20 +235,26 @@ export default function HeaderWhite() {
                 }`}
               >
                 <div className="mt-2 space-y-2 pl-4 font-jost">
-                  <Link
+                <Link
                     href="/rooms/"
+                    className="block text-[14px]  leading-[29.639px] uppercase"
+                  >
+                    All Rooms
+                  </Link>
+                  <Link
+                    href="/rooms/subroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Superior Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Family Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Swim-up Room
@@ -256,7 +266,7 @@ export default function HeaderWhite() {
                     Family Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/"
+                    href="/rooms/subroom"
                     className="block text-[14px] leading-[29.639px] uppercase"
                   >
                     Duplex Family Room

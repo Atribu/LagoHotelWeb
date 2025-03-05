@@ -151,7 +151,7 @@ export default function Footer() {
       </div>
 
       {/* tablet */}
-      <div className="hidden md:flex flex-col lg:hidden w-screen bg-lagoBlack h-auto py-[47px] gap-[50px] items-center justify-center">
+      <div className="hidden md:flex flex-col lg:hidden w-full bg-lagoBlack h-auto py-[47px] gap-[50px] items-center justify-center">
         <div className="flex w-[90%] gap-[97px] items-center justify-start ml-[10%]">
           <Image
             src={logosvg}
@@ -161,7 +161,7 @@ export default function Footer() {
             className="object-contain items-center justify-center"
           />
 
-          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[14px] font-normal leading-[24px] w-[66%] ml-[2%]">
+          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[12px] font-normal leading-[24px] w-[66%] ml-[2%]">
             <div className="flex gap-[15px] items-center justify-center">
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
@@ -316,7 +316,7 @@ export default function Footer() {
             className="object-contain items-center justify-center"
           />
 
-          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[14px] font-normal leading-[24px] w-full ml-[2%]">
+          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[12px] font-normal leading-[24px] w-full ">
             <div className="flex gap-[15px] items-center justify-center">
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
@@ -393,14 +393,20 @@ export default function Footer() {
               }`}
             >
               <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
-                <Link
+              <Link
                   href="/rooms/"
+                  className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
+                >
+                  All Rooms
+                </Link>
+                <Link
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Superior Room
                 </Link>
                 <Link
-                  href="/rooms/"
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Family Room
@@ -418,7 +424,7 @@ export default function Footer() {
                   Family Swim-up Room
                 </Link>
                 <Link
-                  href="/rooms/"
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Duplex Family Room

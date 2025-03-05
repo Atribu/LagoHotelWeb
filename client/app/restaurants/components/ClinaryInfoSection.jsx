@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState, useRef } from "react";
 import defaultImg1 from "../images/art1.webp";
 import defaultImg2 from "../images/art2.webp";
 import Image from "next/image";
@@ -11,8 +12,30 @@ const ClinaryInfoSection = ({
   header,
   texts = [],
 }) => {
+
+  const [animate, setAnimate] = useState(false);
+  const sectionRef = useRef(null); // Bölümü takip etmek için referans
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(true); // Sayfa bölüme geldiğinde animasyonu tetikle
+          observer.disconnect(); // **Bir kez çalıştıktan sonra izlemeyi bırak**
+        }
+      },
+      { threshold: 0.5 } // %50 görünür olduğunda tetikle
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect(); // Component kaldırılırsa temizle
+  }, []);
+
   return (
-    <div className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] h-auto">
+    <div   ref={sectionRef} className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] h-auto">
       <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-center justify-center gap-[30px] md:gap-[36.83px] lg:gap-[52px] h-full">
         
         {/* Metin Alanı */}
@@ -62,14 +85,18 @@ const ClinaryInfoSection = ({
             alt="art"
             width={img2.width}
             height={img2.height}
-            className="w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"
+            className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] transition-all duration-1000 ease-in-out ${
+              animate ? "translate-y-0 opacity-100" : "-translate-y-5 opacity-0"
+            }`}
           />
           <Image
             src={img1}
             alt="art"
             width={img1.width}
             height={img1.height}
-            className="absolute top-[80px] left-[126px] md:top-[208px] md:left-[135px] lg:top-[105px] lg:left-[215px] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"
+            className={`absolute top-[80px] left-[126px] md:top-[208px] md:left-[135px] lg:top-[105px] lg:left-[215px] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] transition-all duration-1000 ease-in-out ${
+              animate ? "-translate-y-0 opacity-100" : "translate-y-5 opacity-0"
+            }`}
           />
         </div>
 
