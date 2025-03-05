@@ -76,7 +76,7 @@ const OtherOptions = () => {
           <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost">
             CHOOSE THE BEST ROOM FOR YOU
           </span>
-          <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
+          <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
             Other options
           </h2>
         </div>
@@ -89,7 +89,7 @@ const OtherOptions = () => {
                 key={room.id}
                 className="flex-[0_0_85%] sm:flex-[0_0_75%] md:max-h-auto md:flex-[0_0_50%] lg:flex-[0_0_31%] xl:flex-[0_0_31.5%] min-w-0 mr-[2.5%]"
               >
-                <div className="flex flex-col w-full items-start text-start justify-center gap-[20px] font-jost text-black ">
+                <div className="flex flex-col w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
                   <Image
                     src={room.img}
                     alt={room.title}
@@ -99,7 +99,7 @@ const OtherOptions = () => {
                   <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
                     {room.description}
                   </span>
-                  <h3 className="text-[28px] lg:text-[30px] leading-[46.0059px] font-normal font-marcellus capsizedText3">
+                  <h3 className="text-[24px] lg:text-[30px] leading-[120%] lg:leading-[46.0059px] font-normal font-marcellus lg:capsizedText3">
                     {room.title}
                   </h3>
                   <div className="flex items-center justify-start text-center gap-[20px]">

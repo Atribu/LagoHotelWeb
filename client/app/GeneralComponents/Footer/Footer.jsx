@@ -103,7 +103,7 @@ export default function Footer() {
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
                   Email: info@lagohotels.com
                 </p>
-                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
+                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   Address: Titreyengöl
                   <br />
                   Mevkii Sorgun Manavgat/
@@ -151,7 +151,7 @@ export default function Footer() {
       </div>
 
       {/* tablet */}
-      <div className="hidden md:flex flex-col lg:hidden w-screen bg-lagoBlack h-auto py-[47px] gap-[50px] items-center justify-center">
+      <div className="hidden md:flex flex-col lg:hidden w-full bg-lagoBlack h-auto py-[47px] gap-[50px] items-center justify-center">
         <div className="flex w-[90%] gap-[97px] items-center justify-start ml-[10%]">
           <Image
             src={logosvg}
@@ -161,7 +161,7 @@ export default function Footer() {
             className="object-contain items-center justify-center"
           />
 
-          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[14px] font-normal leading-[24px] w-[66%] ml-[2%]">
+          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[12px] font-normal leading-[24px] w-[66%] ml-[2%]">
             <div className="flex gap-[15px] items-center justify-center">
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
@@ -316,7 +316,7 @@ export default function Footer() {
             className="object-contain items-center justify-center"
           />
 
-          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[14px] font-normal leading-[24px] w-full ml-[2%]">
+          <div className="grid grid-cols-2 gap-[25px] items-start justify-start font-jost text-[12px] font-normal leading-[24px] w-full ">
             <div className="flex gap-[15px] items-center justify-center">
               <Phone className="flex" width={25} height={25} color="#A6A6A6" />
               <div className="flex flex-col gap-[10px] items-start justify-start">
@@ -355,7 +355,7 @@ export default function Footer() {
                   Adress
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
+                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px] whitespace-nowrap">
                   Manavgat/Antalya, TR
                 </p>
               </div>
@@ -393,14 +393,20 @@ export default function Footer() {
               }`}
             >
               <div className="mt-2 space-y-2 pl-4 border-l border-white/30 font-jost">
-                <Link
+              <Link
                   href="/rooms/"
+                  className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
+                >
+                  All Rooms
+                </Link>
+                <Link
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Superior Room
                 </Link>
                 <Link
-                  href="/rooms/"
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Family Room
@@ -418,7 +424,7 @@ export default function Footer() {
                   Family Swim-up Room
                 </Link>
                 <Link
-                  href="/rooms/"
+                  href="/rooms/subroom"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                   Duplex Family Room
@@ -486,7 +492,7 @@ export default function Footer() {
 
       {/* Alt ince çizgi */}
       <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
-      <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px]">
+      <div className="flex w-full text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
             Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
       </div>
     </footer>

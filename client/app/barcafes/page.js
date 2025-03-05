@@ -96,7 +96,7 @@ const otherOptions2 = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
       <RestaurantMainBanner img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Bars and Cafés" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={cafebar1} img2={cafebar2} span="Perfect Fine Dine Experiences" header="Exceptional Bars and Cafes at LAGO" texts={clinaryTexts}/>
       <BackgroundSection span="A UNIQUE FEAST OF TASTE" header="Cool Down and Relax" texts={backgroundTexts} link="/" img={backgroundImg2}/>

@@ -89,11 +89,11 @@ const GallerySection = () => {
   }, []);
 
   return (
-    <div className="flex justify-center md:justify-end items-center w-[90%] md:w-[60%]">
+    <div className="flex justify-center md:justify-end items-center w-[90%] md:w-[60%] h-full">
       <div
         style={{ scrollBehavior: "smooth" }}
         ref={scrollRef}
-        className="w-full h-[30vh] sm:h-[40vh] justify-center items-center md:min-h-[322px] max-w-[789px] overflow-hidden custom-scroll scroll-smooth md:mr-[4%]"
+        className="w-full h-[30vh] sm:h-[40vh] justify-center items-center md:h-[322px] max-w-[789px] overflow-hidden custom-scroll scroll-smooth md:mr-[4%]"
       >
         <div className="flex flex-col">
           {[...Array(100)].flatMap((_, loopIndex) =>
@@ -119,13 +119,13 @@ const ContactSection2 = () => {
   return (
     <div className="flex w-screen max-w-[1440px] mb-[100px] justify-start">
       {/* Desktop görünüm: İki bölüm arasında ekstra boşluk */}
-      <div className="hidden md:flex justify-center items-center gap-8 border-[1px] border-lagoBlack xl:min-w-[90vw] 2xl:min-w-[1401px] h-[34vh] min-h-[422px]">
+      <div className="hidden md:flex justify-center items-center gap-8 border-[1px] border-lagoBlack xl:min-w-[90vw] 2xl:min-w-[1401px]  h-[34vh] min-h-[422px]">
         <ContactDetails />
         <GallerySection />
       </div>
       {/* Mobil görünüm: Arkaplan resmi kaldırıldı */}
-      <div className="flex flex-col w-full md:hidden justify-center items-center h-[65vh] bg-white">
-        <div className="flex flex-col w-[90%] sm:w-[85%] bg-white gap-[33px] min-h-content h-[55vh] py-[30px] items-center justify-center text-center">
+      <div className="flex flex-col w-full md:hidden justify-center items-center h-[65vh] bg-[#fbfbfb]">
+        <div className="flex flex-col w-[90%] sm:w-[85%] bg-[#fbfbfb] gap-[33px] min-h-content h-[55vh] py-[30px] items-center justify-center text-center">
           <ContactDetails />
           <GallerySection />
         </div>

@@ -62,10 +62,10 @@ function Slide({ slide, marginClass }) {
         height={540}
         className="lg:w-full lg:h-full md:w-[270px] md:h-[405px] h-[266px] w-[177.3px] object-cover"
       />
-      <div className="absolute inset-0 flex items-center justify-center pb-4">
+      
         <a
           href={slide.link}
-          className="
+          className=" absolute inset-0 flex items-center justify-center pb-4
             text-white
             text-[20px] md:text-[30px] lg:text-[40px] leading-[9.852px] -tracking-[0.44px] font-normal md:leading-[15px] lg:leading-[20px] md:-tracking-[0.66px] lg:-tracking-[0.88px]
             font-marcellus transition
@@ -73,7 +73,7 @@ function Slide({ slide, marginClass }) {
         >
           {slide.title}
         </a>
-      </div>
+     
     </div>
   );
 }
@@ -123,7 +123,7 @@ export default function Slider1({ slides }) {
       <div ref={emblaRef} className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:ml-[11.6%]">
         <div className="flex md:h-[405px] lg:h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
-            <Slide key={index} slide={slide} marginClass="mr-4" />
+            <Slide key={index} slide={slide} marginClass="mr-[8.37px] md:mr-[12.75px] lg:mr-[17px]" />
           ))}
         </div>
       </div>

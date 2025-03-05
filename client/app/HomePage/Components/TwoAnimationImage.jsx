@@ -30,7 +30,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
   return (
     <div
       ref={sectionRef} // Ref'i div'e bağladık
-      className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[150px] mb-[50px]"
+      className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[100px] lg:mt-[150px] mb-[50px]"
     >
       <div className="flex flex-col md:flex-row-reverse w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
         <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
@@ -56,7 +56,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
           </p>
           <Link
             href="/gallery"
-            className="flex py-[16px] px-[32px] items-center justify-center text-center text-[14px] lg:text-[16px] h-[38px] md:h-[37.88px] lg:h-[41px] text-lagoBrown uppercase md:leading-[29.878px] leading-[30px] font-medium border border-lagoBrown shadow-buttonCustom"
+            className="flex py-[16px] px-[32px] items-center justify-center text-center text-[14px] lg:text-[16px] h-[38px] md:h-[37.88px] lg:h-[41px] text-lagoBrown uppercase md:leading-[29.878px] leading-[30px] font-medium border border-lagoBrown shadow-buttonCustom hover:bg-lagoBrown hover:underline hover:text-white"
           >
             Go to gallery
           </Link>
@@ -69,7 +69,7 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
             width={300}
             height={450}
             className={`w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] absolute bottom-[100px] right-[140px] md:bottom-[110px] md:right-[104px] lg:bottom-[105px] lg:right-[215px] z-10 transition-all duration-1000 ease-in-out ${
-              animate ? "translate-y-4 opacity-100" : "-translate-y-4 opacity-0"
+              animate ? "-translate-y-3 opacity-100" : "-translate-y-8 opacity-0"
             }`}
           />
           <Image

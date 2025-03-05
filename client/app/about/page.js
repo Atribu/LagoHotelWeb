@@ -22,10 +22,10 @@ const texts3=["hotel LAgo","a special vacation","Our hotel is 50 meters from the
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
       <MainBanner2 span="HAPPY MOMENTS UNFORGETTABLE" header="About Our Hotel" img={mainImg}/>
       <SpaTypesInfoSection isImageLeft={false} span="hotel LAgo " header="The Exact Place" text="We provide you with a pleasurable vacation experience that will make you feel at home in our rooms, created in accordance with various tastes and demands by combining aesthetics and comfort with their eye-catching designs and practical structures! We also have heated indoor pools, one for adults and one for children. Thanks to hotel’s unique location, most of our rooms have sea, pool and some lake, river and forest views. " link="/" showLink={true} img={exactImg}/>
-      <KidsMomentCarousel header=""  images={images}/>
+      <KidsMomentCarousel showheader={false} header=""  images={images}/>
       <MissionVisionSection texts={texts} texts2={texts2} texts3={texts3} leftImg={leftImg} rightImg={rightImg} showLink={false}/>
       <EmblaCarousel options={{ loop: true }}/>
       <ContactSection2/>

@@ -51,25 +51,25 @@ export default function HomePage4() {
   ]
 
   return (
-    <section className="max-w-[1440px] mx-auto px-4 w-screen items-center justify-center">
+    <section className="max-w-[1440px] mx-auto px-4 w-screen items-center justify-center my-[25px]">
       {/* Üst küçük başlık */}
-      <div className="flex flex-col 2xl:w-[1106px] w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] justify-center gap-[15px] text-lagoBlack">
+      <div className="flex flex-col 2xl:w-[1106px] w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-start ml-[6.1%] md:ml-[4.3%] xl:ml-[11.6%] justify-center gap-[15px] md:gap-[25px] lg:gap-[35px] text-lagoBlack">
       <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost">
         Discover the services we offer
       </p>
 
       {/* Büyük başlık */}
       <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2">
-        All the Essentials for a <br className="hidden md:block" />
+        All the Essentials for a
         Comfortable Stay
       </h2>
 
       {/* İkon + metin grid (2 satır x 3 sütun) */}
-      <div className="flex flex-col items-start md:grid gap-[15px] md:gap-20 lg:gap-[29px] md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 w-full">
+      <div className="flex flex-col items-start md:grid gap-[15px] md:gap-[20px] lg:gap-[29px] md:grid-cols-2 lg:grid-cols-3 w-full md:mt-[15px] lg:mt-[10px]">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex gap-[15px] md:gap-[10px] lg:gap-[17px] items-center justify-center lg:mb-[26px]"
+            className="flex gap-[15px] md:gap-[10px] lg:gap-[17px] items-center justify-center md:w-[92%] lg:w-[100%] xl:w-[98%]"
           >
             {/* İkon */}
             <div className="shrink-0 items-center justify-center">
@@ -89,7 +89,7 @@ export default function HomePage4() {
       </div>
 
       {/* Alt kısım: Discover More link/button */}
-      <div className="hidden lg:flex mt-[19px]">
+      <div className="hidden lg:flex ">
         <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[18px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
         </button>

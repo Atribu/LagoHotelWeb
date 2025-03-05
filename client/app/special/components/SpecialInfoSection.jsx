@@ -7,30 +7,30 @@ import Image from "next/image";
 
 const SpecialInfoSection = () => {
   return (
-    <div className="flex w-screen h-auto lg:h-[555px] items-center justify-center relative max-w-[1444px]">
-      <div className="flex flex-col md:flex-row w-[80%] lg:w-[76.8%] items-center justify-between h-full gap-[130px] md:gap-[4%]">
+    <div className="flex w-screen h-auto lg:h-[555px] items-center justify-center relative max-w-[1440px]">
+      <div className="flex flex-col md:flex-row w-[89.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-between h-full gap-[30px] lg:gap-[130px] md:gap-[4%]">
         <div className="flex flex-col w-[92%] md:w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
           Perfect Fine Dine Experiences
           </span>
-          <h2 className="text-[48.089px] font-normal font-marcellus leading-[57.707px]">
+          <h2 className="text-[28px] md:text-[32px] lg:text-[48.089px] font-normal font-marcellus leading-[120%] lg:leading-[57.707px]">
           Historical 
           Treasures Nearby
           </h2>
-          <p className="text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
+          <p className="text-[14px] lg:text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
           Lago, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet where delicious dishes feature uniqueness from Turkish cuisine as well as fresh flavors reflecting the spirit of the Mediterranean
           </p>
             
         </div>
 
         <div className="flex w-[80%] md:w-[49%] items-end justify-end relative h-full">
-            <Image src={img1} alt="art" width={300} height={450} className="z-[99]"/>
-            <Image src={img2} alt="art" width={300} height={450} className="absolute bottom-[105px] right-[215px] z-20"/>
+            <Image src={img1} alt="art" width={300} height={450} className="z-[99] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"/>
+            <Image src={img2} alt="art" width={300} height={450} className="absolute bottom-[105px] right-[215px] z-20 w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px]"/>
         </div>
 
       </div>
-      <Image src={katman1} width={katman1.width} height={katman1.height} className="absolute left-0 bottom-0" alt="sutun"/>
-      <Image src={katman2} width={katman2.width} height={katman2.height} className="absolute left-28 -bottom-8" alt="sutun2"/>
+      <Image src={katman1} width={katman1.width} height={katman1.height} className="hidden lg:flex absolute left-0 bottom-0" alt="sutun"/>
+      <Image src={katman2} width={katman2.width} height={katman2.height} className="hidden lg:flex absolute left-28 -bottom-8" alt="sutun2"/>
     </div>
   );
 };

@@ -62,16 +62,16 @@ const RoomFeatures = () => {
               Family-friendly Amenities
             </h3>
 
-            <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[15px] w-full items-center justify-start">
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+            <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <PoolSvg className="flex" width={65} height={60} />
                 <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Independent Pool
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <div className="flex py-[10px] px-[6px]">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+                <div className="flex py-[10px] px-[3px] lg:px-[6px]">
                   <SinglebedSvg className="flex" width={32} height={35} />
                   <SinglebedSvg
                     className="flex -ml-[12px]"
@@ -79,12 +79,12 @@ const RoomFeatures = () => {
                     height={35}
                   />
                 </div>
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
                   2 Single Beds
                 </p>
               </div>
 
-              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
+              <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <BabycribSvg className="flex px-[11px] py-[9px]" width={38} height={38} />
                 <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
                   Extra Baby Crib
@@ -126,13 +126,13 @@ const RoomFeatures = () => {
         {/* resevation */}
         <div className="flex flex-col w-[95%] md:w-[32.5%] gap-[35px] pb-[16px] font-jost">
         <div className="flex flex-col w-full py-[50px] lg:pl-[50px] items-center lg:items-start justify-center text-center gap-[20px] bg-white shadow-divCustom lg:min-w-[330px]">
-            <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-start text-center lg:text-start">
+            <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-center lg:items-start text-center lg:text-start">
             <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
             <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">Pick up the dates for your stay</p>
             </div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
-            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] md:w-[80%]  lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check in</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] md:w-[80%]  lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Check out</div>
+            <div className="flex items-center justify-start p-[18px] h-[47px] w-[90%] md:w-[80%]  lg:w-[250px] border border-lagoBlack text-[16px] text-lagoGray font-normal leading-[140%]">Adults / Kids</div>
             <button className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">

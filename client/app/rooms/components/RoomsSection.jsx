@@ -29,7 +29,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id}) => {
         </div>
 
         {/* text section */}
-        <div className="flex flex-col w-full lg:w-[26.5%] items-start justify-center h-full text-start font-jost gap-[20px] lg:gap-[25px] ">
+        <div className="flex flex-col w-full lg:w-[26.5%] items-start justify-center h-full text-start font-jost gap-[15px] lg:gap-[25px] ">
           <h3 className="text-lagoBlack font-marcellus text-[25px] lg:text-[30px] font-normal leading-[125%] -tracking-[0.66px] capitalize">
            {header}
           </h3>
@@ -51,7 +51,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id}) => {
               </p>
             </div>
           </div>
-          <Link href={link} className="flex border border-lagoBrown items-center h-[41px] justify-center py-[12px] px-[32px] shadow-buttonCustom bg-transparent text-[14px] lg:text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
+          <Link href={link} className="flex border bg-[#fbfbfb] border-lagoBrown items-center h-[41px] justify-center py-[12px] px-[32px] shadow-buttonCustom bg-transparent text-[14px] lg:text-[16px] text-lagoBrown uppercase leading-[30px] font-medium hover:bg-black hover:text-white hover:underline">
             EXPLORE
           </Link>
         </div>

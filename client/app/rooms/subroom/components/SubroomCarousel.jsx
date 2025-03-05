@@ -9,7 +9,7 @@ import img4 from "../images/ImagePlaceholder4.webp";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 const SubroomCarousel = () => {
-  const [emblaRef] = useEmblaCarousel({ align: "center",  loop: true, });
+  const [emblaRef] = useEmblaCarousel({ align: "start",  loop: true, });
   const images = [img1, img2, img3, img4, img1, img2, img3, img4];
 
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -49,7 +49,7 @@ const SubroomCarousel = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="flex-[0_0_calc(100vw/3.9)] 2xl:flex-[0_0_calc(100vw/4.9)] 2xl:h-[28vh] min-w-[372px] h-[38vh]  bg-gray-300 overflow-hidden cursor-pointer"
+              className="flex-[0_0_calc(100vw/1.8)] lg:flex-[0_0_calc(100vw/3.9)] 2xl:flex-[0_0_calc(100vw/4.9)] 2xl:h-[28vh] lg::min-w-[372px] h-[24vh] sm:h-[30vh] lg:h-[38vh]  bg-gray-300 overflow-hidden cursor-pointer"
               onClick={() => openImage(index)}
             >
               <Image

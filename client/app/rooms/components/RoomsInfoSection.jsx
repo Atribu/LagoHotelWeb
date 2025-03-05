@@ -9,7 +9,7 @@ const RoomsInfoSection = () => {
         <span className="text-lagoGray text-[12px] uppercase tracking-[0.48px] font-medium leading-[14px] items-stretch">
           Comfort stay for you and your famıly
         </span>
-        <h2 className="text-black text-[28px] md:text-[32px] lg:text-[36px] font-marcellus lg:w-[75%]">
+        <h2 className="text-black text-[28px] md:text-[32px] lg:text-[36px] font-marcellus lg:w-[75%] leading-[120%] lg:leading-[135%]">
           Explore our refined accommodation options and find the perfect space
           for your stay.
         </h2>
@@ -28,7 +28,7 @@ const RoomsInfoSection = () => {
           <div className="flex h-[16px] md:h-[14px] w-[1px]  bg-lagoGray"></div>
           <div className="flex gap-[22px] whitespace-nowrap items-center justify-center">
             <ClockSvg className="flex" width={14} height={14} />
-            <p className="text-lagoGray  text-[12px] lg:text-[14px] ">CHECK-IN: 14:00</p>
+            <p className="text-lagoGray  text-[12px] lg:text-[14px] ">CHECK-OUT: 12:00</p>
           </div>
         </div>
       </div>

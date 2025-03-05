@@ -51,11 +51,11 @@ export default function Header() {
 
   return (
     <div className="flex w-screen">
-      <header className="absolute right-0 -top-[10px] left-0 w-full z-[99] items-center justify-center">
+      <header className="absolute right-0  left-0 w-full z-[99] items-center justify-center">
         <div
           className="
             relative
-            h-[144px]
+            h-[77px]
             flex
             items-center justify-center
             to-transparent
@@ -73,7 +73,7 @@ export default function Header() {
           </div>
 
           {!isMenuOpen && (
-            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[71%] sm:ml-[80%] md:ml-[4%] ">
+            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 " onClick={toggleMenu}>
                 <Hamburger
                   width={30}
@@ -99,7 +99,7 @@ export default function Header() {
           {/* EN bar */}
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[18%] sm:left-[15%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
+          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
             <Link className="w-full items-center justify-center flex" href="/">
               <Image
                 src={logosvg}
@@ -216,7 +216,7 @@ export default function Header() {
             </button>
           </div>
 
-          <nav className=" items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
+          <nav className=" items-center md:w-[90%] justify-center ml-[16%] mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
             <div className="relative">
               <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
@@ -313,6 +313,12 @@ export default function Header() {
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               SPA & WELLNESS
+            </Link>
+            <Link
+              href="/special"
+              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+            >
+              SPECIAL
             </Link>
             <Link
               href="/gallery"

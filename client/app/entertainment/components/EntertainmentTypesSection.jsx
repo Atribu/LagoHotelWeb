@@ -87,10 +87,10 @@ const EntertainmentTypesSection = () => {
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             Entertainment & Actıvıtıes
           </span>
-          <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal font-marcellus leading-normal lg:leading-[57.6px] capsizedText2">
+          <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal font-marcellus leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
             Events are held daily, Except Sundays
           </h3>
-          <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] capsizedText4">
+          <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] lg:capsizedText4 w-[80%]">
             LAGO, which offers a variety of activities like disco, bocce, beach volleyball, table tennis, cinema, beach activities, water sports, and night entertainment, is ready to welcome you with sporting
           </p>
         </div>
@@ -105,7 +105,7 @@ const EntertainmentTypesSection = () => {
                   <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
                     {activity.category}
                   </span>
-                  <h4 className="text-[28px] lg:text-[30px] font-normal leading-[40px] capitalize font-marcellus capsizedText3">
+                  <h4 className="text-[28px] lg:text-[30px] font-normal leading-[120%] capitalize font-marcellus lg:capsizedText3">
                     {activity.title}
                   </h4>
                   <p className="text-[14px] font-normal leading-[21px] capsizedText4">
