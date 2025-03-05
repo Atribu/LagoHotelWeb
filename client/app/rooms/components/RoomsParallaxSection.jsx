@@ -17,7 +17,7 @@ const RoomsParallaxSection = () => {
       {/* İçerik container */}
       <div className="z-50 w-[87.79%] md:w-[91.4%] xl:w-[76.8%] flex flex-col items-center justify-center gap-[15px] lg:gap-[38px] font-jost text-white text-center lg:text-left">
         {/* Tagline */}
-        <span className="uppercase text-[12px] font-medium leading-[14px] tracking-[0.48px] w-full pt-6 ml-[12%]">
+        <span className="uppercase text-[12px] font-medium leading-[14px] tracking-[0.48px] w-full pt-6 ml-[1.5%]">
           The Essential In-Room AmenitieS
         </span>
 
@@ -26,7 +26,7 @@ const RoomsParallaxSection = () => {
           {/* Sol Kolon */}
           <div className="w-full xl:w-[537px] flex flex-col items-center lg:items-start lg:text-start justify-center gap-[18px] lg:gap-[38px] xl:gap-[68px]">
             {/* Başlık */}
-            <h3 className="font-marcellus font-normal text-[28px] lg:text-[36px] leading-[49px] md:leading-[42px] -tracking-[0.792px]">
+            <h3 className="font-marcellus font-normal text-[28px] lg:text-[36px] leading-[120%] lg:leading-[49px] md:leading-[42px] -tracking-[0.792px]">
               Our rooms have all the essentials you need for your stay.
             </h3>
 
@@ -38,7 +38,7 @@ const RoomsParallaxSection = () => {
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px] ">
                   Mini Bar
                 </h5>
-                <p className="text-[12px] lg:text-[14px] md:text-[14px] font-normal leading-[21px] w-full md:w-[70%] lg:w-full">
+                <p className="text-[12px] lg:text-[14px] md:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
                   Daily replenishments include water, soft drinks, beer, milk with fruit, chocolate, and a cracker.
                 </p>
               </div>
@@ -48,7 +48,7 @@ const RoomsParallaxSection = () => {
                 <h5 className="lg:text-[18px] text-[16px] font-normal leading-normal lg:leading-[30px]">
                   Cosmetics
                 </h5>
-                <p className="text-[12px] lg:text-[14px] font-normal leading-[21px] w-full md:w-[70%] lg:w-full">
+                <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
                   Bathroom essentials include shampoo, conditioner, shower gel, soap, loofah, hairdryer, and body cream.
                 </p>
               </div>
@@ -70,7 +70,7 @@ const RoomsParallaxSection = () => {
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px]">
                   Room Access
                 </h5>
-                <p className="text-[12px] lg:text-[14px] font-normal leading-[21px] w-full md:w-[70%] lg:w-full">
+                <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
                   All door locks are securely operated using a convenient chip bracelet key system for easy access.
                 </p>
               </div>
@@ -80,7 +80,7 @@ const RoomsParallaxSection = () => {
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px]">
                   Wifi & LedTV
                 </h5>
-                <p className="text-[12px] lg:text-[14px] font-normal leading-[21px] w-full md:w-[70%] lg:w-full">
+                <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
                   LED TV with international and national satellite channels, radio, and 24-hour WiFi access.
                 </p>
               </div>

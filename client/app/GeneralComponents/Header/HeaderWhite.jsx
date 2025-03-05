@@ -298,6 +298,12 @@ export default function HeaderWhite() {
           <Link href="/spawellness" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             SPA & WELLNESS
           </Link>
+          <Link
+              href="/special"
+              className="block text-lagoBlack  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
+            >
+              SPECIAL
+            </Link>
           <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             GALLERY
           </Link>

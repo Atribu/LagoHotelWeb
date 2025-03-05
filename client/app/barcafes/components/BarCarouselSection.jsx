@@ -19,7 +19,7 @@ const images = [hungry, hungry2, hungry3, hungry4, hungry5, hungry6, hungry7, hu
 
 // Single slide component
 const Slide = ({ slide, index }) => (
-  <div className="flex-[0_0_100%] md:flex-[0_0_79%] lg:flex-[0_0_85%] xl:flex-[0_0_auto] min-w-0 mr-[1.8%]">
+  <div className="flex-[0_0_90%] md:flex-[0_0_79%] lg:flex-[0_0_85%] xl:flex-[0_0_auto] min-w-0 mr-[1.8%]">
     <Image
       src={slide.src}
       alt={`Slide ${index + 1}`}
@@ -60,19 +60,19 @@ const BarCarouselSection = () => {
     <div className="flex flex-col md:flex-row w-screen h-auto items-center justify-center md:justify-between gap-[30px] lg:gap-0">
       {/* Text Column */}
     <div className="flex items-end justify-end w-[87.79%] md:ml-[4.3%] lg:ml-0  md:w-[46%] lg:w-[49%]">
-    <div className="flex flex-col items-start justify-center max-w-[520px] gap-[35px] text-black font-jost">
+    <div className="flex flex-col items-start justify-center max-w-[520px] gap-[15px] md:gap-[25px] lg:gap-[35px] text-black font-jost">
         <span className="text-[12px] font-medium leading-normal uppercase tracking-[0.48px]">
           Experience traditional culture
         </span>
-        <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[57.6px] capsizedText2">
+        <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
           Hungry for more?
         </h2>
-        <p className="text-[14px] font-normal leading-normal md:w-[92%] capsizedText4">
+        <p className="text-[14px] font-normal leading-[130%] lg:leading-normal md:w-[92%] lg:capsizedText4">
           Discover our spacious snack restaurant, Snackspot, offers a variety of beverages as well as special tastes from Turkish and international cuisine. Between 11:30 and 18:00, our Snackspot restaurant—one of our places where you can enjoy every second of your holiday—is open.
         </p>
         <Link
           href="/"
-          className="flex border border-lagoBrown py-[14px] px-[28px] h-[41px] w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px] bg-[#fbfbfb]"
+          className="flex border border-lagoBrown py-[14px] lg:px-[28px] lg:h-[41px] h-[39px] px-[18px] w-[124px] lg:w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px] bg-[#fbfbfb]"
         >
           LEARN MORE
         </Link>

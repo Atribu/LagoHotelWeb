@@ -97,10 +97,17 @@
 
 .parallax {
   background-attachment: fixed;
-  background-position: start;
+  background-position: top left; /* "start" yerine daha yaygın ve uyumlu bir değer */
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 
 .custom-scroll::-webkit-scrollbar {
   width: 0px; /* Scroll bar tamamen gizlendi */

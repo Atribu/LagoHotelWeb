@@ -96,7 +96,7 @@ const page = () => {
   return (
     <div className='overflow-hidden overflow-y-hidden '>
       <Beach1 /> 
-     <div className='flex w-screen flex-col items-center justify-center gap-[100px] mt-[100px]'>
+     <div className='flex w-screen flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] mt-[100px] bg-[#fbfbfb]'>
      <Beach2 />
       <Beach3 />
       <Beach4 />

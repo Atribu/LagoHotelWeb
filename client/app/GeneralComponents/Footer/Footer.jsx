@@ -103,7 +103,7 @@ export default function Footer() {
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
                   Email: info@lagohotels.com
                 </p>
-                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
+                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
                   Address: Titreyengöl
                   <br />
                   Mevkii Sorgun Manavgat/
@@ -355,7 +355,7 @@ export default function Footer() {
                   Adress
                 </span>
                 <div className="flex h-[1px] w-full bg-[#D9D9D9]/50"></div>
-                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px]">
+                <p className="text-[#FBFBFB] leading-[32.53px] capsizedText6 tracking-[0.3px] whitespace-nowrap">
                   Manavgat/Antalya, TR
                 </p>
               </div>
@@ -492,7 +492,7 @@ export default function Footer() {
 
       {/* Alt ince çizgi */}
       <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
-      <div className="flex w-full text-[14px] font-normal leading-normal tracking-[0.56px] pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px]">
+      <div className="flex w-full text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
             Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
       </div>
     </footer>

@@ -124,8 +124,8 @@ const ContactSection2 = () => {
         <GallerySection />
       </div>
       {/* Mobil görünüm: Arkaplan resmi kaldırıldı */}
-      <div className="flex flex-col w-full md:hidden justify-center items-center h-[65vh] bg-white">
-        <div className="flex flex-col w-[90%] sm:w-[85%] bg-white gap-[33px] min-h-content h-[55vh] py-[30px] items-center justify-center text-center">
+      <div className="flex flex-col w-full md:hidden justify-center items-center h-[65vh] bg-[#fbfbfb]">
+        <div className="flex flex-col w-[90%] sm:w-[85%] bg-[#fbfbfb] gap-[33px] min-h-content h-[55vh] py-[30px] items-center justify-center text-center">
           <ContactDetails />
           <GallerySection />
         </div>

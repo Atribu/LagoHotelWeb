@@ -66,7 +66,7 @@ export default function Beach1() {
         <img
           src={Girl.src}
           alt="Girl"
-          className="absolute w-full h-full object-cover top-0 left-0 -z-10 transform scale-[1.7] lg:scale-100 transition-transform duration-700"
+          className="absolute w-full h-full object-cover -top-[10%] left-0 -z-10 transform scale-[1.7] lg:scale-100 transition-transform duration-700"
         />
 
         {/* Beach & Pools Yazısı */}
@@ -79,7 +79,7 @@ export default function Beach1() {
           <img
             src={Yazı.src}
             alt="Beach & Pools Yazı"
-            className="object-contain max-w-[50%] lg:max-w-[20%]"
+            className="object-contain max-w-[50%] lg:max-w-[40%] "
           />
         </div>
 
@@ -102,10 +102,10 @@ export default function Beach1() {
         <p className="uppercase text-[12px] leading-[14px] tracking-[0.48px] font-medium font-jost">
           WELCOME TO LAGO HOTEL
         </p>
-        <h1 className="font-marcellus text-[48px] leading-[57.6px] md:text-5xl font-normal">
+        <h1 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[120%] lg:leading-[57.6px] font-normal">
           Immerse Yourself in the <br /> Deep Blue Waters
         </h1>
-        <p className="w-full text-center font-jost text-[16px] leading-[24px] md:text-lg">
+        <p className="w-full text-center font-jost text-[14px] lg:text-[16px] leading-[24px] ">
           We offer you a pleasant holiday experience that will feel like home in
           our rooms designed <br /> in accordance with varied tastes and needs,
           merging beauty and comfort with their eye- <br /> catching designs and
@@ -113,7 +113,7 @@ export default function Beach1() {
           in the deep blue world of LAGO. Come to LAGO where everything is
           possible.
         </p>
-        <button className="uppercase text-sm font-medium font-marcellus text-[18px] leading-[30px] underline underline-offset-4 mt-4">
+        <button className="uppercase text-sm font-medium font-marcellus text-[16px] lg:text-[18px] leading-[30px] underline underline-offset-4 mt-4">
           Discover More
         </button>
 

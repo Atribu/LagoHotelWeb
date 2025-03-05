@@ -11,10 +11,10 @@ const SubRoomBanner = () => {
 
 
   return (
-    <div className='flex w-screen h-[80vh] items-center justify-center bg-cover bg-center' style={{ backgroundImage: `url(${mainImg.src})` }}>
-      <div className='flex flex-col w-[80%] h-full items-center justify-end md:justify-center text-white font-jost gap-[20px] md:gap-[39px] mb-[16%]'>
-        <span className='text-[13px] lg:text-[15px] font-medium leading-[14px] tracking-[0.6px] uppercase'>exclusive stay with an INDEPENDENT pool</span>
-        <h2 className="capsizedText text-[40px] md:text-[56px] lg:text-[80px] leading-[106px] font-medium ">Family Swim-Up</h2>
+    <div className='flex w-screen h-screen  lg:h-[80vh] items-center justify-center bg-cover bg-center' style={{ backgroundImage: `url(${mainImg.src})` }}>
+      <div className='flex flex-col w-[80%] h-full items-center justify-center text-white font-jost gap-[35px] md:gap-[39px] lg:mb-0'>
+        <span className='text-[12px] lg:text-[16px] font-medium leading-[14px] tracking-[0.6px] uppercase text-center whitespace-nowrap'>exclusive stay with an INDEPENDENT pool</span>
+        <h2 className="capsizedText text-[40px] md:text-[56px] lg:text-[80px] leading-[42px] lg:leading-[106px] font-medium ">Family Swim-Up</h2>
 
         <div className='flex flex-col sm:flex-row w-full items-center justify-center gap-[16px] lg:h-[103px]'>
             <div className='flex items-center justify-center gap-[20px] px-[26px]'>

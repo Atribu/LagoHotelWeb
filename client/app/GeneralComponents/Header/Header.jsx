@@ -216,7 +216,7 @@ export default function Header() {
             </button>
           </div>
 
-          <nav className=" items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
+          <nav className=" items-center md:w-[90%] justify-center ml-[16%] mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
             <div className="relative">
               <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
@@ -313,6 +313,12 @@ export default function Header() {
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               SPA & WELLNESS
+            </Link>
+            <Link
+              href="/special"
+              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+            >
+              SPECIAL
             </Link>
             <Link
               href="/gallery"

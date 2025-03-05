@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
 import Image from "next/image";
 
-const KidsMomentCarousel = ({ images, header }) => {
+const KidsMomentCarousel = ({ images, header,showheader }) => {
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "center",
@@ -35,10 +35,12 @@ const KidsMomentCarousel = ({ images, header }) => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
-      <h2 className="text-[28px] md:text-[32px] lg:text-[48px] text-black font-marcellus font-normal leading-[48px]">
+    <div className="flex flex-col w-screen justify-center items-center text-center gap-[30px] lg:gap-[50px]">
+      {showheader && (
+        <h2 className="text-[28px] md:text-[32px] lg:text-[48px] text-black font-marcellus font-normal leading-[48px]">
         {header}
       </h2>
+      )}
 
       <div className="flex w-full justify-center items-center h-full">
         <div
@@ -49,7 +51,7 @@ const KidsMomentCarousel = ({ images, header }) => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] min-w-0 ml-[10px] lg:h-[600px]"
+                className="flex-[0_0_auto] min-w-0 ml-[2%] md:ml-[10px] lg:h-[600px]"
               >
                 <Image
                   src={img.src}
@@ -58,7 +60,7 @@ const KidsMomentCarousel = ({ images, header }) => {
                   height={img.height}
                    alt={`Slide ${index + 1}`}
                   objectPosition="center"
-                  className="flex lg:h-full md:min-h-[420px] h-[38vh] w-auto"
+                  className="flex h-[25vh] sm:h-[30vh] lg:h-full md:min-h-[420px] md:h-[38vh] w-auto"
                 />
               </div>
             ))}

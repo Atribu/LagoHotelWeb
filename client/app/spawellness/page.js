@@ -30,15 +30,17 @@ const page = () => {
   const spaTextsInfo3=["  SPA & WELLNESS"," Spa Treatments","Opening Hours: 9:00 - 18:00","16 Massage Rooms","2 VIP Massage Rooms","Turkish Bath and Pouch Foam Rooms","Steam room","Sauna"]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
       <RestaurantMainBanner img={mainImg} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Spa & Wellness" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
       <SpaInfoSection img1={img1} img2={img2} texts={spaTextsInfo1} texts2={spaTextsInfo2} texts3={spaTextsInfo3}/> 
       <SpaHeaderSection span="Perfect Fine Dine Experiences" header=" Lorem ipsum dolor sit amet" text=" Lorem ipsum dolor sit amet consectetur. Sed sit venenatis nisi enim id
           aenean natoque aliquet et. Et aliquam viverra enim sapien. Dignissim
           arcu volutpat enim nisl condimentum." images={galleryImages}/>
       <MassageCarousel span="RELAX AND FORGET" header="Massage Options" text="Lorem ipsum dolor sit amet consectetur. Consectetur lorem nibh ultrices quis sit. Ac amet mollis erat enim. Velit venenatis lectus orci viverra dis turpis. Tempor vehicula risus massa sed vestibulum dui nulla vulputate." headers={massageHeaders} images={massageImages}/>
+      <div className='flex flex-col gap-[30px] lg:gap-[50px]'>
       <SpaTypesInfoSection isImageLeft={true} showLink={false} span="Workıng Hours: 9:00 - 20:00" header="Indoor Pool" text=" Lorem ipsum dolor sit amet consectetur. Vitae maecenas facilisis leo ultrices neque massa. Accumsan urna risus in porttitor velit suspendisse purus orci volutpat. Nulla scelerisque id convallis lacus blandit et sed. Elementum vel dolor senectus in morbi. Risus est praesent ultrices vestibulum velit feugiat fusce. Nibh bibendum." img={indoorImg}/>
       <SpaTypesInfoSection isImageLeft={false} showLink={false} span="Experience traditional culture" header="Turkish Hammam" text="Lorem ipsum dolor sit amet consectetur. Et blandit et maecenas in diam tristique pellentesque duis. Proin a volutpat lacinia posuere eu interdum aliquam egestas. Eget dui arcu arcu quam. Sed nulla pellentesque suspendisse viverra sodales quisque commodo. Arcu cursus sit neque amet eget ipsum. Auctor ipsum volutpat " img={turkishImg}/>
+      </div>
       <ContactSection2/>
     </div>
   )

@@ -17,7 +17,7 @@ const BackgroundSection = ({
       style={{ backgroundImage }}
     >
       <div className="flex h-full w-[100%] md:w-[43%] lg:w-[46%] max-w-[840px] items-center justify-start bg-[#2D2D26]/50">
-        <div className="flex flex-col items-start justify-center h-full w-[96%] lg:w-[66%] lg:min-w-[443px]  gap-[20px] lg:gap-[30px] ml-[4%] lg:ml-[10%]  lg:mb-[8%] lg:mt-[9%]  text-white font-jost text-start">
+        <div className="flex flex-col items-start justify-center h-full w-[87.79%] md:w-[91.4%] lg:w-[66%] lg:min-w-[443px]  gap-[20px] lg:gap-[30px] ml-[6.10%] md:ml-[4.3%] lg:ml-[10%]  lg:mb-[8%] lg:mt-[9%]  text-white font-jost text-start">
           {/* span varsa göster */}
           {span && (
             <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
@@ -58,7 +58,7 @@ const BackgroundSection = ({
           {/* Bağlantı */}
           <Link
             href={link}
-            className="text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
+            className="text-[14px] lg:text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
             DISCOVER MORE
           </Link>

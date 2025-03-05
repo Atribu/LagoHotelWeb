@@ -48,7 +48,7 @@ function Slide({ slide, marginClass }) {
         items-center
         ${marginClass}
         flex-[0_0_60%]
-        sm:flex-[0_0_auto]
+        sm:flex-[0_0_auto] md:min-h-[30vh] md:w-[40vw]
          lg:min-h-[540px]
          lg:w-[360px]
         
@@ -61,8 +61,8 @@ function Slide({ slide, marginClass }) {
         height={540}
         className="w-full h-full object-cover"
       />
-      <div className="absolute flex flex-col text-white left-1/2 -translate-x-1/2 -translate-y-[10%] items-center justify-center text-center top-[10%] gap-[10px] lg:gap-[23px]">
-        <h4 className="text-[24px] md:text-[28px] lg:text-[30px] font-normal leading-[36px] -tracking-[0.66px] font-marcellus w-[100%]">{slide.title}</h4>
+      <div className="absolute flex flex-col text-white left-1/2 -translate-x-1/2 -translate-y-[10%] items-center justify-center w-[80%] lg:w-[50%] text-center top-[10%] gap-[10px] lg:gap-[23px]">
+        <h4 className="text-[24px] md:text-[28px] lg:text-[30px] font-normal leading-[120%] lg:leading-[36px] -tracking-[0.66px] font-marcellus w-[100%]">{slide.title}</h4>
         <div className="flex bg-white h-[1px] w-full"></div>
         <span
           className="
@@ -92,7 +92,7 @@ export default function Slider2({ slides }) {
     },
     [
       Autoplay({
-        delay: 3000,
+        delay: 3500,
         stopOnInteraction: false,
         stopOnMouseEnter: false,
         playDirection: "forward",
@@ -129,7 +129,7 @@ export default function Slider2({ slides }) {
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}
-      <div className="flex items-end justify-end w-[93.89%] md:w-[95.7%] lgw-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] mt-[30px] sm:mt-[40px] md:mt-[62px] relative">
+      <div className="flex items-end justify-end w-[93.89%] md:w-[95.7%] lg:w-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] mt-[30px] sm:mt-[40px] md:mt-[62px] relative">
         {slidesOriginal.map((_, i) => (
           <div
             key={i}
