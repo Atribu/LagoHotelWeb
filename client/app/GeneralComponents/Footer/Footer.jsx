@@ -492,9 +492,10 @@ export default function Footer() {
 
       {/* Alt ince çizgi */}
       <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
-      <div className="flex w-full text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[67px] md:pb-0 text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
+      <Link href="https://dgtlface.com"   rel="norefferer nofollower"
+                  target="_blank" className="flex w-full text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[80px] md:py-[1.8%] text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
             Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
-      </div>
+      </Link>
     </footer>
   );
 }

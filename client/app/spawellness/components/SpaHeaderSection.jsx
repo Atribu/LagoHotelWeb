@@ -52,7 +52,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
           <div className="flex grid-flow-col">
             {images.map((image, index) => (
               <div
-                className="flex-[0_0_auto] min-w-0 mr-[10px] h-[600px]"
+           className="flex-[0_0_auto] min-w-0 ml-[2%] md:ml-[10px] lg:h-[600px]"
                 key={index}
               >
                 <Image
@@ -62,7 +62,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
                   height={image.height}
                   alt={`Slide ${index + 1}`}
                   objectPosition="center"
-                  className="flex h-full w-auto"
+                 className="flex h-[25vh] sm:h-[30vh] lg:h-full md:min-h-[420px] md:h-[38vh] w-auto"
                 />
               </div>
             ))}

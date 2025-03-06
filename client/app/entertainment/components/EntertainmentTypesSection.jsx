@@ -1,5 +1,7 @@
+"use client";
+import React, { useCallback, useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import Image from 'next/image'
-import React from 'react'
 import fitness from "../images/sportfitness.webp"
 import kids from "../images/kids.webp"
 import water from "../images/yellow-ball.webp"
@@ -78,6 +80,30 @@ const activities = [
 ];
 
 const EntertainmentTypesSection = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
+    align: "start",
+    startIndex: 0, });
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+    
+  const scrollPrev = useCallback(() => {
+    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.on("select", () => {
+        setSelectedIndex(emblaApi.selectedScrollSnap());
+      });
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    }
+  }, [emblaApi]);
+
+
   return (
     <div className="flex w-screen items-center justify-center max-w-[1440px]">
       <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[30px] md:gap-[50px] max-w-[1106px]">
@@ -90,13 +116,13 @@ const EntertainmentTypesSection = () => {
           <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal font-marcellus leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
             Events are held daily, Except Sundays
           </h3>
-          <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] lg:capsizedText4 w-[80%]">
+          <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] lg:capsizedText4 w-[98%] md:w-[80%]">
             LAGO, which offers a variety of activities like disco, bocce, beach volleyball, table tennis, cinema, beach activities, water sports, and night entertainment, is ready to welcome you with sporting
           </p>
         </div>
 
         {/* Dinamik Kartlar */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full items-center justify-center gap-[31px]">
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 w-full items-center justify-center gap-[31px]">
           {activities.map((activity, index) => (
             <div key={index} className="flex flex-col items-center justify-center relative mb-[180px]">
               <div className="w-full flex flex-col items-center justify-end cursor-pointer">
@@ -116,6 +142,54 @@ const EntertainmentTypesSection = () => {
               <Link className='absolute inset-0' href={activity.link}></Link>
             </div>
           ))}
+        </div>
+
+         {/* other options */}
+      <div className="md:hidden flex flex-col gap-6 w-full">
+        <div className="overflow-hidden w-full" ref={emblaRef}>
+          <div className="flex items-start justify-start w-full">
+            {activities.map((activity,index) => (
+              <div
+                key={index}
+                className="flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%]"
+              >
+                <div className="flex flex-col relative w-full items-center text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
+                  <Image
+                    src={activity.image}
+                    alt={activity.title}
+                    width={activity.image.width}
+                    height={activity.image.height}
+                     className="flex h-[300px] md:h-[400px] w-auto md:w-full"
+                  />
+                  <div className="absolute flex flex-col items-start justify-center bg-white gap-[25px] font-jost text-black w-[90%] p-[20px] -bottom-32">
+                  <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
+                    {activity.category}
+                  </span>
+                  <h4 className="text-[28px] lg:text-[30px] font-normal leading-[120%] capitalize font-marcellus lg:capsizedText3">
+                    {activity.title}
+                  </h4>
+                  <p className="text-[14px] font-normal leading-[21px] capsizedText4">
+                    {activity.description}
+                  </p>
+                </div>
+                
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex lg:hidden items-end justify-end w-full mt-[0px] md:mt-[20px] xl:mt-[50px] relative">
+  {activities.map((_, i) => (
+    <div
+      key={i}
+      className={`transition-all w-[33.3%] h-[1px] bg-[#24292C] rounded-full ${
+        selectedIndex === i ? "p-[1px]" : "bg-[#848383] "
+      }`}
+      onClick={() => handleJump(i)}
+    />
+  ))}
+</div>
         </div>
 
       </div>

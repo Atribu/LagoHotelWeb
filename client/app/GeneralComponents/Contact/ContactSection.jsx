@@ -82,8 +82,8 @@ const ContactSection = () => {
 
         <div className='flex h-[39%] md:h-auto w-[90%] md:w-[45%] lg:w-[39%] font-jost text-black items-center md:items-start justify-center '>
            <div className='flex flex-col md:w-[79%] items-center text-center md:text-start md:items-start justify-center gap-[15px] md:gap-[23.19px] lg:gap-[30px]'>
-           <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] '>CONTACT US FOR MORE</span>
-            <h2 className='font-marcellus font-normal text-[32px] lg:text-[48px] md:leading-normal lg:leading-[57.6px] lg:capsizedText2'>@LagoHotels</h2>
+           <span className=' text-[12px] font-medium leading-[14px] uppercase tracking-[0.48px] mt-[10%] md:mt-0'>CONTACT US FOR MORE</span>
+            <h2 className='font-marcellus font-normal text-[32px] lg:text-[48px] leading-[150%] lg:leading-[57.6px] capsizedText3 lg:capsizedText2'>@LagoHotels</h2>
             <p className='text-[14px] lg:text-[16px] font-normal leading-[24px] '>
             Titreyengol, Sorgun / Manavgat/ Antalya / TR <br></br>
             Phone: <Link href="/" className='underline '>+90 242 756 99 00 </Link> <br></br>
@@ -105,7 +105,7 @@ const ContactSection = () => {
         </div>
 
         <div className='flex w-[90%] md:w-[55%] lg:w-[60%] h-[59%] md:h-[95%] '>
-        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-full min-h-[322px] max-w-[99%] overflow-hidden custom-scroll scroll-smooth ">
+        <div style={{ scrollBehavior: "smooth" }} ref={scrollRef} className="w-full h-[96%] md:h-full min-h-[322px] max-w-[99%] overflow-hidden custom-scroll scroll-smooth ">
       <div className="flex flex-col">
           {[...Array(8)].flatMap((_, loopIndex) =>
             [minigallery].map((img, index) => (
