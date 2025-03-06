@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Hamburger from './Icons/Hamburger'
 import KidIcon from "./Icons/KidIcon.png"
+import panda from "./Icons/panda.png"
 import Phone from './Icons/Phone'
 import TripAdvisor from './Icons/SocialMedia/TripAdvisor'
 import Google from './Icons/SocialMedia/Google'
@@ -76,7 +77,10 @@ export default function HeaderWhite() {
         <div
           className="
             relative
-            h-[77px]
+            h-[10vh]
+            md:h-[6vh]
+            lg:h-[10vh]
+            2xl:h-[85px]
             flex
             items-center
             bg-white/70 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] backdrop-blur-[10px] 
@@ -138,7 +142,10 @@ export default function HeaderWhite() {
             >
               Contact
             </Link>
-            <button
+            <Link
+             href="https://lagohotel.orsmod.com/"
+               rel="norefferer nofollower"
+                  target="_blank"
               className="
               hidden
                md:flex
@@ -160,7 +167,7 @@ export default function HeaderWhite() {
               "
             >
               Book Now
-            </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -198,7 +205,7 @@ export default function HeaderWhite() {
               <RxCross2 size={24} color="#000" />
             </button> 
 
-          <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between mt-[30px]">
+          <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between -mt-[10px]">
             <Image
               src={logosvg}
               alt="Logo"
@@ -242,31 +249,31 @@ export default function HeaderWhite() {
                     All Rooms
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/superiorroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Superior Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/familyroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Family Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/swimuproom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
                     Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/familyswimup"
                     className="block text-[14px] leading-[29.639px] uppercase"
                   >
                     Family Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/duplexfamilyroom"
                     className="block text-[14px] leading-[29.639px] uppercase"
                   >
                     Duplex Family Room
@@ -289,8 +296,8 @@ export default function HeaderWhite() {
           <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             KIDS CLUB
             <Image 
-              src={KidIcon}
-              alt="KidIcon"
+              src={panda}
+              alt="panda"
               width={23}
               height={28}
             />
@@ -309,6 +316,9 @@ export default function HeaderWhite() {
           </Link>
           <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             OUR HOTEL
+          </Link>
+          <Link href="/connect" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
+            CONTACT
           </Link>
         </nav>
 
@@ -346,36 +356,39 @@ export default function HeaderWhite() {
           {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-[18.79px]">
             <Link
-              href="https://www.tripadvisor.com/"
-              target="_blank"
+               href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html"
+               target="_blank"
+                rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <TripAdvisor className="flex" width={34} height={34} />
             </Link>
             <Link
-              href="https://www.google.com/"
+              href="https://maps.app.goo.gl/6Bdt7s5LWH1xxAXX6"
               target="_blank"
+               rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <Google className="flex" width={70} height={70} />
             </Link>
             <Link
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/lagohotels"
               target="_blank"
+               rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <FaFacebookF className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
-              href="https://www.youtube.com/"
-              target="_blank"
+             href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"
+                target="_blank" rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <FaYoutube className="w-6 h-6" color='#505050'/>
             </Link>
             <Link
-              href="https://www.instagram.com/"
-              target="_blank"
+              href="https://www.instagram.com/lagohotels/"
+                target="_blank"  rel="norefferer nofollower"
               className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
             >
               <FaInstagram className="w-6 h-6" color='#505050'/>

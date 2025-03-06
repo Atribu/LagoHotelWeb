@@ -25,9 +25,11 @@ const BookNow = () => {
           <PhoneSvg className="flex" width={25} height={25} color="white" />
         </Link>
 
-        <button className="flex whitespace-nowrap text-white py-[14px] px-[28px] h-[39px] border border-white text-[16px] leading-[24px] uppercase font-medium font-jost items-center justify-center text-center">
+        <Link   href="https://lagohotel.orsmod.com/"
+               rel="norefferer nofollower"
+                  target="_blank" className="flex whitespace-nowrap text-white py-[14px] px-[28px] h-[39px] border border-white text-[16px] leading-[24px] uppercase font-medium font-jost items-center justify-center text-center">
           Book Now
-        </button>
+        </Link>
       </div>
 
       {/* 📌 Popup Açıkken Göster */}

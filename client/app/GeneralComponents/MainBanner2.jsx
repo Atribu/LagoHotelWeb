@@ -5,7 +5,7 @@ const MainBanner2 = ({img, span, header}) => {
     <div className='flex w-screen items-center justify-center min-h-[calc(70vh)] bg-center bg-cover '  style={{ backgroundImage: `url(${img.src})` }} >
       <div className='flex flex-col items-center justify-center w-[65%] text-center gap-[30px] lg:gap-[50px] text-white font-jost'>
         <span className='text-[12px] md:text-[15px] font-medium uppercase tracking-[0.6px] leading-[14px]'>{span}</span>
-        <header className='text-[40px] font-bold md:text-[56px] lg:text-[80px] leading-[120%] -tracking-[0.48px] md:tracking-0 font-jost md:font-medium  lg:leading-[106px] capitalize capsizedText'>{header}</header>
+        <h1 className='text-[40px] md:text-[56px] lg:text-[80px] leading-[120%] -tracking-[0.48px] md:tracking-0 font-jost font-medium  lg:leading-[106px] capitalize capsizedText'>{header}</h1>
        
       </div>
     </div>

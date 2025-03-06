@@ -8,7 +8,7 @@ import CuisinesCarousel from '../components/CuisinesCarousel'
 import wasabi from "./images/wasabi2.webp"
 import despina from "../images/despina.webp"
 import anatolia from "../images/anatolia.webp"
-import RoomTour from '@/app/rooms/subroom/components/RoomTour'
+import RoomTour from '@/app/rooms/familyswimup/components/RoomTour'
 import DiscoverBackground from '../components/DiscoverBackground'
 import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 import backgroundImg from "../images/Background.webp"

@@ -4,7 +4,7 @@ import cafebar1 from "./images/cafebar1.webp"
 import cafebar2 from "./images/cafebars2.webp"
 import DiscoverBackground from '../restaurants/components/DiscoverBackground'
 import backgroundImg from "./images/BackgroundCafes.webp"
-import BackgroundSection from '../rooms/subroom/components/BackgroundSection'
+import BackgroundSection from '../rooms/familyswimup/components/BackgroundSection'
 import backgroundImg2 from "./images/fullphoto.webp"
 import backgroundImg3 from "./images/fullphoto2.webp"
 import BarCarouselSection from './components/BarCarouselSection'
@@ -97,7 +97,7 @@ const otherOptions2 = [
 const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <RestaurantMainBanner img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Bars and Cafés" text="Enjoy a various amount of dining options from around the world."/>
+      <RestaurantMainBanner  img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Bars and Cafés" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryInfoSection img1={cafebar1} img2={cafebar2} span="Perfect Fine Dine Experiences" header="Exceptional Bars and Cafes at LAGO" texts={clinaryTexts}/>
       <BackgroundSection span="A UNIQUE FEAST OF TASTE" header="Cool Down and Relax" texts={backgroundTexts} link="/" img={backgroundImg2}/>
       <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Exclusive Pool Bars" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>

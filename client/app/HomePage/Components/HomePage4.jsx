@@ -59,7 +59,7 @@ export default function HomePage4() {
       </p>
 
       {/* Büyük başlık */}
-      <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2">
+      <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2 lg:w-[60%]">
         All the Essentials for a
         Comfortable Stay
       </h2>
@@ -90,7 +90,7 @@ export default function HomePage4() {
 
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
-        <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[18px] font-normal leading-[30px] transition cursor-pointer">
+        <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
         </button>
       </div>

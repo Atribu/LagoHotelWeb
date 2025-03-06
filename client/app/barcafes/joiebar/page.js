@@ -3,7 +3,7 @@ import React from 'react'
 import mainImg from "./images/main.webp"
 import img1 from "./images/fresh1.webp"
 import img2 from "./images/fresh2.webp"
-import RoomTour from '@/app/rooms/subroom/components/RoomTour'
+import RoomTour from '@/app/rooms/familyswimup/components/RoomTour'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
 import gallery2 from "./images/gallery1.webp"
 import gallery1 from "./images/gallery2.webp"

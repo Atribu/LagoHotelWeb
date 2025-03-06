@@ -24,6 +24,12 @@ import hover7 from "./Images/map/PoolHover7.png"
 import hover8 from "./Images/map/PoolHover8.png"
 import hover9 from "./Images/map/PoolHover9.png"
 import Form from '../GeneralComponents/Form'
+import BeachMobile from './Components/BeachMobile'
+import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
+import mainImg from "./Images/beachandpoolmobile.png"
+import img1 from "./Images/beach1.webp";
+import img2 from "./Images/beach2.webp";
+import ClinaryInfoSection from '../restaurants/components/ClinaryInfoSection'
 
 const poolItems = [
   {
@@ -91,12 +97,30 @@ const poolItems = [
   },
 ]
 
+const texts = [
+  "Lorem ipsum dolor sit amet consectetur. Libero ut pellentesque netus odio felis morbi est. Netus turpis pretium diam at ut orci. Sed pretium cras viverra viverra pulvinar aliquet dictum magna luctus.",
+  "Special Feautures",
+  "Complimentary sun loungers, umbrellas, and towels.",
+  "Beach bars serving refreshing drinks and light snacks.",
+  "Calm waters ideal for swimming and water sports."
+];
+
 
 const page = () => {
   return (
-    <div className='overflow-hidden overflow-y-hidden '>
+    <div className='overflow-hidden overflow-y-hidden bg-[#fbfbfb]'>
       <Beach1 /> 
-     <div className='flex w-screen flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] mt-[100px] bg-[#fbfbfb]'>
+     <div className='flex w-screen flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] lg:mt-[100px] bg-[#fbfbfb]'>
+     <BeachMobile/>
+    <div className='flex lg:hidden'>
+    <ClinaryInfoSection
+            img1={img1}
+            img2={img2}
+            span="Perfect Fine Dine Experiences"
+            header="Discover Our Exclusive Beach"
+            texts={texts}
+          />
+    </div>
      <Beach2 />
       <Beach3 />
       <Beach4 />

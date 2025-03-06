@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useCallback, useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import honeymoon from "../images/honeymoon1.webp";
 import pavilion from "../images/pavilion1.webp"
@@ -54,6 +56,29 @@ const gridData = [
 ];
 
 const SpecialGridSection = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
+    align: "start",
+    startIndex: 0, });
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+    
+  const scrollPrev = useCallback(() => {
+    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (emblaApi) {
+      emblaApi.on("select", () => {
+        setSelectedIndex(emblaApi.selectedScrollSnap());
+      });
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    }
+  }, [emblaApi]);
+
   return (
     <div className="flex w-screen items-center justify-center ">
       <div className="flex flex-col w-[89.79%] md:w-[91.4%] lg:w-[84%] xl:w-[76.8%] items-center justify-center gap-[30px] lg:gap-[50px]">
@@ -72,7 +97,7 @@ const SpecialGridSection = () => {
         </div>
 
         {/* Dinamik Grid Bölümü */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-[27px] w-full xl:w-[1106px]">
+        <div className="hidden md:grid md:grid-cols-3 gap-[27px] w-full xl:w-[1106px]">
           {gridData.map((item, index) => (
             <div
               key={index}
@@ -87,7 +112,7 @@ const SpecialGridSection = () => {
                 <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px] transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
                   {item.span}
                 </span>
-                <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 capsizedText3">
+                <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
                   {item.title}
                 </h4>
               </div>
@@ -104,7 +129,7 @@ const SpecialGridSection = () => {
                   <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
                     {item.span}
                   </span>
-                  <h4 className="text-[30px] leading-[57.6px] font-marcellus font-normal capitalize capsizedText3">
+                  <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize lg:capsizedText3">
                     {item.title}
                   </h4>
                   <div className="flex w-full h-[1px] bg-grayLight"></div>
@@ -113,6 +138,53 @@ const SpecialGridSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+
+         {/* other options */}
+      <div className="md:hidden flex flex-col gap-6 w-full">
+        <div className="overflow-hidden w-full" ref={emblaRef}>
+          <div className="flex items-start justify-start w-full">
+            {gridData.map((data,index) => (
+              <div
+                key={index}
+                className="flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%]"
+              >
+                <div className="flex flex-col relative w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
+                  <Image
+                    src={data.image}
+                    alt={data.title}
+                    width={data.image.width}
+                    height={data.image.height}
+                     className="flex h-[383px] md:h-[400px] w-auto md:w-full"
+                  />
+                  <div className="absolute inset-0 bg-black/40 z-[1]"></div>
+                  <div className="absolute bottom-[30px] left-[30px] text-white z-20">
+                  <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
+                    {data.span}
+                  </span>
+                  <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
+                  {data.title}
+                </h4>
+                  </div>
+                
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex lg:hidden items-end justify-end w-full mt-[0px] md:mt-[20px] xl:mt-[50px] relative">
+  {gridData.map((_, i) => (
+    <div
+      key={i}
+      className={`transition-all w-[33.3%] h-[1px] bg-[#24292C] rounded-full ${
+        selectedIndex === i ? "p-[1px]" : "bg-[#848383] "
+      }`}
+      onClick={() => handleJump(i)}
+    />
+  ))}
+</div>
         </div>
 
       </div>

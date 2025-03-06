@@ -36,7 +36,7 @@ const SpecialCarousel = () => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen justify-center items-center text-center gap-[50px]">
+    <div className="flex flex-col w-screen justify-center items-center text-center gap-[30px] lg:gap-[50px]">
       <div className="flex flex-col w-full justify-center items-center h-full">
         {/* Carousel */}
         <div className="overflow-hidden relative w-full" ref={emblaRef}>
@@ -44,7 +44,7 @@ const SpecialCarousel = () => {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] ml-[10px] h-[60vh] lg:h-[788px]">
+                className="flex-[0_0_auto] ml-[10px] lg:h-[788px]">
                 <Image
                   src={image.src}
                   layout="cover"
@@ -52,14 +52,14 @@ const SpecialCarousel = () => {
                   height={788}
                   alt={`Slide ${index + 1}`}
                   objectPosition="center"
-                  className="h-full flex"
+                  className="flex h-[45vh]  md:h-[60vh] lg:h-full w-auto"
                 />
               </div>
             ))}  
           </div>
 
           <div className="bg-black/35 absolute inset-0"></div>
-          <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[30px] lg:text-[48px] text-white font-marcellus font-normal leading-normal tracking-[0.48px] text-center w-[25%]">
+          <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[28px] md:text-[30px] lg:text-[48px] text-white font-marcellus font-normal leading-normal tracking-[0.48px] text-center w-[89.79%] md:w-[91.4%] lg:w-[25%]">
             A Paradise in the Heart of the Mediterranean
           </p>
         </div>

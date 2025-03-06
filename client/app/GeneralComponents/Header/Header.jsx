@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek
 import Image from "next/image";
 import Link from "next/link";
 import Hamburger from "./Icons/Hamburger";
-import KidIcon from "./Icons/KidIcon.png";
 import Phone from "./Icons/Phone";
 import TripAdvisor from "./Icons/SocialMedia/TripAdvisor";
 import Google from "./Icons/SocialMedia/Google";
@@ -16,6 +15,7 @@ import DownArrow from "./Icons/DownArrow";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Form from "../Form";
 import { RxCross2 } from "react-icons/rx";
+import panda from "./Icons/panda.png"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,7 +55,7 @@ export default function Header() {
         <div
           className="
             relative
-            h-[77px]
+            h-[100px]
             flex
             items-center justify-center
             to-transparent
@@ -67,14 +67,14 @@ export default function Header() {
               src={gradient4}
               width={gradient4.width}
               height={gradient4.header}
-              className="w-full h-[144px] "
+              className="w-full h-[77px] "
               alt="header"
             />
           </div>
 
           {!isMenuOpen && (
-            <div className="flex flex-row-reverse md:flex-row items-center justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
-              <button className="flex z-20 " onClick={toggleMenu}>
+            <div className="flex flex-row-reverse md:flex-row items-center mb-[2%] md:mb-[0.5%] lg:mb-[0.5%] h-full justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
+              <button className="flex z-20 h-full items-center justify-center" onClick={toggleMenu}>
                 <Hamburger
                   width={30}
                   height={30}
@@ -87,7 +87,7 @@ export default function Header() {
                   EN
                 </span>
                 <DownArrow
-                  className="flex"
+                  className="flex items-center justify-center"
                   width={12}
                   height={12}
                   color="#ffffff"
@@ -99,7 +99,7 @@ export default function Header() {
           {/* EN bar */}
 
           {/* Ortadaki Logo */}
-          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-[25%] lg:top-1/2 -translate-x-1/2 lg:-translate-y-1/2">
+          <div className="absolute left-[16%] sm:left-[13%] md:left-1/2 top-1/2 -translate-x-1/2 -translate-y-[65%] md:-translate-y-1/2">
             <Link className="w-full items-center justify-center flex" href="/">
               <Image
                 src={logosvg}
@@ -132,7 +132,10 @@ export default function Header() {
             >
               Contact
             </Link>
-            <button
+            <Link
+            href="https://lagohotel.orsmod.com/"
+              rel="norefferer nofollower"
+                  target="_blank"
               className="
                 hidden 
                 md:flex
@@ -154,7 +157,7 @@ export default function Header() {
               "
             >
               Book Now
-            </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -202,7 +205,7 @@ export default function Header() {
             >
               <RxCross2 size={24} color="#fff" />
             </button>
-        <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between mt-[30px]">
+        <div className="flex lg:hidden  w-[90%] lg:w-[90%] items-center justify-between -mt-[10px]">
             <Image
               src={logosvg}
               alt="Logo"
@@ -216,7 +219,7 @@ export default function Header() {
             </button>
           </div>
 
-          <nav className=" items-center md:w-[90%] justify-center ml-[16%] mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
+          <nav className=" items-center md:w-[90%] justify-center lg:mt-10 mt-6 px-4 w-[80%] sm:w-[60%] lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-white font-jost uppercase h-[521px] overflow-y-auto thin-scrollbar">
             <div className="relative">
               <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
@@ -245,31 +248,31 @@ export default function Header() {
                     All Rooms
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/superiorroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Superior Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/familyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Family Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/swimuproom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/familyswimup"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Family Swim-up Room
                   </Link>
                   <Link
-                    href="/rooms/subroom"
+                    href="/rooms/duplexfamilyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                     Duplex Family Room
@@ -306,7 +309,7 @@ export default function Header() {
               className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               KIDS CLUB
-              <Image src={KidIcon} alt="KidIcon" width={23} height={28} />
+              <Image src={panda} alt="KidIcon" width={23} height={28} />
             </Link>
             <Link
               href="/spawellness"
@@ -331,6 +334,12 @@ export default function Header() {
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
               OUR HOTEL
+            </Link>
+            <Link
+              href="/connect"
+              className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+            >
+              CONTACT
             </Link>
           </nav>
 
@@ -372,36 +381,39 @@ export default function Header() {
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">
               <Link
-                href="https://www.tripadvisor.com/"
+                href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html"
                 target="_blank"
+                 rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <TripAdvisor className="flex" width={34} height={34} />
               </Link>
               <Link
-                href="https://www.google.com/"
+                href="https://maps.app.goo.gl/6Bdt7s5LWH1xxAXX6"
                 target="_blank"
+                 rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <Google className="flex" width={70} height={70} />
               </Link>
               <Link
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/lagohotels"
                 target="_blank"
+                 rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <FaFacebookF className="w-6 h-6" color="#505050" />
               </Link>
               <Link
-                href="https://www.youtube.com/"
-                target="_blank"
+                href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"
+                target="_blank" rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <FaYoutube className="w-6 h-6" color="#505050" />
               </Link>
               <Link
-                href="https://www.instagram.com/"
-                target="_blank"
+                href="https://www.instagram.com/lagohotels/"
+                target="_blank"  rel="norefferer nofollower"
                 className="bg-white h-[42.412px] w-[42.412px] rounded-[4px] shadow-custom flex items-center justify-center"
               >
                 <FaInstagram className="w-6 h-6" color="#505050" />

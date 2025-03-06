@@ -197,14 +197,15 @@ const categories = Object.keys(imageCategories)
 const GalleryScrollSection = () => {
   // Seçili kategori (başlangıçta "GENERAL VIEW")
   const [selectedCategory, setSelectedCategory] = useState("GENERAL VIEW")
+  const [modalImage, setModalImage] = useState(null) // Seçilen resmi tutacak state
 
   return (
     <div className="flex w-screen items-center justify-center mt-[50px] max-w-[1440px]">
       <div className="flex flex-col items-center justify-between w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[40px]">
         
         {/* Butonlar */}
-        <div className=" grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:flex items-center justify-center xl:justify-between gap-[10px] w-full max-w-[1008px]">
-          {categories.map((category) => (
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:flex items-center justify-center xl:justify-between gap-[10px] w-full max-w-[1008px]">
+          {Object.keys(imageCategories).map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
@@ -222,13 +223,35 @@ const GalleryScrollSection = () => {
           <div className="flex flex-col w-full overflow-auto hover:overflow-scroll custom-scroll h-auto">
             <div className="columns-2 lg:columns-3 gap-[16px] lg:gap-[0px] transition-all duration-[350ms] ease-in-out cursor-pointer">
               {imageCategories[selectedCategory].map((imgSrc, index) => (
-                <div className="mb-[19.16px] transition-all duration-[350ms] ease-in-out cursor-pointer" key={index}>
-                  <Image src={imgSrc} alt="gallery" className="lg:w-[322px] h-full"/>
+                <div
+                  className="mb-[19.16px] transition-all duration-[350ms] ease-in-out cursor-pointer"
+                  key={index}
+                  onClick={() => setModalImage(imgSrc)} // Resme tıklandığında modal açılır
+                >
+                  <Image src={imgSrc} alt="gallery" className="lg:w-[322px] h-full" />
                 </div>
               ))}
             </div>
           </div>
         </div>
+
+        {/* Modal (Lightbox) */}
+        {modalImage && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
+            onClick={() => setModalImage(null)} // Modal dışına tıklandığında kapanır
+          >
+            <div className="relative w-[80%] max-w-4xl" onClick={(e) => e.stopPropagation()}>
+              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain" />
+              <button
+                className="absolute top-4 right-4 text-white text-2xl"
+                onClick={() => setModalImage(null)}
+              >
+                &times;
+              </button>
+            </div>
+          </div>
+        )}
 
       </div>
     </div>

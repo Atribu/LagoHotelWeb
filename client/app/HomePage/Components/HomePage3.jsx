@@ -83,12 +83,14 @@ export default function HomePage3() {
               sizes="100vw"
               className="
                 w-full 
-                h-[498px] 
+                h-[44vh]
+                md:h-[498px] 
                 object-cover
                 transition-transform 
                 duration-[1600ms] 
                 ease-out
                 group-hover:scale-105
+                relative
               "
             />
 
@@ -113,16 +115,16 @@ export default function HomePage3() {
               {/* Soldaki dikey yarı saydam şerit */}
               <div
                 className="
-                  h-full bg-black bg-opacity-50 flex flex-col justify-end pb-12 w-full md:w-1/3 md:min-w-[437px] gap-[20px]
+                  h-full bg-black bg-opacity-50 flex flex-col lg:justify-end lg:pb-12 w-full md:w-1/3 md:min-w-[437px] gap-[20px]
                   md:opacity-0 md:translate-x-[-10px] opacity-100 md:group-hover:opacity-100 md:group-hover:translate-x-0
-                  transition-all duration-[800ms] ease-in-out font-jost 
+                  transition-all duration-[800ms] ease-in-out font-jost items-start justify-center
                 "
               >
                 <h3 className="text-[28px] lg:text-[30px] leading-[37.5px] tracking-[-0.66px] capitalize font-marcellus font-normal text-left w-auto ml-6 lg:ml-16 ">
                   {img.title}
                 </h3>
                 <p
-                  className="text-[14px] lg:text-[16px] w-[80%] font-jost font-normal leading-normal text-left ml-6 lg:ml-16 line-clamp-6"
+                  className="text-[14px] lg:text-[16px] w-[80%] font-jost font-normal leading-normal text-left ml-6 lg:ml-16 line-clamp-3 md:line-clamp-4 lg:line-clamp-6"
                   dangerouslySetInnerHTML={{ __html: img.desc }}
                 />
 
@@ -147,8 +149,11 @@ export default function HomePage3() {
                 </div>
 
                 {/* Buton */}
+                <span className="text-white font-marcellus underline underline-offset-[6px] text-[14px]  ml-6 font-normal md:leading-[19.88px] flex uppercase lg:hidden">DISCOVER</span>
                 <button
                   className="
+                    hidden
+                    lg:flex
                     w-1/3
                     ml-6 lg:ml-16
                     border

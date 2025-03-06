@@ -36,11 +36,11 @@ const Page = () => {
           className='w-full h-full object-cover' 
           alt="Header Image" 
         />
-        <div className='absolute inset-0 flex flex-col justify-center items-center text-center gap-4 md:gap-[11%]'>
-          <h1 className="font-jost text-[12px] md:text-[15px] font-medium leading-[14px] tracking-[0.6px] uppercase text-white">
+        <div className='absolute inset-0 flex flex-col justify-center items-center text-center gap-[30px] lg:gap-[50px]'>
+          <h1 className="font-jost text-[12px] md:text-[16px] font-medium leading-[14px] tracking-[0.6px] uppercase text-white">
             LAGO HOTEL CONTACT
           </h1>
-          <p className="font-jost text-[40px] md:text-[80px] font-medium leading-[48px] md:leading-[64px] tracking-[-1.6px] text-white">
+          <p className="font-jost text-[40px] lg:text-[56px] md:text-[80px] font-medium leading-[48px] md:leading-[64px] tracking-[-1.6px] text-white">
             Connect with Us
           </p>
         </div>

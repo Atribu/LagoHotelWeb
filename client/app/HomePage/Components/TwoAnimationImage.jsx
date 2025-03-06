@@ -7,30 +7,30 @@ import Link from "next/link";
 
 const TwoAnimationImage = ({ span, header, text1, text2 }) => {
   const [animate, setAnimate] = useState(false);
-  const sectionRef = useRef(null); // Bölümü takip etmek için referans
+  const sectionRef = useRef(null); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setAnimate(true); // Sayfa bölüme geldiğinde animasyonu tetikle
-          observer.disconnect(); // **Bir kez çalıştıktan sonra izlemeyi bırak**
+          setAnimate(true); 
+          observer.disconnect(); 
         }
       },
-      { threshold: 0.5 } // %50 görünür olduğunda tetikle
+      { threshold: 0.5 } 
     );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect(); // Component kaldırılırsa temizle
+    return () => observer.disconnect();
   }, []);
 
   return (
     <div
-      ref={sectionRef} // Ref'i div'e bağladık
-      className="flex w-screen lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[100px] lg:mt-[150px] mb-[50px]"
+      ref={sectionRef} 
+      className="flex w-screen h-auto md:h-[400px] lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[100px] lg:mt-[150px] mb-[0px]"
     >
       <div className="flex flex-col md:flex-row-reverse w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
         <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
