@@ -220,7 +220,7 @@ export default function HeaderWhite() {
           </div>
 
 
-        <nav className="items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto">
+        <nav className="items-center md:w-[90%] justify-center ml-2 mt-6 px-4 w-full lg:max-w-[392px] space-y-[10px] text-[16px] lg:text-[18px] text-lagoBlack font-jost uppercase min-h-[521px]  md:h-[600px]  overflow-y-auto black-scrollbar">
         <div className="relative">
               <div
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}

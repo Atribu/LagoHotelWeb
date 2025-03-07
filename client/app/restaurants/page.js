@@ -31,7 +31,7 @@ const cuisines = [
       title: "Anatolia",
       description: "CUISINE: International ",
       text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-      link:"/"
+      link:"restaurants/anatoliarestaurant"
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const cuisines = [
       title: "Despina",
       description: "CUISINE: Seafood and Fish ",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/restaurants/despinarestaurant"
     }
   ];
 
@@ -58,7 +58,7 @@ const cuisines = [
       title: "Wasabi",
       description: "CUISINE: Teppanyaki (Japanese)",
       text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-      link:"/"
+      link:"/restaurants/wasabi"
     },
     {
       id: 2,
@@ -66,7 +66,7 @@ const cuisines = [
       title: "Fuego",
       description: "CUISINE: ASIAN",
        text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-       link:"/"
+       link:"/restaurants/fuego"
     },
     {
       id: 3,
@@ -74,7 +74,7 @@ const cuisines = [
       title: "Tapaz",
       description: "CUISINE: Spanish ",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/restaurants/tapazrestaurant"
     }
   ];
 

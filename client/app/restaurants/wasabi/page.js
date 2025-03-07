@@ -1,10 +1,22 @@
+import MainBannerSection from '@/app/GeneralComponents/MainBannerSection'
 import React from 'react'
-import imgBanner from "./images/mainphoto.jpg"
-import img1 from "./images/SRF_3491.jpg"
-import img2 from "./images/SRF_3506.jpg"
-import img3 from "./images/SRF_3511.jpg"
-import img4 from "./images/SRF_3521.jpg"
-import img5 from "./images/SRF_3543.jpg"
+import imgBanner from "../fuego/images/SRF_2482.jpg"
+import img1 from "../fuego/images/SRF_2403.jpg"
+import img2 from "../fuego/images/SRF_2404.jpg"
+import img3 from "../fuego/images/SRF_2414.jpg"
+import img4 from "../fuego/images/SRF_2419.jpg"
+import img5 from "../fuego/images/SRF_2429.jpg"
+import img6 from "../fuego/images/SRF_2434.jpg"
+import img7 from "../fuego/images/SRF_2439.jpg"
+import img8 from "../fuego/images/SRF_2454.jpg"
+import img9 from "../fuego/images/SRF_2459.jpg"
+import img10 from "../fuego/images/SRF_2467.jpg"
+import img11 from "../fuego/images/SRF_2472.jpg"
+import img12 from "../fuego/images/SRF_2477.jpg"
+import img13 from "../fuego/images/SRF_2482.jpg"
+import img14 from "../fuego/images/SRF_2511.jpg"
+import img15 from "../fuego/images/SRF_2521.jpg"
+import img16 from "../fuego/images/SRF_2404_2.jpg"
 import ClinaryReverseInfo from '../components/ClinaryReverseInfo'
 import CuisinesCarousel from '../components/CuisinesCarousel'
 import wasabi from "../gustorestaurant/images/wasabi2.webp"
@@ -17,7 +29,9 @@ import backgroundImg from "../images/Background.webp"
 import BannerDark from '@/app/GeneralComponents/BannerDark'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
 
-const images=[img1,img2,img3,img4,img5]
+const images=[img1,img2,img3,img4,img5,img6,
+  img7,img8,img9,img10,img11,img12,img13,img14,img15,img16
+]
 
 const otherOptions = [
     {
@@ -49,7 +63,7 @@ const otherOptions = [
 const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <BannerDark img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Anatolia Restaurant" text="Enjoy a various amount of dining options from around the world."/>
+      <BannerDark img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Wasabi Restaurant" text="Enjoy a various amount of dining options from around the world."/>
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Exquisite Italian Flavours" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
       <KidsMomentCarousel images={images} header="" showheader={false}/>
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
