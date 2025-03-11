@@ -1,4 +1,3 @@
-import MainBannerSection from '@/app/GeneralComponents/MainBannerSection'
 import React from 'react'
 import imgBanner from "./images/mainphoto.jpg"
 import img1 from "./images/SRF_3491.jpg"

@@ -30,7 +30,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
   }, [emblaApi]);
 
   return (
-    <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px] max-w-[1440px]">
+    <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
       <div className="flex flex-col items-center justify-center text-center w-[87.79%] md:w-[91.4%] lg:w-[76.8%] text-black font-jost gap-[15px] md:gap-[25px] lg:gap-[35px]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
           {span}

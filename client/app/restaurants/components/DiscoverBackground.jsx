@@ -5,7 +5,7 @@ const DiscoverBackground = ({
   span,
   header,
   text,
-  link = "#",
+  link = "/barcafes",
   img
 }) => {
   // Arka plan resmi kontrolü: eğer img.src yoksa, arka planı "none" veya boş ayarlayabilirsin.

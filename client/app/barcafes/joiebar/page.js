@@ -1,13 +1,22 @@
-import MainBannerSection from '@/app/GeneralComponents/MainBannerSection'
 import React from 'react'
 import mainImg from "./images/main.webp"
 import img1 from "./images/fresh1.webp"
 import img2 from "./images/fresh2.webp"
 import RoomTour from '@/app/rooms/familyswimup/components/RoomTour'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
-import gallery2 from "./images/gallery1.webp"
+import gallery2 from "./images/gallery1.jpg"
 import gallery1 from "./images/gallery2.webp"
-import gallery3 from "./images/gallery3.webp"
+import gallery3 from "./images/gallery3.jpg"
+import gallery4 from "./images/img-16.jpg"
+import gallery5 from "./images/img-17.jpg"
+import gallery6 from "./images/img-18.jpg"
+import gallery7 from "./images/img-19.jpg"
+import gallery8 from "./images/img-20.jpg"
+import gallery9 from "./images/img-21.jpg"
+import gallery10 from "./images/SRF_4118.jpg"
+import gallery11 from "./images/SRF_4713.jpg"
+import gallery12 from "./images/SRF_4715.jpg"
+import gallery13 from "./images/SRF_4728.jpg"
 import ClinaryReverseInfo from '@/app/restaurants/components/ClinaryReverseInfo'
 import backgroundImg from "../images/BackgroundCafes.webp"
 import mignon from "../images/mignon.webp"
@@ -19,7 +28,7 @@ import OtherOptions4 from '../components/OtherOptions4'
 import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 import RestaurantMainBanner from '@/app/restaurants/components/RestaurantMainBanner'
 
-const galleryImages=[gallery1,gallery2,gallery3,gallery1,gallery2,gallery3];
+const galleryImages=[gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,gallery11,gallery12,gallery13];
 
 const otherOptions = [
     {
@@ -60,7 +69,6 @@ const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
       <RestaurantMainBanner img={mainImg} span="Fresh drınks and musıc" header="Joie Bar" text="Enjoy a various amount of dining options from around the world."/>
-      {/* <MainBannerSection img={mainImg} span="Fresh drınks and musıc" header="Joie Bar" text="Enjoy a various amount of dining options from around the world."/> */}
       <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Fresh Drinks at the Pool" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
       <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>

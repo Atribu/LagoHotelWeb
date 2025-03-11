@@ -950,7 +950,7 @@ const CookiePopup = () => {
             </button>
             <button
               onClick={handleClose}
-              className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
+              className="flex lg:hidden text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
               Accept All Cookies
             </button>
@@ -961,6 +961,14 @@ const CookiePopup = () => {
             >
               Manage Cookie Preferences
             </button>
+
+            <button
+              onClick={handleClose}
+              className="hidden lg:flex text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
+            >
+              Accept All Cookies
+            </button>
+
             {isModalOpen && (
               <ModalPortal onClose={handleModalToggle}>
                 <div className="flex flex-col items-center justify-center gap-[15px] lg:gap-[39px]">

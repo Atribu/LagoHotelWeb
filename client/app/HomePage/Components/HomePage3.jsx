@@ -8,6 +8,7 @@ import SuperiorRoom from "./Images/Superior.webp";
 import Area from "./Icons/Area";
 import Tree from "./Icons/Tree";
 import Sea from "./Icons/Sea";
+import Link from "next/link";
 
 export default function HomePage3() {
   const images = [
@@ -19,7 +20,7 @@ export default function HomePage3() {
        including a bathroom and a sitting area. `,
              area:"50-55 m2",
              span:"Land / Sea View",
-             link:"/"
+             link:"/familyswimup"
     },
     {
       src: Swimup,
@@ -27,7 +28,7 @@ export default function HomePage3() {
       desc: "This room type with sea or forest view is 40 - 43 m2 and is located in the main building. This room type has 1 double bed and 1 single bed. Sea view and Wald  view rooms have an additional sofa or seating area and feature a pool and terrace. Swimup room with sea view, offers a private pool.",
       area:"40-43 m2",
              span:"Land / Sea View",
-             link:"/"
+             link:"/swimuproom"
     },
     {
       src: SuperiorRoom,
@@ -35,7 +36,7 @@ export default function HomePage3() {
       desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
       area:" 30-32 m2",
       span:"Land / Sea View",
-             link:"/"
+      link:"/superiorroom"
     },
   ];
 
@@ -149,7 +150,7 @@ export default function HomePage3() {
                 </div>
 
                 {/* Buton */}
-                <span className="text-white font-marcellus underline underline-offset-[6px] text-[14px]  ml-6 font-normal md:leading-[19.88px] flex uppercase lg:hidden">DISCOVER</span>
+                <Link href="" className="text-white font-marcellus underline underline-offset-[6px] text-[14px]  ml-6 font-normal md:leading-[19.88px] flex uppercase lg:hidden">DISCOVER</Link>
                 <button
                   className="
                     hidden
