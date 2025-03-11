@@ -129,10 +129,10 @@ export default function Footer() {
 
           {/* Sosyal ikonlar */}
           <div className="grid grid-cols-2 lg:flex items-center gap-[32px]">
-            <FaInstagram className="w-[30px] h-[32px]" />
-            <FaLinkedinIn className="w-[30px] h-[32px]" />
-            <FaFacebook className="w-[30px] h-[32px]" />
-            <FaTwitter className="w-[30px] h-[32px]" />
+            <Link href="https://www.instagram.com/lagohotels/"><FaInstagram className="w-[30px] h-[32px]" color="#fff"/></Link>
+            <Link href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ" > <FaYoutube className="w-[30px] h-[32px]" color='#fff'/></Link>
+            <Link href="https://www.facebook.com/lagohotels"><FaFacebook className="w-[30px] h-[32px]" color="#fff" /></Link>
+            <Link href="/https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html" ><FaTripadvisor className="w-[30px] h-[32px]" color="##ffffff"/></Link>
           </div>
 
           {/* Alt linkler */}
@@ -285,10 +285,10 @@ export default function Footer() {
         <div className="flex w-[92%] items-center justify-center gap-[80px] py-[15px]">
           {/* Sosyal ikonlar */}
           <div className="flex items-center gap-[32px]">
-            <FaInstagram className="w-[30px] h-[32px]" />
-            <FaLinkedinIn className="w-[30px] h-[32px]" />
-            <FaFacebook className="w-[30px] h-[32px]" />
-            <FaTwitter className="w-[30px] h-[32px]" />
+          <Link href="https://www.instagram.com/lagohotels/"><FaInstagram className="w-[30px] h-[32px]" /></Link>
+          <Link href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ" > <FaYoutube className="w-6 h-6" color='#fff'/></Link>
+          <Link href="https://www.facebook.com/lagohotels"><FaFacebook className="w-[30px] h-[32px]" /></Link>
+          <Link href="/https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html"><FaTripadvisor className="w-6 h-6" color="##fff"/></Link>
           </div>
 
           {/* Alt linkler */}
