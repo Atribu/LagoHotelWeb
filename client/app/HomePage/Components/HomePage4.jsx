@@ -7,6 +7,7 @@ import Fireworks from "./Icons/Fireworks"
 import Panda from "./Icons/Panda"
 import Pool from "./Icons/Pool"
 import Spa from "./Icons/Spa"
+import Link from "next/link"
 
 export default function HomePage4() {
   const services = [
@@ -14,39 +15,45 @@ export default function HomePage4() {
       title: "Private Beach & Pavilions",
       Icon: Beach,
       description:
-        "Enjoy our 350m private beach with free sun loungers or book a cabana or pavilion for extra comfort."
+        "Enjoy our 350m private beach with free sun loungers or book a cabana or pavilion for extra comfort.",
+        link:"/beachpools"
     },
     {
       title: "Pools for Every Mood",
       Icon: Pool,
       description:
-        "With 14 pools, including an infinity pool, relax pool, and two Aqua Parks, there’s a perfect spot for everyone."
+        "With 14 pools, including an infinity pool, relax pool, and two Aqua Parks, there’s a perfect spot for everyone.",
+           link:"/beachpools"
     },
     // 3. sırada World-Class Dining
     {
       title: "World-Class Dining",
       Icon: Dining,
       description:
-        "Enjoy a rich buffet selection and multiple à la carte options, featuring Turkish, Mediterranean, and international flavors."
+        "Enjoy a rich buffet selection and multiple à la carte options, featuring Turkish, Mediterranean, and international flavors.",
+        link:"/restaurants"
     },
     // 4. sırada Fun for Kids
     {
       title: "Fun for Kids",
       Icon: Panda,
       description:
-        "Bamboo Kids Club offers playgrounds, gaming rooms, and mini discos, plus a Kids’ Aqua Park with slides and water games."
+        "Bamboo Kids Club offers playgrounds, gaming rooms, and mini discos, plus a Kids’ Aqua Park with slides and water games.",
+        link:"/kidsclub"
     },
     {
       title: "Entertainment & Activities",
       Icon: Fireworks,
       description:
-        "From live shows and beach festivals to sports like volleyball and water polo, there’s something for everyone."
+        "From live shows and beach festivals to sports like volleyball and water polo, there’s something for everyone.",
+        link:"/entertainment"
     },
     {
       title: "Spa & Wellness",
       Icon: Spa,
       description:
-        "Relax with luxury spa treatments, a Turkish hammam, sauna, steam rooms, and professional fitness classes."
+        "Relax with luxury spa treatments, a Turkish hammam, sauna, steam rooms, and professional fitness classes.",
+        link:"/spawellness"
     }
   ]
 
@@ -72,9 +79,9 @@ export default function HomePage4() {
             className="flex gap-[15px] md:gap-[10px] lg:gap-[17px] items-center justify-center md:w-[92%] lg:w-[100%] xl:w-[98%]"
           >
             {/* İkon */}
-            <div className="shrink-0 items-center justify-center">
+            <Link href={service.link} className="shrink-0 items-center justify-center">
               <service.Icon width={50} height={50} />
-            </div>
+            </Link>
             {/* Başlık + açıklama */}
             <div className="flex flex-col gap-[4px] md:gap-[10px] lg:gap-[17px]">
               <h3 className="font-jost text-[16px] leading-normal lg:text-[18px] font-normal md:leading-[30px]">
@@ -90,9 +97,9 @@ export default function HomePage4() {
 
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
-        <button className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
+        <Link href="connect" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
           Discover More
-        </button>
+        </Link>
       </div>
       </div>
     </section>
