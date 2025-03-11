@@ -56,7 +56,7 @@ const newsItems = [
   {
     src: new7,
     subtitle: "Perfect Fine Dine Experiences",
-    title: "Piyano Bar",
+    title: "Piano Bar",
     description: "Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the ..."
   },
   {

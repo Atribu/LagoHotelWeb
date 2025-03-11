@@ -31,7 +31,7 @@ const otherOptions = [
       title: "Mignon Bar",
       description: "HOURS: 10:00 - 19:00 ",
       text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-      link:"/"
+      link:"/barcafes/mignonbar"
     },
   {
       id: 2,
@@ -47,7 +47,7 @@ const otherOptions = [
       title: "Maldiva Bar",
       description: "HOURS: 09:00 - 18:00",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/barcafes/maldivabar"
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const otherOptions = [
       title: "Vago Bar",
       description: "HOURS: 24 hours ",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/barcafes/vagobar"
     }
 ];
 
@@ -63,18 +63,18 @@ const otherOptions2 = [
   {
       id: 1,
       img: piano,
-      title: "Piyano Bar",
+      title: "Piano Bar",
       description: "HOURS: 10:00 - 00:00 ",
       text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-      link:"/"
+      link:"/barcafes/pianobar"
     },
   {
       id: 2,
       img: abella,
-      title: "Patisserie ABELLA",
+      title: "Abella Patisserie",
       description: "HOURS: 14:00 - 23:00",
       text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-      link:"/"
+      link:"/barcafes/abellapatisserie"
     },
     {
       id: 3,
@@ -82,7 +82,7 @@ const otherOptions2 = [
       title: "Cafe de Lago ",
       description: "HOURS: 08:00 - 23:00",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/barcafes/cafedelago"
     },
     {
       id: 4,
@@ -90,7 +90,7 @@ const otherOptions2 = [
       title: "Cafe de House",
       description: "HOURS: 08:00-23:00",
        text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-       link:"/"
+       link:"/barcafes/cafedehouse"
     }
 ];
 

@@ -17,7 +17,7 @@ const MainRestaurantSection = () => {
             <li>Dinner: 18:30 - 21:00</li>
         </ul>
         <Link
-            href="/restaurant"
+            href="/restaurants/mainrestaurant"
             className="text-[14px] lg:text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
             DISCOVER MORE

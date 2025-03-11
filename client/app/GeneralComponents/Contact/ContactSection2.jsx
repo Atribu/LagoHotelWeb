@@ -53,9 +53,9 @@ const ContactDetails = () => {
             <PiYoutubeLogoLight size={28} />
           </div>
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
-          <span className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
+          <Link href="https://lagohotel.orsmod.com/" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
             BOOK NOW
-          </span>
+          </Link>
         </div>
       </div>
     </div>

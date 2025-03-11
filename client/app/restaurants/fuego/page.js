@@ -40,7 +40,7 @@ const otherOptions = [
         title: "Anatolia",
         description: "CUISINE: International ",
         text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/"
+        link:"/anatoliarestaurant"
       },
     {
         id: 2,
@@ -48,7 +48,7 @@ const otherOptions = [
         title: "Wasabi",
         description: "CUISINE: Teppanyaki (Japanese)",
         text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/"
+        link:"/wasabi"
       },
       {
         id: 3,
@@ -56,7 +56,7 @@ const otherOptions = [
         title: "Despina",
         description: "CUISINE: Seafood and Fish ", 
          text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-         link:"/"
+         link:"/despinarestaurant"
       }
   ];
 

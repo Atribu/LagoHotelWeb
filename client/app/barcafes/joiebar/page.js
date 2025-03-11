@@ -4,9 +4,19 @@ import img1 from "./images/fresh1.webp"
 import img2 from "./images/fresh2.webp"
 import RoomTour from '@/app/rooms/familyswimup/components/RoomTour'
 import KidsMomentCarousel from '@/app/kidsclub/components/KidsMomentCarousel'
-import gallery2 from "./images/gallery1.webp"
+import gallery2 from "./images/gallery1.jpg"
 import gallery1 from "./images/gallery2.webp"
-import gallery3 from "./images/gallery3.webp"
+import gallery3 from "./images/gallery3.jpg"
+import gallery4 from "./images/img-16.jpg"
+import gallery5 from "./images/img-17.jpg"
+import gallery6 from "./images/img-18.jpg"
+import gallery7 from "./images/img-19.jpg"
+import gallery8 from "./images/img-20.jpg"
+import gallery9 from "./images/img-21.jpg"
+import gallery10 from "./images/SRF_4118.jpg"
+import gallery11 from "./images/SRF_4713.jpg"
+import gallery12 from "./images/SRF_4715.jpg"
+import gallery13 from "./images/SRF_4728.jpg"
 import ClinaryReverseInfo from '@/app/restaurants/components/ClinaryReverseInfo'
 import backgroundImg from "../images/BackgroundCafes.webp"
 import mignon from "../images/mignon.webp"
@@ -18,7 +28,7 @@ import OtherOptions4 from '../components/OtherOptions4'
 import ContactSection2 from '@/app/GeneralComponents/Contact/ContactSection2'
 import RestaurantMainBanner from '@/app/restaurants/components/RestaurantMainBanner'
 
-const galleryImages=[gallery1,gallery2,gallery3,gallery1,gallery2,gallery3];
+const galleryImages=[gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,gallery11,gallery12,gallery13];
 
 const otherOptions = [
     {

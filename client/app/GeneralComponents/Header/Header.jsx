@@ -67,7 +67,7 @@ export default function Header() {
               src={gradient4}
               width={gradient4.width}
               height={gradient4.header}
-              className="w-full h-[77px] "
+              className="w-full h-[110px] "
               alt="header"
             />
           </div>
