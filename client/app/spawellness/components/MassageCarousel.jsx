@@ -4,8 +4,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from 'next/image';
 
-const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
-  const imagesCombined = [...images, ...images,...images,...images,...images,...images]; 
+const MassageCarousel = ({ span, header, text, headers = [], images }) => {
+  const imagesCombined = [...images, ...images,...images,...images,...images,...images,...images]; 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       align: "start",

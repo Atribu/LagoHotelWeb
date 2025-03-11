@@ -1,5 +1,4 @@
 
-import MainBannerSection from '../GeneralComponents/MainBannerSection'
 import mainImg from "./images/mainSpa.webp"
 import SpaInfoSection from './components/SpaInfoSection'
 import SpaHeaderSection from './components/SpaHeaderSection'
@@ -29,11 +28,35 @@ import clasmassage from "./images/clasmassage.webp"
 import facial from "./images/masagefaci.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
+import Slider1 from "../HomePage/Components/Slider/Slider1"
+
+const sliderMassage = [
+  {
+    src: aromatic,
+    title: "Aromatherapy Massage",
+    link: "/",
+  },
+  {
+    src: oriental,
+    title: "Oriental Massage",
+    link: "/beachpools",
+  },
+  {
+    src: clasmassage,
+    title: "Classic Massage",
+    link: "/entertainment",
+  },
+  {
+    src: facial,
+    title: "FacialSpecai Massage",
+    link: "/restaurants",
+  }
+];
 
 const galleryImages=[gallery12,gallery3,gallery1,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,gallery10,gallery11,gallery13,gallery2]
 
 const massageImages=[aromatic, oriental, clasmassage, facial,]
-const massageHeaders=["Aromatherapy Massage","Oriental Massage","Classic Massage","FacialSpecai Massage"]
+const massageHeaders=["Aromatherapy Massage","Oriental Massage","Classic Massage","FacialSpecai Massage","Aromatherapy Massage","Oriental Massage","Classic Massage","FacialSpecai Massage"]
 
 const page = () => {
   const spaTextsInfo1=[" Perfect Fine Dine Experiences","  Wellness at LAGO Hotel","  For those looking to stay in shape while on vacation, you canunwind your body and soul by receiving a massage from a competent masseuse in our SPA after engaging in your daily sporting activities in our Fitness room, which we have equipped with professional equipment, or you can step back in time in the traditional Turkish Bath and relax in the Finnish Sauna."]
