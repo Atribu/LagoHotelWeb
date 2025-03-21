@@ -1,4 +1,10 @@
+
 {
+  "LocaleSwitcher": {
+    "label": "Dili Değiştir",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
+  },
+  
     "HomePage": {
       "title": "Merhaba world!",
       "about": "Go to tr the about page"

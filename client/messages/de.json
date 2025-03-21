@@ -1,4 +1,9 @@
 {
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
+  },
+
     "HomePage": {
       "title": "De Hellu world!",
       "about": "Go to the about page"
