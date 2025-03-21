@@ -188,6 +188,79 @@
       "callcenter":"Call Center: +90 242 524 57 87",
       "email":"Email: sales@lagohotel.com",
       "buttonText":"BOOK NOW"
+    },
+
+    "Restaurants":{
+      "subtitle":"Curated Culinary Experiences",
+      "title":"Restaurants",
+      "text":"Enjoy a various amount of dining options from around the world.",
+
+      "ClinaryInfoSection":{
+        "subtitle":" Perfect Fine Dine Experiences",
+        "title":"Culinary Art at LAGO",
+        "texts":{
+          "1":" At LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet featuring unique flavors from Turkish cuisine as well as fresh tastes reflecting the spirit of the Mediterranean.",
+          "2":"Main Restaurant: Breakfast, Lunch, and Dinner",
+          "3":"Bistro Restaurant: 24 Hours",
+          "4":"Snack Bars: 24 Hours"
+        }
+      },
+
+      "MainRestaurantSection":{
+        "subtitle":" A UNIQUE FEAST OF TASTE",
+        "title":"Magna Main Restaurant",
+        "text":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
+        "list1":" Breakfast: 07:00 - 10:30",
+        "list2":" Lunch: 12:30 - 14:00",
+        "list3":"Dinner: 18:30 - 21:00",
+        "buttonText":" DISCOVER MORE"
+      },
+
+      "CuisinesCarousel":{
+        "subtitle":" Perfect Fine Dine Experiences",
+        "title":" LAGO’s World Cuisines",
+        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":"CUISINE: Italian",
+        "cuisines2title":"Gusto",  
+        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of " ,
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
+        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+      },
+
+      "ClinaryReverseSection":{
+        "subtitle":" Perfect Fine Dine Experiences",
+        "title":" Bistro Restaurant",
+        "text1":" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates. Let’s learn more about this concept.",
+        "text2":" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."
+      },
+
+      "CuisinesCarousel2":{
+        "subtitle":" Perfect Fine Dine Experiences",
+        "title":" LAGO’s World Cuisines",
+        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
+        "cuisines1title":"Wasabi",
+         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":"CUISINE: ASIAN ",
+        "cuisines2title":"Fuego",   
+        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+        "cuisines3subtitle":" CUISINE: Spanish ",
+        "cuisines3title":"Tapaz",   
+        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+      },
+
+      "DiscoverBackground":{
+        "subtitle":"A UNIQUE FEAST OF TASTE",
+        "title":" Discover our Bars and Cafes",
+         "text":" At Lago Hotel's bars and cafes, enjoy delicious drinks and snacks any time of the day. Sip your cocktails to the sound of live music or take a coffee break to brighten your day.",
+         "buttonText":"DISCOVER MORE"
+      }
     }
 
 
