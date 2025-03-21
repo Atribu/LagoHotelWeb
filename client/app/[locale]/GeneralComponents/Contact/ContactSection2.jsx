@@ -5,44 +5,47 @@ import minigallery from "./images/minigallery2.png"
 import Link from 'next/link'
 import imgBackground from "./images/socialgalleryback3.webp"
 import { PiInstagramLogoLight, PiMetaLogoLight, PiFacebookLogoLight, PiYoutubeLogoLight } from "react-icons/pi";
+import {useTranslations} from 'next-intl';
 
 const ContactDetails = () => {
+  const t = useTranslations('ContactSection2');
+  
   return (
     <div className="flex flex-col justify-center items-center w-full md:w-[40%] md:pl-6">
       <div className="flex flex-col w-full max-w-[313px] items-center md:items-start justify-center gap-[20px] md:gap-[30px]">
         <span className="font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-          CONTACT US FOR MORE
+          {t('subtitle')}
         </span>
         <h2 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[36px] md:leading-[57.6px] lg:capsizedText2">
-          @LagoHotels
+        {t('title')}
         </h2>
         <p className="font-jost text-[14px] md:text-[16px] leading-[24px] underline-offset-2 flex flex-col gap-2 ">
           {/* Mobil görünüm (lg'den küçük) */}
           <span className="capsizedText4 lg:hidden">
-            Titreyengol, Sorgun / Manavgat/ Antalya / TR
+          {t('address')}
           </span>
           <span className="capsizedText4 lg:hidden">
-            Phone: <Link href="" className="underline">+90 242 756 99 00</Link>
+          {t('phone')}
           </span>
           <span className="capsizedText4 lg:hidden">
-            Call Center: <Link href="" className="underline">+90 242 524 57 87</Link>
+          {t('callcenter')}
           </span>
           <span className="capsizedText4 lg:hidden">
-            Email: <Link href="" className="underline">sales@lagohotel.com</Link>
+          {t('email')}
           </span>
 
           {/* Desktop görünüm (lg ve üstü) */}
           <span className="hidden lg:block">
-            Titreyengol, Sorgun / Manavgat/ Antalya / TR
+          {t('address')}
           </span>
           <span className="hidden lg:block">
-            Phone: <Link href="" className="underline">+90 242 756 99 00</Link>
+          {t('phone')}
           </span>
           <span className="hidden lg:block">
-            Call Center: <Link href="" className="underline">+90 242 524 57 87</Link>
+          {t('callcenter')}
           </span>
           <span className="hidden lg:block">
-            Email: <Link href="" className="underline">sales@lagohotel.com</Link>
+          {t('email')}
           </span>
         </p>
         <div className="flex gap-[20px] whitespace-nowrap">
@@ -54,7 +57,7 @@ const ContactDetails = () => {
           </div>
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
           <Link href="https://lagohotel.orsmod.com/" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">
-            BOOK NOW
+          {t('buttonText')}
           </Link>
         </div>
       </div>

@@ -103,6 +103,91 @@
     "accommodation":"Konaklama",
      "experiences":"Deneyimler"
     
+    },
+
+    "Accommodation":{
+      "header":" Oda Türleri",
+      "buttonText1":"Superior Oda",
+      "buttonText2":"Aile Odası",
+      "buttonText3":" Havuz Erişimli  Oda",
+      "buttonText4":"",
+      "buttonText5":"",
+      "buttonText6":"",
+      "subtitle":"  Sizin ve aileniz için konforlu bir konaklama",
+      "title":"Zarif konaklama seçeneklerimizi keşfedin ve konaklamanız için mükemmel alanı bulun.",
+      "text":" Lago Hotel'de deniz veya orman manzaralı odalarımızla konforlu bir konaklama sunuyoruz. Swim-up odalar, aile suitleri ve özel villalarımızla her ihtiyaca uygun seçenekler bulabilirsiniz. Modern tasarımlı odalarımızda rahatlık ve lüks bir arada. Unutulmaz bir tatil için doğru adrestesiniz!",
+      "checkin":"CHECK-IN: 14:00",
+      "checkout":"CHECK-OUT: 12:00",
+      
+      "RoomSection1":{
+        "title":"Süperior Oda",
+        "subtitle":"  Bu oda tipi, deniz veya orman manzaralı olup 30 - 32 m² büyüklüğündedir ve ana binada yer almaktadır. Odada 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 kanepe bulunmaktadır. Balkonu mevcuttur. Maksimum kapasite: 3 yetişkin + 1 çocuk.",
+        "m":"Kara/Deniz Manzarası",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection2":{
+        "title":"Aile Odası",
+        "subtitle":"  Ana binada bulunan bu Aile Odası, iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ara kapı, bir banyo ve balkondan oluşmaktadır. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"40-43 m2",
+        "view":"Kara/Deniz Manzarası",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection3":{
+        "title":"Swim-up Oda",
+        "subtitle":"  Swim-up Odalar, bir kanepe veya oturma alanı, havuz ve teras içermektedir. Orman manzaralı odalar paylaşımlı havuza erişim sunarken, deniz manzaralı odalar özel havuza sahiptir. Maksimum kapasite: 2 yetişkin + 2 çocuk veya 3 yetişkin + 1 çocuk.",
+        "m":"40-43 m2",
+        "view":"Kara/Deniz Manzarası",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection4":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection5":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+       "RoomSection6":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      }
+
+
+    },
+
+
+    "RoomsParallax":{
+      "subtitle":"  Oda İçi Temel Olanaklar",
+      "title":"  Odalarımız, konaklamanız için ihtiyacınız olan tüm temel olanaklara sahiptir.",
+      "text":"  Tüm temel olanaklarınız elinizin altında olacak şekilde sorunsuz bir konaklama deneyimi yaşayın. Günlük minibar yenilemelerinden premium banyo ürünlerine, güvenli oda erişimine ve kesintisiz eğlence için LED TV ve 24 saat WiFi'ye kadar, her an konforunuzu sağlıyoruz.",
+      "feature1":"Mini Bar",
+      "desc1":" Günlük yenilemeler su, alkolsüz içecekler, bira, meyveli süt, çikolata ve kraker içermektedir.",
+      "feature2":"Kozmetik Ürünler",
+      "desc2":"  Banyo temel ürünleri şampuan, saç kremi, duş jeli, sabun, lif, saç kurutma makinesi ve vücut kremi içermektedir.",
+      "feature3":"Oda Erişimi",
+      "desc3":"  Tüm kapı kilitleri, kolay erişim için kullanışlı bir çip bileklik anahtar sistemi ile güvenli bir şekilde çalışmaktadır.",
+      "feature4":"Wifi & LedTV",
+      "desc4":"  Uluslararası ve ulusal uydu kanalları, radyo ve 24 saat WiFi erişimi olan LED TV."
+    },
+
+    "ContactSection2":{
+      "subtitle":"  DAHA FAZLASI İÇİN BİZİMLE İLETİŞİME GEÇİN",
+      "title":"@LagoHotels",
+      "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
+      "phone":"Tel: +90 242 756 99 00",
+      "callcenter":"Call Center: +90 242 524 57 87",
+      "email":"Email: sales@lagohotel.com",
+      "buttonText":"HEMEN REZERVASYON YAP"
     }
 
   }

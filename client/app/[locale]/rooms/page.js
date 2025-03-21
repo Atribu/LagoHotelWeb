@@ -22,8 +22,16 @@ import imgTinyvilla2 from "./images/oda5-2.webp";
 import imgDuplex from "./images/oda6-1.webp";
 import imgDuplex2 from "./images/odalar6-2.webp";
 import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
+import {useTranslations} from 'next-intl';
 
 const page = () => {
+  const room1 = useTranslations('Accommodation.RoomSection1');
+  const room2 = useTranslations('Accommodation.RoomSection2');
+  const room3 = useTranslations('Accommodation.RoomSection3');
+  const room4 = useTranslations('Accommodation.RoomSection4');
+  const room5 = useTranslations('Accommodation.RoomSection5');
+  const room6 = useTranslations('Accommodation.RoomSection6');
+
   return (
     <div className="overflow-hidden flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]">
       <RoomsBanner />
@@ -32,22 +40,22 @@ const page = () => {
       id="superiorroom"
         img={imgSuperior}
         img2={imgSuperior2}
-        header=" Superior Room"
-        text=" This room type with sea or forest view is 30 - 32 m2 and is located
-            in the main building. The room has 1 double bed, 1 single bed and 1
-            sofa and has a balcony. Max capacity: 3 adults + 1 child."
-        span="30-32 m2"
-        span2="Land/Sea View"
+        header={room1('title')}
+        text={room1('subtitle')}
+         span={room1('m')}
+        span2={room1('view')}
+        buttonText={room1('buttonText')}
         link="/rooms/superiorroom" 
       />
       <RoomsSectionReverse
       id="familyroom"
         img={imgFamily}
         img2={imgFamily2}
-        header="Family Room"
-        text=" This Family Room in the main building features two bedrooms (one double bed, two single beds), a connecting door, a bathroom, and a balcony. Max capacity: 4 adults + 1 child."
-        span=" 40-43 m2"
-        span2="Land/Sea View"
+        header={room2('title')}
+        text={room2('subtitle')}
+         span={room2('m')}
+        span2={room2('view')}
+        buttonText={room2('buttonText')}
         link="/rooms/familyroom" 
       />
 
@@ -55,19 +63,21 @@ const page = () => {
       id="swimuproom"
         img={imgSwim}
         img2={imgSwim2}
-        header=" Swim-up Room"
-        text=" Swim-up Rooms include a sofa or seating area, pool, and terrace. Forest view rooms have shared pool access, while sea view rooms feature a private pool. Max capacity: 2 adults + 2 children or 3 adults + 1 child."
-        span="40-43 m2"
-        span2="Land/Sea View"
+        header={room3('title')}
+        text={room3('subtitle')}
+         span={room3('m')}
+        span2={room3('view')}
+        buttonText={room3('buttonText')}
         link="/rooms/swimuproom" 
       />
       <RoomsSectionReverse
         img={imgFamilySwim}
         img2={imgFamilySwim2}
-        header="Family Swim-up Room"
-        text="  Family Swim-up Rooms in the main building have 2 bedrooms (double bed + convertible  sofa), a bathroom, and a sitting area. Forest view rooms share a pool, while sea view rooms have a private one."
-        span=" 50-52 m2"
-        span2="Land/Sea View"
+        header={room4('title')}
+        text={room4('subtitle')}
+         span={room4('m')}
+        span2={room4('view')}
+        buttonText={room4('buttonText')}
         link="/rooms/familyswimup" 
       />
 
@@ -75,20 +85,22 @@ const page = () => {
       id="tinyvilla"
         img={imgTinyvilla}
         img2={imgTinyvilla2}
-        header=" Tiny Villa"
-        text=" Our garden villas feature 2 bedrooms, 2 bathrooms, and a seating area (50 m²), accommodating 4 guests (1 double, 2 single beds). Each has a terrace with seating and a private 24 m² pool with sun loungers, parasols, and a hammock."
-        span="100 m2"
-        span2="Land View"
+        header={room5('title')}
+        text={room5('subtitle')}
+         span={room5('m')}
+        span2={room5('view')}
+        buttonText={room5('buttonText')}
         link="/rooms/tinyvilla" 
       />
       <RoomsSectionReverse
       id="duplexfamilyroom"
         img={imgDuplex}
         img2={imgDuplex2}
-        header="Duplex Family Room"
-        text="  Duplex Family Room in the main building has 2 bedrooms, connected by an internal staircase, with a double bed, single bed, and convertible luxury sofa. Includes 2 bathrooms and 2 balconies. Max: 4 adults + 1 child."
-        span=" 45-49 m2"
-        span2="Land/Sea View"
+        header={room6('title')}
+        text={room6('subtitle')}
+         span={room6('m')}
+        span2={room6('view')}
+        buttonText={room6('buttonText')}
         link="/rooms/duplexfamilyroom" 
       />
 

@@ -102,6 +102,91 @@
     "accommodation":"Unterkunft",
      "experiences":"Erlebnisse"
     
+    },
+
+    "Accommodation":{
+      "header":" Zimmertypen",
+      "buttonText1":"Superior Zimmer",
+      "buttonText2":"Familienzimmer",
+      "buttonText3":"  Swim-up Zimmer",
+      "buttonText4":"",
+      "buttonText5":"",
+      "buttonText6":"",
+      "subtitle":"   Ein komfortabler Aufenthalt für Sie und Ihre Familie",
+      "title":" Entdecken Sie unsere raffinierten Unterkunftsmöglichkeiten und finden Sie den perfekten Raum für Ihren Aufenthalt.",
+      "text":" Im Lago Hotel bieten wir komfortable Unterkünfte mit Meeres- oder Waldblick. Swim-up-Zimmer, Familiensuiten und private Villen erfüllen jeden Bedarf. Unsere modernen Zimmer vereinen Komfort und Luxus. Für einen unvergesslichen Urlaub sind Sie hier richtig!",
+      "checkin":"CHECK-IN: 14:00",
+      "checkout":"CHECK-OUT: 12:00",
+      
+      "RoomSection1":{
+        "title":"Superior Zimmer",
+        "subtitle":"  Dieser Zimmertyp mit Meeres- oder Waldblick ist 30 - 32 m² groß und befindet sich im Hauptgebäude. Das Zimmer verfügt über 1 Doppelbett, 1 Einzelbett und 1 Sofa sowie einen Balkon. Maximale Kapazität: 3 Erwachsene + 1 Kind.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection2":{
+        "title":"Familienzimmer",
+        "subtitle":"   Dieses Familienzimmer im Hauptgebäude verfügt über zwei Schlafzimmer (ein Doppelbett, zwei Einzelbetten), eine Verbindungstür, ein Badezimmer und einen Balkon. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+        "m":"40-43 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection3":{
+        "title":"Swim-up Zimmer",
+        "subtitle":"  Swim-up Zimmer verfügen über ein Sofa oder Sitzbereich, einen Pool und eine Terrasse. Zimmer mit Waldblick bieten Zugang zu einem gemeinsamen Pool, während Zimmer mit Meerblick über einen privaten Pool verfügen. Maximale Kapazität: 2 Erwachsene + 2 Kinder oder 3 Erwachsene + 1 Kind.",
+        "m":"40-43 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection4":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection5":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+       "RoomSection6":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      }
+
+
+    },
+
+
+    "RoomsParallax":{
+      "subtitle":" Die wesentlichen Zimmerausstattungen",
+      "title":"   Unsere Zimmer verfügen über alle wesentlichen Dinge, die Sie für Ihren Aufenthalt benötigen.",
+      "text":"   Genießen Sie einen nahtlosen Aufenthalt mit allen wesentlichen Annehmlichkeiten direkt zur Hand. Von der täglichen Auffüllung der Minibar über hochwertige Badezimmerartikel, sicheren Zimmerzugang und ununterbrochene Unterhaltung mit LED-TV und 24-Stunden-WLAN – wir sorgen für Ihren Komfort in jedem Moment.",
+      "feature1":"Mini Bar",
+      "desc1":"  Die tägliche Auffüllung umfasst Wasser, alkoholfreie Getränke, Bier, Milch mit Frucht, Schokolade und einen Cracker.",
+      "feature2":"Kosmetikartikel",
+      "desc2":"   Die wesentlichen Badezimmerartikel umfassen Shampoo, Conditioner, Duschgel, Seife, Luffa-Schwamm, Haartrockner und Körpercreme.",
+      "feature3":"Zimmerzugang",
+      "desc3":"   Alle Türschlösser werden sicher mit einem praktischen Chip-Armband-Schlüsselsystem betrieben, um einen einfachen Zugang zu gewährleisten.",
+      "feature4":" WLAN & LED-TV",
+      "desc4":"  LED-TV mit internationalen und nationalen Satellitenkanälen, Radio und 24-Stunden-WLAN-Zugang."
+    },
+
+    "ContactSection2":{
+      "subtitle":"KONTAKTIEREN SIE UNS FÜR MEHR INFORMATIONEN",
+      "title":"@LagoHotels",
+      "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
+      "phone":"Phone: +90 242 756 99 00",
+      "callcenter":"Call Center: +90 242 524 57 87",
+      "email":"Email: sales@lagohotel.com",
+      "buttonText":"JETZT BUCHEN"
     }
 
   }

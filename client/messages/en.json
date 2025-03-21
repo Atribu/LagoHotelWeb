@@ -102,6 +102,93 @@
     "accommodation":"Accommodation",
    "experiences":"Experiences"
     
+    },
+
+    "Accommodation":{
+      "header":"Room Types",
+      "buttonText1":"Superior Room",
+      "buttonText2":"Family Room",
+      "buttonText3":" Swim-up Room",
+      "buttonText4":"",
+      "buttonText5":"",
+      "buttonText6":"",
+      "subtitle":" Comfort stay for you and your family",
+      "title":"Explore our refined accommodation options and find the perfect space for your stay.",
+      "text":"At Lago Hotel, we offer comfortable stays with sea or forest view rooms. Swim-up rooms, family suites, and private villas cater to every need. Our modern-designed rooms combine comfort and luxury. For an unforgettable holiday, you're in the right place!",
+      "checkin":"CHECK-IN: 14:00",
+      "checkout":"CHECK-OUT: 12:00",
+      
+      "RoomSection1":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore",
+        "link":"/en/"
+      },
+      "RoomSection2":{
+        "title":"Family Room",
+        "subtitle":" This Family Room in the main building features two bedrooms (one double bed, two single beds), a connecting door, a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
+        "m":"40-43 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore"
+      },
+      "RoomSection3":{
+        "title":"Swim-up Room",
+        "subtitle":"  Swim-up Rooms include a sofa or seating area, pool, and terrace. Forest view rooms have shared pool access, while sea view rooms feature a private pool. Max capacity: 2 adults + 2 children or 3 adults + 1 child.",
+        "m":"40-43 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore"
+      },
+      "RoomSection4":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore"
+      },
+      "RoomSection5":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore"
+      },
+       "RoomSection6":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Explore"
+      }
+
+
+    },
+
+
+    "RoomsParallax":{
+      "subtitle":" The Essential In-Room AmenitieS",
+      "title":" Our rooms have all the essentials you need for your stay.",
+      "text":" Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.",
+      "feature1":"Mini Bar",
+      "desc1":"Daily replenishments include water, soft drinks, beer, milk with fruit, chocolate, and a cracker.",
+      "feature2":"Cosmetics",
+      "desc2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, loofah, hairdryer, and body cream.",
+      "feature3":"Room Access",
+      "desc3":" All door locks are securely operated using a convenient chip bracelet key system for easy access.",
+      "feature4":"Wifi & LedTV",
+      "desc4":" LED TV with international and national satellite channels, radio, and 24-hour WiFi access."
+    },
+
+    "ContactSection2":{
+      "subtitle":" CONTACT US FOR MORE",
+      "title":"@LagoHotels",
+      "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
+      "phone":"Phone: +90 242 756 99 00",
+      "callcenter":"Call Center: +90 242 524 57 87",
+      "email":"Email: sales@lagohotel.com",
+      "buttonText":"BOOK NOW"
     }
+
 
   }

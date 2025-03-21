@@ -4,8 +4,11 @@ import MinibarSvg from "./svg/MinibarSvg";
 import FoundationSvg from "./svg/FoundationSvg";
 import WatchSvg from "./svg/WatchSvg";
 import TvSvg from "./svg/TvSvg";
+import {useTranslations} from 'next-intl';
 
 const RoomsParallaxSection = () => {
+  const t = useTranslations('RoomsParallax');
+  
   return (
     <div
       className="relative flex flex-col xl:flex-row items-center justify-center min-h-[700px] xl:min-h-[610px] w-full bg-cover bg-center parallax "
@@ -18,7 +21,7 @@ const RoomsParallaxSection = () => {
       <div className="z-50 w-[87.79%] md:w-[91.4%] xl:w-[76.8%] flex flex-col items-center justify-center gap-[15px] lg:gap-[38px] font-jost text-white text-center lg:text-left">
         {/* Tagline */}
         <span className="uppercase text-[12px] font-medium leading-[14px] tracking-[0.48px] w-full pt-6 ml-[1.5%]">
-          The Essential In-Room AmenitieS
+         {t('subtitle')}
         </span>
 
         {/* İçerik kolonlarının bulunduğu wrapper */}
@@ -27,7 +30,7 @@ const RoomsParallaxSection = () => {
           <div className="w-full xl:w-[537px] flex flex-col items-center lg:items-start lg:text-start justify-center gap-[18px] lg:gap-[38px] xl:gap-[68px]">
             {/* Başlık */}
             <h3 className="font-marcellus font-normal text-[28px] lg:text-[36px] leading-[120%] lg:leading-[49px] md:leading-[42px] -tracking-[0.792px]">
-              Our rooms have all the essentials you need for your stay.
+            {t('title')}
             </h3>
 
             {/* Mini Bar ve Cosmetics grid */}
@@ -36,20 +39,20 @@ const RoomsParallaxSection = () => {
               <div className="w-full xl:w-[249px] flex flex-col items-center lg:items-start lg:text-start justify-center gap-[15px]">
                 <MinibarSvg className="flex" width={38} height={38} />
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px] ">
-                  Mini Bar
+                {t('feature1')}
                 </h5>
                 <p className="text-[12px] lg:text-[14px] md:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
-                  Daily replenishments include water, soft drinks, beer, milk with fruit, chocolate, and a cracker.
+                {t('desc1')}
                 </p>
               </div>
               {/* Cosmetics */}
               <div className="w-full xl:w-[249px] flex flex-col items-center lg:items-start lg:text-start  justify-center gap-[15px]">
                 <FoundationSvg className="flex" width={40} height={40} />
                 <h5 className="lg:text-[18px] text-[16px] font-normal leading-normal lg:leading-[30px]">
-                  Cosmetics
+                {t('feature2')}
                 </h5>
                 <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
-                  Bathroom essentials include shampoo, conditioner, shower gel, soap, loofah, hairdryer, and body cream.
+                {t('desc2')}
                 </p>
               </div>
             </div>
@@ -59,7 +62,7 @@ const RoomsParallaxSection = () => {
           <div className="w-full xl:w-[533px] flex flex-col items-center xl:items-start justify-center lg:text-start gap-[38px] xl:gap-[68px]">
             {/* Açıklama Paragrafı */}
             <p className="lg:text-[16px] text-[14px] font-normal leading-normal -tracking-[0.352px] max-w-[600px]">
-              Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.
+            {t('text')}
             </p>
 
             {/* Room Access ve Wifi & LedTV grid */}
@@ -68,20 +71,20 @@ const RoomsParallaxSection = () => {
               <div className="w-full xl:w-[249px] flex flex-col items-center lg:items-start lg:text-start  justify-center gap-[15px]">
                 <WatchSvg className="flex" width={40} height={40} />
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px]">
-                  Room Access
+                {t('feature3')}
                 </h5>
                 <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
-                  All door locks are securely operated using a convenient chip bracelet key system for easy access.
+                {t('desc3')}.
                 </p>
               </div>
               {/* Wifi & LedTV */}
               <div className="w-full xl:w-[249px] flex flex-col items-center lg:items-start lg:text-start justify-center gap-[15px]">
                 <TvSvg className="flex" width={43} height={43} />
                 <h5 className="text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[30px]">
-                  Wifi & LedTV
+                {t('feature4')}
                 </h5>
                 <p className="text-[12px] lg:text-[14px] font-normal leading-[130%] lg:leading-[21px] w-full md:w-[70%] lg:w-full">
-                  LED TV with international and national satellite channels, radio, and 24-hour WiFi access.
+                {t('desc4')}
                 </p>
               </div>
             </div>
