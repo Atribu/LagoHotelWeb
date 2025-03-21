@@ -4,9 +4,105 @@
     "label": "Dili Değiştir",
     "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
   },
-  
-    "HomePage": {
-      "title": "Merhaba world!",
-      "about": "Go to tr the about page"
+
+"Header":{
+  "contact":"İletişim",
+  "booknow":"Rezervasyon Yap",
+  "accommodation":"Konaklama",
+  "restaurants":"Restoranlar",
+  "beachPools":"Plaj ve Havuzlar",
+   "experiences":"Deneyimler",
+    "kids":"Çocuklar"
+
+},
+
+  "HomePage": {
+    "subtitle": "Konfor, kalite, sınırsız ve kusursuz hizmet",
+    "title":"Lago Hotel'e hoş geldiniz",
+    "text": " We offer you a pleasant holiday experience that will feel like home in our rooms designed in accordance with varied tastes and needs, merging beauty and comfort with their eye-catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. Come to LAGO where everything is possible.",
+    "discovermore":"DAHA FAZLASINI KEŞFET",
+
+    "EmblaCarousel":{
+      "accommodation":"Konaklama",
+  "restaurants":"Restoranlar",
+  "beachPools":"Plaj ve Havuzlar",
+   "experiences":"Deneyimler",
+    "kids":"Çocuklar"
+    },
+
+    "TwoAnimationSection":{
+    "subtitle":" Mükemmel Gurme Deneyimleri",
+    "title":"Yeşil ile mavinin buluştuğu yer",
+    "text": "  En büyüleyici mavi tonların kumları üzerinde yer alan 350 m uzunluğundaki altın sarısı plajıyla LAGO, size unutulmaz bir tatil sunacak.",
+    "text2":"LAGO'nun derin mavi dünyasında, farklı boyutlardaki havuzlarda serinlemenin tadını çıkarın. Tesiste ısıtmalı bir kapalı yüzme havuzu bulunmaktadır ve açık yüzme havuzunun bulunduğu alanda ayrıca ısıtmalı bir relax havuzu da yer almaktadır.",
+    "buttonText":"Galeriye Git"
+    },
+
+    "Accommodation":{
+      "subtitle":" Konaklama türünüzü seçin",
+      "title":" Lüks Konaklama Deneyimi"
+    },
+
+    "Essentials":{
+      "subtitle":" Sunduğumuz Hizmetleri Keşfedin",
+      "title":"  Konforlu Bir Konaklama İçin Tüm Gerekli Malzemeler",
+
+      "title1":" Özel Plaj ve Pavyonlar",
+      "text1":"   70 metrelik özel plajımızda rahatlayın veya özel kulübeleri, güneşlenme alanları ve rahat şezlonglarıyla 200 metrelik özel iskelede keyfinize bakın.",
+      "title2":" Her Ruh Haline Uygun Havuzlar",
+      "text2":"   Açık ve ısıtmalı kapalı havuzlarımızın yanı sıra 4 kaydıraklı bir Aqua Park ve kaydıraklı çocuk havuzlarının keyfini çıkarın.",
+      "title3":" Dünya Standartlarında Yemek Deneyimi",
+      "text3":"  Türk, Akdeniz ve uluslararası mutfağın sunulduğu ultra her şey dahil büfelerin ve A la Carte restoranların keyfini çıkarın.",
+      "title4":" Çocuklar İçin Eğlence",
+      "text4":"  Mini Kulüp (4-12 yaş), oyun alanları, oyun odaları, mini diskolar ve restoranda çocuklar için büfe sunmaktadır.",
+      "title5":" Eğlence ve Aktiviteler",
+      "text5":"   Canlı gösteriler ve sporlardan havuz oyunları ve plaj eğlencesine kadar herkes için bir şeyler var. Masa tenisi ve voleybol deneyin.",
+      "title6":"Spa & Wellness",
+      "text6":"   Hamam, sauna, buhar odası ve masajlarla Symphony Spa'da rahatlayın. Ayrıca bir fitness merkezi de mevcuttur.",
+      "buttonText":"DAHA FAZLASINI KEŞFET"
+      
+    },
+
+    "Banner":{
+      "subtitle":" EŞSİZ BİR LEZZET ŞÖLENİ",
+      "title":"  Yeşil ile Mavinin Buluştuğu Yer",
+      "text":"  LAGO Hotels'te doğanın büyüsü ve lezzetin uyumu bir arada! Yeşilin ve mavinin buluştuğu bu cennet köşesinde, unutulmaz bir tatil deneyimi sizi bekliyor.",
+      "discovermore":"DAHA FAZLASINI KEŞFET"
     }
+  },
+
+
+  "ContactSection":{
+    "subtitle":"  Daha fazlası için bizi takip edin",
+    "title":"@LagoHotels",
+    "text":"  LAGO Hotels'te konfor ve lüks bir arada! Eşsiz manzaralar, geniş odalar, lezzetli mutfak seçenekleri ve keyifli aktivitelerle unutulmaz bir tatil deneyimi sizi bekliyor. Hemen rezervasyon yapın!",
+    "buttonText":" Şimdi Rezervasyon Yap"
+  },
+
+
+  "Footer":{
+    "category1":" Hızlı Menü",
+    "home":" Ana Sayfa",
+    "service":"Hizmet",
+    "portfolio":"Portföy",
+    "product":"Ürün",
+    "blog":"Blog",
+    "faq":"SSS",
+    "category2":" Şartlar ve Koşullar",
+    "policy":" Gizlilik Politikası",
+    "bookings":" Rezervasyonlar ve İptaller",
+    "terms":" Web Sitesi Şartları",
+    "category3":"Şirket",
+    "aboutcompany":" Şirket Hakkında",
+    "phone":"Tel: +90 242 756 99 00",
+    "email":"E-posta: info@lagohotels.com",
+    "address":" Adres: Titreyengöl Mevkii Sorgun Manavgat/ Antalya / TR",
+    "termsuse":"Terms of Use",
+    "notice":"Privacy Notice",
+    "sustainability":"Sürdürülebilirlik",
+    "accommodation":"Konaklama",
+     "experiences":"Deneyimler"
+    
+    }
+
   }

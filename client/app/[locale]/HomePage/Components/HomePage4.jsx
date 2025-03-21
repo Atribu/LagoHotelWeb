@@ -8,51 +8,54 @@ import Panda from "./Icons/Panda"
 import Pool from "./Icons/Pool"
 import Spa from "./Icons/Spa"
 import Link from "next/link"
+import {useTranslations} from 'next-intl';
 
 export default function HomePage4() {
+  const t = useTranslations('HomePage.Essentials');
+
   const services = [
     {
-      title: "Private Beach & Pavilions",
+      title:  t('title1'),
       Icon: Beach,
       description:
-        "Enjoy our 350m private beach with free sun loungers or book a cabana or pavilion for extra comfort.",
+      t('text1'),
         link:"/beachpools"
     },
     {
-      title: "Pools for Every Mood",
+      title:  t('title2'),
       Icon: Pool,
       description:
-        "With 14 pools, including an infinity pool, relax pool, and two Aqua Parks, there’s a perfect spot for everyone.",
+      t('text2'),
            link:"/beachpools"
     },
     // 3. sırada World-Class Dining
     {
-      title: "World-Class Dining",
+      title:  t('title3'),
       Icon: Dining,
       description:
-        "Enjoy a rich buffet selection and multiple à la carte options, featuring Turkish, Mediterranean, and international flavors.",
+      t('text3'),
         link:"/restaurants"
     },
     // 4. sırada Fun for Kids
     {
-      title: "Fun for Kids",
+      title:  t('title4'),
       Icon: Panda,
       description:
-        "Bamboo Kids Club offers playgrounds, gaming rooms, and mini discos, plus a Kids’ Aqua Park with slides and water games.",
+      t('text4'),
         link:"/kidsclub"
     },
     {
-      title: "Entertainment & Activities",
+      title:  t('title5'),
       Icon: Fireworks,
       description:
-        "From live shows and beach festivals to sports like volleyball and water polo, there’s something for everyone.",
+      t('text5'),
         link:"/entertainment"
     },
     {
-      title: "Spa & Wellness",
+      title:  t('title6'),
       Icon: Spa,
       description:
-        "Relax with luxury spa treatments, a Turkish hammam, sauna, steam rooms, and professional fitness classes.",
+      t('text6'),
         link:"/spawellness"
     }
   ]
@@ -62,13 +65,12 @@ export default function HomePage4() {
       {/* Üst küçük başlık */}
       <div className="flex flex-col 2xl:w-[1106px] w-[87.79%] md:w-[91.4%] xl:w-[76.8%] items-start ml-[6.1%] md:ml-[4.3%] xl:ml-[11.6%] justify-center gap-[15px] md:gap-[25px] lg:gap-[35px] text-lagoBlack">
       <p className="text-[12px] leading-[14px] tracking-[0.48px] uppercase font-medium font-jost">
-        Discover the services we offer
+     {t('subtitle')}
       </p>
 
       {/* Büyük başlık */}
       <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] lg:capsizedText2 lg:w-[60%]">
-        All the Essentials for a
-        Comfortable Stay
+      {t('title')}
       </h2>
 
       {/* İkon + metin grid (2 satır x 3 sütun) */}
@@ -98,7 +100,7 @@ export default function HomePage4() {
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
         <Link href="connect" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
-          Discover More
+        {t('buttonText')}
         </Link>
       </div>
       </div>

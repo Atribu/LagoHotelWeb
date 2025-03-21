@@ -4,8 +4,10 @@ import Image from "next/image";
 import img1 from "./Images/sag3.jpg";
 import img2 from "./Images/sol3.jpg";
 import Link from "next/link";
+import {useTranslations} from 'next-intl';
 
-const TwoAnimationImage = ({ span, header, text1, text2 }) => {
+const TwoAnimationImage = () => {
+  const t = useTranslations('HomePage.TwoAnimationSection');
   const [animate, setAnimate] = useState(false);
   const sectionRef = useRef(null); 
 
@@ -35,30 +37,25 @@ const TwoAnimationImage = ({ span, header, text1, text2 }) => {
       <div className="flex flex-col md:flex-row-reverse w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
         <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
           <span className="text-[12px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
-            Perfect Fine Dine Experiences
+          {t('subtitle')}
           </span>
           <h2 className="hidden lg:flex lg:text-[48.089px] font-normal font-marcellus md:leading-normal lg:leading-[57.707px] capsizedText2">
-            Where green and blue meets
+          {t('title')}
           </h2>
           <h2 className="text-[28px] md:text-[32px] lg:text-[48.089px] font-normal font-marcellus md:leading-normal lg:hidden capsizedText2">
-             Exclusive Holiday 
+          {t('title')}
           </h2>
           <p className="text-[14px] md:text-[13.943px] lg:text-[16.03px] font-normal leading-[130%] lg:leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
-            With its 350 m long golden yellow beach located on the sands of the
-            most breathtaking blue hues, LAGO will provide you with an
-            unforgettable holiday.
+          {t('text')}
           </p>
           <p className="text-[14px] md:text-[13.943px] lg:text-[16.03px] font-normal leading-[130%] lg:leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
-            Enjoy cooling off in pools of different sizes in the deep blue world
-            of LAGO. The facility has a heated indoor pool, and there is also a
-            heated relax pool in the area where the outdoor swimming pool is
-            located.
+          {t('text2')}
           </p>
           <Link
             href="/gallery"
             className="flex py-[16px] px-[32px] items-center justify-center text-center text-[14px] lg:text-[16px] h-[38px] md:h-[37.88px] lg:h-[41px] text-lagoBrown uppercase md:leading-[29.878px] leading-[30px] font-medium border border-lagoBrown shadow-buttonCustom hover:bg-lagoBrown hover:underline hover:text-white"
           >
-            Go to gallery
+             {t('buttonText')}
           </Link>
         </div>
 

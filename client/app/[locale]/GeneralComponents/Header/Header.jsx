@@ -17,8 +17,10 @@ import Form from "../Form";
 import { RxCross2 } from "react-icons/rx";
 import panda from "./Icons/panda.png"
 import LangSwitcher from "@/LangSwitcher";
+import {useTranslations} from 'next-intl';
 
 export default function Header() {
+  const t = useTranslations('Header');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
@@ -132,7 +134,7 @@ export default function Header() {
                 h-[41px]
               "
             >
-              Contact
+            {t('contact')}
             </Link>
             <Link
             href="https://lagohotel.orsmod.com/"
@@ -158,7 +160,7 @@ export default function Header() {
                  font-jost
               "
             >
-              Book Now
+              {t('booknow')}
             </Link>
           </div>
         </div>
@@ -227,7 +229,7 @@ export default function Header() {
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
                 className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
               >
-                ACCOMODATION
+                {t('accommodation')}
                 <IoMdArrowDropdown
                   className={`w-4 h-4 transition-transform ${
                     isRoomsOpen ? "rotate-180" : "rotate-0"
@@ -286,13 +288,13 @@ export default function Header() {
               href="/beachpools"
               className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              BEACH & POOL
+             {t('beachPools')}
             </Link>
             <Link
               href="/restaurants"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              RESTAURANTS
+               {t('restaurants')}
             </Link>
             <Link
               href="/barcafes"
@@ -304,13 +306,13 @@ export default function Header() {
               href="/entertainment"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              EXPERIENCES
+              {t('experiences')}
             </Link>
             <Link
               href="/kidsclub"
               className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              KIDS CLUB
+                {t('kids')}
               <Image src={panda} alt="KidIcon" width={23} height={28} />
             </Link>
             <Link

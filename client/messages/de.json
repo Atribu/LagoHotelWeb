@@ -4,8 +4,104 @@
     "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
   },
 
-    "HomePage": {
-      "title": "De Hellu world!",
-      "about": "Go to the about page"
+"Header":{
+  "contact":"Kontakt",
+  "booknow":"Jetzt buchen",
+  "accommodation":"Unterkunft",
+  "restaurants":"Restaurants",
+  "beachPools":"Strand & Pools",
+   "experiences":"Erlebnisse",
+    "kids":"Kinder"
+
+},
+
+  "HomePage": {
+    "subtitle": " Der Komfort, Qualität, endloser und makelloser Service",
+    "title":"Willkommen im Lago Hotel",
+    "text": "  Wir bieten Ihnen ein angenehmes Urlaubserlebnis, das sich wie zu Hause anfühlt, in unseren Zimmern, die nach verschiedenen Geschmäckern und Bedürfnissen gestaltet sind und Schönheit und Komfort mit ihren auffälligen Designs und effizienten Strukturen verbinden. Genießen Sie das Abkühlen in Pools verschiedener Größen in der tiefblauen Welt von LAGO. Kommen Sie zu LAGO, wo alles möglich ist.",
+    "discovermore":"ENTDECKE MEHR",
+
+    "EmblaCarousel":{
+      "accommodation":"Unterkunft",
+      "restaurants":"Restaurants",
+      "beachPools":"Strand & Pools",
+       "experiences":"Erlebnisse",
+        "kids":"Kinder"
+    },
+
+    "TwoAnimationSection":{
+    "subtitle":" Perfekte Fine-Dining-Erlebnisse",
+    "title":" Wo Grün und Blau sich treffen",
+    "text": " Mit seinem 350 m langen goldenen Strand, der auf dem Sand der atemberaubendsten Blautöne liegt, wird LAGO Ihnen einen unvergesslichen Urlaub bieten.",
+    "text2":"  Genießen Sie das Abkühlen in Pools verschiedener Größen in der tiefblauen Welt von LAGO. Die Anlage verfügt über einen beheizten Innenpool, und es gibt auch einen beheizten Entspannungspool im Bereich des Außenschwimmbeckens.",
+    "buttonText":" Zur Galerie gehen"
+    },
+
+    "Accommodation":{
+      "subtitle":" Wählen Sie Ihre Unterkunftsart",
+      "title":" Luxus-Aufenthalt-Erlebnis"
+    },
+
+    "Essentials":{
+      "subtitle":" Entdecken Sie die Dienstleistungen, die wir anbieten",
+      "title":"  Alles Notwendige für einen komfortablen Aufenthalt",
+
+      "title1":" Privatstrand & Pavillons",
+      "text1":"   Entspannen Sie sich an unserem 70 m langen Privatstrand oder genießen Sie den exklusiven 200 m langen Steg mit privaten Lodges, Sonnenbereichen und bequemen Liegen.",
+      "title2":" Pools für jede Stimmung",
+      "text2":"  Genießen Sie unsere Außen- und beheizten Innenpools sowie einen Aqua-Park mit 4 Rutschen und Kinderbecken mit Rutschen.",
+      "title3":"Gastronomie auf Weltniveau",
+      "text3":"   Genießen Sie ultra-all-inclusive-Buffets und À-la-carte-Restaurants mit türkischer, mediterraner und internationaler Küche.",
+      "title4":" Spaß für Kinder",
+      "text4":"   Der Mini-Club (4-12 Jahre) bietet Spielplätze, Spielzimmer, Mini-Discos und ein Kinderbüffet im Restaurant.",
+      "title5":" Unterhaltung & Aktivitäten",
+      "text5":"   Von Live-Shows und Sport über Poolspiele bis hin zum Strandspaß ist für jeden etwas dabei. Probieren Sie Tischtennis und Volleyball aus.",
+      "title6":"Spa & Wellness",
+      "text6":"  Entspannen Sie sich im Symphony Spa mit einem Hammam, einer Sauna, einem Dampfbad und Massagen. Ein Fitnesscenter ist ebenfalls verfügbar.",
+      "buttonText":"Discover More"
+      
+    },
+
+    "Banner":{
+      "subtitle":"  EIN EINZIGARTIGES GESCHMACKSERLEBNIS",
+      "title":" Wo Grün und Blau sich treffen",
+      "text":" At LAGO Hotels, the magic of nature and the harmony of flavors come together! In this paradise where green and blue meet, an unforgettable holiday experience awaits you.",
+      "discovermore":"ENTDECKE MEHR"
     }
+   
+  },
+
+  "ContactSection":{
+    "subtitle":"  Folgen Sie uns für mehr",
+    "title":"@LagoHotels",
+    "text":"   Im LAGO Hotels vereinen sich die Magie der Natur und die Harmonie der Geschmäcker! In diesem Paradies, wo Grün und Blau sich treffen, erwartet Sie ein unvergessliches Urlaubserlebnis.",
+    "buttonText":" Jetzt buchen"
+  },
+
+
+  "Footer":{
+    "category1":" Schnellmenü",
+    "home":"Startseite",
+    "service":"Service",
+    "portfolio":"Portfolio",
+    "product":"Produkt",
+    "blog":"Blog",
+    "faq":"FAQ",
+    "category2":" Allgemeine Geschäftsbedingungen",
+    "policy":"Datenschutzrichtlinie",
+    "bookings":"  Buchungen & Stornierungen",
+    "terms":" Website-Bedingungen",
+    "category3":"Unternehmen",
+    "aboutcompany":" Über das Unternehmen",
+    "phone":"Phone: +90 242 756 99 00",
+    "email":"Email: info@lagohotels.com",
+    "address":" Address: Titreyengöl Mevkii Sorgun Manavgat/ Antalya / TR",
+    "termsuse":"Terms of Use",
+    "notice":"Privacy Notice",
+    "sustainability":"Nachhaltigkeit",
+    "accommodation":"Unterkunft",
+     "experiences":"Erlebnisse"
+    
+    }
+
   }

@@ -1,11 +1,9 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import {
   FaInstagram,
-  FaLinkedinIn,
   FaFacebook,
-  FaTwitter,
   FaYoutube,
   FaTripadvisor
 } from "react-icons/fa";
@@ -17,12 +15,11 @@ import LocationSvg from "./LocationSvg";
 import MessageSvg from "./MessageSvg";
 import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown";
 import DgtlfaceSvg from "./DgtlfaceSvg";
-import TripadvisorSvg from "./TripadvisorSvg";
 import BSvg from "./BSvg";
-import FacebookSvg from "../Contact/icons/FacebookSvg";
-import B2SVG from "./B2SVG";
+import {useTranslations} from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('Footer');
   const [isRoomsOpen, setIsRoomsOpen] = useState(false);
   const [isMoreOpen, setIsMoreOpen] = useState(false);
 
@@ -35,57 +32,53 @@ export default function Footer() {
             {/* QUICK MENU */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                QUICK MENU
+               {t('category1')}
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-                <li className="hover:text-white cursor-pointer">Home</li>
-                <li className="hover:text-white cursor-pointer">Service</li>
-                <li className="hover:text-white cursor-pointer">Portfolio</li>
-                <li className="hover:text-white cursor-pointer">Product</li>
+                <li className="hover:text-white cursor-pointer">{t('home')}</li>
+                <li className="hover:text-white cursor-pointer">{t('service')}</li>
+                <li className="hover:text-white cursor-pointer">{t('portfolio')}</li>
+                <li className="hover:text-white cursor-pointer">{t('product')}</li>
                 <li className="hover:text-white cursor-pointer">
                   <Link href="/news">Blog</Link>
                 </li>
-                <li className="hover:text-white cursor-pointer">FAQ</li>
+                <li className="hover:text-white cursor-pointer">{t('faq')}</li>
               </ul>
             </div>
 
             {/* TERM & CONDITIONS */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                TERM & CONDITIONS
+              {t('category2')}
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                  Privacy Policy
+                {t('policy')}
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Bookings & Cancellations
+                {t('bookings')}
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Website Terms
+                {t('terms')}
                 </li>
-                <li className="hover:text-white cursor-pointer">Product</li>
-                <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
-                </li>
-                <li className="hover:text-white cursor-pointer">FAQ</li>
+                
               </ul>
             </div>
 
             {/* COMPANY */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-                COMPANY
+              {t('category3')}
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                  About Company
+                {t('aboutcompany')}
                 </li>
                 <li className="hover:text-white cursor-pointer">
                   <Link href="/connect">Contact</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                  Terms & Condition
+                {t('category2')}
                 </li>
                 <li className="hover:text-white cursor-pointer">Help Center</li>
               </ul>
@@ -97,18 +90,14 @@ export default function Footer() {
                 <Link href="/connect">Contact</Link>
               </h4>
               <div className="flex flex-col gap-[24px]">
-                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Phone: <span className="underline">+90 242 756 99 00</span>
+                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] underline">
+                {t('phone')}
                 </p>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
-                  Email: info@lagohotels.com
+                {t('email')}
                 </p>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] ">
-                  Address: Titreyengöl
-                  <br />
-                  Mevkii Sorgun Manavgat/
-                  <br />
-                  Antalya / TR
+                {t('address')}
                 </p>
               </div>
             </div>
@@ -138,13 +127,13 @@ export default function Footer() {
           {/* Alt linkler */}
           <div className="flex flex-col xl:flex-row items-center gap-6 whitespace-nowrap text-lagoGray2">
             <a href="#" className="hover:underline">
-              Terms of Use
+            {t('termsuse')}
             </a>
             <a href="#" className="hover:underline">
-              Privacy Notice
+            {t('notice')}
             </a>
             <a href="#" className="hover:underline">
-              Sustainability
+            {t('sustainability')}
             </a>
           </div>
         </div>
@@ -229,53 +218,49 @@ export default function Footer() {
         <div className="flex gap-[30px] items-start justify-center w-[90%] ml-[10%]">
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              QUICK MENU
+            {t('category1')}
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">Home</li>
-              <li className="hover:text-white cursor-pointer">Service</li>
-              <li className="hover:text-white cursor-pointer">Portfolio</li>
-              <li className="hover:text-white cursor-pointer">Product</li>
+              <li className="hover:text-white cursor-pointer">{t('home')}</li>
+              <li className="hover:text-white cursor-pointer">{t('service')}</li>
+              <li className="hover:text-white cursor-pointer">{t('portfolio')}</li>
+              <li className="hover:text-white cursor-pointer">{t('product')}</li>
               <li className="hover:text-white cursor-pointer">
-                <Link href="/news">Blog</Link>
+                <Link href="/news">{t('blog')}</Link>
               </li>
-              <li className="hover:text-white cursor-pointer">FAQ</li>
+              <li className="hover:text-white cursor-pointer">{t('faq')}</li>
             </ul>
           </div>
 
           {/* TERM & CONDITIONS */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              TERM & CONDITIONS
+            {t('category2')}
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
               <li className="hover:text-white cursor-pointer">
-                Privacy Policy
+              {t('policy')}
               </li>
               <li className="hover:text-white cursor-pointer">
-                Bookings & Cancellations
+              {t('bookings')}
               </li>
-              <li className="hover:text-white cursor-pointer">Website Terms</li>
-              <li className="hover:text-white cursor-pointer">Product</li>
-              <li className="hover:text-white cursor-pointer">
-                <Link href="/news">Blog</Link>
-              </li>
-              <li className="hover:text-white cursor-pointer">FAQ</li>
+              <li className="hover:text-white cursor-pointer">{t('terms')}</li>
+             
             </ul>
           </div>
 
           {/* COMPANY */}
           <div className="flex flex-col items-start justify-start text-start gap-[40px] w-[33%]">
             <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
-              COMPANY
+            {t('category3')}
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
-              <li className="hover:text-white cursor-pointer">About Company</li>
+              <li className="hover:text-white cursor-pointer">{t('aboutcompany')}</li>
               <li className="hover:text-white cursor-pointer">
                 <Link href="/connect">Contact</Link>
               </li>
               <li className="hover:text-white cursor-pointer">
-                Terms & Condition
+              {t('category2')}
               </li>
               <li className="hover:text-white cursor-pointer">Help Center</li>
             </ul>
@@ -294,13 +279,13 @@ export default function Footer() {
           {/* Alt linkler */}
           <div className="flex items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
             <a href="#" className="hover:underline">
-              Terms of Use
+            {t('termsuse')}
             </a>
             <a href="#" className="hover:underline">
-              Privacy Notice
+            {t('notice')}
             </a>
             <a href="#" className="hover:underline">
-              Sustainability
+            {t('sustainability')}
             </a>
           </div>
         </div>
@@ -385,7 +370,7 @@ export default function Footer() {
               onClick={() => setIsRoomsOpen(!isRoomsOpen)}
               className="flex w-[98%] p-[10px] md:max-w-[306px] items-center justify-between border border-white leading-[26.667px]"
             >
-              ACCOMODATION <ArrawDown className="flex" width={25} height={25} />
+              {t('accommodation')} <ArrawDown className="flex" width={25} height={25} />
             </div>
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out ${
@@ -436,7 +421,7 @@ export default function Footer() {
               href="/special"
               className="flex w-[98%] p-[10px] md:max-w-[306px] mt-[15px] items-center justify-between border border-white leading-[26.667px]"
             >
-              EXPERIENCES
+              {t('experiences')}
             </Link>
             <Link
               href="/connect"

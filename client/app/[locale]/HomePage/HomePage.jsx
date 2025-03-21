@@ -8,8 +8,10 @@ import HomePage6 from "./Components/HomePage5"
 import ContactSection from '../GeneralComponents/Contact/ContactSection'
 import EmblaCarousel from "./Components/Slider/Slider1"
 import TwoAnimationImage from "./Components/TwoAnimationImage"
+import { useTranslations } from "next-intl";
 
 const HomePage = () => {
+  
   return (
     <div >
         <HomePage1 />

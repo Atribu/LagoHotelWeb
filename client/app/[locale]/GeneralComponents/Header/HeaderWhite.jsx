@@ -17,8 +17,10 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import Form from "../Form";
 import { RxCross2 } from "react-icons/rx";
 import LangSwitcher from '@/LangSwitcher';
+import {useTranslations} from 'next-intl';
 
 export default function HeaderWhite() {
+  const t = useTranslations('Header');
     // 1 ekran scrolldan sonra headerin gözükmesi için
     const [showHeader, setShowHeader] = useState(false);
 
@@ -151,7 +153,7 @@ export default function HeaderWhite() {
                 h-[41px]
               "
             >
-              Contact
+             {t('contact')}
             </Link>
             <Link
              href="https://lagohotel.orsmod.com/"
@@ -177,7 +179,7 @@ export default function HeaderWhite() {
                  font-jost
               "
             >
-              Book Now
+               {t('booknow')}
             </Link>
           </div>
         </div>
@@ -237,7 +239,7 @@ export default function HeaderWhite() {
                 onClick={() => setIsRoomsOpen(!isRoomsOpen)}
                 className="flex items-center font-normal leading-[26.667px] gap-[11.11px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
               >
-                ACCOMODATION
+                 {t('accommodation')}
                 <IoMdArrowDropdown
                   className={`w-4 h-4 transition-transform ${
                     isRoomsOpen ? "rotate-180" : "rotate-0"
@@ -293,19 +295,19 @@ export default function HeaderWhite() {
               </div>
             </div>
           <Link href="/beachpools" className="block  font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            BEACH & POOL
+          {t('beachPools')}
           </Link>
           <Link href="/restaurants" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            RESTAURANTS
+          {t('restaurants')}
           </Link>
           <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
             BARS AND CAFÉS
           </Link>
           <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            EXPERIENCES
+          {t('experiences')}
           </Link>
           <Link href="/kidsclub" className="font-normal leading-[26.667px] items-center gap-[6px] flex w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            KIDS CLUB
+          {t('kids')}
             <Image 
               src={panda}
               alt="panda"
