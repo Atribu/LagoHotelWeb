@@ -4,8 +4,11 @@ import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown"
 import React, { useState, useEffect } from "react"
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
+import { useTranslations } from "next-intl";
 
 export default function Reservation() {
+  const t = useTranslations('Reservation');
+
   const [checkInDate, setCheckInDate] = useState(null)
   const [checkOutDate, setCheckOutDate] = useState(null)
   const [showGuests, setShowGuests] = useState(false)
@@ -77,7 +80,7 @@ export default function Reservation() {
       >
         <div className="hidden lg:flex">
           <p className="uppercase text-[16px] text-white text-center font-jost font-medium leading-[24px] w-auto ">
-            Book your perfect stay
+          {t("text")}
           </p>
         </div>
 
@@ -87,13 +90,13 @@ export default function Reservation() {
         {/* CHECK-IN */}
         <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkInDate" className="sr-only text-white">
-            Check In
+          {t("checkin")}
           </label>
           <DatePicker
             id="checkInDate"
             selected={checkInDate}
             onChange={(date) => setCheckInDate(date)}
-            placeholderText="Check In"
+            placeholderText= {t("checkin")}
             className="
               cursor-pointer 
               py-[30px] 
@@ -124,14 +127,14 @@ export default function Reservation() {
         {/* CHECK-OUT */}
         <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkOutDate" className="sr-only">
-            Check Out
+          {t("checkout")}
       
           </label>
           <DatePicker
             id="checkOutDate"
             selected={checkOutDate}
             onChange={(date) => setCheckOutDate(date)}
-            placeholderText="Check Out"
+            placeholderText= {t("checkout")}
             className="
               cursor-pointer 
               py-[30px] 
@@ -185,7 +188,7 @@ export default function Reservation() {
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-            Guests
+            {t("guests")}
             <ArrawDown className="flex ml-[13px]" width={12} height={12} />
           </button>
           {showGuests && (
@@ -349,7 +352,7 @@ export default function Reservation() {
           "
           type="button"
         >
-          Search
+       {t("search")}
         </button>
       </form>
     </section>

@@ -15,6 +15,16 @@
 
 },
 
+"Reservation":{
+  "text":"Buchen Sie Ihren perfekten Aufenthalt",
+  "checkin":"Einchecken",
+  "checkout":"Auschecken",
+  "guests":"Gäste",
+   "search":"Suchen"
+
+},
+
+
   "HomePage": {
     "subtitle": " Der Komfort, Qualität, endloser und makelloser Service",
     "title":"Willkommen im Lago Hotel",
@@ -39,7 +49,22 @@
 
     "Accommodation":{
       "subtitle":" Wählen Sie Ihre Unterkunftsart",
-      "title":" Luxus-Aufenthalt-Erlebnis"
+      "title":" Luxus-Aufenthalt-Erlebnis",
+      "roomname1":"Familien Swim-up Zimmer",
+      "roomname2":" Swim-up Zimmer",
+      "roomname3":"Superior Room",
+      "roomtext1":"Dieser geräumige Zimmertyp mit Land- oder Meerblick bietet 50-55 m² Wohnfläche und befindet sich im Hauptgebäude. Bestehend aus zwei separaten Schlafzimmern mit Verbindungstür, verfügt es über ein Doppelbett (für 2 Erwachsene), ein luxuriöses Schlafsofa (für 2 Erwachsene), Badezimmer und Sitzecke.",
+      "roomtext2":"Dieser elegante Zimmertyp mit Land- oder Meerblick befindet sich im Hauptgebäude und bietet 40-43 m² Platz. Das Zimmer verfügt über ein Doppelbett, ein Einzelbett sowie ein zusätzliches Sofa oder Sitzbereich. Zimmer mit Meer- und Waldblick bieten Poolzugang und Terrasse, Swim-up Zimmer mit Meerblick einen privaten Pool.",
+      "roomtext3":"Dieses elegante Zimmer befindet sich im Hauptgebäude und bietet 30-32 m² Fläche. Ausgestattet mit einem Doppelbett, einem Einzelbett und einem Sofa, verfügt es über einen Balkon, Armband mit Chip-Zugang, tägliche Minibar-Auffüllung, hochwertige Badkosmetik sowie Tee- und Kaffeezubehör.",
+      "m1":"50-55 m²",
+      "view1":"Land/Meerblick",
+      "buttonText1":"Entdecken",
+      "m2":"40-43 m²",
+      "view2":"Land/Meerblick",
+      "buttonText2":"Entdecken",
+      "m3":"30-32 m2",
+      "view3":"Land/Meerblick",
+      "buttonText3":"Entdecken"
     },
 
     "Essentials":{

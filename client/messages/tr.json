@@ -16,10 +16,19 @@
 
 },
 
+"Reservation":{
+  "text":"Mükemmel konaklamanızı rezerve edin",
+  "checkin":"Giriş",
+  "checkout":"Çıkış",
+  "guests":"Misafirler",
+   "search":"Ara"
+
+},
+
   "HomePage": {
     "subtitle": "Konfor, kalite, sınırsız ve kusursuz hizmet",
     "title":"Lago Hotel'e hoş geldiniz",
-    "text": " We offer you a pleasant holiday experience that will feel like home in our rooms designed in accordance with varied tastes and needs, merging beauty and comfort with their eye-catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. Come to LAGO where everything is possible.",
+    "text": " Sizi konfor ve zarafetin buluştuğu LAGO'da keyifli bir tatile davet ediyoruz. Her zevke ve ihtiyaca uygun odalarımız, göz alıcı tasarımları ve fonksiyonel yapılarıyla evinizin rahatlığını sunuyor. Farklı havuzlarımızda serinleyerek LAGO'nun derin mavi dünyasını keşfedin; burada her şey mümkün.",
     "discovermore":"DAHA FAZLASINI KEŞFET",
 
     "EmblaCarousel":{
@@ -40,7 +49,22 @@
 
     "Accommodation":{
       "subtitle":" Konaklama türünüzü seçin",
-      "title":" Lüks Konaklama Deneyimi"
+      "title":" Lüks Konaklama Deneyimi",
+      "roomname1":"Aile Swim-up Oda",
+      "roomname2":" Swim Up Oda",
+      "roomname3":"Superior Room",
+      "roomtext1":"Ana binada bulunan, kara veya deniz manzarasına sahip bu geniş oda tipi 50-55 m² büyüklüğündedir. Birbirine bağlantılı 2 ayrı yatak odasından oluşur; bir çift kişilik yatak (2 yetişkin için), iki yetişkin için açılabilir lüks bir kanepe, banyo ve oturma alanı bulunur.",
+      "roomtext2":"Ana binada bulunan, kara veya deniz manzaralı bu şık oda tipi 40-43 m² büyüklüğündedir. Bir çift kişilik yatak, bir tek kişilik yatak ve ek olarak kanepe veya oturma alanına sahiptir. Deniz ve orman manzaralı odalar havuz erişimi ve terasa sahiptir. Deniz manzaralı Swim-up odalar ise özel havuz sunar.",
+      "roomtext3":"Ana binada yer alan bu şık oda tipi 30-32 m²’dir. Bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir kanepeye sahiptir. Balkonlu odalarda çipli bileklik erişimi, günlük yenilenen minibar, kaliteli banyo ürünleri ve çay-kahve seti sunulur.",
+      "m1":"50-55 m²",
+      "view1":"Kara / Deniz Manzarası",
+      "buttonText1":"Keşfedin",
+      "m2":"40-43 m²",
+      "view2":"Kara / Deniz Manzarası",
+      "buttonText2":"Keşfedin",
+      "m3":"30-32 m2",
+      "view3":"Kara / Deniz Manzarası",
+      "buttonText3":"Keşfedin"
     },
 
     "Essentials":{
