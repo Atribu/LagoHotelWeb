@@ -81,6 +81,35 @@ function Slide({ slide, marginClass }) {
 }
 
 export default function Slider1({ slides }) {
+  const t = useTranslations('HomePage.EmblaCarousel');
+
+  const DEFAULT_SLIDES = [
+    {
+      src: require("./Images/Accommodation.webp"),
+      title: t("accommodation"),
+      link: "/rooms",
+    },
+    {
+      src: require("./Images/BeachAndPool2.webp"),
+      title: t("beachPools"),
+      link: "/beachpools",
+    },
+    {
+      src: require("./Images/Entertainment.webp"),
+      title: t("experiences"),
+      link: "/entertainment",
+    },
+    {
+      src: require("./Images/Flavours2.webp"),
+      title: t("restaurants"),
+      link: "/restaurants",
+    },
+    {
+      src: require("./Images/Kids.webp"),
+      title: t("kids"),
+      link: "/kidsclub",
+    },
+  ];
   const slidesOriginal = slides || DEFAULT_SLIDES;
   const slidesCombined = [...slidesOriginal, ...slidesOriginal];
 
