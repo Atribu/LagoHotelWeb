@@ -1,0 +1,265 @@
+
+{
+  "LocaleSwitcher": {
+    "label": "Dili Değiştir",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
+  },
+
+"Header":{
+  "contact":"İletişim",
+  "booknow":"Rezervasyon Yap",
+  "accommodation":"Konaklama",
+  "restaurants":"Restoranlar",
+  "beachPools":"Plaj ve Havuzlar",
+   "experiences":"Deneyimler",
+    "kids":"Çocuklar"
+
+},
+
+  "HomePage": {
+    "subtitle": "Konfor, kalite, sınırsız ve kusursuz hizmet",
+    "title":"Lago Hotel'e hoş geldiniz",
+    "text": " We offer you a pleasant holiday experience that will feel like home in our rooms designed in accordance with varied tastes and needs, merging beauty and comfort with their eye-catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. Come to LAGO where everything is possible.",
+    "discovermore":"DAHA FAZLASINI KEŞFET",
+
+    "EmblaCarousel":{
+      "accommodation":"Konaklama",
+  "restaurants":"Restoranlar",
+  "beachPools":"Plaj ve Havuzlar",
+   "experiences":"Deneyimler",
+    "kids":"Çocuklar"
+    },
+
+    "TwoAnimationSection":{
+    "subtitle":" Mükemmel Gurme Deneyimleri",
+    "title":"Yeşil ile mavinin buluştuğu yer",
+    "text": "  En büyüleyici mavi tonların kumları üzerinde yer alan 350 m uzunluğundaki altın sarısı plajıyla LAGO, size unutulmaz bir tatil sunacak.",
+    "text2":"LAGO'nun derin mavi dünyasında, farklı boyutlardaki havuzlarda serinlemenin tadını çıkarın. Tesiste ısıtmalı bir kapalı yüzme havuzu bulunmaktadır ve açık yüzme havuzunun bulunduğu alanda ayrıca ısıtmalı bir relax havuzu da yer almaktadır.",
+    "buttonText":"Galeriye Git"
+    },
+
+    "Accommodation":{
+      "subtitle":" Konaklama türünüzü seçin",
+      "title":" Lüks Konaklama Deneyimi"
+    },
+
+    "Essentials":{
+      "subtitle":" Sunduğumuz Hizmetleri Keşfedin",
+      "title":"  Konforlu Bir Konaklama İçin Tüm Gerekli Malzemeler",
+
+      "title1":" Özel Plaj ve Pavyonlar",
+      "text1":"   70 metrelik özel plajımızda rahatlayın veya özel kulübeleri, güneşlenme alanları ve rahat şezlonglarıyla 200 metrelik özel iskelede keyfinize bakın.",
+      "title2":" Her Ruh Haline Uygun Havuzlar",
+      "text2":"   Açık ve ısıtmalı kapalı havuzlarımızın yanı sıra 4 kaydıraklı bir Aqua Park ve kaydıraklı çocuk havuzlarının keyfini çıkarın.",
+      "title3":" Dünya Standartlarında Yemek Deneyimi",
+      "text3":"  Türk, Akdeniz ve uluslararası mutfağın sunulduğu ultra her şey dahil büfelerin ve A la Carte restoranların keyfini çıkarın.",
+      "title4":" Çocuklar İçin Eğlence",
+      "text4":"  Mini Kulüp (4-12 yaş), oyun alanları, oyun odaları, mini diskolar ve restoranda çocuklar için büfe sunmaktadır.",
+      "title5":" Eğlence ve Aktiviteler",
+      "text5":"   Canlı gösteriler ve sporlardan havuz oyunları ve plaj eğlencesine kadar herkes için bir şeyler var. Masa tenisi ve voleybol deneyin.",
+      "title6":"Spa & Wellness",
+      "text6":"   Hamam, sauna, buhar odası ve masajlarla Symphony Spa'da rahatlayın. Ayrıca bir fitness merkezi de mevcuttur.",
+      "buttonText":"DAHA FAZLASINI KEŞFET"
+      
+    },
+
+    "Banner":{
+      "subtitle":" EŞSİZ BİR LEZZET ŞÖLENİ",
+      "title":"  Yeşil ile Mavinin Buluştuğu Yer",
+      "text":"  LAGO Hotels'te doğanın büyüsü ve lezzetin uyumu bir arada! Yeşilin ve mavinin buluştuğu bu cennet köşesinde, unutulmaz bir tatil deneyimi sizi bekliyor.",
+      "discovermore":"DAHA FAZLASINI KEŞFET"
+    }
+  },
+
+
+  "ContactSection":{
+    "subtitle":"  Daha fazlası için bizi takip edin",
+    "title":"@LagoHotels",
+    "text":"  LAGO Hotels'te konfor ve lüks bir arada! Eşsiz manzaralar, geniş odalar, lezzetli mutfak seçenekleri ve keyifli aktivitelerle unutulmaz bir tatil deneyimi sizi bekliyor. Hemen rezervasyon yapın!",
+    "buttonText":" Şimdi Rezervasyon Yap"
+  },
+
+
+  "Footer":{
+    "category1":" Hızlı Menü",
+    "home":" Ana Sayfa",
+    "service":"Hizmet",
+    "portfolio":"Portföy",
+    "product":"Ürün",
+    "blog":"Blog",
+    "faq":"SSS",
+    "category2":" Şartlar ve Koşullar",
+    "policy":" Gizlilik Politikası",
+    "bookings":" Rezervasyonlar ve İptaller",
+    "terms":" Web Sitesi Şartları",
+    "category3":"Şirket",
+    "aboutcompany":" Şirket Hakkında",
+    "phone":"Tel: +90 242 756 99 00",
+    "email":"E-posta: info@lagohotels.com",
+    "address":" Adres: Titreyengöl Mevkii Sorgun Manavgat/ Antalya / TR",
+    "termsuse":"Terms of Use",
+    "notice":"Privacy Notice",
+    "sustainability":"Sürdürülebilirlik",
+    "accommodation":"Konaklama",
+     "experiences":"Deneyimler"
+    
+    },
+
+    "Accommodation":{
+      "header":" Oda Türleri",
+      "buttonText1":"Superior Oda",
+      "buttonText2":"Aile Odası",
+      "buttonText3":" Havuz Erişimli  Oda",
+      "buttonText4":"",
+      "buttonText5":"",
+      "buttonText6":"",
+      "subtitle":"  Sizin ve aileniz için konforlu bir konaklama",
+      "title":"Zarif konaklama seçeneklerimizi keşfedin ve konaklamanız için mükemmel alanı bulun.",
+      "text":" Lago Hotel'de deniz veya orman manzaralı odalarımızla konforlu bir konaklama sunuyoruz. Swim-up odalar, aile suitleri ve özel villalarımızla her ihtiyaca uygun seçenekler bulabilirsiniz. Modern tasarımlı odalarımızda rahatlık ve lüks bir arada. Unutulmaz bir tatil için doğru adrestesiniz!",
+      "checkin":"CHECK-IN: 14:00",
+      "checkout":"CHECK-OUT: 12:00",
+      
+      "RoomSection1":{
+        "title":"Süperior Oda",
+        "subtitle":"  Bu oda tipi, deniz veya orman manzaralı olup 30 - 32 m² büyüklüğündedir ve ana binada yer almaktadır. Odada 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 kanepe bulunmaktadır. Balkonu mevcuttur. Maksimum kapasite: 3 yetişkin + 1 çocuk.",
+        "m":"Kara/Deniz Manzarası",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection2":{
+        "title":"Aile Odası",
+        "subtitle":"  Ana binada bulunan bu Aile Odası, iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ara kapı, bir banyo ve balkondan oluşmaktadır. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"40-43 m2",
+        "view":"Kara/Deniz Manzarası",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection3":{
+        "title":"Swim-up Oda",
+        "subtitle":"  Swim-up Odalar, bir kanepe veya oturma alanı, havuz ve teras içermektedir. Orman manzaralı odalar paylaşımlı havuza erişim sunarken, deniz manzaralı odalar özel havuza sahiptir. Maksimum kapasite: 2 yetişkin + 2 çocuk veya 3 yetişkin + 1 çocuk.",
+        "m":"40-43 m2",
+        "view":"Kara/Deniz Manzarası",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection4":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+      "RoomSection5":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      },
+       "RoomSection6":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land/Sea View",
+        "buttonText":"Keşfet"
+      }
+
+
+    },
+
+
+    "RoomsParallax":{
+      "subtitle":"  Oda İçi Temel Olanaklar",
+      "title":"  Odalarımız, konaklamanız için ihtiyacınız olan tüm temel olanaklara sahiptir.",
+      "text":"  Tüm temel olanaklarınız elinizin altında olacak şekilde sorunsuz bir konaklama deneyimi yaşayın. Günlük minibar yenilemelerinden premium banyo ürünlerine, güvenli oda erişimine ve kesintisiz eğlence için LED TV ve 24 saat WiFi'ye kadar, her an konforunuzu sağlıyoruz.",
+      "feature1":"Mini Bar",
+      "desc1":" Günlük yenilemeler su, alkolsüz içecekler, bira, meyveli süt, çikolata ve kraker içermektedir.",
+      "feature2":"Kozmetik Ürünler",
+      "desc2":"  Banyo temel ürünleri şampuan, saç kremi, duş jeli, sabun, lif, saç kurutma makinesi ve vücut kremi içermektedir.",
+      "feature3":"Oda Erişimi",
+      "desc3":"  Tüm kapı kilitleri, kolay erişim için kullanışlı bir çip bileklik anahtar sistemi ile güvenli bir şekilde çalışmaktadır.",
+      "feature4":"Wifi & LedTV",
+      "desc4":"  Uluslararası ve ulusal uydu kanalları, radyo ve 24 saat WiFi erişimi olan LED TV."
+    },
+
+    "ContactSection2":{
+      "subtitle":"  DAHA FAZLASI İÇİN BİZİMLE İLETİŞİME GEÇİN",
+      "title":"@LagoHotels",
+      "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
+      "phone":"Tel: +90 242 756 99 00",
+      "callcenter":"Call Center: +90 242 524 57 87",
+      "email":"Email: sales@lagohotel.com",
+      "buttonText":"HEMEN REZERVASYON YAP"
+    },
+
+
+    "Restaurants":{
+      "subtitle":" Özenle Hazırlanmış Mutfak Deneyimleri",
+      "title":"Restoranlar",
+      "text":" Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+
+      "ClinaryInfoSection":{
+        "subtitle":" Mükemmel Gurme Yemek Deneyimleri",
+        "title":" LAGO'da Mutfak Sanatı",
+          "text1":"  LAGO'da, lezzetli yemeklerin sunulduğu A’la Carte Restoranlarımızda uluslararası mutfağın tadını çıkaracak, Türk mutfağının eşsiz lezzetlerinin yanı sıra Akdeniz ruhunu yansıtan taze tatların yer aldığı sonsuz açık büfe ile tatilinizin keyfini çıkaracaksınız.",
+          "text2":"Ana Restoran: Kahvaltı, Öğlen ve Akşam Yemeği",
+          "text3":"Bistro Restoran: 24 Saat",
+          "text4":"Snack Bars: 24 Saat"
+        
+      },
+
+      "MainRestaurantSection":{
+        "subtitle":"  EŞSİZ BİR LEZZET ŞÖLENİ",
+        "title":" Magna Ana Restoran",
+        "text":"  Kahvaltı, öğle ve akşam yemekleri için, hem otantik Türk mutfağı lezzetlerine hem de mevsimsel inceliklere dalabileceğiniz sonsuz bir açık büfe hazırladık.",
+        "list1":" Kahvaltı: 07:00 - 10:30",
+        "list2":" Öğle Yemeği: 12:30 - 14:00",
+        "list3":"Akşam Yemeği: 18:30 - 21:00",
+        "buttonText":" DAHA FAZLASINI KEŞFET"
+      },
+
+      "CuisinesCarousel":{
+        "subtitle":" Mükemmel Gurme Yemek Deneyimleri",
+        "title":"  LAGO’nun Dünya Mutfakları",
+        "text":" A’la Carte Restoranlarımızda, ödüllü şeflerimizin usta ellerinden çıkan uluslararası mutfağın enfes lezzetleri sizi bekliyor. Tatiliniz boyunca sizi, benzersiz à la carte restoranlarımızda harika bir lezzet macerasına davet ediyoruz!",
+        "cuisines1subtitle":" MUTFAK: Uluslararası",
+        "cuisines1title":"Anadolu",
+         "cuisines1text":"  Türk mutfağının ayırt edici lezzetlerini ve yemek geleneklerini tabakta tutmanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tadıyla buluşturma onuruna sahiptir.",
+         "buttonText":" Daha Fazlasını Keşfet",
+         "cuisines2subtitle":" MUTFAK: İtalyan",
+        "cuisines2title":"Gusto",  
+        "cuisines2text":" İtalyan mutfağı, uzmanlarımız tarafından sizin için bir lezzet şöleni olarak yaratıldı. Ana restoranımızda, İtalyan A’la Carte restoranımız, İtalyan mutfağının ayırt edici lezzetlerini sizlere sunmaya hazır. Lorem Ipsum, İtalyan mutfağının ayırt edici lezzetlerini... " ,
+        "cuisines3subtitle":" MUTFAK: Deniz Ürünleri ve Balık",
+        "cuisines3title":"Despina",   
+        "cuisines3text":"  Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de gözünüze hitap ediyor. Balık A’la Carte restoranımızda sizi özel tarifler bekliyor. Balık a’la carte restoranımız, ..."     
+      },
+
+      "ClinaryReverseSection":{
+        "subtitle":" Mükemmel Gurme Yemek Deneyimleri",
+        "title":"  Bistro Restoran",
+        "text1":"  Lago Hotel'i ziyaret ettiğinizde 'Acaba yemek yiyebilir miyim?' endişesini unutun ve tatil hayallerine dalın. Bistro restoranımız 24 saat açıktır. Lezzetli hamburgerler, makarnalar, sandviçler, tavuk bagetleri tadan ve damaklarını tatlandıranların yanında birasınızı yudumlarken konseptimizi deneyimleyin. Hadi bu konsepti daha yakından tanıyalım.",
+        "text2":"  Bistrolar, tipik menü öğelerinin hızlı bir şekilde sunulduğu restoranlardır. Fransızlar, günlük işlerinden küçük molalar vererek bu huzurlu mekanlarda bazen kahve içer, bazen de alkol tüketir. Sıcak ve soğuk sandviçler, tatlılar ve diğer içeceklerin keyfini çıkarabilirsiniz."
+      },
+
+      "CuisinesCarousel2":{
+        "subtitle":" Perfect Fine Dine Experiences",
+        "title":" LAGO’s World Cuisines",
+        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "cuisines1subtitle":" MUTFAK: Teppanyaki (Japon)",
+        "cuisines1title":"Wasabi",
+         "cuisines1text":" Teppanyaki A’la Carte Restoranımızda, demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu bu mekanda, usta şeflerimizin özgün yorumuyla Uzak Doğu'nun ayırt edici lezzetlerini deneyimleyebilirsiniz.",
+         "buttonText":"  Daha Fazlasını Keşfet",
+         "cuisines2subtitle":" MUTFAK: ASYA",
+        "cuisines2title":"Fuego",   
+        "cuisines2text":" Asya A’la Carte restoranımızı, tatiliniz boyunca Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için tasarladık. 18:30 ile 21:00 saatleri arasında, ödüllü yetenekli şeflerimiz tarafından hazırlanan Asya mutfağının keyfini çıkarabilirsiniz.",
+        "cuisines3subtitle":" MUTFAK: İspanyol",
+        "cuisines3title":"Tapaz",   
+        "cuisines3text":"   Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de gözünüze hitap ediyor. Balık A’la Carte restoranımızda sizi özel tarifler bekliyor. Balık a’la carte restoranımız, ..."     
+      },
+      "DiscoverBackground":{
+        "subtitle":"EŞSİZ BİR LEZZET ŞÖLENİ",
+        "title":" Barlarımızı ve Kafelerimizi Keşfedin",
+         "text":" Lago Hotel'in barlarında ve kafelerinde, günün her saati lezzetli içecekler ve atıştırmalıkların keyfini çıkarın. Canlı müzik eşliğinde kokteyllerinizi yudumlayın veya kahve molası vererek gününüzü renklendirin.",
+         "buttonText":"DAHA FAZLASINI KEŞFET"
+      }
+    }
+
+  }

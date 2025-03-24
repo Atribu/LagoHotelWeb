@@ -1,0 +1,264 @@
+{
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
+  },
+
+"Header":{
+  "contact":"Kontakt",
+  "booknow":"Jetzt buchen",
+  "accommodation":"Unterkunft",
+  "restaurants":"Restaurants",
+  "beachPools":"Strand & Pools",
+   "experiences":"Erlebnisse",
+    "kids":"Kinder"
+
+},
+
+  "HomePage": {
+    "subtitle": " Der Komfort, Qualität, endloser und makelloser Service",
+    "title":"Willkommen im Lago Hotel",
+    "text": "  Wir bieten Ihnen ein angenehmes Urlaubserlebnis, das sich wie zu Hause anfühlt, in unseren Zimmern, die nach verschiedenen Geschmäckern und Bedürfnissen gestaltet sind und Schönheit und Komfort mit ihren auffälligen Designs und effizienten Strukturen verbinden. Genießen Sie das Abkühlen in Pools verschiedener Größen in der tiefblauen Welt von LAGO. Kommen Sie zu LAGO, wo alles möglich ist.",
+    "discovermore":"ENTDECKE MEHR",
+
+    "EmblaCarousel":{
+      "accommodation":"Unterkunft",
+      "restaurants":"Restaurants",
+      "beachPools":"Strand & Pools",
+       "experiences":"Erlebnisse",
+        "kids":"Kinder"
+    },
+
+    "TwoAnimationSection":{
+    "subtitle":" Perfekte Fine-Dining-Erlebnisse",
+    "title":" Wo Grün und Blau sich treffen",
+    "text": " Mit seinem 350 m langen goldenen Strand, der auf dem Sand der atemberaubendsten Blautöne liegt, wird LAGO Ihnen einen unvergesslichen Urlaub bieten.",
+    "text2":"  Genießen Sie das Abkühlen in Pools verschiedener Größen in der tiefblauen Welt von LAGO. Die Anlage verfügt über einen beheizten Innenpool, und es gibt auch einen beheizten Entspannungspool im Bereich des Außenschwimmbeckens.",
+    "buttonText":" Zur Galerie gehen"
+    },
+
+    "Accommodation":{
+      "subtitle":" Wählen Sie Ihre Unterkunftsart",
+      "title":" Luxus-Aufenthalt-Erlebnis"
+    },
+
+    "Essentials":{
+      "subtitle":" Entdecken Sie die Dienstleistungen, die wir anbieten",
+      "title":"  Alles Notwendige für einen komfortablen Aufenthalt",
+
+      "title1":" Privatstrand & Pavillons",
+      "text1":"   Entspannen Sie sich an unserem 70 m langen Privatstrand oder genießen Sie den exklusiven 200 m langen Steg mit privaten Lodges, Sonnenbereichen und bequemen Liegen.",
+      "title2":" Pools für jede Stimmung",
+      "text2":"  Genießen Sie unsere Außen- und beheizten Innenpools sowie einen Aqua-Park mit 4 Rutschen und Kinderbecken mit Rutschen.",
+      "title3":"Gastronomie auf Weltniveau",
+      "text3":"   Genießen Sie ultra-all-inclusive-Buffets und À-la-carte-Restaurants mit türkischer, mediterraner und internationaler Küche.",
+      "title4":" Spaß für Kinder",
+      "text4":"   Der Mini-Club (4-12 Jahre) bietet Spielplätze, Spielzimmer, Mini-Discos und ein Kinderbüffet im Restaurant.",
+      "title5":" Unterhaltung & Aktivitäten",
+      "text5":"   Von Live-Shows und Sport über Poolspiele bis hin zum Strandspaß ist für jeden etwas dabei. Probieren Sie Tischtennis und Volleyball aus.",
+      "title6":"Spa & Wellness",
+      "text6":"  Entspannen Sie sich im Symphony Spa mit einem Hammam, einer Sauna, einem Dampfbad und Massagen. Ein Fitnesscenter ist ebenfalls verfügbar.",
+      "buttonText":"Discover More"
+      
+    },
+
+    "Banner":{
+      "subtitle":"  EIN EINZIGARTIGES GESCHMACKSERLEBNIS",
+      "title":" Wo Grün und Blau sich treffen",
+      "text":" At LAGO Hotels, the magic of nature and the harmony of flavors come together! In this paradise where green and blue meet, an unforgettable holiday experience awaits you.",
+      "discovermore":"ENTDECKE MEHR"
+    }
+   
+  },
+
+  "ContactSection":{
+    "subtitle":"  Folgen Sie uns für mehr",
+    "title":"@LagoHotels",
+    "text":"   Im LAGO Hotels vereinen sich die Magie der Natur und die Harmonie der Geschmäcker! In diesem Paradies, wo Grün und Blau sich treffen, erwartet Sie ein unvergessliches Urlaubserlebnis.",
+    "buttonText":" Jetzt buchen"
+  },
+
+
+  "Footer":{
+    "category1":" Schnellmenü",
+    "home":"Startseite",
+    "service":"Service",
+    "portfolio":"Portfolio",
+    "product":"Produkt",
+    "blog":"Blog",
+    "faq":"FAQ",
+    "category2":" Allgemeine Geschäftsbedingungen",
+    "policy":"Datenschutzrichtlinie",
+    "bookings":"  Buchungen & Stornierungen",
+    "terms":" Website-Bedingungen",
+    "category3":"Unternehmen",
+    "aboutcompany":" Über das Unternehmen",
+    "phone":"Phone: +90 242 756 99 00",
+    "email":"Email: info@lagohotels.com",
+    "address":" Address: Titreyengöl Mevkii Sorgun Manavgat/ Antalya / TR",
+    "termsuse":"Terms of Use",
+    "notice":"Privacy Notice",
+    "sustainability":"Nachhaltigkeit",
+    "accommodation":"Unterkunft",
+     "experiences":"Erlebnisse"
+    
+    },
+
+    "Accommodation":{
+      "header":" Zimmertypen",
+      "buttonText1":"Superior Zimmer",
+      "buttonText2":"Familienzimmer",
+      "buttonText3":"  Swim-up Zimmer",
+      "buttonText4":"",
+      "buttonText5":"",
+      "buttonText6":"",
+      "subtitle":"   Ein komfortabler Aufenthalt für Sie und Ihre Familie",
+      "title":" Entdecken Sie unsere raffinierten Unterkunftsmöglichkeiten und finden Sie den perfekten Raum für Ihren Aufenthalt.",
+      "text":" Im Lago Hotel bieten wir komfortable Unterkünfte mit Meeres- oder Waldblick. Swim-up-Zimmer, Familiensuiten und private Villen erfüllen jeden Bedarf. Unsere modernen Zimmer vereinen Komfort und Luxus. Für einen unvergesslichen Urlaub sind Sie hier richtig!",
+      "checkin":"CHECK-IN: 14:00",
+      "checkout":"CHECK-OUT: 12:00",
+      
+      "RoomSection1":{
+        "title":"Superior Zimmer",
+        "subtitle":"  Dieser Zimmertyp mit Meeres- oder Waldblick ist 30 - 32 m² groß und befindet sich im Hauptgebäude. Das Zimmer verfügt über 1 Doppelbett, 1 Einzelbett und 1 Sofa sowie einen Balkon. Maximale Kapazität: 3 Erwachsene + 1 Kind.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection2":{
+        "title":"Familienzimmer",
+        "subtitle":"   Dieses Familienzimmer im Hauptgebäude verfügt über zwei Schlafzimmer (ein Doppelbett, zwei Einzelbetten), eine Verbindungstür, ein Badezimmer und einen Balkon. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+        "m":"40-43 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection3":{
+        "title":"Swim-up Zimmer",
+        "subtitle":"  Swim-up Zimmer verfügen über ein Sofa oder Sitzbereich, einen Pool und eine Terrasse. Zimmer mit Waldblick bieten Zugang zu einem gemeinsamen Pool, während Zimmer mit Meerblick über einen privaten Pool verfügen. Maximale Kapazität: 2 Erwachsene + 2 Kinder oder 3 Erwachsene + 1 Kind.",
+        "m":"40-43 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection4":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+      "RoomSection5":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      },
+       "RoomSection6":{
+        "title":"Superior Room",
+        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
+        "m":"30-32 m2",
+        "view":"Land-/Meerblick",
+        "buttonText":"Erkunden"
+      }
+
+
+    },
+
+
+    "RoomsParallax":{
+      "subtitle":" Die wesentlichen Zimmerausstattungen",
+      "title":"   Unsere Zimmer verfügen über alle wesentlichen Dinge, die Sie für Ihren Aufenthalt benötigen.",
+      "text":"   Genießen Sie einen nahtlosen Aufenthalt mit allen wesentlichen Annehmlichkeiten direkt zur Hand. Von der täglichen Auffüllung der Minibar über hochwertige Badezimmerartikel, sicheren Zimmerzugang und ununterbrochene Unterhaltung mit LED-TV und 24-Stunden-WLAN – wir sorgen für Ihren Komfort in jedem Moment.",
+      "feature1":"Mini Bar",
+      "desc1":"  Die tägliche Auffüllung umfasst Wasser, alkoholfreie Getränke, Bier, Milch mit Frucht, Schokolade und einen Cracker.",
+      "feature2":"Kosmetikartikel",
+      "desc2":"   Die wesentlichen Badezimmerartikel umfassen Shampoo, Conditioner, Duschgel, Seife, Luffa-Schwamm, Haartrockner und Körpercreme.",
+      "feature3":"Zimmerzugang",
+      "desc3":"   Alle Türschlösser werden sicher mit einem praktischen Chip-Armband-Schlüsselsystem betrieben, um einen einfachen Zugang zu gewährleisten.",
+      "feature4":" WLAN & LED-TV",
+      "desc4":"  LED-TV mit internationalen und nationalen Satellitenkanälen, Radio und 24-Stunden-WLAN-Zugang."
+    },
+
+    "ContactSection2":{
+      "subtitle":"KONTAKTIEREN SIE UNS FÜR MEHR INFORMATIONEN",
+      "title":"@LagoHotels",
+      "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
+      "phone":"Phone: +90 242 756 99 00",
+      "callcenter":"Call Center: +90 242 524 57 87",
+      "email":"Email: sales@lagohotel.com",
+      "buttonText":"JETZT BUCHEN"
+    },
+
+    "Restaurants":{
+      "subtitle":" Ausgewählte kulinarische Erlebnisse",
+      "title":"Restaurants",
+      "text":"Genießen Sie eine Vielzahl von Speiseoptionen aus aller Welt.",
+
+      "ClinaryInfoSection":{
+        "subtitle":" Perfekte Fine-Dining-Erlebnisse",
+        "title":"Kulinarische Kunst im LAGO",
+          "text1":"  Im LAGO genießen Sie Ihren Urlaub mit internationaler Küche in unseren À-la-Carte-Restaurants, in denen schmackhafte Gerichte serviert werden, sowie einem endlosen Open-Buffet mit einzigartigen Aromen der türkischen Küche und frischen Geschmacksrichtungen, die den Geist des Mittelmeers widerspiegeln.",
+          "text2":"Hauptrestaurant: Frühstück, Mittag- und Abendessen",
+          "text3":"Bistro-Restaurant: 24 Stunden",
+          "text4":"Snack-Bars: 24 Stunden"
+        
+      },
+
+      "MainRestaurantSection":{
+        "subtitle":"  EIN EINZIGARTIGES GESCHMACKSERLEBNIS",
+        "title":" Magna Hauptrestaurant",
+        "text":"  Für Frühstück, Mittag- und Abendessen haben wir ein endloses Open-Buffet vorbereitet, in dem Sie sowohl in die Aromen der authentischen türkischen Küche als auch in saisonale Köstlichkeiten eintauchen können.",
+        "list1":" Frühstück: 07:00 - 10:30",
+        "list2":"Mittagessen: 12:30 - 14:00",
+        "list3":"Abendessen: 18:30 - 21:00",
+        "buttonText":"  ENTDECKEN SIE MEHR"
+      },
+
+      "CuisinesCarousel":{
+        "subtitle":"Perfekte Fine-Dining-Erlebnisse",
+        "title":" LAGOs Weltküchen",
+        "text":" In unseren À-la-Carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren einzigartigen À-la-Carte-Restaurants ein!",
+        "cuisines1subtitle":"KÜCHE: International",
+        "cuisines1title":"Anatolien",
+         "cuisines1text":"  Lassen Sie uns das Vergnügen erleben, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO hat die Ehre, Ihre Träume mit dem einzigartigen Geschmack des Mittelmeers zu verbinden.",
+         "buttonText":"  Mehr entdecken",
+         "cuisines2subtitle":" KÜCHE: Italienisch",
+        "cuisines2title":"Gusto",  
+        "cuisines2text":" Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest erschaffen. In unserem Hauptrestaurant ist unser italienisches À-la-Carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lorem Ipsum, die unverwechselbaren Aromen der..." ,
+        "cuisines3subtitle":" KÜCHE: Meeresfrüchte und Fisch",
+        "cuisines3title":"Despina",   
+        "cuisines3text":"  Fischmenüs, die von unseren preisgekrönten Köchen für Sie zubereitet werden, sprechen sowohl Ihren Appetit als auch Ihre Augen an. Spezielle Rezepte erwarten Sie in unserem Fisch-À-la-Carte-Restaurant. Unser Fisch-À-la-Carte-Restaurant serviert am..."     
+      },
+
+      "ClinaryReverseSection":{
+        "subtitle":"  Perfekte Fine-Dining-Erlebnisse",
+        "title":" Bistro Restaurant",
+        "text1":" Vergessen Sie die Sorge, ob Sie essen können, wenn Sie das Lago Hotel besuchen, und träumen Sie von einem Urlaub. Unser Bistro-Restaurant ist 24 Stunden am Tag geöffnet. Erleben Sie unser Konzept, während Sie Ihr Bier neben denen nippen, die leckere Hamburger, Pasta, Sandwiches, Hähnchenkeulen genießen und ihren Gaumen verwöhnen. Lassen Sie uns mehr über dieses Konzept erfahren.",
+        "text2":"  Bistros sind Restaurants, in denen typische Menüpunkte schnell serviert werden. Die Franzosen machen kleine Pausen von ihrer täglichen Arbeit an diesen ruhigen Orten, trinken gelegentlich Kaffee und gelegentlich Alkohol. Sandwiches, sowohl warm als auch kalt, Desserts und andere Getränke können genossen werden."
+      },
+
+      "CuisinesCarousel2":{
+        "subtitle":" Perfekte Fine-Dining-Erlebnisse",
+        "title":" LAGOs Weltküchen",
+        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "cuisines1subtitle":"  KÜCHE: Teppanyaki (Japanisch) ",
+        "cuisines1title":"Wasabi",
+         "cuisines1text":"In unserem Teppanyaki-À-la-Carte-Restaurant, in dem Gerichte der japanischen Küche, die in Eisenpfannen zubereitet werden, präsentiert werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+         "buttonText":"  Mehr entdecken",
+         "cuisines2subtitle":" KÜCHE: ASIATISCH ",
+        "cuisines2title":"Fuego",   
+        "cuisines2text":"  Wir haben unser asiatisches À-la-Carte-Restaurant so gestaltet, dass Sie die köstlichen Aromen der asiatischen Küche im Urlaub erleben können. Zwischen 18:30 und 21:00 Uhr können Sie asiatische Küche genießen, die von unseren talentierten, preisgekrönten Köchen zubereitet wird.",
+        "cuisines3subtitle":"  KÜCHE: Spanisch ",
+        "cuisines3title":"Tapaz",   
+        "cuisines3text":" Fischmenüs, die von unseren preisgekrönten Köchen für Sie zubereitet werden, sprechen sowohl Ihren Appetit als auch Ihre Augen an. Spezielle Rezepte erwarten Sie in unserem Fisch-À-la-Carte-Restaurant. Unser Fisch-À-la-Carte-Restaurant serviert am... "     
+      },
+
+      "DiscoverBackground":{
+        "subtitle":" EIN EINZIGARTIGES GESCHMACKSERLEBNIS",
+        "title":"  Entdecken Sie unsere Bars und Cafés",
+         "text":"  In den Bars und Cafés des Lago Hotels können Sie zu jeder Tageszeit köstliche Getränke und Snacks genießen. Schlürfen Sie Ihre Cocktails zum Klang von Live-Musik oder machen Sie eine Kaffeepause, um Ihren Tag zu verschönern.",
+         "buttonText":"ENTDECKEN SIE MEHR"
+      }
+    }
+
+  }
