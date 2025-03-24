@@ -14,32 +14,32 @@ import {useTranslations} from 'next-intl';
 export default function HomePage3() {
   const t = useTranslations('HomePage.Accommodation');
 
+
   const images = [
     {
       src: FamilySwimUpRoom,
-      title: "Family Swim-up Room",
-      desc: `This room type with sea or forest view is 50 - 55 m2 and is located in the main building. 
-      It consists of 2 separate bedrooms (with interconnecting door): a double bed (for two adults) and a luxury sofa that can be opened for two adults,
-       including a bathroom and a sitting area. `,
-             area:"50-55 m2",
-             span:"Land / Sea View",
-             link:"/rooms/familyswimup"
+      title:t("roomname1"),
+      desc: t("roomtext1"),
+             area:t("m1"),
+             span:t("view1"),
+             link:"/rooms/familyswimup",
+           
     },
     {
       src: Swimup,
-      title: "Swim Up Room",
-      desc: "This room type with sea or forest view is 40 - 43 m2 and is located in the main building. This room type has 1 double bed and 1 single bed. Sea view and Wald  view rooms have an additional sofa or seating area and feature a pool and terrace. Swimup room with sea view, offers a private pool.",
-      area:"40-43 m2",
-             span:"Land / Sea View",
+      title:t("roomname2"),
+      desc: t("roomtext2"),
+             area:t("m2"),
+             span:t("view2"),
              link:"/rooms/swimuproom"
     },
     {
       src: SuperiorRoom,
-      title: "Superior Room",
-      desc: "This room type is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Services for all rooms (wristband with chip key system, daily replenishment of the minibar, cosmetics in the bathroom, tea and coffee making set)",
-      area:" 30-32 m2",
-      span:"Land / Sea View",
-      link:"/rooms/superiorroom"
+      title:t("roomname3"),
+      desc: t("roomtext3"),
+             area:t("m3"),
+             span:t("view3"),
+      link:"/rooms/superiorroom",
     },
   ];
 
@@ -172,7 +172,7 @@ export default function HomePage3() {
                     tracking-wider
                     hover:bg-black hover:text-white hover:underline hover:underline-offset-2
                     transition">
-                  Explore
+                  {t("buttonText1")}
                 </Link>
               </div>
             </div>

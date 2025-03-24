@@ -15,6 +15,16 @@
 
 },
 
+"Reservation":{
+  "text":"Book your perfect stay",
+  "checkin":"Check In",
+  "checkout":"Check Out",
+  "guests":"Guests",
+   "search":"Search"
+
+},
+
+
   "HomePage": {
     "subtitle": "The comfort, quality, endless and impeccable service",
     "title":"Welcome to Lago Hotel",
@@ -39,7 +49,23 @@
 
     "Accommodation":{
       "subtitle":"Choose your accommodation type",
-      "title":"Luxury Stay Experience"
+      "title":"Luxury Stay Experience",
+      "roomname1":"Family Swim-up Room",
+      "roomname2":" Swim-up Room",
+      "roomname3":"Superior Room",
+      "roomtext1":"This spacious room type with a land or sea view is 50-55 m² and located in the main building. Featuring two separate bedrooms with a connecting door, it includes one double bed (for two adults), a luxurious sofa bed (for two adults), a bathroom, and a cozy sitting area.",
+      "roomtext2":"This stylish room type with land or sea view is 40-43 m², located in the main building. The room features one double bed and one single bed, along with an additional sofa or seating area. Sea and forest view rooms offer pool access and a terrace, while sea-view Swim-up rooms provide a private pool.",
+      "roomtext3":"Located in the main building, this elegant room type is 30-32 m². Featuring one double bed, one single bed, and a comfortable sofa, each room includes a balcony, chip-key wristband access, daily minibar replenishment, premium bathroom amenities, and tea-coffee set.",
+      "m1":"50-55 m²",
+      "view1":"Land/Sea View",
+      "buttonText1":"Explore",
+      "m2":"40-43 m²",
+      "view2":"Land/Sea View",
+      "buttonText2":"Explore",
+      "m3":"30-32 m2",
+      "view3":"Land/Sea View",
+      "buttonText3":"Explore"
+      
     },
 
     "Essentials":{
@@ -271,13 +297,13 @@
         "subtitle":" Perfect Fine Dine Experiences",
         "title":"Exceptional Bars and Cafes at LAGO",
           "text1":" At LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet featuring unique flavors from Turkish cuisine as well as fresh tastes reflecting the spirit of the Mediterranean.",
-          "text2":"Main Restaurant: Breakfast, Lunch, and Dinner",
-          "text3":"Bistro Restaurant: 24 Hours",
-          "text4":"Snack Bars: 24 Hours"
+          "text2":"",
+          "text3":"",
+          "text4":""
      
       },
 
-      "MainRestaurantSection":{
+      "BarImageSection":{
         "subtitle":" A UNIQUE FEAST OF TASTE",
         "title":"Cool Down and Relax",
         "text":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
@@ -303,27 +329,30 @@
         "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
       },
 
-      "ClinaryReverseSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":"  LAGO’s Exclusive Pool Bars",
-        "text1":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "text2":" "
+      "BarImageSection2":{
+        "subtitle":" A UNIQUE FEAST OF TASTE",
+        "title":" Lobby Bars and Cafes",
+        "text1":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
+       "buttonText":" DISCOVER MORE"
       },
 
       "CuisinesCarousel2":{
         "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s World Cuisines",
-        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "title":"  LAGO’s Lobby Bars and Cafes",
+        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 ",
+        "cuisines1title":"Piano Bar",
+         "cuisines1text":"  Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
+         "cuisines2subtitle":" HOURS: 14:00 - 23:00",
+        "cuisines2title":"Patisserie ABELLA",   
         "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3subtitle":" HOURS: 08:00 - 23:00 ",
+        "cuisines3title":"Cafe de Lago",   
+        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     ,
+        "cuisines4subtitle":" HOURS: 08:00 - 23:00 ",
+        "cuisines4title":"Cafe de House",   
+        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
       },
 
       "DiscoverBackground":{
@@ -331,6 +360,12 @@
         "title":" Discover our Bars and Cafes",
          "text":" At Lago Hotel's bars and cafes, enjoy delicious drinks and snacks any time of the day. Sip your cocktails to the sound of live music or take a coffee break to brighten your day.",
          "buttonText":"DISCOVER MORE"
+      },
+      "BarCarousel":{
+        "subtitle":"Experience traditional culture",
+        "title":"Hungry for more?",
+        "text":"Discover our spacious snack restaurant, Snackspot, offering a variety of beverages along with special tastes from Turkish and international cuisine. Snackspot, one of the places where you can enjoy every second of your holiday, is open between 11:30 and 18:00.",
+        "buttonText":" Learn MORE"
       }
     }
 

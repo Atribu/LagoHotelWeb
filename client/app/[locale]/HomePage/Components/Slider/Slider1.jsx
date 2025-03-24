@@ -4,6 +4,8 @@ import React, { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
+import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
 
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
@@ -36,7 +38,7 @@ const DEFAULT_SLIDES = [
 
 // Tekil slayt bileşeni
 function Slide({ slide, marginClass }) {
-
+  const t = useTranslations('HomePage');
 
   return (
     <div
@@ -120,16 +122,25 @@ export default function Slider1({ slides }) {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div ref={emblaRef} className="overflow-hidden w-full ml-[6.10%] md:ml-[4.3%] lg:ml-[11.6%]">
-        <div className="flex md:h-[405px] lg:h-[540px] w-auto">
+      <div ref={emblaRef} className="overflow-hidden w-full lg:w-[87.4%] lg:ml-[5.8%]">
+        <div className="flex md:h-[405px] lg:h-[540px] w-auto ">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-[8.37px] md:mr-[12.75px] lg:mr-[17px]" />
           ))}
         </div>
+        <div className="absolute inset-0 -top-[10%] flex items-center justify-between p-6">
+        <button className="p-1 bg-[#848383]/40 hidden lg:flex" onClick={scrollPrev} type="button">
+          <MdArrowBackIosNew size={32} color="white"/>
+        </button>
+
+        <button onClick={scrollNext} className="p-1 bg-[#848383]/40 hidden lg:flex">
+          <MdArrowForwardIos size={32} color="white"/>
+        </button>
+      </div>
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}
-      <div className="flex items-end justify-end w-[87.79%] md:w-[91.4%] ml-[6.10%] md:ml-[4.3%] lg:w-[87.4%] lg:ml-[11.6%] mt-[62px] relative">
+      <div className="flex items-center justify-center w-[87.79%] md:w-[91.4%] mx-[6.10%] md:mx-[4.3%] lg:w-[87.4%] lg:mx-auto mt-[62px] relative">
         {slidesOriginal.map((_, i) => (
           <div
             key={i}
