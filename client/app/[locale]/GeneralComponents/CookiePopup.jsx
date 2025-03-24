@@ -113,7 +113,7 @@ const CookiePopup = () => {
       </div>
 
       {/* 2.toggle */}
-      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6]">
+      <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6] pr-[2%]">
         <div
           onClick={() => setIsDropdown2Open(!isDropdown2Open)}
           className="flex items-center justify-start gap-[14px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[530px]"
@@ -126,7 +126,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Performance
           </h4>
         </div>
@@ -174,7 +174,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Functional
           </h4>
         </div>
@@ -222,7 +222,7 @@ const CookiePopup = () => {
             />
           </div>
 
-          <h4 className="text-[16px] font-medium leading-[26.667px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
+          <h4 className="text-[16px] font-medium leading-[26.667px] ">
             Targeting
           </h4>
         </div>

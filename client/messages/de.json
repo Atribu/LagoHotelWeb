@@ -197,12 +197,11 @@
       "ClinaryInfoSection":{
         "subtitle":" Perfekte Fine-Dining-Erlebnisse",
         "title":"Kulinarische Kunst im LAGO",
-        "texts":{
-          "1":"  Im LAGO genießen Sie Ihren Urlaub mit internationaler Küche in unseren À-la-Carte-Restaurants, in denen schmackhafte Gerichte serviert werden, sowie einem endlosen Open-Buffet mit einzigartigen Aromen der türkischen Küche und frischen Geschmacksrichtungen, die den Geist des Mittelmeers widerspiegeln.",
-          "2":"Hauptrestaurant: Frühstück, Mittag- und Abendessen",
-          "3":"Bistro-Restaurant: 24 Stunden",
-          "4":"Snack-Bars: 24 Stunden"
-        }
+          "text1":"  Im LAGO genießen Sie Ihren Urlaub mit internationaler Küche in unseren À-la-Carte-Restaurants, in denen schmackhafte Gerichte serviert werden, sowie einem endlosen Open-Buffet mit einzigartigen Aromen der türkischen Küche und frischen Geschmacksrichtungen, die den Geist des Mittelmeers widerspiegeln.",
+          "text2":"Hauptrestaurant: Frühstück, Mittag- und Abendessen",
+          "text3":"Bistro-Restaurant: 24 Stunden",
+          "text4":"Snack-Bars: 24 Stunden"
+        
       },
 
       "MainRestaurantSection":{
@@ -223,41 +222,41 @@
         "cuisines1title":"Anatolien",
          "cuisines1text":"  Lassen Sie uns das Vergnügen erleben, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO hat die Ehre, Ihre Träume mit dem einzigartigen Geschmack des Mittelmeers zu verbinden.",
          "buttonText":"  Mehr entdecken",
-         "cuisines2subtitle":"CUISINE: Italian",
+         "cuisines2subtitle":" KÜCHE: Italienisch",
         "cuisines2title":"Gusto",  
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of " ,
-        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines2text":" Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest erschaffen. In unserem Hauptrestaurant ist unser italienisches À-la-Carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lorem Ipsum, die unverwechselbaren Aromen der..." ,
+        "cuisines3subtitle":" KÜCHE: Meeresfrüchte und Fisch",
         "cuisines3title":"Despina",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":"  Fischmenüs, die von unseren preisgekrönten Köchen für Sie zubereitet werden, sprechen sowohl Ihren Appetit als auch Ihre Augen an. Spezielle Rezepte erwarten Sie in unserem Fisch-À-la-Carte-Restaurant. Unser Fisch-À-la-Carte-Restaurant serviert am..."     
       },
 
       "ClinaryReverseSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":"  Perfekte Fine-Dining-Erlebnisse",
         "title":" Bistro Restaurant",
-        "text1":" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates. Let’s learn more about this concept.",
-        "text2":" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."
+        "text1":" Vergessen Sie die Sorge, ob Sie essen können, wenn Sie das Lago Hotel besuchen, und träumen Sie von einem Urlaub. Unser Bistro-Restaurant ist 24 Stunden am Tag geöffnet. Erleben Sie unser Konzept, während Sie Ihr Bier neben denen nippen, die leckere Hamburger, Pasta, Sandwiches, Hähnchenkeulen genießen und ihren Gaumen verwöhnen. Lassen Sie uns mehr über dieses Konzept erfahren.",
+        "text2":"  Bistros sind Restaurants, in denen typische Menüpunkte schnell serviert werden. Die Franzosen machen kleine Pausen von ihrer täglichen Arbeit an diesen ruhigen Orten, trinken gelegentlich Kaffee und gelegentlich Alkohol. Sandwiches, sowohl warm als auch kalt, Desserts und andere Getränke können genossen werden."
       },
 
       "CuisinesCarousel2":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s World Cuisines",
+        "subtitle":" Perfekte Fine-Dining-Erlebnisse",
+        "title":" LAGOs Weltküchen",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
+        "cuisines1subtitle":"  KÜCHE: Teppanyaki (Japanisch) ",
         "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+         "cuisines1text":"In unserem Teppanyaki-À-la-Carte-Restaurant, in dem Gerichte der japanischen Küche, die in Eisenpfannen zubereitet werden, präsentiert werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
          "buttonText":"  Mehr entdecken",
-         "cuisines2subtitle":"CUISINE: ASIAN ",
+         "cuisines2subtitle":" KÜCHE: ASIATISCH ",
         "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
+        "cuisines2text":"  Wir haben unser asiatisches À-la-Carte-Restaurant so gestaltet, dass Sie die köstlichen Aromen der asiatischen Küche im Urlaub erleben können. Zwischen 18:30 und 21:00 Uhr können Sie asiatische Küche genießen, die von unseren talentierten, preisgekrönten Köchen zubereitet wird.",
+        "cuisines3subtitle":"  KÜCHE: Spanisch ",
         "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":" Fischmenüs, die von unseren preisgekrönten Köchen für Sie zubereitet werden, sprechen sowohl Ihren Appetit als auch Ihre Augen an. Spezielle Rezepte erwarten Sie in unserem Fisch-À-la-Carte-Restaurant. Unser Fisch-À-la-Carte-Restaurant serviert am... "     
       },
 
       "DiscoverBackground":{
-        "subtitle":"A UNIQUE FEAST OF TASTE",
-        "title":" Discover our Bars and Cafes",
-         "text":" At Lago Hotel's bars and cafes, enjoy delicious drinks and snacks any time of the day. Sip your cocktails to the sound of live music or take a coffee break to brighten your day.",
+        "subtitle":" EIN EINZIGARTIGES GESCHMACKSERLEBNIS",
+        "title":"  Entdecken Sie unsere Bars und Cafés",
+         "text":"  In den Bars und Cafés des Lago Hotels können Sie zu jeder Tageszeit köstliche Getränke und Snacks genießen. Schlürfen Sie Ihre Cocktails zum Klang von Live-Musik oder machen Sie eine Kaffeepause, um Ihren Tag zu verschönern.",
          "buttonText":"ENTDECKEN SIE MEHR"
       }
     }

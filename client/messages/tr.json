@@ -199,12 +199,11 @@
       "ClinaryInfoSection":{
         "subtitle":" Mükemmel Gurme Yemek Deneyimleri",
         "title":" LAGO'da Mutfak Sanatı",
-        "texts":{
-          "1":"  LAGO'da, lezzetli yemeklerin sunulduğu A’la Carte Restoranlarımızda uluslararası mutfağın tadını çıkaracak, Türk mutfağının eşsiz lezzetlerinin yanı sıra Akdeniz ruhunu yansıtan taze tatların yer aldığı sonsuz açık büfe ile tatilinizin keyfini çıkaracaksınız.",
-          "2":"Ana Restoran: Kahvaltı, Öğlen ve Akşam Yemeği",
-          "3":"Bistro Restoran: 24 Saat",
-          "4":"Snack Bars: 24 Saat"
-        }
+          "text1":"  LAGO'da, lezzetli yemeklerin sunulduğu A’la Carte Restoranlarımızda uluslararası mutfağın tadını çıkaracak, Türk mutfağının eşsiz lezzetlerinin yanı sıra Akdeniz ruhunu yansıtan taze tatların yer aldığı sonsuz açık büfe ile tatilinizin keyfini çıkaracaksınız.",
+          "text2":"Ana Restoran: Kahvaltı, Öğlen ve Akşam Yemeği",
+          "text3":"Bistro Restoran: 24 Saat",
+          "text4":"Snack Bars: 24 Saat"
+        
       },
 
       "MainRestaurantSection":{
