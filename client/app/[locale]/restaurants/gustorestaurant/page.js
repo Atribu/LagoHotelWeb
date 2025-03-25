@@ -28,7 +28,7 @@ const page = () => {
         title: t4("cuisines1subtitle"),
         description: t4("cuisines1title"),
         text: t4("cuisines1text"),
-        link:"/anatoliarestaurant",
+        link:"/restaurants/anatoliarestaurant",
         buttonText:t4("buttonText")
       },
     {
@@ -37,7 +37,7 @@ const page = () => {
         title: t4("cuisines2subtitle"),
         description: t4("cuisines2title"),
         text: t4("cuisines2text"),
-        link:"/wasabi",
+        link:"/restaurants/wasabi",
         buttonText:t4("buttonText")
       },
       {
@@ -46,7 +46,7 @@ const page = () => {
         title: t4("cuisines3subtitle"),
         description: t4("cuisines3title"),
         text: t4("cuisines3text"),
-         link:"/despinarestaurant",
+         link:"/restaurants/despinarestaurant",
          buttonText:t4("buttonText")
       }
   ];
@@ -55,6 +55,7 @@ const page = () => {
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
       <RestaurantMainBanner img={imgBanner} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
+      <KidsMomentCarousel images={images} header="" showheader={false}/>
       <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")}/>
       <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={otherOptions}/>
       <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/restaurant" img={backgroundImg} buttonText={t5("buttonText")}/>

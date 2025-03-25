@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import ReactDOM from "react-dom";
 import DropdownCookieArrow from "./Contact/icons/DropdownCookieArrow";
 import logosvg from "./Header/Icons/Asset2.svg";
@@ -27,7 +27,7 @@ const ModalPortal = ({ children, onClose }) => {
 
 const CookiePopup = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = usePersistentState('isVisible', true);
 
   const buttonsData = [
     { id: 0, label: "Cookie Policy" },
@@ -44,11 +44,63 @@ const CookiePopup = () => {
   ];
 
   const [cookies, setCookies] = useState({
-    necessary: false, // Zorunlu çerezler her zaman aktiftir.
+    necessary: true, // Zorunlu çerezler her zaman aktiftir.
     performance: false,
     functional: false,
     targeting: false,
   });
+
+  function usePersistentState(key, initialValue) {
+    // Başlangıçta localStorage'dan değeri okuyup state'i ayarla.
+    const [state, setState] = useState(() => {
+      if (typeof window === 'undefined') return initialValue;
+      try {
+        const item = window.localStorage.getItem(key);
+        return item ? JSON.parse(item) : initialValue;
+      } catch (error) {
+        console.error(error);
+        return initialValue;
+      }
+    });
+  
+    // state her değiştiğinde localStorage'ı güncelle.
+    useEffect(() => {
+      try {
+        window.localStorage.setItem(key, JSON.stringify(state));
+      } catch (error) {
+        console.error(error);
+      }
+    }, [key, state]);
+  
+    return [state, setState];
+  }
+
+  const handleAcceptAll = () => {
+    // const allAccepted = {
+    //   necessary: true,
+    //   performance: true,
+    //   functional: true,
+    //   targeting: true,
+    // };
+    // setCookies(allAccepted);
+    // savePreferences(allAccepted);
+    console.log("Tüm Çerezler Kabul Edildi:");
+    setIsVisible(false);
+  };
+
+  // Tüm çerezleri reddet ve popup'ı kapat
+  const handleDenyAll = () => {
+    // const allDenied = {
+    //   necessary: true, // Zorunlu çerezler her zaman aktiftir
+    //   performance: false,
+    //   functional: false,
+    //   targeting: false,
+    // };
+    // setCookies(allDenied);
+    // savePreferences(allDenied);
+    console.log("Tüm Çerezler Reddedildi:");
+    setIsVisible(false);
+  }
 
   const handleToggle = (type) => {
     setCookies((prevCookies) => ({
@@ -63,7 +115,7 @@ const CookiePopup = () => {
   const [isDropdown4Open, setIsDropdown4Open] = useState(false);
 
   const contents = [
-    // third button
+  
     <div className="flex flex-col h-full w-[96%] text-start font-jost items-start justify-start  gap-[7.5px] overflow-y-scroll thin-scrollbar max-h-[500px]">
       <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6] pr-[2%]">
         <div
@@ -83,14 +135,12 @@ const CookiePopup = () => {
           </h4>
         </div>
         <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300  ${
-            cookies.analytics ? "bg-[#439150]" : "bg-[#676766]"
-          }`}
-          onClick={() => handleToggle("analytics")}
+          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300 bg-[#439150] `}
+          onClick={() => handleToggle("necessary")}
         >
           <div
             className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.analytics ? "translate-x-[14px]" : "translate-x-1"
+              cookies.necessary ? "translate-x-[14px]" : "translate-x-[14px]"
             }`}
           />
         </div>
@@ -944,12 +994,12 @@ const CookiePopup = () => {
           <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
             <button
               className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer  "
-              onClick={handleClose}
+              onClick={handleDenyAll}
             >
               Deny All Cookies
             </button>
             <button
-              onClick={handleClose}
+              onClick={handleAcceptAll}
               className="flex lg:hidden text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
               Accept All Cookies
@@ -963,7 +1013,7 @@ const CookiePopup = () => {
             </button>
 
             <button
-              onClick={handleClose}
+              onClick={handleAcceptAll}
               className="hidden lg:flex text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
               Accept All Cookies

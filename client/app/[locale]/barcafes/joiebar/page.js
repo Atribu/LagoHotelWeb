@@ -46,7 +46,7 @@ const otherOptions = [
       title: t4("cuisines1title"),
       description: t4("cuisines1subtitle"),
       text:t4("cuisines1text"),
-      link:"/",
+      link:"/barcafes/mignonbar",
       buttonText:t4("buttonText")
     },
   {
@@ -64,7 +64,7 @@ const otherOptions = [
       title: t4("cuisines3title"),
       description: t4("cuisines3subtitle"),
       text:t4("cuisines3text"),
-       link:"/",
+       link:"/barcafes/maldivabar",
        buttonText:t4("buttonText")
     },
     {
@@ -73,7 +73,7 @@ const otherOptions = [
       title: t4("cuisines4title"),
       description: t4("cuisines4subtitle"),
       text:t4("cuisines4text"),
-       link:"/",
+       link:"/barcafes/vagobar",
        buttonText:t4("buttonText")
     }
 ];
@@ -83,9 +83,9 @@ const otherOptions = [
       <RestaurantMainBanner img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
-      <RoomTour span={t3("subtitle")} header={t3("subtitle")} text={t("text")}/>
-      <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Exclusive Pool Bars" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>
-      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/barcafes" img={backgroundImg}/>
+      <RoomTour span={t3("subtitle")} header={t3("subtitle")} text={t3("text")}/>
+      <OtherOptions4 span={t4("subtitle")} header={t4("subtitle")} text={t4("text")} images={otherOptions}/>
+      <DiscoverBackground span={t5("subtitle")} header={t5("subtitle")} text={t5("text")} link="/barcafes" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

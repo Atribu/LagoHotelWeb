@@ -366,7 +366,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]">+90 123 456 78 90</p>
+          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]"> 0242 524 57 87</p>
           </div>
         </div>
         </div>

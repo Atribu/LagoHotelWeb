@@ -11,7 +11,18 @@
   "restaurants":"Restaurants",
   "beachPools":"Strand & Pools",
    "experiences":"Erlebnisse",
-    "kids":"Kinder"
+    "kids":"Kinder",
+    "spa": "SPA & WELLNESS",
+    "special": "Spezial",
+    "gallery": "Galerie",
+    "barsandcafes": "Bars und Cafés",
+    "ourhotel": "Unser Hotel",
+    "allrooms": "Alle Zimmer",
+    "superior": "Superior Zimmer",
+    "family": "Familienzimmer",
+    "swimup": "Swim-up Zimmer",
+    "familyswimup": "Familien-Swim-up-Zimmer",
+    "duplex": "Duplex Familienzimmer"
 
 },
 
@@ -134,9 +145,9 @@
       "buttonText1":"Superior Zimmer",
       "buttonText2":"Familienzimmer",
       "buttonText3":"  Swim-up Zimmer",
-      "buttonText4":"",
-      "buttonText5":"",
-      "buttonText6":"",
+      "buttonText4": "Familien-Swim-up-Zimmer",
+      "buttonText5": "Duplex Familienzimmer",
+      "buttonText6": "Kleine Villa",
       "subtitle":"   Ein komfortabler Aufenthalt für Sie und Ihre Familie",
       "title":" Entdecken Sie unsere raffinierten Unterkunftsmöglichkeiten und finden Sie den perfekten Raum für Ihren Aufenthalt.",
       "text":" Im Lago Hotel bieten wir komfortable Unterkünfte mit Meeres- oder Waldblick. Swim-up-Zimmer, Familiensuiten und private Villen erfüllen jeden Bedarf. Unsere modernen Zimmer vereinen Komfort und Luxus. Für einen unvergesslichen Urlaub sind Sie hier richtig!",
@@ -376,7 +387,7 @@
       "title": " Schauen Sie sich um",
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
     },
-    "CuisinesCarousel1": {
+    "CuisinesCarousel": {
       "subtitle": " Perfekte Gourmet-Erlebnisse",
       "title": " LAGO’s Exklusive Pool-Bars",
       "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
@@ -389,7 +400,10 @@
       "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
       "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
       "cuisines3title": "Maldiva Bar",
-      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Vago Bar",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
     },
     "DiscoverBackground": {
       "subtitle": "Ein einzigartiges Geschmackserlebnis",
@@ -398,6 +412,294 @@
       "buttonText": "Mehr entdecken"
     }
   },
+
+  "MaldivaBar": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Maldiva Bar",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Mignon Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Joie Bar",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Maldiva Bar",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Vago Bar",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "MignonBar": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Mignon Bar",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Mignon Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Joie Bar",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Maldiva Bar",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Vago Bar",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "PianoBar": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Piano Bar",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Mignon Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Joie Bar",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Maldiva Bar",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Vago Bar",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "VagoBar": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Vago Bar",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Mignon Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Joie Bar",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Maldiva Bar",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Vago Bar",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "Abellapatisserie": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Abella Patisserie",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Piano Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Abella Patisserie",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Cafe de Lago",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Cafe de House",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "Cafedehouse": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Cafe de House",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Piano Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Abella Patisserie",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Cafe de Lago",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Cafe de House",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "Cafedelago": {
+    "subtitle": " Frische Getränke und Musik",
+    "title": "Cafe de Lago",
+    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "ClinaryInfoSection": {
+      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "title": " Frische Getränke am Pool",
+      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
+      "text2": ""
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": " LAGO’s Exklusive Pool-Bars",
+      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
+      "cuisines1title": "Piano Bar",
+      "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Öffnungszeiten: 08:00 - 23:00",
+      "cuisines2title": "Abella Patisserie",
+      "cuisines2text": "Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren, und bringt authentische Geschmäcker sowie unvergessliche kulinarische Erlebnisse direkt an Ihren Tisch.",
+      "cuisines3subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines3title": "Cafe de Lago",
+      "cuisines3text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle": "Öffnungszeiten: 09:00 - 18:00",
+      "cuisines4title": "Cafe de House",
+      "cuisines4text": "Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: "
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Entdecken Sie unsere Cafés, in denen Sie zu jeder Tageszeit genussvolle Momente erleben können – mit besonderen Desserts, Snacks und frisch gebrühtem Kaffee. Erleben Sie die perfekte Harmonie von Geschmack und Komfort bei LAGO.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
   "GustoRestaurants": {
     "subtitle": "Italienische Küche in ihrer besten Form",
     "title": "Gusto Restaurant",
@@ -406,6 +708,252 @@
       "subtitle": " Perfekte Gourmet-Erlebnisse",
       "title": "Exquisite italienische Aromen",
       "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "AnatoliaRestaurants": {
+    "subtitle": "International Küche in ihrer besten Form",
+    "title": "Anatolia Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite international Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser international À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "DespinaRestaurants": {
+    "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
+    "title": "Gusto Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite meeresfrüchte Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser meeresfrüchte À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "FuegoRestaurants": {
+    "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
+    "title": "Fuego Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite meeresfrüchte Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser meeresfrüchte À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "MainRestaurants": {
+    "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
+    "title": "Main Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite meeresfrüchte Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser meeresfrüchte À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "TapazRestaurants": {
+    "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
+    "title": "Tapaz Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite meeresfrüchte Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser meeresfrüchte À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+      "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+    },
+    "RoomTour": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": " Schauen Sie sich um",
+      "text": "Im Lago Hotel genießen Sie ein unvergessliches kulinarisches Erlebnis mit sorgfältig zubereiteten Gerichten und einer eleganten Atmosphäre. Verwöhnen Sie Ihren Gaumen mit von unseren Meisterköchen kreierten und stilvoll präsentierten Geschmäckern."
+    },
+    "CuisinesCarousel": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "LAGO’s Weltküchen",
+      "text": " In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "cuisines1subtitle": "KÜCHE: Teppanyaki (Japanisch)",
+      "cuisines1title": "Wasabi",
+      "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
+      "buttonText": "Mehr erkunden",
+      "cuisines2subtitle": "KÜCHE: Asiatisch",
+      "cuisines2title": "Fuego",
+      "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
+      "cuisines3subtitle": "KÜCHE: Spanisch",
+      "cuisines3title": "Tapaz",
+      "cuisines3text": " Die von unseren preisgekrönten Köchen für Sie zubereiteten Fischmenüs sprechen sowohl Ihren Appetit als auch Ihren Blick an. Spezielle Rezepte erwarten Sie in unserem Fisch-à-la-carte-Restaurant. Unser Fisch-à-la-carte-Restaurant serviert zu den folgenden Zeiten: ",
+      "cuisines4subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines4title":"Maldiva Bar",   
+        "cuisines4text":""
+    },
+    "DiscoverBackground": {
+      "subtitle": "Ein einzigartiges Geschmackserlebnis",
+      "title": " Entdecken Sie unsere Bars und Cafés",
+      "text": "Einzigartige Aromen, kreiert von unseren preisgekrönten Köchen, und sorgfältig ausgewählte Delikatessen aus den Küchen der Welt erwarten Sie in den Restaurants und Cafés des Lago Hotels. Genießen Sie unvergessliche Erlebnisse und besondere Getränke in unseren Bars und Cafés, die jeweils ein unverwechselbares Ambiente bieten.",
+      "buttonText": "Mehr entdecken"
+    }
+  },
+
+  "WasabiRestaurants": {
+    "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
+    "title": "Wasabi Restaurant",
+    "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
+    "ClinaryInfoSection": {
+      "subtitle": " Perfekte Gourmet-Erlebnisse",
+      "title": "Exquisite meeresfrüchte Aromen",
+      "text1": " Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser meeresfrüchte À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
       "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
     },
     "RoomTour": {
@@ -513,6 +1061,59 @@
       "poolSubTitle9": "nur für Erwachsene (+16), ruhige Atmosphäre",
       "poolTitle9": "Mega Aqua Park",
       "poolText9": "Unser Mega Aqua Park, nur für Erwachsene (+16), bietet aufregende Rutschen und sorgt für endlosen Spaß und Unterhaltung."
+    }
+  },
+  "Spa": {
+    "subtitle": "ENTSPANNEN SIE IM LAGO WELLNESS CENTER",
+    "title": "Spa & Wellness",
+    "mobileTitle": "Entspannen Sie sich und tanken Sie neue Energie. Genießen Sie eine hochwertige professionelle Massage in unserem Wellness Center und erleben Sie umfassende körperliche und geistige Erneuerung.",
+    "text": "Entspannen Sie sich und tanken Sie neue Energie. Genießen Sie eine hochwertige professionelle Massage in unserem Wellness Center und erleben Sie umfassende körperliche und geistige Erneuerung.",
+    "InfoSection": {
+   
+        "subtitle": "Perfekte Gourmet-Erlebnisse",
+        "title": "Wellness im LAGO Hotel",
+        "text": "Für diejenigen, die auch im Urlaub fit bleiben möchten, bietet unser Fitness Center mit professioneller Ausstattung tägliche Trainings. Nach dem Training können Sie Ihren Körper und Geist mit einer professionellen Massage in unserem SPA entspannen, in unserem traditionellen Türkischen Bad abschalten oder sich in der finnischen Sauna neu beleben.",
+  
+        "subtitle2": "Körperliche und geistige Erneuerung",
+        "title2": "Sauna & Türkisches Bad",
+        "text2": "Öffnungszeiten: 08:00 - 20:00",
+
+   
+        "subtitle3": "SPA & WELLNESS",
+        "title3": "Spa-Behandlungen",
+        "text3": "Öffnungszeiten: 09:00 - 18:00",
+        "list1": "16 Massageräume",
+        "list2": "2 VIP Massageräume",
+        "list3": "Türkisches Bad- und Schaummassageräume",
+        "list4": "Dampfraum",
+        "list5": "Sauna"
+     
+    },
+    "SpaGallery": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": "Erwecken Sie Ihre Sinne im LAGO",
+      "text": "Entdecken Sie eine Welt der Entspannung und Gelassenheit im LAGO Wellness Center. Verwöhnen Sie sich mit exklusiven Spa-Behandlungen und beruhigenden Massagen, die darauf ausgelegt sind, Körper und Geist zu erfrischen."
+    },
+    "Carousel": {
+      "subtitle": "ENTSPANNEN UND VERGESSEN",
+      "title": "Massagemöglichkeiten",
+      "text": "Bereichern Sie Ihren Urlaub mit unserer großen Auswahl an Massagen, angeboten von erfahrenen Therapeuten, die darauf ausgelegt sind, Körper und Geist zu entspannen. Im LAGO erwartet Sie für jeden Bedarf die perfekte Massagetherapie.",
+      "massage1": "Aromatherapie-Massage",
+      "massageText1": "DAUER: 60 MIN",
+      "massage2": "Orientalische Massage",
+      "massageText2": "DAUER: 60 MIN",
+      "massage3": "Klassische Massage",
+      "massageText3": "DAUER: 60 MIN",
+      "massage4": "Gesichtsspezialmassage",
+      "massageText4": "DAUER: 60 MIN"
+    },
+    "SpaType": {
+      "subtitle": "Arbeitszeiten: 9:00 - 20:00",
+      "title": "Überdachter Pool",
+      "text": "Genießen Sie das ganze Jahr über das Schwimmen in unserem überdachten Pool, der in jeder Saison verfügbar ist. Erfrischen Sie sich in einer komfortablen und ruhigen Umgebung und erleben Sie unvergessliche Momente in der stilvollen und modernen Atmosphäre von LAGO.",
+      "subtitle2": "Erleben Sie traditionelle Kultur",
+      "title2": "Türkisches Hamam",
+      "text2": "Erfrischen und verwöhnen Sie sich in der einzigartigen Atmosphäre unseres traditionellen Türkischen Hamams. Erleben Sie die ikonische Entspannungskultur mit den professionellen Therapeuten von LAGO und erneuern Sie sowohl Ihren Körper als auch Ihre Seele."
     }
   }
 

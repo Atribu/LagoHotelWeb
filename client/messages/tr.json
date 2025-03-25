@@ -12,7 +12,18 @@
   "restaurants":"Restoranlar",
   "beachPools":"Plaj ve Havuzlar",
    "experiences":"Deneyimler",
-    "kids":"Çocuklar"
+    "kids":"Çocuklar",
+    "spa": "SPA & WELLNESS",
+    "special": "Özel",
+    "gallery": "Galeri",
+    "barsandcafes": "Barlar ve Kafeler",
+    "ourhotel": "Otelimiz",
+    "allrooms": "Tüm Odalar",
+    "superior": "Superior Oda",
+    "family": "Aile Odası",
+    "swimup": "Swim-up Odası",
+    "familyswimup": "Aile Swim-up Odası",
+    "duplex": "Dubleks Aile Odası"
 
 },
 
@@ -134,9 +145,9 @@
       "buttonText1":"Superior Oda",
       "buttonText2":"Aile Odası",
       "buttonText3":" Havuz Erişimli  Oda",
-      "buttonText4":"",
-      "buttonText5":"",
-      "buttonText6":"",
+  "buttonText4": "Aile Swim-up Odası",
+  "buttonText5": "Dubleks Aile Odası",
+  "buttonText6": "Küçük Villa",
       "subtitle":"  Sizin ve aileniz için konforlu bir konaklama",
       "title":"Zarif konaklama seçeneklerimizi keşfedin ve konaklamanız için mükemmel alanı bulun.",
       "text":" Lago Hotel'de deniz veya orman manzaralı odalarımızla konforlu bir konaklama sunuyoruz. Swim-up odalar, aile suitleri ve özel villalarımızla her ihtiyaca uygun seçenekler bulabilirsiniz. Modern tasarımlı odalarımızda rahatlık ve lüks bir arada. Unutulmaz bir tatil için doğru adrestesiniz!",
@@ -165,21 +176,21 @@
         "buttonText":"Keşfet"
       },
       "RoomSection4":{
-        "title":"Superior Room",
+        "title":"Aile Swim-up Odası",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land/Sea View",
         "buttonText":"Keşfet"
       },
       "RoomSection5":{
-        "title":"Superior Room",
+        "title":"Dubleks Aile Odası",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land/Sea View",
         "buttonText":"Keşfet"
       },
        "RoomSection6":{
-        "title":"Superior Room",
+        "title":"Küçük Villa",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land/Sea View",
@@ -401,6 +412,295 @@
           "buttonText": "DAHA FAZLASINI KEŞFEDİN"
         }
       },
+
+
+      "MaldivaBar": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Maldiva Bar",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Mignon Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Joie Bar",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Maldiva Bar",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Vago Bar",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "MignonBar": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Mignon Bar",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Mignon Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Joie Bar",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Maldiva Bar",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Vago Bar",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "PianoBar": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Piano Bar",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Mignon Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Joie Bar",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Maldiva Bar",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Vago Bar",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "VagoBar": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Vago Bar",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Mignon Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Joie Bar",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Maldiva Bar",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Vago Bar",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "Abellapatisserie": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Abella Patisserie",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Piano Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Abella Patisserie",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Cafe de Lago",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Cafe de House",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "Cafedehouse": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Cafe de House",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Piano Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Abella Patisserie",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Cafe de Lago",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Cafe de House",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "Cafedelago": {
+        "subtitle": " Taze İçecekler ve Müzik",
+        "title": "Cafe de Lago",
+        "text": " Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " Havuzda Taze İçecekler",
+          "text1": " İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda, İtalyan A’la Carte restoranımız, size İtalyan mutfağının kendine özgü lezzetlerini sunmaya hazır. Özenle seçilmiş yemeklerin otantik tatlarını ve aromalarını deneyimleyin; her biri olağanüstü bir yemek deneyimi sunmak için özenle hazırlandı. Konaklamanız sırasında kendinizi gurme lezzetlere ve unutulmaz anlara bırakın.",
+          "text2": ""
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "LAGO'nun eşsiz atmosferini keşfetmeye hazır mısınız? Ziyaretinizden önce tatilinizin her detayını görsel olarak keşfetmenizi sağlayan 360 derecelik sanal tur ile restoranlarımızı, barlarımızı ve öne çıkan alanlarımızı deneyimleyin."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": " LAGO'nun Özel Havuz Barları",
+          "text": " À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir gastronomik maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "SAATLER: 10:00 - 19:00",
+          "cuisines1title": "Piano Bar",
+          "cuisines1text": "Tabakta Türk mutfağının kendine özgü lezzetlerini ve gastronomik geleneklerini korumanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tatlarıyla harmanlama onuruna sahiptir.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "SAATLER: 08:00 - 23:00",
+          "cuisines2title": "Abella Patisserie",
+          "cuisines2text": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır; otantik tatları ve unutulmaz yemek deneyimlerini doğrudan masanıza getiriyor.",
+          "cuisines3subtitle": "SAATLER: 09:00 - 18:00",
+          "cuisines3title": "Cafe de Lago",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: ",
+          "cuisines4subtitle": "SAATLER: 24 saat",
+          "cuisines4title": "Cafe de House",
+          "cuisines4text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Günün her saatinde özel tatlılar, atıştırmalıklar ve taze demlenmiş kahve seçenekleriyle keyifli anlar yaşayabileceğiniz kafelerimizi keşfedin. LAGO'da tat ve konforun mükemmel uyumunu deneyimleyin.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
       "GustoRestaurants": {
         "subtitle": "İtalya Mutfağı'nın En İyi Örnekleri",
         "title": "Gusto Restoran",
@@ -409,6 +709,234 @@
           "subtitle": " Mükemmel Gurme Deneyimleri",
           "title": "İtalyan Lezzetlerinin İnceliği",
           "text1": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "AnatoliaRestaurants": {
+        "subtitle": "Uluslararası Mutfağı'nın En İyi Örnekleri",
+        "title": "Anatolia Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Uluslararası Lezzetlerinin İnceliği",
+          "text1": "Türk mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Türk mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "DespinaRestaurants": {
+        "subtitle": "Deniz Mutfağı'nın En İyi Örnekleri",
+        "title": "Gusto Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Deniz Lezzetlerinin İnceliği",
+          "text1": "Deniz mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "FuegoRestaurants": {
+        "subtitle": "Deniz Mutfağı'nın En İyi Örnekleri",
+        "title": "Fuego Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Deniz Lezzetlerinin İnceliği",
+          "text1": "Deniz mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "MainRestaurants": {
+        "subtitle": "Uluslararası Mutfağın En İyi Örnekleri",
+        "title": "Main Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Uluslararası Lezzetlerinin İnceliği",
+          "text1": "Uluslararası mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "TapazRestaurants": {
+        "subtitle": "Deniz Mutfağı'nın En İyi Örnekleri",
+        "title": "Tapaz Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Deniz Lezzetlerinin İnceliği",
+          "text1": "Deniz mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
+          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        },
+        "RoomTour": {
+          "subtitle": "Mükemmel Gurme Deneyimleri",
+          "title": " Bir Göz Atın",
+          "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
+        },
+        "CuisinesCarousel": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "LAGO'nun Dünya Mutfağı",
+          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
+          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
+          "cuisines1title": "Wasabi",
+          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
+          "buttonText": "Daha Fazlasını Keşfet",
+          "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Fuego",
+          "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
+          "cuisines3subtitle": "MUTFAK: İspanyol",
+          "cuisines3title": "Tapaz",
+          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+        },
+        "DiscoverBackground": {
+          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "title": "Barlarımızı ve Kafelerimizi Keşfedin",
+          "text": "Ödüllü şeflerimizin yarattığı benzersiz lezzetler ve dünya mutfağından özenle seçilmiş lezzetler, Lago Hotel'in restoran ve kafalarında sizi bekliyor. Her biri kendine has bir atmosfere sahip barlarımızda ve kafelerimizde unutulmaz deneyimler ve özel içeceklerin tadını çıkarın.",
+          "buttonText": "DAHA FAZLASINI KEŞFEDİN"
+        }
+      },
+
+      "WasabiRestaurants": {
+        "subtitle": "Japon Mutfağı'nın En İyi Örnekleri",
+        "title": "Wasabi Restoran",
+        "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
+        "ClinaryInfoSection": {
+          "subtitle": " Mükemmel Gurme Deneyimleri",
+          "title": "Japon Lezzetlerinin İnceliği",
+          "text1": "Japon mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Japon A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
           "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
         },
         "RoomTour": {
@@ -456,7 +984,7 @@
           "text5": "Yüzme ve su sporları için ideal sakin sular"
         },
         "ImageBackground": {
-          "subtitle": "Cabana ve Pavyon Kiralama",
+          "subtitle": "Cabana ve Pavilion Kiralama",
           "title": "Sahil Lüksünde Rahatlayın",
           "text1": "Ücret karşılığında sunulan özel Cabana ve Pavyonlarımızda, plaj kenarında eşsiz mahremiyet ve konforun tadını çıkarın. Swim-Up Odalarında kalan misafirlerimiz özel indirimlerden faydalanarak, sahil deneyimlerini daha da lüks hale getiriyor.",
           "text2": "Özel Düzenleme Mevcut",
@@ -514,6 +1042,62 @@
           "poolTitle9": "Mega Aqua Park",
           "poolText9": "Sadece yetişkin (+16) Mega Aqua Parkımız, heyecan verici kaydıraklar sunarak sonsuz heyecan ve eğlence yaşatır."
         }
-      }
+      },
+
+      "Spa": {
+    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "title": "Spa & Wellness",
+    "mobileTitle": "Rahatlayın ve şarjınızı yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın ve kapsamlı fiziksel ve zihinsel yenilenmeyi deneyimleyin.",
+    "text": "Rahatlayın ve şarjınızı yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın ve kapsamlı fiziksel ve zihinsel yenilenmeyi deneyimleyin.",
+    
+    "InfoSection": {
+     
+        "subtitle": "Mükemmel Gurme Deneyimleri",
+        "title": "LAGO Oteli'nde Wellness",
+        "text": "Tatil sırasında formda kalmak isteyenler için, profesyonel ekipmanlarla donatılmış Fitness Center'ımız günlük antrenmanlar sunmaktadır. Egzersiz yaptıktan sonra, SPA'mızda profesyonel bir masajla bedeninizi ve zihninizi rahatlatabilir, geleneksel Türk Hamamımızda gevşeyebilir veya Fin Saunası'nda yenilenebilirsiniz.",
+    
+        "subtitle2": "Fiziksel ve Zihinsel Yenilenme",
+        "title2": "Sauna & Türk Hamamı",
+        "text2": "Açılış Saatleri: 08:00 - 20:00",
+     
+      
+        "subtitle3": "SPA & WELLNESS",
+        "title3": "Spa Tedavileri",
+        "text3": "Açılış Saatleri: 09:00 - 18:00",
+        "list1": "16 Masaj Odası",
+        "list2": "2 VIP Masaj Odası",
+        "list3": "Türk Hamamı ve Köpük Masaj Odaları",
+        "list4": "Buhar Odası",
+        "list5": "Sauna"
+      
+    },
+
+    "SpaGallery": {
+      "subtitle": "Mükemmel Gurme Deneyimleri",
+      "title": "LAGO'da Duyularınızı Yenileyin",
+      "text": "LAGO Wellness Center'da rahatlama ve huzur dolu bir dünyayı keşfedin. Hem bedeninizi hem de zihninizi tazelemek için tasarlanmış özel spa tedavileri ve yatıştırıcı masajların keyfini çıkarın."
+    },
+    "Carousel": {
+      "subtitle": "RAHATLAYIN VE UNUTUN",
+      "title": "Masaj Seçenekleri",
+      "text": "Uzman terapistler tarafından sunulan geniş masaj seçeneklerimizle tatilinizi zenginleştirin, bedeninizi ve zihninizi rahatlatacak şekilde tasarlandı. LAGO'da her ihtiyaca uygun mükemmel masaj terapisi sizi bekliyor.",
+      "massage1": "Aromaterapi Masajı",
+      "massageText1": "SÜRE: 60 DAK",
+      "massage2": "Oryantal Masaj",
+      "massageText2": "SÜRE: 60 DAK",
+      "massage3": "Klasik Masaj",
+      "massageText3": "SÜRE: 60 DAK",
+      "massage4": "Yüz Özel Masajı",
+      "massageText4": "SÜRE: 60 DAK"
+    },
+    "SpaType": {
+      "subtitle": "Çalışma Saatleri: 9:00 - 20:00",
+      "title": "Kapalı Havuz",
+      "text": "Her mevsimde hizmet veren kapalı havuzumuzda yıl boyunca yüzmenin keyfini çıkarın. Rahat ve huzurlu bir ortamda kendinizi tazeleyin ve LAGO'nun şık ve modern atmosferinde unutulmaz anlar yaşayın.",
+      "subtitle2": "Geleneksel Kültürü Deneyimleyin",
+      "title2": "Türk Hamamı",
+      "text2": "Geleneksel Türk Hamamımızın eşsiz atmosferinde kendinizi yenileyin ve şımartın. LAGO'nun profesyonel terapistleriyle ikonik rahatlama kültürünü deneyimleyin ve bedeninizi, ruhunuzu tazeleyin."
+    }
+  }
   
   }

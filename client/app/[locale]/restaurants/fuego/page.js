@@ -28,47 +28,57 @@ import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSec
 import backgroundImg from "../images/Background.webp"
 import BannerDark from '@/app/[locale]/GeneralComponents/BannerDark'
 import KidsMomentCarousel from '@/app/[locale]/kidsclub/components/KidsMomentCarousel'
+import { useTranslations } from "next-intl";
 
 const images=[img1,img2,img3,img4,img5,img6,
   img7,img8,img9,img10,img11,img12,img13,img14,img15,img16
 ]
 
-const otherOptions = [
+const page = () => {
+  const t = useTranslations('FuegoRestaurants');
+  const t2 = useTranslations('FuegoRestaurants.ClinaryInfoSection');
+  const t3 = useTranslations('FuegoRestaurants.RoomTour');
+  const t4 = useTranslations('FuegoRestaurants.CuisinesCarousel');
+  const t5 = useTranslations('FuegoRestaurants.DiscoverBackground');
+
+  const otherOptions = [
     {
         id: 1,
         img: anatolia,
-        title: "Anatolia",
-        description: "CUISINE: International ",
-        text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/anatoliarestaurant"
+        title: t4("cuisines1subtitle"),
+        description: t4("cuisines1title"),
+        text: t4("cuisines1text"),
+        link:"/restaurants/anatoliarestaurant",
+        buttonText:t4("buttonText")
       },
     {
         id: 2,
         img: wasabi,
-        title: "Wasabi",
-        description: "CUISINE: Teppanyaki (Japanese)",
-        text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/wasabi"
+        title: t4("cuisines2subtitle"),
+        description: t4("cuisines2title"),
+        text: t4("cuisines2text"),
+        link:"/restaurants/wasabi",
+        buttonText:t4("buttonText")
       },
       {
         id: 3,
         img: despina,
-        title: "Despina",
-        description: "CUISINE: Seafood and Fish ", 
-         text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-         link:"/despinarestaurant"
+        title: t4("cuisines3subtitle"),
+        description: t4("cuisines3title"),
+        text: t4("cuisines3text"),
+         link:"/restaurants/despinarestaurant",
+         buttonText:t4("buttonText")
       }
   ];
 
-const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <BannerDark img={imgBanner} span="ITALIAN CUISINE AT ITS FINEST" header="Fuego Restaurant" text="Enjoy a various amount of dining options from around the world."/>
-      <ClinaryReverseInfo img1={img1} img2={img2} span="Perfect Fine Dine Experiences" header="Exquisite Italian Flavours" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
+     <BannerDark img={imgBanner} span={t("subtitle")} header={t("title")} text={t("text")}/>
+      <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={images} header="" showheader={false}/>
-      <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
-      <CuisinesCarousel span="Perfect Fine Dine Experiences" header="Other options" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" cuisines={otherOptions}/>
-      <DiscoverBackground  span="A UNIQUE FEAST OF TASTE" header="Discover our Bars and Cafes" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurant" img={backgroundImg}/>
+      <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")}/>
+      <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={otherOptions}/>
+      <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/restaurant" img={backgroundImg} buttonText={t5("buttonText")}/>
       <ContactSection2/>
     </div>
   )
