@@ -57,7 +57,7 @@ const CuisinesCarousel = ({span,header,text, cuisines}) => {
                {room.text}
               </p>
               <Link href={room.link} className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[12px] lg:text-[14px] px-[28px] py-[14px] border border-lagoBrown text-center justify-center items-center hover:bg-black hover:text-white h-[41px]">
-                EXPLORE MORE
+                {room.buttonText}
               </Link>
             </div>
           </div>

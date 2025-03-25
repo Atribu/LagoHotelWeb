@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 // Import images
 import hungry from "../images/hungry1.webp";
@@ -32,6 +33,9 @@ const Slide = ({ slide, index }) => (
 );
 
 const BarCarouselSection = () => {
+  const t = useTranslations('BarAndCafes.BarCarousel');
+
+
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "start",
@@ -62,19 +66,19 @@ const BarCarouselSection = () => {
     <div className="flex items-end justify-end w-[87.79%] md:ml-[4.3%] lg:ml-0  md:w-[46%] lg:w-[49%]">
     <div className="flex flex-col items-start justify-center max-w-[520px] gap-[15px] md:gap-[25px] lg:gap-[35px] text-black font-jost">
         <span className="text-[12px] font-medium leading-normal uppercase tracking-[0.48px]">
-          Experience traditional culture
+       {t("subtitle")}
         </span>
         <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
-          Hungry for more?
+        {t("title")}
         </h2>
         <p className="text-[14px] font-normal leading-[130%] lg:leading-normal md:w-[92%] lg:capsizedText4">
-          Discover our spacious snack restaurant, Snackspot, offers a variety of beverages as well as special tastes from Turkish and international cuisine. Between 11:30 and 18:00, our Snackspot restaurant—one of our places where you can enjoy every second of your holiday—is open.
+        {t("text")}
         </p>
         <Link
           href="/"
-          className="flex border border-lagoBrown py-[14px] lg:px-[28px] lg:h-[41px] h-[39px] px-[18px] w-[124px] lg:w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px] bg-[#fbfbfb]"
+          className="flex border border-lagoBrown py-[14px] lg:px-[28px] lg:h-[41px] h-[39px] px-[18px] min-w-[124px] lg:min-w-[144px] whitespace-nowrap shadow-buttonCustom justify-center items-center text-center text-[14px] text-lagoBrown font-medium uppercase leading-[30px] bg-[#fbfbfb]"
         >
-          LEARN MORE
+          {t("buttonText")}
         </Link>
       </div>
     </div>

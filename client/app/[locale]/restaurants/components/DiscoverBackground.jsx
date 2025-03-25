@@ -6,7 +6,8 @@ const DiscoverBackground = ({
   header,
   text,
   link = "/barcafes",
-  img
+  img,
+  buttonText
 }) => {
   // Arka plan resmi kontrolü: eğer img.src yoksa, arka planı "none" veya boş ayarlayabilirsin.
   const backgroundImage = img?.src ? `url(${img.src})` : "none";
@@ -47,7 +48,7 @@ const DiscoverBackground = ({
             href={link}
             className="text-[14px] lg:text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
-            DISCOVER MORE
+            {buttonText}
           </Link>
       </div>
     </div>

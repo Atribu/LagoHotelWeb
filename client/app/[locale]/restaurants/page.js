@@ -41,7 +41,8 @@ const page = () => {
       title: t3("cuisines1title"),
       description: t3("cuisines1subtitle"),
       text:t3("cuisines1text"),
-      link:"restaurants/anatoliarestaurant"
+      link:"restaurants/anatoliarestaurant",
+      buttonText:t3("buttonText")
     },
     {
       id: 2,
@@ -49,7 +50,8 @@ const page = () => {
       title: t3("cuisines2title"),
       description: t3("cuisines2subtitle"),
       text:t3("cuisines2text"),
-       link:"/restaurants/gustorestaurant"
+       link:"/restaurants/gustorestaurant",
+       buttonText:t3("buttonText")
     },
     {
       id: 3,
@@ -57,7 +59,8 @@ const page = () => {
       title: t3("cuisines3title"),
       description: t3("cuisines3subtitle"),
       text:t3("cuisines3text"),
-       link:"/restaurants/despinarestaurant"
+       link:"/restaurants/despinarestaurant",
+       buttonText:t3("buttonText")
     }
   ];
 
@@ -68,7 +71,8 @@ const page = () => {
       title: t5("cuisines1title"),
       description: t5("cuisines1subtitle"),
       text:t5("cuisines1text"),
-      link:"restaurants/anatoliarestaurant"
+      link:"restaurants/anatoliarestaurant",
+      buttonText:t5("buttonText")
     },
     {
       id: 2,
@@ -76,7 +80,9 @@ const page = () => {
       title: t5("cuisines2title"),
       description: t5("cuisines2subtitle"),
       text:t5("cuisines2text"),
-       link:"/restaurants/gustorestaurant"
+       link:"/restaurants/gustorestaurant",
+       buttonText:t5("buttonText")
+       
     },
     {
       id: 3,
@@ -84,7 +90,8 @@ const page = () => {
       title: t5("cuisines3title"),
       description: t5("cuisines3subtitle"),
       text:t5("cuisines3text"),
-       link:"/restaurants/despinarestaurant"
+       link:"/restaurants/despinarestaurant",
+       buttonText:t5("buttonText")
     }
   ];
 
@@ -99,7 +106,7 @@ const page = () => {
      <Image src={bistro} width={bistro.width} height={bistro.header} className='hidden lg:flex absolute right-0 w-[172px] h-[203px] sm:w-[252px] sm:h-[304px] md:w-[343px] md:h-[407px] top-0 md:-top-[12%]  xl:right-[190px] lg:-top-[30%]' alt='bistro'/>
      <CuisinesCarousel span={t5("subtitle")} header={t5("title")} text={t5("text")} cuisines={cuisines2}/>
      </div>
-      <DiscoverBackground span={t6("subtitle")} header={t6("title")} text={t6("text")} link="/restaurant" img={backgroundImg}/>
+      <DiscoverBackground span={t6("subtitle")} header={t6("title")} text={t6("text")} link="/restaurant" img={backgroundImg} buttonText={t6("buttonText")}/>
       <ContactSection2/>
     </div>
   )

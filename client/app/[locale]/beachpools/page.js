@@ -25,88 +25,91 @@ import hover8 from "./Images/map/PoolHover8.png"
 import hover9 from "./Images/map/PoolHover9.png"
 import Form from '../GeneralComponents/Form'
 import BeachMobile from './Components/BeachMobile'
-import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
-import mainImg from "./Images/beachandpoolmobile.png"
 import img1 from "./Images/beach1.webp";
 import img2 from "./Images/beach2.webp";
 import ClinaryInfoSection from '../restaurants/components/ClinaryInfoSection'
+import {useTranslations} from 'next-intl';
+
+const page = () => {
+  const t = useTranslations('BeachPools.ClinaryInfoSection');
+  const t2 = useTranslations('BeachPools.PoolList');
+
+  const texts = [
+    t("text1"),
+    t("text2"),
+    t("text3"),
+    t("text4"),
+    t("text5")
+  ];
+
 
 const poolItems = [
   {
     src: pool1,
     hoverSrc: hover1,
-    subtitle: "family-friendly pool for general use",
-    title: "Main Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Porta est ultricies in habitant. Pharetra arcu elit pellentesque ornare cursus leo pharetra sit sed. Ut ornare est mus eu nisl donec quam."
+    subtitle: t2("poolSubTitle1"),
+    title: t2("poolTitle1"),
+    description: t2("poolText1"),
   },
   {
     src: pool2,
     hoverSrc: hover2,
-    subtitle: "peaceful environment for relaxation",
-    title: "Relax Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Egestas sollicitudin blandit est amet gravida integer. Mi feugiat fringilla morbi habitant nunc eu. Aliquam leo morbi nunc "
+    subtitle: t2("poolSubTitle2"),
+    title: t2("poolTitle2"),
+    description: t2("poolText2"),
   },
   {
     src: pool3,
     hoverSrc: hover3,
-    subtitle: "Adults-only (+16), tranquil atmosphere",
-    title: "Maldivas Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Ullamcorper tempor pellentesque arcu fringilla eleifend donec quis. Nunc mauris amet ultrices proin elementum quis ut"
+    subtitle: t2("poolSubTitle3"),
+    title: t2("poolTitle3"),
+    description: t2("poolText3"),
   },
   {
     src: pool4,
     hoverSrc: hover4,
-    subtitle: "Scenic views for a serene floating experience",
-    title: "Infinity Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Porta est ultricies in habitant. Pharetra arcu elit pellentesque ornare cursus leo pharetra sit sed. Ut ornare est mus eu nisl donec quam "
+    subtitle: t2("poolSubTitle4"),
+    title: t2("poolTitle4"),
+    description: t2("poolText4"),
   },
   {
     src: pool5,
     hoverSrc: hover5,
-    subtitle: "ideal for recreational swimming",
-    title: "Maldvas Kids Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Egestas sollicitudin blandit est amet gravida integer. Mi feugiat fringilla morbi habitant nunc eu. Aliquam leo morbi nunc "
+    subtitle: t2("poolSubTitle5"),
+    title:t2("poolTitle5"),
+    description: t2("poolText5"),
   },
   {
     src: pool6,
     hoverSrc: hover6,
-    subtitle: "Adults-only (+16), tranquil atmosphere",
-    title: "Indoor Pools",
-    description: "Lorem ipsum dolor sit amet consectetur. Ullamcorper tempor pellentesque arcu fringilla eleifend donec quis. Nunc mauris amet ultrices proin elementum quis ut "
+    subtitle:t2("poolSubTitle6"),
+    title: t2("poolTitle6"),
+    description: t2("poolText6"),
   },
   {
     src: pool7,
     hoverSrc: hover7,
-    subtitle: "ideal for recreational swimming",
-    title: "Aqua Pool",
-    description: "Lorem ipsum dolor sit amet consectetur. Egestas sollicitudin blandit est amet gravida integer. Mi feugiat fringilla morbi habitant nunc eu. Aliquam leo morbi nunc "
+    subtitle: t2("poolSubTitle7"),
+    title: t2("poolTitle7"),
+    description: t2("poolText7"),
   },
   {
     src: pool8,
     hoverSrc: hover8,
-    subtitle: "Scenic views for a serene floating experience",
-    title: "Kids’ Aqua Park",
-    description: "Lorem ipsum dolor sit amet consectetur. Porta est ultricies in habitant. Pharetra arcu elit pellentesque ornare cursus leo pharetra sit sed. Ut ornare est mus eu nisl donec quam "
+    subtitle: t2("poolSubTitle8"),
+    title: t2("poolTitle8"),
+    description: t2("poolText8"), 
   },
   {
     src: pool9,
     hoverSrc: hover9,
-    subtitle: "Adults-only (+16), tranquil atmosphere",
-    title: "Mega Aqua Park",
-    description: "Lorem ipsum dolor sit amet consectetur. Ullamcorper tempor pellentesque arcu fringilla eleifend donec quis. Nunc mauris amet ultrices proin elementum quis ut "
+    subtitle: t2("poolSubTitle9"),
+    title: t2("poolTitle9"),
+    description: t2("poolText9"),
   },
 ]
+  
 
-const texts = [
-  "Lorem ipsum dolor sit amet consectetur. Libero ut pellentesque netus odio felis morbi est. Netus turpis pretium diam at ut orci. Sed pretium cras viverra viverra pulvinar aliquet dictum magna luctus.",
-  "Special Feautures",
-  "Complimentary sun loungers, umbrellas, and towels.",
-  "Beach bars serving refreshing drinks and light snacks.",
-  "Calm waters ideal for swimming and water sports."
-];
-
-
-const page = () => {
   return (
     <div className='overflow-hidden overflow-y-hidden bg-[#fbfbfb]'>
       <Beach1 /> 
@@ -116,15 +119,15 @@ const page = () => {
     <ClinaryInfoSection
             img1={img1}
             img2={img2}
-            span="Perfect Fine Dine Experiences"
-            header="Discover Our Exclusive Beach"
+            span={t("subtitle")}
+            header={t("title")}
             texts={texts}
           />
     </div>
      <Beach2 />
       <Beach3 />
       <Beach4 />
-      <Beach5 showLink={false} span="Dive Into Our Exclusive Pool Selection" header=" All Pools at a Glance" text=" Lorem ipsum dolor sit amet consectetur. Mauris et cras ut odio phasellus. Volutpat leo tempor quam lobortis purus nulla. Turpis felis sit sed tristique ut fermentum gravida aenean nam. Facilisi neque sit donec vitae velit diam eget ut. Imperdiet vivamus molestie volutpat at tellus scelerisque velit. Nibh integer odio." poolItems={poolItems}/>
+      <Beach5 showLink={false} span={t2("subtitle")} header={t2("title")} text={t2("text")} poolItems={poolItems}/>
       <ContactSection2 />
       <Form/>
      </div>
