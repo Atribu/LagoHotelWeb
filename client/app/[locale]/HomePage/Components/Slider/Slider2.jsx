@@ -4,6 +4,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
 
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
@@ -120,16 +121,35 @@ export default function Slider2({ slides }) {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div ref={emblaRef} className="overflow-hidden w-full ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%]">
+      <div ref={emblaRef} className="overflow-hidden w-full ml-[6.1%] md:ml-[4.3%] lg:w-[87.4%] lg:ml-[5.8%]">
         <div className="flex lg:h-[540px] w-auto">
           {slidesCombined.map((slide, index) => (
             <Slide key={index} slide={slide} marginClass="mr-4" />
           ))}         
         </div>
+        
+        <div className="absolute top-1/2 left-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollPrev}
+        type="button"
+      >
+        <MdArrowBackIosNew size={32} color="white" />
+      </button>
+    </div>
+    <div className="absolute top-1/2 right-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollNext}
+        type="button"
+      >
+        <MdArrowForwardIos size={32} color="white" />
+      </button>
+    </div>
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}
-      <div className="flex items-end justify-end w-[93.89%] md:w-[95.7%] lg:w-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[11.6%] mt-[30px] sm:mt-[40px] md:mt-[62px] relative">
+      <div className="flex items-end justify-end w-[93.89%] md:w-[95.7%] lg:w-[87.4%] ml-[6.1%] md:ml-[4.3%] lg:ml-[5.8%] mt-[30px] sm:mt-[40px] md:mt-[62px] relative">
         {slidesOriginal.map((_, i) => (
           <div
             key={i}

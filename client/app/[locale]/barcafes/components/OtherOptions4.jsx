@@ -43,7 +43,7 @@ const OtherOptionSlide = ({ room }) => (
             href={room.link}
             className="text-[14px] lg:text-[16px] font-normal leading-normal font-marcellus uppercase border-b border-lagoBlack pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
-            DISCOVER MORE
+            {room.buttonText}
           </Link>
     </div>
   </div>

@@ -6,6 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import {useTranslations} from 'next-intl';
 import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
+import Link from "next/link";
 
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [
@@ -65,16 +66,16 @@ function Slide({ slide, marginClass }) {
         className="lg:w-full lg:h-full md:w-[270px] md:h-[405px] h-[266px] w-[177.3px] object-cover"
       />
       
-        <a
+        <Link
           href={slide.link}
-          className=" absolute inset-0 flex items-center justify-center pb-4
+          className=" absolute inset-0 flex items-center justify-center pb-4 z-50
             text-white
             text-[20px] md:text-[30px] lg:text-[40px] leading-[9.852px] -tracking-[0.44px] font-normal md:leading-[15px] lg:leading-[20px] md:-tracking-[0.66px] lg:-tracking-[0.88px]
             font-marcellus transition
           "
         >
           {slide.title}
-        </a>
+        </Link>
      
     </div>
   );
@@ -157,15 +158,24 @@ export default function Slider1({ slides }) {
             <Slide key={index} slide={slide} marginClass="mr-[8.37px] md:mr-[12.75px] lg:mr-[17px]" />
           ))}
         </div>
-        <div className="absolute inset-0 -top-[10%] flex items-center justify-between p-6">
-        <button className="p-1 bg-[#848383]/40 hidden lg:flex" onClick={scrollPrev} type="button">
-          <MdArrowBackIosNew size={32} color="white"/>
-        </button>
-
-        <button onClick={scrollNext} className="p-1 bg-[#848383]/40 hidden lg:flex">
-          <MdArrowForwardIos size={32} color="white"/>
-        </button>
-      </div>
+        <div className="absolute top-1/2 left-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollPrev}
+        type="button"
+      >
+        <MdArrowBackIosNew size={32} color="white" />
+      </button>
+    </div>
+    <div className="absolute top-1/2 right-6 transform -translate-y-1/2">
+      <button
+        className="p-1 bg-[#848383]/40 hidden lg:flex pointer-events-auto"
+        onClick={scrollNext}
+        type="button"
+      >
+        <MdArrowForwardIos size={32} color="white" />
+      </button>
+    </div>
       </div>
 
       {/* Scroll Indicator (5 parça olacak) */}

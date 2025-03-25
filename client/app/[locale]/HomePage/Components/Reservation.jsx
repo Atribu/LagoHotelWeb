@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react"
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
 import { useTranslations } from "next-intl";
+import Link from "next/link"
 
 export default function Reservation() {
   const t = useTranslations('Reservation');
@@ -328,6 +329,7 @@ export default function Reservation() {
        
         </div>
 
+        <Link href="https://lagohotel.orsmod.com/">
         <button
           onClick={() => console.log("Final Guest Information:", guestInfo)}
           className="
@@ -354,6 +356,7 @@ export default function Reservation() {
         >
        {t("search")}
         </button>
+        </Link>
       </form>
     </section>
   )

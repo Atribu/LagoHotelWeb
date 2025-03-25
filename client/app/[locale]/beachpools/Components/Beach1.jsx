@@ -7,19 +7,23 @@ import Dalga from "../Images/waves2sonson.webp";
 import ClinaryInfoSection from "@/app/[locale]/restaurants/components/ClinaryInfoSection";
 import img1 from "../Images/beach1.webp";
 import img2 from "../Images/beach2.webp";
+import {useTranslations} from 'next-intl';
 
 export default function Beach1() {
+  const t = useTranslations('BeachPools');
+  const t2 = useTranslations('BeachPools.ClinaryInfoSection');
   const [scrollAttempt, setScrollAttempt] = useState(0);
   const [animate, setAnimate] = useState(false);
   const [textVisible, setTextVisible] = useState(false);
 
   const texts = [
-    "Lorem ipsum dolor sit amet consectetur. Libero ut pellentesque netus odio felis morbi est. Netus turpis pretium diam at ut orci. Sed pretium cras viverra viverra pulvinar aliquet dictum magna luctus.",
-    "Special Feautures",
-    "Complimentary sun loungers, umbrellas, and towels.",
-    "Beach bars serving refreshing drinks and light snacks.",
-    "Calm waters ideal for swimming and water sports."
+    t2("text1"),
+    t2("text2"),
+    t2("text3"),
+    t2("text4"),
+    t2("text5")
   ];
+
 
   const containerRef = useRef(null);
 
@@ -103,21 +107,16 @@ export default function Beach1() {
         // Arka planı genel kapsayıcıya uyguluyoruz, böylece dalga resmi (z-[50]) kalmaya devam ediyor
       >
         <p className="uppercase text-[12px] leading-[14px] tracking-[0.48px] font-medium font-jost">
-          WELCOME TO LAGO HOTEL
+         {t("subtitle")}
         </p>
-        <h1 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[120%] lg:leading-[57.6px] font-normal">
-          Immerse Yourself in the <br /> Deep Blue Waters
+        <h1 className="font-marcellus text-[28px] md:text-[32px] lg:text-[48px] leading-[120%] lg:leading-[57.6px] font-normal w-[35%]">
+        {t("title")}
         </h1>
-        <p className="w-full text-center font-jost text-[14px] lg:text-[16px] leading-[24px]">
-          We offer you a pleasant holiday experience that will feel like home in
-          our rooms designed <br /> in accordance with varied tastes and needs,
-          merging beauty and comfort with their eye- <br /> catching designs and
-          efficient structures. Enjoy cooling off in pools of different sizes <br />
-          in the deep blue world of LAGO. Come to LAGO where everything is
-          possible.
+        <p className=" text-center font-jost text-[14px] lg:text-[16px] leading-[24px] w-[46%]">
+        {t("text")}
         </p>
         <button className="uppercase text-sm font-medium font-marcellus text-[16px] lg:text-[18px] leading-[30px] underline underline-offset-4 mt-4">
-          Discover More
+        {t("buttonText")}
         </button>
 
         {/* ClinaryInfoSection – negatif margin-top ile dalga resminin üst kısmının görünmesine izin veriyoruz */}
@@ -125,8 +124,8 @@ export default function Beach1() {
           <ClinaryInfoSection
             img1={img1}
             img2={img2}
-            span="Perfect Fine Dine Experiences"
-            header="Discover Our Exclusive Beach"
+            span={t2("subtitle")}
+            header={t2("title")}
             texts={texts}
           />
         </div>
