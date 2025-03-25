@@ -301,7 +301,7 @@ export default function HeaderWhite() {
           {t('restaurants')}
           </Link>
           <Link href="/barcafes" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            BARS AND CAFÉS
+          {t('barsandcafes')}
           </Link>
           <Link href="/entertainment" className="block font-normal leading-[26.667px] w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
           {t('experiences')}
@@ -316,22 +316,22 @@ export default function HeaderWhite() {
             />
           </Link>
           <Link href="/spawellness" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            SPA & WELLNESS
+          {t('spa')}
           </Link>
           <Link
               href="/special"
               className="block text-lagoBlack  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none"
             >
-              SPECIAL
+             {t('special')}
             </Link>
           <Link href="/gallery" className="block text-lagoBlack  font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            GALLERY
+          {t('gallery')}
           </Link>
           <Link href="/about" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            OUR HOTEL
+          {t('ourhotel')}
           </Link>
           <Link href="/connect" className="block text-lagoBlack font-normal leading-normal w-[70%] md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#000000] lg:border-none">
-            CONTACT
+          {t('contact')}
           </Link>
         </nav>
 
@@ -339,7 +339,7 @@ export default function HeaderWhite() {
         <div className="ml-2 px-4 w-full lg:max-w-[392px] flex flex-col items-center font-jost">
           <div className="flex items-center justify-center gap-[15px] text-lagoBlack">
             <Phone className="flex" width={18} height={18} color="#1D1D1B"/>
-            <span className="text-[15px] font-normal leading-[24px]">+90 123 459 67 89</span>
+            <p className="text-[15px] font-normal leading-[24px]"> 0242 524 57 87</p>
           </div>
 
           <button

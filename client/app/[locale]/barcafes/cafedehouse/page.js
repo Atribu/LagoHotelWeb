@@ -18,53 +18,65 @@ import DiscoverBackground from '../../restaurants/components/DiscoverBackground'
 import OtherOptions4 from '../components/OtherOptions4'
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
 import BannerDark from '@/app/[locale]/GeneralComponents/BannerDark'
+import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery4];
 
-const otherOptions = [
-    {
-        id: 1,
-        img: piano,
-        title: "Piano Bar",
-        description: "HOURS: 10:00 - 00:00 ",
-        text:"Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
-        link:"/barcafes/pianobar"
-      },
-    {
-        id: 2,
-        img: abella,
-        title: "Abella Patisserie",
-        description: "HOURS: 14:00 - 23:00",
-        text:"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of ",
-        link:"/barcafes/abellapatisserie"
-      },
-      {
-        id: 3,
-        img: lago,
-        title: "Cafe de Lago ",
-        description: "HOURS: 08:00 - 23:00",
-         text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-         link:"/barcafes/cafedelago"
-      },
-      {
-        id: 4,
-        img: house,
-        title: "Cafe de House",
-        description: "HOURS: 08:00-23:00",
-         text:"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-         link:"/barcafes/cafedehouse"
-      }
-  ];
-
 const page = () => {
+  const t = useTranslations('Cafedehouse');
+  const t2 = useTranslations('Cafedehouse.ClinaryInfoSection');
+  const t3 = useTranslations('Cafedehouse.RoomTour');
+  const t4 = useTranslations('Cafedehouse.CuisinesCarousel');
+  const t5 = useTranslations('Cafedehouse.DiscoverBackground');
+
+
+const otherOptions = [
+  {
+      id: 1,
+      img: piano,
+      title: t4("cuisines1title"),
+      description: t4("cuisines1subtitle"),
+      text:t4("cuisines1text"),
+      link:"/barcafes/piano",
+      buttonText:t4("buttonText")
+    },
+  {
+      id: 2,
+      img: abella,
+      title: t4("cuisines2title"),
+      description: t4("cuisines2subtitle"),
+      text:t4("cuisines2text"),
+      link:"/barcafes/abellapatisserie",
+      buttonText:t4("buttonText")
+    },
+    {
+      id: 3,
+      img: lago,
+      title: t4("cuisines3title"),
+      description: t4("cuisines3subtitle"),
+      text:t4("cuisines3text"),
+       link:"/barcafes/cafedelago",
+       buttonText:t4("buttonText")
+    },
+    {
+      id: 4,
+      img: house,
+      title: t4("cuisines4title"),
+      description: t4("cuisines4subtitle"),
+      text:t4("cuisines4text"),
+       link:"/barcafes/cafedehouse",
+       buttonText:t4("buttonText")
+    }
+];
+
   return (
     <div className='flex flex-col items-center justify-center gap-[50px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <BannerDark img={mainImg} span="Fresh drınks and musıc" header="Cafe de House" text="Enjoy a various amount of dining options from around the world."/>
-      <ClinaryReverseInfo img1={img2} img2={img1} span="Perfect Fine Dine Experiences" header="Fresh Drinks at the Pool" text1="Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque." text2="Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."/>
+     <BannerDark img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
+      <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
-      <RoomTour span="Perfect Fine Dine Experiences" header="Have a look around" text="Lorem ipsum dolor sit amet consectetur. Ipsum nulla sem placerat enim tortor vitae sapien lorem sem. In sapien a pharetra mollis lectus scelerisque lacus eu. Proin pellentesque netus a amet nisl cursus massa."/>
-      <OtherOptions4 span="Perfect Fine Dine Experiences" header="LAGO’s Lobby Bars and Cafes" text="In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!" images={otherOptions}/>
-      <DiscoverBackground span="A UNIQUE FEAST OF TASTE" header="Discover our Fınest Restaurants" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" link="/restaurants" img={backgroundImg}/>
+      <RoomTour span={t3("subtitle")} header={t3("subtitle")} text={t3("text")}/>
+      <OtherOptions4 span={t4("subtitle")} header={t4("subtitle")} text={t4("text")} images={otherOptions}/>
+      <DiscoverBackground span={t5("subtitle")} header={t5("subtitle")} text={t5("text")} link="/barcafes" img={backgroundImg}/>
       <ContactSection2/>
     </div>
   )

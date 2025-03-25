@@ -249,37 +249,37 @@ export default function Header() {
                     href="/rooms/"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    All Rooms
+                    {t("allrooms")}
                   </Link>
                   <Link
                     href="/rooms/superiorroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Superior Room
+                       {t("superior")}
                   </Link>
                   <Link
                     href="/rooms/familyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Family Room
+                      {t("family")}
                   </Link>
                   <Link
                     href="/rooms/swimuproom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Swim-up Room
+                      {t("swimup")}
                   </Link>
                   <Link
                     href="/rooms/familyswimup"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Family Swim-up Room
+                       {t("familyswimup")}
                   </Link>
                   <Link
                     href="/rooms/duplexfamilyroom"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
-                    Duplex Family Room
+                       {t("duplex")}
                   </Link>
                 </div>
               </div>
@@ -300,7 +300,7 @@ export default function Header() {
               href="/barcafes"
               className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              BARS AND CAFÉS
+            {t('barsandcafes')}
             </Link>
             <Link
               href="/entertainment"
@@ -319,31 +319,31 @@ export default function Header() {
               href="/spawellness"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              SPA & WELLNESS
+               {t('spa')}
             </Link>
             <Link
               href="/special"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              SPECIAL
+             {t('special')}
             </Link>
             <Link
               href="/gallery"
               className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              GALLERY
+              {t('gallery')}
             </Link>
             <Link
               href="/about"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              OUR HOTEL
+               {t('ourhotel')}
             </Link>
             <Link
               href="/connect"
               className="block text-white font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              CONTACT
+               {t('contact')}
             </Link>
           </nav>
 
@@ -351,9 +351,9 @@ export default function Header() {
           <div className=" px-4 w-full lg:max-w-[392px] flex flex-col items-center font-jost">
             <div className="flex items-center justify-center gap-[15px] text-white">
               <Phone className="flex" width={18} height={18} color="#ffffff" />
-              <span className="text-[15px] font-normal leading-[24px]">
-                +90 123 459 67 89
-              </span>
+              <p className="text-[15px] font-normal leading-[24px]">
+              0242 524 57 87
+              </p>
             </div>
 
 
