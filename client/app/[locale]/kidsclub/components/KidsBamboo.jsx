@@ -6,35 +6,36 @@ import bamboo from "../images/bamboo2.png";
 import miniclub from "../images/1kids.webp";
 import juniorclub from "../images/childactivite-1.webp";
 import teenageclub from "../images/kids3.webp";
-
-const clubData = [
-  {
-    id: 1,
-    ageGroup: "4-7 yaş grubu",
-    title: "Mini Club",
-    description:
-      "Bamboo Kids Club, age-appropriate activities, professional caregivers, and a secure environment, we provide the perfect setting for your child to learn, play, and grow.",
-    image: miniclub,
-  },
-  {
-    id: 2,
-    ageGroup: "8-12 yaş grubu",
-    title: "Junior Club",
-    description:
-      "Bamboo Kids Club, age-appropriate activities, professional caregivers, and a secure environment, we provide the perfect setting for your child to learn, play, and grow.",
-    image: juniorclub,
-  },
-  {
-    id: 3,
-    ageGroup: "13-16 yaş grubu",
-    title: "Teenage Club",
-    description:
-      "Bamboo Kids Club, age-appropriate activities, professional caregivers, and a secure environment, we provide the perfect setting for your child to learn, play, and grow.",
-    image: teenageclub,
-  },
-];
+import {useTranslations} from 'next-intl';
 
 const KidsBamboo = () => {
+  const t = useTranslations('KidsClub.InfoSection');
+
+  const clubData = [
+    {
+      id: 1,
+      ageGroup: t("age1"),
+      title: t("title1"),
+      description:t("description1"),
+      image: miniclub,
+    },
+    {
+      id: 2,
+      ageGroup: "8-12 yaş grubu",
+      ageGroup: t("age2"),
+      title: t("title2"),
+      description:t("description2"),
+      image: juniorclub,
+    },
+    {
+      id: 3,
+      ageGroup: t("age3"),
+      title: t("title3"),
+      description:t("description3"),
+      image: teenageclub,
+    },
+  ];
+
 
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
@@ -73,20 +74,18 @@ const KidsBamboo = () => {
           />
           <div className="flex flex-col gap-[17px] items-start justify-center text-start lg:w-[39%]">
             <span className="text-[12px] font-medium leading-[26px] uppercase">
-              A Safe and Fun Space for All Ages
+            {t("subtitle")}
             </span>
             <h3 className="text-[25px] lg:text-[30px] leading-[26px] font-normal font-marcellus lg:capsizedText3">
-              Unforgettable Memories
+            {t("title")}
             </h3>
             <p className="text-[14px] lg:text-[16px] leading-[18px] lg:leading-[24px] font-normal">
-              Bamboo Kids Club, age-appropriate activities, professional
-              caregivers, and a secure environment, we provide the perfect
-              setting for your child to learn, play, and grow.
+            {t("text")}
             </p>
           </div>
         </div>
         <span className="text-[12px] lg:text-[14px] font-medium uppercase leading-[21px]">
-          Opening Hours: 08:00 - 20:00
+        {t("span")}
         </span>
       </div>
 
@@ -182,8 +181,7 @@ const KidsBamboo = () => {
         </div>
 
       <span className="text-[14px] text-lagoGray font-jost leading-[26px] font-normal text-center">
-        *0-3,99 age groups can join the mini club under the supervision of their
-        parents
+      {t("note")}
       </span>
     </div>
   );

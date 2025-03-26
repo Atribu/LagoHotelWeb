@@ -37,7 +37,7 @@ const SpecialCarousel = () => {
 
   return (
     <div className="flex flex-col w-screen justify-center items-center text-center gap-[30px] lg:gap-[50px]">
-      <div className="flex flex-col w-full justify-center items-center h-full">
+      <div className="flex flex-col w-full justify-center items-center h-full max-h-[788px]">
         {/* Carousel */}
         <div className="overflow-hidden relative w-full" ref={emblaRef}>
           <div className="flex">

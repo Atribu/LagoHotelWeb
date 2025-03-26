@@ -13,9 +13,36 @@ export const routing = defineRouting({
       tr: "/",
       en: "/",
       de: "/",
-      ru:"/"
+    ru: "/",
     },
-    
+
+    "/contact": {
+      en: "/contact",
+      de: "/kontakt",
+      tr: "/iletisim",
+      ru: "/kontakti",
+    },
+
+    "/beachpools": {
+      en: "/beach-pool",
+      de: "/strand-pool",
+      tr: "/plaj-havuz",
+      ru: "/plaj-basseyn",
+    },
+
+    "/rooms": {
+    en: "/rooms",
+    de: "/zimmer",
+    tr: "/odalar",
+    ru: "/nomera",
+  },
+
+  "/rooms/superiorroom": {
+    en: "/rooms/superiorroom",
+    de: "/zimmer/superiorzimmer",
+    tr: "/odalar/superioroda",
+    ru: "/nomera/Номерsuperior",
+  },
 
 
   }})

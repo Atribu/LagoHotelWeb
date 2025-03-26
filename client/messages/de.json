@@ -176,21 +176,21 @@
         "buttonText":"Erkunden"
       },
       "RoomSection4":{
-        "title":"Superior Room",
+        "title":"Familien-Swim-up-Zimmer",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land-/Meerblick",
         "buttonText":"Erkunden"
       },
       "RoomSection5":{
-        "title":"Superior Room",
+        "title":"Duplex Familienzimmer",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land-/Meerblick",
         "buttonText":"Erkunden"
       },
        "RoomSection6":{
-        "title":"Superior Room",
+        "title":"Kleine Villa",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land-/Meerblick",
@@ -1114,6 +1114,585 @@
       "subtitle2": "Erleben Sie traditionelle Kultur",
       "title2": "Türkisches Hamam",
       "text2": "Erfrischen und verwöhnen Sie sich in der einzigartigen Atmosphäre unseres traditionellen Türkischen Hamams. Erleben Sie die ikonische Entspannungskultur mit den professionellen Therapeuten von LAGO und erneuern Sie sowohl Ihren Körper als auch Ihre Seele."
+    }
+  },
+
+  "SuperiorRoom": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Superior Zimmer",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Superior Zimmer",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "FamilyRoom": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Familienzimmer",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Familienzimmer",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "SwimupRoom": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Swim-up Zimmer",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Swim-up Zimmer",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Swim-up Zimmer VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "FamilySwimupRoom": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Familien-Swim-up Zimmer",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Familien-Swim-up Zimmer",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Familien-Swim-up Zimmer VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "DuplexFamilyRoom": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Duplex FamilienZimmer",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Duplex FamilienZimmer",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "TinyVilla": {
+    "subtitle": "UNVERGLEICHLICHER AUFENTHALT MIT EINEM UNABHÄNGIGEN POOL",
+    "title": "Kleine Villa",
+    "text1": "Wald / Meeresblick",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
+    "text3": "2 Schlafzimmer / 4 Betten",
+    "RoomInfo": {
+      "subtitle": "SPASS FÜR ALLE ALTER",
+      "title": "Kleine Villa",
+      "text": "In unserem Hauptgebäude befinden sich diese Zimmer, die zwischen 50-55 m² groß sind und einen Blick auf das Meer oder den Wald bieten. Dieser Zimmertyp umfasst zwei separate Schlafzimmer (verbunden durch eine Innentür): ein Doppelzimmer für 2 Erwachsene und ein Zimmer mit zwei Einzelbetten für 2 Erwachsene. Es verfügt über ein gemeinsames Badezimmer, Zugang zum Pool und eine Terrasse mit Sitzgelegenheit. • Maximale Belegung: 4 Erwachsene • Bietet Platz für bis zu 1 zusätzliches Kind. Family Swim-up Forest verfügt über einen großen Pool, der mit anderen Swim-up-Zimmern geteilt wird. Family Swim-up Sea bietet einen unabhängigen Privatpool.",
+      "title2": "Familienfreundliche Annehmlichkeiten",
+      "list1": "Unabhängiger Pool",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
+      "madde1": "Privater Pool",
+      "madde2": "48 m²",
+      "madde3": "Frisiertisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badezimmerbedarf",
+      "madde9": "Tee- & Kaffeezubehör",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Kleine Villa VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene / Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Schauen Sie sich um",
+      "text": "Erkunden Sie unsere Zimmer mit einer beeindruckenden 360°-Virtuellen Tour. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und beginnen Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für alle Familienmitglieder",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 1 Kind",
+      "text1": "Speziell für Familien konzipiert, bieten diese Zimmer einen geräumigen und komfortablen Aufenthalt, der sowohl Erwachsenen als auch Kindern das perfekte Urlaubserlebnis garantiert. Genießen Sie moderne Annehmlichkeiten, gemütliche Einrichtung und eine einladende Atmosphäre.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch machen, ohne Ihr Zimmer zu verlassen",
+      "title2": "Swim-Up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Genießen Sie den direkten Zugang zum Pool und erfrischen Sie sich jederzeit, ohne den Komfort Ihres Zimmers zu verlassen. Swim-Up Zimmer bieten eine luxuriöse und entspannende Atmosphäre, die ein wirklich exklusives Urlaubserlebnis garantiert.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Unsere geräumigen und elegant gestalteten Superior Zimmer bieten 30-32 m² Komfort, ideal für Familien oder Paare. Mit modernen Annehmlichkeiten und stilvollem Dekor bieten diese Zimmer einen entspannenden Rückzugsort mit Balkon und atemberaubendem Ausblick."
+    }
+  },
+
+  "Fitness": {
+    "subtitle": "ENTSPANNEN SIE IM LAGO WELLNESS CENTER",
+    "title": "Sport & Fitness",
+    "mobileTitle": "Entspannen Sie sich und tanken Sie neue Energie. Genießen Sie eine hochwertige professionelle Massage in unserem Wellness Center, das darauf ausgelegt ist, Körper und Geist zu erneuern.",
+    "text": "Entspannen Sie sich und tanken Sie neue Energie. Genießen Sie eine hochwertige professionelle Massage in unserem Wellness Center, das darauf ausgelegt ist, Körper und Geist zu erneuern.",
+    "InfoSection": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": "Bleiben Sie fit im LAGO Hotel",
+      "text": "Für diejenigen, die auch im Urlaub in Form bleiben möchten, bietet unser Fitnesscenter mit professioneller Ausstattung tägliche Workouts. Nach dem Training können Sie Ihren Körper und Geist mit einer professionellen Massage in unserem SPA entspannen, in unserem traditionellen Türkischen Bad abschalten oder sich in der finnischen Sauna neu beleben.",
+      "subtitle2": "Gesundes Leben und Fitbleiben",
+      "title2": "Beach Volleyball & Personal Trainer",
+      "text2": "Öffnungszeiten: 08:00 - 20:00",
+      "subtitle3": "Sport & Fitness",
+      "title3": "Gruppenaktivitäten",
+      "text3": "Bleiben Sie fit, steigern Sie Ihre Energie und bleiben Sie während Ihres Urlaubs motiviert mit unseren von professionellen Trainern geleiteten Gruppenaktivitäten.",
+      "list1": "Tabata",
+      "list2": "HIT Cardio",
+      "list3": "Zumba",
+      "list4": "Step Aerobic",
+      "list5": "Yoga, Pilates"
+    },
+    "SpaGallery": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": "Bleiben Sie stilvoll fit bei LAGO",
+      "text": "Genießen Sie das Training in LAGOs modernem und professionell ausgestatteten Fitnesscenter, das eine Vielzahl von Workout-Optionen für alle Fitnesslevels bietet. Steigern Sie Ihre Energie und bleiben Sie während Ihres Urlaubs gesund."
+    },
+    "Carousel": {
+      "subtitle": "ENTSPANNEN UND VERGESSEN",
+      "title": "Aktivitäten und Kurse",
+      "text": "Im LAGO bieten wir eine Vielzahl von Aktivitäten und Kursen an, um Ihr Urlaubserlebnis zu bereichern. Steigern Sie Ihre Energie, sammeln Sie neue Erfahrungen und schaffen Sie freudige Erinnerungen durch Gruppenaktivitäten, die von erfahrenen Trainern geleitet werden.",
+      "massage1": "Yoga & Pilates Kurse",
+      "massageText1": "DAUER: 60 MIN",
+      "massage2": "Zumba Kurse",
+      "massageText2": "DAUER: 60 MIN",
+      "massage3": "HIIT Cardio & Tabata",
+      "massageText3": "DAUER: 60 MIN",
+      "massage4": "Step Aerobic",
+      "massageText4": "DAUER: 60 MIN"
+    },
+    "SpaType": {
+      "subtitle": "Wasserball, Beach Volleyball",
+      "title": "Beach Volleyball",
+      "text": "Nehmen Sie an spannenden Beach-Volleyball-Spielen auf den schönen Sandsportplätzen von LAGO teil. Messen Sie sich, haben Sie Spaß und schaffen Sie unvergessliche Erinnerungen, während Sie Sonne und Meer genießen.",
+      "subtitle2": "Erreichen Sie Ihre Fitnessziele",
+      "title2": "Personal Trainer",
+      "text2": "Erreichen Sie Ihre Fitnessziele mit maßgeschneiderten Trainingsprogrammen, die von den professionellen Personal Trainern von LAGO entwickelt wurden. Erleben Sie personalisierte Workouts, die auf Ihre individuellen Bedürfnisse zugeschnitten sind, und bleiben Sie während Ihres Urlaubs motiviert."
+    }
+  },
+
+  "Entertainment": {
+    "subtitle": "Tägliche Aktivitäten & Abendshows",
+    "title": "Endlose Unterhaltung erwartet Sie",
+    "text": "Erleben Sie unvergessliche Momente im LAGO mit einer vielfältigen Palette an täglichen Aktivitäten und spektakulärer Abendunterhaltung. Von energiegeladenen Spielen am Tag bis hin zu atemberaubenden Aufführungen in der Nacht ist jeder Moment erfüllt von Freude und Spannung.",
+    "InfoSection": {
+      "experiences": "Erlebnisse",
+      "title": "Tagesaktivitäten",
+      "title2": "Nachtaktivitäten"
+    },
+    "CarouselSection": {
+      "subtitle": "Unterhaltung & Aktivitäten",
+      "title": "Events finden täglich statt",
+      "text": "LAGO, das eine Vielzahl von Aktivitäten wie Disco, Bocce, Beachvolleyball, Tischtennis, Kino, Strandspiele, Wassersport und Abendunterhaltung bietet, ist bereit, Sie mit unzähligen sportlichen und freizeitlichen Optionen für ein unvergessliches Urlaubserlebnis zu begrüßen.",
+      "daytime": "TAGESAKTIVITÄTEN",
+      "nighttime": "NACHTAKTIVITÄTEN",
+      "title1": "Sport & Fitness",
+      "description1": "Steigern Sie Ihre Energie und bleiben Sie aktiv mit verschiedenen Sport- und Fitnessaktivitäten, die täglich bei LAGO organisiert werden. Schließen Sie sich unseren professionellen Trainern an und bleiben Sie während Ihres Urlaubs fit.",
+      "title2": "Kinder- & Jugendclub",
+      "description2": "Unser Kinder- und Jugendclub bietet eine unterhaltsame, sichere und ansprechende Umgebung für junge Gäste. Spannende Aktivitäten und Spiele sorgen für endlose Unterhaltung für Kinder und Jugendliche.",
+      "title3": "Wassersport",
+      "description3": "Erleben Sie aufregende Wassersportarten an LAGOs schönem Strand. Ob Jetski, Parasailing oder Tauchen – ein spannendes Abenteuer wartet auf jeden.",
+      "title4": "Strandaktivitäten",
+      "description4": "Genießen Sie sonnige Tage mit unseren vielfältigen Strandaktivitäten wie Beachvolleyball, Bocce und lustigen Gruppenspielen, die jeden Moment mit Freude und Spannung füllen.",
+      "title5": "Tennis",
+      "description5": "Ob Anfänger oder Profi, genießen Sie Tennis auf unseren professionellen Plätzen. Verbessern Sie Ihre Fähigkeiten oder fordern Sie sich selbst heraus während Ihres Aufenthalts in LAGO.",
+      "title6": "Kino",
+      "description6": "Erleben Sie unvergessliche Filmabende mit Familie und Freunden in unserem Kino, in dem beliebte Filme in einer komfortablen und angenehmen Umgebung gezeigt werden.",
+      "title7": "Sunset-Partys",
+      "description7": "Tanzen und entspannen Sie sich bei lebhafter Musik und erfrischenden Cocktails auf LAGOs unvergesslichen Sunset-Partys, die das Ende eines weiteren schönen Tages feiern.",
+      "title8": "Bühnenshows",
+      "description8": "Genießen Sie spektakuläre Bühnenshows mit professionellen Darstellern und fesselnden Produktionen, die darauf ausgelegt sind, Gäste jeden Alters zu unterhalten.",
+      "title9": "Themenpartys",
+      "description9": "Nehmen Sie an unseren Themenpartys teil, die mit kreativen Konzepten, bunten Dekorationen und aufregender Musik gestaltet sind und unvergessliche, spaßige Abende schaffen."
+    },
+    "Gallery": {
+      "subtitle": "Unterhaltung & Aktivitäten",
+      "title": "Fangen Sie den Rhythmus ein",
+      "text": "Tauchen Sie ein in die lebendige Atmosphäre von LAGOs Unterhaltungswelt. Von spannenden Tagesveranstaltungen bis hin zu fesselnden Abendshows – spüren Sie den Rhythmus und schaffen Sie unvergessliche Erinnerungen.",
+      "span": "Das LAGO Hotel Ultra All Inclusive Konzept, Aktivitäten und Services können je nach Saison und Wetterbedingungen ohne Vorankündigung variieren. Alle Rechte des LAGO HOTEL bleiben vorbehalten."
+    }
+  },
+
+  "KidsClub": {
+    "subtitle": "ENTSPANNEN SIE SICH IM LAGO WELLNESS CENTER",
+    "title": "Bamboo Kids Club",
+    "text": "Entspannen Sie sich und tanken Sie neue Energie. Genießen Sie eine hochwertige professionelle Massage in unserem Wellness Center, das darauf ausgelegt ist, Ihren Körper zu verjüngen und Ihren Geist zu erfrischen.",
+    "gallerytitle": "Jeder Moment ist es wert, geteilt zu werden",
+    "InfoSection": {
+      "subtitle": "Ein sicherer und unterhaltsamer Raum für alle Altersgruppen",
+      "title": "Unvergessliche Erinnerungen",
+      "text": "Im Bamboo Kids Club bieten wir altersgerechte Aktivitäten, professionelle Betreuer und eine sichere Umgebung, die den perfekten Rahmen für Ihr Kind schafft, um zu lernen, zu spielen und zu wachsen.",
+      "span": "Öffnungszeiten: 08:00 - 20:00",
+      "age1": "Mini Club",
+      "title1": "Alter 4-7",
+      "description1": "Ein sicherer und gemütlicher Spielbereich, der speziell für unsere jüngsten Gäste entworfen wurde. Perfekt zum Erkunden und Spaßhaben unter elterlicher Aufsicht.",
+      "age2": "Alter 8-12",
+      "title2": "Junior Club",
+      "description2": "Eine Welt voller kreativer Aktivitäten und spannender Spiele für energiegeladene kleine Abenteurer. Jeder Tag ist eine neue Reise!",
+      "age3": "Alter 13-16",
+      "title3": "Teenager Club",
+      "description3": "Ein ansprechender Bereich, der maßgeschneiderte Aktivitäten und moderne Spiele bietet, und unvergessliche Erlebnisse für unsere jugendlichen Gäste ermöglicht.",
+      "note": "Kinder im Alter von 0-3,99 Jahren können unter elterlicher Aufsicht an den Mini Club-Aktivitäten teilnehmen."
+    },
+    "IconSection": {
+      "icon1": "Sichere Umgebung",
+      "icon2": "Professionelles Personal",
+      "icon3": "Altersgerechte Aktivitäten",
+      "icon4": "Soziale Interaktion"
+    },
+    "Carousel": {
+      "subtitle": "Willkommen im LAGO Kids Club",
+      "title": "Wo Spaß und Bildung aufeinandertreffen",
+      "text": "Der LAGO Kids Club bietet lehrreiche und unterhaltsame Aktivitäten für Kinder jeden Alters. Wir haben eine Umgebung geschaffen, die die Kreativität Ihres Kindes fördert und hilft, seine Träume Wirklichkeit werden zu lassen.",
+      "activity1": "Lego-Räume",
+      "activity2": "Kinderaktivitäten",
+      "activity3": "Baby-Räume",
+      "activity4": "Bällebad",
+      "activity5": "Kinder-Amphitheater",
+      "activity6": "Trampolin",
+      "activity7": "Spielplatz",
+      "activity8": "Playstation-Räume",
+      "activity9": "Spielzimmer"
+    },
+    "KidsRestaurant": {
+      "subtitle": "bamboo kids club",
+      "title": "Magna Kids Restaurant",
+      "text": "Speziell für unsere jüngsten Gäste entworfen, bietet das Magna Kids Restaurant nahrhafte und köstliche Mahlzeiten, die Kinder lieben. Genießen Sie ein entspanntes Essen, während Ihre Kinder in einer kinderfreundlichen Atmosphäre Spaß haben.",
+      "list1": "Frühstück: 07:00 - 10:30",
+      "list2": "Mittagessen: 12:30 - 14:00",
+      "list3": "Abendessen: 18:30 - 21:30"
+    },
+    "CuisinesCarousel": {
+      "subtitle": "Bamboo Kids Club",
+      "title": "Kinderpools",
+      "text": "Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla.",
+      "cuisines1subtitle": "Bamboo Kids Club",
+      "cuisines1title": "Maldivas Pool",
+      "cuisines1text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "buttonText": "Mehr entdecken",
+      "cuisines2subtitle": "Bamboo Kids Club",
+      "cuisines2title": "Kid Aqua Pool",
+      "cuisines2text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines3subtitle": "Bamboo Kids Club",
+      "cuisines3title": "Indoor Kids Pool",
+      "cuisines3text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
     }
   }
 

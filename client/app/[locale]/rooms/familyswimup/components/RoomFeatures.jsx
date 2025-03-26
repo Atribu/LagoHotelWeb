@@ -19,23 +19,28 @@ import HandsoapSvg from "./HandsoapSvg";
 import TeaCoffeeSvg from "./TeaCoffeeSvg";
 import LedTvSvg from "./LedTvSvg";
 import BalconySvg from "./BalconySvg";
+import {useTranslations} from 'next-intl';
 
-const items = [
-  { text: "Private Pool", icon: PoolSvg2 },
-  { text: "48 m2", icon: AreaSvg },
-  { text: "Makeup Table", icon: DresserSvg },
-  { text: "No Smoke", icon: SmokingSvg },
-  { text: "Mini Bar", icon: FridgeSvg },
-  { text: "Safe Box", icon: SafeboxSvg },
-  { text: "Hair Dryer", icon: HairdryerSvg },
-  { text: "Bath Essentials", icon: HandsoapSvg },
-  { text: "Tea & Coffee Setup", icon: TeaCoffeeSvg },
-  { text: "LedTv & Wifi", icon: LedTvSvg },
-  { text: "Balcony", icon: BalconySvg },
-  { text: "Shower", icon: ShowerSvg },
-];
 
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts}) => {
+  const t = useTranslations('SuperiorRoom.RoomInfo');
+  const t2 = useTranslations('SuperiorRoom.ReservationWidget');
+
+  const items = [
+    { text: t("madde1"), icon: PoolSvg2 },
+    { text: t("madde2"), icon: AreaSvg },
+    { text: t("madde3"), icon: DresserSvg },
+    { text: t("madde4"), icon: SmokingSvg },
+    { text: t("madde5"), icon: FridgeSvg },
+    { text: t("madde6"), icon: SafeboxSvg },
+    { text: t("madde7"), icon: HairdryerSvg },
+    { text: t("madde8"), icon: HandsoapSvg },
+    { text: t("madde9"), icon: TeaCoffeeSvg },
+    { text: t("madde10"), icon: LedTvSvg },
+    { text: t("madde11"), icon: BalconySvg },
+    { text: t("madde12"), icon: ShowerSvg },
+  ];
+
   const [checkInDate, setCheckInDate] = useState(null)
   const [checkOutDate, setCheckOutDate] = useState(null)
   const [showGuests, setShowGuests] = useState(false)
@@ -141,19 +146,19 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
         <div className="flex flex-col w-[95%] md:w-[32.5%] gap-[35px] pb-[16px] font-jost">
         <div className="flex flex-col w-full py-[50px] lg:pl-[50px] items-center lg:items-start justify-center text-center gap-[20px] bg-white shadow-divCustom lg:min-w-[330px]">
             <div className="flex flex-col gap-[10px] w-[94%] lg:w-full mb-[5px] items-center lg:items-start text-center lg:text-start">
-            <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">Reservation Dates</h3>
-            <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">Pick up the dates for your stay</p>
+            <h3 className="text-[28px] lg:text-[32px] text-lagoBrown font-marcellus font-normal leading-[120%] -tracking-[0.64px]">{t2("title")}</h3>
+            <p className="text-[16px] text-lagoBrown leading-[140%] font-normal font-jost">{t2("text")}</p>
             </div>
 
           <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkInDate" className="sr-only text-white">
-            Check In
+           {t2("checkin")}
           </label>
           <DatePicker
             id="checkInDate"
             selected={checkInDate}
             onChange={(date) => setCheckInDate(date)}
-            placeholderText="Check In"
+            placeholderText=  {t2("checkin")}
             className="
               cursor-pointer 
               items-center text-start justify-start p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
@@ -173,14 +178,14 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
 
             <div className="relative flex items-center justify-center w-auto ">
           <label htmlFor="checkOutDate" className="sr-only">
-            Check Out
+          {t2("checkout")}
       
           </label>
           <DatePicker
             id="checkOutDate"
             selected={checkOutDate}
             onChange={(date) => setCheckOutDate(date)}
-            placeholderText="Check Out"
+            placeholderText=  {t2("checkout")}
             className="
               cursor-pointer 
               items-center text-start justify-start p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
@@ -219,7 +224,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-            Adults / Kids
+            {t2("adult")}
            
           </button>
           {showGuests && (
@@ -360,13 +365,13 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
        
         </div>
             
-            <button onClick={() => console.log("Final Guest Information:", guestInfo)} type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">BOOK NOW</button>
+            <button onClick={() => console.log("Final Guest Information:", guestInfo)} type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">{t2("booknow")}</button>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
-          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">Contact us now</h4>
+          <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">{t2("contact")}</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]"> 0242 524 57 87</p>
+          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]"> {t2("phone")}</p>
           </div>
         </div>
         </div>

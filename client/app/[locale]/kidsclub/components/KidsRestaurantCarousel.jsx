@@ -5,10 +5,13 @@ import img from "../images/SRF_3469.webp"
 import img2 from "../images/SRF_3456.webp"
 import Image from "next/image";
 import PlateSvg from "./PlateSvg";
+import {useTranslations} from 'next-intl';
 
 const images =[img,img2]
 
 const KidsRestaurantCarousel = () => {
+  const t = useTranslations('KidsClub.KidsRestaurant');
+
     const [emblaRef, emblaApi] = useCarousel({
         loop: true,
         align: "end",
@@ -38,13 +41,13 @@ const KidsRestaurantCarousel = () => {
     <div className='flex flex-col md:flex-row-reverse w-screen justify-between items-center h-auto gap-[30px] lg:gap-[2%]'>
       <div className='flex w-[87.79%] md:w-[45%] md:mr-[4.3%] font-jost items-start justify-start relative'>
        <div className="flex flex-col  font-jost text-lagoBlack gap-[35px] max-w-[469px] items-start justify-center">
-       <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px]'>bamboo kıds club</span>
-        <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-marcellus font-normal capsizedText2'>Magna Kids Restoran</h2>
-        <p className='text-[12px] lg:text-[14px] leading-[21px] font-normal text-[#24292C] '>Lorem ipsum dolor sit amet consectetur. Nisi urna felis accumsan auctor iaculis nibh diam. Id in phasellus ipsum in ullamcorper. Pharetra eu libero varius tempor viverra pulvinar quis mauris quam. Ipsum maecenas morbi at </p>
+       <span className='text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px]'>{t("subtitle")}</span>
+        <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-marcellus font-normal capsizedText2'>{t("title")}</h2>
+        <p className='text-[12px] lg:text-[14px] leading-[21px] font-normal text-[#24292C] '>{t("text")}</p>
         <ul className="text-[12px] lg:text-[14px] font-normal leading-[21px] list-disc capsizedText4 pl-5 marker:text-xs marker:text-lagoBlack w-[92%]">
-           <li> Breakfast: 07:00 - 10:30 </li>
-          <li>  Lunch: 12:30 - 14:00</li>
-           <li> Dinner: 18:30 - 21:30 </li>
+           <li> {t("list1")} </li>
+          <li> {t("list2")}</li>
+           <li> {t("list3")} </li>
           </ul>
        </div>
        <PlateSvg className="absolute -top-[18%] -right-[6%] md:top-[65%] md:right-[20%]" width={221} height={212}/>
