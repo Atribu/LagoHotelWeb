@@ -1345,6 +1345,14 @@
         "madde12":"Shower"
       },
 
+      "BackgroundSection":{
+        "subtitle":"EXCLUSIVE PRIVILEGES",
+        "title":"Swim-up Room VIP Benefits",
+        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
+        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
+        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+      },
+
       "ReservationWidget":{
         "title":"Reservation Dates",
         "text":" Pick the Dates for Your Stay",
@@ -1416,6 +1424,15 @@
         "madde11":"Balcony",
         "madde12":"Shower"
       },
+
+      "BackgroundSection":{
+        "subtitle":"EXCLUSIVE PRIVILEGES",
+        "title":"Family Swim-up Room VIP Benefits",
+        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
+        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
+        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+      },
+
 
       "ReservationWidget":{
         "title":"Reservation Dates",
@@ -1560,6 +1577,15 @@
         "madde11":"Balcony",
         "madde12":"Shower"
       },
+
+      "BackgroundSection":{
+        "subtitle":"EXCLUSIVE PRIVILEGES",
+        "title":"Tiny Villa Room VIP Benefits",
+        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
+        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
+        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+      },
+
 
       "ReservationWidget":{
         "title":"Reservation Dates",
@@ -1786,5 +1812,78 @@
       "cuisines3title":"Indoor Kids Pool",   
       "cuisines3text":"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
     }
-  }
+  },
+
+  "Special":{
+    "subtitle":" HAPPY MOMENTS, UNFORGETTABLE MEMORIES",
+    "title":"Special Occasions",
+    "text":" The LAGO team works to ensure you create unforgettable memories with your loved ones on your special occasions.",
+    "gallerytitle":" A Paradise in the Heart of the Mediterranean",
+
+    "InfoSection":{
+      "subtitle":"special occasions",
+      "title":"Our Exclusive Services",
+      "text":" At LAGO Hotel, we offer a wide range of options to make your special occasions truly unforgettable. With our carefully curated services, we help you create lasting memories.",
+      
+      "subtitle1":"Special Occasions",
+      "title1":"Honeymoon",
+      "text1":" Celebrate your love at LAGO Hotel with romantic experiences designed exclusively for honeymoon couples. Create lifelong memories in a dreamlike atmosphere.",
+
+      "subtitle2":"Special Occasions",
+      "title2":"Proposal Setup",
+      "text2":" Make your marriage proposal unforgettable with LAGO’s romantic setups. We handle every detail to create the perfect moment for you and your loved one.",
+
+      "subtitle3":"Special Occasions",
+      "title3":"Pavilion Experience",
+      "text3":"Enjoy an exclusive pavilion experience at LAGO. Spend your special day in privacy and luxury, complemented by impeccable service and breathtaking views.",
+
+      "subtitle4":"Special Occasions",
+      "title4":"Birthday Packages",
+      "text4":" Celebrate your birthday in style with our personalized birthday packages. From decorations to special menus, we make your day truly memorable.",
+      
+      "subtitle5":"Special Occasions",
+      "title5":"Wedding Services",
+      "text5":"LAGO Hotel provides comprehensive wedding services, ensuring your special day is perfect in every way. Let our experienced team handle all the details.",
+
+      "subtitle6":"Special Occasions",
+      "title6":"Custom Flower Orders",
+      "text6":" Brighten your special occasions with customized flower arrangements by LAGO. We create unique floral designs tailored specifically to your wishes."
+     },
+
+     "HoverSection":{
+      "subtitle":" Crafting Timeless Memories at LAGO Hotel",
+      "title":"Celebrate Life’s Precious Moments",
+      "text":" At LAGO Hotel, we specialize in turning life’s milestones into extraordinary experiences. From personalized services to tailored celebrations, every detail is crafted to perfection for a memory that lasts forever.",
+
+      "subtitle1":"Special Occasions",
+      "title1":"Honeymoon Concept",
+      "text1":"  Enjoy romantic surprises, luxurious amenities, and special arrangements designed exclusively for honeymooners. Make your first vacation as a married couple unforgettable at LAGO.",
+
+      "subtitle2":"Special Occasions",
+      "title2":"Pavilion Experience",
+      "text2":" Spend unforgettable moments in our exclusive pavilions offering privacy, comfort, and personalized services, accompanied by stunning views.",
+
+      "subtitle3":"Special Occasions",
+      "title3":"Marriage Proposal",
+      "text3":" Plan the perfect marriage proposal with LAGO’s romantic arrangements. Our experienced team ensures every detail is handled beautifully for your special moment.",
+
+      "subtitle4":"Special Occasions",
+      "title4":"Birthday Packages",
+      "text4":"Celebrate birthdays with tailored packages at LAGO Hotel. From special cakes to festive decorations, we ensure your celebration is joyful and memorable.",
+      
+      "subtitle5":"Special Occasions",
+      "title5":"Wedding Services",
+      "text5":" With comprehensive wedding services at LAGO Hotel, we transform your dream wedding into reality. Our professional team is dedicated to creating flawless memories.",
+
+      "subtitle6":"Special Occasions",
+      "title6":"Flower Orders",
+      "text6":"Enhance your special occasions with customized floral arrangements. At LAGO, we carefully craft each bouquet to add beauty and elegance to your memorable moments."
+     },
+     
+     "ImageSection":{
+      "subtitle":" Crafting Timeless Memories at LAGO Hotel",
+      "title":"Celebrate Life’s Precious Moments",
+      "text":""
+     }
+   }
   }

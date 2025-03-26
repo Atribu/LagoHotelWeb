@@ -82,26 +82,26 @@ const page = () => {
       />
 
       <RoomsSection
-      id="tinyvilla"
-        img={imgTinyvilla}
-        img2={imgTinyvilla2}
+      id="duplexfamilyroom"
+        img={imgDuplex}
+        img2={imgDuplex2}
         header={room5('title')}
         text={room5('subtitle')}
          span={room5('m')}
         span2={room5('view')}
         buttonText={room5('buttonText')}
-        link="/rooms/tinyvilla" 
+        link="/rooms/duplexfamilyroom" 
       />
       <RoomsSectionReverse
-      id="duplexfamilyroom"
-        img={imgDuplex}
-        img2={imgDuplex2}
+      id="tinyvilla"
+        img={imgTinyvilla}
+        img2={imgTinyvilla2}
         header={room6('title')}
         text={room6('subtitle')}
          span={room6('m')}
         span2={room6('view')}
         buttonText={room6('buttonText')}
-        link="/rooms/duplexfamilyroom" 
+        link="/rooms/tinyvilla" 
       />
 
       <RoomsParallaxSection />

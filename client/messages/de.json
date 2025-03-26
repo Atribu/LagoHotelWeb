@@ -1255,6 +1255,7 @@
     "text1": "Wald / Meeresblick",
     "text2": "1-4 Erwachsene + 1-3 Kinder",
     "text3": "2 Schlafzimmer / 4 Betten",
+
     "RoomInfo": {
       "subtitle": "SPASS FÜR ALLE ALTER",
       "title": "Swim-up Zimmer",
@@ -1278,6 +1279,15 @@
       "madde11": "Balkon",
       "madde12": "Dusche"
     },
+
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Swim-up Zimmer VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
     "ReservationWidget": {
       "title": "Reservierungsdaten",
       "text": "Wählen Sie die Daten für Ihren Aufenthalt",
@@ -1344,6 +1354,14 @@
       "madde11": "Balkon",
       "madde12": "Dusche"
     },
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Familien-Swim-up Zimmer VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
     "ReservationWidget": {
       "title": "Reservierungsdaten",
       "text": "Wählen Sie die Daten für Ihren Aufenthalt",
@@ -1476,6 +1494,14 @@
       "madde11": "Balkon",
       "madde12": "Dusche"
     },
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Kleine Villa VIP-Vorteile",
+      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
     "ReservationWidget": {
       "title": "Reservierungsdaten",
       "text": "Wählen Sie die Daten für Ihren Aufenthalt",

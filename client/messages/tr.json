@@ -147,7 +147,7 @@
       "buttonText3":" Havuz Erişimli  Oda",
   "buttonText4": "Aile Swim-up Odası",
   "buttonText5": "Dubleks Aile Odası",
-  "buttonText6": "Küçük Villa",
+  "buttonText6": "Tiny Villa",
       "subtitle":"  Sizin ve aileniz için konforlu bir konaklama",
       "title":"Zarif konaklama seçeneklerimizi keşfedin ve konaklamanız için mükemmel alanı bulun.",
       "text":" Lago Hotel'de deniz veya orman manzaralı odalarımızla konforlu bir konaklama sunuyoruz. Swim-up odalar, aile suitleri ve özel villalarımızla her ihtiyaca uygun seçenekler bulabilirsiniz. Modern tasarımlı odalarımızda rahatlık ve lüks bir arada. Unutulmaz bir tatil için doğru adrestesiniz!",
@@ -190,7 +190,7 @@
         "buttonText":"Keşfet"
       },
        "RoomSection6":{
-        "title":"Küçük Villa",
+        "title":"Tiny Villa",
         "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
         "m":"30-32 m2",
         "view":"Land/Sea View",
@@ -1264,6 +1264,15 @@
       "madde11": "Balkon",
       "madde12": "Duş"
     },
+
+    "BackgroundSection": {
+      "subtitle": "ÖZEL İMKANLAR",
+      "title": "Swim-up Odası VIP Avantajları",
+      "text1": "Swim-Up odalarında kalan misafirler, girişte özenle hazırlanmış meyve tabağı ve narin makaronlar ile karşılanır.",
+      "text2": "A’la Carte Yemek: 7+ gece konaklamalarda bir ücretsiz ziyaret.",
+      "text3": "Pavilion İndirimi: Özel pavilion hizmetlerinde %15 indirim kazanın."
+    },
+    
     "ReservationWidget": {
       "title": "Rezervasyon Tarihleri",
       "text": "Konaklamanız için Tarihleri Seçin",
@@ -1331,6 +1340,15 @@
       "madde11": "Balkon",
       "madde12": "Duş"
     },
+
+    "BackgroundSection": {
+      "subtitle": "ÖZEL İMKANLAR",
+      "title": "Aile Swim-up Odası VIP Avantajları",
+      "text1": "Swim-Up odalarında kalan misafirler, girişte özenle hazırlanmış meyve tabağı ve narin makaronlar ile karşılanır.",
+      "text2": "A’la Carte Yemek: 7+ gece konaklamalarda bir ücretsiz ziyaret.",
+      "text3": "pavilion İndirimi: Özel pavilion hizmetlerinde %15 indirim kazanın."
+    },
+
     "ReservationWidget": {
       "title": "Rezervasyon Tarihleri",
       "text": "Konaklamanız için Tarihleri Seçin",
@@ -1437,14 +1455,14 @@
 
   "KüçükVilla": {
     "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
-    "title": "Küçük Villa",
+    "title": "Tiny Villa",
     "text1": "Orman / Deniz Manzarası",
     "text2": "1-4 Yetişkin + 1-3 Çocuk",
     "text3": "2 Yatak Odası / 4 Yatak",
     
     "RoomInfo": {
       "subtitle": "HER YAŞA UYGUN EĞLENCE",
-      "title": "Küçük Villa",
+      "title": "Tiny Villa",
       "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
       "title2": "Aile Dostu İmkanlar",
       "list1": "Bağımsız Havuz",
@@ -1465,6 +1483,15 @@
       "madde11": "Balkon",
       "madde12": "Duş"
     },
+
+    "BackgroundSection": {
+      "subtitle": "ÖZEL İMKANLAR",
+      "title": "Tiny Villa VIP Avantajları",
+      "text1": "Swim-Up odalarında kalan misafirler, girişte özenle hazırlanmış meyve tabağı ve narin makaronlar ile karşılanır.",
+      "text2": "A’la Carte Yemek: 7+ gece konaklamalarda bir ücretsiz ziyaret.",
+      "text3": "pavilion İndirimi: Özel pavilion hizmetlerinde %15 indirim kazanın."
+    },
+
     "ReservationWidget": {
       "title": "Rezervasyon Tarihleri",
       "text": "Konaklamanız için Tarihleri Seçin",

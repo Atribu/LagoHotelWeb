@@ -20,35 +20,40 @@ import {useTranslations} from 'next-intl';
 
 const momentImages=[img1,img2,img3]
 
+const page = () => {
+  const t = useTranslations('KidsClub')
+  const t2 = useTranslations('KidsClub.CuisinesCarousel');
+
+
 const kids = [
   {
     id: 1,
     img: kids1,
-    title: "Maldvas ",
-    description: "bamboo kıds club ",
-    text:"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
-    link:"/"
+    title: t2("cuisines1title"),
+    description: t2("cuisines1subtitle"),
+    text:t2("cuisines1text"),
+    link:"/",
+    buttonText:t2("buttonText")
   },
   {
     id: 2,
     img: kids2,
-    title: "Kid Aqua Park ",
-    description: "bamboo kıds club",
-     text:"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
-     link:"/"
+    title: t2("cuisines2title"),
+    description: t2("cuisines2subtitle"),
+    text:t2("cuisines2text"),
+     link:"/",
+     buttonText:t2("buttonText")
   },
   {
     id: 3,
     img: kids3,
-    title: "Indoor Kids Pool",
-    description: "bamboo kıds club ",
-     text:"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
-     link:"/"
+    title: t2("cuisines3title"),
+    description: t2("cuisines3subtitle"),
+    text:t2("cuisines3text"),
+     link:"/",
+     buttonText:t2("buttonText")
   }
 ];
-
-const page = () => {
-  const t = useTranslations('KidsClub');
 
   return (
     <div className='overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
@@ -57,7 +62,7 @@ const page = () => {
       <KidsIconsSection/>
       <KidsclubCarousel/>
       <KidsRestaurantCarousel/>
-      <CuisinesCarousel span="Bamboo kıds club" header="Kid Pools" text="Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla." cuisines={kids}/>
+      <CuisinesCarousel span={t2("subtitle")} header={t2("title")} text={t2("text")} cuisines={kids}/>
       <KidsMomentCarousel showheader={true} images={momentImages} header={t("gallerytitle")}/>
       <ContactSection2/>
     </div>
