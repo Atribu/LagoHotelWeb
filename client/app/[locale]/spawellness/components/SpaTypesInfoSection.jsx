@@ -15,7 +15,7 @@ const SpaTypesInfoSection = ({
 
   return (
     <div className="flex w-screen items-center justify-center  max-w-[1440px]">
-      <div className={`flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[3.5%] ${containerDirection}`}>
+      <div className={`flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[3.5%] md:${containerDirection}`}>
         <div className='flex flex-col md:hidden w-full text-black gap-[10px]'>
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             {span}

@@ -16,6 +16,7 @@ import img2 from "./images/SRF_3813.webp"
 import img3 from "./images/SRF_4487.webp"
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
+import {useTranslations} from 'next-intl';
 
 const momentImages=[img1,img2,img3]
 
@@ -47,15 +48,17 @@ const kids = [
 ];
 
 const page = () => {
+  const t = useTranslations('KidsClub');
+
   return (
     <div className='overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <RestaurantMainBanner img={image} span="RELAX AT OUR LAGO WELLNESS CENTER" header="Bamboo Kids Club" text="Relax and restart. Enjoy high-quality professional massage at our wellness center, obtain a comprehensive stretching of physical and mental."/>
+      <RestaurantMainBanner img={image} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <KidsBamboo/>
       <KidsIconsSection/>
       <KidsclubCarousel/>
       <KidsRestaurantCarousel/>
       <CuisinesCarousel span="Bamboo kıds club" header="Kid Pools" text="Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla." cuisines={kids}/>
-      <KidsMomentCarousel showheader={true} images={momentImages} header="Every Moment is Worth Sharing"/>
+      <KidsMomentCarousel showheader={true} images={momentImages} header={t("gallerytitle")}/>
       <ContactSection2/>
     </div>
   )

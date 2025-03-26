@@ -12,10 +12,13 @@ import L2Svg from './L2Svg'
 import A2Svg from './A2Svg'
 import G2Svg from './G2Svg'
 import O2Svg from './O2Svg'
+import {useTranslations} from 'next-intl';
 
 const images=[img1,img2,img3,img4,img5,img6]
 
 const ActivityBackgroundSection = () => {
+  const t = useTranslations('Entertainment.Gallery');
+
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "start",
@@ -44,9 +47,9 @@ const ActivityBackgroundSection = () => {
   return (
     <div className='flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px] ' >
       <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[65%] items-center justify-center text-center font-jost text-black gap-[15px] md:gap-[25px] lg:gap-[35px] xl:max-w-[1440px]'>
-      <span className='text-[12px] leading-[14px] font-medium uppercase tracking-[0.48px]'>Entertainment & Actıvıtıes</span>
-            <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-normal font-marcellus capsizedText2'>Catch The Rhythm</h2>
-            <p className='text-[14px] lg:text-[16px] font-normal leading-normal lg:leading-[24px] lg:w-[43%] lg:min-w-[608px]'>Lorem ipsum dolor sit amet consectetur. Pulvinar orci morbi sapien neque eu molestie dictum. Nullam urna augue fermentum praesent phasellus purus. Vitae facilisis eleifend </p>
+      <span className='text-[12px] leading-[14px] font-medium uppercase tracking-[0.48px]'>{t("subtitle")}</span>
+            <h2 className='text-[28px] md:text-[32px] lg:text-[48px] leading-normal lg:leading-[57.6px] font-normal font-marcellus capsizedText2'>{t("title")}</h2>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-normal lg:leading-[24px] lg:w-[43%] lg:min-w-[608px]'>{t("text")} </p>
       </div>
 
        <div className="flex flex-col w-full justify-center items-center  lg:min-h-[650px] ">
@@ -93,7 +96,7 @@ const ActivityBackgroundSection = () => {
         </div>
       </div>
       <div className='flex w-[87.79%] md:w-[91.4%] lg:w-[42%] items-center text-center justify-center -mt-[25px]'>
-          <span className='text-[12px] lg:text-[14px] font-jost text-lagoGray font-normal leading-normal lg:w-[43%] lg:min-w-[608px]'>* LAGO Hotel Ultra All Inclusive concept, activities and services may vary depending on the season and weather conditions, without prior notice. All rights of LAGO HOTEL in this regard are reserved.</span>
+          <span className='text-[12px] lg:text-[14px] font-jost text-lagoGray font-normal leading-normal lg:w-[43%] lg:min-w-[608px]'>*{t("span")}</span>
         </div>
     </div>
   )

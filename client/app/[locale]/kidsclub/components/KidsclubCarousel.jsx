@@ -13,11 +13,14 @@ import img8 from "../images/kids3.webp"
 import img9 from "../images/gamerooms.webp"
 import panda from "../images/Panda.png"
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 const images=[img1,img2,img3,img4,img5,img6,img7,img8,img9] 
-const headers=["Lego Rooms","Children's Activities","Baby Rooms","Ball Pool","Children's Amphitheater","Trampoline","Playground","Playstation Rooms","Game Rooms"]
 
 const KidsclubCarousel = () => {
+  const t = useTranslations('KidsClub.Carousel');
+  const headers=[t("activity1"),t("activity2"),t("activity3"),t("activity4"),t("activity5"),t("activity6"),t("activity7"),t("activity8"),t("activity9")]
+
     const [emblaRef, emblaApi] = useCarousel({
         loop: true,
         align: "start",
@@ -49,9 +52,9 @@ const KidsclubCarousel = () => {
         <div className='flex flex-col gap-[17px] items-center justify-center font-jost text-black'>
             <PandaSvg className="flex" width={99} height={54}/>
            <div className='flex flex-col gap-[15px] md:gap-[25px] lg:gap-[35px] items-center justify-center text-center w-full'>
-           <span className='text-[14px] lg:text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>Welcome to LAGO Kids Club</span>
-            <h2  className='text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[26px] font-marcellus lg:capsizedText2'>Where Fun and Education Meet</h2>
-            <p className='text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[26px]'>LAGO Kids Club, her yaş grubundan çocuğa hitap eden eğitici ve eğlenceli aktiviteler sunar. <br></br> Çocuğunuzun yaratıcılığını geliştirecek ve hayallerini gerçekleştirecek bir ortam hazırladık.</p>
+           <span className='text-[14px] lg:text-[18px] font-medium uppercase leading-[26px] tracking-[0.72px]'>{t("subtitle")}</span>
+            <h2  className='text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[26px] font-marcellus lg:capsizedText2'>{t("title")}</h2>
+            <p className='text-[14px] lg:text-[16px] font-normal leading-[18px] lg:leading-[26px]'>{t("text")}</p>
            </div>
         </div>
       </div>

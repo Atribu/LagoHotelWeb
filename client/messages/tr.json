@@ -82,7 +82,7 @@
       "subtitle":" Sunduğumuz Hizmetleri Keşfedin",
       "title":"  Konforlu Bir Konaklama İçin Tüm Gerekli Malzemeler",
 
-      "title1":" Özel Plaj ve Pavyonlar",
+      "title1":" Özel Plaj ve Pavilion",
       "text1":"   70 metrelik özel plajımızda rahatlayın veya özel kulübeleri, güneşlenme alanları ve rahat şezlonglarıyla 200 metrelik özel iskelede keyfinize bakın.",
       "title2":" Her Ruh Haline Uygun Havuzlar",
       "text2":"   Açık ve ısıtmalı kapalı havuzlarımızın yanı sıra 4 kaydıraklı bir Aqua Park ve kaydıraklı çocuk havuzlarının keyfini çıkarın.",
@@ -986,7 +986,7 @@
         "ImageBackground": {
           "subtitle": "Cabana ve Pavilion Kiralama",
           "title": "Sahil Lüksünde Rahatlayın",
-          "text1": "Ücret karşılığında sunulan özel Cabana ve Pavyonlarımızda, plaj kenarında eşsiz mahremiyet ve konforun tadını çıkarın. Swim-Up Odalarında kalan misafirlerimiz özel indirimlerden faydalanarak, sahil deneyimlerini daha da lüks hale getiriyor.",
+          "text1": "Ücret karşılığında sunulan özel Cabana ve Pavilion, plaj kenarında eşsiz mahremiyet ve konforun tadını çıkarın. Swim-Up Odalarında kalan misafirlerimiz özel indirimlerden faydalanarak, sahil deneyimlerini daha da lüks hale getiriyor.",
           "text2": "Özel Düzenleme Mevcut",
           "text3": "Doğum Günü Partisi",
           "text4": "Dekorasyon",
@@ -1098,6 +1098,567 @@
       "title2": "Türk Hamamı",
       "text2": "Geleneksel Türk Hamamımızın eşsiz atmosferinde kendinizi yenileyin ve şımartın. LAGO'nun profesyonel terapistleriyle ikonik rahatlama kültürünü deneyimleyin ve bedeninizi, ruhunuzu tazeleyin."
     }
+  },
+
+  "SuperiorRoom": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Superior Oda",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Superior Oda",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "FamilyRoom": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Aile Odası",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+    
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Aile Odası",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "HEMEN REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "SwimupRoom": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Swim-up Odası",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+    
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Swim-up Odası",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "HEMEN REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "FamilySwimupRoom": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Aile Swim-up Odası",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+    
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Aile Swim-up Odası",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "HEMEN REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "DuplexFamilyRoom": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Dubleks Aile Odası",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+    
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Dubleks Aile Odası",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "HEMEN REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "KüçükVilla": {
+    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "title": "Küçük Villa",
+    "text1": "Orman / Deniz Manzarası",
+    "text2": "1-4 Yetişkin + 1-3 Çocuk",
+    "text3": "2 Yatak Odası / 4 Yatak",
+    
+    "RoomInfo": {
+      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "title": "Küçük Villa",
+      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "title2": "Aile Dostu İmkanlar",
+      "list1": "Bağımsız Havuz",
+      "list2": "2 Tek Kişilik Yatak",
+      "list3": "Ekstra Bebek Karyolası",
+      "title3": "Oda Özellikleri",
+      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
+      "madde1": "Özel Havuz",
+      "madde2": "48 m²",
+      "madde3": "Makyaj Masası",
+      "madde4": "Sigara İçmez",
+      "madde5": "Mini Bar",
+      "madde6": "Kasa",
+      "madde7": "Saç Kurutma Makinesi",
+      "madde8": "Banyo Temel Gereçleri",
+      "madde9": "Çay & Kahve Seti",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Duş"
+    },
+    "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler / Çocuklar",
+      "booknow": "HEMEN REZERVASYON YAPIN",
+      "contact": "Hemen bizimle iletişime geçin",
+      "phone": "+90 123 456 78 90"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+    }
+  },
+
+  "Fitness": {
+    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "title": "Spor & Fitness",
+    "mobileTitle": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın; bedeninizi ve zihninizi yenilemek için tasarlandı.",
+    "text": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın; bedeninizi ve zihninizi yenilemek için tasarlandı.",
+    "InfoSection": {
+      "subtitle": "Mükemmel Gurme Deneyimleri",
+      "title": "LAGO Oteli'nde Formda Kalın",
+      "text": "Tatil sırasında formda kalmak isteyenler için, profesyonel ekipmanlarla donatılmış Fitness Center'ımız günlük antrenmanlar sunmaktadır. Egzersiz yaptıktan sonra, SPA'mızda profesyonel bir masajla bedeninizi ve zihninizi rahatlatabilir, geleneksel Türk Hamamımızda gevşeyebilir veya Fin Saunası'nda yenilenebilirsiniz.",
+      "subtitle2": "Sağlıklı Yaşam ve Formda Kalmak",
+      "title2": "Plaj Voleybolu & Kişisel Antrenör",
+      "text2": "Açılış Saatleri: 08:00 - 20:00",
+      "subtitle3": "Spor & Fitness",
+      "title3": "Grup Aktiviteleri",
+      "text3": "Tatiliniz boyunca formda kalın, enerjinizi artırın ve profesyonel eğitmenler tarafından yönlendirilen grup aktivitelerimizle motive kalın.",
+      "list1": "Tabata",
+      "list2": "HIT Kardiyo",
+      "list3": "Zumba",
+      "list4": "Step Aerobik",
+      "list5": "Yoga, Pilates"
+    },
+    "SpaGallery": {
+      "subtitle": "Mükemmel Gurme Deneyimleri",
+      "title": "LAGO'da Şıklıkla Formda Kalın",
+      "text": "LAGO'nun modern ve profesyonel ekipmanlı fitness merkezinde, tüm fitness seviyelerine uygun çeşitli antrenman seçeneklerinin keyfini çıkarın. Tatiliniz boyunca enerjinizi artırın ve sağlıklı kalın."
+    },
+    "Carousel": {
+      "subtitle": "RAHATLAYIN VE UNUTUN",
+      "title": "Aktiviteler ve Dersler",
+      "text": "LAGO'da, tatil deneyiminizi zenginleştirmek için çeşitli aktiviteler ve dersler sunuyoruz. Enerjinizi artırın, yeni deneyimler kazanın ve uzman eğitmenler tarafından yönlendirilen grup aktiviteleriyle keyifli anılar oluşturun.",
+      "massage1": "Yoga & Pilates Dersleri",
+      "massageText1": "SÜRE: 60 DAK",
+      "massage2": "Zumba Dersleri",
+      "massageText2": "SÜRE: 60 DAK",
+      "massage3": "HIIT Kardiyo & Tabata",
+      "massageText3": "SÜRE: 60 DAK",
+      "massage4": "Step Aerobik",
+      "massageText4": "SÜRE: 60 DAK"
+    },
+    "SpaType": {
+      "subtitle": "Su Polo, Plaj Voleybolu",
+      "title": "Plaj Voleybolu",
+      "text": "LAGO'nun güzel kum sahalarında heyecan verici plaj voleybolu maçlarına katılın. Rekabet edin, eğlenin ve güneş ile denizin keyfini çıkarırken unutulmaz anılar oluşturun.",
+      "subtitle2": "Fitness Hedeflerinize Ulaşın",
+      "title2": "Kişisel Antrenör",
+      "text2": "LAGO’nun profesyonel kişisel antrenörleri tarafından tasarlanan özelleştirilmiş antrenman programları ile fitness hedeflerinize ulaşın. Bireysel ihtiyaçlarınıza göre uyarlanmış kişisel antrenmanların keyfini çıkarın ve tatiliniz boyunca motive kalın."
+    }
+  },
+
+  "Entertainment": {
+    "subtitle": "Günlük Aktiviteler & Akşam Şovları",
+    "title": "Sonsuz Eğlence Sizi Bekliyor",
+    "text": "LAGO’da, günlük çeşitli aktiviteler ve muhteşem akşam eğlenceleri ile unutulmaz anlar yaşayın. Enerjik gündüz oyunlarından göz alıcı gece performanslarına kadar, her an sevinç ve heyecan dolu.",
+    "InfoSection": {
+      "experiences": "Deneyimler",
+      "title": "Gündüz Aktiviteleri",
+      "title2": "Gece Aktiviteleri"
+    },
+    "CarouselSection": {
+      "subtitle": "Eğlence & Aktiviteler",
+      "title": "Etkinlikler Her Gün Gerçekleşiyor",
+      "text": "Disko, bocce, plaj voleybolu, masa tenisi, sinema, plaj oyunları, su sporları ve akşam eğlenceleri gibi çeşitli aktiviteler sunan LAGO, unutulmaz bir tatil deneyimi için sayısız spor ve eğlence seçeneğiyle sizi ağırlamaya hazır.",
+      "daytime": "GÜNDÜZ AKTİVİTELERİ",
+      "nighttime": "GECE AKTİVİTELERİ",
+      "title1": "Spor & Fitness",
+      "description1": "LAGO’da günlük düzenlenen çeşitli spor ve fitness aktiviteleriyle enerjinizi artırın ve aktif kalın. Profesyonel antrenörlerimize katılın ve tatiliniz boyunca formda kalın.",
+      "title2": "Çocuk & Genç Kulübü",
+      "description2": "Çocuk ve Genç Kulübümüz, küçük misafirler için eğlenceli, güvenli ve ilgi çekici bir ortam sunar. Heyecan verici aktiviteler ve oyunlar, çocuklar ve gençler için sonsuz eğlence sağlar.",
+      "title3": "Su Sporları",
+      "description3": "LAGO’nun güzel plajında heyecan verici su sporlarını deneyimleyin. İster jet ski, ister paraşütle atlama ya da dalış, herkes için heyecan dolu bir macera sizi bekliyor.",
+      "title4": "Plaj Aktiviteleri",
+      "description4": "Plaj voleybolu, bocce ve eğlenceli grup oyunları gibi çeşitli plaj aktiviteleriyle güneşli günlerin tadını çıkarın, her anı neşe ve heyecanla doldurun.",
+      "title5": "Tenis",
+      "description5": "Yeni başlayan ya da uzman olun, profesyonel kortlarımızda tenis oynamanın keyfini çıkarın. Yeteneklerinizi geliştirin veya kendinize meydan okuyun.",
+      "title6": "Sinema",
+      "description6": "Aileniz ve arkadaşlarınızla unutulmaz film geceleri yaşayın; popüler filmlerin gösterildiği konforlu ve keyifli bir ortam sunuyoruz.",
+      "title7": "Gün Batımı Partileri",
+      "description7": "Renkli müzik ve ferahlatıcı kokteyller eşliğinde LAGO’nun unutulmaz gün batımı partilerinde dans edin ve rahatlayın, bir başka güzel günün sonunu kutlayın.",
+      "title8": "Sahne Şovları",
+      "description8": "Profesyonel sanatçılar ve etkileyici prodüksiyonlarla dolu muhteşem sahne şovlarının keyfini çıkarın; her yaştan misafiri eğlendirmek için tasarlandı.",
+      "title9": "Tema Partileri",
+      "description9": "Yaratıcı konseptler, renkli dekorasyonlar ve heyecan verici müziklerle süslenmiş tema partilerimize katılın, eğlence dolu unutulmaz akşamlar yaşayın."
+    },
+    "Gallery": {
+      "subtitle": "Eğlence & Aktiviteler",
+      "title": "Ritmi Yakala",
+      "text": "LAGO’nun eğlence dünyasının canlı atmosferine kendinizi bırakın. Heyecan verici gündüz etkinliklerinden etkileyici gece şovlarına kadar ritmi hissedin ve unutulmaz anılar biriktirin.",
+      "span": "LAGO Hotel Ultra All Inclusive konsepti, aktiviteler ve hizmetler mevsime ve hava koşullarına bağlı olarak önceden bildirim yapılmaksızın değişiklik gösterebilir. Bu konuda LAGO OTEL'in tüm hakları saklıdır."
+    }
+  },
+
+  "KidsClub": {
+    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "title": "Bamboo Kids Club",
+    "text": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde, bedeninizi canlandırıp zihninizi ferahlatacak yüksek kaliteli profesyonel masajın keyfini çıkarın.",
+    "gallerytitle": "Her An Paylaşmaya Değer",
+    "InfoSection": {
+      "subtitle": "Her Yaş İçin Güvenli ve Eğlenceli Bir Alan",
+      "title": "Unutulmaz Anılar",
+      "text": "Bamboo Kids Club’da, yaşa uygun aktiviteler, profesyonel bakıcılar ve güvenli bir ortam sunuyoruz; böylece çocuğunuzun öğrenmesi, oynaması ve gelişmesi için mükemmel bir ortam sağlanıyor.",
+      "span": "Açılış Saatleri: 08:00 - 20:00",
+      "age1": "Mini Kulüp",
+      "title1": "4-7 Yaş",
+      "description1": "Özellikle en küçük misafirlerimiz için tasarlanmış güvenli ve samimi bir oyun alanı. Ebeveyn gözetiminde keşfetmek ve eğlenmek için ideal.",
+      "age2": "8-12 Yaş",
+      "title2": "Junior Kulüp",
+      "description2": "Enerjik küçük maceracılar için yaratıcı aktiviteler ve heyecan verici oyunlarla dolu bir dünya. Her gün yeni bir yolculuk!",
+      "age3": "13-16 Yaş",
+      "title3": "Genç Kulüp",
+      "description3": "Özel olarak hazırlanmış aktiviteler ve modern oyunlar sunan, genç misafirlerimiz için unutulmaz deneyimler sağlayan etkileyici bir alan.",
+      "note": "0-3,99 yaş arası çocuklar, Mini Kulüp aktivitelerine ebeveyn gözetiminde katılabilir."
+    },
+    "IconSection": {
+      "icon1": "Güvenli Ortam",
+      "icon2": "Profesyonel Personel",
+      "icon3": "Yaşa Uygun Aktiviteler",
+      "icon4": "Sosyal Etkileşim"
+    },
+    "Carousel": {
+      "subtitle": "LAGO Kids Club'a Hoş Geldiniz",
+      "title": "Eğlence ve Eğitimin Buluştuğu Yer",
+      "text": "LAGO Kids Club, her yaşa uygun eğitici ve eğlenceli aktiviteler sunar. Çocuğunuzun yaratıcılığını besleyecek ve hayallerini gerçeğe dönüştürmesine yardımcı olacak bir ortam yarattık.",
+      "activity1": "Lego Odaları",
+      "activity2": "Çocuk Aktiviteleri",
+      "activity3": "Bebek Odaları",
+      "activity4": "Top Havuzu",
+      "activity5": "Çocuk Amfisi",
+      "activity6": "Trambolin",
+      "activity7": "Oyun Alanı",
+      "activity8": "Playstation Odaları",
+      "activity9": "Oyun Odaları"
+    },
+    "KidsRestaurant": {
+      "subtitle": "bamboo kids club",
+      "title": "Magna Kids Restoran",
+      "text": "Özellikle en küçük misafirlerimiz için tasarlanmış olan Magna Kids Restoran, çocukların seveceği besleyici ve lezzetli yemekler sunar. Çocuklarınız eğlenceli bir ortamda oynarken rahat bir yemek deneyimi yaşayın.",
+      "list1": "Kahvaltı: 07:00 - 10:30",
+      "list2": "Öğle Yemeği: 12:30 - 14:00",
+      "list3": "Akşam Yemeği: 18:30 - 21:30"
+    },
+    "CuisinesCarousel": {
+      "subtitle": "Bamboo Kids Club",
+      "title": "Çocuk Havuzları",
+      "text": "Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla.",
+      "cuisines1subtitle": "Bamboo Kids Club",
+      "cuisines1title": "Maldivas Havuzu",
+      "cuisines1text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "buttonText": "Daha Fazlasını Keşfet",
+      "cuisines2subtitle": "Bamboo Kids Club",
+      "cuisines2title": "Çocuk Aqua Havuzu",
+      "cuisines2text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines3subtitle": "Bamboo Kids Club",
+      "cuisines3title": "Kapalı Çocuk Havuzu",
+      "cuisines3text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
+    }
   }
+
+
   
   }

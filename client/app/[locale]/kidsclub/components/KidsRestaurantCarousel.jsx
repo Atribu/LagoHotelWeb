@@ -5,10 +5,13 @@ import img from "../images/SRF_3469.webp"
 import img2 from "../images/SRF_3456.webp"
 import Image from "next/image";
 import PlateSvg from "./PlateSvg";
+import {useTranslations} from 'next-intl';
 
 const images =[img,img2]
 
 const KidsRestaurantCarousel = () => {
+  const t = useTranslations('KidsClub.KidsRestaurant');
+
     const [emblaRef, emblaApi] = useCarousel({
         loop: true,
         align: "end",

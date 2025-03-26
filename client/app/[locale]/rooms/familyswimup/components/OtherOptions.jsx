@@ -4,48 +4,47 @@ import useEmblaCarousel from "embla-carousel-react";
 import options1 from "../images/option1.webp";
 import options2 from "../images/option2.webp";
 import options3 from "../images/option3.webp";
-import user from "../images/user1.png";
 import Image from "next/image";
 import Link from "next/link";
-import AreaSvg2 from "../../components/svg/AreaSvg2";
-import UserSvg from "../../components/svg/UserSvg";
 import { BiArea, BiGroup } from "react-icons/bi";
-
-
-const rooms = [
-  {
-    id: 1,
-    img: options1,
-    title: "Family Room",
-    description: "Room for all the family members",
-    size: "38-41 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
-  },
-  {
-    id: 2,
-    img: options2,
-    title: "Swim-up Room",
-    description: "FRESHEN UP WITHOUT LEAVING YOUR ROOM",
-    size: "40-43 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
-  },
-  {
-    id: 3,
-    img: options3,
-    title: "Superior Room",
-    description: "COMFORT FOR A GOOD PRICE",
-    size: "30-32 m2",
-    capacity: "2 adults + 1 child",
-    text: "Lorem ipsum dolor sit amet consectetur. Vel vitae adipiscing pellentesque sed mauris nisl velit in. Imperdiet orci purus nunc nisi. Pretium malesuada sed nibh varius. Scelerisque iaculis fringilla commodo hac. Aenean nulla.",
-    link: "/",
-  },
-];
+import {useTranslations} from 'next-intl';
 
 const OtherOptions = () => {
+  const t = useTranslations('SuperiorRoom.OtherOptions');
+
+  const rooms = [
+    {
+      id: 1,
+      img: options1,
+      title: t("title1"),
+      description: t("subtitle1"),
+      size: t("m1"),
+      capacity: t("capacity1"),
+      text: t("text1"),
+      link: "/rooms/familyroom",
+    },
+    {
+      id: 2,
+      img: options2,
+      title: t("title2"),
+      description: t("subtitle2"),
+      size: t("m2"),
+      capacity: t("capacity2"),
+      text: t("text2"),
+      link: "/rooms/swimup",
+    },
+    {
+      id: 3,
+      img: options3,
+      title: t("title3"),
+      description: t("subtitle3"),
+      size: t("m3"),
+      capacity: t("capacity3"),
+      text: t("text3"),
+      link: "/rooms/superior",
+    },
+  ];
+
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
@@ -74,10 +73,10 @@ const OtherOptions = () => {
       <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-start justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
         <div className="flex flex-col items-start justify-center w-full text-black gap-[15px] md:gap-[25px] lg:gap-[35px]">
           <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost">
-            CHOOSE THE BEST ROOM FOR YOU
+          {t("span")}
           </span>
           <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
-            Other options
+          {t("title")}
           </h2>
         </div>
 

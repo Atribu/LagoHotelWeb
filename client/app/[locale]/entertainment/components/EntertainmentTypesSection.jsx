@@ -12,74 +12,77 @@ import sunset from "../images/summer-music.webp"
 import stage from "../images/stageshow.webp"
 import themed from "../images/themed.webp"
 import Link from 'next/link'
-
-const activities = [
-  {
-    title: "Sport & Fitness",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Eget in non viverra est lorem sed. Non a elit adipiscing et eleifend nunc. Ornare sagittis sit non at morbi fermentum et.",
-    image: fitness,
-    link:"/spor"
-  },
-  {
-    title: "Kids & Teen Club",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Suspendisse interdum velit euismod. Pharetra volutpat dolor in euismod sed euismod. Vel quam purus consectetur ut malesuada.",
-    image: kids,
-    link:"/kidsclub"
-  },
-  {
-    title: "Water sports",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: water,
-    link:"/spor"
-  },
-  {
-    title: "Beach Activıties",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: beachvoley,
-    link:"/spor"
-  },
-  {
-    title: "Tennis",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: tennis,
-    link:"/spor"
-  },
-  {
-    title: "Cinema",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: cinema,
-    link:"/spor"
-  },
-  {
-    title: "Sunset parties",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: sunset,
-    link:"/spor"
-  },
-  {
-    title: "Stage shows",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: stage,
-    link:"/spor"
-  },
-  {
-    title: "Themed Parties ",
-    category: "DAYTIME ACTIVITIES",
-    description: "Lorem ipsum dolor sit amet consectetur. Varius tortor nec sed sed sed et dolor. Sapien in turpis et in. Elementum amet sagittis et id scelerisque convallis.",
-    image: themed,
-    link:"/spor"
-  }
-];
+import {useTranslations} from 'next-intl';
 
 const EntertainmentTypesSection = () => {
+  const t = useTranslations('Entertainment.CarouselSection');
+
+  const activities = [
+    {
+      title:t("title1"),
+      category: t("daytime"),
+      description: t("description1"),
+      image: fitness,
+      link:"/spor"
+    },
+    {
+      title:t("title2"),
+      category: t("daytime"),
+      description: t("description2"),
+      image: kids,
+      link:"/kidsclub"
+    },
+    {
+      title:t("title3"),
+      category: t("daytime"),
+      description: t("description3"),
+      image: water,
+      link:"/spor"
+    },
+    {
+      title:t("title4"),
+      category: t("daytime"),
+      description: t("description4"),
+      image: beachvoley,
+      link:"/spor"
+    },
+    {
+   title:t("title5"),
+      category: t("daytime"),
+      description: t("description5"),
+      image: tennis,
+      link:"/spor"
+    },
+    {
+      title:t("title6"),
+      category: t("daytime"),
+      description: t("description6"),
+      image: cinema,
+      link:"/spor"
+    },
+    {
+      title:t("title7"),
+      category: t("nighttime"),
+      description: t("description7"),
+      image: sunset,
+      link:"/spor"
+    },
+    {
+      title:t("title8"),
+      category: t("nighttime"),
+      description: t("description8"),
+      image: stage,
+      link:"/spor"
+    },
+    {
+      title:t("title9"),
+      category: t("nighttime"),
+      description: t("description9"),
+      image: themed,
+      link:"/spor"
+    }
+  ];
+
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
@@ -111,13 +114,13 @@ const EntertainmentTypesSection = () => {
         {/* Başlık Bölümü */}
         <div className="flex flex-col items-start justify-center text-start gap-[15px] md:gap-[25px] lg:gap-[35px] text-black font-jost">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-            Entertainment & Actıvıtıes
+            {t("subtitle")}
           </span>
           <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal font-marcellus leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
-            Events are held daily, Except Sundays
+          {t("title")}
           </h3>
           <p className="text-[16px] font-normal leading-[24px] lg:w-[65%] lg:capsizedText4 w-[98%] md:w-[80%]">
-            LAGO, which offers a variety of activities like disco, bocce, beach volleyball, table tennis, cinema, beach activities, water sports, and night entertainment, is ready to welcome you with sporting
+          {t("text")}
           </p>
         </div>
 
