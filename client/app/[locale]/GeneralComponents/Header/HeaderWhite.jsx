@@ -250,7 +250,7 @@ export default function HeaderWhite() {
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
                   isRoomsOpen
-                    ? "max-h-[200px] opacity-100"
+                    ? "max-h-[300px] opacity-100"
                     : "max-h-0 opacity-0"
                 }`}
               >
@@ -259,37 +259,43 @@ export default function HeaderWhite() {
                     href="/rooms/"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    All Rooms
+                    {t("allrooms")}
                   </Link>
                   <Link
                     href="/rooms/superiorroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    Superior Room
+                  {t("superior")}
                   </Link>
                   <Link
                     href="/rooms/familyroom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    Family Room
+              {t("family")}
                   </Link>
                   <Link
                     href="/rooms/swimuproom"
                     className="block text-[14px]  leading-[29.639px] uppercase"
                   >
-                    Swim-up Room
+                     {t("swimup")}
                   </Link>
                   <Link
                     href="/rooms/familyswimup"
                     className="block text-[14px] leading-[29.639px] uppercase"
                   >
-                    Family Swim-up Room
+                   {t("familyswimup")}
                   </Link>
                   <Link
                     href="/rooms/duplexfamilyroom"
                     className="block text-[14px] leading-[29.639px] uppercase"
                   >
-                    Duplex Family Room
+                     {t("duplex")}
+                  </Link>
+                  <Link
+                    href="/rooms/tinyvilla"
+                    className="block text-[14px] leading-[29.639px] uppercase"
+                  >
+                      {t("tinyvilla")}
                   </Link>
                 </div>
               </div>
@@ -361,7 +367,7 @@ export default function HeaderWhite() {
               px-[19px]
             "
           >
-            LET US CALL YOU
+          {t("letuscallyou")}
           </button>
 
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

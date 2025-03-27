@@ -22,12 +22,14 @@
   "family":"Family Room",
   "swimup":"Swim-up Room",
   "familyswimup":"Family Swim-up Room",
-  "duplex":"Duplex Family Room"
+  "duplex":"Duplex Family Room",
+  "tinyvilla":"Tiny Villa",
+  "letuscallyou":"Let Us Call You"
 
 },
 
 "Reservation":{
-  "text":"Book your perfect stay",
+  "text":"Book Your Dream Stay",
   "checkin":"Check In",
   "checkout":"Check Out",
   "guests":"Guests",
@@ -37,9 +39,9 @@
 
 
   "HomePage": {
-    "subtitle": "The comfort, quality, endless and impeccable service",
+    "subtitle": "Experience comfort, quality, and impeccable service",
     "title":"Welcome to Lago Hotel",
-    "text": " We offer you a pleasant holiday experience that will feel like home in our rooms designed in accordance with varied tastes and needs, merging beauty and comfort with their eye-catching designs and efficient structures. Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. Come to LAGO where everything is possible.",
+    "text": " Designed to meet diverse tastes and needs, our rooms offer a relaxing holiday experience where comfort meets elegance, making you feel at home. Enjoy cooling off in our pools of various sizes within LAGO’s deep blue world. At LAGO, everything is possible.",
     "discovermore":"DISCOVER MORE",
 
     "EmblaCarousel":{
@@ -51,58 +53,58 @@
     },
 
     "TwoAnimationSection":{
-    "subtitle":"Perfect Fine Dine Experiences",
-    "title":"Where green and blue meets",
-    "text": " With its 350 m long golden yellow beach located on the sands of the most breathtaking blue hues, LAGO will provide you with an unforgettable holiday.",
-    "text2":" Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. The facility has a heated indoor pool, and there is also a heated relax pool in the area where the outdoor swimming pool is located.",
+    "subtitle":"The Serenity of Blue and Green",
+    "title":"Let Yourself be Enchanted by LAGO",
+    "text": " With golden beaches and deep blue waters, LAGO perfectly blends the beauty of nature with luxurious comfort. ",
+    "text2":" Refresh yourself in pools of various sizes and rejuvenate your senses surrounded by lush greenery. Featuring heated indoor pools, an outdoor swimming pool, and serene relaxation areas, LAGO promises unforgettable holiday experiences all year round.",
     "buttonText":"GO TO gallery"
     },
 
     "Accommodation":{
-      "subtitle":"Choose your accommodation type",
-      "title":"Luxury Stay Experience",
+      "subtitle":"Select Your Ideal Accommodation",
+      "title":"Luxurious Stay Experience",
       "roomname1":"Family Swim-up Room",
       "roomname2":" Swim-up Room",
       "roomname3":"Superior Room",
-      "roomtext1":"This spacious room type with a land or sea view is 50-55 m² and located in the main building. Featuring two separate bedrooms with a connecting door, it includes one double bed (for two adults), a luxurious sofa bed (for two adults), a bathroom, and a cozy sitting area.",
-      "roomtext2":"This stylish room type with land or sea view is 40-43 m², located in the main building. The room features one double bed and one single bed, along with an additional sofa or seating area. Sea and forest view rooms offer pool access and a terrace, while sea-view Swim-up rooms provide a private pool.",
-      "roomtext3":"Located in the main building, this elegant room type is 30-32 m². Featuring one double bed, one single bed, and a comfortable sofa, each room includes a balcony, chip-key wristband access, daily minibar replenishment, premium bathroom amenities, and tea-coffee set.",
+      "roomtext1":"This spacious Family Swim-up Room is 50-55 m² and located in the main building, offering either land or sea views. Featuring two separate bedrooms with a connecting door, it includes one double bed (for two adults), a luxurious sofa bed (for two adults), a bathroom, and a comfortable sitting area. Additionally, these rooms have direct pool access from their private terrace, providing an exclusive swim-up experience.",
+      "roomtext2":"This stylish room type, located in the main building, is 40-43 m² and offers either land or sea views. It features one double bed and one single bed, along with a comfortable sofa or seating area. Both sea and land view rooms include direct pool access and a terrace, while sea-view Swim-up rooms additionally feature a private pool.",
+      "roomtext3":"Located in the main building, this elegant room type measures 30-32 m², offering land or sea views. Each room features one double bed, one single bed, and a comfortable sofa. Rooms also include a balcony, chip-key wristband access, daily replenished minibar, premium bathroom amenities, and a tea-coffee set.",
       "m1":"50-55 m²",
       "view1":"Land/Sea View",
       "buttonText1":"Explore",
       "m2":"40-43 m²",
       "view2":"Land/Sea View",
       "buttonText2":"Explore",
-      "m3":"30-32 m2",
+      "m3":"30-32 m²",
       "view3":"Land/Sea View",
       "buttonText3":"Explore"
       
     },
 
     "Essentials":{
-      "subtitle":"Discover the Services we offer",
-      "title":" All the Essentials for a Comfortable Stay",
+      "subtitle":"Explore Our Exceptional Services",
+      "title":" All You Need for Ultimate Comfort",
 
       "title1":"Private Beach & Pavilions",
-      "text1":"  Relax on our 70m private beach or enjoy the exclusive 200m pier with private lodges, sunbathing areas, and comfortable loungers.",
-      "title2":"Pools for Every Mood",
-      "text2":"  Enjoy our outdoor & heated indoor pools, plus an Aqua Park with 4 slides and kids’ pools with slides",
+      "text1":" Relax on our 350-meter private beach or enjoy our exclusive pier with private lodges and comfortable loungers.",
+      "title2":"Pools for Every Moment",
+      "text2":"  Enjoy our outdoor pools, heated indoor pool, and Aqua Park featuring 9 slides, plus dedicated kids’ pools with 5 slides.",
       "title3":"World-Class Dining",
-      "text3":"  Enjoy ultra all-inclusive buffets and A la Carte restaurants with Turkish, Mediterranean, and international cuisine",
-      "title4":"Fun for Kids",
-      "text4":"  The Mini Club (ages 4-12) offers playgrounds, game rooms, mini discos, and a kids’ buffet in the restaurant.",
+      "text3":"  Enjoy our Ultra All-Inclusive buffets and A la Carte restaurants offering Turkish and international cuisines.",
+      "title4":"Kids’ Paradise",
+      "text4":"  The Bamboo Kids Club (ages 4-12) offers playgrounds, game rooms, and a kids’ buffet at Magna Kids Restaurant.",
       "title5":" Entertainment & Activities",
-      "text5":"  From live shows and sports to pool games and beach fun, there's something for everyone. Try table tennis and volleyball.",
+      "text5":"From live shows to pool games and beach fun, there’s something for everyone. Enjoy table tennis and volleyball!",
       "title6":"Spa & Wellness",
-      "text6":"  Unwind at the Symphony Spa with a hammam, sauna, steam room, and massages. A fitness center is also available.",
+      "text6":"  Unwind with our spa services, including hammam, sauna, steam room, and massages. A fitness center is also available.",
       "buttonText":"Discover More"
       
     },
 
     "Banner":{
-      "subtitle":" A UNIQUE FEAST OF TASTE",
-      "title":" Where Green and Blue Meets",
-      "text":" At LAGO Hotels, the magic of nature and the harmony of flavors come together! In this paradise where green and blue meet, an unforgettable holiday experience awaits you.",
+      "subtitle":" Your Gateway to the Mediterranean Blue",
+      "title":"Unforgettable Moments in Blue and Green",
+      "text":" Immerse yourself in the enchanting world of LAGO Hotels. With lush nature, endless sea views, and impeccable service, we promise you an unforgettable holiday experience.",
       "discovermore":"DISCOVER MORE"
     }
    
@@ -149,52 +151,52 @@
       "buttonText4":"Family Swim-up Room",
       "buttonText5":"Duplex Family Room",
       "buttonText6":"Tiny Villa",
-      "subtitle":" Comfort stay for you and your family",
-      "title":"Explore our refined accommodation options and find the perfect space for your stay.",
-      "text":"At Lago Hotel, we offer comfortable stays with sea or forest view rooms. Swim-up rooms, family suites, and private villas cater to every need. Our modern-designed rooms combine comfort and luxury. For an unforgettable holiday, you're in the right place!",
+      "subtitle":" A Comfortable Stay for You and Your Family",
+      "title":"Explore our elegant accommodations and find your perfect stay.",
+      "text":"At Lago Hotel, we offer comfortable rooms with stunning sea or land views. Choose from stylish Swim-up Rooms and spacious Family Suites designed to cater to your every need. Combining modern design with luxurious comfort, Lago Hotel is the perfect place for an unforgettable holiday.",
       "checkin":"CHECK-IN: 14:00",
       "checkout":"CHECK-OUT: 12:00",
       
       "RoomSection1":{
         "title":"Superior Room",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
+        "subtitle":" Located in the main building, this elegant room type measures 30-32 m², offering land or sea views. Each room features one double bed, one single bed, and a comfortable sofa. Rooms also include a balcony, chip-key wristband access, daily replenished minibar, premium bathroom amenities, and a tea-coffee set.",
+        "m":"30-32 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore",
         "link":"/en/"
       },
       "RoomSection2":{
         "title":"Family Room",
-        "subtitle":" This Family Room in the main building features two bedrooms (one double bed, two single beds), a connecting door, a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
-        "m":"40-43 m2",
+        "subtitle":" This Family Room in the main building (50-55 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
+        "m":"50-55 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
       "RoomSection3":{
         "title":"Swim-up Room",
-        "subtitle":"  Swim-up Rooms include a sofa or seating area, pool, and terrace. Forest view rooms have shared pool access, while sea view rooms feature a private pool. Max capacity: 2 adults + 2 children or 3 adults + 1 child.",
-        "m":"40-43 m2",
+        "subtitle":" This stylish room type, located in the main building, is 40-43 m² and offers either land or sea views. It features one double bed and one single bed, along with a comfortable sofa or seating area. Both sea and land view rooms include direct pool access and a terrace, while sea-view Swim-up rooms additionally feature a private pool.",
+        "m":"40-43 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
       "RoomSection4":{
         "title":"Family Swim-up Room",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
+        "subtitle":" This spacious Family Swim-up Room is 50-55 m² and located in the main building, offering either land or sea views. Featuring two separate bedrooms with a connecting door, it includes one double bed (for two adults), a luxurious sofa bed (for two adults), a bathroom, and a comfortable sitting area. Additionally, these rooms have direct pool access from their private terrace, providing an exclusive swim-up experience.",
+        "m":"50-55 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
       "RoomSection5":{
         "title":"Duplex Family Room",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
+        "subtitle":" This Duplex Family Room, measuring 70-80 m², has two floors. The lower floor features two single beds, one sofa, a bathroom, and a balcony, while the upper floor has one double bed, another bathroom, and balcony. Maximum capacity: 4 adults + 1 child.",
+        "m":"70-80 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
        "RoomSection6":{
         "title":"Tiny Villa",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
+        "subtitle":" Our Tiny Villa (90 m²), located within the garden, features two bedrooms with a connecting door (one double bed, two single beds), two bathrooms, and a terrace. Max capacity: 4 adults + 1 child.",
+        "m":"90 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       }
@@ -204,17 +206,17 @@
 
 
     "RoomsParallax":{
-      "subtitle":" The Essential In-Room AmenitieS",
-      "title":" Our rooms have all the essentials you need for your stay.",
-      "text":" Enjoy a seamless stay with all the essential amenities at your fingertips. From daily minibar replenishments to premium bath essentials, secure room access, and uninterrupted entertainment with LED TV and 24-hour WiFi, we ensure your comfort at every moment.",
+      "subtitle":" Essential In-Room Amenities",
+      "title":"Our rooms offer all essentials for a comfortable stay.",
+      "text":" Enjoy a seamless stay with all essential amenities at your fingertips. From daily minibar replenishment and premium bathroom amenities to secure room access, LED TV, and 24-hour Wi-Fi, we ensure your comfort at every moment.",
       "feature1":"Mini Bar",
-      "desc1":"Daily replenishments include water, soft drinks, beer, milk with fruit, chocolate, and a cracker.",
+      "desc1":"Daily replenishments include water, soft drinks, beer, fruit-flavored milk, chocolate, and crackers.",
       "feature2":"Cosmetics",
-      "desc2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, loofah, hairdryer, and body cream.",
-      "feature3":"Room Access",
-      "desc3":" All door locks are securely operated using a convenient chip bracelet key system for easy access.",
+      "desc2":" Bathroom essentials include shampoo, conditioner, shower gel, soap, loofah, and body cream.",
+      "feature3":"Chip-Key Access",
+      "desc3":" All room doors feature a secure and convenient chip-key bracelet system for easy access.",
       "feature4":"Wifi & LedTV",
-      "desc4":" LED TV with international and national satellite channels, radio, and 24-hour WiFi access."
+      "desc4":" LED TV with national and international satellite channels, radio, and 24-hour Wi-Fi access."
     },
 
     "ContactSection2":{
@@ -365,15 +367,15 @@
         "subtitle":" Perfect Fine Dine Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
         "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
       },
       "DiscoverBackground":{
@@ -491,17 +493,18 @@
         "subtitle":" Perfect Fine Dine Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
         "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
       },
+
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
         "title":" Discover our Bars and Cafes",
@@ -1034,33 +1037,33 @@
       "subtitle":" WELCOME TO LAGO HOTEL",
       "title":"Immerse Yourself in the Deep Blue Waters",
       "mobileTitle":"Beach & Pools",
-      "text":" We offer you a pleasant holiday experience that feels like home in our rooms designed according to varied tastes and needs, combining beauty and comfort with their stunning designs and practical layouts. Enjoy cooling off in pools of different sizes in the deep blue world of LAGO. Come to LAGO, where everything is possible.",
+      "text":" Our rooms are thoughtfully designed to cater to varied tastes and needs, harmoniously blending comfort with stunning style to make you feel right at home. Enjoy refreshing moments in our pools of various sizes within the deep blue world of LAGO. Come to LAGO, where everything you’ve dreamed of becomes possible.",
       "buttonText":"DISCOVER MORE",
 
       "ClinaryInfoSection":{
-        "subtitle":" A UNIQUE FEAST OF TASTE",
-        "title":" Discover Our Exclusive Beach",
-          "text1":"Enjoy the clear waters and unique nature of the Mediterranean in a peaceful setting at LAGO's exclusive beach. Relax on our soft sandy beach, and make every moment of your vacation unforgettable with specially prepared delicacies and refreshing drinks.",
+        "subtitle":" EXPERIENCE PURE RELAXATION",
+        "title":" Discover Tranquility at Our Beach",
+          "text1":"Discover serenity at LAGO’s private beach, where crystal-clear Mediterranean waters meet soft, golden sands. Relax with refreshing beverages and specially prepared delicacies at our exclusive beach bars, making every moment memorable.",
           "text2":"Special Features",
-          "text3":"Complimentary sun loungers, umbrellas, and towels",
-          "text4":"Beach bars serving refreshing drinks and light snacks",
-          "text5":"Calm waters ideal for swimming and water sports"        
+          "text3":"Complimentary sun loungers, umbrellas & towels",
+          "text4":"Beach bars offering refreshing drinks & delicious snacks",
+          "text5":"Crystal-clear, calm waters perfect for swimming & water sports"        
       },
     
       "ImageBackground":{
-        "subtitle":"Cabana and Pavilion Rentals",
+        "subtitle":"Exclusive Cabana & Pavilion Experience",
         "title":"Relax in Seaside Luxury",
-         "text1":" Unwind in our exclusive Cabanas and Pavilions, available for a fee, offering unmatched privacy and comfort by the beach. Guests staying in Swim-Up Rooms enjoy special discounts, making your seaside experience even more luxurious.",
-         "text2":"Special Set-up Available",
+         "text1":" Unwind in our exclusive Cabanas and Pavilions, available for a fee, offering unmatched privacy and comfort by the beach. Guests staying in Swim-Up Rooms receive a 15% discount on Pavilion rentals, making your seaside experience even more luxurious.",
+         "text2":"Exclusive Set-up for Pavilion & Cabana Available",
          "text3":"Birthday Party",
          "text4":"Decorations",
          "buttonText":"DISCOVER MORE"
       },
 
       "Carousel":{
-      "subtitle":" RELAX AND FORGET",
-      "title":"Activities at the Beach",
-      "text":" A holiday filled with fun and relaxing activities awaits you on LAGO’s beautiful beach. From water sports to beach volleyball, enjoy our activities throughout the day while soaking up the sun and sea.",
+      "subtitle":" RELAX AND UNWIND",
+      "title":"Beach Activities",
+      "text":" A relaxing and fun-filled holiday awaits you on LAGO’s beautiful private beach. Enjoy daily activities including water sports and beach volleyball, or simply soak up the sun and sea.",
       "activities1":"Swimming & Lounging",
       "activities1Text":"all day round",
       "activities2":"Refresh at the Beach Bar",
@@ -1073,42 +1076,42 @@
       },
 
       "PoolSection":{
-        "subtitle":"Pools Designed for Every Moment",
+        "subtitle":"Pools for Every Moment",
         "title":"Float Into Relaxation",
-        "text":"Spend every moment of the day cooling off and relaxing in LAGO’s pools, thoughtfully designed for your different moods and needs. From joyful moments to peaceful relaxation corners, our pools offer every experience to make your vacation unforgettable."
+        "text":"Spend your days cooling off and relaxing in LAGO’s pools, designed thoughtfully for every mood and moment. Whether you seek joyful fun or peaceful relaxation, our pools promise experiences that make your vacation truly unforgettable."
       },
 
       "PoolList":{
-        "subtitle":"Dive Into Our Exclusive Pool Selection",
-        "title":"All Pools at a Glance",
-        "text":"Discover LAGO's distinctive pool options and add a refreshing touch to every moment of your vacation. Whether relaxing in a peaceful corner or energizing your day with fun activities, all our pools are designed to provide you with unforgettable experiences.",
-        "poolSubTitle1":"family-friendly pool for general use",
+        "subtitle":"Discover Our Exclusive Pool Collection",
+        "title":"Explore All Our Pools",
+        "text":"Discover LAGO’s unique pool options, designed to refresh and enhance every moment of your vacation. Whether you’re relaxing in tranquility or enjoying fun activities, our pools promise unforgettable experiences.",
+        "poolSubTitle1":"Main Pool – Fun for Everyone",
         "poolTitle1":"Main Pool",
-        "poolText1":" Our main pool, perfect for the entire family, is designed with a spacious area for a joyful and lively day.",
-        "poolSubTitle2":"peaceful environment for relaxation",
+        "poolText1":" Our spacious 2000 m² main pool is perfect for the entire family, designed to ensure a joyful and lively day.",
+        "poolSubTitle2":"Tranquil Environment for Relaxation",
         "poolTitle2":"Relax Pool",
-        "poolText2":" Offering a quiet and peaceful atmosphere, it's the ideal place for guests seeking relaxation.",
-        "poolSubTitle3":"adults-only (+16), tranquil atmosphere",
-        "poolTitle3":"Maldivas Pool",
-        "poolText3":" Adults-only (+16) pool providing a serene atmosphere for ultimate relaxation.",
-        "poolSubTitle4":"Scenic views for a serene floating experience",
-        "poolTitle4":"Infinity Poo Pool",
-        "poolText4":" With stunning views and unique design, it offers an exceptional swimming pleasure and relaxing moments.",
-        "poolSubTitle5":"ideal for recreational swimming",
-        "poolTitle5":"Maldivas Kids Pool",
-        "poolText5":" Specially designed pool providing a safe and fun swimming experience for children.",
-        "poolSubTitle6":"Adults-only (+16), tranquil atmosphere",
+        "poolText2":" Offering a quiet and peaceful atmosphere, our 900 m² Relax Pool is the ideal place for guests seeking relaxation.",
+        "poolSubTitle3":"Adults-Only (+16) Serenity Pool",
+        "poolTitle3":"Maldiva Pool",
+        "poolText3":" Adults-only (+16), 820 m² Maldiva Pool providing a serene atmosphere for ultimate relaxation.",
+        "poolSubTitle4":"Relax with Scenic Views",
+        "poolTitle4":"Infinity Pool",
+        "poolText4":" With stunning views and unique design, our 280 m² Infinity Pool offers exceptional relaxation.",
+        "poolSubTitle5":"Perfect for Leisurely Swimming",
+        "poolTitle5":"Maldiva Kids Pool",
+        "poolText5":" Specially designed 85 m² Maldiva Kids Pool provides a safe and fun swimming experience for children.",
+        "poolSubTitle6":"Serene and Relaxing Atmosphere",
         "poolTitle6":"Indoor Pools",
-        "poolText6":" Our indoor pools, available year-round, offer a peaceful retreat exclusively for adults (+16).",
-        "poolSubTitle7":"Ideal for Recreational Swimming",
-        "poolTitle7":"Aqua Pool",
-        "poolText7":" Enjoy your holiday in our aqua pool filled with exciting activities and vibrant moments.",
-        "poolSubTitle8":"Scenic Views for a Serene Floating Experience",
-        "poolTitle8":"Kids’ Aqua Park",
-        "poolText8":" Our specially designed aqua park for kids allows our little guests to safely have fun and create unforgettable memories.",
-        "poolSubTitle9":"Adults-only (+16), Tranquil Atmosphere",
-        "poolTitle9":"Mega Aqua Park",
-        "poolText9":" Our adults-only (+16) Mega Aqua Park offers thrilling slides, providing endless excitement and entertainment."
+        "poolText6":" Our heated indoor pools, available year-round, offer a peaceful and relaxing retreat.",
+        "poolSubTitle7":"Perfect for Fun and Adventure",
+        "poolTitle7":"Aquapark Pool",
+        "poolText7":" Enjoy your holiday at our Aquapark Pool, filled with exciting water slides and vibrant activities.",
+        "poolSubTitle8":"Water Fun & Smiles at Kids Aqua Park",
+        "poolTitle8":"Kids’ Aquapark Pool",
+        "poolText8":" Our Kids’ Aquapark Pool with 5 slides offers safe fun and unforgettable memories.",
+        "poolSubTitle9":"Fun & Excitement for Everyone!",
+        "poolTitle9":"Mega Aquapark Pool",
+        "poolText9":" Our Mega Aquapark Pool offers thrilling slides, providing endless excitement and entertainment for all ages."
         
       }
     },
@@ -1162,6 +1165,7 @@
 
        "SpaType":{
         "subtitle":"Working Hours: 9:00 - 20:00",
+        "buttonText":"MORE ABOUT",
         "title":"Indoor Pool",
         "text":" Enjoy year-round swimming in our indoor pool, available in every season. Refresh yourself in a comfortable and serene environment, and experience unforgettable moments in LAGO's stylish and modern atmosphere.",
         "subtitle2":"Experience Traditional Culture",
@@ -1171,24 +1175,24 @@
     },
 
     "SuperiorRoom":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":"Exclusive and Comfortable Stay",
       "title":"Superior Room",
-      "text1":"Forest / Sea View",
-      "text2":"1-4 Adults + 1-3 Children",
-      "text3":"2 Bedrooms / 4 Beds",
+      "text1":"Land / Sea View",
+      "text2":"1-3 Adults + 1-2 Children",
+      "text3":"1 Bedrooms / 2 Beds",
 
       "RoomInfo":{
-        "subtitle":"FUN FOR ALL AGES",
+        "subtitle":"Relax in Superior Comfort",
         "title":"Superior Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
-        "title2":" Family-friendly Amenities",
+        "text":"Located in the main building, our stylish Superior Rooms measure 30-32 m² and offer stunning sea or land views. Each room features one double bed, one single bed, a sofa, a balcony, LED TV with satellite channels, daily minibar replenishment, complimentary Wi-Fi, premium bathroom amenities, and tea-coffee facilities. Chip-key bracelet access ensures secure and easy entry. Maximum occupancy: 2 adults + 2 children or 3 adults.",
+        "title2":" Superior Room Amenities",
         "list1":" Independent Pool",
-        "list2":" 2 Single Beds",
+        "list2":" 1 Double Bed",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
-        "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "text2":" All Superior Rooms offer secure and convenient access through a chip-key bracelet system. Enjoy daily replenishment of your minibar, featuring refreshing beverages and snacks. Our rooms also provide premium bathroom amenities for your comfort, alongside complimentary tea and coffee facilities. Additionally, each room is equipped with LED TV offering national and international channels, a balcony to enjoy stunning sea or land views, and complimentary 24-hour Wi-Fi access to ensure a seamless stay.",
+        "madde1":"----",
+        "madde2":"30-32 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1223,44 +1227,44 @@
         "title":" Other Options",
         "subtitle1":" Room for All the Family Members",
         "title1":"Family Room",
-        "m1":"38-41 m²",
-        "capacity1":"2 Adults + 1 Child",
-        "text1":"Designed specifically for families, these rooms provide a spacious and comfortable stay, ensuring both adults and children have the perfect holiday experience. Enjoy modern amenities, cozy furnishings, and an inviting atmosphere.",
+        "m1":"50-55 m²",
+        "capacity1":"2 Adults + 2 Child",
+        "text1":"This Family Room in the main building (50-55 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
         "buttonText":" Learn More",
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
-        "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
+        "text2":" This stylish room type, located in the main building, is 40-43 m² and offers either land or sea views. It features one double bed and one single bed, along with a comfortable sofa or seating area. Both sea and land view rooms include direct pool access and a terrace, while sea-view Swim-up rooms additionally feature a private pool.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
-        "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
+        "text3":" Located in the main building, this elegant room type measures 30-32 m², offering land or sea views. Each room features one double bed, one single bed, and a comfortable sofa. Rooms also include a balcony, chip-key wristband access, daily replenished minibar, premium bathroom amenities, and a tea-coffee set."
       }
     },
 
     "FamilyRoom":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":"Exclusive and Comfortable Family Stay",
       "title":"Family Room",
-      "text1":"Forest / Sea View",
+      "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
-      "text3":"2 Bedrooms / 4 Beds",
+      "text3":"2 Bedrooms / 3 Beds",
 
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
-        "title2":" Family-friendly Amenities",
+        "text":"Located in our main building, Family Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
+        "title2":" Family Room Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
         "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
-        "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "madde1":"-----",
+        "madde2":"50-55 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1270,7 +1274,7 @@
         "madde9":" Tea & Coffee Setup",
         "madde10":"LED TV & WiFi",
         "madde11":"Balcony",
-        "madde12":"Shower"
+        "madde12":"Shower  "
       },
 
       "ReservationWidget":{
@@ -1302,13 +1306,13 @@
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
         "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
         "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
       }
@@ -1317,14 +1321,14 @@
     "SwimupRoom":{
       "subtitle":"exclusive stay with an INDEPENDENT pool",
       "title":"Swim-up Room",
-      "text1":"Forest / Sea View",
+      "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
       "text3":"2 Bedrooms / 4 Beds",
 
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Swim-up Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
+        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
         "title2":" Family-friendly Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
@@ -1382,37 +1386,37 @@
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
         "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
         "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
       }
     },
 
     "FamilySwimupRoom":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":"Exclusive Family Stay with Private Pool",
       "title":"Family Swim-up Room",
-      "text1":"Forest / Sea View",
+      "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
       "text3":"2 Bedrooms / 4 Beds",
 
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Swim-up Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
-        "title2":" Family-friendly Amenities",
+        "text":"Located in our main building, Family Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
+        "title2":" Family-Swimup Room Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
         "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
         "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "madde2":"50-55 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1463,13 +1467,13 @@
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
         "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
         "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
       }
@@ -1478,14 +1482,14 @@
     "DuplexFamilyRoom":{
       "subtitle":"exclusive stay with an INDEPENDENT pool",
       "title":"Duplex Family Room",
-      "text1":"Forest / Sea View",
+      "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
       "text3":"2 Bedrooms / 4 Beds",
 
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Duplex Family Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
+        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
         "title2":" Family-friendly Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
@@ -1523,6 +1527,16 @@
         "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
       },
 
+
+      "BackgroundSection":{
+        "subtitle":"EXCLUSIVE PRIVILEGES",
+        "title":"Duplex Family Room VIP Benefits",
+        "text1":"Guests staying in rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
+        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
+        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+      },
+
+
       "OtherOptions":{
         "span":" CHOOSE THE BEST ROOM FOR YOU",
         "title":" Other Options",
@@ -1535,13 +1549,13 @@
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
         "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
         "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
       }
@@ -1550,14 +1564,14 @@
     "TinyVilla":{
       "subtitle":"exclusive stay with an INDEPENDENT pool",
       "title":"Tiny Villa",
-      "text1":"Forest / Sea View",
+      "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
       "text3":"2 Bedrooms / 4 Beds",
 
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Tiny Villa",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or forest views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up Forest has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
+        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
         "title2":" Family-friendly Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
@@ -1581,7 +1595,7 @@
       "BackgroundSection":{
         "subtitle":"EXCLUSIVE PRIVILEGES",
         "title":"Tiny Villa Room VIP Benefits",
-        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
+        "text1":"Guests staying in rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
         "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
         "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
       },
@@ -1616,13 +1630,13 @@
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
         "title2":" Swim-Up Room",
-        "m2":"40-43 m2",
+        "m2":"40-43 m²",
         "capacity2":"2 Adults + 1 Child",
         "text2":" Enjoy direct pool access and refresh yourself at any moment, without leaving the comfort of your room. Swim-up rooms provide a luxurious and relaxing atmosphere, ensuring a truly exclusive vacation experience.",
 
         "subtitle3":"  COMFORT FOR A GOOD PRICE",
         "title3":"Superior Room",
-        "m3":" 30-32 m2",
+        "m3":" 30-32 m²",
         "capacity3":"2 Adults + 1 Child",
         "text3":" Spacious and elegantly designed, our Superior Rooms offer 30-32 m² of comfort, perfect for families or couples. Featuring modern amenities and stylish decor, these rooms provide a relaxing retreat with a balcony and a stunning view."
       }
@@ -1753,8 +1767,8 @@
       "title":"Unforgettable Memories",
       "text":" At Bamboo Kids Club, we offer age-appropriate activities, professional caregivers, and a secure environment, providing the perfect setting for your child to learn, play, and grow.",
       "span":"Opening Hours: 08:00 - 20:00",
-      "age1":" Mini Club",
-      "title1":" Ages 4-7",
+      "age1":"Ages 4-7",
+      "title1":"Mini Club",
       "description1":" A safe and cozy play area designed especially for our youngest guests. Perfect for exploring and having fun under parental supervision.",
       "age2":" Ages 8-12",
       "title2":"Junior Club",
@@ -1826,26 +1840,28 @@
       "text":" At LAGO Hotel, we offer a wide range of options to make your special occasions truly unforgettable. With our carefully curated services, we help you create lasting memories.",
       
       "subtitle1":"Special Occasions",
+      
+      "key1":"Honeymoon",
       "title1":"Honeymoon",
       "text1":" Celebrate your love at LAGO Hotel with romantic experiences designed exclusively for honeymoon couples. Create lifelong memories in a dreamlike atmosphere.",
 
-      "subtitle2":"Special Occasions",
+      "key2":"Proposal",
       "title2":"Proposal Setup",
       "text2":" Make your marriage proposal unforgettable with LAGO’s romantic setups. We handle every detail to create the perfect moment for you and your loved one.",
 
-      "subtitle3":"Special Occasions",
+      "key3":"Pavilion",
       "title3":"Pavilion Experience",
       "text3":"Enjoy an exclusive pavilion experience at LAGO. Spend your special day in privacy and luxury, complemented by impeccable service and breathtaking views.",
 
-      "subtitle4":"Special Occasions",
+      "key4":"Birthday",
       "title4":"Birthday Packages",
       "text4":" Celebrate your birthday in style with our personalized birthday packages. From decorations to special menus, we make your day truly memorable.",
       
-      "subtitle5":"Special Occasions",
+      "key5":"Wedding",
       "title5":"Wedding Services",
       "text5":"LAGO Hotel provides comprehensive wedding services, ensuring your special day is perfect in every way. Let our experienced team handle all the details.",
 
-      "subtitle6":"Special Occasions",
+      "key6":"Flower",
       "title6":"Custom Flower Orders",
       "text6":" Brighten your special occasions with customized flower arrangements by LAGO. We create unique floral designs tailored specifically to your wishes."
      },
@@ -1880,10 +1896,113 @@
       "text6":"Enhance your special occasions with customized floral arrangements. At LAGO, we carefully craft each bouquet to add beauty and elegance to your memorable moments."
      },
      
-     "ImageSection":{
-      "subtitle":" Crafting Timeless Memories at LAGO Hotel",
-      "title":"Celebrate Life’s Precious Moments",
-      "text":""
+     "TwoImageSection":{
+      "subtitle":"  Perfect Fine Dine Experiences",
+      "title":"Historical Treasures Nearby",
+      "text":"At LAGO, enjoy your vacation with exquisite international cuisine served in our à la carte restaurants, alongside an endless open buffet featuring delicious dishes unique to Turkish cuisine and fresh flavors reflecting the spirit of the Mediterranean."
      }
-   }
+   },
+
+   "About":{
+    "subtitle":" HAPPY MOMENTS, UNFORGETTABLE MEMORIES",
+    "title":"About Our Hotel",
+  
+  "InfoSection":{
+    "subtitle":"Hotel LAGO",
+    "title":"The Exact Place",
+    "text":" We offer you an unforgettable holiday experience in rooms designed to suit diverse tastes and needs, blending aesthetics with comfort through eye-catching designs and practical layouts. Our hotel also features heated indoor pools, separately designed for adults and children. Thanks to the hotel's unique location, most of our rooms offer breathtaking views of the sea and pool, as well as lake, river, or land landscapes.",
+    "buttonText":"MORE ABOUT"
+  },
+    "MissinonVision":{
+      "subtitle":"Hotel LAGO",
+      "title":"Our Mission & Vision",
+      "text":" Our mission is to offer unparalleled hospitality and to create unforgettable memories for our guests. We are committed to excellence in every aspect of your stay, from personalized services to sustainable practices. Our vision is to become a leader in the hospitality industry, renowned for delivering exceptional experiences while preserving the environment.",
+      "clubsubtitle1":"Hotel LAGO",
+      "clubtitle1":"Why Choose Lago Hotel?",
+      "clubtext1":" In addition, our hotel offers delightful meals prepared by professional chefs, unique bars with distinctive flavors, and restaurants featuring cuisines from around the world. Wake up to the calming sounds of nightingales and other birds, and enjoy our sparkling pool and crystal-clear sea. For your comfort, LAGO also provides a variety of amenities including a sauna, spa, fitness center, men's and women's hair salons, boutique, jewelry store, photographer's studio, game center, and shopping mall.",
+      "clubsubtitle2":"Hotel LAGO",
+      "clubtitle2":"a special vacation",
+      "clubtext2":" Our hotel is located just 50 meters from the lake and 300 meters from the river, offering excellent opportunities for walking, jogging, fishing, birdwatching of species from around the world, and experiencing nature up close. Additionally, we are conveniently situated only 4 km from Manavgat city center and 6 km from the beautiful Manavgat Waterfall. The ancient city of Side is just 9 km away, where you can explore historical attractions such as the Antique Amphitheater, the Temple of Apollo, the Side Museum, and the world's first sundial.Distances: Side City Center: 9 km Manavgat City Center: 4 km Antalya Airport: 63 km ",
+       "buttonText":"MORE ABOUT"
+    }
+  },
+
+  "BlogNews":{
+    "subtitle":"  Discover Your Perfect Getaway",
+    "title":"Latest News",
+
+    "InfoSection":{
+      "subtitle":" Perfect Fine Dine Experiences",
+      "title":"Lago Hotel News",
+      "text":"A world of unparalleled experiences where luxury meets comfort and every detail is meticulously crafted for your pleasure. From tranquil spa retreats and exquisite dining experiences to engaging activities and memorable celebrations, our hotel offers something extraordinary for everyone.",
+      "secsubtitle1":"Eco-Friendly Practices",
+      "sectitle1":"Sustainable Luxury",
+      "sectext1":" Step into the epitome of comfort and elegance with our luxurious rooms and suites. Each room is meticulously designed to cater to your every need, featuring modern amenities, stylish furnishings, and breathtaking views. Whether you choose a cozy standard room, a spacious family suite, or an opulent executive suite, you’ll find a sanctuary that feels like your home away from home.",
+      "secsubtitle2":"Pools & Beach",
+      "sectitle2":" A Splash of Fun",
+      "sectext2":"Immerse yourself in the beauty of crystal-clear waters at our pools, or relax on our serene private beach. With sun loungers, umbrellas, and attentive service, every moment transforms into a slice of paradise. Families can enjoy safe and fun water activities, while those seeking tranquility can unwind to the soothing sound of waves. "
+    },
+    "BlogList":{
+      "blogsubtitle1":" GASTRONOMY",
+      "blogtitle1":" Delicious Secrets of Mediterranean Cuisine",
+      "blogtext1":"   Discover unique Mediterranean flavors crafted by expert chefs at LAGO Hotel. Embark on an unforgettable culinary journey with healthy, fresh, and delightful recipes.",
+      "blogsubtitle2":" WELLNESS",
+      "blogtitle2":"Spa and Healthy Living",
+      "blogtext2":"   Revitalize your mind and body at LAGO Wellness Center. Add a healthy touch to your vacation with spa treatments, massages, and fitness activities.",
+      "blogsubtitle3":" FAMILY VACATION",
+      "blogtitle3":" A World of Fun for Your Kids",
+      "blogtext3":" LAGO Kids Club offers creative, fun, and educational activities for your children. Create unforgettable family memories together.",
+      "blogsubtitle4":"  TRAVEL & EXPLORATION",
+      "blogtitle4":" Discover Historical Wonders of Side",
+      "blogtext4":" Explore the fascinating atmosphere of ancient Side. Visit Apollo’s Temple, the Antique Theater, the Museum, and the world’s first sundial.",
+      "blogsubtitle5":" NATURE & ADVENTURE",
+      "blogtitle5":" A Day with Nature in Manavgat",
+      "blogtext5":" Experience tranquility around Manavgat Waterfall. Rediscover nature through birdwatching, fishing, and hiking activities.",
+      "blogsubtitle6":"  SPECIAL OCCASIONS",
+      "blogtitle6":" Lago Hotel for a Dream Honeymoon",
+      "blogtext6":" Experience the most romantic moments of your life with exclusive honeymoon arrangements at Lago Hotel, making your vacation truly unforgettable.",
+      "blogsubtitle7":" ENTERTAINMENT & ACTIVITIES",
+      "blogtitle7":" Endless Fun at Lago Hotel",
+      "blogtext7":" From daytime activities and beach events to spectacular night shows and themed parties, Lago Hotel promises fun-filled moments throughout your vacation.",
+      "blogsubtitle8":"  SUSTAINABLE TOURISM",
+      "blogtitle8":" An Eco-Friendly Vacation Experience",
+      "blogtext8":" Support sustainable tourism through Lago Hotel’s eco-friendly practices. Enjoy luxury holidays while contributing positively to environmental protection.",
+      "blogsubtitle9":"  TIPS & RECOMMENDATIONS",
+      "blogtitle9":" Tips to Make Your Vacation Perfect",
+      "blogtext9":" Discover practical tips and recommendations that will make your stay at Lago Hotel more enjoyable and comfortable, ensuring a flawless holiday.",
+      "buttonText":"MORE ABOUT"
+    }
+  },
+
+  "Contact":{
+    "subtitle":"LAGO HOTEL CONTACT",
+    "title": " Connect with Us",
+    "contact1":"Our Address:",
+    "contact2": " Phone Number",
+    "contact3":"Email Address",
+
+    "Form":{
+     "title":" Feel Free to Drop Us a Message",
+     "text":"Do you have anything in your brain to let us know? Kindly don't falter to connect to us through our contact form.",
+     "name": " Full Name",
+     "address":"Email Address",
+     "message":"Your Message",
+     "save":" Save my name, email, and website in this browser for the next time I comment.",
+     "send":"Send Message"
+    }
+  },
+
+  "Gallery":{
+    "subtitle":"Explore the hotel",
+    "title": "Lago Gallery",
+    "general":"General View",
+    "rooms":"Rooms",
+    "villa":"Villa",
+    "pool":"Pool & Beach",
+    "flavours":"Flavours",
+    "spa":"Spa & Wellness",
+    "kidsclub":"Kids Club",
+    "entertainment":"Entertainment"
+  }
+ 
   }

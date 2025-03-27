@@ -8,6 +8,8 @@ import ClinaryInfoSection from "@/app/[locale]/restaurants/components/ClinaryInf
 import img1 from "../Images/beach1.webp";
 import img2 from "../Images/beach2.webp";
 import {useTranslations} from 'next-intl';
+import Link from "next/link";
+import BeachClinary from "./BeachClinary";
 
 export default function Beach1() {
   const t = useTranslations('BeachPools');
@@ -115,13 +117,13 @@ export default function Beach1() {
         <p className=" text-center font-jost text-[14px] lg:text-[16px] leading-[24px] w-[46%]">
         {t("text")}
         </p>
-        <button className="uppercase text-sm font-medium font-marcellus text-[16px] lg:text-[18px] leading-[30px] underline underline-offset-4 mt-4">
+        <Link href="/beachpools#pools" className="uppercase text-sm font-medium font-marcellus text-[16px] lg:text-[18px] leading-[30px] underline underline-offset-4 mt-4 z-[999]">
         {t("buttonText")}
-        </button>
+        </Link>
 
         {/* ClinaryInfoSection – negatif margin-top ile dalga resminin üst kısmının görünmesine izin veriyoruz */}
         <div className="flex relative mt-10 lg:-mt-20 2xl:-mt-32 lg:pt-[220px] 2xl:pt-[320px] justify-center z-[20]">
-          <ClinaryInfoSection
+          <BeachClinary
             img1={img1}
             img2={img2}
             span={t2("subtitle")}

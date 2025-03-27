@@ -21,7 +21,6 @@ const KidsBamboo = () => {
     },
     {
       id: 2,
-      ageGroup: "8-12 yaş grubu",
       ageGroup: t("age2"),
       title: t("title2"),
       description:t("description2"),

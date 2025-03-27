@@ -71,6 +71,7 @@ const page = () => {
         link="/rooms/swimuproom" 
       />
       <RoomsSectionReverse
+       id="familyswimup"
         img={imgFamilySwim}
         img2={imgFamilySwim2}
         header={room4('title')}

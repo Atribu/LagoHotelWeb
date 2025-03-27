@@ -72,12 +72,12 @@ const page = () => {
 
   return (
     <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-      <RestaurantMainBanner img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
+      <RestaurantMainBanner span={t("subtitle")} header={t("title")} text={t("text")} img={mainImg}  />
       <SpaInfoSection img1={img1} img2={img2} texts={spaTextsInfo1} texts2={spaTextsInfo2} texts3={spaTextsInfo3}/> 
       <SpaHeaderSection span={t3("subtitle")} header={t3("title")} text={t3("text")}  images={galleryImages}/>
       <MassageCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} headers={massageHeaders} images={massageImages}/>
       <div className='flex flex-col gap-[40px] lg:gap-[50px]'>
-      <SpaTypesInfoSection span={t5("subtitle")} header={t5("title")} text={t5("text")} isImageLeft={true} showLink={false}  img={indoorImg}/>
+      <SpaTypesInfoSection span={t5("subtitle")} header={t5("title")} text={t5("text")} isImageLeft={true} showLink={false}  img={indoorImg} buttonText={t5("buttonText")}/>
       <SpaReverse isImageLeft={false} showLink={false} span={t5("subtitle2")} header={t5("title2")} text={t5("text2")} img={turkishImg}/>
       </div>
       <ContactSection2/>

@@ -35,7 +35,7 @@ const TwoAnimationImage = () => {
       className="flex w-screen h-auto md:h-[400px] lg:h-[555px] items-center justify-center max-w-[1440px] mt-[50px] md:mt-[100px] lg:mt-[150px] mb-[0px]"
     >
       <div className="flex flex-col md:flex-row-reverse w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[30px] md:gap-[42px] lg:gap-[52px] h-full">
-        <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[48.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
+        <div className="flex flex-col w-[96%] md:w-[55%] lg:w-[56.5%] items-center md:items-start justify-center text-center md:text-start gap-[15px] md:gap-[25px] text-black font-jost">
           <span className="text-[12px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
           {t('subtitle')}
           </span>
@@ -59,7 +59,7 @@ const TwoAnimationImage = () => {
           </Link>
         </div>
 
-        <div className="flex w-[65%] min-w-[310px] md:w-[50%] h-[327px] md:h-full lg:w-[48.8%] items-end justify-end relative  mt-[67px] md:mt-0">
+        <div className="flex w-[65%] min-w-[310px] md:w-[50%] h-[327px] md:h-full lg:w-[43.8%] items-end justify-end relative  mt-[67px] md:mt-0">
           <Image
             src={img2}
             alt="art"

@@ -7,62 +7,65 @@ import wedding from "../images/wedding.webp";
 import birthday from "../images/birthdayuzun.webp";
 import pavilion from "../images/pavilion.webp";
 import flowers from "../images/flowers.webp";
-
-const concepts = {
-  Honeymoon: {
-    title: "Honeymoon",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Egestas nunc lectus diam tincidunt enim molestie sit purus ullamcorper. Gravida urna ullamcorper velit vulputate habitasse urna gravida lacus. Turpis nullam enim morbi lorem pharetra adipiscing pharetra viverra.",
-    image: honeymoon,
-  },
-  Proposal: {
-    title: "Proposal",
-    description:
-      "Make your special proposal unforgettable with our romantic arrangements and breathtaking scenery.",
-    image: proposal,
-  },
-  Wedding: {
-    title: "Wedding",
-    description:
-      "Celebrate your dream wedding with our luxurious venues, top-class service, and exquisite details.",
-    image: wedding,
-  },
-  Birthday: {
-    title: "Birthday",
-    description:
-      "Make your birthday extra special with our tailored services and unforgettable celebrations.",
-    image: birthday,
-  },
-  Pavilion: {
-    title: "Pavilion",
-    description:
-      "Enjoy a private, luxurious pavilion experience with breathtaking views and personalized service.",
-    image: pavilion,
-  },
-  Flowers: {
-    title: "Flowers",
-    description:
-      "Enhance your special moments with our exquisite flower arrangements, tailored to your desires.",
-    image: flowers,
-  },
-};
+import {useTranslations} from 'next-intl';
 
 const SpecialTypesSection = () => {
-  const [selectedConcept, setSelectedConcept] = useState(concepts.Honeymoon);
+  const t = useTranslations('Special.InfoSection');
+  const concepts = {
+    [t("key1")]: {
+      title: t("title1"),
+      description:
+      t("text1"),
+      image: honeymoon,
+    },
+    [t("key2")]: {
+      title: t("title2"),
+      description:
+      t("text2"),
+      image: proposal,
+    },
+    [t("key3")]: {
+      title: t("title3"),
+      description:
+      t("text3"),
+      image: wedding,
+    },
+    [t("key4")]: {
+      title: t("title4"),
+      description:
+      t("text4"),
+      image: birthday,
+    },
+    [t("key5")]: {
+      title: t("title5"),
+      description:
+      t("text5"),
+      image: pavilion,
+    },
+    [t("key6")]: {
+      title: t("title6"),
+      description:
+      t("text6"),
+      image: flowers,
+    },
+  };
+
+  const conceptKeys = Object.keys(concepts);
+  const [selectedConcept, setSelectedConcept] = useState(concepts[conceptKeys[0]]);
+  
 
   return (
     <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
       {/* Başlık Alanı */}
       <div className="flex flex-col items-center justify-center text-center w-[89.79%%] md:w-[91.4%] lg:w-[76.8%] gap-[15px] md:gap-[25px] lg:gap-[35px]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase font-jost">
-          Special Occasions
+          {t("title")}
         </span>
         <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[57.6px] text-lagoBlack lg:capsizedText2 font-marcellus">
-          Our Exclusive Services
+        {t("subtitle")}
         </h3>
         <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] w-[90%] md:w-[55%] lg:w-[598px] lg:capsizedText4 font-jost">
-          At LAGO Hotel, we offer a wide range of options to make your special days truly unique. With our carefully
-          designed services, we help you create unforgettable memories.
+        {t("text")}
         </p>
       </div>
 
@@ -91,7 +94,7 @@ const SpecialTypesSection = () => {
         >
           <div className="flex h-full w-full md:w-[45%] items-center justify-center bg-[#2D2D26]/50">
             <div className="flex flex-col items-start justify-center w-[89.79%] ml-[6.1%] md:w-[80%] gap-[35px] text-white font-jost text-start">
-              <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">Special Occasions</span>
+              <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">{t("subtitle")}</span>
               <h2 className="text-[26px] lg:text-[30px] md:text-[44px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">{selectedConcept.title}</h2>
               <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] w-[90%] md:w-[80%] 2xl:w-[73%] lg:capsizedText4 lg:min-w-[443px]">{selectedConcept.description}</p>
             </div>

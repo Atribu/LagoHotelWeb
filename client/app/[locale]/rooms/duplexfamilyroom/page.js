@@ -20,15 +20,15 @@ import img9 from "./images/SRF_3259.jpg";
 import img10 from "./images/SRF_3265.jpg";
 import {useTranslations} from 'next-intl';
 
-const backgroundTexts=["Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.","A’la Carte Dining: One complimentary visit for stays of 7+ nights.","Pavilion Discount: Enjoy 15% off exclusive pavilion services."]
-
 const page = () => {
-  const t = useTranslations('TinyVilla');
-  const t2 = useTranslations('TinyVilla.RoomInfo');
-  const t3 = useTranslations('TinyVilla.RoomTour');
+  const t = useTranslations('DuplexFamilyRoom');
+  const t2 = useTranslations('DuplexFamilyRoom.RoomInfo');
+  const t3 = useTranslations('DuplexFamilyRoom.RoomTour');
+ const t4 = useTranslations('DuplexFamilyRoom.BackgroundSection');
 
   const subroomBannerText=[t("text1"),t("text2"),t("text3")]
   const iconTexts=[t2("list1"),t2("list2"),t2("list3")];
+  const backgroundTexts=[t4("text1"),t4("text2"),t4("text3")]
 
   const carouselImages = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10];
 
@@ -39,7 +39,7 @@ const page = () => {
      <SubroomCarousel images={carouselImages}/>
      </div>
       <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("title2")} header3={t2("title3")}  text2={t2("text2")} iconsTexts={iconTexts}  />
-       <BackgroundSection span="EXCLUSIVE PRIVILEGES" header="Villa Room VIP Benefits" texts={backgroundTexts} link="/" img={backgroundImg}/>
+       <BackgroundSection span={t4("subtitle")} header={t4("subtitle")} texts={backgroundTexts} link="/" img={backgroundImg}/>
        <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")} link="/"/>
       <OtherOptions/>
       <ContactSection2/>

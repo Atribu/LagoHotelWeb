@@ -23,7 +23,7 @@ const SubRoomBanner = ({img,span,header,texts=[]}) => {
                     <ForestSvg className="flex" width={35} height={36}/>
                     <SeaSvg className="flex" width={35} height={35}/>
                     </div>
-                    <p className='text-[14px] lg:text-[16px] font-medium leading-normal'>{texts[0]}</p>
+                    <p className='text-[14px] lg:text-[16px] font-medium leading-normal capitalize'>{texts[0]}</p>
                 </div>
             </div>
 

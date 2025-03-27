@@ -50,10 +50,13 @@ const ContactDetails = () => {
         </p>
         <div className="flex gap-[20px] whitespace-nowrap">
           <div className="flex items-center justify-center gap-[18px]">
-            <PiInstagramLogoLight size={28} />
+           <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.instagram.com/lagohotels/"> <PiInstagramLogoLight size={28} /></Link>
             {/* <PiMetaLogoLight size={30} /> */}
-            <PiFacebookLogoLight size={28} />
-            <PiYoutubeLogoLight size={28} />
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.facebook.com/lagohotels"><PiFacebookLogoLight size={28} /></Link>
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"><PiYoutubeLogoLight size={28} /></Link>
           </div>
           <div className="flex bg-black h-[20px] w-[1px] self-center"></div>
           <Link href="https://lagohotel.orsmod.com/" className="text-lagoBrown font-marcellus underline underline-offset-[6px] text-[16px] font-normal leading-[30px] uppercase">

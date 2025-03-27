@@ -1,14 +1,17 @@
 
 import React from 'react'
+import {useTranslations} from 'next-intl';
 
 const Connect3 = () => {
+  const t = useTranslations('Contact.Form');
+
   return (
     <div className="flex flex-col items-center w-full px-4 py-8">
       {/* Üst Çizgi kaldırıldı veya başka yerde kullanılabilir */}
 
       {/* Başlık */}
       <h2 className="text-[32px] lg:text-[40px] font-marcellus font-normal text-center mt-5 mb-5">
-        Address
+        {t("address")}
       </h2>
 
       {/* Yatay çizgi: Başlığın hemen altında */}

@@ -30,7 +30,7 @@ export default function HomePage5() {
       </p>
 
       
-        <Link href="/about" className="text-[14px] md:text-[16px] font-normal leading-[30px] font-marcellus uppercase border-b border-lagoBlack text-center w-auto items-center justify-center">
+        <Link href="/beachpools" className="text-[14px] md:text-[16px] font-normal leading-[30px] font-marcellus uppercase border-b border-lagoBlack text-center w-auto items-center justify-center">
         {t('discovermore')}
         </Link>
     

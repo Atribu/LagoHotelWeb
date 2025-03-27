@@ -15,77 +15,81 @@ import new8 from "./images/news8.webp"
 import new9 from "./images/news9.webp"
 import Beach5 from '../beachpools/Components/Beach5'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
+import {useTranslations} from 'next-intl';
+
+const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/spor", "/special","/restaurants", "/restaurants","/restaurants"]
+
+const page = () => {
+  const t = useTranslations('BlogNews');
+  const t2 = useTranslations('BlogNews.InfoSection');
+  const t3 = useTranslations('BlogNews.BlogList');
+
+const texts=[t2("subtitle"),t2("title"),t2("text")]
+const texts2=[t2("secsubtitle1"),t2("sectitle1"),t2("sectext1")]
+const texts3=[t2("secsubtitle2"),t2("sectitle2"),t2("sectext2")]
 
 const newsItems = [
   {
     src: new1,
-    subtitle: "Lago’s Lobby Bars",
-    title: "Lobby Bars & Cafes",
-    description: "Lorem ipsum dolor sit amet consectetur. Porta est ultricies in habitant. Pharetra arcu elit pellentesque ornare cursus leo pharetra sit sed. Ut ornare est mus eu nisl donec quam."
+    subtitle:t3("blogsubtitle1"),
+    title: t3("blogtitle1"),
+    description: t3("blogtext1"),
   },
   {
     src: new2,
-    subtitle: "Spa & Wellness",
-    title: "Relaxation Retreat",
-    description: "Lorem ipsum dolor sit amet consectetur. Egestas sollicitudin blandit est amet gravida integer. Mi feugiat fringilla morbi habitant nunc eu. Aliquam leo morbi nunc "
+    subtitle:t3("blogsubtitle2"),
+    title: t3("blogtitle2"),
+    description: t3("blogtext2"),
   },
   {
     src: new3,
-    subtitle: "Kids Club",
-    title: "Little Ones",
-    description: "Our Kids Club is designed to be a safe haven of fun and creativity for your little ones. From interactive games to engaging workshops, children of all ages can explore, ..."
+    subtitle:t3("blogsubtitle3"),
+    title: t3("blogtitle3"),
+    description: t3("blogtext3"),
   },
   {
     src: new4,
-    subtitle: "Honeymoon Packages",
-    title: "Romance Redifined",
-    description: "Celebrate love with our exclusive honeymoon packages. Romantic surprises and luxurious services make your stay truly unforgettable... "
+    subtitle:t3("blogsubtitle4"),
+    title: t3("blogtitle4"),
+    description: t3("blogtext4"),
   },
   {
     src: new5,
-    subtitle: "Fitness & Activities",
-    title: "Active & Healthy",
-    description: "Stay fit and energized during your stay with our modern gym facilities and a variety of outdoor activities designed to keep you active."
+    subtitle:t3("blogsubtitle5"),
+    title: t3("blogtitle5"),
+    description: t3("blogtext5"),
   },
   {
     src: new6,
-    subtitle: "Local Tours",
-    title: "Beauty Around",
-    description: "Discover the beauty of the surrounding area with our guided local tours. From historical landmarks to natural wonders, explore it all...."
+    subtitle:t3("blogsubtitle6"),
+    title: t3("blogtitle6"),
+    description: t3("blogtext6"),
   },
   {
     src: new7,
-    subtitle: "Perfect Fine Dine Experiences",
-    title: "Piano Bar",
-    description: "Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the ..."
+    subtitle:t3("blogsubtitle7"),
+    title: t3("blogtitle7"),
+    description: t3("blogtext7"),
   },
   {
     src: new8,
-    subtitle: "Perfect Fine Dine Experiences",
-    title: "Patisserie Abella",
-    description: "Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of ..."
+    subtitle:t3("blogsubtitle8"),
+    title: t3("blogtitle8"),
+    description: t3("blogtext8"),
   },
   {
     src: new9,
-    subtitle: "Perfect Fine Dine Experiences",
-    title: "Cafe de Lago",
-    description: "Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte .... "
+    subtitle:t3("blogsubtitle9"),
+    title: t3("blogtitle9"),
+    description: t3("blogtext9"),
   },
 ]
 
-const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/spor", "/special","/restaurants", "/restaurants","/restaurants"]
-
-const texts=["Perfect Fine Dine Experiences","Lago Hotel News","A world of unparalleled experiences where luxury meets comfort and every detail is crafted for your delight. From serene spa retreats and exquisite dining options to fun-filled activities and unforgettable celebrations, our hotel offers something special for everyone."]
-const texts2=["Eco-Friendly Practices","Sustainable luxury","Step into the epitome of comfort and elegance with our luxurious rooms and suites. Each room is meticulously designed to cater to your every need, featuring modern amenities, stylish furnishings, and breathtaking views. Whether you choose a cozy standard room, a spacious family suite, or an opulent executive suite, you’ll find a sanctuary that feels like ."]
-const texts3=["Pools & Beach","A Splash of Fun","Immerse yourself in the beauty of crystal-clear waters at our pools or enjoy the serenity of our private beach. With sun loungers, umbrellas, and attentive service, every moment becomes a slice of paradise. Families can enjoy safe and fun water activities, while those seeking solitude can relax to the soothing sound of waves."]
-
-
-const page = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
-     <MainBanner2 img={mainImg} span="Discover Your Perfect Getaway" header="Latest News"/> 
-     <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/"/>
-     <Beach5 span="" header="" text="" poolItems={newsItems} showLink={true} links={newsLinks}/>
+     <MainBanner2 img={mainImg} span={t("subtitle")} header={t ("title")}/> 
+     <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/" buttonText={t3("buttonText")}/>
+     <Beach5 span="" header="" text="" poolItems={newsItems} showLink={true} links={newsLinks} buttonText={t3("buttonText")}/>
      <ContactSection2/>
     </div>
   )

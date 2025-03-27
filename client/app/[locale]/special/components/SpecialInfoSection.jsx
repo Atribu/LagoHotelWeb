@@ -5,8 +5,10 @@ import img2 from "../images/ikili2.webp"
 import katman1 from "../images/Katman1.png"
 import katman2 from "../images/Katman2.png"
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 const SpecialInfoSection = () => {
+  const t = useTranslations('Special.TwoImageSection');
   const [animate, setAnimate] = useState(false);
   const sectionRef = useRef(null); 
 
@@ -35,14 +37,13 @@ const SpecialInfoSection = () => {
       <div className="flex flex-col md:flex-row w-[89.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-between h-full gap-[125px] lg:gap-[130px] md:gap-[4%]">
         <div className="flex flex-col w-[100%] md:w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
-          Perfect Fine Dine Experiences
+        {t("subtitle")}
           </span>
           <h2 className="text-[28px] md:text-[32px] lg:text-[48.089px] font-normal font-marcellus leading-[120%] lg:leading-[57.707px]">
-          Historical 
-          Treasures Nearby
+          {t("title")}
           </h2>
           <p className="text-[14px] lg:text-[16.03px] font-normal leading-[24.045px] leading-trim-both text-edge-cap">
-          Lago, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet where delicious dishes feature uniqueness from Turkish cuisine as well as fresh flavors reflecting the spirit of the Mediterranean
+          {t("text")}
           </p>
             
         </div>

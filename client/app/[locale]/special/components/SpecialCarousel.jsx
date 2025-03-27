@@ -5,10 +5,13 @@ import Image from "next/image";
 import img1 from "../images/pool.webp";
 import img2 from "../images/kadeh.webp";
 import img3 from "../images/horse.webp";
+import {useTranslations} from 'next-intl';
 
 const images = [img1, img2, img3];
 
 const SpecialCarousel = () => {
+  const t = useTranslations('Special');
+
   const [emblaRef, emblaApi] = useCarousel({
     loop: true,
     align: "center",
@@ -60,7 +63,7 @@ const SpecialCarousel = () => {
 
           <div className="bg-black/35 absolute inset-0"></div>
           <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[28px] md:text-[30px] lg:text-[48px] text-white font-marcellus font-normal leading-normal tracking-[0.48px] text-center w-[89.79%] md:w-[91.4%] lg:w-[25%]">
-            A Paradise in the Heart of the Mediterranean
+          {t("gallerytitle")}
           </p>
         </div>
       </div>
