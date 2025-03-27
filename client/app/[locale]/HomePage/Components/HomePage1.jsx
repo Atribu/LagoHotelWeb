@@ -1,5 +1,6 @@
 import React from 'react'
 import {useTranslations} from 'next-intl';
+import Link from 'next/link';
 
 export default function HomePage1() {
   const t = useTranslations('HomePage');
@@ -16,9 +17,9 @@ export default function HomePage1() {
       <p className=' text-center text-[14px] md:text-[16px] font-normal leading-[20.8px] lg:leading-[24px] md:max-w-[490px] lg:max-w-[736px]'>
       {t('text')}
       </p>
-      <button className='hidden lg:flex underline underline-offset-[6px] text-lagoBrown text-[16px] font-normal uppercase leading-[30px] font-marcellus'>
+      <Link href="/entertainment" className='hidden lg:flex underline underline-offset-[6px] text-lagoBrown text-[16px] font-normal uppercase leading-[30px] font-marcellus'>
       {t('discovermore')}
-      </button>
+      </Link>
 
       </div>
       

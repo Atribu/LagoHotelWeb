@@ -8,54 +8,57 @@ import marriage from "../images/marriage1.webp"
 import wedding from "../images/wedding1.webp"
 import flower from "../images/flower1.webp"
 import birthday from "../images/birthday1.webp"
+import {useTranslations} from 'next-intl';
 
-// Kartları tutan dinamik veri dizisi
+const SpecialGridSection = () => {
+  const t = useTranslations('Special.HoverSection');
+
+  // Kartları tutan dinamik veri dizisi
 const gridData = [
   {
-    title: "Honeymoon Concept",
-    span: "Special Occasions",
+    title: t("title1"),
+    span: t("subtitle1"),
     description:
-      "Bamboo Kids Club, age-appropriate activities, professional caregivers, and a secure environment, we provide the perfect setting for your child to learn, play, and grow.",
+    t("text1"),
     image: honeymoon,
   },
   {
-    title: "Pavilion Experience",
-    span: "Special Occasions",
+    title: t("title2"),
+    span: t("subtitle2"),
     description:
-      "A special place for teens to have fun, meet new friends, and enjoy various entertainment activities in a safe environment.",
+    t("text2"),
     image: pavilion,
   },
   {
-    title: "Marriage Proposal",
-    span: "Special Occasions",
+    title: t("title3"),
+    span: t("subtitle3"),
     description:
-      "Teenagers can enjoy a space designed just for them with interactive activities, gaming zones, and chill-out areas.",
+    t("text3"),
     image: marriage,
   },
   {
-    title: "Wedding Services",
-    span: "Special Occasions",
+    title: t("title4"),
+    span: t("subtitle4"),
     description:
-      "Teenagers can enjoy a space designed just for them with interactive activities, gaming zones, and chill-out areas.",
+    t("text4"),
     image: wedding,
   },
   {
-    title: "Flower Orders",
-    span: "Special Occasions",
+    title: t("title5"),
+    span: t("subtitle5"),
     description:
-      "Teenagers can enjoy a space designed just for them with interactive activities, gaming zones, and chill-out areas.",
+    t("text5"),
     image: flower,
   },
   {
-    title: "Birthday Packages",
-    span: "Special Occasions",
+    title: t("title6"),
+    span: t("subtitle6"),
     description:
-      "Teenagers can enjoy a space designed just for them with interactive activities, gaming zones, and chill-out areas.",
+    t("text6"),
     image: birthday,
   },
 ];
 
-const SpecialGridSection = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
@@ -85,14 +88,13 @@ const SpecialGridSection = () => {
         {/* Başlık Alanı */}
         <div className="flex flex-col w-full md:w-[70%] items-center justify-center text-center text-black font-jost gap-[15px] md:gap-[25px] lg:gap-[34px]">
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-            Crafting Timeless Memories at LAGO Hotel
+          {t("subtitle")}
           </span>
           <h3 className="text-[28px] lg:text-[36px] font-normal font-marcellus capitalize leading-[120%] lg:leading-[57.6px] lg:capsizedText3">
-            Celebrate Life’s Precious Moments
+          {t("title")}
           </h3>
           <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] lg:capsizedText4 lg:max-w-[527px]">
-            At LAGO Hotel, we specialize in turning life’s milestones into extraordinary experiences. From personalized
-            services to tailored celebrations, every detail is crafted to perfection for a memory that lasts forever.
+          {t("text")}
           </p>
         </div>
 

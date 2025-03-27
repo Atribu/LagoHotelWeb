@@ -23,12 +23,14 @@
     "family": "Aile Odası",
     "swimup": "Swim-up Odası",
     "familyswimup": "Aile Swim-up Odası",
-    "duplex": "Dubleks Aile Odası"
+    "duplex": "Dubleks Aile Odası",
+    "tinyvilla":"Tiny Villa",
+    "letuscallyou":"Sizi Arayalım"
 
 },
 
 "Reservation":{
-  "text":"Mükemmel konaklamanızı rezerve edin",
+  "text":"Hayalinizdeki Tatili Şimdiden Ayırtın!",
   "checkin":"Giriş",
   "checkout":"Çıkış",
   "guests":"Misafirler",
@@ -37,9 +39,9 @@
 },
 
   "HomePage": {
-    "subtitle": "Konfor, kalite, sınırsız ve kusursuz hizmet",
+    "subtitle": "Konfor, kalite ve eşsiz bir hizmet deneyimi sizi bekliyor.",
     "title":"Lago Hotel'e hoş geldiniz",
-    "text": " Sizi konfor ve zarafetin buluştuğu LAGO'da keyifli bir tatile davet ediyoruz. Her zevke ve ihtiyaca uygun odalarımız, göz alıcı tasarımları ve fonksiyonel yapılarıyla evinizin rahatlığını sunuyor. Farklı havuzlarımızda serinleyerek LAGO'nun derin mavi dünyasını keşfedin; burada her şey mümkün.",
+    "text": " Farklı zevk ve ihtiyaçlara uygun tasarlanan odalarımızda konfor ve şıklığı buluşturan, evinizin rahatlığını yaşatan eşsiz bir tatil deneyimi sunuyoruz. LAGO’nun masmavi dünyasında, farklı büyüklüklerdeki havuzlarımızda serinlemenin tadını çıkarın. LAGO’ya gelin, burada her şey mümkün.",
     "discovermore":"DAHA FAZLASINI KEŞFET",
 
     "EmblaCarousel":{
@@ -51,29 +53,29 @@
     },
 
     "TwoAnimationSection":{
-    "subtitle":" Mükemmel Gurme Deneyimleri",
-    "title":"Yeşil ile mavinin buluştuğu yer",
-    "text": "  En büyüleyici mavi tonların kumları üzerinde yer alan 350 m uzunluğundaki altın sarısı plajıyla LAGO, size unutulmaz bir tatil sunacak.",
-    "text2":"LAGO'nun derin mavi dünyasında, farklı boyutlardaki havuzlarda serinlemenin tadını çıkarın. Tesiste ısıtmalı bir kapalı yüzme havuzu bulunmaktadır ve açık yüzme havuzunun bulunduğu alanda ayrıca ısıtmalı bir relax havuzu da yer almaktadır.",
+    "subtitle":"Mavinin ve Yeşilin Huzuru",
+    "title":"Kendinizi LAGO’nun Büyüsüne Bırakın",
+    "text": " Altın rengi kumsallar ve derin mavilikleriyle LAGO, doğanın ve lüksün eşsiz uyumunu sizlerle buluşturuyor.",
+    "text2":"Farklı boyutlardaki havuzlarımızda serinleyip, yeşilin huzur veren atmosferinde kendinizi yenileyin. Isıtmalı kapalı yüzme havuzu, açık yüzme havuzu ve relax havuzuyla LAGO’da her mevsim tatiliniz unutulmaz olacak.",
     "buttonText":"Galeriye Git"
     },
 
     "Accommodation":{
-      "subtitle":" Konaklama türünüzü seçin",
+      "subtitle":"Hayalinizdeki Konaklamayı Seçin",
       "title":" Lüks Konaklama Deneyimi",
       "roomname1":"Aile Swim-up Oda",
       "roomname2":" Swim Up Oda",
       "roomname3":"Superior Room",
-      "roomtext1":"Ana binada bulunan, kara veya deniz manzarasına sahip bu geniş oda tipi 50-55 m² büyüklüğündedir. Birbirine bağlantılı 2 ayrı yatak odasından oluşur; bir çift kişilik yatak (2 yetişkin için), iki yetişkin için açılabilir lüks bir kanepe, banyo ve oturma alanı bulunur.",
-      "roomtext2":"Ana binada bulunan, kara veya deniz manzaralı bu şık oda tipi 40-43 m² büyüklüğündedir. Bir çift kişilik yatak, bir tek kişilik yatak ve ek olarak kanepe veya oturma alanına sahiptir. Deniz ve orman manzaralı odalar havuz erişimi ve terasa sahiptir. Deniz manzaralı Swim-up odalar ise özel havuz sunar.",
-      "roomtext3":"Ana binada yer alan bu şık oda tipi 30-32 m²’dir. Bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir kanepeye sahiptir. Balkonlu odalarda çipli bileklik erişimi, günlük yenilenen minibar, kaliteli banyo ürünleri ve çay-kahve seti sunulur.",
+      "roomtext1":"Ana binamızda bulunan, kara veya deniz manzarasına sahip geniş Family Swim-Up odalarımız 50-55 m² büyüklüğündedir. Birbirine bağlantılı iki ayrı yatak odasına sahip olan bu odalarda; bir adet çift kişilik yatak (2 yetişkin), iki kişilik yatağa dönüşebilen lüks koltuk (2 yetişkin), bir banyo ve konforlu bir oturma alanı bulunmaktadır. Ayrıca odaların özel terasından havuza doğrudan erişim imkânıyla benzersiz bir swim-up deneyimi sunulmaktadır.",
+      "roomtext2":"Ana binada bulunan bu şık oda tipi, 40-43 m² büyüklüğünde olup kara veya deniz manzarası sunmaktadır. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir oturma alanı veya sofa mevcuttur. Hem deniz hem de orman manzaralı odalar havuza erişim imkânı ve terasa sahipken, deniz manzaralı Swim-up odalar ayrıca özel bir havuz sunmaktadır.",
+      "roomtext3":"Ana binada bulunan bu zarif oda tipi 30-32 m² büyüklüğünde olup, deniz veya orman manzarası seçeneklerine sahiptir. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir sofa bulunmaktadır. Ayrıca odalarda balkon, çipli bileklikle giriş sistemi, günlük yenilenen minibar, zengin banyo ürünleri ve çay-kahve seti yer almaktadır.",
       "m1":"50-55 m²",
       "view1":"Kara / Deniz Manzarası",
       "buttonText1":"Keşfedin",
       "m2":"40-43 m²",
       "view2":"Kara / Deniz Manzarası",
       "buttonText2":"Keşfedin",
-      "m3":"30-32 m2",
+      "m3":"30-32 m²",
       "view3":"Kara / Deniz Manzarası",
       "buttonText3":"Keşfedin"
     },
@@ -83,25 +85,25 @@
       "title":"  Konforlu Bir Konaklama İçin Tüm Gerekli Malzemeler",
 
       "title1":" Özel Plaj ve Pavilion",
-      "text1":"   70 metrelik özel plajımızda rahatlayın veya özel kulübeleri, güneşlenme alanları ve rahat şezlonglarıyla 200 metrelik özel iskelede keyfinize bakın.",
-      "title2":" Her Ruh Haline Uygun Havuzlar",
-      "text2":"   Açık ve ısıtmalı kapalı havuzlarımızın yanı sıra 4 kaydıraklı bir Aqua Park ve kaydıraklı çocuk havuzlarının keyfini çıkarın.",
-      "title3":" Dünya Standartlarında Yemek Deneyimi",
-      "text3":"  Türk, Akdeniz ve uluslararası mutfağın sunulduğu ultra her şey dahil büfelerin ve A la Carte restoranların keyfini çıkarın.",
-      "title4":" Çocuklar İçin Eğlence",
-      "text4":"  Mini Kulüp (4-12 yaş), oyun alanları, oyun odaları, mini diskolar ve restoranda çocuklar için büfe sunmaktadır.",
+      "text1":"   350 metrelik özel plajımızda dinlenebilir veya özel localar ve konforlu şezlonglarla donatılmış iskelemizin keyfini çıkarabilirsiniz.",
+      "title2":" Her Anınıza Özel Havuzlar",
+      "text2":" Açık ve ısıtmalı kapalı havuzlarımız, 9 kaydıraklı Aqua Park ve çocuklara özel 5 kaydıraklı havuzlarımızın keyfini çıkarın.",
+      "title3":" Üstün Lezzet Deneyimleri",
+      "text3":"  Ultra her şey dahil açık büfelerimiz ile Türk ve dünya mutfaklarından lezzetler sunan A la Carte restoranlarımızın keyfini çıkarın.",
+      "title4":" Çocukların Eğlence Dünyası",
+      "text4":"  4-12 yaş için Bamboo Kids Club; oyun alanları, aktivite odaları ve Magna Kids Restoran’da çocuk büfesi sunmaktadır.",
       "title5":" Eğlence ve Aktiviteler",
-      "text5":"   Canlı gösteriler ve sporlardan havuz oyunları ve plaj eğlencesine kadar herkes için bir şeyler var. Masa tenisi ve voleybol deneyin.",
+      "text5":"   Canlı şovlardan havuz oyunlarına ve plaj eğlencelerine kadar herkes için bir şey var. Masa tenisi ve voleybolun tadını çıkarın!",
       "title6":"Spa & Wellness",
-      "text6":"   Hamam, sauna, buhar odası ve masajlarla Symphony Spa'da rahatlayın. Ayrıca bir fitness merkezi de mevcuttur.",
+      "text6":"   Spa hizmetlerimiz ile hamam, sauna, buhar odası ve masajın keyfini çıkarın. Ayrıca fitness salonumuz da hizmetinizdedir.",
       "buttonText":"DAHA FAZLASINI KEŞFET"
       
     },
 
     "Banner":{
-      "subtitle":" EŞSİZ BİR LEZZET ŞÖLENİ",
-      "title":"  Yeşil ile Mavinin Buluştuğu Yer",
-      "text":"  LAGO Hotels'te doğanın büyüsü ve lezzetin uyumu bir arada! Yeşilin ve mavinin buluştuğu bu cennet köşesinde, unutulmaz bir tatil deneyimi sizi bekliyor.",
+      "subtitle":" AKDENİZ’İN MAVİSİNE AÇILAN KAPI",
+      "title":"Mavi ve Yeşilin Kalbinde Unutulmaz Bir Tatil",
+      "text":" LAGO Hotels’in ayrıcalıklı dünyasında doğanın ve denizin büyüsüne kapılın. Yemyeşil doğa, uçsuz bucaksız deniz manzarası ve kusursuz hizmetimiz ile sizlere unutulmaz bir tatil sunuyoruz.",
       "discovermore":"DAHA FAZLASINI KEŞFET"
     }
   },
@@ -142,58 +144,58 @@
 
     "Accommodation":{
       "header":" Oda Türleri",
-      "buttonText1":"Superior Oda",
+      "buttonText1":"Superıor Oda",
       "buttonText2":"Aile Odası",
-      "buttonText3":" Havuz Erişimli  Oda",
-  "buttonText4": "Aile Swim-up Odası",
+      "buttonText3":" swım-up  Oda",
+  "buttonText4": "Aile Swım-up Odası",
   "buttonText5": "Dubleks Aile Odası",
-  "buttonText6": "Tiny Villa",
-      "subtitle":"  Sizin ve aileniz için konforlu bir konaklama",
-      "title":"Zarif konaklama seçeneklerimizi keşfedin ve konaklamanız için mükemmel alanı bulun.",
-      "text":" Lago Hotel'de deniz veya orman manzaralı odalarımızla konforlu bir konaklama sunuyoruz. Swim-up odalar, aile suitleri ve özel villalarımızla her ihtiyaca uygun seçenekler bulabilirsiniz. Modern tasarımlı odalarımızda rahatlık ve lüks bir arada. Unutulmaz bir tatil için doğru adrestesiniz!",
+  "buttonText6": "Tıny Villa",
+      "subtitle":"  Sizin ve Aileniz İçin Konforlu Bir Konaklama",
+      "title":"Şık konaklama seçeneklerimizi keşfedin ve size en uygun ortamı bulun.",
+      "text":" Lago Hotel’de deniz veya orman manzaralı konforlu odalar sunuyoruz. Her ihtiyaca hitap eden şık Swim-up odalar ve geniş Aile Suitleri arasından seçim yapabilirsiniz. Modern tasarımı lüks konforla buluşturan Lago Hotel, unutulmaz bir tatil için doğru adres.",
       "checkin":"CHECK-IN: 14:00",
       "checkout":"CHECK-OUT: 12:00",
       
       "RoomSection1":{
         "title":"Süperior Oda",
-        "subtitle":"  Bu oda tipi, deniz veya orman manzaralı olup 30 - 32 m² büyüklüğündedir ve ana binada yer almaktadır. Odada 1 çift kişilik yatak, 1 tek kişilik yatak ve 1 kanepe bulunmaktadır. Balkonu mevcuttur. Maksimum kapasite: 3 yetişkin + 1 çocuk.",
-        "m":"Kara/Deniz Manzarası",
-        "view":"Land/Sea View",
+        "subtitle":" Ana binada bulunan bu zarif oda tipi 30-32 m² büyüklüğünde olup, deniz veya orman manzarası seçeneklerine sahiptir. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir sofa bulunmaktadır. Ayrıca odalarda balkon, çipli bileklikle giriş sistemi, günlük yenilenen minibar, zengin banyo ürünleri ve çay-kahve seti yer almaktadır.",
+        "m":"30-32 m²",
+        "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
       "RoomSection2":{
         "title":"Aile Odası",
-        "subtitle":"  Ana binada bulunan bu Aile Odası, iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ara kapı, bir banyo ve balkondan oluşmaktadır. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
-        "m":"40-43 m2",
+        "subtitle":"  Ana binada bulunan Aile Odası (50-55 m²), ara kapılı iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ortak banyo ve balkona sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"50-55 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
       "RoomSection3":{
         "title":"Swim-up Oda",
-        "subtitle":"  Swim-up Odalar, bir kanepe veya oturma alanı, havuz ve teras içermektedir. Orman manzaralı odalar paylaşımlı havuza erişim sunarken, deniz manzaralı odalar özel havuza sahiptir. Maksimum kapasite: 2 yetişkin + 2 çocuk veya 3 yetişkin + 1 çocuk.",
-        "m":"40-43 m2",
+        "subtitle":"  Ana binada bulunan bu şık oda tipi, 40-43 m² büyüklüğünde olup kara veya deniz manzarası sunmaktadır. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir oturma alanı veya sofa mevcuttur. Hem deniz hem de orman manzaralı odalar havuza erişim imkânı ve terasa sahipken, deniz manzaralı Swim-up odalar ayrıca özel bir havuz sunmaktadır.",
+        "m":"40-43 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
       "RoomSection4":{
         "title":"Aile Swim-up Odası",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
-        "view":"Land/Sea View",
+        "subtitle":" Ana binamızda bulunan, kara veya deniz manzarasına sahip geniş Family Swim-Up odalarımız 50-55 m² büyüklüğündedir. Birbirine bağlantılı iki ayrı yatak odasına sahip olan bu odalarda; bir adet çift kişilik yatak (2 yetişkin), iki kişilik yatağa dönüşebilen lüks koltuk (2 yetişkin), bir banyo ve konforlu bir oturma alanı bulunmaktadır. Ayrıca odaların özel terasından havuza doğrudan erişim imkânıyla benzersiz bir swim-up deneyimi sunulmaktadır.",
+        "m":"50-55 m²",
+        "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
       "RoomSection5":{
         "title":"Dubleks Aile Odası",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
-        "view":"Land/Sea View",
+        "subtitle":" 70-80 m² büyüklüğündeki Dublex Aile Odası iki katlıdır. Alt katta iki tek kişilik yatak, bir sofa, banyo ve balkon; üst katta ise bir çift kişilik yatak, ayrı banyo ve balkon bulunur. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"70-80 m²",
+        "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
        "RoomSection6":{
         "title":"Tiny Villa",
-        "subtitle":" This room type with sea or forest view is 30 - 32 m2 and is located in the main building. The room has 1 double bed, 1 single bed and 1 sofa and has a balcony. Max capacity: 3 adults + 1 child.",
-        "m":"30-32 m2",
-        "view":"Land/Sea View",
+        "subtitle":" Bahçe içerisinde bulunan Tiny Villa (90 m²), ara kapılı iki yatak odası (1 çift kişilik yatak, 2 tek kişilik yatak), iki banyo ve terasa sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"90 m²",
+        "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       }
 
@@ -202,17 +204,17 @@
 
 
     "RoomsParallax":{
-      "subtitle":"  Oda İçi Temel Olanaklar",
-      "title":"  Odalarımız, konaklamanız için ihtiyacınız olan tüm temel olanaklara sahiptir.",
-      "text":"  Tüm temel olanaklarınız elinizin altında olacak şekilde sorunsuz bir konaklama deneyimi yaşayın. Günlük minibar yenilemelerinden premium banyo ürünlerine, güvenli oda erişimine ve kesintisiz eğlence için LED TV ve 24 saat WiFi'ye kadar, her an konforunuzu sağlıyoruz.",
+      "subtitle":"  Odada Sunulan Temel Olanaklar",
+      "title":" Odalarımız konforlu bir konaklama için tüm temel olanakları sunar.",
+      "text":"  İhtiyacınız olan tüm temel olanaklarla sorunsuz bir konaklamanın tadını çıkarın. Günlük yenilenen minibar, özel banyo ürünleri, güvenli oda erişimi, LED TV ve 24 saat Wi-Fi hizmetiyle her anınızda konforunuzu garanti ediyoruz.",
       "feature1":"Mini Bar",
-      "desc1":" Günlük yenilemeler su, alkolsüz içecekler, bira, meyveli süt, çikolata ve kraker içermektedir.",
+      "desc1":" Günlük yenilenen minibar içeriğinde su, alkolsüz içecekler, bira, meyveli süt, çikolata ve kraker bulunmaktadır.",
       "feature2":"Kozmetik Ürünler",
-      "desc2":"  Banyo temel ürünleri şampuan, saç kremi, duş jeli, sabun, lif, saç kurutma makinesi ve vücut kremi içermektedir.",
-      "feature3":"Oda Erişimi",
-      "desc3":"  Tüm kapı kilitleri, kolay erişim için kullanışlı bir çip bileklik anahtar sistemi ile güvenli bir şekilde çalışmaktadır.",
+      "desc2":" Banyo ürünleri arasında şampuan, saç kremi, duş jeli, sabun, banyo lifi ve vücut kremi bulunmaktadır.",
+      "feature3":"Çipli Bileklik Erişimi",
+      "desc3":"  Tüm oda kapılarında kolay erişim için güvenli ve kullanışlı çipli bileklik sistemi bulunmaktadır.",
       "feature4":"Wifi & LedTV",
-      "desc4":"  Uluslararası ve ulusal uydu kanalları, radyo ve 24 saat WiFi erişimi olan LED TV."
+      "desc4":"  Ulusal ve uluslararası uydu kanalları, radyo ve 24 saat Wi-Fi erişimi sunan LED TV."
     },
 
     "ContactSection2":{
@@ -779,7 +781,7 @@
 
       "DespinaRestaurants": {
         "subtitle": "Deniz Mutfağı'nın En İyi Örnekleri",
-        "title": "Gusto Restoran",
+        "title": "Despina Restoran",
         "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
         "ClinaryInfoSection": {
           "subtitle": " Mükemmel Gurme Deneyimleri",
@@ -868,20 +870,20 @@
           "title": " Bir Göz Atın",
           "text": "Lago Hotel'de, özenle hazırlanmış yemekler ve zarif bir atmosfer ile unutulmaz bir yemek deneyiminin tadını çıkarın. Damak tadınıza, usta şeflerimizin özenle yarattığı ve şıklıkla sunulan lezzetleri tattırın."
         },
-        "CuisinesCarousel": {
-          "subtitle": " Mükemmel Gurme Deneyimleri",
-          "title": "LAGO'nun Dünya Mutfağı",
-          "text": "À-la carte restoranlarımızda, uluslararası mutfağın nefis tatları, ödüllü şeflerimizin ustaca elleriyle sizi bekliyor. Tatiliniz boyunca, kendine has à la carte restoranlarımızda harika bir maceraya davet etmekten mutluluk duyuyoruz!",
-          "cuisines1subtitle": "MUTFAK: Teppanyaki (Japon)",
-          "cuisines1title": "Wasabi",
-          "cuisines1text": "Demir tavada hazırlanan Japon mutfağı yemeklerinin sunulduğu Teppanyaki A’la Carte restoranımızda, usta şeflerimizin özgün yorumu ile Uzak Doğu'nun kendine özgü tatlarını deneyimleyebilirsiniz.",
-          "buttonText": "Daha Fazlasını Keşfet",
-          "cuisines2subtitle": "MUTFAK: Asya",
-          "cuisines2title": "Fuego",
+        "CuisinesCarousel":{
+          "subtitle":" Mükemmel Gurme Yemek Deneyimleri",
+          "title":"  LAGO’nun Dünya Mutfakları",
+          "text":" A’la Carte Restoranlarımızda, ödüllü şeflerimizin usta ellerinden çıkan uluslararası mutfağın enfes lezzetleri sizi bekliyor. Tatiliniz boyunca sizi, benzersiz à la carte restoranlarımızda harika bir lezzet macerasına davet ediyoruz!",
+          "cuisines1subtitle":" MUTFAK: Uluslararası",
+          "cuisines1title":"Anadolu",
+           "cuisines1text":"  Türk mutfağının ayırt edici lezzetlerini ve yemek geleneklerini tabakta tutmanın keyfini yaşayalım. LAGO, hayallerinizi Akdeniz'in eşsiz tadıyla buluşturma onuruna sahiptir.",
+           "buttonText":" Daha Fazlasını Keşfet",
+         "cuisines2subtitle": "MUTFAK: Asya",
+          "cuisines2title": "Wasabi",
           "cuisines2text": "Tatiliniz sırasında Asya mutfağının lezzetli tatlarını deneyimleyebilmeniz için Asya A’la Carte restoranımızı tasarladık. 18:30 ile 21:00 arasında, yetenekli ve ödüllü şeflerimizin hazırladığı Asya mutfağının keyfini çıkarabilirsiniz.",
-          "cuisines3subtitle": "MUTFAK: İspanyol",
-          "cuisines3title": "Tapaz",
-          "cuisines3text": "Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de göz zevkinize hitap ediyor. Balık A’la Carte restoranımızda özel tarifler sizi bekliyor. Balık restoranımız şu saatlerde hizmet vermektedir: "
+          "cuisines3subtitle":" MUTFAK: Deniz Ürünleri ve Balık",
+          "cuisines3title":"Despina",   
+          "cuisines3text":"  Ödüllü şeflerimiz tarafından sizin için hazırlanan balık menüleri, hem iştahınıza hem de gözünüze hitap ediyor. Balık A’la Carte restoranımızda sizi özel tarifler bekliyor. Balık a’la carte restoranımız, ..."     
         },
         "DiscoverBackground": {
           "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
@@ -971,31 +973,31 @@
         "subtitle": " LAGO OTEL'E HOŞGELDİNİZ",
         "title": "Derin Mavi Sulara Kendinizi Bırakın",
         "mobileTitle":"Plaj ve Havuzlar",
-        "text": "Farklı zevk ve ihtiyaçlara göre tasarlanan odalarımızda, güzellik ve konforu çarpıcı tasarımlar ve kullanışlı düzenlerle harmanlayarak ev hissi veren keyifli bir tatil deneyimi sunuyoruz. LAGO'nun derin mavi dünyasında farklı boyutlardaki havuzlarda serinlemenin tadını çıkarın. Her şeyin mümkün olduğu LAGO'ya gelin.",
+        "text": "Farklı zevk ve ihtiyaçlara göre özenle tasarlanan odalarımızda, evinizin konforunu göz alıcı şıklıkla buluşturarak size keyifli bir tatil deneyimi sunuyoruz. LAGO’nun masmavi dünyasında farklı boyutlardaki havuzlarımızda serinleyin. Hayalini kurduğunuz her şeyin mümkün olduğu LAGO’ya davetlisiniz.",
         "buttonText": "DAHA FAZLASINI KEŞFEDİN",
 
         "ClinaryInfoSection": {
-          "subtitle": "EŞSİZ BİR TAT ZİYAFETİ",
+          "subtitle": "Saf Huzuru Deneyimleyin",
           "title": "Özel Plajımızı Keşfedin",
           "text1": "LAGO'nun özel plajında, Akdeniz'in berrak sularını ve benzersiz doğasını huzurlu bir ortamda yaşayın. Yumuşacık kumsalımızda rahatlayın ve özenle hazırlanmış lezzetler ile ferahlatıcı içeceklerle tatilinizin her anını unutulmaz kılın.",
-          "text2": "Özel Özellikler",
-          "text3": "Ücretsiz şezlong, şemsiye ve havlu",
-          "text4": "Ferahlatıcı içecekler ve hafif atıştırmalıklar sunan plaj barları",
-          "text5": "Yüzme ve su sporları için ideal sakin sular"
+          "text2": "Öne Çıkan Özellikler",
+          "text3": "Ücretsiz şezlong, şemsiye ve havlu hizmeti",
+          "text4": "Ferahlatıcı içecekler ve lezzetli atıştırmalıklar sunan plaj barları",
+          "text5": "Yüzmek ve su sporları için ideal, berrak ve sakin deniz"
         },
         "ImageBackground": {
-          "subtitle": "Cabana ve Pavilion Kiralama",
-          "title": "Sahil Lüksünde Rahatlayın",
-          "text1": "Ücret karşılığında sunulan özel Cabana ve Pavilion, plaj kenarında eşsiz mahremiyet ve konforun tadını çıkarın. Swim-Up Odalarında kalan misafirlerimiz özel indirimlerden faydalanarak, sahil deneyimlerini daha da lüks hale getiriyor.",
-          "text2": "Özel Düzenleme Mevcut",
-          "text3": "Doğum Günü Partisi",
-          "text4": "Dekorasyon",
+          "subtitle": "Özel Cabana ve Pavilyon Deneyimi",
+          "title": "Deniz Kenarında Lüks ve Huzur",
+          "text1": "Sahilde eşsiz mahremiyet ve konfor sunan ücretli Cabana ve Pavilyonlarımızda rahatlayın. Swim-Up oda misafirlerimiz Pavilyon kiralamalarında %15 indirimden yararlanarak tatil deneyimlerini daha da ayrıcalıklı hale getirebilirler.",
+          "text2": "Pavilyon ve Cabana için Özel Set-up",
+          "text3": "Doğum Günü",
+          "text4": "Süslemeler",
           "buttonText": "DAHA FAZLASINI KEŞFEDİN"
         },
         "Carousel": {
-          "subtitle": "RAHATLAYIN VE UNUTUN",
-          "title": "Plajda Aktiviteler",
-          "text": "LAGO'nun güzel plajında eğlence ve rahatlama dolu bir tatil sizi bekliyor. Su sporlarından plaj voleyboluna kadar, gün boyu aktivitelerimizin tadını çıkarın, güneş ve denizin keyfini çıkarın.",
+          "subtitle": "RAHATLAYIN VE YENİLENİN",
+          "title": "Plaj Aktiviteleri",
+          "text": "LAGO’nun güzel özel plajında sizi rahatlatıcı ve eğlence dolu bir tatil bekliyor. Su sporları ve plaj voleybolu gibi günlük aktivitelerimizin tadını çıkarabilir ya da sadece güneşin ve denizin keyfine varabilirsiniz.",
           "activities1": "Yüzme & Dinlenme",
           "activities1Text": "tüm gün",
           "activities2": "Plaj Barında Serinleyin",
@@ -1006,41 +1008,41 @@
           "activities4Text": "Özel An"
         },
         "PoolSection": {
-          "subtitle": "Her An İçin Tasarlanmış Havuzlar",
-          "title": "Rahatlamaya Yüzerken",
-          "text": "LAGO'nun havuzlarında, farklı ruh hallerinize ve ihtiyaçlarınıza göre özenle tasarlanmış alanlarda gün boyu serinleyip rahatlayın. Neşeli anlardan huzurlu dinlenme köşelerine kadar, havuzlarımız tatilinizi unutulmaz kılacak her deneyimi sunuyor."
+          "subtitle": "Her Anınıza Uygun Havuzlar",
+          "title": "Huzura Doğru Süzülün",
+          "text": "Günün her anını LAGO’nun farklı ruh halinize ve ihtiyaçlarınıza göre tasarlanmış havuzlarında serinleyerek ve dinlenerek geçirin. Eğlenceli anlardan huzurlu dinlenme köşelerine kadar, havuzlarımız tatilinizi unutulmaz kılacak her deneyimi sunuyor."
         },
         "PoolList": {
-          "subtitle": "Özel Havuz Seçkimize Dalın",
-          "title": "Tüm Havuzlar Bir Bakışta",
-          "text": "LAGO'nun kendine özgü havuz seçeneklerini keşfedin ve tatilinizin her anına ferahlatıcı bir dokunuş katın. İster sakin bir köşede dinlenin, ister eğlenceli aktivitelerle gününüze enerji katın; tüm havuzlarımız size unutulmaz deneyimler yaşatmak için tasarlandı.",
-          "poolSubTitle1": "genel kullanım için aile dostu havuz",
+          "subtitle": "Özel Havuzlarımızı Keşfedin",
+          "title": "Tüm Havuzlarımıza Göz Atın",
+          "text": "LAGO’nun birbirinden özel havuz seçenekleriyle tatilinize ferahlatıcı bir dokunuş katın. İster sakin köşelerde dinlenin, ister eğlenceli aktivitelerle enerjinizi tazeleyin, tüm havuzlarımız unutulmaz anlar yaşatmak için tasarlandı.",
+          "poolSubTitle1": "Ana Havuz – Herkes İçin Eğlence",
           "poolTitle1": "Ana Havuz",
-          "poolText1": "Tüm aile için mükemmel olan ana havuzumuz, neşeli ve canlı bir gün için geniş bir alana sahiptir.",
-          "poolSubTitle2": "dinlenme için huzurlu ortam",
+          "poolText1": "2000 m² genişliğindeki ana havuzumuz, tüm aile için keyifli bir gün geçirmeniz amacıyla tasarlandı.",
+          "poolSubTitle2": "Rahatlatıcı ve Huzurlu Atmosfer",
           "poolTitle2": "Rahatlama Havuzu",
-          "poolText2": "Sessiz ve huzurlu bir atmosfer sunan bu havuz, dinlenme arayan misafirler için idealdir.",
-          "poolSubTitle3": "sadece yetişkin (+16), sakin atmosfer",
-          "poolTitle3": "Maldivas Havuzu",
-          "poolText3": "Sadece yetişkin (+16) misafirler için son derece huzurlu bir ortam sunan havuz.",
-          "poolSubTitle4": "Huzurlu yüzme deneyimi için muhteşem manzaralar",
-          "poolTitle4": "Infinity Pool",
-          "poolText4": "Muhteşem manzaralar ve benzersiz tasarım ile olağanüstü bir yüzme keyfi ve dinlendirici anlar sunar.",
-          "poolSubTitle5": "eğlence amaçlı yüzme için ideal",
-          "poolTitle5": "Maldivas Çocuk Havuzu",
-          "poolText5": "Çocuklar için güvenli ve eğlenceli bir yüzme deneyimi sunan özel tasarlanmış havuz.",
-          "poolSubTitle6": "sadece yetişkin (+16), huzurlu atmosfer",
+          "poolText2": "Sakin ve huzurlu atmosfere sahip 900 m²’lik Relax Havuzumuz, dinlenmek için idealdir.",
+          "poolSubTitle3": "+16 Yetişkinlere Özel Sakin Havuz",
+          "poolTitle3": "Maldiva Havuzu",
+          "poolText3": "+16 yaş yetişkinlere özel 820 m²’lik Maldiva Havuzu, sakin atmosferiyle kusursuz bir dinlenme ortamı sunar.",
+          "poolSubTitle4": "Eşsiz Manzaralar ile Huzurlu Anlar",
+          "poolTitle4": "Infinity Havuz",
+          "poolText4": "Göz alıcı manzarası ve özel tasarımıyla 280 m²’lik Infinity Havuzumuz, eşsiz bir dinlenme sunar.",
+          "poolSubTitle5": "Keyifli Yüzme İçin İdeal",
+          "poolTitle5": "Maldiva Çocuk Havuzu",
+          "poolText5": "Özel tasarımlı 85 m² Maldiva Çocuk Havuzu, güvenli ve eğlenceli yüzme imkânı sunar.",
+          "poolSubTitle6": "Huzurlu ve Rahatlatıcı Atmosfer",
           "poolTitle6": "Kapalı Havuzlar",
-          "poolText6": "Yıl boyunca hizmet veren kapalı havuzlarımız, sadece yetişkinler (+16) için huzurlu bir sığınak sunar.",
-          "poolSubTitle7": "Eğlence amaçlı yüzme için ideal",
-          "poolTitle7": "Aqua Havuzu",
-          "poolText7": "Eğlenceli aktiviteler ve canlı anlarla dolu Aqua havuzumuzda tatilinizin keyfini çıkarın.",
-          "poolSubTitle8": "Huzurlu yüzme deneyimi için muhteşem manzaralar",
-          "poolTitle8": "Çocuk Aqua Parkı",
-          "poolText8": "Özel tasarlanmış çocuk aqua parkımız, minik misafirlerimizin güvenle eğlenmelerini ve unutulmaz anılar biriktirmelerini sağlar.",
-          "poolSubTitle9": "sadece yetişkin (+16), huzurlu atmosfer",
-          "poolTitle9": "Mega Aqua Park",
-          "poolText9": "Sadece yetişkin (+16) Mega Aqua Parkımız, heyecan verici kaydıraklar sunarak sonsuz heyecan ve eğlence yaşatır."
+          "poolText6": "Yıl boyunca kullanıma açık olan ısıtmalı kapalı havuzlarımız huzurlu ve dinlendirici bir ortam sunar.",
+          "poolSubTitle7": "Eğlence Dolu Anlar İçin İdeal",
+          "poolTitle7": "Aquapark Havuzu",
+          "poolText7": "Eğlence dolu kaydıraklar ve hareketli aktivitelerle dolu Aquapark Havuzumuzda tatilinizin tadını çıkarın.",
+          "poolSubTitle8": "Çocuklar İçin Bitmeyen Su Eğlencesi!",
+          "poolTitle8": "Çocuk Aquapark Havuzu",
+          "poolText8": "5 kaydıraklı Çocuk Aquapark Havuzumuz, güvenli eğlence ve unutulmaz anılar sunar.",
+          "poolSubTitle9": "Herkes İçin Eğlence ve Heyecan!",
+          "poolTitle9": "Mega Aquapark Havuzu",
+          "poolText9": "Mega Aquapark Havuzumuz, her yaştan misafir için heyecan dolu kaydıraklarıyla sınırsız eğlence sunar."
         }
       },
 
@@ -1092,6 +1094,7 @@
     },
     "SpaType": {
       "subtitle": "Çalışma Saatleri: 9:00 - 20:00",
+       "buttonText": " DAHA FAZLA",
       "title": "Kapalı Havuz",
       "text": "Her mevsimde hizmet veren kapalı havuzumuzda yıl boyunca yüzmenin keyfini çıkarın. Rahat ve huzurlu bir ortamda kendinizi tazeleyin ve LAGO'nun şık ve modern atmosferinde unutulmaz anlar yaşayın.",
       "subtitle2": "Geleneksel Kültürü Deneyimleyin",
@@ -1101,23 +1104,23 @@
   },
 
   "SuperiorRoom": {
-    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "subtitle": "Ayrıcalıklı ve Konforlu Konaklama",
     "title": "Superior Oda",
     "text1": "Orman / Deniz Manzarası",
-    "text2": "1-4 Yetişkin + 1-3 Çocuk",
-    "text3": "2 Yatak Odası / 4 Yatak",
+    "text2": "1-3 Yetişkin + 1-2 Çocuk",
+    "text3": "1 Yatak Odası / 2 Yatak",
 
     "RoomInfo": {
-      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "subtitle": "Konfor ve Şıklığın Buluştuğu Nokta",
       "title": "Superior Oda",
-      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
-      "title2": "Aile Dostu İmkanlar",
+      "text": "Ana binada yer alan şık Superior Odalarımız 30-32 m² büyüklüğünde olup deniz veya orman manzaralıdır. Odalarda bir çift kişilik yatak, bir tek kişilik yatak, sofa, balkon, LED TV (uydu kanalları), günlük yenilenen minibar, ücretsiz Wi-Fi, özel banyo ürünleri ve çay-kahve seti bulunmaktadır. Çipli bileklik sistemiyle güvenli ve kolay oda erişimi sağlanır. Maksimum kapasite: 2 yetişkin + 2 çocuk veya 3 yetişkin.",
+      "title2": "Superior Oda Olanaklar",
       "list1": "Bağımsız Havuz",
-      "list2": "2 Tek Kişilik Yatak",
-      "list3": "Ekstra Bebek Karyolası",
+      "list2": "2 Kişilik Yatak",
+      "list3": "Ekstra Bebek Yatağı",
       "title3": "Oda Özellikleri",
-      "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
-      "madde1": "Özel Havuz",
+      "text2": "Tüm Superior odalarımızda güvenli ve kolay erişim sağlayan çipli bileklik sistemi bulunmaktadır. Odalarımızda her gün yenilenen minibar içecekleri ve atıştırmalıklar, konforunuz için özenle seçilmiş özel banyo ürünleri ve ücretsiz çay-kahve seti sunulmaktadır. Ayrıca ulusal ve uluslararası kanalları içeren LED TV, eşsiz deniz veya orman manzarasının keyfini çıkarabileceğiniz balkon ve kesintisiz 24 saat Wi-Fi erişimi ile konforlu bir tatil deneyimi sizi bekliyor.",
+      "madde1": "----",
       "madde2": "48 m²",
       "madde3": "Makyaj Masası",
       "madde4": "Sigara İçmez",
@@ -1137,7 +1140,7 @@
       "checkout": "Çıkış",
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
-      "contact": "Hemen bizimle iletişime geçin",
+      "contact": "Bizimle İletişime Geçin",
       "phone": "+90 123 456 78 90"
     },
     "RoomTour": {
@@ -1150,42 +1153,42 @@
       "title": "Diğer Seçenekler",
       "subtitle1": "Tüm Aile Üyeleri İçin Oda",
       "title1": "Aile Odası",
-      "m1": "38-41 m²",
+      "m1": "50-55 m²",
       "capacity1": "2 Yetişkin + 1 Çocuk",
-      "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
+      "text1": " Ana binada bulunan Aile Odası (50-55 m²), ara kapılı iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ortak banyo ve balkona sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
       "buttonText": "Daha Fazlasını Öğrenin",
       "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
       "title2": "Swim-Up Odası",
       "m2": "40-43 m²",
       "capacity2": "2 Yetişkin + 1 Çocuk",
-      "text2": "Odanızın konforundan çıkmadan doğrudan havuz erişiminin keyfini çıkarın ve istediğiniz an kendinizi ferahlatın. Swim-Up odaları, lüks ve rahatlatıcı bir atmosfer sunarak gerçekten özel bir tatil deneyimi sağlar.",
+      "text2": " Ana binada bulunan bu şık oda tipi, 40-43 m² büyüklüğünde olup kara veya deniz manzarası sunmaktadır. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir oturma alanı veya sofa mevcuttur. Hem deniz hem de orman manzaralı odalar havuza erişim imkânı ve terasa sahipken, deniz manzaralı Swim-up odalar ayrıca özel bir havuz sunmaktadır.",
       "subtitle3": "İYİ FİYATLA KONFOR",
       "title3": "Superior Oda",
       "m3": "30-32 m²",
       "capacity3": "2 Yetişkin + 1 Çocuk",
-      "text3": "Geniş ve zarif tasarlanmış Superior Odalarımız, aileler veya çiftler için ideal olan 30-32 m² konfor sunar. Modern olanaklar ve şık dekor ile donatılmış bu odalar, balkonlu ve muhteşem manzaralı, dinlendirici bir sığınak sağlar."
+      "text3": "Ana binada bulunan bu zarif oda tipi 30-32 m² büyüklüğünde olup, deniz veya orman manzarası seçeneklerine sahiptir. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir sofa bulunmaktadır. Ayrıca odalarda balkon, çipli bileklikle giriş sistemi, günlük yenilenen minibar, zengin banyo ürünleri ve çay-kahve seti yer almaktadır."
     }
   },
 
   "FamilyRoom": {
-    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "subtitle": "Aileler İçin Ayrıcalıklı ve Konforlu Konaklama",
     "title": "Aile Odası",
     "text1": "Orman / Deniz Manzarası",
     "text2": "1-4 Yetişkin + 1-3 Çocuk",
-    "text3": "2 Yatak Odası / 4 Yatak",
+    "text3": "2 Yatak Odası / 3 Yatak",
     
     "RoomInfo": {
-      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "subtitle": "Her Yaşa Uygun Eğlence",
       "title": "Aile Odası",
-      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "text": "Ana binada bulunan Family odalarımız 50-55 m² olup deniz veya orman manzaralıdır. Odalar, ara kapılı iki ayrı yatak odasından (1 çift kişilik yataklı oda, 2 tek kişilik yataklı oda), ortak banyodan ve balkondan oluşmaktadır. Maksimum kapasite 4 yetişkin + 1 çocuktur.",
       "title2": "Aile Dostu İmkanlar",
       "list1": "Bağımsız Havuz",
       "list2": "2 Tek Kişilik Yatak",
       "list3": "Ekstra Bebek Karyolası",
       "title3": "Oda Özellikleri",
       "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
-      "madde1": "Özel Havuz",
-      "madde2": "48 m²",
+      "madde1": "----",
+      "madde2": "50-55 m²",
       "madde3": "Makyaj Masası",
       "madde4": "Sigara İçmez",
       "madde5": "Mini Bar",
@@ -1311,16 +1314,16 @@
   },
 
   "FamilySwimupRoom": {
-    "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
+    "subtitle": "Özel Havuzlu Ayrıcalıklı Aile Konaklaması",
     "title": "Aile Swim-up Odası",
     "text1": "Orman / Deniz Manzarası",
     "text2": "1-4 Yetişkin + 1-3 Çocuk",
     "text3": "2 Yatak Odası / 4 Yatak",
     
     "RoomInfo": {
-      "subtitle": "HER YAŞA UYGUN EĞLENCE",
+      "subtitle": "Her Yaşa Uygun Eğlence",
       "title": "Aile Swim-up Odası",
-      "text": "Ana binamızda yer alan bu odalar 50-55 m² arasındadır ve deniz ya da orman manzarası sunar. Bu oda tipi, iki ayrı yatak odası içerir (iç kapı ile bağlı): 2 yetişkin için bir çift kişilik oda ve 2 yetişkin için iki tek kişilik yataklı bir oda. Ortak banyo, havuza erişim ve oturma alanı bulunan bir terasa sahiptir. • Maksimum kapasite: 4 yetişkin • Ek olarak 1 çocuk ağırlayabilir. Family Swim-up Forest, diğer Swim-Up odalarıyla paylaşılan büyük bir havuza sahiptir. Family Swim-up Sea ise bağımsız özel havuz sunar.",
+      "text": "Ana binada yer alan Family Swim-Up odalarımız 50-55 m² olup deniz veya orman manzaralıdır. Ara kapıyla bağlanan iki ayrı yatak odası (1 çift kişilik yataklı oda, 2 tek kişilik yataklı oda), ortak banyo, havuza doğrudan erişim ve oturma alanına sahip teras bulunur. Maksimum kapasite 4 yetişkin + 1 çocuktur. Family Swim-Up Forest odaları diğer odalarla ortak büyük bir havuzu paylaşırken, Family Swim-Up Sea odaları kendine özel bağımsız havuza sahiptir.",
       "title2": "Aile Dostu İmkanlar",
       "list1": "Bağımsız Havuz",
       "list2": "2 Tek Kişilik Yatak",
@@ -1328,7 +1331,7 @@
       "title3": "Oda Özellikleri",
       "text2": "Tüm odalarda sunulan hizmetler arasında Chip Armband Key System, Günlük Mini Bar Dolumu, Banyo Kozmetik Ürünleri ve Çay-Kahve Seti bulunmaktadır. Odalarımızdan 6’sı, engelli misafirler için özel olarak tasarlanmış olup, ana kapı genişliği 112 cm’dir. Kanepe yatağı olmayan odalarda ekstra çekyat sağlanmaktadır. NOT: SWIM-UP odalarındaki havuzlar ısıtılmamaktadır.",
       "madde1": "Özel Havuz",
-      "madde2": "48 m²",
+      "madde2": "50-55 m²",
       "madde3": "Makyaj Masası",
       "madde4": "Sigara İçmez",
       "madde5": "Mini Bar",
@@ -1416,6 +1419,15 @@
       "madde11": "Balkon",
       "madde12": "Duş"
     },
+
+    "BackgroundSection": {
+      "subtitle": "ÖZEL İMKANLAR",
+      "title": "Dubleks Aile Odası VIP Avantajları",
+      "text1": "Dubleks Aile Odası odalarında kalan misafirler, girişte özenle hazırlanmış meyve tabağı ve narin makaronlar ile karşılanır.",
+      "text2": "A’la Carte Yemek: 7+ gece konaklamalarda bir ücretsiz ziyaret.",
+      "text3": "pavilion İndirimi: Özel pavilion hizmetlerinde %15 indirim kazanın."
+    },
+
     "ReservationWidget": {
       "title": "Rezervasyon Tarihleri",
       "text": "Konaklamanız için Tarihleri Seçin",
@@ -1453,7 +1465,7 @@
     }
   },
 
-  "KüçükVilla": {
+  "TinyVilla": {
     "subtitle": "BAĞIMSIZ BİR HAVUZLA ÖZEL KONAKLAMA",
     "title": "Tiny Villa",
     "text1": "Orman / Deniz Manzarası",
@@ -1512,8 +1524,8 @@
       "title": "Diğer Seçenekler",
       "subtitle1": "Tüm Aile Üyeleri İçin Oda",
       "title1": "Aile Odası",
-      "m1": "38-41 m²",
-      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "m1": "50-55 m²",
+      "capacity1": "2 Yetişkin + 2 Çocuk",
       "text1": "Özellikle aileler için tasarlanan bu odalar, geniş ve konforlu bir konaklama sunarak hem yetişkinlerin hem de çocukların mükemmel tatil deneyimi yaşamasını sağlar. Modern olanakların, sıcak mobilyaların ve davetkar bir atmosferin keyfini çıkarın.",
       "buttonText": "Daha Fazlasını Öğrenin",
       "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
@@ -1630,8 +1642,8 @@
       "title": "Unutulmaz Anılar",
       "text": "Bamboo Kids Club’da, yaşa uygun aktiviteler, profesyonel bakıcılar ve güvenli bir ortam sunuyoruz; böylece çocuğunuzun öğrenmesi, oynaması ve gelişmesi için mükemmel bir ortam sağlanıyor.",
       "span": "Açılış Saatleri: 08:00 - 20:00",
-      "age1": "Mini Kulüp",
-      "title1": "4-7 Yaş",
+      "age1": " 4-7 Yaş",
+      "title1": "Mini Kulüp",
       "description1": "Özellikle en küçük misafirlerimiz için tasarlanmış güvenli ve samimi bir oyun alanı. Ebeveyn gözetiminde keşfetmek ve eğlenmek için ideal.",
       "age2": "8-12 Yaş",
       "title2": "Junior Kulüp",
@@ -1684,8 +1696,173 @@
       "cuisines3title": "Kapalı Çocuk Havuzu",
       "cuisines3text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
     }
+  },
+
+  "Special": {
+    "subtitle": "Mutlu Anlar, Unutulmaz Anılar",
+    "title": "Özel Günler",
+    "text": "LAGO ekibi, sevdiklerinizle özel günlerinizde unutulmaz anılar yaratmanızı sağlamak için çalışmaktadır.",
+    "gallerytitle": "Akdeniz'in Kalbinde Bir Cennet",
+
+    "InfoSection": {
+      "subtitle": "özel günler",
+      "title": "Özel Hizmetlerimiz",
+      "text": "LAGO Oteli'nde, özel günlerinizi gerçekten unutulmaz kılacak geniş bir seçenek yelpazesi sunuyoruz. Özenle hazırlanan hizmetlerimizle kalıcı anılar oluşturmanıza yardımcı oluyoruz.",
+      "subtitle1": "Özel Günler",
+
+      "key1":"Balayı",
+      "title1": "Balayı",
+      "text1": "LAGO Oteli'nde, yalnızca balayı çiftlerine özel tasarlanmış romantik deneyimlerle aşkınızı kutlayın. Rüya gibi bir atmosferde ömür boyu sürecek anılar yaratın.",
+      
+      "key2":"Evlilik",
+
+      "title2": "Evlilik Teklifi Düzeni",
+      "text2": "LAGO’nun romantik düzenlemeleri ile evlilik teklifinizi unutulmaz kılın. Sizin ve sevdikleriniz için mükemmel anı yaratmak adına her detayı biz hallediyoruz.",
+      
+      "key3":"Pavilion",
+
+      "title3": "pavilion Deneyimi",
+      "text3": "LAGO’da özel pavilion deneyiminin keyfini çıkarın. Özel gününüzü mahremiyet ve lüks içinde, kusursuz hizmet ve nefes kesici manzaralar eşliğinde geçirin.",
+      
+      "key4":"Doğum Günü",
+      "title4": "Doğum Günü Paketleri",
+      "text4": "Kişiselleştirilmiş doğum günü paketlerimizle doğum gününüzü şık bir şekilde kutlayın. Dekorasyondan özel menülere kadar, gününüzü gerçekten unutulmaz kılalım.",
+      
+      "key5":"Düğün",
+      "title5": "Düğün Hizmetleri",
+      "text5": "LAGO Oteli, her açıdan mükemmel olmasını sağlayan kapsamlı düğün hizmetleri sunar. Deneyimli ekibimize tüm detayları teslim edin.",
+      
+      "key6":"Çiçek",
+      "title6": "Özel Çiçek Siparişleri",
+      "text6": "LAGO ile özel günlerinizi, kişiye özel çiçek aranjmanlarıyla renklendirin. Dilediğiniz gibi özgün çiçek tasarımları oluşturuyoruz."
+    },
+    "HoverSection": {
+      "subtitle": "LAGO Otel'de Zamansız Anılar Yaratıyoruz",
+      "title": "Hayatın Değerli Anlarını Kutlayın",
+      "text": "LAGO Oteli'nde, yaşamın dönüm noktalarını olağanüstü deneyimlere dönüştürmede uzmanız. Kişiye özel hizmetlerden uyarlanmış kutlamalara kadar, her detay sonsuza dek kalacak anılar yaratmak için titizlikle hazırlanmıştır.",
+      "subtitle1": "Özel Günler",
+      "title1": "Balayı Konsepti",
+      "text1": "Yeni evli çiftler için özel olarak tasarlanmış romantik sürprizlerin, lüks olanakların ve özel düzenlemelerin tadını çıkarın. LAGO’da evli çift olarak ilk tatilinizi unutulmaz kılın.",
+      "subtitle2": "Özel Günler",
+      "title2": "pavilion Deneyimi",
+      "text2": "Özel pavilionlarımızda mahremiyet, konfor ve kişiye özel hizmetlerle dolu unutulmaz anlar yaşayın; yanında muhteşem manzaralar eşliğinde.",
+      "subtitle3": "Özel Günler",
+      "title3": "Evlilik Teklifi",
+      "text3": "LAGO’nun romantik düzenlemeleri ile mükemmel evlilik teklifinizi planlayın. Deneyimli ekibimiz, özel anınız için her detayı titizlikle organize eder.",
+      "subtitle4": "Özel Günler",
+      "title4": "Doğum Günü Paketleri",
+      "text4": "LAGO Oteli’nde kişiye özel doğum günü paketleriyle doğum günlerinizi kutlayın. Özel pastalardan şenlikli dekorasyona kadar, kutlamanızın neşeli ve unutulmaz olmasını sağlıyoruz.",
+      "subtitle5": "Özel Günler",
+      "title5": "Düğün Hizmetleri",
+      "text5": "LAGO Oteli’nde kapsamlı düğün hizmetleriyle hayalinizdeki düğünü gerçeğe dönüştürüyoruz. Profesyonel ekibimiz kusursuz anılar yaratmaya adanmıştır.",
+      "subtitle6": "Özel Günler",
+      "title6": "Çiçek Siparişleri",
+      "text6": "Özel günlerinizi, özenle hazırlanmış kişisel çiçek aranjmanlarıyla daha da güzelleştirin. LAGO’da her buket, unutulmaz anlarınıza güzellik ve zarafet katmak için titizlikle oluşturulur."
+    },
+    "TwoImageSection": {
+      "subtitle": "Mükemmel Gurme Deneyimleri",
+      "title": "Yakındaki Tarihi Hazineler",
+      "text": "LAGO’da, à la carte restoranlarımızda sunulan seçkin uluslararası mutfağın yanı sıra, Türk mutfağına özgü lezzetler ve Akdeniz ruhunu yansıtan taze tatlar içeren sınırsız açık büfeyle tatilin keyfini çıkarın."
+    }
+  },
+
+  "About": {
+    "subtitle": "Mutlu Anlar, Unutulmaz Anılar",
+    "title": "Otelimiz Hakkında",
+    "InfoSection": {
+      "subtitle": "Hotel LAGO",
+      "title": "Doğru Adres",
+      "text": "Farklı zevk ve ihtiyaçlara uygun şekilde tasarlanmış odalarda, estetiği konforla buluşturan çarpıcı tasarımlar ve pratik düzenlerle unutulmaz bir tatil deneyimi sunuyoruz. Otelimiz ayrıca, yetişkinler ve çocuklar için ayrı ayrı tasarlanmış ısıtmalı kapalı havuzlara sahiptir. Otelimizin eşsiz konumu sayesinde, odalarımızın çoğu deniz ve havuz manzaralarının yanı sıra göl, nehir veya orman manzaraları sunmaktadır.",
+      "buttonText": " DAHA FAZLA"
+    },
+    "MissinonVision": {
+      "subtitle": "Hotel LAGO",
+      "title": "Misyonumuz & Vizyonumuz",
+      "text": "Misyonumuz, misafirlerimize eşsiz konukseverlik sunmak ve unutulmaz anılar yaratmaktır. Kişiye özel hizmetlerden sürdürülebilir uygulamalara kadar konaklamanızın her yönünde mükemmelliğe bağlıyız. Vizyonumuz ise, olağanüstü deneyimler sunarken çevreyi koruyarak konukseverlik sektöründe lider konuma gelmektir.",
+      "clubsubtitle1": "Hotel LAGO",
+      "clubtitle1": "Neden Lago Hotel?",
+      "clubtext1": "Ayrıca otelimiz, profesyonel şefler tarafından hazırlanan lezzetli yemekler, kendine özgü tatlarıyla benzersiz barlar ve dünyanın dört bir yanından mutfakları sunan restoranlar ile unutulmaz bir yemek deneyimi sunar. Bülbüllerin ve diğer kuşların huzur veren sesleri eşliğinde uyanın, pırıl pırıl havuzumuzun ve kristal berraklığındaki denizin keyfini çıkarın. Konforunuz için LAGO; sauna, spa, fitness merkezi, erkek ve kadın kuaför salonları, butik, kuyumcu, fotoğraf stüdyosu, oyun merkezi ve alışveriş merkezi gibi pek çok olanak da sunmaktadır.",
+      "clubsubtitle2": "Hotel LAGO",
+      "clubtitle2": "özel bir tatil",
+      "clubtext2": "Otelimiz, gölden sadece 50 metre ve nehirden 300 metre mesafede yer almakta olup, yürüyüş, koşu, balık tutma, dünyanın dört bir yanından kuş türlerini gözlemleme ve doğayı yakından deneyimleme konusunda mükemmel imkanlar sunar. Ayrıca, Manavgat şehir merkezine sadece 4 km ve güzel Manavgat Şelalesi'ne 6 km mesafedeyiz. Antik Side şehri ise sadece 9 km uzaklıkta olup, Antik Amfi Tiyatro, Apollon Tapınağı, Side Müzesi ve dünyanın ilk güneş saatini keşfedebilirsiniz. Mesafeler: Side Şehir Merkezi: 9 km, Manavgat Şehir Merkezi: 4 km, Antalya Havalimanı: 63 km",
+       "buttonText":"DAHA FAZLASI"
+    }
+  },
+
+  "BlogNews": {
+    "subtitle": "Mükemmel Kaçışınızı Keşfedin",
+    "title": "Son Haberler",
+    "InfoSection": {
+      "subtitle": "Mükemmel Gurme Deneyimleri",
+      "title": "Lago Oteli Haberleri",
+      "text": "Lüksün konforla buluştuğu, her detayın zevkiniz için titizlikle hazırlandığı benzersiz deneyimlerle dolu bir dünya. Huzurlu spa kaçamaklarından seçkin yemek deneyimlerine, etkileyici aktivitelerden unutulmaz kutlamalara kadar otelimiz herkese olağanüstü bir şey sunuyor.",
+      "secsubtitle1": "Eko-Dostu Uygulamalar",
+      "sectitle1": "Sürdürülebilir Lüks",
+      "sectext1": "Lüks odalarımız ve süitlerimizle konforun ve zarafetin doruk noktasına adım atın. Her oda, modern olanaklar, şık mobilyalar ve nefes kesici manzaralar sunacak şekilde özenle tasarlanmıştır. İster samimi bir standart oda, ister geniş bir aile süiti ya da görkemli bir executive süit seçin; evinizden uzakta kendinizi evinizde hissedeceksiniz.",
+      "secsubtitle2": "Havuzlar & Plaj",
+      "sectitle2": "Eğlence Dolu Bir Serinlik",
+      "sectext2": "Kristal berraklığındaki sulara sahip havuzlarımızda dalıp giderken veya sakin özel plajımızda dinlenirken, şezlonglar, şemsiyeler ve özenli hizmet ile her an cennet tadında geçiyor. Aileler güvenli ve eğlenceli su aktivitelerinin keyfini çıkarabilir, huzur arayanlar ise dalgaların sakinleştirici sesleri eşliğinde rahatlayabilir."
+    },
+    "BlogList": {
+    "blogsubtitle1": "GASTRONOMİ",
+    "blogtitle1": "Akdeniz Mutfağının Lezzetli Sırları",
+    "blogtext1": "LAGO Oteli'nde uzman şefler tarafından hazırlanan eşsiz Akdeniz tatlarını keşfedin. Sağlıklı, taze ve lezzetli tariflerle dolu unutulmaz bir mutfak yolculuğuna çıkın.",
+    "blogsubtitle2": "WELLNESS",
+    "blogtitle2": "Spa ve Sağlıklı Yaşam",
+    "blogtext2": "LAGO Wellness Center'da bedeninizi ve zihninizi canlandırın. Spa tedavileri, masajlar ve fitness aktiviteleriyle tatilinize sağlıklı bir dokunuş katın.",
+    "blogsubtitle3": "AİLE TATİLİ",
+    "blogtitle3": "Çocuklarınız İçin Eğlence Dolu Bir Dünya",
+    "blogtext3": "LAGO Kids Club, çocuklarınız için yaratıcı, eğlenceli ve eğitici aktiviteler sunar. Birlikte unutulmaz aile anıları oluşturun.",
+    "blogsubtitle4": "SEYAHAT & KEŞFETME",
+    "blogtitle4": "Side'nin Tarihi Harikalarını Keşfedin",
+    "blogtext4": "Antik Side'nin büyüleyici atmosferini keşfedin. Apollon Tapınağı, Antik Tiyatro, Müzeyi ve dünyanın ilk güneş saatini ziyaret edin.",
+    "blogsubtitle5": "DOĞA & MACERA",
+    "blogtitle5": "Manavgat'ta Doğa ile Bir Gün",
+    "blogtext5": "Manavgat Şelalesi çevresinde huzuru deneyimleyin. Kuş gözlemi, balık tutma ve doğa yürüyüşleriyle doğayı yeniden keşfedin.",
+    "blogsubtitle6": "ÖZEL GÜNLER",
+    "blogtitle6": "Rüya Gibi Balayı İçin Lago Hotel",
+    "blogtext6": "Lago Hotel'de özel balayı düzenlemeleriyle hayatınızın en romantik anlarını yaşayın ve tatilinizi gerçekten unutulmaz kılın.",
+    "blogsubtitle7": "EĞLENCE & AKTİVİTELER",
+    "blogtitle7": "Lago Hotel'de Sonsuz Eğlence",
+    "blogtext7": "Gündüz aktivitelerinden plaj etkinliklerine, muhteşem gece şovlarından temalı partilere kadar, Lago Hotel tatiliniz boyunca eğlence dolu anlar vaat ediyor.",
+    "blogsubtitle8": "SÜRDÜRÜLEBİLİR TURİZM",
+    "blogtitle8": "Çevre Dostu Bir Tatil Deneyimi",
+    "blogtext8": "Lago Hotel’in çevre dostu uygulamalarıyla sürdürülebilir turizmi destekleyin. Çevre korumasına olumlu katkıda bulunurken lüks tatilin keyfini çıkarın.",
+    "blogsubtitle9": "İPUÇLARI & ÖNERİLER",
+    "blogtitle9": "Tatilinizi Mükemmel Hale Getirecek İpuçları",
+    "blogtext9": "Lago Hotel’deki konaklamanızı daha keyifli ve konforlu hale getirecek pratik ipuçları ve önerileri keşfedin, kusursuz bir tatil garantileyin.",
+     "buttonText":"DAHA FAZLASI"
   }
+  },
 
+  "Contact": {
+    "subtitle": "LAGO OTEL İLETİŞİM",
+    "title": " Bizimle Bağlantıya Geçin",
+    "contact1": "Adresimiz:",
+    "contact2": " Telefon Numarası",
+    "contact3": "E-posta Adresi",
+    "Form": {
+      "title": " Bize Mesaj Bırakmaktan Çekinmeyin",
+      "text": "Bize iletmek istediğiniz bir şey mi var? Lütfen iletişim formumuz aracılığıyla bizimle iletişime geçmekten çekinmeyin.",
+      "name": " Tam Adınız",
+      "address": "E-posta Adresi",
+      "message": "Mesajınız",
+      "save": " İsim, e-posta ve web sitemi bu tarayıcıda bir sonraki yorumum için kaydet.",
+      "send": "Mesajı Gönder"
+    }
+  },
 
+  "Gallery": {
+    "subtitle": "Otelimizi Keşfedin",
+    "title": "Lago Galerisi",
+    "general": "Genel Görünüm",
+    "rooms": "Odalar",
+    "villa": "Villa",
+    "pool": "Havuz & Plaj",
+    "flavours": "Lezzetler",
+    "spa": "Spa & Wellness",
+    "kidsclub": "Kids Club",
+    "entertainment": "Eğlence"
+  }
   
-  }
+}

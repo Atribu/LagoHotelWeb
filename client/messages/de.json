@@ -22,7 +22,9 @@
     "family": "Familienzimmer",
     "swimup": "Swim-up Zimmer",
     "familyswimup": "Familien-Swim-up-Zimmer",
-    "duplex": "Duplex Familienzimmer"
+    "duplex": "Duplex Familienzimmer",
+    "tinyvilla":"Tiny Villa",
+     "letuscallyou":"Lassen Sie uns Sie anrufen"
 
 },
 
@@ -784,7 +786,7 @@
 
   "DespinaRestaurants": {
     "subtitle": "Meeresfrüchte Küche in ihrer besten Form",
-    "title": "Gusto Restaurant",
+    "title": "Despina Restaurant",
     "text": "Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt.",
     "ClinaryInfoSection": {
       "subtitle": " Perfekte Gourmet-Erlebnisse",
@@ -888,7 +890,7 @@
       "cuisines1text": " In unserem Teppanyaki À-la-carte-Restaurant, in dem Gerichte der japanischen Küche in Eisenpfannen zubereitet werden, können Sie die unverwechselbaren Aromen des Fernen Ostens durch die originelle Interpretation unserer Meisterköche erleben.",
       "buttonText": "Mehr erkunden",
       "cuisines2subtitle": "KÜCHE: Asiatisch",
-      "cuisines2title": "Fuego",
+      "cuisines2title": "Wasabi",
       "cuisines2text": "Wir haben unser asiatisches À-la-carte-Restaurant so gestaltet, dass Sie während Ihres Urlaubs die köstlichen Aromen der asiatischen Küche erleben können. Zwischen 18:30 und 21:00 können Sie asiatische Küche genießen, zubereitet von unseren talentierten, preisgekrönten Köchen.",
       "cuisines3subtitle": "KÜCHE: Spanisch",
       "cuisines3title": "Tapaz",
@@ -1109,6 +1111,7 @@
     },
     "SpaType": {
       "subtitle": "Arbeitszeiten: 9:00 - 20:00",
+      "buttonText": "MEHR DARÜBER",
       "title": "Überdachter Pool",
       "text": "Genießen Sie das ganze Jahr über das Schwimmen in unserem überdachten Pool, der in jeder Saison verfügbar ist. Erfrischen Sie sich in einer komfortablen und ruhigen Umgebung und erleben Sie unvergessliche Momente in der stilvollen und modernen Atmosphäre von LAGO.",
       "subtitle2": "Erleben Sie traditionelle Kultur",
@@ -1133,8 +1136,8 @@
       "list3": "Zusätzliches Babybett",
       "title3": "Zimmerausstattung",
       "text2": "Zu den in allen Zimmern angebotenen Services gehören ein Chip-Armband-Schlüsselsystem, tägliche Mini-Bar-Nachfüllung, Badezimmerkosmetik und ein Tee-Kaffee-Set. 6 unserer Zimmer sind speziell für Gäste mit Behinderungen konzipiert und verfügen über eine Türbreite von 112 cm. In Zimmern ohne Schlafsofa wird ein zusätzliches Klappbett bereitgestellt. HINWEIS: DIE POOLS IN DEN SWIM-UP-ZIMMERN SIND NICHT BEHEIZT.",
-      "madde1": "Privater Pool",
-      "madde2": "48 m²",
+      "madde1": "----",
+      "madde2": "30-32 m²",
       "madde3": "Frisiertisch",
       "madde4": "Nichtraucher",
       "madde5": "Mini Bar",
@@ -1428,6 +1431,14 @@
       "madde11": "Balkon",
       "madde12": "Dusche"
     },
+    "BackgroundSection": {
+      "subtitle": "EXKLUSIVE PRIVILEGIEN",
+      "title": "Duplex FamilienZimmer VIP-Vorteile",
+      "text1": "Gäste, die in Duplex FamilienZimmer übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
+      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
+      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+    },
+
     "ReservationWidget": {
       "title": "Reservierungsdaten",
       "text": "Wählen Sie die Daten für Ihren Aufenthalt",
@@ -1640,8 +1651,8 @@
       "title": "Unvergessliche Erinnerungen",
       "text": "Im Bamboo Kids Club bieten wir altersgerechte Aktivitäten, professionelle Betreuer und eine sichere Umgebung, die den perfekten Rahmen für Ihr Kind schafft, um zu lernen, zu spielen und zu wachsen.",
       "span": "Öffnungszeiten: 08:00 - 20:00",
-      "age1": "Mini Club",
-      "title1": "Alter 4-7",
+      "age1": "Alter 4-7",
+      "title1": " Mini Club",
       "description1": "Ein sicherer und gemütlicher Spielbereich, der speziell für unsere jüngsten Gäste entworfen wurde. Perfekt zum Erkunden und Spaßhaben unter elterlicher Aufsicht.",
       "age2": "Alter 8-12",
       "title2": "Junior Club",
@@ -1694,6 +1705,171 @@
       "cuisines3title": "Indoor Kids Pool",
       "cuisines3text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
     }
+  },
+
+  "Special": {
+    "subtitle": "GLÜCKLICHE MOMENTE, UNVERGESSLICHE ERINNERUNGEN",
+    "title": "Besondere Anlässe",
+    "text": "Das LAGO-Team arbeitet daran, dass Sie mit Ihren Liebsten unvergessliche Erinnerungen an Ihre besonderen Anlässe schaffen.",
+    "gallerytitle": "Ein Paradies im Herzen des Mittelmeers",
+
+    "InfoSection": {
+      "subtitle": "besondere Anlässe",
+      "title": "Unsere exklusiven Services",
+      "text": "Im LAGO Hotel bieten wir eine Vielzahl von Optionen, damit Ihre besonderen Anlässe wirklich unvergesslich werden. Mit unseren sorgfältig kuratierten Services helfen wir Ihnen, bleibende Erinnerungen zu schaffen.",
+      "subtitle1": "Besondere Anlässe",
+      
+      "key1":"Flitterwochen",
+      "title1": "Flitterwochen",
+      "text1": "Feiern Sie Ihre Liebe im LAGO Hotel mit romantischen Erlebnissen, die ausschließlich für Flitterwochenpaare entworfen wurden. Schaffen Sie lebenslange Erinnerungen in einer traumhaften Atmosphäre.",
+      
+      "key2":"Heiratsantrag",
+      "title2": "Heiratsantrag-Arrangement",
+      "text2": "Machen Sie Ihren Heiratsantrag unvergesslich mit den romantischen Arrangements von LAGO. Wir kümmern uns um jedes Detail, um den perfekten Moment für Sie und Ihren Liebsten zu schaffen.",
+      
+      "key3":"Pavillon",
+      "title3": "Pavillon-Erlebnis",
+      "text3": "Genießen Sie ein exklusives Pavillon-Erlebnis im LAGO. Verbringen Sie Ihren besonderen Tag in Privatsphäre und Luxus, ergänzt durch makellosen Service und atemberaubende Aussichten.",
+     
+      "key4":"Geburtstagspakete",
+      "title4": "Geburtstagspakete",
+      "text4": "Feiern Sie Ihren Geburtstag stilvoll mit unseren personalisierten Geburtstagspaketen. Von Dekorationen bis zu speziellen Menüs – wir machen Ihren Tag wirklich unvergesslich.",
+     
+      "key5":"Hochzeitsservices",
+      "title5": "Hochzeitsservices",
+      "text5": "Das LAGO Hotel bietet umfassende Hochzeitsservices, um sicherzustellen, dass Ihr besonderer Tag in jeder Hinsicht perfekt wird. Überlassen Sie unser erfahrenes Team allen Details.",
+      
+      "key6":"Blumenbestellungen",
+      "title6": "Individuelle Blumenbestellungen",
+      "text6": "Bereichern Sie Ihre besonderen Anlässe mit maßgeschneiderten Blumenarrangements von LAGO. Wir kreieren einzigartige florale Designs, die speziell auf Ihre Wünsche abgestimmt sind."
+    },
+    "HoverSection": {
+      "subtitle": "Zeitlose Erinnerungen im LAGO Hotel erschaffen",
+      "title": "Feiern Sie die wertvollen Momente des Lebens",
+      "text": "Im LAGO Hotel sind wir darauf spezialisiert, Lebensmeilensteine in außergewöhnliche Erlebnisse zu verwandeln. Von personalisierten Services bis hin zu maßgeschneiderten Feiern – jedes Detail wird perfekt ausgearbeitet, um Erinnerungen zu schaffen, die ein Leben lang halten.",
+      "subtitle1": "Besondere Anlässe",
+      "title1": "Flitterwochen-Konzept",
+      "text1": "Genießen Sie romantische Überraschungen, luxuriöse Annehmlichkeiten und spezielle Arrangements, die ausschließlich für Frischvermählte entworfen wurden. Machen Sie Ihren ersten gemeinsamen Urlaub unvergesslich im LAGO.",
+      "subtitle2": "Besondere Anlässe",
+      "title2": "Pavillon-Erlebnis",
+      "text2": "Verbringen Sie unvergessliche Momente in unseren exklusiven Pavillons, die Privatsphäre, Komfort und personalisierte Services bieten – begleitet von atemberaubenden Ausblicken.",
+      "subtitle3": "Besondere Anlässe",
+      "title3": "Heiratsantrag",
+      "text3": "Planen Sie den perfekten Heiratsantrag mit den romantischen Arrangements von LAGO. Unser erfahrenes Team sorgt dafür, dass jedes Detail für Ihren besonderen Moment wunderschön umgesetzt wird.",
+      "subtitle4": "Besondere Anlässe",
+      "title4": "Geburtstagspakete",
+      "text4": "Feiern Sie Geburtstage mit maßgeschneiderten Paketen im LAGO Hotel. Von speziellen Torten bis zu festlicher Dekoration – wir sorgen dafür, dass Ihre Feier freudig und unvergesslich wird.",
+      "subtitle5": "Besondere Anlässe",
+      "title5": "Hochzeitsservices",
+      "text5": "Mit umfassenden Hochzeitsservices im LAGO Hotel verwandeln wir Ihre Hochzeitsträume in Realität. Unser professionelles Team widmet sich der Schaffung makelloser Erinnerungen.",
+      "subtitle6": "Besondere Anlässe",
+      "title6": "Blumenbestellungen",
+      "text6": "Verbessern Sie Ihre besonderen Anlässe mit individuell gestalteten Blumenarrangements. Im LAGO fertigen wir jeden Strauß sorgfältig an, um Ihren unvergesslichen Momenten Schönheit und Eleganz zu verleihen."
+    },
+    "TwoImageSection": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": "Historische Schätze in der Nähe",
+      "text": "Im LAGO genießen Sie Ihren Urlaub mit exquisiter internationaler Küche in unseren à la carte Restaurants sowie einem endlosen Open Buffet, das köstliche Gerichte bietet, die einzigartig in der türkischen Küche sind, und frische Aromen, die den Geist des Mittelmeers widerspiegeln."
+    }
+  },
+
+  "About": {
+    "subtitle": "GLÜCKLICHE MOMENTE, UNVERGESSLICHE ERINNERUNGEN",
+    "title": "Über Unser Hotel",
+    "InfoSection": {
+      "subtitle": "Hotel LAGO",
+      "title": "Der exakte Ort",
+      "text": "Wir bieten Ihnen ein unvergessliches Urlaubserlebnis in Zimmern, die so gestaltet sind, dass sie unterschiedlichen Geschmäckern und Bedürfnissen gerecht werden, wobei Ästhetik mit Komfort durch auffällige Designs und praktische Grundrisse verbunden wird. Unser Hotel verfügt zudem über beheizte Innenpools, die separat für Erwachsene und Kinder konzipiert sind. Dank der einzigartigen Lage des Hotels bieten die meisten unserer Zimmer atemberaubende Ausblicke auf das Meer und den Pool sowie auf Seen, Flüsse oder Wälder.",
+      "buttonText": "MEHR DARÜBER"
+    },
+    "MissinonVision": {
+      "subtitle": "Hotel LAGO",
+      "title": "Unsere Mission & Vision",
+      "text": "Unsere Mission ist es, unvergleichliche Gastfreundschaft zu bieten und unvergessliche Erinnerungen für unsere Gäste zu schaffen. Wir verpflichten uns zu Exzellenz in jedem Aspekt Ihres Aufenthalts – von personalisierten Dienstleistungen bis hin zu nachhaltigen Praktiken. Unsere Vision ist es, ein führendes Unternehmen in der Gastgewerbebranche zu werden, bekannt für außergewöhnliche Erlebnisse bei gleichzeitiger Wahrung der Umwelt.",
+      "clubsubtitle1": "Hotel LAGO",
+      "clubtitle1": "Warum Lago Hotel wählen?",
+      "clubtext1": "Zudem bietet unser Hotel köstliche Mahlzeiten, die von professionellen Köchen zubereitet werden, einzigartige Bars mit charakteristischen Aromen und Restaurants, die Küchen aus aller Welt präsentieren. Erwachen Sie mit den beruhigenden Klängen von Nachtigallen und anderen Vögeln und genießen Sie unseren funkelnden Pool und das kristallklare Meer. Für Ihren Komfort stellt LAGO zudem eine Vielzahl von Annehmlichkeiten bereit, darunter Sauna, Spa, Fitnesscenter, Herren- und Damenuhren-Salons, Boutique, Juwelier, Fotostudio, Spielzentrum und Einkaufszentrum.",
+      "clubsubtitle2": "Hotel LAGO",
+      "clubtitle2": "ein besonderer Urlaub",
+      "clubtext2": "Unser Hotel liegt nur 50 Meter vom See und 300 Meter vom Fluss entfernt, was hervorragende Möglichkeiten zum Spazierengehen, Joggen, Angeln, Vogelbeobachten von Arten aus aller Welt und zum Erleben der Natur aus nächster Nähe bietet. Zudem befinden wir uns nur 4 km vom Stadtzentrum Manavgats und 6 km vom schönen Manavgat-Wasserfall entfernt. Die antike Stadt Side ist nur 9 km entfernt, wo Sie historische Sehenswürdigkeiten wie das antike Amphitheater, den Apollon-Tempel, das Side-Museum und die weltweit erste Sonnenuhr erkunden können. Entfernungen: Side Stadtzentrum: 9 km, Manavgat Stadtzentrum: 4 km, Flughafen Antalya: 63 km",
+      "buttonText":"Mehr entdecken"
+    }
+  },
+
+  "BlogNews": {
+    "subtitle": "Entdecken Sie Ihren perfekten Kurzurlaub",
+    "title": "Neueste Nachrichten",
+    "InfoSection": {
+      "subtitle": "Perfekte Gourmet-Erlebnisse",
+      "title": "Lago Hotel News",
+      "text": "Eine Welt unvergleichlicher Erlebnisse, in der Luxus auf Komfort trifft und jedes Detail sorgfältig zu Ihrem Vergnügen gestaltet wird. Von ruhigen Spa-Auszeiten und exquisiten kulinarischen Erlebnissen bis hin zu mitreißenden Aktivitäten und unvergesslichen Feiern bietet unser Hotel etwas Außergewöhnliches für jeden.",
+      "secsubtitle1": "Umweltfreundliche Praktiken",
+      "sectitle1": "Nachhaltiger Luxus",
+      "sectext1": "Tauchen Sie ein in das Nonplusultra von Komfort und Eleganz mit unseren luxuriösen Zimmern und Suiten. Jedes Zimmer ist sorgfältig gestaltet, um all Ihre Bedürfnisse zu erfüllen, und bietet moderne Annehmlichkeiten, stilvolle Einrichtung und atemberaubende Ausblicke. Ob Sie sich für ein gemütliches Standardzimmer, eine geräumige Familiensuite oder eine opulente Executive-Suite entscheiden – Sie finden eine Oase, die sich wie Ihr Zuhause anfühlt.",
+      "secsubtitle2": "Pools & Strand",
+      "sectitle2": "Ein Spritzer Spaß",
+      "sectext2": "Tauchen Sie ein in die Schönheit kristallklarer Gewässer in unseren Pools oder entspannen Sie an unserem ruhigen Privatstrand. Mit Liegestühlen, Sonnenschirmen und aufmerksamem Service verwandelt sich jeder Moment in ein Stück Paradies. Familien können sichere und unterhaltsame Wasseraktivitäten genießen, während diejenigen, die Ruhe suchen, sich von den beruhigenden Klängen der Wellen verwöhnen lassen."
+    },
+    "BlogList": {
+      "blogsubtitle1": "GASTRONOMIE",
+      "blogtitle1": "Köstliche Geheimnisse der mediterranen Küche",
+      "blogtext1": "Entdecken Sie einzigartige mediterrane Aromen, kreiert von erfahrenen Köchen im Lago Hotel. Begeben Sie sich auf eine unvergessliche kulinarische Reise mit gesunden, frischen und köstlichen Rezepten.",
+      "blogsubtitle2": "WELLNESS",
+      "blogtitle2": "Spa und Gesundes Leben",
+      "blogtext2": "Beleben Sie Ihren Geist und Körper im LAGO Wellness Center. Verleihen Sie Ihrem Urlaub mit Spa-Behandlungen, Massagen und Fitnessaktivitäten einen gesunden Touch.",
+      "blogsubtitle3": "FAMILIENURLAUB",
+      "blogtitle3": "Eine Welt voller Spaß für Ihre Kinder",
+      "blogtext3": "Der LAGO Kids Club bietet kreative, unterhaltsame und lehrreiche Aktivitäten für Ihre Kinder. Schaffen Sie gemeinsam unvergessliche Familienerinnerungen.",
+      "blogsubtitle4": "REISEN & ENTDECKEN",
+      "blogtitle4": "Entdecken Sie die historischen Wunder von Side",
+      "blogtext4": "Erkunden Sie die faszinierende Atmosphäre des antiken Side. Besuchen Sie den Apollon-Tempel, das antike Theater, das Museum und die weltweit erste Sonnenuhr.",
+      "blogsubtitle5": "NATUR & ABENTEUER",
+      "blogtitle5": "Ein Tag in der Natur in Manavgat",
+      "blogtext5": "Erleben Sie die Ruhe rund um den Manavgat-Wasserfall. Entdecken Sie die Natur neu durch Vogelbeobachtung, Angeln und Wanderaktivitäten.",
+      "blogsubtitle6": "BESONDERE ANLÄSSE",
+      "blogtitle6": "Lago Hotel für traumhafte Flitterwochen",
+      "blogtext6": "Erleben Sie die romantischsten Momente Ihres Lebens mit exklusiven Flitterwochenarrangements im Lago Hotel, die Ihren Urlaub unvergesslich machen.",
+      "blogsubtitle7": "UNTERHALTUNG & AKTIVITÄTEN",
+      "blogtitle7": "Endloser Spaß im Lago Hotel",
+      "blogtext7": "Von Tagesaktivitäten und Strandveranstaltungen bis hin zu spektakulären Nachtshows und Themenpartys – das Lago Hotel verspricht urlaubsfüllte, unterhaltsame Momente.",
+      "blogsubtitle8": "NACHHALTIGER TOURISMUS",
+      "blogtitle8": "Ein umweltfreundliches Urlaubserlebnis",
+      "blogtext8": "Unterstützen Sie nachhaltigen Tourismus durch die umweltfreundlichen Praktiken des Lago Hotels. Genießen Sie Luxusurlaube, während Sie einen positiven Beitrag zum Umweltschutz leisten.",
+      "blogsubtitle9": "TIPPS & EMPFEHLUNGEN",
+      "blogtitle9": "Tipps für den perfekten Urlaub",
+      "blogtext9": "Entdecken Sie praktische Tipps und Empfehlungen, die Ihren Aufenthalt im Lago Hotel angenehmer und komfortabler machen und für einen makellosen Urlaub sorgen.",
+      "buttonText":"Mehr entdecken"
+    }
+  },
+
+  "Contact": {
+    "subtitle": "KONTAKT DES LAGO HOTELS",
+    "title": " Kontaktieren Sie uns",
+    "contact1": "Unsere Adresse:",
+    "contact2": " Telefonnummer",
+    "contact3": "E-Mail Adresse",
+    "Form": {
+      "title": " Schreiben Sie uns gerne eine Nachricht",
+      "text": "Haben Sie etwas auf dem Herzen, das Sie uns mitteilen möchten? Zögern Sie nicht, uns über unser Kontaktformular zu erreichen.",
+      "name": " Vollständiger Name",
+      "address": "E-Mail Adresse",
+      "message": "Ihre Nachricht",
+      "save": " Speichern Sie meinen Namen, meine E-Mail und Webseite in diesem Browser für das nächste Mal, wenn ich kommentiere.",
+      "send": "Nachricht senden"
+    }
+  },
+
+  "Gallery": {
+    "subtitle": "Entdecken Sie das Hotel",
+    "title": "Lago Galerie",
+    "general": "Gesamtansicht",
+    "rooms": "Zimmer",
+    "villa": "Villa",
+    "pool": "Pool & Strand",
+    "flavours": "Geschmäcker",
+    "spa": "Spa & Wellness",
+    "kidsclub": "Kids Club",
+    "entertainment": "Unterhaltung"
   }
 
   }

@@ -127,7 +127,7 @@ const poolItems = [
      <Beach2 />
       <Beach3 />
       <Beach4 />
-      <Beach5 showLink={false} span={t2("subtitle")} header={t2("title")} text={t2("text")} poolItems={poolItems}/>
+      <Beach5 id="pools" showLink={false} span={t2("subtitle")} header={t2("title")} text={t2("text")} poolItems={poolItems}/>
       <ContactSection2 />
       <Form/>
      </div>

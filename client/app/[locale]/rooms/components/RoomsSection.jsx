@@ -33,7 +33,7 @@ const RoomsSection = ({img,img2, header,text,span,span2,link,id, buttonText}) =>
           <h3 className="text-lagoBlack font-marcellus text-[25px] lg:text-[30px] font-normal leading-[125%] -tracking-[0.66px] capitalize">
            {header}
           </h3>
-          <p className="text-lagoBrown font-normal leading-normal text-[14px] lg:text-[16px] w-[93%]">
+          <p className="text-lagoBrown font-normal leading-normal text-[14px] lg:text-[16px] w-[93%] line-clamp-5">
            {text}
           </p>
           <div className="flex w-full items-center justify-start gap-[27px]">

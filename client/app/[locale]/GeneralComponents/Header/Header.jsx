@@ -240,7 +240,7 @@ export default function Header() {
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
                   isRoomsOpen
-                    ? "max-h-[200px] opacity-100"
+                    ? "max-h-[300px] opacity-100"
                     : "max-h-0 opacity-0"
                 }`}
               >
@@ -280,6 +280,12 @@ export default function Header() {
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                        {t("duplex")}
+                  </Link>
+                  <Link
+                    href="/rooms/tinyvilla"
+                    className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
+                  >
+                       {t("tinyvilla")}
                   </Link>
                 </div>
               </div>
@@ -358,7 +364,7 @@ export default function Header() {
 
 
 
-            <button
+            <span
                 onClick={() => setIsFormOpen(true)}
               className="
              flex justify-center
@@ -377,8 +383,8 @@ export default function Header() {
               px-[19px]
             "
             >
-              LET US CALL YOU
-            </button>
+             {t("letuscallyou")}
+            </span>
               {/* Contact Form bileşeni burada çağrılıyor */}
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
 

@@ -3,6 +3,7 @@ import Image from "next/image"
 import image1 from "../Image/HeaderPage.webp"
 import { CiLocationOn } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
+import {useTranslations} from 'next-intl';
 
 // Divider bileşeni: md ve üzeri ekranlarda görünür, responsive negatif margin ile sola kayar.
 const Divider = () => (
@@ -25,6 +26,8 @@ const ContactColumn = ({ icon, title, children }) => (
 );
 
 const Page = () => {
+  const t = useTranslations('Contact');
+
   return (
     <div className='flex flex-col justify-center items-center mb-[4%] w-screen'>
       {/* Resim ve overlay container */}
@@ -38,10 +41,10 @@ const Page = () => {
         />
         <div className='absolute inset-0 flex flex-col justify-center items-center text-center gap-[30px] lg:gap-[50px]'>
           <h1 className="font-jost text-[12px] md:text-[16px] font-medium leading-[14px] tracking-[0.6px] uppercase text-white">
-            LAGO HOTEL CONTACT
+            {t("subtitle")}
           </h1>
           <p className="font-jost text-[40px] lg:text-[56px] md:text-[80px] font-medium leading-[48px] md:leading-[64px] tracking-[-1.6px] text-white">
-            Connect with Us
+          {t("title")}
           </p>
         </div>
       </div>
@@ -49,13 +52,13 @@ const Page = () => {
       {/* İletişim bilgileri: Özel grid yapısı */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_1fr_auto_1fr] justify-start items-start w-[87.79%] md:w-[91.4%] lg:w-[76.8%] lg:min-w-[976px] xl:w-[1106px] gap-[30px] md:gap-[50px] xl:gap-[79px] mt-[100px]'>
         
-        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Our Address:">
+        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title={t("contact1")}>
        <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F] whitespace-nowrap'>Sorgun, Titreyengöl Mevkii <br /> 07600 Manavgat/Antalya</span>
         </ContactColumn>
         
         <Divider />
         
-        <ContactColumn icon={<FiPhone size={22} className='mt-1' color='#1D1D1B'/>} title="Phone Number:">
+        <ContactColumn icon={<FiPhone size={22} className='mt-1' color='#1D1D1B'/>} title={t("contact2")}>
          <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'>
          +90 242 756 99 00<br />+90 242 524 57 87
          </span>
@@ -63,7 +66,7 @@ const Page = () => {
         
         <Divider />
         
-        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title="Email Address:">
+        <ContactColumn icon={<CiLocationOn size={28} color='#1D1D1B'/>} title={t("contact3")}>
          <span className='text-[16px] lg:text-[18px] font-normal leading-normal lg:leading-[26px] tracking-[0.72px] text-[#4B4E4F]'> sales@lagohotel.com<br />info@lagohotel.com</span>
         </ContactColumn>
       </div>

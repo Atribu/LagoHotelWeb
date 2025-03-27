@@ -12,6 +12,7 @@ const MissionColumn = ({
   paragraph,
   showLink,
   link,
+  buttonText
 }) => (
   <div className="flex flex-col w-full md:w-[49%] items-start justify-center text-start gap-[15px] lg:gap-[25px] font-jost text-black">
     <Image
@@ -35,7 +36,7 @@ const MissionColumn = ({
         href={link}
         className="flex w-[170.585px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[14px] lg:text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase"
       >
-        MORE ABOUT
+      {buttonText}
       </Link>
     )}
   </div>
@@ -50,6 +51,7 @@ const MissionVisionSection = ({
   showLink,
   link1,
   link2,
+  buttonText
 }) => {
   // embla carousel hook'u (mobilde kullanılacak)
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -102,14 +104,16 @@ const MissionVisionSection = ({
             paragraph={texts[2]}
             showLink={showLink}
             link={link1}
+            buttonText={buttonText}
           />
           <MissionColumn
             img={rightImg}
-            spanText={texts2[0]}
-            heading={texts2[1]}
+            spanText={texts3[0]}
+            heading={texts3[1]}
             paragraph={texts3[2]}
             showLink={showLink}
             link={link2}
+            buttonText={buttonText}
           />
         </div>
 
@@ -124,6 +128,7 @@ const MissionVisionSection = ({
                 paragraph={texts[2]}
                 showLink={showLink}
                 link={link1}
+                buttonText={buttonText}
               />
             </div>
             <div className="flex-[0_0_100%]">
@@ -134,6 +139,7 @@ const MissionVisionSection = ({
                 paragraph={texts3[2]}
                 showLink={showLink}
                 link={link2}
+                buttonText={buttonText}
               />
             </div>
           </div>

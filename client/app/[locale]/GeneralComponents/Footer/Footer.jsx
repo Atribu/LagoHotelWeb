@@ -40,7 +40,7 @@ export default function Footer() {
                 <li className="hover:text-white cursor-pointer">{t('portfolio')}</li>
                 <li className="hover:text-white cursor-pointer">{t('product')}</li>
                 <li className="hover:text-white cursor-pointer">
-                  <Link href="/news">Blog</Link>
+                  <Link href="/news">{t("blog")}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">{t('faq')}</li>
               </ul>

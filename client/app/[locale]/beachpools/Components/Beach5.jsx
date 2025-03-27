@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from 'next/link'
 // Resim importları: 9 farklı resim dosyanızın doğru yollarını eklediğinizden emin olun.
 
-const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
+const Beach5 = ({span,header,text,poolItems, showLink,links=[], buttonText}) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
     align: "start",
     startIndex: 0, });
@@ -66,14 +66,14 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[]}) => {
                 <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase '>
                   {pool.subtitle}
                 </p>
-                <h5 className='font-marcellus text-[25px] leading-normal whitespace-nowrap lg:leading-normal uppercase lg:capsizedText3'>
-                  {pool.title}
+                <h5 className='font-marcellus w-[100%] text-[25px] leading-normal lg:leading-normal uppercase lg:capsizedText3'>
+                {pool.title}
                 </h5>
                 <p className='font-jost text-[12px] lg:text-[14px] leading-[21px] lg:capsizedText4'>
                   {pool.description}
                 </p>
                 {showLink && (
-            <Link href={links[index]} className='flex w-[147px] py-[14px] whitespace-nowrap px-[28px] font-jost text-[14px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>MORE ABOUT</Link>
+            <Link href={links[index]} className='flex w-[147px] py-[14px] whitespace-nowrap px-[28px] font-jost text-[14px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase'>{buttonText}</Link>
         )
         }
               </div>

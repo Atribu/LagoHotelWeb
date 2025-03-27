@@ -99,7 +99,7 @@ export default function HomePage4() {
 
       {/* Alt kısım: Discover More link/button */}
       <div className="hidden lg:flex ">
-        <Link href="connect" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
+        <Link href="/special" className="flex border-b font-marcellus border-lagoBlack text-lagoBlack uppercase text-[16px] font-normal leading-[30px] transition cursor-pointer">
         {t('buttonText')}
         </Link>
       </div>

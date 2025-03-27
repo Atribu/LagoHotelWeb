@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import DropdownCookieArrow from "./Contact/icons/DropdownCookieArrow";
 import logosvg from "./Header/Icons/Asset2.svg";
@@ -27,7 +27,9 @@ const ModalPortal = ({ children, onClose }) => {
 
 const CookiePopup = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isVisible, setIsVisible] = usePersistentState('isVisible', true);
+  const [isVisible, setIsVisible] = useState(true);
+    // hasMounted state'i ekliyoruz
+    const [hasMounted, setHasMounted] = useState(false);
 
   const buttonsData = [
     { id: 0, label: "Cookie Policy" },
@@ -50,57 +52,54 @@ const CookiePopup = () => {
     targeting: false,
   });
 
-  function usePersistentState(key, initialValue) {
-    // Başlangıçta localStorage'dan değeri okuyup state'i ayarla.
-    const [state, setState] = useState(() => {
-      if (typeof window === 'undefined') return initialValue;
-      try {
-        const item = window.localStorage.getItem(key);
-        return item ? JSON.parse(item) : initialValue;
-      } catch (error) {
-        console.error(error);
-        return initialValue;
-      }
-    });
-  
-    // state her değiştiğinde localStorage'ı güncelle.
+
+    // Sayfa yüklendiğinde tercihleri yükle
     useEffect(() => {
-      try {
-        window.localStorage.setItem(key, JSON.stringify(state));
-      } catch (error) {
-        console.error(error);
+      setHasMounted(true);
+      const savedPreferences = loadPreferences();
+      if (savedPreferences) {
+        // Tercihler kaydedilmişse popup'ı gösterme
+        setIsVisible(false);
+      } else {
+        // Tercihler kaydedilmemişse popup'ı göster
+        setIsVisible(true);
       }
-    }, [key, state]);
+    }, []);
   
-    return [state, setState];
-  }
+    // Tercihleri kaydet ve popup'ı kapat
+    const handleConfirm = () => {
+      savePreferences(cookies);
+      console.log("Kullanıcı Tercihleri Onaylandı:", cookies);
+      setIsVisible(false);
+    };
 
-  const handleAcceptAll = () => {
-    // const allAccepted = {
-    //   necessary: true,
-    //   performance: true,
-    //   functional: true,
-    //   targeting: true,
-    // };
-    // setCookies(allAccepted);
-    // savePreferences(allAccepted);
-    console.log("Tüm Çerezler Kabul Edildi:");
-    setIsVisible(false);
-  };
-
-  // Tüm çerezleri reddet ve popup'ı kapat
-  const handleDenyAll = () => {
-    // const allDenied = {
-    //   necessary: true, // Zorunlu çerezler her zaman aktiftir
-    //   performance: false,
-    //   functional: false,
-    //   targeting: false,
-    // };
-    // setCookies(allDenied);
-    // savePreferences(allDenied);
-    console.log("Tüm Çerezler Reddedildi:");
-    setIsVisible(false);
-  }
+        // Tüm çerezleri kabul et ve popup'ı kapat
+        const handleAcceptAll = () => {
+          const allAccepted = {
+            necessary: true,
+            performance: true,
+            functional: true,
+            targeting: true,
+          };
+          setCookies(allAccepted);
+          savePreferences(allAccepted);
+          console.log("Tüm Çerezler Kabul Edildi:", allAccepted);
+          setIsVisible(false);
+        };
+      
+        // Tüm çerezleri reddet ve popup'ı kapat
+        const handleDenyAll = () => {
+          const allDenied = {
+            necessary: true, // Zorunlu çerezler her zaman aktiftir
+            performance: false,
+            functional: false,
+            targeting: false,
+          };
+          setCookies(allDenied);
+          savePreferences(allDenied);
+          console.log("Tüm Çerezler Reddedildi:", allDenied);
+          setIsVisible(false);
+        }
 
   const handleToggle = (type) => {
     setCookies((prevCookies) => ({
@@ -114,8 +113,83 @@ const CookiePopup = () => {
   const [isDropdown3Open, setIsDropdown3Open] = useState(false);
   const [isDropdown4Open, setIsDropdown4Open] = useState(false);
 
-  const contents = [
+  const setCookie = (name, value, days) => {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+  };
   
+  // Çerez silme fonksiyonu
+  const deleteCookie = (name) => {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  };
+  
+  // Çerez yükleme fonksiyonu
+  const getCookie = (name) => {
+    const cookieName = name + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookieArray = decodedCookie.split(';');
+    for (let i = 0; i < cookieArray.length; i++) {
+      let cookie = cookieArray[i];
+      while (cookie.charAt(0) === ' ') {
+        cookie = cookie.substring(1);
+      }
+      if (cookie.indexOf(cookieName) === 0) {
+        return cookie.substring(cookieName.length, cookie.length);
+      }
+    }
+    return "";
+  };
+
+  const savePreferences = (preferences) => {
+    // Tercihleri çerez olarak kaydet
+    setCookie("cookiePreferences", JSON.stringify(preferences), 365);
+  
+    // Konsola kaydedilen tercihleri yazdır
+    console.log("Çerez Tercihleri Kaydedildi:", preferences);
+  
+    // Tercihlere göre çerezleri ayarla
+    if (preferences.performance) {
+      setCookie("performanceCookie", "active", 365);
+      console.log("Performance Çerezi Aktif Edildi.");
+    } else {
+      deleteCookie("performanceCookie");
+      console.log("Performance Çerezi Silindi.");
+    }
+  
+    if (preferences.functional) {
+      setCookie("functionalCookie", "active", 365);
+      console.log("Functional Çerezi Aktif Edildi.");
+    } else {
+      deleteCookie("functionalCookie");
+      console.log("Functional Çerezi Silindi.");
+    }
+  
+    if (preferences.targeting) {
+      setCookie("targetingCookie", "active", 365);
+      console.log("Targeting Çerezi Aktif Edildi.");
+    } else {
+      deleteCookie("targetingCookie");
+      console.log("Targeting Çerezi Silindi.");
+    }
+  };
+
+  // -----------
+  const loadPreferences = () => {
+    const preferences = getCookie("cookiePreferences");
+    if (preferences) {
+      console.log("Kaydedilmiş Çerez Tercihleri Yüklendi:", JSON.parse(preferences));
+      return JSON.parse(preferences);
+    }
+    console.log("Kaydedilmiş Çerez Tercihi Bulunamadı. Varsayılan Tercihler Kullanılıyor.");
+    return null
+  };
+  
+  
+
+  const contents = [
+    // third button
     <div className="flex flex-col h-full w-[96%] text-start font-jost items-start justify-start  gap-[7.5px] overflow-y-scroll thin-scrollbar max-h-[500px]">
       <div className="flex w-full p-[10px] items-center justify-start gap-[14px] border-b border-[#a6a6a6] pr-[2%]">
         <div
@@ -965,6 +1039,11 @@ const CookiePopup = () => {
     setIsVisible(false);
   };
 
+    // Eğer component henüz mount olmadıysa, hiçbir şey render etmeyelim.
+    if (!hasMounted) {
+      return null;
+    }
+
   return (
     isVisible && (
       <div className="fixed flex z-[9999] bottom-0 bg-[rgba(29,29,27,0.70)] backdrop-blur-[10px] right-0 left-0 w-screen items-center justify-center">
@@ -1089,19 +1168,19 @@ const CookiePopup = () => {
                         {contents[selectedContent]}
                       </div>
                       <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] mb-[20px] lg:mt-[21.5px] lg:mb-6 font-jost">
-                        <button className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px]">
+                        <button onClick={handleDenyAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px]">
                           Deny All Cookies
                         </button>
-                        <button className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px]">
+                        <button onClick={handleAcceptAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px]">
                           Accept All Cookies
                         </button>
                       </div>
 
                       <div className="absolute bottom-[14vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-jost">
-                        <button className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px] w-[44vw]">
+                        <button onClick={handleDenyAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px] w-[44vw]">
                           Deny All Cookies
                         </button>
-                        <button className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px] w-[44vw]">
+                        <button onClick={handleAcceptAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px] w-[44vw]">
                           Accept All Cookies
                         </button>
                       </div>

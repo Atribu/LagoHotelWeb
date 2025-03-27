@@ -20,6 +20,7 @@ import TeaCoffeeSvg from "./TeaCoffeeSvg";
 import LedTvSvg from "./LedTvSvg";
 import BalconySvg from "./BalconySvg";
 import {useTranslations} from 'next-intl';
+import Link from "next/link"
 
 
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts}) => {
@@ -103,7 +104,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
                     height={35}
                   />
                 </div>
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] whitespace-nowrap">
+                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px] ">
                 {iconsTexts[1]}
                 </p>
               </div>
@@ -365,7 +366,10 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts})
        
         </div>
             
-            <button onClick={() => console.log("Final Guest Information:", guestInfo)} type="button" className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">{t2("booknow")}</button>
+            <Link href="https://lagohotel.orsmod.com/"
+           rel="norefferer nofollower"
+                  target="_blank"
+              className="flex p-5 text-white items-center justify-center text-center bg-lagoBlack border h-[47px] border-lagoBlack lg:w-[175px] shadow-buttonCustom text-[16px] uppercase font-semibold font-jost leading-[120%] hover:bg-white hover:underline hover:text-lagoBlack">{t2("booknow")}</Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-[17px] bg-white py-[15px] shadow-divCustom">
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">{t2("contact")}</h4>

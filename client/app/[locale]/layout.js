@@ -34,14 +34,13 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-            <NextIntlClientProvider>
-          <meta name="theme-color" content="#FBFBFBCC" />
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <NextIntlClientProvider>
         <Header />
         <HeaderWhite/>
        
         {children}
+        
         <BookNow/>
         <CookiePopup/>
         <Footer />

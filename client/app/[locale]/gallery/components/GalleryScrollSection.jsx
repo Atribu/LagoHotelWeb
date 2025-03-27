@@ -1,5 +1,7 @@
 "use client"
 import React, { useState } from "react"
+import {useTranslations} from 'next-intl';
+
 import Image from "next/image"
 import img1 from "../images/genel/DJI_0017.webp"
 import img2 from "../images/genel/DJI_0020.webp"
@@ -180,23 +182,24 @@ import villa9 from "../images/villa/SRF_2253.webp"
 import villa10 from "../images/villa/SRF_2266.webp"
 import villa11 from "../images/villa/SRF_2276.webp"
 
-// Kategorilere göre resimler
+const GalleryScrollSection = () => {
+  const t = useTranslations('Gallery');
+
+  // Kategorilere göre resimler
 const imageCategories = {
-  "GENERAL VIEW": [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img39, img40, img41, img42, img43, img44, img45],
-  ROOMS: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25,rooms26],
-  VILLA: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11],
-  "POOL & BEACH": [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20],
-  FLAVOURS: [flavours1, flavours2, flavours3, flavours4, flavours5,flavours6,flavours7,flavours8,flavours9,flavours10,flavours11,flavours12,flavours13,flavours14,flavours15,flavours16,flavours17,flavours18,flavours19,flavours20,flavours21,flavours22,flavours23,flavours24,flavours25,flavours26,flavours27,flavours28,flavours29],
-  "SPA & FITNESS": [spa1, spa2, spa3, spa4, spa5],
-  "KIDS CLUB": [kidsclub1, kidsclub2, kidsclub3, kidsclub4, kidsclub5,kidsclub6,kidsclub7,kidsclub8,kidsclub9,kidsclub10,kidsclub11,kidsclub12,kidsclub13,kidsclub14,kidsclub15],
-  ENTERTAINMENT: [entertainment1, entertainment2, entertainment3, entertainment4, entertainment5,entertainment6,entertainment7,entertainment8,entertainment9,entertainment10,entertainment11,entertainment12,entertainment13,entertainment14,entertainment15,entertainment16,entertainment17,entertainment18,entertainment19,entertainment20],
+  [t("general")]: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img39, img40, img41, img42, img43, img44, img45],
+  [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25,rooms26],
+  [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11],
+  [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20],
+  [t("flavours")]: [flavours1, flavours2, flavours3, flavours4, flavours5,flavours6,flavours7,flavours8,flavours9,flavours10,flavours11,flavours12,flavours13,flavours14,flavours15,flavours16,flavours17,flavours18,flavours19,flavours20,flavours21,flavours22,flavours23,flavours24,flavours25,flavours26,flavours27,flavours28,flavours29],
+  [t("spa")]: [spa1, spa2, spa3, spa4, spa5],
+  [t("kidsclub")]: [kidsclub1, kidsclub2, kidsclub3, kidsclub4, kidsclub5,kidsclub6,kidsclub7,kidsclub8,kidsclub9,kidsclub10,kidsclub11,kidsclub12,kidsclub13,kidsclub14,kidsclub15],
+  [t("entertainment")]: [entertainment1, entertainment2, entertainment3, entertainment4, entertainment5,entertainment6,entertainment7,entertainment8,entertainment9,entertainment10,entertainment11,entertainment12,entertainment13,entertainment14,entertainment15,entertainment16,entertainment17,entertainment18,entertainment19,entertainment20],
 }
 
 const categories = Object.keys(imageCategories)
-
-const GalleryScrollSection = () => {
   // Seçili kategori (başlangıçta "GENERAL VIEW")
-  const [selectedCategory, setSelectedCategory] = useState("GENERAL VIEW")
+  const [selectedCategory, setSelectedCategory] = useState(categories[0])
   const [modalImage, setModalImage] = useState(null) // Seçilen resmi tutacak state
 
   return (

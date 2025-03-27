@@ -31,7 +31,7 @@ const OtherOptions = () => {
       size: t("m2"),
       capacity: t("capacity2"),
       text: t("text2"),
-      link: "/rooms/swimup",
+      link: "/rooms/swimuproom",
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const OtherOptions = () => {
       size: t("m3"),
       capacity: t("capacity3"),
       text: t("text3"),
-      link: "/rooms/superior",
+      link: "/rooms/superiorroom",
     },
   ];
 
@@ -105,14 +105,14 @@ const OtherOptions = () => {
                     <div className="flex items-center justify-center gap-[10px]">
                       <BiArea size={18}/>
                       <p className="text-lagoBrown text-[14px] lg:text-[16px] font-normal leading-normal">
-                      30-32 m2
+                      {room.size}
                     </p>
                     </div>
                     
                     <div className="flex items-center justify-center gap-[10px]">
                      <BiGroup size={19} />
                      <p className="text-lagoBrown text-[14px] lg:text-[16px] font-normal leading-normal">
-                      2 adults + 1 child
+                     {room.capacity}
                     </p>
                     </div>
                     
@@ -124,7 +124,7 @@ const OtherOptions = () => {
                     href={room.link}
                     className="flex text-lagoBrown leading-[30px] uppercase font-medium text-[12px] lg:text-[14px] px-[40px] py-[20px] border border-lagoBrown text-center justify-center items-center h-[41px]"
                   >
-                    Learn more
+                  {t("buttonText")}
                   </Link>
                 </div>
               </div>
