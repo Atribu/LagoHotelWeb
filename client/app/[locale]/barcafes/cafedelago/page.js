@@ -33,8 +33,8 @@ const page = () => {
     {
         id: 1,
         img: piano,
-        title: t4("cuisines1subtitle"),
-        description: t4("cuisines1title"),
+        title: t4("cuisines1title"),
+        description: t4("cuisines1subtitle"),
         text: t4("cuisines1text"),
         link:"/barcafes/piano",
         buttonText:t4("buttonText")
@@ -42,8 +42,8 @@ const page = () => {
     {
         id: 2,
         img: abella,
-        title: t4("cuisines2subtitle"),
-        description: t4("cuisines2title"),
+        title: t4("cuisines2title"),
+        description: t4("cuisines2subtitle"),
         text: t4("cuisines2text"),
         link:"/barcafes/abellapatisserie",
         buttonText:t4("buttonText")
@@ -51,8 +51,8 @@ const page = () => {
       {
         id: 3,
         img: lago,
-        title: t4("cuisines3subtitle"),
-        description: t4("cuisines3title"),
+        title: t4("cuisines3title"),
+        description: t4("cuisines3subtitle"),
         text: t4("cuisines3text"),
          link:"/barcafes/cafedelago",
          buttonText:t4("buttonText")
@@ -60,8 +60,8 @@ const page = () => {
       {
         id: 4,
         img: house,
-        title: t4("cuisines3subtitle"),
-        description: t4("cuisines3title"),
+        title: t4("cuisines4title"),
+        description: t4("cuisines4subtitle"),
         text: t4("cuisines3text"),
          link:"/barcafes/cafedehouse",
          buttonText:t4("buttonText")
@@ -73,7 +73,7 @@ const page = () => {
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
       <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")}/>
-      <OtherOptions4 span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={otherOptions}/>
+      <OtherOptions4 span={t4("subtitle")} header={t4("title")} text={t4("text")} images={otherOptions}/>
       <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/restaurant" img={backgroundImg} buttonText={t5("buttonText")}/>
       <ContactSection2/>
     </div>

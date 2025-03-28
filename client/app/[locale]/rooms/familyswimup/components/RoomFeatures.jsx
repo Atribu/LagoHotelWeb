@@ -23,9 +23,9 @@ import {useTranslations} from 'next-intl';
 import Link from "next/link"
 
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts}) => {
-  const t = useTranslations('SuperiorRoom.RoomInfo');
-  const t2 = useTranslations('SuperiorRoom.ReservationWidget');
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName}) => {
+  const t = useTranslations(`${roomName}.RoomInfo`);
+  const t2 = useTranslations(`${roomName}.ReservationWidget`);
 
   const items = [
     { text: t("madde1"), icon: PoolSvg2 },
