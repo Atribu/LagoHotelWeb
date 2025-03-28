@@ -7,7 +7,7 @@ export const routing = defineRouting({
   // Used when no locale matches
   defaultLocale: 'tr',
   localeDetection: true,
-  localePrefix : "as-needed",
+  localePrefix : "always",
   pathnames : {
     "/": {
       tr: "/",

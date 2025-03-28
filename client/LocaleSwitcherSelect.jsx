@@ -48,6 +48,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
                   onClick={() => handleLangChange(child.props.value)}
                 >
                   {child.props.value}
+                  
                 </li>
               );
             })}
