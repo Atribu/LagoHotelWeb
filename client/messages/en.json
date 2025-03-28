@@ -1119,14 +1119,13 @@
     "Spa":{
       "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
       "title":"Spa & Wellness",
-      "mobileTitle":" Relax and recharge. Enjoy a high-quality professional massage at our wellness center and experience comprehensive physical and mental rejuvenation.",
-      "text":"  Relax and recharge. Enjoy a high-quality professional massage at our wellness center and experience comprehensive physical and mental rejuvenation.",
+      "mobileTitle":" “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
+      "text":"  “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
       
       "InfoSection":{
-      
-          "subtitle":"Perfect Fine Dine Experiences",
+          "subtitle":"Refresh & Rejuvenates",
           "title":"Wellness at LAGO Hotel",
-          "text":" For those looking to stay in shape while on vacation, our Fitness Center, equipped with professional equipment, offers daily workouts. After exercising, you can relax your body and mind with a professional massage in our SPA, unwind in our traditional Turkish Bath, or rejuvenate yourself in the Finnish Sauna.",
+          "text":" Experience complete relaxation and rejuvenation at our Spa & Wellness Center. Indulge in professional massages, enjoy the soothing warmth of our traditional Turkish Bath, or refresh your senses in our Finnish Sauna. Your journey to tranquility begins here.",
        
           "subtitle2":"Physical and Mental Rejuvenation",
           "title2":" Sauna & Turkish Bath",
@@ -1144,15 +1143,15 @@
        },
 
        "SpaGallery":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Ultimate Relaxation Awaits",
         "title":"Rejuvenate Your Senses at LAGO",
-        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages designed to refresh both body and mind."
+        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages, expertly designed to refresh your body, mind, and spirit.”"
        },
 
        "Carousel":{
-        "subtitle":"RELAX AND FORGET",
-        "title":"Massage Options",
-        "text":" Enhance your vacation with our wide selection of massages provided by expert therapists, designed to relax your body and mind. At LAGO, a perfect massage therapy awaits for every need.",
+        "subtitle":"RELAX & UNWIND",
+        "title":"Massage Experiences at LAGO",
+        "text":" “Enhance your vacation with our extensive range of massages, expertly tailored by professional therapists to soothe your body and mind. At LAGO, the perfect massage experience is waiting to fulfill your every need.”",
         "massage1":"Aromatherapy Massage",
         "massageText1":"DURATION: 60 MIN",
         "massage2":"Oriental Massage",
@@ -1644,17 +1643,17 @@
 
 
     "Fitness":{
-      "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
+      "subtitle":"STAY ACTIVE AT LAGO",
       "title":"Sports & Fitness",
-      "mobileTitle":"Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate both your body and mind.",
-      "text":"Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate both your body and mind.",
+      "mobileTitle":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
+      "text":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
       
       "InfoSection":{
-          "subtitle":"Perfect Fine Dine Experiences",
-          "title":" Stay Fit at LAGO Hotel",
-          "text":" For those looking to stay in shape while on vacation, our Fitness Center, equipped with professional equipment, offers daily workouts. After exercising, you can relax your body and mind with a professional massage in our SPA, unwind in our traditional Turkish Bath, or rejuvenate yourself in the Finnish Sauna.",
+          "subtitle":"Stay Fit at LAGO Hotel",
+          "title":" Sports & Fitness",
+          "text":" “Maintain your fitness routine during your vacation at LAGO’s fully-equipped Fitness Center, featuring professional workout equipment and daily exercise opportunities. Participate in energizing sports activities, stay active with group sessions, and experience an invigorating holiday.",
        
-          "subtitle2":" Healthy Living and Staying Fit",
+          "subtitle2":" Stay Active & Energized",
           "title2":"Beach Voleyball & Personal Trainer",
           "text2":" Opening Hours: 08:00 - 20:00",
 
@@ -1670,9 +1669,9 @@
        },
 
        "SpaGallery":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Stay Active & Energized",
         "title":"Keep Fit in Style at LAGO",
-        "text":" Enjoy exercising in LAGO's modern and professionally equipped fitness center, offering a variety of workout options suitable for all fitness levels. Boost your energy and stay healthy during your vacation."
+        "text":" “Enjoy exercising in LAGO’s modern, professionally equipped fitness center, featuring diverse workout options suitable for all fitness levels. Stay energized, maintain your routine, and enhance your well-being throughout your vacation.”"
        },
 
        "Carousel":{
@@ -1702,7 +1701,7 @@
     "Entertainment":{
      "subtitle":"  Daily Activities & Evening Shows",
         "title":" Endless Entertainment Awaits You",
-        "text":" Experience unforgettable moments at LAGO with a diverse range of daily activities and spectacular evening entertainment. From energetic daytime games to dazzling night performances, every moment is filled with joy and excitement.",
+        "text":" Create unforgettable memories at LAGO with our vibrant daily activities and spectacular evening shows. From energetic games and exciting sports during the day to breathtaking performances at night, your vacation is guaranteed to be filled with joy and excitement at every turn.",
 
         "InfoSection":{
           "experiences":"Experiences",
@@ -1713,8 +1712,8 @@
 
        "CarouselSection":{
         "subtitle":" Entertainment & Activities",
-        "title":" Events Are Held Daily",
-        "text":" LAGO, offering a variety of activities such as disco, bocce, beach volleyball, table tennis, cinema, beach games, water sports, and evening entertainment, is ready to welcome you with countless sporting and leisure options for a memorable vacation experience.",
+        "title":" Exciting Events Every Day",
+        "text":" “At LAGO, an exciting array of daily events and activities awaits you. From lively discos, bocce, beach volleyball, and table tennis to beach games, water sports, and spectacular evening shows, we offer endless sporting and leisure opportunities for an unforgettable vacation.”",
         "daytime":"DAYTIME ACTIVITIES",
         "nighttime":" NIGHT-TIME ACTIVITIES",
 
@@ -1730,20 +1729,14 @@
         "title4":"Beach Activities",
         "description4":" Enjoy sunny days with our diverse beach activities such as beach volleyball, bocce, and fun group games, bringing joy and excitement to every moment.",
         
-        "title5":"Tennis",
-        "description5":" Whether you’re a beginner or an expert, enjoy playing tennis on our professional courts. Sharpen your skills or challenge yourself during your stay at LAGO.",
-      
-        "title6":"Cinema",
-        "description6":" Experience unforgettable movie nights with family and friends in our cinema, featuring popular films in a comfortable and enjoyable setting.",
-        
-        "title7":" Sunset Parties",
-        "description7":" Dance and unwind with vibrant music and refreshing cocktails at LAGO’s unforgettable sunset parties, celebrating the end of another beautiful day.",
+        "title5":" Sunset Parties",
+        "description5":" Dance and unwind with vibrant music and refreshing cocktails at LAGO’s unforgettable sunset parties, celebrating the end of another beautiful day.",
        
-        "title8":"Stage Shows",
-        "description8":" Enjoy spectacular stage shows featuring professional performers and captivating productions, designed to entertain guests of all ages.",
+        "title6":"Stage Shows",
+        "description6":" Enjoy spectacular stage shows featuring professional performers and captivating productions, designed to entertain guests of all ages.",
       
-        "title9":" Themed Parties",
-        "description9":" Join our themed parties, featuring creative concepts, colorful decorations, and exciting music, creating unforgettable evenings filled with fun."
+        "title7":" Themed Parties",
+        "description7":" Join our themed parties, featuring creative concepts, colorful decorations, and exciting music, creating unforgettable evenings filled with fun."
         
        },
 
@@ -1756,16 +1749,16 @@
     },
 
     "KidsClub":{
-      "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
+      "subtitle":"Fun & Adventure for Little Guests!",
       "title":"Bamboo Kids Club",
-      "text":" Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate your body and refresh your mind.",
+      "text":" Bamboo Kids Club welcomes children aged 4-12 with a variety of fun-filled activities, engaging games, creative workshops, playgrounds, and mini discos. At LAGO, your kids will enjoy unforgettable adventures in a safe and entertaining environment!",
       "gallerytitle":"Every Moment is Worth Sharing",
    
 
     "InfoSection":{
-      "subtitle":" A Safe and Fun Space for All Ages",
-      "title":"Unforgettable Memories",
-      "text":" At Bamboo Kids Club, we offer age-appropriate activities, professional caregivers, and a secure environment, providing the perfect setting for your child to learn, play, and grow.",
+      "subtitle":" Fun & Safe for All Ages",
+      "title":"Unforgettable Memories at Bamboo Kids Club",
+      "text":" “At Bamboo Kids Club, we provide age-appropriate activities, engaging games, and caring professional staff in a safe and joyful environment. Your children will create unforgettable memories while playing, learning, and making new friends.”",
       "span":"Opening Hours: 08:00 - 20:00",
       "age1":"Ages 4-7",
       "title1":"Mini Club",
@@ -1816,15 +1809,15 @@
       "title":" Kid Pools",
       "text":"  Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla.",
       "cuisines1subtitle":" Bamboo Kids Club ",
-      "cuisines1title":"Maldivas Pool",
-       "cuisines1text":" Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines1title":"Maldiva Kids Pool",
+       "cuisines1text":" Specially designed 85 m² Maldiva Kids Pool provides a safe and fun swimming experience for children.",
        "buttonText":" Discover More",
        "cuisines2subtitle":"Bamboo Kids Club",
-      "cuisines2title":"Kid Aqua Pool",   
-      "cuisines2text":"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines2title":"Kids’ Aquapark Pool",   
+      "cuisines2text":"Our Kids’ Aquapark Pool with 5 slides offers safe fun and unforgettable memories.",
       "cuisines3subtitle":"Bamboo Kids Club ",
       "cuisines3title":"Indoor Kids Pool",   
-      "cuisines3text":"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
+      "cuisines3text":"“Enjoy endless fun in any weather at our Indoor Kids Pool, specially designed for our little guests. Kids can safely splash, swim, and play under the attentive supervision of our professional staff. It’s the perfect spot for joyful, year-round entertainment!”"
     }
   },
 

@@ -36,7 +36,7 @@ const ContactDetails = () => {
 
           {/* Desktop görünüm (lg ve üstü) */}
           <span className="hidden lg:block">
-          {t('address')}
+          Sorgun Mah. Titreyengol Mevkii No:26 Manavgat/ Antalya / TR 
           </span>
           <span className="hidden lg:block">
           {t('phone')}
@@ -45,7 +45,7 @@ const ContactDetails = () => {
           {t('callcenter')}
           </span>
           <span className="hidden lg:block">
-          {t('email')}
+         Email: info@lagohotel.com
           </span>
         </p>
         <div className="flex gap-[20px] whitespace-nowrap">

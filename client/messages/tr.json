@@ -1055,16 +1055,15 @@
       },
 
       "Spa": {
-    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "subtitle": "LAGO WELLNESS CENTER’DA RAHATLAYIN",
     "title": "Spa & Wellness",
-    "mobileTitle": "Rahatlayın ve şarjınızı yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın ve kapsamlı fiziksel ve zihinsel yenilenmeyi deneyimleyin.",
-    "text": "Rahatlayın ve şarjınızı yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın ve kapsamlı fiziksel ve zihinsel yenilenmeyi deneyimleyin.",
+    "mobileTitle": "“LAGO Wellness Center’da rahatlayın ve yenilenin. Lüks profesyonel masajlar ve size özel uygulamalarla bedeninizi ve zihninizi canlandırın, kendinizi tamamen tazelenmiş ve huzurlu hissedin.”",
+    "text": "“LAGO Wellness Center’da rahatlayın ve yenilenin. Lüks profesyonel masajlar ve size özel uygulamalarla bedeninizi ve zihninizi canlandırın, kendinizi tamamen tazelenmiş ve huzurlu hissedin.”",
     
     "InfoSection": {
-     
-        "subtitle": "Mükemmel Fine Dining Deneyimleri",
+        "subtitle": "Tazelenin ve Yenilenin",
         "title": "LAGO Oteli'nde Wellness",
-        "text": "Tatil sırasında formda kalmak isteyenler için, profesyonel ekipmanlarla donatılmış Fitness Center'ımız günlük antrenmanlar sunmaktadır. Egzersiz yaptıktan sonra, SPA'mızda profesyonel bir masajla bedeninizi ve zihninizi rahatlatabilir, geleneksel Türk Hamamımızda gevşeyebilir veya Fin Saunası'nda yenilenebilirsiniz.",
+        "text": "Spa ve Wellness merkezimizde benzersiz bir rahatlama ve yenilenme deneyimi yaşayın. Profesyonel masajlarımızın keyfine varın, geleneksel Türk hamamımızda gevşeyin veya Fin saunamızda tazelenin. Huzurlu bir yolculuğa burada başlayın.",
     
         "subtitle2": "Fiziksel ve Zihinsel Yenilenme",
         "title2": "Sauna & Türk Hamamı",
@@ -1083,14 +1082,14 @@
     },
 
     "SpaGallery": {
-      "subtitle": "Mükemmel Fine Dining Deneyimleri",
+      "subtitle": "Eşsiz Bir Rahatlama Deneyimi",
       "title": "LAGO'da Duyularınızı Yenileyin",
-      "text": "LAGO Wellness Center'da rahatlama ve huzur dolu bir dünyayı keşfedin. Hem bedeninizi hem de zihninizi tazelemek için tasarlanmış özel spa tedavileri ve yatıştırıcı masajların keyfini çıkarın."
+      "text": "“LAGO Wellness Center’da eşsiz bir rahatlama ve huzur dünyasını keşfedin. Size özel spa uygulamaları ve rahatlatıcı masajlarla bedeninizi, zihninizi ve ruhunuzu yenileyin.”"
     },
     "Carousel": {
-      "subtitle": "RAHATLAYIN VE UNUTUN",
-      "title": "Masaj Seçenekleri",
-      "text": "Uzman terapistler tarafından sunulan geniş masaj seçeneklerimizle tatilinizi zenginleştirin, bedeninizi ve zihninizi rahatlatacak şekilde tasarlandı. LAGO'da her ihtiyaca uygun mükemmel masaj terapisi sizi bekliyor.",
+      "subtitle": "Rahatlayın ve Yenilenin",
+      "title": "LAGO’da Masaj Deneyimleri",
+      "text": "Tatilinizi, profesyonel terapistlerimiz tarafından size özel hazırlanan kapsamlı masaj seçenekleriyle zenginleştirin. LAGO’da, bedeninizi ve zihninizi rahatlatacak mükemmel masaj deneyimi sizleri bekliyor.",
       "massage1": "Aromaterapi Masajı",
       "massageText1": "SÜRE: 60 DAK",
       "massage2": "Oryantal Masaj",
@@ -1550,14 +1549,15 @@
   },
 
   "Fitness": {
-    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "subtitle": "LAGO’DA AKTİF KALIN",
     "title": "Spor & Fitness",
-    "mobileTitle": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın; bedeninizi ve zihninizi yenilemek için tasarlandı.",
-    "text": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde yüksek kaliteli profesyonel masajın keyfini çıkarın; bedeninizi ve zihninizi yenilemek için tasarlandı.",
+    "mobileTitle": "“LAGO’nun tam donanımlı fitness merkezinde, birbirinden eğlenceli spor aktiviteleri ve grup egzersizleriyle tatilinizi hareketlendirin. Tenis, plaj voleybolu, su sporları gibi pek çok seçenekle zinde kalın, tatiliniz boyunca sağlıklı ve enerjik olun.”",
+    "text": "“LAGO’nun tam donanımlı fitness merkezinde, birbirinden eğlenceli spor aktiviteleri ve grup egzersizleriyle tatilinizi hareketlendirin. Tenis, plaj voleybolu, su sporları gibi pek çok seçenekle zinde kalın, tatiliniz boyunca sağlıklı ve enerjik olun.”",
+    
     "InfoSection": {
-      "subtitle": "Mükemmel Fine Dining Deneyimleri",
-      "title": "LAGO Oteli'nde Formda Kalın",
-      "text": "Tatil sırasında formda kalmak isteyenler için, profesyonel ekipmanlarla donatılmış Fitness Center'ımız günlük antrenmanlar sunmaktadır. Egzersiz yaptıktan sonra, SPA'mızda profesyonel bir masajla bedeninizi ve zihninizi rahatlatabilir, geleneksel Türk Hamamımızda gevşeyebilir veya Fin Saunası'nda yenilenebilirsiniz.",
+      "subtitle": "LAGO Hotel’de Fit Kalın",
+      "title": "Spor ve Fitness",
+      "text": "“Tatiliniz boyunca formunuzu koruyun! LAGO’nun profesyonel ekipmanlarla donatılmış fitness merkezinde günlük egzersiz programlarına katılarak spor yapabilir, grup dersleri ve çeşitli aktivitelerle zinde kalıp enerjik bir tatil geçirebilirsiniz.”",
       "subtitle2": "Sağlıklı Yaşam ve Formda Kalmak",
       "title2": "Plaj Voleybolu & Kişisel Antrenör",
       "text2": "Açılış Saatleri: 08:00 - 20:00",
@@ -1571,9 +1571,9 @@
       "list5": "Yoga, Pilates"
     },
     "SpaGallery": {
-      "subtitle": "Mükemmel Fine Dining Deneyimleri",
-      "title": "LAGO'da Şıklıkla Formda Kalın",
-      "text": "LAGO'nun modern ve profesyonel ekipmanlı fitness merkezinde, tüm fitness seviyelerine uygun çeşitli antrenman seçeneklerinin keyfini çıkarın. Tatiliniz boyunca enerjinizi artırın ve sağlıklı kalın."
+      "subtitle": "Aktif ve Enerjik Kalın",
+      "title": "LAGO’da Tarzınızdan Ödün Vermeden Fit Kalın",
+      "text": "LAGO’nun modern ve profesyonel donanımlara sahip fitness merkezinde, her seviyeye uygun farklı egzersiz seçeneklerinin tadını çıkarın. Tatil boyunca enerjinizi artırın, formunuzu koruyun ve sağlıklı kalın."
     },
     "Carousel": {
       "subtitle": "RAHATLAYIN VE UNUTUN",
@@ -1601,7 +1601,7 @@
   "Entertainment": {
     "subtitle": "Günlük Aktiviteler & Akşam Şovları",
     "title": "Sonsuz Eğlence Sizi Bekliyor",
-    "text": "LAGO’da, günlük çeşitli aktiviteler ve muhteşem akşam eğlenceleri ile unutulmaz anlar yaşayın. Enerjik gündüz oyunlarından göz alıcı gece perfkaraslarına kadar, her an sevinç ve heyecan dolu.",
+    "text": "LAGO’da canlı günlük aktivitelerimiz ve büyüleyici akşam şovlarımız ile unutulmaz anılar biriktirin. Gün boyu enerjik oyunlar ve eğlenceli spor etkinliklerinden, akşamları gerçekleşen göz alıcı performanslara kadar, tatiliniz her anıyla eğlence ve heyecan dolu geçecek.”",
     "InfoSection": {
       "experiences": "Deneyimler",
       "title": "Gündüz Aktiviteleri",
@@ -1609,8 +1609,8 @@
     },
     "CarouselSection": {
       "subtitle": "Eğlence & Aktiviteler",
-      "title": "Etkinlikler Her Gün Gerçekleşiyor",
-      "text": "Disko, bocce, plaj voleybolu, masa tenisi, sinema, plaj oyunları, su sporları ve akşam eğlenceleri gibi çeşitli aktiviteler sunan LAGO, unutulmaz bir tatil deneyimi için sayısız spor ve eğlence seçeneğiyle sizi ağırlamaya hazır.",
+      "title": "Her Gün Heyecan Dolu Etkinlikler",
+      "text": "LAGO’da her güne özel dopdolu etkinlikler ve aktiviteler sizleri bekliyor. Disko, boccia, plaj voleybolu, masa tenisi, sahil oyunları, su sporları ve muhteşem akşam şovları ile unutulmaz bir tatil yaşamanız için sayısız spor ve eğlence seçeneği sunuyoruz.",
       "daytime": "GÜNDÜZ AKTİVİTELERİ",
       "nighttime": "GECE AKTİVİTELERİ",
       "title1": "Spor & Fitness",
@@ -1621,16 +1621,13 @@
       "description3": "LAGO’nun güzel plajında heyecan verici su sporlarını deneyimleyin. İster jet ski, ister paraşütle atlama ya da dalış, herkes için heyecan dolu bir macera sizi bekliyor.",
       "title4": "Plaj Aktiviteleri",
       "description4": "Plaj voleybolu, bocce ve eğlenceli grup oyunları gibi çeşitli plaj aktiviteleriyle güneşli günlerin tadını çıkarın, her anı neşe ve heyecanla doldurun.",
-      "title5": "Tenis",
-      "description5": "Yeni başlayan ya da uzman olun, profesyonel kortlarımızda tenis oynamanın keyfini çıkarın. Yeteneklerinizi geliştirin veya kendinize meydan okuyun.",
-      "title6": "Sinema",
-      "description6": "Aileniz ve arkadaşlarınızla unutulmaz film geceleri yaşayın; popüler filmlerin gösterildiği konforlu ve keyifli bir ortam sunuyoruz.",
-      "title7": "Gün Batımı Partileri",
-      "description7": "Renkli müzik ve ferahlatıcı kokteyller eşliğinde LAGO’nun unutulmaz gün batımı partilerinde dans edin ve rahatlayın, bir başka güzel günün sonunu kutlayın.",
-      "title8": "Sahne Şovları",
-      "description8": "Profesyonel sanatçılar ve etkileyici prodüksiyonlarla dolu muhteşem sahne şovlarının keyfini çıkarın; her yaştan misafiri eğlendirmek için tasarlandı.",
-      "title9": "Tema Partileri",
-      "description9": "Yaratıcı konseptler, renkli dekorasyonlar ve heyecan verici müziklerle süslenmiş tema partilerimize katılın, eğlence dolu unutulmaz akşamlar yaşayın."
+  
+      "title5": "Gün Batımı Partileri",
+      "description5": "Renkli müzik ve ferahlatıcı kokteyller eşliğinde LAGO’nun unutulmaz gün batımı partilerinde dans edin ve rahatlayın, bir başka güzel günün sonunu kutlayın.",
+      "title6": "Sahne Şovları",
+      "description6": "Profesyonel sanatçılar ve etkileyici prodüksiyonlarla dolu muhteşem sahne şovlarının keyfini çıkarın; her yaştan misafiri eğlendirmek için tasarlandı.",
+      "title7": "Tema Partileri",
+      "description7": "Yaratıcı konseptler, renkli dekorasyonlar ve heyecan verici müziklerle süslenmiş tema partilerimize katılın, eğlence dolu unutulmaz akşamlar yaşayın."
     },
     "Gallery": {
       "subtitle": "Eğlence & Aktiviteler",
@@ -1641,14 +1638,15 @@
   },
 
   "KidsClub": {
-    "subtitle": "LAGO WELLNESS CENTER'IMIZDA RAHATLAYIN",
+    "subtitle": "Küçük Misafirler İçin Eğlence ve Macera!",
     "title": "Bamboo Kids Club",
-    "text": "Rahatlayın ve enerjinizi yenileyin. Wellness merkezimizde, bedeninizi canlandırıp zihninizi ferahlatacak yüksek kaliteli profesyonel masajın keyfini çıkarın.",
+    "text": "“Bamboo Kids Club, 4-12 yaş arası çocuklara özel eğlenceli aktiviteler, yaratıcı oyunlar, atölye çalışmaları, oyun parkları ve mini diskolar sunuyor. LAGO’da çocuklarınız güvenli ve eğlenceli bir ortamda unutulmaz maceralar yaşayacak!",
     "gallerytitle": "Her An Paylaşmaya Değer",
+    
     "InfoSection": {
-      "subtitle": "Her Yaş İçin Güvenli ve Eğlenceli Bir Alan",
-      "title": "Unutulmaz Anılar",
-      "text": "Bamboo Kids Club’da, yaşa uygun aktiviteler, profesyonel bakıcılar ve güvenli bir ortam sunuyoruz; böylece çocuğunuzun öğrenmesi, oynaması ve gelişmesi için mükemmel bir ortam sağlanıyor.",
+      "subtitle": "Her Yaşa Uygun Güvenli Eğlence",
+      "title": "Bamboo Kids Club’da Unutulmaz Anılar",
+      "text": "Bamboo Kids Club’da, güvenli ve eğlenceli ortamımızda profesyonel eğitmenler eşliğinde, yaş gruplarına özel aktiviteler ve yaratıcı oyunlarla çocuklarınız unutulmaz anılar biriktirecek. Eğlenirken öğrenmenin keyfini çıkaracak ve yeni arkadaşlıklar kuracaklar.",
       "span": "Açılış Saatleri: 08:00 - 20:00",
       "age1": " 4-7 Yaş",
       "title1": "Mini Kulüp",
@@ -1694,15 +1692,15 @@
       "title": "Çocuk Havuzları",
       "text": "Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla.",
       "cuisines1subtitle": "Bamboo Kids Club",
-      "cuisines1title": "Maldivas Havuzu",
-      "cuisines1text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines1title": "Maldiva Çocuk Havuzu",
+      "cuisines1text": "Özel tasarımlı 85 m² Maldiva Çocuk Havuzu, güvenli ve eğlenceli yüzme imkânı sunar.",
       "buttonText": "Daha Fazlasını Keşfet",
       "cuisines2subtitle": "Bamboo Kids Club",
       "cuisines2title": "Çocuk Aqua Havuzu",
-      "cuisines2text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines2text": "5 kaydıraklı Çocuk Aquapark Havuzumuz, güvenli eğlence ve unutulmaz anılar sunar.",
       "cuisines3subtitle": "Bamboo Kids Club",
       "cuisines3title": "Kapalı Çocuk Havuzu",
-      "cuisines3text": "Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
+      "cuisines3text": "Her hava koşulunda sınırsız eğlence sunan kapalı çocuk havuzumuzda, minik misafirlerimiz güvenle yüzüp eğlenebilir. Profesyonel ekibimizin gözetiminde, yıl boyunca keyifli su oyunları ve unutulmaz anlar çocuklarınızı bekliyor!”"
     }
   },
 
