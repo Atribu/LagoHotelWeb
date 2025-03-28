@@ -232,22 +232,22 @@
     "Restaurants":{
       "subtitle":"Curated Culinary Experiences",
       "title":"Restaurants",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"Enjoy a wide variety of dining options featuring cuisines from around the world.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":"Culinary Art at LAGO",
           "text1":" At LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet featuring unique flavors from Turkish cuisine as well as fresh tastes reflecting the spirit of the Mediterranean.",
           "text2":"Main Restaurant: Breakfast, Lunch, and Dinner",
-          "text3":"Bistro Restaurant: 24 Hours",
-          "text4":"Snack Bars: 24 Hours"
+          "text3":"Bistro Restaurant: 24-Hour service",
+          "text4":"Snack Bars: Open daily (at specified hours)"
      
       },
 
       "MainRestaurantSection":{
         "subtitle":" A UNIQUE FEAST OF TASTE",
         "title":"Magna Main Restaurant",
-        "text":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
+        "text":" For breakfast, lunch, and dinner, we offer an extensive open buffet where you can savor authentic Turkish flavors and seasonal delicacies.",
         "list1":" Breakfast: 07:00 - 10:30",
         "list2":" Lunch: 12:30 - 14:00",
         "list3":"Dinner: 18:30 - 21:00",
@@ -255,48 +255,48 @@
       },
 
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
         "cuisines1subtitle":"CUISINE: International",
         "cuisines1title":"Anatolia",
-         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: Italian",
         "cuisines2title":"Gusto",  
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of " ,
+        "cuisines2text":"“Experience an authentic Italian culinary feast crafted by our expert chefs at Gusto, our Italian À la Carte Restaurant. Delight in Italy’s distinctive flavors and indulge in an unforgettable dining experience.”" ,
         "cuisines3subtitle":"CUISINE: Seafood and Fish",
         "cuisines3title":"Despina",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":"Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
 
       "ClinaryReverseSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" Bistro Restaurant",
-        "text1":" Forget about the concern about whether I can eat when you visit Lago Hotel and start daydreaming about a vacation. We are open twenty-four hours a day at Bistro restaurant. Experience our concept while sipping your beer next to those who taste delicious hamburgers, pasta, sandwiches, chicken drumsticks and sweeten their palates. Let’s learn more about this concept.",
-        "text2":" Bistros are restaurants where typical menu items are provided quickly. The French take little breaks from their everyday labor in these serene locations, occasionally sipping coffee and occasionally consuming alcohol. Sandwiches, both hot and cold, desserts, and other drinks can all be enjoyed."
+        "text1":" At LAGO’s Bistro Restaurant, you can relax knowing delicious dining options are available 24 hours a day. Enjoy a variety of mouthwatering dishes, including gourmet burgers, fresh pasta, sandwiches, crispy chicken dishes, and delightful desserts, paired with refreshing beverages. Whether you’re craving a late-night snack or a leisurely meal, Bistro Restaurant welcomes you around the clock.",
+        "text2":" Inspired by the cozy charm of traditional European bistros, our Bistro Restaurant provides quick yet high-quality meals in a relaxing atmosphere, making it the perfect spot for casual dining at any time of day"
       },
 
       "CuisinesCarousel2":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
-        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "text":" Exquisite international flavors await you at our à la carte restaurants, meticulously prepared by our award-winning chefs. We are delighted to invite you to embark on a wonderful culinary adventure during your holiday at LAGO.",
         "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
         "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+         "cuisines1text":"  At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
         "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+        "cuisines2text":" Our Asian À la Carte restaurant, Fuego, is designed to offer you a delightful culinary experience featuring the authentic flavors of Asian cuisine. You can enjoy these exquisite dishes every evening from 18:30 to 21:00.”",
         "cuisines3subtitle":" CUISINE: Spanish ",
         "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":" Our Tapaz À la Carte Restaurant invites you to savor the authentic Spanish cuisine through a delightful tapas menu, carefully prepared by our chefs."     
       },
 
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
         "title":" Discover our Bars and Cafes",
-         "text":" At Lago Hotel's bars and cafes, enjoy delicious drinks and snacks any time of the day. Sip your cocktails to the sound of live music or take a coffee break to brighten your day.",
+         "text":"At Lago Hotel’s bars and cafés, enjoy delicious drinks, delightful snacks, and relaxing moments throughout the day. Sip your favorite cocktails accompanied by live music, or refresh yourself with a coffee break to brighten your day.",
          "buttonText":"DISCOVER MORE"
       }
     },
@@ -304,10 +304,10 @@
     "GustoRestaurants":{
       "subtitle":"ITALIAN CUISINE AT ITS FINEST",
       "title":"Gusto Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"Enjoy authentic Italian flavors carefully prepared by our talented chefs at Gusto Restaurant. Indulge in a delightful variety of Italian dishes, from delicious pastas to exquisite specialties, and experience Italy at its finest.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite Italian Flavours",
           "text1":"  Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
           "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
@@ -315,13 +315,13 @@
       },
 
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
-          "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
+          "text":"At Gusto À la Carte Restaurant, experience the exquisite tastes of Italy prepared by our expert chefs. Delight your senses with authentic Italian dishes, from handmade pasta to distinctive Italian specialties, creating an unforgettable culinary journey."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
         "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
@@ -345,12 +345,12 @@
     },
 
     "AnatoliaRestaurants":{
-      "subtitle":"International CUISINE AT ITS FINEST",
+      "subtitle":"Traditional Turkish Cuisine at Its Finest",
       "title":"Anatolia Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"“Enjoy authentic Turkish dishes and traditional flavors at Anatolia Restaurant, where our chefs carefully prepare exquisite recipes for an unforgettable dining experience.”",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite International Flavours",
           "text1":"  International cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our International A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
           "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
@@ -358,25 +358,25 @@
       },
 
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
         "cuisines1subtitle":"CUISINE: International",
         "cuisines1title":"Anatolia",
-         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
          "cuisines2title":"Wasabi",   
-         "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
         "cuisines3subtitle":"CUISINE: Seafood and Fish",
         "cuisines3title":"Despina",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -387,38 +387,38 @@
     },
 
     "DespinaRestaurants":{
-      "subtitle":"Seafood CUISINE AT ITS FINEST",
+      "subtitle":"SEAFOOD CUISINE AT ITS FINEST",
       "title":"Despina Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"“Discover the finest seafood and fish dishes at Despina Restaurant, meticulously prepared by our expert chefs. Delight in fresh, flavorful seafood specialties, and experience an exceptional dining journey inspired by the Mediterranean.”",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":"Exquisite International Flavours",
-          "text1":"Seafood cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Seafood A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        "subtitle":" Perfect Fine Dining Experiences",
+        "title":"Exquisite Seafood Flavors",
+          "text1":"“At Despina À la Carte Restaurant, indulge in exceptional seafood dishes expertly prepared by our talented chefs.",
+          "text2":" Fresh flavors inspired by the sea offer an unforgettable dining experience"
      
       },
 
-      "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+     "RoomTour":{
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -429,38 +429,38 @@
     },
 
     "FuegoRestaurants":{
-      "subtitle":"Seafood CUISINE AT ITS FINEST",
+      "subtitle":"ASIAN CUISINE AT ITS FINEST",
       "title":"Fuego Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"Experience the vibrant flavors of Asia at Fuego À la Carte Restaurant, where our chefs skillfully create authentic Asian dishes. Enjoy a delightful culinary journey through carefully prepared specialties from diverse Asian culinary traditions.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":"Exquisite International Flavours",
-          "text1":"Seafood cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Seafood A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        "subtitle":" Perfect Fine Dining Experiences",
+        "title":"Exquisite Asian Flavors",
+          "text1":"At Fuego À la Carte Restaurant, savor an extraordinary culinary journey through authentic Asian dishes expertly prepared by our talented chefs.",
+          "text2":" Indulge in distinctive flavors inspired by various Asian traditions, creating a dining experience you won’t forget."
      
       },
 
-      "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+     "RoomTour":{
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -476,7 +476,7 @@
       "text":"Enjoy a various amount of dining options from around the world.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite International Flavours",
           "text1":"International cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Seafood A’la Carte restaurant is ready to serve you the distinctive flavors of International cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
           "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
@@ -484,25 +484,25 @@
       },
 
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
         "cuisines1subtitle":"CUISINE: International",
         "cuisines1title":"Anatolia",
-         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
          "cuisines2title":"Wasabi",   
-         "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
         "cuisines3subtitle":"CUISINE: Seafood and Fish",
         "cuisines3title":"Despina",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
 
       "DiscoverBackground":{
@@ -514,38 +514,38 @@
     },
 
     "TapazRestaurants":{
-      "subtitle":"Seafood CUISINE AT ITS FINEST",
+      "subtitle":"SPANISH TAPAS AT THEIR FINEST",
       "title":"Tapaz Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"At Tapaz Restaurant, enjoy the authentic flavors of Spanish tapas meticulously prepared by our talented chefs. Experience an array of delightful small plates that bring Spain’s vibrant culinary tradition directly to your table, creating an unforgettable dining experience.",
 
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dine Experiences",
-        "title":"Exquisite International Flavours",
-          "text1":"Seafood cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Seafood A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        "title":"Exquisite Spanish Tapas",
+          "text1":"Tapaz À la Carte Restaurant invites you to discover the exquisite world of Spanish tapas, meticulously crafted by our skilled chefs",
+          "text2":" Indulge in a delightful variety of authentic Spanish dishes, each plate bringing vibrant flavors and the true spirit of Spanish cuisine directly to your table."
      
       },
 
-      "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
+     "RoomTour":{
+        "subtitle":"Perfect Fine Dining Experiences",
         "title":" Have a Look Around",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -558,36 +558,36 @@
     "WasabiRestaurants":{
       "subtitle":"Teppanyaki CUISINE AT ITS FINEST",
       "title":"Wasabi Restaurant",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"Enjoy an authentic Teppanyaki dining experience at Wasabi Restaurant, featuring exquisite Japanese flavors skillfully prepared by our talented chefs right before your eyes. Indulge in the artistry of Teppanyaki cuisine for a memorable culinary evening.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite International Flavours",
-          "text1":"Teppanyaki cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Teppanyaki A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+          "text1":"At Wasabi À la Carte Restaurant, discover the authentic and captivating world of Teppanyaki cuisine. Experience a unique culinary performance as our talented chefs skillfully prepare delicious Japanese dishes right before your eyes on traditional Teppanyaki grills.",
+          "text2":"Combining freshest ingredients with culinary expertise and interactive presentation, Wasabi offers not only a feast for your palate but also an unforgettable visual experience. Immerse yourself in the rich flavors and dynamic cooking styles of Japan at Wasabi.”"
      
       },
 
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
+        "subtitle":"Perfect Fine Dining Experiences",
+        "title":" Exquisite Teppanyaki Flavors",
           "text":" At Lago Hotel, enjoy an unforgettable dining experience with carefully prepared dishes and an elegant atmosphere. Treat your palate to flavors crafted by our master chefs and presented with sophistication."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Perfect Fine Dining Experiences",
         "title":" LAGO’s World Cuisines",
         "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" CUISINE: Teppanyaki (Japanese) ",
-        "cuisines1title":"Wasabi",
-         "cuisines1text":"  In our Teppanyaki A’la Carte Restaurant, where dishes of Japanese cuisine prepared in iron pans are presented, you can experience the distinctive flavors of the Far East through the original interpretation of our master chefs.",
+        "cuisines1subtitle":"CUISINE: International",
+        "cuisines1title":"Anatolia",
+         "cuisines1text":" Experience the delight of authentic Turkish flavors and culinary traditions at Anatolia. At LAGO, we proudly bring your culinary dreams to life with unforgettable tastes from Turkish cuisine.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
-        "cuisines2title":"Fuego",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
-        "cuisines3subtitle":" CUISINE: Spanish ",
-        "cuisines3title":"Tapaz",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+         "cuisines2title":"Wasabi",   
+         "cuisines2text":" At our Teppanyaki À la Carte Restaurant, you can enjoy authentic Japanese cuisine, skillfully prepared on traditional Teppanyaki grills by our master chefs. Experience distinctive flavors of the Far East through our chefs’ creative interpretations.",
+        "cuisines3subtitle":"CUISINE: Seafood and Fish",
+        "cuisines3title":"Despina",   
+        "cuisines3text":" Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -599,14 +599,14 @@
 
 
     "BarAndCafes":{
-      "subtitle":"ITALIAN CUISINE AT ITS FINEST",
+      "subtitle":"RELAXING MOMENTS ALL DAY LONG",
       "title":" Bars and Cafés",
-      "text":"Enjoy a various amount of dining options from around the world.",
+      "text":"At LAGO’s bars and cafés, enjoy delicious beverages, refreshing cocktails, and tasty snacks throughout the day. Whether you’re looking for a relaxing coffee break or lively moments with evening cocktails accompanied by live music, our inviting venues promise memorable experiences.",
 
       "ClinaryInfoSection":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" RELAXING MOMENTS AT LAGO",
         "title":"Exceptional Bars and Cafes at LAGO",
-          "text1":" At LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet featuring unique flavors from Turkish cuisine as well as fresh tastes reflecting the spirit of the Mediterranean.",
+          "text1":" Discover delightful beverages, refreshing cocktails, and delicious snacks at LAGO’s stylish bars and cafés. Whether enjoying a soothing coffee break, sipping creative cocktails by the pool, or unwinding to the sound of live music in the evening, every moment promises relaxation and pleasure.",
           "text2":"",
           "text3":"",
           "text4":""
@@ -616,65 +616,65 @@
       "BarImageSection":{
         "subtitle":" A UNIQUE FEAST OF TASTE",
         "title":"Cool Down and Relax",
-        "text":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
+        "text":" At LAGO’s bars and cafés, refresh yourself with delightful drinks, expertly crafted cocktails, and tasty snacks all day long. Relax by the poolside, take a soothing coffee break, or enjoy lively evenings accompanied by great music. Every moment at our bars and cafés is designed for your enjoyment and relaxation.",
         "buttonText":" DISCOVER MORE"
       },
 
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s World Cuisines",
-        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
         "cuisines1subtitle":" HOURS: 10:00 - 19:00",
         "cuisines1title":" Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
          "cuisines2subtitle":"HOURS: 08:00 - 23:00",
         "cuisines2title":"Joie Bar",  
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Lorem Ipsum the distinctive flavors of " ,
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
         "cuisines3subtitle":" HOURS: 09:00 - 18:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  ",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
         "cuisines4subtitle":"HOURS: 24 hours",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
 
       "BarImageSection2":{
         "subtitle":" A UNIQUE FEAST OF TASTE",
         "title":" Lobby Bars and Cafes",
-        "text1":" For breakfast, lunch, and dinner, we have prepared an endless open buffet where you may immerse in both authentic Turkish cuisine sensations and seasonal delicacies.",
+        "text1":" At LAGO’s Lobby Bars and Cafés, you are invited to relax with delicious beverages, specialty coffees, tempting cocktails, and delightful snacks at any time of day. Experience moments of tranquility and enjoyment in our elegant lobby venues.",
        "buttonText":" DISCOVER MORE"
       },
 
       "CuisinesCarousel2":{
-        "subtitle":" Perfect Fine Dine Experiences",
+        "subtitle":" Relaxing Moments Await",
         "title":"  LAGO’s Lobby Bars and Cafes",
-        "text":" In our A’la Carte Restaurants, the exquisite flavors of international cuisine are waiting for you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are pleased to invite you to a wonderful adventure at our distinctive à la carte restaurants!",
+        "text":" Unwind and refresh yourself at LAGO’s Lobby Bars and Cafés, where delightful beverages, specialty coffees, and delicious snacks are served in an elegant and relaxing atmosphere. Whether meeting with friends or enjoying quiet time alone, our lobby venues offer the perfect setting for every occasion.",
         "cuisines1subtitle":"  HOURS: 10:00 - 00:00 ",
         "cuisines1title":"Piano Bar",
-         "cuisines1text":"  Let’s experience the pleasure of retaining the distinctive flavors and culinary traditions of Turkish food on the plate. LAGO has the honor of fusing your dreams with the unique taste of the Mediterranean.",
+         "cuisines1text":" Relax in the sophisticated atmosphere of Piano Bar, where expertly crafted cocktails, premium beverages, and delicious snacks are complemented by soothing live piano music. Piano Bar is the perfect spot to unwind after a delightful day at LAGO.",
          "buttonText":" Explore More",
          "cuisines2subtitle":" HOURS: 14:00 - 23:00",
         "cuisines2title":"Patisserie ABELLA",   
-        "cuisines2text":" We designed our Asian A’la Carte restaurant so that you might experience the delicious flavors of Asian food while on holiday. Between 18:30 and 21:00, you can enjoy Asian cuisine made by our talented, award-winning chefs.",
+        "cuisines2text":" Visit Patisserie ABELLA to indulge in freshly baked pastries, delicious desserts, and aromatic coffees. Enjoy sweet delights and gourmet treats in a charming and relaxing atmosphere at ABELLA.",
         "cuisines3subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines3title":"Cafe de Lago",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     ,
+        "cuisines3text":"  Cafe de Lago invites you to relax and enjoy delightful coffees, delicious beverages, tempting desserts, and freshly prepared snacks in a comfortable and friendly atmosphere. It’s the perfect spot to recharge and enjoy quiet moments throughout your day."     ,
         "cuisines4subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines4title":"Cafe de House",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "     
+        "cuisines4text":" Cafe de House welcomes you to enjoy freshly brewed coffees, refreshing beverages, tempting desserts, and delicious snacks throughout the day. Relax in our cozy atmosphere, perfect for a peaceful break or meeting with friends."     
       },
 
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
         "title":" Discover our Bars and Cafes",
-         "text":" At Lago Hotel's bars and cafes, enjoy delicious drinks and snacks any time of the day. Sip your cocktails to the sound of live music or take a coffee break to brighten your day.",
+         "text":"“At Lago Hotel’s bars and cafés, enjoy delicious beverages, delightful snacks, and relaxing moments throughout the day. Sip your favorite cocktails accompanied by live music, or simply brighten your day with a refreshing coffee break.",
          "buttonText":"DISCOVER MORE"
       },
       "BarCarousel":{
-        "subtitle":"Experience traditional culture",
+        "subtitle":"Delicious Moments Await",
         "title":"Hungry for more?",
-        "text":"Discover our spacious snack restaurant, Snackspot, offering a variety of beverages along with special tastes from Turkish and international cuisine. Snackspot, one of the places where you can enjoy every second of your holiday, is open between 11:30 and 18:00.",
+        "text":"Discover Snackspot, our spacious snack restaurant, serving delicious beverages and delightful tastes from Turkish and international cuisines. Open daily from 11:30 to 18:00, Snackspot is the ideal spot to enjoy flavorful breaks during your holiday.",
         "buttonText":" Learn MORE"
       }
     },
@@ -682,38 +682,38 @@
     "JoieBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Joie Bar",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  “Enjoy refreshing beverages, specialty cocktails, and delicious snacks at Joie Bar, accompanied by relaxing music in a cozy and inviting atmosphere.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
+        "subtitle":"  Relax & Refresh at Joie Bar",
         "title":" Fresh Drinks at the Pool",
-          "text1":"   Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+          "text1":"   “Enjoy refreshing beverages, expertly crafted cocktails, and delightful snacks by the poolside at Joie Bar. Experience moments of relaxation and joy in the inviting atmosphere of our poolside bar throughout your stay.”",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
-        "cuisines1title":"Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
+        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1title":" Mignon Bar",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
+         "buttonText":" Explore More",
          "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Joie Bar",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines2title":"Joie Bar",  
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
+        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
         "cuisines4subtitle":"HOURS: 24 hours",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -726,38 +726,38 @@
     "MaldivaBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Maldiva Bar",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":" Relax at Maldiva Bar with refreshing beverages, tropical cocktails, and tasty snacks in a tranquil setting. Unwind by the poolside, accompanied by enjoyable music throughout the day.",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
+        "subtitle":"  Fresh Drinks at the Pool",
         "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+          "text1":"Relax and refresh yourself at Maldiva Bar, located conveniently by the pool. Enjoy delicious beverages, tropical cocktails, and tasty snacks throughout the day, complemented by a calm and inviting atmosphere.",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
-        "cuisines1title":"Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
+        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1title":" Mignon Bar",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
+         "buttonText":" Explore More",
          "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Joie Bar",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines2title":"Joie Bar",  
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
+        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
         "cuisines4subtitle":"HOURS: 24 hours",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -770,38 +770,38 @@
     "MignonBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Mignon Bar",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":" “Enjoy a variety of refreshing beverages, specialty cocktails, and tasty snacks in a relaxing atmosphere accompanied by pleasant music at Mignon Bar.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
+        "subtitle":"  Fresh Drinks by the Pool",
         "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+          "text1":"Relax and refresh yourself at Mignon Bar, serving a variety of refreshing beverages, specialty cocktails, and tasty snacks right by the poolside. Enjoy the perfect blend of relaxation and refreshment throughout the day.”",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
-        "cuisines1title":"Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
+        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1title":" Mignon Bar",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
+         "buttonText":" Explore More",
          "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Joie Bar",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines2title":"Joie Bar",  
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
+        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
         "cuisines4subtitle":"HOURS: 24 hours",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -814,19 +814,19 @@
     "PianoBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Piano Bar",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  “Relax and enjoy freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, accompanied by soothing live piano music. It’s the ideal setting for relaxing evenings and memorable moments.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
+        "subtitle":"  Relaxing Evenings & Premium Drinks",
         "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+          "text1":"“Unwind with freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, all while enjoying the soothing melodies of live piano music. The elegant and relaxing atmosphere provides the perfect setting for memorable evenings.”",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
@@ -858,38 +858,38 @@
     "VagoBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Vago Bar",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  Vago Bar invites you to enjoy refreshing beverages, specialty cocktails, and tasty snacks any time of the day. Relax with great music and unwind in the welcoming atmosphere of Vago Bar.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
-        "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+        "subtitle":"  Refresh & Relax at Vago Bar",
+        "title":" Fresh Drinks, Anytime",
+          "text1":"Open 24 hours, Vago Bar invites you to enjoy refreshing beverages, expertly crafted cocktails, and delicious snacks anytime you desire. Relax in our welcoming atmosphere, perfect for both lively evenings and quiet moments throughout your stay.",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
-        "cuisines1title":"Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
+        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1title":" Mignon Bar",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
+         "buttonText":" Explore More",
          "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Joie Bar",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+        "cuisines2title":"Joie Bar",  
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
+        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
         "cuisines4subtitle":"HOURS: 24 hours",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -900,21 +900,21 @@
     },
 
     "Abellapatisserie":{
-      "subtitle":" Fresh Drinks and Music",
+      "subtitle":" Sweet Moments Await",
       "title":"Abella Patisserie",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  Indulge yourself with freshly baked pastries, delightful desserts, and aromatic coffees at Abella Patisserie. Enjoy sweet treats in our cozy and inviting atmosphere.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
-        "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+        "subtitle":"  Delightful Moments at Abella Patisserie",
+        "title":" Freshly Baked Treats",
+          "text1":"Experience the irresistible aroma of freshly baked pastries, delightful desserts, and premium coffees at Abella Patisserie. Take a sweet break in our cozy atmosphere, perfect for enjoying delicious treats and relaxing moments during your stay.",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
@@ -945,21 +945,21 @@
 
 
     "Cafedehouse":{
-      "subtitle":" Fresh Drinks and Music",
+      "subtitle":" Sweet Moments Await",
       "title":"Cafe de House",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  “Relax at Cafe de House with delightful coffees, fresh beverages, delicious desserts, and tasty snacks. Enjoy the cozy ambiance, perfect for refreshing breaks and peaceful moments throughout the day.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
-        "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+        "subtitle":"  Sweet Moments & Cozy Atmosphere",
+        "title":" Cafe de House",
+          "text1":"Cafe de House invites you to relax and enjoy delicious coffees, refreshing beverages, delightful desserts, and freshly made snacks. Our warm and welcoming atmosphere offers the perfect setting for relaxing breaks and enjoyable moments throughout the day.",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
@@ -989,21 +989,21 @@
     },
 
     "Cafedelago":{
-      "subtitle":" Fresh Drinks and Music",
+      "subtitle":" Sweet Moments Await",
       "title":"Cafe de Lago",
-      "text":"  Enjoy a variety of dining options from around the world",
+      "text":"  “Relax and enjoy delightful coffees, fresh beverages, tempting desserts, and tasty snacks at Cafe de Lago. Take a break in our cozy atmosphere and savor relaxing moments throughout your day.”",
 
       "ClinaryInfoSection":{
-        "subtitle":"  Perfect Fine Dine Experiences",
-        "title":" Fresh Drinks at the Pool",
-          "text1":"Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine. Enjoy the authentic tastes and aromas of carefully selected dishes, each crafted to provide an exceptional dining experience. Allow yourself to indulge in gourmet delights and memorable moments during your stay.",
+        "subtitle":" Relaxing Moments & Delightful Tastes",
+        "title":" Cafe de Lago",
+          "text1":"Enjoy a relaxing break at Cafe de Lago, featuring delicious coffees, refreshing beverages, delightful desserts, and tasty snacks. The cozy and welcoming atmosphere makes it the perfect spot to recharge and enjoy pleasant moments during your day.”",
           "text2":""
         
       },
       "RoomTour":{
-        "subtitle":"Perfect Fine Dine Experiences",
-        "title":" Have a Look Around",
-          "text":"Are you ready to explore LAGO's unique atmosphere? Experience our restaurants, bars, and featured areas with a 360-degree virtual tour, allowing you to visually discover every detail of your vacation before your visit."
+        "subtitle":"Explore LAGO Virtually",
+        "title":" Discover Our Restaurants & Bars",
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
         
       },
       "CuisinesCarousel":{
@@ -1119,14 +1119,13 @@
     "Spa":{
       "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
       "title":"Spa & Wellness",
-      "mobileTitle":" Relax and recharge. Enjoy a high-quality professional massage at our wellness center and experience comprehensive physical and mental rejuvenation.",
-      "text":"  Relax and recharge. Enjoy a high-quality professional massage at our wellness center and experience comprehensive physical and mental rejuvenation.",
+      "mobileTitle":" “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
+      "text":"  “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
       
       "InfoSection":{
-      
-          "subtitle":"Perfect Fine Dine Experiences",
+          "subtitle":"Refresh & Rejuvenates",
           "title":"Wellness at LAGO Hotel",
-          "text":" For those looking to stay in shape while on vacation, our Fitness Center, equipped with professional equipment, offers daily workouts. After exercising, you can relax your body and mind with a professional massage in our SPA, unwind in our traditional Turkish Bath, or rejuvenate yourself in the Finnish Sauna.",
+          "text":" Experience complete relaxation and rejuvenation at our Spa & Wellness Center. Indulge in professional massages, enjoy the soothing warmth of our traditional Turkish Bath, or refresh your senses in our Finnish Sauna. Your journey to tranquility begins here.",
        
           "subtitle2":"Physical and Mental Rejuvenation",
           "title2":" Sauna & Turkish Bath",
@@ -1144,15 +1143,15 @@
        },
 
        "SpaGallery":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Ultimate Relaxation Awaits",
         "title":"Rejuvenate Your Senses at LAGO",
-        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages designed to refresh both body and mind."
+        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages, expertly designed to refresh your body, mind, and spirit.”"
        },
 
        "Carousel":{
-        "subtitle":"RELAX AND FORGET",
-        "title":"Massage Options",
-        "text":" Enhance your vacation with our wide selection of massages provided by expert therapists, designed to relax your body and mind. At LAGO, a perfect massage therapy awaits for every need.",
+        "subtitle":"RELAX & UNWIND",
+        "title":"Massage Experiences at LAGO",
+        "text":" “Enhance your vacation with our extensive range of massages, expertly tailored by professional therapists to soothe your body and mind. At LAGO, the perfect massage experience is waiting to fulfill your every need.”",
         "massage1":"Aromatherapy Massage",
         "massageText1":"DURATION: 60 MIN",
         "massage2":"Oriental Massage",
@@ -1186,7 +1185,7 @@
         "title":"Superior Room",
         "text":"Located in the main building, our stylish Superior Rooms measure 30-32 m² and offer stunning sea or land views. Each room features one double bed, one single bed, a sofa, a balcony, LED TV with satellite channels, daily minibar replenishment, complimentary Wi-Fi, premium bathroom amenities, and tea-coffee facilities. Chip-key bracelet access ensures secure and easy entry. Maximum occupancy: 2 adults + 2 children or 3 adults.",
         "title2":" Superior Room Amenities",
-        "list1":" Independent Pool",
+        "list1":" ----",
         "list2":" 1 Double Bed",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
@@ -1258,13 +1257,13 @@
         "title":"Family Room",
         "text":"Located in our main building, Family Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
         "title2":" Family Room Amenities",
-        "list1":" Independent Pool",
+        "list1":" ----",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
+        "text2":" All Superior Rooms offer secure and convenient access through a chip-key bracelet system. Enjoy daily replenishment of your minibar, featuring refreshing beverages and snacks. Our rooms also provide premium bathroom amenities for your comfort, alongside complimentary tea and coffee facilities. Additionally, each room is equipped with LED TV offering national and international channels, a balcony to enjoy stunning sea or land views, and complimentary 24-hour Wi-Fi access to ensure a seamless stay.",
         "madde1":"-----",
-        "madde2":"50-55 m²",
+        "madde2":"38-41 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1319,24 +1318,24 @@
     },
 
     "SwimupRoom":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":" Exclusive Stay with Direct Pool Access",
       "title":"Swim-up Room",
       "text1":"land / Sea View",
-      "text2":"1-4 Adults + 1-3 Children",
-      "text3":"2 Bedrooms / 4 Beds",
+      "text2":"1-3 Adults + 1-2 Children",
+      "text3":"1 Bedrooms / 2 Beds",
 
       "RoomInfo":{
-        "subtitle":"FUN FOR ALL AGES",
+        "subtitle":"Swim-Up Comfort & Luxury",
         "title":"Swim-up Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
-        "title2":" Family-friendly Amenities",
-        "list1":" Independent Pool",
+        "text":" Located in our main building, Swim-Up Rooms measure 40-43 m² and offer sea or forest views. These rooms feature one double bed, one single bed, and one sofa. Each room provides direct access to a shared pool from a private terrace with seating area.",
+        "title2":"Swim-up Room  Amenities",
+        "list1":" ----",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
+        "text2":"  All Swim-Up rooms feature Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, and tea-coffee facilities. Please note that the pools in Swim-Up rooms are not heated.",
         "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "madde2":"40-43 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1350,11 +1349,11 @@
       },
 
       "BackgroundSection":{
-        "subtitle":"EXCLUSIVE PRIVILEGES",
-        "title":"Swim-up Room VIP Benefits",
-        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
-        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
-        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+        "subtitle":" Exclusive Benefits",
+        "title":" Swim-Up Room Exclusive Benefits",
+        "text1":" Guests staying in Swim-Up rooms are greeted with a special VIP setup, featuring a carefully prepared fruit platter and delicious macarons upon check-in.",
+        "text2":"  À la Carte Dining: Enjoy one complimentary visit during stays of 7 nights or more.",
+        "text3":" “Pavilion Discount: Receive 15% off our exclusive pavilion services."
       },
 
       "ReservationWidget":{
@@ -1408,13 +1407,13 @@
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Swim-up Room",
-        "text":"Located in our main building, Family Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
+        "text":"Located in our main building, Family Swim-up Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
         "title2":" Family-Swimup Room Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
+        "text2":" All Superior Rooms offer secure and convenient access through a chip-key bracelet system. Enjoy daily replenishment of your minibar, featuring refreshing beverages and snacks. Our rooms also provide premium bathroom amenities for your comfort, alongside complimentary tea and coffee facilities. Additionally, each room is equipped with LED TV offering national and international channels, a balcony to enjoy stunning sea or land views, and complimentary 24-hour Wi-Fi access to ensure a seamless stay.",
         "madde1":"Private Pool",
         "madde2":"50-55 m²",
         "madde3":"Makeup Table",
@@ -1430,11 +1429,11 @@
       },
 
       "BackgroundSection":{
-        "subtitle":"EXCLUSIVE PRIVILEGES",
-        "title":"Family Swim-up Room VIP Benefits",
-        "text1":"Guests staying in Swim-Up rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
-        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
-        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+       "subtitle":" Exclusive Benefits",
+        "title":" Family Swim-Up Room Exclusive Benefits",
+        "text1":" Guests staying in Family Swim-Up rooms are greeted with a special VIP setup, featuring a carefully prepared fruit platter and delicious macarons upon check-in.",
+        "text2":"  À la Carte Dining: Enjoy one complimentary visit during stays of 7 nights or more.",
+        "text3":" Pavilion Discount: Receive 15% off our exclusive pavilion services."
       },
 
 
@@ -1480,24 +1479,24 @@
     },
 
     "DuplexFamilyRoom":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":"Spacious Duplex Comfort for Families",
       "title":"Duplex Family Room",
-      "text1":"land / Sea View",
+      "text1":"Land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
-      "text3":"2 Bedrooms / 4 Beds",
+      "text3":"2 Bedrooms / 3 Beds",
 
       "RoomInfo":{
-        "subtitle":"FUN FOR ALL AGES",
+        "subtitle":"Spacious Comfort for Families",
         "title":"Duplex Family Room",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
+        "text":"Located within our garden or in the main building, our Duplex Family Rooms measure between 45-49 m². Featuring two spacious floors, these rooms offer maximum comfort and privacy for families. The upper floor has one double bedroom with a private bathroom and balcony. The lower floor includes two single beds, a comfortable sofa, an additional bathroom, and another balcony.",
         "title2":" Family-friendly Amenities",
-        "list1":" Independent Pool",
+        "list1":" ",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
-        "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "text2":"Dublex Family Rooms feature Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, complimentary tea-coffee facilities, LED TV with satellite channels, free Wi-Fi, central air conditioning, safe, vanity table, and mirror.",
+        "madde1":"----",
+        "madde2":"45-49 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1529,11 +1528,11 @@
 
 
       "BackgroundSection":{
-        "subtitle":"EXCLUSIVE PRIVILEGES",
-        "title":"Duplex Family Room VIP Benefits",
-        "text1":"Guests staying in rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
-        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
-        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+        "subtitle":" Exclusive Benefits",
+        "title":" Duplex Family Room Exclusive Benefits",
+        "text1":" Guests staying in Swim-Up rooms are greeted with a special VIP setup, featuring a carefully prepared fruit platter and delicious macarons upon check-in.",
+        "text2":"  À la Carte Dining: Enjoy one complimentary visit during stays of 7 nights or more.",
+        "text3":" Pavilion Discount: Receive 15% off our exclusive pavilion services."
       },
 
 
@@ -1562,24 +1561,24 @@
     },
 
     "TinyVilla":{
-      "subtitle":"exclusive stay with an INDEPENDENT pool",
+      "subtitle":"Exclusive Stay with a Private Pool",
       "title":"Tiny Villa",
       "text1":"land / Sea View",
       "text2":"1-4 Adults + 1-3 Children",
-      "text3":"2 Bedrooms / 4 Beds",
+      "text3":"2 Bedrooms / 2 Beds",
 
       "RoomInfo":{
-        "subtitle":"FUN FOR ALL AGES",
+        "subtitle":"Exclusive Stay with a Private Pool",
         "title":"Tiny Villa",
-        "text":"Located in our main building, these rooms measure between 50-55 m² and offer sea or land views. This room type includes two separate bedrooms (connected by an internal door): one double room for 2 adults and one room with two twin beds for 2 adults. It has a shared bathroom, pool access, and a terrace with a seating area. •        Maximum occupancy: 4 adults•        Accommodates up to 1 additional child Family Swim-up land has a large pool shared with other Swim-Up rooms. Family Swim-up Sea features an independent private pool.",
-        "title2":" Family-friendly Amenities",
+        "text":"Located separately within the garden, our Tiny Villa measures 100 m² and offers relaxing garden views. This exclusive villa features two separate bedrooms connected by an internal door: one bedroom with a double bed (for 2 adults) and another bedroom with two single beds (for 2 adults). Each bedroom has its own bathroom. It offers a private terrace and a private independent pool, ensuring your comfort and privacy.",
+        "title2":" Tiny Villa Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" Services provided in all rooms include a Chip Armband Key System, Daily Mini Bar Refill, Bathroom Cosmetics, and Tea-Coffee Set-Up. 6 of our rooms are specially designed for guests with disabilities and feature main door widths of 112 cm. An extra folding bed is provided in rooms without a sofa bed. NOTE: THE POOLS IN THE SWIM-UP ROOMS ARE NOT HEATED.",
+        "text2":" “Services provided in Tiny Villa include Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, complimentary tea-coffee facilities, LED TV with satellite channels, free Wi-Fi, central air conditioning, a safe, and a vanity table with a mirror.”",
         "madde1":"Private Pool",
-        "madde2":"48 m²",
+        "madde2":"100 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1593,11 +1592,11 @@
       },
 
       "BackgroundSection":{
-        "subtitle":"EXCLUSIVE PRIVILEGES",
-        "title":"Tiny Villa Room VIP Benefits",
-        "text1":"Guests staying in rooms are welcomed with a VIP setup, including a carefully prepared fruit tray and delicate macarons upon check-in.",
-        "text2":"A’la Carte Dining: One complimentary visit for stays of 7+ nights.",
-        "text3":"Pavilion Discount: Enjoy 15% off exclusive pavilion services."
+        "subtitle":" Exclusive Benefits",
+        "title":" Tiny Villa Exclusive Benefits",
+        "text1":" Guests staying in Tiny Villa rooms are greeted with a special VIP setup, featuring a carefully prepared fruit platter and delicious macarons upon check-in.",
+        "text2":"  À la Carte Dining: Enjoy one complimentary visit during stays of 7 nights or more.",
+        "text3":" •Pavilion Discount: Receive 15% off our exclusive pavilion services."
       },
 
 
@@ -1644,17 +1643,17 @@
 
 
     "Fitness":{
-      "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
+      "subtitle":"STAY ACTIVE AT LAGO",
       "title":"Sports & Fitness",
-      "mobileTitle":"Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate both your body and mind.",
-      "text":"Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate both your body and mind.",
+      "mobileTitle":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
+      "text":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
       
       "InfoSection":{
-          "subtitle":"Perfect Fine Dine Experiences",
-          "title":" Stay Fit at LAGO Hotel",
-          "text":" For those looking to stay in shape while on vacation, our Fitness Center, equipped with professional equipment, offers daily workouts. After exercising, you can relax your body and mind with a professional massage in our SPA, unwind in our traditional Turkish Bath, or rejuvenate yourself in the Finnish Sauna.",
+          "subtitle":"Stay Fit at LAGO Hotel",
+          "title":" Sports & Fitness",
+          "text":" “Maintain your fitness routine during your vacation at LAGO’s fully-equipped Fitness Center, featuring professional workout equipment and daily exercise opportunities. Participate in energizing sports activities, stay active with group sessions, and experience an invigorating holiday.",
        
-          "subtitle2":" Healthy Living and Staying Fit",
+          "subtitle2":" Stay Active & Energized",
           "title2":"Beach Voleyball & Personal Trainer",
           "text2":" Opening Hours: 08:00 - 20:00",
 
@@ -1670,9 +1669,9 @@
        },
 
        "SpaGallery":{
-        "subtitle":"Perfect Fine Dine Experiences",
+        "subtitle":"Stay Active & Energized",
         "title":"Keep Fit in Style at LAGO",
-        "text":" Enjoy exercising in LAGO's modern and professionally equipped fitness center, offering a variety of workout options suitable for all fitness levels. Boost your energy and stay healthy during your vacation."
+        "text":" “Enjoy exercising in LAGO’s modern, professionally equipped fitness center, featuring diverse workout options suitable for all fitness levels. Stay energized, maintain your routine, and enhance your well-being throughout your vacation.”"
        },
 
        "Carousel":{
@@ -1702,7 +1701,7 @@
     "Entertainment":{
      "subtitle":"  Daily Activities & Evening Shows",
         "title":" Endless Entertainment Awaits You",
-        "text":" Experience unforgettable moments at LAGO with a diverse range of daily activities and spectacular evening entertainment. From energetic daytime games to dazzling night performances, every moment is filled with joy and excitement.",
+        "text":" Create unforgettable memories at LAGO with our vibrant daily activities and spectacular evening shows. From energetic games and exciting sports during the day to breathtaking performances at night, your vacation is guaranteed to be filled with joy and excitement at every turn.",
 
         "InfoSection":{
           "experiences":"Experiences",
@@ -1713,8 +1712,8 @@
 
        "CarouselSection":{
         "subtitle":" Entertainment & Activities",
-        "title":" Events Are Held Daily",
-        "text":" LAGO, offering a variety of activities such as disco, bocce, beach volleyball, table tennis, cinema, beach games, water sports, and evening entertainment, is ready to welcome you with countless sporting and leisure options for a memorable vacation experience.",
+        "title":" Exciting Events Every Day",
+        "text":" “At LAGO, an exciting array of daily events and activities awaits you. From lively discos, bocce, beach volleyball, and table tennis to beach games, water sports, and spectacular evening shows, we offer endless sporting and leisure opportunities for an unforgettable vacation.”",
         "daytime":"DAYTIME ACTIVITIES",
         "nighttime":" NIGHT-TIME ACTIVITIES",
 
@@ -1730,20 +1729,14 @@
         "title4":"Beach Activities",
         "description4":" Enjoy sunny days with our diverse beach activities such as beach volleyball, bocce, and fun group games, bringing joy and excitement to every moment.",
         
-        "title5":"Tennis",
-        "description5":" Whether you’re a beginner or an expert, enjoy playing tennis on our professional courts. Sharpen your skills or challenge yourself during your stay at LAGO.",
-      
-        "title6":"Cinema",
-        "description6":" Experience unforgettable movie nights with family and friends in our cinema, featuring popular films in a comfortable and enjoyable setting.",
-        
-        "title7":" Sunset Parties",
-        "description7":" Dance and unwind with vibrant music and refreshing cocktails at LAGO’s unforgettable sunset parties, celebrating the end of another beautiful day.",
+        "title5":" Sunset Parties",
+        "description5":" Dance and unwind with vibrant music and refreshing cocktails at LAGO’s unforgettable sunset parties, celebrating the end of another beautiful day.",
        
-        "title8":"Stage Shows",
-        "description8":" Enjoy spectacular stage shows featuring professional performers and captivating productions, designed to entertain guests of all ages.",
+        "title6":"Stage Shows",
+        "description6":" Enjoy spectacular stage shows featuring professional performers and captivating productions, designed to entertain guests of all ages.",
       
-        "title9":" Themed Parties",
-        "description9":" Join our themed parties, featuring creative concepts, colorful decorations, and exciting music, creating unforgettable evenings filled with fun."
+        "title7":" Themed Parties",
+        "description7":" Join our themed parties, featuring creative concepts, colorful decorations, and exciting music, creating unforgettable evenings filled with fun."
         
        },
 
@@ -1756,16 +1749,16 @@
     },
 
     "KidsClub":{
-      "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
+      "subtitle":"Fun & Adventure for Little Guests!",
       "title":"Bamboo Kids Club",
-      "text":" Relax and recharge. Enjoy a high-quality professional massage at our wellness center, designed to rejuvenate your body and refresh your mind.",
+      "text":" Bamboo Kids Club welcomes children aged 4-12 with a variety of fun-filled activities, engaging games, creative workshops, playgrounds, and mini discos. At LAGO, your kids will enjoy unforgettable adventures in a safe and entertaining environment!",
       "gallerytitle":"Every Moment is Worth Sharing",
    
 
     "InfoSection":{
-      "subtitle":" A Safe and Fun Space for All Ages",
-      "title":"Unforgettable Memories",
-      "text":" At Bamboo Kids Club, we offer age-appropriate activities, professional caregivers, and a secure environment, providing the perfect setting for your child to learn, play, and grow.",
+      "subtitle":" Fun & Safe for All Ages",
+      "title":"Unforgettable Memories at Bamboo Kids Club",
+      "text":" “At Bamboo Kids Club, we provide age-appropriate activities, engaging games, and caring professional staff in a safe and joyful environment. Your children will create unforgettable memories while playing, learning, and making new friends.”",
       "span":"Opening Hours: 08:00 - 20:00",
       "age1":"Ages 4-7",
       "title1":"Mini Club",
@@ -1816,15 +1809,15 @@
       "title":" Kid Pools",
       "text":"  Lorem ipsum dolor sit amet consectetur. Viverra molestie dui fusce dignissim lacus adipiscing ut feugiat ut. Laoreet pharetra dolor libero id ornare nulla.",
       "cuisines1subtitle":" Bamboo Kids Club ",
-      "cuisines1title":"Maldivas Pool",
-       "cuisines1text":" Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines1title":"Maldiva Kids Pool",
+       "cuisines1text":" Specially designed 85 m² Maldiva Kids Pool provides a safe and fun swimming experience for children.",
        "buttonText":" Discover More",
        "cuisines2subtitle":"Bamboo Kids Club",
-      "cuisines2title":"Kid Aqua Pool",   
-      "cuisines2text":"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet.",
+      "cuisines2title":"Kids’ Aquapark Pool",   
+      "cuisines2text":"Our Kids’ Aquapark Pool with 5 slides offers safe fun and unforgettable memories.",
       "cuisines3subtitle":"Bamboo Kids Club ",
       "cuisines3title":"Indoor Kids Pool",   
-      "cuisines3text":"Lorem ipsum dolor sit amet consectetur. Egestas enim magnis pretium pretium risus suscipit a duis porttitor. Varius diam urna netus fermentum aliquet."
+      "cuisines3text":"“Enjoy endless fun in any weather at our Indoor Kids Pool, specially designed for our little guests. Kids can safely splash, swim, and play under the attentive supervision of our professional staff. It’s the perfect spot for joyful, year-round entertainment!”"
     }
   },
 

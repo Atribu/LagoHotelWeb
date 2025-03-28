@@ -13,6 +13,10 @@ import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSec
 import backgroundImg from "../images/Background.webp"
 import RestaurantMainBanner from '../components/RestaurantMainBanner'
 import { useTranslations } from "next-intl";
+import KidsMomentCarousel from '../../kidsclub/components/KidsMomentCarousel'
+
+const images=[img1,img2,img1,img2,imgBanner]
+
 
 const page = () => {
   const t = useTranslations('GustoRestaurants');

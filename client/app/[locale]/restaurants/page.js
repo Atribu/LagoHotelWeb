@@ -67,30 +67,30 @@ const page = () => {
   const cuisines2 = [
     {
       id: 1,
-      img: anatolia,
+      img: wasabi,
       title: t5("cuisines1title"),
       description: t5("cuisines1subtitle"),
       text:t5("cuisines1text"),
-      link:"restaurants/anatoliarestaurant",
+      link:"restaurants/wasabi",
       buttonText:t5("buttonText")
     },
     {
       id: 2,
-      img: gusto,
+      img: fuego,
       title: t5("cuisines2title"),
       description: t5("cuisines2subtitle"),
       text:t5("cuisines2text"),
-       link:"/restaurants/gustorestaurant",
+       link:"/restaurants/fuego",
        buttonText:t5("buttonText")
        
     },
     {
       id: 3,
-      img: despina,
+      img: tapaz,
       title: t5("cuisines3title"),
       description: t5("cuisines3subtitle"),
       text:t5("cuisines3text"),
-       link:"/restaurants/despinarestaurant",
+       link:"/restaurants/tapazrestaurant",
        buttonText:t5("buttonText")
     }
   ];

@@ -117,7 +117,7 @@ const OtherOptions = () => {
                     </div>
                     
                   </div>
-                  <p className="text-[12px] lg:text-[14px] leading-[21px] font-normal capsizedText4 w-[96%] md:w-full">
+                  <p className="text-[12px] lg:text-[14px] leading-[21px] font-normal capsizedText4 w-[96%] md:w-full line-clamp-5">
                     {room.text}
                   </p>
                   <Link

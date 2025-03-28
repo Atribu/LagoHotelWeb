@@ -36,7 +36,7 @@ const OtherOptionSlide = ({ room }) => (
       <h3 className="text-[24px] lg:text-[26px] leading-normal font-normal font-marcellus capsizedText5">
         {room.title}
       </h3>
-      <p className="text-[12px] lg:text-[14px] leading-[21px] font-normal w-[98%] lg:capsizedText4">
+      <p className="text-[12px] lg:text-[14px] leading-[21px] font-normal w-[98%] lg:capsizedText4 line-clamp-5">
         {room.text}
       </p>
       <Link

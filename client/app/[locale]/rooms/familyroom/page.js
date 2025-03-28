@@ -28,9 +28,9 @@ const page = () => {
      <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
-      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("title2")} header3={t2("title3")}  text2={t2("text2")} iconsTexts={iconTexts}  />
+      <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("title2")} header3={t2("title3")}  text2={t2("text2")} iconsTexts={iconTexts} roomName="FamilyRoom" />
       <RoomsParallaxSection/>
-      <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")} link="/"/>
+      {/* <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")} link="/"/> */}
       <OtherOptions/>
       <ContactSection2/>
     </div>

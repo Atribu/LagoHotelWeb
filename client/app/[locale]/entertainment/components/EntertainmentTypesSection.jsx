@@ -6,8 +6,6 @@ import fitness from "../images/sportfitness.webp"
 import kids from "../images/kids.webp"
 import water from "../images/yellow-ball.webp"
 import beachvoley from "../images/beachvoley.webp"
-import tennis from "../images/tennis.webp"
-import cinema from "../images/cinema.webp"
 import sunset from "../images/summer-music.webp"
 import stage from "../images/stageshow.webp"
 import themed from "../images/themed.webp"
@@ -46,38 +44,25 @@ const EntertainmentTypesSection = () => {
       image: beachvoley,
       link:"/spor"
     },
+
     {
-   title:t("title5"),
-      category: t("daytime"),
+      title:t("title5"),
+      category: t("nighttime"),
       description: t("description5"),
-      image: tennis,
+      image: sunset,
       link:"/spor"
     },
     {
       title:t("title6"),
-      category: t("daytime"),
+      category: t("nighttime"),
       description: t("description6"),
-      image: cinema,
-      link:"/spor"
+      image: stage,
+      link:"/entertainment"
     },
     {
       title:t("title7"),
       category: t("nighttime"),
       description: t("description7"),
-      image: sunset,
-      link:"/spor"
-    },
-    {
-      title:t("title8"),
-      category: t("nighttime"),
-      description: t("description8"),
-      image: stage,
-      link:"/spor"
-    },
-    {
-      title:t("title9"),
-      category: t("nighttime"),
-      description: t("description9"),
       image: themed,
       link:"/spor"
     }
