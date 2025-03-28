@@ -61,7 +61,7 @@ const SpecialTypesSection = () => {
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase font-jost">
           {t("title")}
         </span>
-        <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[57.6px] text-lagoBlack lg:capsizedText2 font-marcellus">
+        <h3 className="text-[28px] md:text-[32px] lg:text-[48px] font-normal leading-[120%] lg:leading-[57.6px] text-lagoBlack lg:capsizedText2 font-marcellus capitalize">
         {t("subtitle")}
         </h3>
         <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] w-[90%] md:w-[55%] lg:w-[598px] lg:capsizedText4 font-jost">
@@ -95,7 +95,7 @@ const SpecialTypesSection = () => {
           <div className="flex h-full w-full md:w-[45%] items-center justify-center bg-[#2D2D26]/50">
             <div className="flex flex-col items-start justify-center w-[89.79%] ml-[6.1%] md:w-[80%] gap-[35px] text-white font-jost text-start">
               <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">{t("subtitle")}</span>
-              <h2 className="text-[26px] lg:text-[30px] md:text-[44px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">{selectedConcept.title}</h2>
+              <h2 className="text-[26px] capitalize lg:text-[30px] md:text-[44px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">{selectedConcept.title}</h2>
               <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] w-[90%] md:w-[80%] 2xl:w-[73%] lg:capsizedText4 lg:min-w-[443px]">{selectedConcept.description}</p>
             </div>
           </div>

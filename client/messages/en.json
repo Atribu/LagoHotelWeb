@@ -239,8 +239,8 @@
         "title":"Culinary Art at LAGO",
           "text1":" At LAGO, you will enjoy your vacation with international cuisine in our A’la Carte Restaurants, where flavorful dishes are served, with an endless open buffet featuring unique flavors from Turkish cuisine as well as fresh tastes reflecting the spirit of the Mediterranean.",
           "text2":"Main Restaurant: Breakfast, Lunch, and Dinner",
-          "text3":"Bistro Restaurant: 24-Hour service",
-          "text4":"Snack Bars: Open daily (at specified hours)"
+          "text3":"Bistro Restaurant: 23:00-07:00 service",
+          "text4":"Snack Restaurants: Open daily (at specified hours)"
      
       },
 
@@ -309,8 +309,8 @@
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite Italian Flavours",
-          "text1":"  Italian cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+          "text1":"  At Gusto À la Carte Restaurant, experience the exquisite tastes of Italy prepared by our expert chefs.",
+          "text2":"Delight your senses with authentic Italian dishes, from handmade pasta to distinctive Italian specialties, creating an unforgettable culinary journey.”"
      
       },
 
@@ -351,9 +351,9 @@
 
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dining Experiences",
-        "title":"Exquisite International Flavours",
-          "text1":"  International cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our International A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        "title":"Anatolia Restaurant",
+          "text1":"  Experience authentic Turkish cuisine with exquisite flavors carefully prepared by our skilled chefs at Anatolia Restaurant",
+          "text2":"Indulge yourself in traditional Turkish dishes and enjoy an unforgettable fine dining experience.”"
      
       },
 
@@ -477,9 +477,9 @@
 
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dining Experiences",
-        "title":"Exquisite International Flavours",
-          "text1":"International cuisine has been created by our experts for you as a culinary feast. In our main restaurant, our Seafood A’la Carte restaurant is ready to serve you the distinctive flavors of International cuisine.  Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2":"Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+        "title":"LAGO’s World Cuisines",
+          "text1":"Exquisite international flavors await you at our à la carte restaurants, meticulously prepared by our award-winning chefs. We are delighted to invite you to embark on a wonderful culinary adventure during your holiday at LAGO.",
+          "text2":"Inspired by the cozy charm of traditional European bistros, our Bistro Restaurant provides quick yet high-quality meals in a relaxing atmosphere, making it the perfect spot for casual dining at any time of day."
      
       },
 
