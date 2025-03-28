@@ -238,8 +238,8 @@
         "title":" LAGO'da Mutfak Sanatı",
           "text1":"  LAGO’da tatilinizi, dünya mutfaklarından seçkin lezzetlerin sunulduğu À la Carte restoranlarımızda daha keyifli hale getirin. Türk mutfağının özgün tatlarını ve Akdeniz’in taze lezzetlerini keşfedebileceğiniz zengin açık büfemizle unutulmaz bir lezzet yolculuğuna çıkın.",
           "text2":"Ana Restoran: Kahvaltı, Öğlen ve Akşam Yemeği",
-          "text3":"Bistro Restoran: 24 Saat açık",
-          "text4":"Snack Barlar: Günlük belirli saatlerde açık"
+          "text3":"Bistro Restoran: 23:00-07:00",
+          "text4":"Snack Restoranlar: Günlük belirli saatlerde açık"
         
       },
 
@@ -716,8 +716,8 @@
         "ClinaryInfoSection": {
           "subtitle": " Mükemmel Fine Dining Deneyimleri",
           "title": "İtalyan Lezzetlerinin İnceliği",
-          "text1": "İtalyan mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan İtalyan A’la Carte restoranımız, İtalyan mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+          "text1": "Gusto À la Carte Restoran’da, uzman şeflerimizin hazırladığı İtalyan mutfağının en özel lezzetlerini keşfedebilirsiniz.",
+          "text2": "El yapımı makarnalardan İtalyan spesiyallerine uzanan enfes tatlarla unutulmaz bir gastronomi deneyimi yaşayın.”"
         },
         "RoomTour": {
           "subtitle": "Mükemmel Fine Dining Deneyimleri",
@@ -751,11 +751,12 @@
         "subtitle": "Türk Mutfağının En Özel Lezzetleri",
         "title": "Anatolia Restoran",
         "text": "“Anatolia Restoran’da, Türk mutfağının geleneksel ve özgün tatlarını keşfedebilirsiniz. Şeflerimizin özenle hazırladığı seçkin lezzetlerle unutulmaz bir yemek deneyimi sizleri bekliyor.”",
+        
         "ClinaryInfoSection": {
           "subtitle": " Mükemmel Fine Dining Deneyimleri",
           "title": "Uluslararası Lezzetlerinin İnceliği",
-          "text1": "Türk mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Türk mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+          "text1": "“Anatolia Restoran’da, uzman şeflerimizin özenle hazırladığı Türk mutfağının geleneksel ve benzersiz lezzetlerini keşfedebilirsiniz. ",
+          "text2": " Türk mutfağının enfes yemekleriyle unutulmaz bir gastronomi deneyimine davetlisiniz.”"
         },
         "RoomTour": {
           "subtitle": "Mükemmel Fine Dining Deneyimleri",
@@ -868,9 +869,9 @@
         "text": "Dünyanın dört bir yanından çeşitli yemek seçeneklerinin tadını çıkarın.",
         "ClinaryInfoSection": {
           "subtitle": " Mükemmel Fine Dining Deneyimleri",
-          "title": "Uluslararası Lezzetlerinin İnceliği",
-          "text1": "Uluslararası mutfağı, uzmanlarımız tarafından sizin için bir gastronomi şöleni olarak hazırlandı. Ana restoranımızda bulunan Uluslararası A’la Carte restoranımız, Deniz mutfağının kendine özgü lezzetlerini size sunmaya hazır. Lectus proin ac elit sed porttitor habitasse adipiscing id neque.",
-          "text2": "Nulla vitae commodo tristique viverra id praesent. Fermentum ut fermentum at nulla. Sagittis urna maecenas augue aliquam vestibulum. Lectus proin ac elit sed porttitor habitasse adipiscing id neque. Lectus proin ac elit sed porttitor habitasse adipiscing id neque."
+          "title": "LAGO’nun Dünya Mutfakları",
+          "text1": "À la carte restoranlarımızda, ödüllü şeflerimizin özenle hazırladığı dünya mutfağının eşsiz lezzetlerini keşfedebilirsiniz. LAGO’daki tatiliniz boyunca sizleri unutulmaz bir gastronomi macerasına davet etmekten mutluluk duyuyoruz.",
+          "text2": "Geleneksel Avrupa bistro konseptinden ilham alan restoranımız, rahat atmosferi ve hızlı servis edilen kaliteli yemekleriyle günün her anında sizleri ağırlıyor."
         },
         "RoomTour": {
           "subtitle": "Mükemmel Fine Dining Deneyimleri",
@@ -1766,9 +1767,9 @@
       "text6": "Özel günlerinizi, özenle hazırlanmış kişisel çiçek aranjmanlarıyla daha da güzelleştirin. LAGO’da her buket, unutulmaz anlarınıza güzellik ve zarafet katmak için titizlikle oluşturulur."
     },
     "TwoImageSection": {
-      "subtitle": "Mükemmel Fine Dining Deneyimleri",
+      "subtitle": "LAGO Otel'de Zamansız Anılar Yaratıyoruz",
       "title": "Yakındaki Tarihi Hazineler",
-      "text": "LAGO’da, à la carte restoranlarımızda sunulan seçkin uluslararası mutfağın yanı sıra, Türk mutfağına özgü lezzetler ve Akdeniz ruhunu yansıtan taze tatlar içeren sınırsız açık büfeyle tatilin keyfini çıkarın."
+      "text": "Antalya Manavgat'da bulunan LAGO Hotel, modern lüks ile tarihi dokunun buluştuğu eşsiz bir deneyim sunuyor. Misafirlerimiz, konforlu odalarında dinlenirken, çevredeki antik kalıntılar ve doğal güzelliklerle bezenmiş Side'nin tarihi atmosferini keşfetme imkânı buluyor. Otelimizin sunduğu özenle hazırlanmış yerel ve uluslararası mutfak lezzetleri, Akdeniz'in taptaze ruhunu yansıtırken, her anınızın unutulmaz anılara dönüşmesini sağlıyor. LAGO Hotel, sizi geçmişin büyüleyici izleriyle gelecek için ilham veren bir yolculuğa davet ediyor."
     }
   },
 

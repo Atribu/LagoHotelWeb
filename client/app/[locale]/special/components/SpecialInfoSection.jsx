@@ -34,8 +34,8 @@ const SpecialInfoSection = () => {
     <div
     ref={sectionRef} 
      className="flex w-screen h-auto md:h-[400px] lg:h-[555px] items-center justify-center relative max-w-[1440px]">
-      <div className="flex flex-col md:flex-row w-[89.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-between h-full gap-[125px] lg:gap-[130px] md:gap-[4%]">
-        <div className="flex flex-col w-[100%] md:w-[47%] items-start justify-center text-start gap-[35px] text-black font-jost">
+      <div className="flex flex-col md:flex-row w-[89.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-between h-full gap-[125px] lg:gap-[70px] md:gap-[4%]">
+        <div className="flex flex-col w-[100%] md:w-[46%] items-start justify-center text-start gap-[35px] text-black font-jost ">
           <span className="text-[12.002px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
         {t("subtitle")}
           </span>
@@ -48,7 +48,7 @@ const SpecialInfoSection = () => {
             
         </div>
 
-        <div className="flex min-w-[310px] w-[89%] sm:w-[50%] lg:w-[80%] md:w-[49%] items-end justify-end relative h-full">
+        <div className="flex min-w-[310px] w-[89%] sm:w-[50%] lg:w-[49%] md:w-[49%] items-end justify-end relative h-full">
             <Image src={img1} alt="art" width={300} height={450} className={`z-[40] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] transition-all duration-1000 ease-in-out ${
               animate ? "-translate-y-4 opacity-100" : "translate-y-4 opacity-0"
             }`}/>
