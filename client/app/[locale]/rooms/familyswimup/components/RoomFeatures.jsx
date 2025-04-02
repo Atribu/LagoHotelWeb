@@ -23,7 +23,7 @@ import {useTranslations} from 'next-intl';
 import Link from "next/link"
 
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName}) => {
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName, pool}) => {
   const t = useTranslations(`${roomName}.RoomInfo`);
   const t2 = useTranslations(`${roomName}.ReservationWidget`);
 
@@ -88,12 +88,17 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             </h3>
 
             <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
+
+           { pool && (
               <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <PoolSvg className="flex" width={65} height={60} />
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
-                {iconsTexts[0]}
-                </p>
-              </div>
+              <PoolSvg className="flex" width={65} height={60} />
+              <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+              {iconsTexts[0]}
+              </p>
+            </div>
+           )
+
+           }
 
               <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <div className="flex py-[10px] px-[3px] lg:px-[6px]">

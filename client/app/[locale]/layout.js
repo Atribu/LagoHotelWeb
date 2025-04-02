@@ -22,6 +22,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Lago Hotel",
   description: "Lago Hotel Antalya",
+  icons: {
+    icon: '/favicon.ico',
+   
+  },
 };
 
 
