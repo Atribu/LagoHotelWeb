@@ -165,8 +165,8 @@
       },
       "RoomSection2":{
         "title":"Aile Odası",
-        "subtitle":"  Ana binada bulunan Aile Odası (50-55 m²), ara kapılı iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ortak banyo ve balkona sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
-        "m":"50-55 m²",
+        "subtitle":"  Ana binada bulunan Aile Odası (38-41 m²), ara kapılı iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ortak banyo ve balkona sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"38-41 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
@@ -1188,7 +1188,7 @@
     "RoomInfo": {
       "subtitle": "Her Yaşa Uygun Eğlence",
       "title": "Aile Odası",
-      "text": "Ana binada bulunan Family odalarımız 50-55 m² olup deniz veya kara manzaralıdır. Odalar, ara kapılı iki ayrı yatak odasından (1 çift kişilik yataklı oda, 2 tek kişilik yataklı oda), ortak banyodan ve balkondan oluşmaktadır. Maksimum kapasite 4 yetişkin + 1 çocuktur.",
+      "text": "Ana binada bulunan Family odalarımız 38-41 m² olup deniz veya kara manzaralıdır. Odalar, ara kapılı iki ayrı yatak odasından (1 çift kişilik yataklı oda, 2 tek kişilik yataklı oda), ortak banyodan ve balkondan oluşmaktadır. Maksimum kapasite 4 yetişkin + 1 çocuktur.",
       "title2": "Aile Dostu İmkanlar",
       "list1": "----",
       "list2": "2 Tek Kişilik Yatak",

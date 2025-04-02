@@ -25,7 +25,7 @@ const MissionColumn = ({
     <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
       {spanText}
     </span>
-    <h4 className="text-[25px] lg:text-[30px] font-normal leading-[120%] lg:leading-[57.6px] lg:capitalize font-marcellus">
+    <h4 className="text-[25px] lg:text-[30px] font-normal leading-[120%] lg:leading-[57.6px] lg:capitalize font-marcellus capsizedText3">
       {heading}
     </h4>
     <p className="text-[14px] font-normal leading-[21px] w-[99%]">
