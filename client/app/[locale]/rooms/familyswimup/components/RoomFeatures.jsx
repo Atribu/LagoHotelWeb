@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useRef } from "react"
 import ArrawDown from "@/app/[locale]/HomePage/Components/Icons/ArrawDown"
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
@@ -25,7 +25,8 @@ import Link from "next/link"
 
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName, pool}) => {
   const t = useTranslations(`${roomName}.RoomInfo`);
-  const t2 = useTranslations(`${roomName}.ReservationWidget`);
+  const t2 = useTranslations(`SuperiorRoom.ReservationWidget`);
+  const dropdownRef = useRef(null);
 
   const items = [
     { text: t("madde1"), icon: PoolSvg2 },
@@ -48,6 +49,25 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
   const [adults, setAdults] = useState(0)
   const [children, setChildren] = useState(0)
   const [guestInfo, setGuestInfo] = useState({})
+
+    // Dışarıya tıklamayı yakalayıp dropdown'u kapatan effect
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+          setShowGuests(false);
+        }
+      };
+  
+      if (showGuests) {
+        document.addEventListener("mousedown", handleClickOutside);
+      } else {
+        document.removeEventListener("mousedown", handleClickOutside);
+      }
+  
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [showGuests]);
 
   useEffect(() => {
     setGuestInfo({ checkInDate, checkOutDate, adults, children })
@@ -211,7 +231,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
         </div>
 
         {/* guest */}
-        <div className="relative flex items-center justify-center w-auto">
+        <div className="relative flex items-center justify-center w-auto" ref={dropdownRef}>
           <label htmlFor="guests-button" className="sr-only">
             Select number of guests
           </label>
@@ -220,19 +240,18 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             onClick={toggleGuestsDropdown}
             className="
               cursor-pointer 
-              items-center text-start justify-center p-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
+              items-center text-start justify-center px-[18px] h-[47px] w-[70vw] sm:w-[50vw] md:w-[23vw] lg:w-[250px] border border-lagoBlack
               focus:outline-none 
               bg-transparent 
               text-[16px]
               leading-[140%]
               placeholder:font-normal
-              font-jost text-lagoGray"
-              
-              
+              font-jost text-lagoGray"   
             aria-haspopup="dialog"
             aria-expanded={showGuests}
             type="button">
-            {t2("adult")}
+             <span> {adults === 0 ? t2("adult") : `${adults} ${t2("adult")}`}</span>{" "}/{" "}
+             <span> {children === 0 ? t2("kids") : `${children} ${t2("kids")}`}</span>
            
           </button>
           {showGuests && (
