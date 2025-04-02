@@ -23,7 +23,7 @@ import {useTranslations} from 'next-intl';
 import Link from "next/link"
 
 
-const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName}) => {
+const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName, pool}) => {
   const t = useTranslations(`${roomName}.RoomInfo`);
   const t2 = useTranslations(`${roomName}.ReservationWidget`);
 
@@ -65,6 +65,8 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
   const incrementChildren = () => setChildren(children + 1)
   const decrementChildren = () => children > 0 && setChildren(children - 1)
 
+  const filteredItems = pool ? items : items.slice(1);
+
   return (
     <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
       <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center md:items-start justify-center gap-[35px] md:gap-[4.5%] ">
@@ -88,12 +90,17 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             </h3>
 
             <div className="sm:flex grid grid-cols-2 sm:flex-row gap-[10px] lg:gap-[15px] w-full items-center justify-start">
+
+           { pool && (
               <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
-                <PoolSvg className="flex" width={65} height={60} />
-                <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
-                {iconsTexts[0]}
-                </p>
-              </div>
+              <PoolSvg className="flex" width={65} height={60} />
+              <p className="text-[14px] lg:text-[16px] text-lagoBlack font-marcellus font-normal leading-[16px]">
+              {iconsTexts[0]}
+              </p>
+            </div>
+           )
+
+           }
 
               <div className="flex items-center justify-start text-center w-[100%] sm:w-[32.5%] gap-[0px] lg:gap-[10px] bg-[#4B4E4F14] h-[70px] md:h-[60px]">
                 <div className="flex py-[10px] px-[3px] lg:px-[6px]">
@@ -127,7 +134,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-[15px] md:gap-[25px] lg:gap-[35px] items-start justify-start w-full">
-            {items.map((item, index) => (
+            {filteredItems.map((item, index) => (
               <div
                 key={index}
                 className="flex gap-[14px] items-center justify-start"

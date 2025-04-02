@@ -223,7 +223,7 @@
       "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
       "phone":"Tel: +90 242 756 99 00",
       "callcenter":"Call Center: +90 242 524 57 87",
-      "email":"Email: sales@lagohotel.com",
+      "email":"Email: info@lagohotel.com",
       "buttonText":"REZERVASYON YAP"
     },
 
@@ -1483,7 +1483,7 @@
     "RoomInfo": {
       "subtitle": "Özel Havuzlu Ayrıcalıklı Konaklama",
       "title": "Tiny Villa",
-      "text": "Bahçe içerisinde ayrı konumlanan Tiny Villa’mız 100 m² büyüklüğünde olup huzur verici bahçe manzarasına sahiptir. Bu özel villada ara kapılı iki ayrı yatak odası bulunur: bir oda çift kişilik yataklı (2 yetişkin için), diğer oda iki tek kişilik yataklıdır (2 yetişkin için). Her yatak odasının ayrı banyosu vardır. Ayrıca özel teras ve bağımsız özel havuz ile konforunuz ve mahremiyetiniz ön plandadır.",
+      "text": "Bahçe içerisinde ayrı konumlanan Tiny Villa’mız 50 m² büyüklüğünde olup huzur verici bahçe manzarasına sahiptir. Bu özel villada ara kapılı iki ayrı yatak odası bulunur: bir oda çift kişilik yataklı (2 yetişkin için), diğer oda iki tek kişilik yataklıdır (2 yetişkin için). Her yatak odasının ayrı banyosu vardır. Ayrıca özel teras ve bağımsız özel havuz ile konforunuz ve mahremiyetiniz ön plandadır.",
       "title2": "Tiny Villa İmkanları",
       "list1": "Bağımsız Havuz",
       "list2": "2 Tek Kişilik Yatak",
@@ -1491,7 +1491,7 @@
       "title3": "Oda Özellikleri",
       "text2": "Tiny Villa’da sunulan hizmetler arasında Çipli Bileklik Erişimi, günlük minibar yenileme, özel banyo ürünleri, ücretsiz çay-kahve seti, uydu kanallı LED TV, ücretsiz Wi-Fi, merkezi klima, kasa ve makyaj masası bulunmaktadır.",
       "madde1": "Özel Havuz",
-      "madde2": "100 m²",
+      "madde2": "50 m²",
       "madde3": "Makyaj Masası",
       "madde4": "Sigara İçmez",
       "madde5": "Mini Bar",
@@ -1870,6 +1870,23 @@
     "spa": "Spa & Wellness",
     "kidsclub": "Kids Club",
     "entertainment": "Eğlence"
+  },
+
+  "CookiePopup":{
+    "cookie": "Çerez Kullanıyoruz: ",
+    "cookieText": "İçeriği kişiselleştirmek ve web trafiğini analiz etmek için kendi ve üçüncü taraf çerezlerini kullanıyoruz.",
+    "read": " Daha fazlasını oku",
+    "about": "çerezler hakkında",
+    "deny": "Tüm Çerezleri Reddet",
+    "manage": "Çerez Tercihlerini Yönet",
+    "accept": "Tüm Çerezleri Kabul Et",
+    "policy": "Çerez Politikası",
+    "clarification": "Çerez Açıklama Metni",
+    "what": "Çerezler Nedir?",
+    "dropdown1": "Kesinlikle Gerekli",
+    "dropdown2": "Performans",
+    "dropdown3": "Fonksiyonel",
+    "dropdown4": "Hedefleme"
   }
   
 }

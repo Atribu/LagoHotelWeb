@@ -225,7 +225,7 @@
       "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
       "phone":"Phone: +90 242 756 99 00",
       "callcenter":"Call Center: +90 242 524 57 87",
-      "email":"Email: sales@lagohotel.com",
+      "email":"Email: info@lagohotel.com",
       "buttonText":"BOOK NOW"
     },
 
@@ -1570,7 +1570,7 @@
       "RoomInfo":{
         "subtitle":"Exclusive Stay with a Private Pool",
         "title":"Tiny Villa",
-        "text":"Located separately within the garden, our Tiny Villa measures 100 m² and offers relaxing garden views. This exclusive villa features two separate bedrooms connected by an internal door: one bedroom with a double bed (for 2 adults) and another bedroom with two single beds (for 2 adults). Each bedroom has its own bathroom. It offers a private terrace and a private independent pool, ensuring your comfort and privacy.",
+        "text":"Located separately within the garden, our Tiny Villa measures 50 m² and offers relaxing garden views. This exclusive villa features two separate bedrooms connected by an internal door: one bedroom with a double bed (for 2 adults) and another bedroom with two single beds (for 2 adults). Each bedroom has its own bathroom. It offers a private terrace and a private independent pool, ensuring your comfort and privacy.",
         "title2":" Tiny Villa Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
@@ -1578,7 +1578,7 @@
         "title3":" Room Features",
         "text2":" “Services provided in Tiny Villa include Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, complimentary tea-coffee facilities, LED TV with satellite channels, free Wi-Fi, central air conditioning, a safe, and a vanity table with a mirror.”",
         "madde1":"Private Pool",
-        "madde2":"100 m²",
+        "madde2":"50 m²",
         "madde3":"Makeup Table",
         "madde4":"Non-Smoking",
         "madde5":"Mini Bar",
@@ -1996,6 +1996,23 @@
     "spa":"Spa & Wellness",
     "kidsclub":"Kids Club",
     "entertainment":"Entertainment"
+  },
+
+  "CookiePopup":{
+    "cookie": "We Use Cookies: ",
+    "cookieText": "We use our own and third-party cookies to personalize content and to analyze web traffic.",
+    "read": " Read more",
+    "about": "about cookies",
+    "deny": "Deny All Cookies",
+    "manage": "Manage Cookie Preferences",
+    "accept": "Accept All Cookies",
+    "policy": "Cookie Policy",
+    "clarification": "Cookie Clarification Text",
+    "what": "What Are Cookies?",
+    "dropdown1": "Strictly Necessary",
+    "dropdown2": "Performance",
+    "dropdown3": "Functional",
+    "dropdown4": "Targeting"
   }
  
   }

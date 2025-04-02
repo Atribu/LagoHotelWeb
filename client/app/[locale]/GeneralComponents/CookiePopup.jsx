@@ -6,6 +6,7 @@ import DropdownCookieArrow from "./Contact/icons/DropdownCookieArrow";
 import logosvg from "./Header/Icons/Asset2.svg";
 import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
+import {useTranslations} from 'next-intl';
 
 // ModalPortal Componenti: Modal içeriği body içerisine taşır.
 const ModalPortal = ({ children, onClose }) => {
@@ -31,10 +32,12 @@ const CookiePopup = () => {
     // hasMounted state'i ekliyoruz
     const [hasMounted, setHasMounted] = useState(false);
 
+    const t = useTranslations('CookiePopup');
+
   const buttonsData = [
-    { id: 0, label: "Cookie Policy" },
-    { id: 1, label: "Cookie Clarification Text" },
-    { id: 2, label: "What Are Cookies?" },
+    { id: 0, label: t("policy") },
+    { id: 1, label: t("clarification") },
+    { id: 2, label: t("what") },
   ];
 
   const [selectedContent, setSelectedContent] = React.useState(0);
@@ -205,7 +208,7 @@ const CookiePopup = () => {
           </div>
 
           <h4 className="text-[16px] font-medium leading-[26.667px]">
-            Strictly Necessary
+           {t("dropdown1")}
           </h4>
         </div>
         <div
@@ -251,7 +254,7 @@ const CookiePopup = () => {
           </div>
 
           <h4 className="text-[16px] font-medium leading-[26.667px] ">
-            Performance
+          {t("dropdown2")}
           </h4>
         </div>
         <div
@@ -299,7 +302,7 @@ const CookiePopup = () => {
           </div>
 
           <h4 className="text-[16px] font-medium leading-[26.667px] ">
-            Functional
+          {t("dropdown3")}
           </h4>
         </div>
         <div
@@ -347,7 +350,7 @@ const CookiePopup = () => {
           </div>
 
           <h4 className="text-[16px] font-medium leading-[26.667px] ">
-            Targeting
+          {t("dropdown4")}
           </h4>
         </div>
         <div
@@ -1049,25 +1052,21 @@ const CookiePopup = () => {
       <div className="fixed flex z-[9999] bottom-0 bg-[rgba(29,29,27,0.70)] backdrop-blur-[10px] right-0 left-0 w-screen items-center justify-center">
         <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[80%] xl:max-w-[1270px] py-[25px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-jost">
           <p className="md:hidden text-[13px] lg:text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center md:min-w-[39%] lg:w-[]">
-            <span className="font-medium underline">We Use Cookies:</span> We
-            use our own and third-party cookies to <br /> personalize content
-            and to analyze web traffic. 
+            <span className="font-medium underline">{t("cookie")}</span>  {t("cookieText")}
             <br />
             <Link href="/" className="font-medium underline">
-              Read more
+            {t("read")} {" "}
             </Link>
-             about cookies
+            {t("about")}
           </p>
 
           <div className="md:flex hidden text-[14px] leading-[130%] text-[#FBFBFB] font-normal font-jost text-center xl:text-start sm:w-[45%] md:min-w-[38%] ml-[2%] ">
             <p>
-              <span className="font-medium underline">We Use Cookies:</span> We
-              use our own and third-party cookies to personalize content and to
-              analyze web traffic. 
+              <span className="font-medium underline">{t("cookie")}</span> {t("cookieText")}
               <Link href="/" className="font-medium underline">
-                Read more
+              {t("read")}{" "}
               </Link>
-               about cookies
+              {t("about")}
             </p>
           </div>
           <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
@@ -1075,27 +1074,27 @@ const CookiePopup = () => {
               className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer  "
               onClick={handleDenyAll}
             >
-              Deny All Cookies
+             {t("deny")}
             </button>
             <button
               onClick={handleAcceptAll}
               className="flex lg:hidden text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
-              Accept All Cookies
+             {t("accept")}
             </button>
 
             <button
               onClick={handleModalToggle}
               className="text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] px-[20px] cursor-pointer col-span-2 "
             >
-              Manage Cookie Preferences
+              {t("manage")}
             </button>
 
             <button
               onClick={handleAcceptAll}
               className="hidden lg:flex text-[13px] lg:text-[14px] leading-normal font-medium uppercase items-center justify-center text-center border-[#FBFBFB] border-[0.867px] whitespace-nowrap py-[10px] md:px-[20px] cursor-pointer  "
             >
-              Accept All Cookies
+              {t("accept")}
             </button>
 
             {isModalOpen && (
@@ -1109,9 +1108,9 @@ const CookiePopup = () => {
                     />
                     <div className="hidden lg:flex flex-row w-[98%] md:w-[90%] lg:w-auto text-center items-center text-[16px] font-bold ml-[11%] lg:ml-0 gap-[23px] h-[29px]">
                       {[
-                        "Cookie Policy",
-                        "Cookie Clarification Text",
-                        "What Are Cookies?",
+                        t("policy"),
+                        t("clarification"),
+                        t("what"),
                       ].map((buttonLabel, index) => (
                         <button
                           key={index}
@@ -1155,9 +1154,9 @@ const CookiePopup = () => {
                       <button className="hidden lg:flex text-[16px] font-medium text-[#FBFBFB] font-jost leading-normal border-b border-[#FBFBFB] lg:ml-[7%]">
                         {
                           [
-                            "Cookie Policy",
-                            "Cookie Clarification Text",
-                            "What Are Cookies?",
+                            t("policy"),
+                            t("clarification"),
+                            t("what"),
                           ][selectedContent]
                         }
                       </button>
@@ -1168,20 +1167,20 @@ const CookiePopup = () => {
                         {contents[selectedContent]}
                       </div>
                       <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] mb-[20px] lg:mt-[21.5px] lg:mb-6 font-jost">
-                        <button onClick={handleDenyAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px]">
-                          Deny All Cookies
+                        <button onClick={handleDenyAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap min-w-[170px]">
+                        {t("deny")}
                         </button>
-                        <button onClick={handleAcceptAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px]">
-                          Accept All Cookies
+                        <button onClick={handleAcceptAll} className="text-[14px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap min-w-[184px]">
+                        {t("accept")}
                         </button>
                       </div>
 
                       <div className="absolute bottom-[14vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-jost">
-                        <button onClick={handleDenyAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[170px] w-[44vw]">
-                          Deny All Cookies
+                        <button onClick={handleDenyAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap min-w-[170px] w-[44vw]">
+                        {t("deny")}
                         </button>
-                        <button onClick={handleAcceptAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[184px] w-[44vw]">
-                          Accept All Cookies
+                        <button onClick={handleAcceptAll} className="text-[12px] uppercase font-medium leading-normal text-[#FBFBFB] px-[20px] py-[10px] border border-[#FBFBFB] whitespace-nowrap min-w-[184px] w-[44vw]">
+                        {t("accept")}
                         </button>
                       </div>
                     </div>

@@ -93,6 +93,7 @@ export default function Footer() {
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] underline">
                 {t('phone')}
                 </p>
+                <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] underline">Call Center: <Link href="tel:02425245787" className='underline '>+90 242 524 57 87</Link></p>
                 <p className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px]">
                 {t('email')}
                 </p>

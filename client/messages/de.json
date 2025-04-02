@@ -223,7 +223,7 @@
       "address":"Titreyengol, Sorgun / Manavgat/ Antalya / TR",
       "phone":"Phone: +90 242 756 99 00",
       "callcenter":"Call Center: +90 242 524 57 87",
-      "email":"Email: sales@lagohotel.com",
+      "email":"Email: info@lagohotel.com",
       "buttonText":"JETZT BUCHEN"
     },
 
@@ -1867,6 +1867,24 @@
     "spa": "Spa & Wellness",
     "kidsclub": "Kids Club",
     "entertainment": "Unterhaltung"
+  },
+
+  "CookiePopup":{
+    "cookie": "Wir verwenden Cookies: ",
+    "cookieText": "Wir nutzen eigene und Drittanbieter-Cookies, um Inhalte zu personalisieren und den Webverkehr zu analysieren.",
+    "read": " Weiterlesen",
+    "about": "über Cookies",
+    "deny": "Alle Cookies ablehnen",
+    "manage": "Cookie-Einstellungen verwalten",
+    "accept": "Alle Cookies akzeptieren",
+    "policy": "Cookie-Richtlinie",
+    "clarification": "Cookie-Klärungstext",
+    "what": "Was sind Cookies?",
+    "dropdown1": "Streng notwendig",
+    "dropdown2": "Performance",
+    "dropdown3": "Funktional",
+    "dropdown4": "Targeting"
   }
+  
 
   }
