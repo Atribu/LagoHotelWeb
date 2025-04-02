@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         jost: ['Jost', 'sans-serif'],
         marcellus:['Marcellus','sans-serif'],
+        forum:['Forum','sans-serif']
       },
 
       colors:{
@@ -33,9 +34,7 @@ export default {
       screens: {
         'tablet': '640px',
 
-
         'laptop': '1024px',
-
 
         'laptop': '1024px',
 

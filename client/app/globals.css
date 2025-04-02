@@ -103,6 +103,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Forum';
+  src: url('/fonts/Forum-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html:lang(ru) .font-marcellus {
+  font-family: 'Forum', sans-serif !important;
+}
+
 .social-shadow {
   box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
 }
