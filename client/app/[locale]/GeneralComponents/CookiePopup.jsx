@@ -78,29 +78,29 @@ const CookiePopup = () => {
 
         // Tüm çerezleri kabul et ve popup'ı kapat
         const handleAcceptAll = () => {
-          const allAccepted = {
-            necessary: true,
-            performance: true,
-            functional: true,
-            targeting: true,
-          };
-          setCookies(allAccepted);
-          savePreferences(allAccepted);
-          console.log("Tüm Çerezler Kabul Edildi:", allAccepted);
+          // const allAccepted = {
+          //   necessary: true,
+          //   performance: true,
+          //   functional: true,
+          //   targeting: true,
+          // };
+          // setCookies(allAccepted);
+          // savePreferences(allAccepted);
+          // console.log("Tüm Çerezler Kabul Edildi:", allAccepted);
           setIsVisible(false);
         };
       
         // Tüm çerezleri reddet ve popup'ı kapat
         const handleDenyAll = () => {
-          const allDenied = {
-            necessary: true, // Zorunlu çerezler her zaman aktiftir
-            performance: false,
-            functional: false,
-            targeting: false,
-          };
-          setCookies(allDenied);
-          savePreferences(allDenied);
-          console.log("Tüm Çerezler Reddedildi:", allDenied);
+          // const allDenied = {
+          //   necessary: true, // Zorunlu çerezler her zaman aktiftir
+          //   performance: false,
+          //   functional: false,
+          //   targeting: false,
+          // };
+          // setCookies(allDenied);
+          // savePreferences(allDenied);
+          // console.log("Tüm Çerezler Reddedildi:", allDenied);
           setIsVisible(false);
         }
 

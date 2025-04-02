@@ -167,8 +167,8 @@
       },
       "RoomSection2":{
         "title":"Family Room",
-        "subtitle":" This Family Room in the main building (50-55 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
-        "m":"50-55 m²",
+        "subtitle":" This Family Room in the main building (38-41 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
+        "m":"38-41 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
@@ -1226,9 +1226,9 @@
         "title":" Other Options",
         "subtitle1":" Room for All the Family Members",
         "title1":"Family Room",
-        "m1":"50-55 m²",
+        "m1":"38-41 m²",
         "capacity1":"2 Adults + 2 Child",
-        "text1":"This Family Room in the main building (50-55 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
+        "text1":"This Family Room in the main building (38-41 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
         "buttonText":" Learn More",
 
         "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
@@ -1255,7 +1255,7 @@
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Room",
-        "text":"Located in our main building, Family Rooms measure between 50-55 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
+        "text":"Located in our main building, Family Rooms measure between 38-41 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
         "title2":" Family Room Amenities",
         "list1":" ----",
         "list2":" 2 Single Beds",

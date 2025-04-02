@@ -32,7 +32,8 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[], buttonText}) => 
 
   return (
     <div className='flex flex-col w-full max-w-[1440px] items-center justify-center gap-[30px] lg:gap-[50px]'>
-        <div className='flex flex-col justify-start items-start  w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[15px] md:gap-[25px] lg:gap-[35px]'>
+       {!showLink && (
+        <div className='flex flex-col justify-start items-start w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[15px] md:gap-[25px] lg:gap-[35px]'>
             <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase'>
             {span}
             </p>
@@ -43,6 +44,7 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[], buttonText}) => 
              {text}
             </p>
         </div>
+       )}
         {/* Havuz içeriklerini grid yapısında 3 sütun 3 satır şeklinde düzenliyoruz ve gap'ı azaltıyoruz */}
         <div className='hidden lg:grid lg:grid-cols-3 gap-[30px] w-[87.79%] md:w-[91.4%] lg:w-[76.8%]' >
             {poolItems.map((pool, index) => (
@@ -53,20 +55,20 @@ const Beach5 = ({span,header,text,poolItems, showLink,links=[], buttonText}) => 
                   alt={pool.title}
                   width={349} 
                   height={233}
-                  className="object-cover w-full transition-opacity duration-300 group-hover:opacity-0"
+                  className="object-cover w-full transition-opacity duration-300 group-hover:opacity-0 max-h-[233px]"
                 />
                   <Image
                   src={pool.hoverSrc ? pool.hoverSrc : pool.src}
                   alt={`${pool.title} hover`}
                   width={349}
                   height={233}
-                  className="object-cover w-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                  className="object-cover w-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100  max-h-[233px]"
                 />
                 </div>
                 <p className='font-jost text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase '>
                   {pool.subtitle}
                 </p>
-                <h5 className='font-marcellus w-[100%] text-[25px] leading-normal lg:leading-normal uppercase lg:capsizedText3'>
+                <h5 className='font-marcellus w-[100%] text-[25px] leading-normal lg:leading-normal capitalize lg:capsizedText3'>
                 {pool.title}
                 </h5>
                 <p className='font-jost text-[12px] lg:text-[14px] leading-[21px] lg:capsizedText4'>

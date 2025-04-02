@@ -4,14 +4,14 @@ import mainImg from "./images/mainfoto.webp"
 import MissionVisionSection from '../about/components/MissionVisionSection'
 import rightImg from "../about/images/sag.webp"
 import leftImg from "./images/sol1.webp"
-import new1 from "./images/news1.webp"
+import new1 from "../restaurants/despinarestaurant/images/SRF_2325.jpg"
 import new2 from "./images/news2.webp"
 import new3 from "./images/news3.webp"
-import new4 from "./images/news4.webp"
-import new5 from "./images/news5.webp"
+import new4 from "../special/images/ikili1.webp"
+import new5 from "../beachpools/Images/beach2.webp"
 import new6 from "./images/news6.webp"
-import new7 from "./images/news7.webp"
-import new8 from "./images/news8.webp"
+import new7 from "../entertainment/images/beachvoley.webp"
+import new8 from "../gallery/images/genel/SRF_5774.webp"
 import new9 from "./images/news9.webp"
 import Beach5 from '../beachpools/Components/Beach5'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
@@ -86,7 +86,7 @@ const newsItems = [
 ]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]'>
      <MainBanner2 img={mainImg} span={t("subtitle")} header={t ("title")}/> 
      <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/" buttonText={t3("buttonText")}/>
      <Beach5 span="" header="" text="" poolItems={newsItems} showLink={true} links={newsLinks} buttonText={t3("buttonText")}/>
