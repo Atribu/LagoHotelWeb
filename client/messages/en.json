@@ -264,7 +264,7 @@
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: Italian",
         "cuisines2title":"Gusto",  
-        "cuisines2text":"“Experience an authentic Italian culinary feast crafted by our expert chefs at Gusto, our Italian À la Carte Restaurant. Delight in Italy’s distinctive flavors and indulge in an unforgettable dining experience.”" ,
+        "cuisines2text":"Experience an authentic Italian culinary feast crafted by our expert chefs at Gusto, our Italian À la Carte Restaurant. Delight in Italy’s distinctive flavors and indulge in an unforgettable dining experience." ,
         "cuisines3subtitle":"CUISINE: Seafood and Fish",
         "cuisines3title":"Despina",   
         "cuisines3text":"Seafood and fish dishes carefully prepared by our award-winning chefs offer an experience that delights both your palate and your eyes. Special recipes await you at our Despina À la Carte Restaurant, promising an unforgettable dining experience."     
@@ -287,7 +287,7 @@
          "buttonText":" Explore More",
          "cuisines2subtitle":"CUISINE: ASIAN ",
         "cuisines2title":"Fuego",   
-        "cuisines2text":" Our Asian À la Carte restaurant, Fuego, is designed to offer you a delightful culinary experience featuring the authentic flavors of Asian cuisine. You can enjoy these exquisite dishes every evening from 18:30 to 21:00.”",
+        "cuisines2text":" Our Asian À la Carte restaurant, Fuego, is designed to offer you a delightful culinary experience featuring the authentic flavors of Asian cuisine. You can enjoy these exquisite dishes every evening from 18:30 to 21:00.",
         "cuisines3subtitle":" CUISINE: Spanish ",
         "cuisines3title":"Tapaz",   
         "cuisines3text":" Our Tapaz À la Carte Restaurant invites you to savor the authentic Spanish cuisine through a delightful tapas menu, carefully prepared by our chefs."     
@@ -310,7 +310,7 @@
         "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite Italian Flavours",
           "text1":"  At Gusto À la Carte Restaurant, experience the exquisite tastes of Italy prepared by our expert chefs.",
-          "text2":"Delight your senses with authentic Italian dishes, from handmade pasta to distinctive Italian specialties, creating an unforgettable culinary journey.”"
+          "text2":"Delight your senses with authentic Italian dishes, from handmade pasta to distinctive Italian specialties, creating an unforgettable culinary journey."
      
       },
 
@@ -347,13 +347,13 @@
     "AnatoliaRestaurants":{
       "subtitle":"Traditional Turkish Cuisine at Its Finest",
       "title":"Anatolia Restaurant",
-      "text":"“Enjoy authentic Turkish dishes and traditional flavors at Anatolia Restaurant, where our chefs carefully prepare exquisite recipes for an unforgettable dining experience.”",
+      "text":"Enjoy authentic Turkish dishes and traditional flavors at Anatolia Restaurant, where our chefs carefully prepare exquisite recipes for an unforgettable dining experience.",
 
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dining Experiences",
         "title":"Anatolia Restaurant",
           "text1":"  Experience authentic Turkish cuisine with exquisite flavors carefully prepared by our skilled chefs at Anatolia Restaurant",
-          "text2":"Indulge yourself in traditional Turkish dishes and enjoy an unforgettable fine dining experience.”"
+          "text2":"Indulge yourself in traditional Turkish dishes and enjoy an unforgettable fine dining experience."
      
       },
 
@@ -389,12 +389,12 @@
     "DespinaRestaurants":{
       "subtitle":"SEAFOOD CUISINE AT ITS FINEST",
       "title":"Despina Restaurant",
-      "text":"“Discover the finest seafood and fish dishes at Despina Restaurant, meticulously prepared by our expert chefs. Delight in fresh, flavorful seafood specialties, and experience an exceptional dining journey inspired by the Mediterranean.”",
+      "text":"Discover the finest seafood and fish dishes at Despina Restaurant, meticulously prepared by our expert chefs. Delight in fresh, flavorful seafood specialties, and experience an exceptional dining journey inspired by the Mediterranean.",
 
       "ClinaryInfoSection":{
         "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite Seafood Flavors",
-          "text1":"“At Despina À la Carte Restaurant, indulge in exceptional seafood dishes expertly prepared by our talented chefs.",
+          "text1":"At Despina À la Carte Restaurant, indulge in exceptional seafood dishes expertly prepared by our talented chefs.",
           "text2":" Fresh flavors inspired by the sea offer an unforgettable dining experience"
      
       },
@@ -564,7 +564,7 @@
         "subtitle":" Perfect Fine Dining Experiences",
         "title":"Exquisite International Flavours",
           "text1":"At Wasabi À la Carte Restaurant, discover the authentic and captivating world of Teppanyaki cuisine. Experience a unique culinary performance as our talented chefs skillfully prepare delicious Japanese dishes right before your eyes on traditional Teppanyaki grills.",
-          "text2":"Combining freshest ingredients with culinary expertise and interactive presentation, Wasabi offers not only a feast for your palate but also an unforgettable visual experience. Immerse yourself in the rich flavors and dynamic cooking styles of Japan at Wasabi.”"
+          "text2":"Combining freshest ingredients with culinary expertise and interactive presentation, Wasabi offers not only a feast for your palate but also an unforgettable visual experience. Immerse yourself in the rich flavors and dynamic cooking styles of Japan at Wasabi."
      
       },
 
@@ -624,19 +624,19 @@
         "subtitle":" Relax & Refresh at LAGO",
         "title":" Bars and Cafés",
         "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
         "cuisines1title":" Mignon Bar",
          "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
         "cuisines2title":"Joie Bar",  
         "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
         "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines4subtitle":"HOURS: 10.00 - 18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
 
       "BarImageSection2":{
@@ -650,7 +650,7 @@
         "subtitle":" Relaxing Moments Await",
         "title":"  LAGO’s Lobby Bars and Cafes",
         "text":" Unwind and refresh yourself at LAGO’s Lobby Bars and Cafés, where delightful beverages, specialty coffees, and delicious snacks are served in an elegant and relaxing atmosphere. Whether meeting with friends or enjoying quiet time alone, our lobby venues offer the perfect setting for every occasion.",
-        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 ",
+        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 / 7/24 ",
         "cuisines1title":"Piano Bar",
          "cuisines1text":" Relax in the sophisticated atmosphere of Piano Bar, where expertly crafted cocktails, premium beverages, and delicious snacks are complemented by soothing live piano music. Piano Bar is the perfect spot to unwind after a delightful day at LAGO.",
          "buttonText":" Explore More",
@@ -668,13 +668,13 @@
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
         "title":" Discover our Bars and Cafes",
-         "text":"“At Lago Hotel’s bars and cafés, enjoy delicious beverages, delightful snacks, and relaxing moments throughout the day. Sip your favorite cocktails accompanied by live music, or simply brighten your day with a refreshing coffee break.",
+         "text":"At Lago Hotel’s bars and cafés, enjoy delicious beverages, delightful snacks, and relaxing moments throughout the day. Sip your favorite cocktails accompanied by live music, or simply brighten your day with a refreshing coffee break.",
          "buttonText":"DISCOVER MORE"
       },
       "BarCarousel":{
         "subtitle":"Delicious Moments Await",
         "title":"Hungry for more?",
-        "text":"Discover Snackspot, our spacious snack restaurant, serving delicious beverages and delightful tastes from Turkish and international cuisines. Open daily from 11:30 to 18:00, Snackspot is the ideal spot to enjoy flavorful breaks during your holiday.",
+        "text":"Discover Snackspot, our spacious snack restaurant, serving delicious beverages and delightful tastes from Turkish and international cuisines. Open daily from 11:00 to 18:00, Snackspot is the ideal spot to enjoy flavorful breaks during your holiday.",
         "buttonText":" Learn MORE"
       }
     },
@@ -682,38 +682,38 @@
     "JoieBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Joie Bar",
-      "text":"  “Enjoy refreshing beverages, specialty cocktails, and delicious snacks at Joie Bar, accompanied by relaxing music in a cozy and inviting atmosphere.”",
+      "text":"  Enjoy refreshing beverages, specialty cocktails, and delicious snacks at Joie Bar, accompanied by relaxing music in a cozy and inviting atmosphere.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Relax & Refresh at Joie Bar",
         "title":" Fresh Drinks at the Pool",
-          "text1":"   “Enjoy refreshing beverages, expertly crafted cocktails, and delightful snacks by the poolside at Joie Bar. Experience moments of relaxation and joy in the inviting atmosphere of our poolside bar throughout your stay.”",
-          "text2":""
+          "text1":"   Enjoy refreshing beverages, expertly crafted cocktails, and delightful snacks by the poolside at Joie Bar. Experience moments of relaxation and joy in the inviting atmosphere of our poolside bar throughout your stay.",
+          "text2":"During the periods from March 28th to April 30th and from October 1st to November 7th, our service hours are from 10:00 to 18:00, while during the remaining months, our service is available from 10:00 to 23:00."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
         "subtitle":" Relax & Refresh at LAGO",
         "title":" Bars and Cafés",
         "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
         "cuisines1title":" Mignon Bar",
          "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
         "cuisines2title":"Joie Bar",  
         "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
         "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines4subtitle":"HOURS: 10.00 - 18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -732,32 +732,32 @@
         "subtitle":"  Fresh Drinks at the Pool",
         "title":" Fresh Drinks at the Pool",
           "text1":"Relax and refresh yourself at Maldiva Bar, located conveniently by the pool. Enjoy delicious beverages, tropical cocktails, and tasty snacks throughout the day, complemented by a calm and inviting atmosphere.",
-          "text2":""
+          "text2":"During the periods from March 28th to April 30th and from October 1st to November 7th, our service hours are from 10:00 to 18:00, while during the remaining months, our service is available from 10:00 to 23:00."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
         "subtitle":" Relax & Refresh at LAGO",
         "title":" Bars and Cafés",
         "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
         "cuisines1title":" Mignon Bar",
          "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
         "cuisines2title":"Joie Bar",  
         "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
         "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines4subtitle":"HOURS: 10.00 - 18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -770,38 +770,38 @@
     "MignonBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Mignon Bar",
-      "text":" “Enjoy a variety of refreshing beverages, specialty cocktails, and tasty snacks in a relaxing atmosphere accompanied by pleasant music at Mignon Bar.”",
+      "text":" Enjoy a variety of refreshing beverages, specialty cocktails, and tasty snacks in a relaxing atmosphere accompanied by pleasant music at Mignon Bar.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Fresh Drinks by the Pool",
         "title":" Fresh Drinks at the Pool",
-          "text1":"Relax and refresh yourself at Mignon Bar, serving a variety of refreshing beverages, specialty cocktails, and tasty snacks right by the poolside. Enjoy the perfect blend of relaxation and refreshment throughout the day.”",
-          "text2":""
+          "text1":"Relax and refresh yourself at Mignon Bar, serving a variety of refreshing beverages, specialty cocktails, and tasty snacks right by the poolside. Enjoy the perfect blend of relaxation and refreshment throughout the day.",
+          "text2":"Our services are provided annually from June 1st to September 30th."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
         "subtitle":" Relax & Refresh at LAGO",
         "title":" Bars and Cafés",
         "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
         "cuisines1title":" Mignon Bar",
          "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
         "cuisines2title":"Joie Bar",  
         "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
         "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines4subtitle":"HOURS: 10.00 - 18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -814,38 +814,38 @@
     "PianoBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Piano Bar",
-      "text":"  “Relax and enjoy freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, accompanied by soothing live piano music. It’s the ideal setting for relaxing evenings and memorable moments.”",
+      "text":"  Relax and enjoy freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, accompanied by soothing live piano music. It’s the ideal setting for relaxing evenings and memorable moments.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Relaxing Evenings & Premium Drinks",
         "title":" Fresh Drinks at the Pool",
-          "text1":"“Unwind with freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, all while enjoying the soothing melodies of live piano music. The elegant and relaxing atmosphere provides the perfect setting for memorable evenings.”",
-          "text2":""
+          "text1":"Unwind with freshly prepared cocktails, premium beverages, and delicious snacks at Piano Bar, all while enjoying the soothing melodies of live piano music. The elegant and relaxing atmosphere provides the perfect setting for memorable evenings.",
+          "text2":"Our service is available from March 28th to November 7th. During the periods from March 28th to April 30th and from October 1st to November 7th, we offer 24-hour service, while during the remaining months, our service hours are from 10:00 AM to midnight."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
-        "cuisines1title":"Mignon Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Joie Bar",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+        "subtitle":" Relax & Refresh at LAGO",
+        "title":" Bars and Cafés",
+        "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
+        "cuisines1title":" Mignon Bar",
+         "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
+        "cuisines2title":"Joie Bar",  
+        "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
+        "cuisines4subtitle":"HOURS: 10.00 - 18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -858,38 +858,38 @@
     "VagoBar":{
       "subtitle":" Fresh Drinks and Music",
       "title":"Vago Bar",
-      "text":"  Vago Bar invites you to enjoy refreshing beverages, specialty cocktails, and tasty snacks any time of the day. Relax with great music and unwind in the welcoming atmosphere of Vago Bar.”",
+      "text":"  Vago Bar invites you to enjoy refreshing beverages, specialty cocktails, and tasty snacks any time of the day. Relax with great music and unwind in the welcoming atmosphere of Vago Bar.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Refresh & Relax at Vago Bar",
         "title":" Fresh Drinks, Anytime",
-          "text1":"Open 24 hours, Vago Bar invites you to enjoy refreshing beverages, expertly crafted cocktails, and delicious snacks anytime you desire. Relax in our welcoming atmosphere, perfect for both lively evenings and quiet moments throughout your stay.",
-          "text2":""
+          "text1":" Vago Bar invites you to enjoy refreshing beverages, expertly crafted cocktails, and delicious snacks anytime you desire. Relax in our welcoming atmosphere, perfect for both lively evenings and quiet moments throughout your stay.",
+          "text2":"During the periods from March 28th to April 30th and from October 1st to November 7th, our service hours are from 10:00 to 18:00, while during the remaining months, we operate 24/7."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
         "subtitle":" Relax & Refresh at LAGO",
         "title":" Bars and Cafés",
         "text":"Our bars and cafés invite you to unwind with expertly crafted cocktails, delicious beverages, and tasty snacks throughout the day. Whether enjoying a peaceful coffee break, lounging by the pool, or spending vibrant evenings accompanied by live entertainment, every moment at LAGO’s bars and cafés promises relaxation and enjoyment.",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00",
+        "cuisines1subtitle":" HOURS: 10:00 - 18:00",
         "cuisines1title":" Mignon Bar",
          "cuisines1text":" At Mignon Bar, refresh yourself with delicious beverages, freshly prepared cocktails, and tasty snacks throughout the day. Enjoy a relaxing break at our inviting atmosphere, perfect for unwinding by the poolside.",
          "buttonText":" Explore More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
+         "cuisines2subtitle":"HOURS: 10:00 - 18.00 / 23:00",
         "cuisines2title":"Joie Bar",  
         "cuisines2text":"Joie Bar welcomes you from morning to evening with delicious beverages, specialty coffees, refreshing cocktails, and delightful snacks. Enjoy relaxing moments and vibrant evenings in the inviting atmosphere of Joie Bar." ,
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00",
+        "cuisines3subtitle":" HOURS: 10:00 - 18.00 / 23:00",
         "cuisines3title":"Maldiva Bar",   
         "cuisines3text":"  Relax at Maldiva Bar with refreshing drinks, tropical cocktails, and delightful snacks, all served in a peaceful atmosphere by the poolside. Enjoy your day with a touch of refreshment and relaxation at Maldiva Bar.",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines4subtitle":"HOURS: 10:00-18:00 / 7/24",
         "cuisines4title":"Vago Bar",   
-        "cuisines4text":"  Open 24 hours, Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
+        "cuisines4text":" Vago Bar offers refreshing drinks, signature cocktails, and tasty snacks whenever you desire. Whether you’re craving a late-night refreshment or an early-morning coffee, Vago Bar is always ready to welcome you."          
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -902,38 +902,38 @@
     "Abellapatisserie":{
       "subtitle":" Sweet Moments Await",
       "title":"Abella Patisserie",
-      "text":"  Indulge yourself with freshly baked pastries, delightful desserts, and aromatic coffees at Abella Patisserie. Enjoy sweet treats in our cozy and inviting atmosphere.”",
+      "text":"  Indulge yourself with freshly baked pastries, delightful desserts, and aromatic coffees at Abella Patisserie. Enjoy sweet treats in our cozy and inviting atmosphere.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Delightful Moments at Abella Patisserie",
         "title":" Freshly Baked Treats",
           "text1":"Experience the irresistible aroma of freshly baked pastries, delightful desserts, and premium coffees at Abella Patisserie. Take a sweet break in our cozy atmosphere, perfect for enjoying delicious treats and relaxing moments during your stay.",
-          "text2":""
+          "text2":"It operates from March 28th to November 7th."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
+        "subtitle":" Relaxing Moments Await",
+        "title":"  LAGO’s Lobby Bars and Cafes",
+        "text":" Unwind and refresh yourself at LAGO’s Lobby Bars and Cafés, where delightful beverages, specialty coffees, and delicious snacks are served in an elegant and relaxing atmosphere. Whether meeting with friends or enjoying quiet time alone, our lobby venues offer the perfect setting for every occasion.",
+        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 / 7/24 ",
         "cuisines1title":"Piano Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Abella Patisserie",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+         "cuisines1text":" Relax in the sophisticated atmosphere of Piano Bar, where expertly crafted cocktails, premium beverages, and delicious snacks are complemented by soothing live piano music. Piano Bar is the perfect spot to unwind after a delightful day at LAGO.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":" HOURS: 14:00 - 23:00",
+        "cuisines2title":"Patisserie ABELLA",   
+        "cuisines2text":" Visit Patisserie ABELLA to indulge in freshly baked pastries, delicious desserts, and aromatic coffees. Enjoy sweet delights and gourmet treats in a charming and relaxing atmosphere at ABELLA.",
+        "cuisines3subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines3title":"Cafe de Lago",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines3text":"  Cafe de Lago invites you to relax and enjoy delightful coffees, delicious beverages, tempting desserts, and freshly prepared snacks in a comfortable and friendly atmosphere. It’s the perfect spot to recharge and enjoy quiet moments throughout your day."     ,
+        "cuisines4subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines4title":"Cafe de House",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":" Cafe de House welcomes you to enjoy freshly brewed coffees, refreshing beverages, tempting desserts, and delicious snacks throughout the day. Relax in our cozy atmosphere, perfect for a peaceful break or meeting with friends."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -947,38 +947,38 @@
     "Cafedehouse":{
       "subtitle":" Sweet Moments Await",
       "title":"Cafe de House",
-      "text":"  “Relax at Cafe de House with delightful coffees, fresh beverages, delicious desserts, and tasty snacks. Enjoy the cozy ambiance, perfect for refreshing breaks and peaceful moments throughout the day.”",
+      "text":"  Relax at Cafe de House with delightful coffees, fresh beverages, delicious desserts, and tasty snacks. Enjoy the cozy ambiance, perfect for refreshing breaks and peaceful moments throughout the day.",
 
       "ClinaryInfoSection":{
         "subtitle":"  Sweet Moments & Cozy Atmosphere",
         "title":" Cafe de House",
           "text1":"Cafe de House invites you to relax and enjoy delicious coffees, refreshing beverages, delightful desserts, and freshly made snacks. Our warm and welcoming atmosphere offers the perfect setting for relaxing breaks and enjoyable moments throughout the day.",
-          "text2":""
+          "text2":"It operates from March 28th to November 7th and has a capacity of 200 people."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
+        "subtitle":" Relaxing Moments Await",
+        "title":"  LAGO’s Lobby Bars and Cafes",
+        "text":" Unwind and refresh yourself at LAGO’s Lobby Bars and Cafés, where delightful beverages, specialty coffees, and delicious snacks are served in an elegant and relaxing atmosphere. Whether meeting with friends or enjoying quiet time alone, our lobby venues offer the perfect setting for every occasion.",
+        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 / 7/24 ",
         "cuisines1title":"Piano Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Abella Patisserie",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+         "cuisines1text":" Relax in the sophisticated atmosphere of Piano Bar, where expertly crafted cocktails, premium beverages, and delicious snacks are complemented by soothing live piano music. Piano Bar is the perfect spot to unwind after a delightful day at LAGO.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":" HOURS: 14:00 - 23:00",
+        "cuisines2title":"Patisserie ABELLA",   
+        "cuisines2text":" Visit Patisserie ABELLA to indulge in freshly baked pastries, delicious desserts, and aromatic coffees. Enjoy sweet delights and gourmet treats in a charming and relaxing atmosphere at ABELLA.",
+        "cuisines3subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines3title":"Cafe de Lago",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines3text":"  Cafe de Lago invites you to relax and enjoy delightful coffees, delicious beverages, tempting desserts, and freshly prepared snacks in a comfortable and friendly atmosphere. It’s the perfect spot to recharge and enjoy quiet moments throughout your day."     ,
+        "cuisines4subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines4title":"Cafe de House",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":" Cafe de House welcomes you to enjoy freshly brewed coffees, refreshing beverages, tempting desserts, and delicious snacks throughout the day. Relax in our cozy atmosphere, perfect for a peaceful break or meeting with friends."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -991,38 +991,38 @@
     "Cafedelago":{
       "subtitle":" Sweet Moments Await",
       "title":"Cafe de Lago",
-      "text":"  “Relax and enjoy delightful coffees, fresh beverages, tempting desserts, and tasty snacks at Cafe de Lago. Take a break in our cozy atmosphere and savor relaxing moments throughout your day.”",
+      "text":"  Relax and enjoy delightful coffees, fresh beverages, tempting desserts, and tasty snacks at Cafe de Lago. Take a break in our cozy atmosphere and savor relaxing moments throughout your day.",
 
       "ClinaryInfoSection":{
         "subtitle":" Relaxing Moments & Delightful Tastes",
         "title":" Cafe de Lago",
-          "text1":"Enjoy a relaxing break at Cafe de Lago, featuring delicious coffees, refreshing beverages, delightful desserts, and tasty snacks. The cozy and welcoming atmosphere makes it the perfect spot to recharge and enjoy pleasant moments during your day.”",
-          "text2":""
+          "text1":"Enjoy a relaxing break at Cafe de Lago, featuring delicious coffees, refreshing beverages, delightful desserts, and tasty snacks. The cozy and welcoming atmosphere makes it the perfect spot to recharge and enjoy pleasant moments during your day.",
+          "text2":"It operates from May 15th to September 30th and has a capacity of 143 people."
         
       },
       "RoomTour":{
         "subtitle":"Explore LAGO Virtually",
         "title":" Discover Our Restaurants & Bars",
-          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit.”"
+          "text":"Are you ready to explore LAGO’s unique atmosphere? With our 360-degree virtual tour, experience every detail of our exquisite restaurants, bars, and special venues. Enjoy a visual journey and imagine your perfect holiday before your visit."
         
       },
       "CuisinesCarousel":{
-        "subtitle":" Perfect Fine Dine Experiences",
-        "title":" LAGO’s Exclusive Pool Bars",
-        "text":"  In our A’la Carte Restaurants, the exquisite flavors of international cuisine await you, crafted by the masterful hands of our award-winning chefs. During your holiday, we are delighted to invite you to a wonderful culinary adventure in our distinctive à la carte restaurants!",
-        "cuisines1subtitle":" HOURS: 10:00 - 19:00 ",
+        "subtitle":" Relaxing Moments Await",
+        "title":"  LAGO’s Lobby Bars and Cafes",
+        "text":" Unwind and refresh yourself at LAGO’s Lobby Bars and Cafés, where delightful beverages, specialty coffees, and delicious snacks are served in an elegant and relaxing atmosphere. Whether meeting with friends or enjoying quiet time alone, our lobby venues offer the perfect setting for every occasion.",
+        "cuisines1subtitle":"  HOURS: 10:00 - 00:00 / 7/24 ",
         "cuisines1title":"Piano Bar",
-         "cuisines1text":" Let’s experience the pleasure of preserving the distinctive flavors and culinary traditions of Turkish cuisine on the plate. LAGO is honored to fuse your dreams with the unique tastes of the Mediterranean.",
-         "buttonText":" Discover More",
-         "cuisines2subtitle":"HOURS: 08:00 - 23:00",
-        "cuisines2title":"Abella Patisserie",   
-        "cuisines2text":"Italian cuisine has been created by our experts for you as a culinary feast. Located in our main restaurant, our Italian A’la Carte restaurant is ready to serve you the distinctive flavors of Italian cuisine, bringing authentic tastes and memorable dining experiences directly to your table.",
-        "cuisines3subtitle":" HOURS: 09:00 - 18:00 ",
+         "cuisines1text":" Relax in the sophisticated atmosphere of Piano Bar, where expertly crafted cocktails, premium beverages, and delicious snacks are complemented by soothing live piano music. Piano Bar is the perfect spot to unwind after a delightful day at LAGO.",
+         "buttonText":" Explore More",
+         "cuisines2subtitle":" HOURS: 14:00 - 23:00",
+        "cuisines2title":"Patisserie ABELLA",   
+        "cuisines2text":" Visit Patisserie ABELLA to indulge in freshly baked pastries, delicious desserts, and aromatic coffees. Enjoy sweet delights and gourmet treats in a charming and relaxing atmosphere at ABELLA.",
+        "cuisines3subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines3title":"Cafe de Lago",   
-        "cuisines3text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the ",
-        "cuisines4subtitle":"HOURS: 24 hours",
+        "cuisines3text":"  Cafe de Lago invites you to relax and enjoy delightful coffees, delicious beverages, tempting desserts, and freshly prepared snacks in a comfortable and friendly atmosphere. It’s the perfect spot to recharge and enjoy quiet moments throughout your day."     ,
+        "cuisines4subtitle":" HOURS: 08:00 - 23:00 ",
         "cuisines4title":"Cafe de House",   
-        "cuisines4text":"  Fish menus prepared for you by our award-winning chefs appeal to both your appetite and your eyes. Special recipes are waiting for you in our Fish A’la Carte restaurant. Our fish a’la carte restaurant serves on the  "          
+        "cuisines4text":" Cafe de House welcomes you to enjoy freshly brewed coffees, refreshing beverages, tempting desserts, and delicious snacks throughout the day. Relax in our cozy atmosphere, perfect for a peaceful break or meeting with friends."     
       },
       "DiscoverBackground":{
         "subtitle":"A UNIQUE FEAST OF TASTE",
@@ -1119,8 +1119,8 @@
     "Spa":{
       "subtitle":"RELAX AT OUR LAGO WELLNESS CENTER",
       "title":"Spa & Wellness",
-      "mobileTitle":" “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
-      "text":"  “Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.”",
+      "mobileTitle":" Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.",
+      "text":"  Unwind and rejuvenate at our Wellness Center. Enjoy luxurious professional massages and personalized treatments designed to restore harmony to your body and mind, leaving you completely refreshed and revitalized.",
       
       "InfoSection":{
           "subtitle":"Refresh & Rejuvenates",
@@ -1145,13 +1145,13 @@
        "SpaGallery":{
         "subtitle":"Ultimate Relaxation Awaits",
         "title":"Rejuvenate Your Senses at LAGO",
-        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages, expertly designed to refresh your body, mind, and spirit.”"
+        "text":"Discover a world of relaxation and serenity at LAGO Wellness Center. Indulge yourself with exclusive spa treatments and soothing massages, expertly designed to refresh your body, mind, and spirit."
        },
 
        "Carousel":{
         "subtitle":"RELAX & UNWIND",
         "title":"Massage Experiences at LAGO",
-        "text":" “Enhance your vacation with our extensive range of massages, expertly tailored by professional therapists to soothe your body and mind. At LAGO, the perfect massage experience is waiting to fulfill your every need.”",
+        "text":" Enhance your vacation with our extensive range of massages, expertly tailored by professional therapists to soothe your body and mind. At LAGO, the perfect massage experience is waiting to fulfill your every need.",
         "massage1":"Aromatherapy Massage",
         "massageText1":"DURATION: 60 MIN",
         "massage2":"Oriental Massage",
@@ -1183,7 +1183,7 @@
       "RoomInfo":{
         "subtitle":"Relax in Superior Comfort",
         "title":"Superior Room",
-        "text":"Located in the main building, our stylish Superior Rooms measure 30-32 m² and offer stunning sea or land views. Each room features one double bed, one single bed, a sofa, a balcony, LED TV with satellite channels, daily minibar replenishment, complimentary Wi-Fi, premium bathroom amenities, and tea-coffee facilities. Chip-key bracelet access ensures secure and easy entry. Maximum occupancy: 2 adults + 2 children or 3 adults.",
+        "text":"Located in the main building, our stylish Superior Rooms measure 30-32 m² and offer stunning sea or land views. Each room features one double bed, one single bed, a sofa, a balcony, LED TV with satellite channels, daily minibar replenishment, complimentary Wi-Fi, premium bathroom amenities, and tea-coffee facilities. Chip-key bracelet access ensures secure and easy entry. Maximum occupancy: 3 adults + 1 children ",
         "title2":" Superior Room Amenities",
         "list1":" ----",
         "list2":" 1 Double Bed",
@@ -1209,7 +1209,8 @@
         "text":" Pick the Dates for Your Stay",
         "checkin":"Check-in",
         "checkout":"Check-out",
-        "adult":"Adults / Kids",
+        "adult":"Adults",
+        "kids":"Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
         "phone":"+90 123 456 78 90"
@@ -1255,7 +1256,7 @@
       "RoomInfo":{
         "subtitle":"FUN FOR ALL AGES",
         "title":"Family Room",
-        "text":"Located in our main building, Family Rooms measure between 38-41 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults + 1 child.",
+        "text":"Located in our main building, Family Rooms measure between 38-41 m² and offer sea or forest views. These rooms feature two separate bedrooms connected by an internal door: one bedroom with a double bed for 2 adults, and another with two single beds for 2 adults. They include a shared bathroom and a balcony. Maximum occupancy is 4 adults.",
         "title2":" Family Room Amenities",
         "list1":" ----",
         "list2":" 2 Single Beds",
@@ -1329,11 +1330,11 @@
         "title":"Swim-up Room",
         "text":" Located in our main building, Swim-Up Rooms measure 40-43 m² and offer sea or forest views. These rooms feature one double bed, one single bed, and one sofa. Each room provides direct access to a shared pool from a private terrace with seating area.",
         "title2":"Swim-up Room  Amenities",
-        "list1":" ----",
+        "list1":"Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":"  All Swim-Up rooms feature Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, and tea-coffee facilities. Please note that the pools in Swim-Up rooms are not heated.",
+        "text2":"  All Swim-Up rooms feature Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, and tea-coffee facilities. Please note that the pools in Swim-Up rooms are not heated. In our swim-up rooms, those with sea views feature a private pool, while in our land rooms the pool is available on a shared basis.",
         "madde1":"Private Pool",
         "madde2":"40-43 m²",
         "madde3":"Makeup Table",
@@ -1353,7 +1354,7 @@
         "title":" Swim-Up Room Exclusive Benefits",
         "text1":" Guests staying in Swim-Up rooms are greeted with a special VIP setup, featuring a carefully prepared fruit platter and delicious macarons upon check-in.",
         "text2":"  À la Carte Dining: Enjoy one complimentary visit during stays of 7 nights or more.",
-        "text3":" “Pavilion Discount: Receive 15% off our exclusive pavilion services."
+        "text3":" Pavilion Discount: Receive 15% off our exclusive pavilion services."
       },
 
       "ReservationWidget":{
@@ -1413,7 +1414,7 @@
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" All Superior Rooms offer secure and convenient access through a chip-key bracelet system. Enjoy daily replenishment of your minibar, featuring refreshing beverages and snacks. Our rooms also provide premium bathroom amenities for your comfort, alongside complimentary tea and coffee facilities. Additionally, each room is equipped with LED TV offering national and international channels, a balcony to enjoy stunning sea or land views, and complimentary 24-hour Wi-Fi access to ensure a seamless stay.",
+        "text2":" All Superior Rooms offer secure and convenient access through a chip-key bracelet system. Enjoy daily replenishment of your minibar, featuring refreshing beverages and snacks. Our rooms also provide premium bathroom amenities for your comfort, alongside complimentary tea and coffee facilities. Additionally, each room is equipped with LED TV offering national and international channels, a balcony to enjoy stunning sea or land views, and complimentary 24-hour Wi-Fi access to ensure a seamless stay. Please note that the pools in Swim-Up rooms are not heated. In our swim-up rooms, those with sea views feature a private pool, while in our land rooms the pool is available on a shared basis.",
         "madde1":"Private Pool",
         "madde2":"50-55 m²",
         "madde3":"Makeup Table",
@@ -1570,13 +1571,13 @@
       "RoomInfo":{
         "subtitle":"Exclusive Stay with a Private Pool",
         "title":"Tiny Villa",
-        "text":"Located separately within the garden, our Tiny Villa measures 50 m² and offers relaxing garden views. This exclusive villa features two separate bedrooms connected by an internal door: one bedroom with a double bed (for 2 adults) and another bedroom with two single beds (for 2 adults). Each bedroom has its own bathroom. It offers a private terrace and a private independent pool, ensuring your comfort and privacy.",
+        "text":"Our Tiny Villa, uniquely situated within the garden, boasts a total area of 100 m² with 50 m² of comfortable living space, and offers a soothing garden view for an exceptional experience. This exclusive villa features two separate bedrooms connected by an internal door: one bedroom with a double bed (for 2 adults) and another bedroom with two single beds (for 2 adults). Each bedroom has its own bathroom. It offers a private terrace and a private independent pool, ensuring your comfort and privacy.",
         "title2":" Tiny Villa Amenities",
         "list1":" Independent Pool",
         "list2":" 2 Single Beds",
         "list3":" Extra Baby Crib",
         "title3":" Room Features",
-        "text2":" “Services provided in Tiny Villa include Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, complimentary tea-coffee facilities, LED TV with satellite channels, free Wi-Fi, central air conditioning, a safe, and a vanity table with a mirror.”",
+        "text2":" Services provided in Tiny Villa include Chip-Key Bracelet Access, daily minibar replenishment, premium bathroom amenities, complimentary tea-coffee facilities, LED TV with satellite channels, free Wi-Fi, central air conditioning, a safe, and a vanity table with a mirror.",
         "madde1":"Private Pool",
         "madde2":"50 m²",
         "madde3":"Makeup Table",
@@ -1645,13 +1646,13 @@
     "Fitness":{
       "subtitle":"STAY ACTIVE AT LAGO",
       "title":"Sports & Fitness",
-      "mobileTitle":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
-      "text":"“Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.”",
+      "mobileTitle":"Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.",
+      "text":"Energize your holiday at LAGO with our well-equipped fitness center, engaging sports activities, and group exercise sessions. Maintain your active lifestyle with tennis, beach volleyball, water sports, and much more, all designed to enhance your wellness and vitality.",
       
       "InfoSection":{
           "subtitle":"Stay Fit at LAGO Hotel",
           "title":" Sports & Fitness",
-          "text":" “Maintain your fitness routine during your vacation at LAGO’s fully-equipped Fitness Center, featuring professional workout equipment and daily exercise opportunities. Participate in energizing sports activities, stay active with group sessions, and experience an invigorating holiday.",
+          "text":" Maintain your fitness routine during your vacation at LAGO’s fully-equipped Fitness Center, featuring professional workout equipment and daily exercise opportunities. Participate in energizing sports activities, stay active with group sessions, and experience an invigorating holiday.",
        
           "subtitle2":" Stay Active & Energized",
           "title2":"Beach Voleyball & Personal Trainer",
@@ -1671,7 +1672,7 @@
        "SpaGallery":{
         "subtitle":"Stay Active & Energized",
         "title":"Keep Fit in Style at LAGO",
-        "text":" “Enjoy exercising in LAGO’s modern, professionally equipped fitness center, featuring diverse workout options suitable for all fitness levels. Stay energized, maintain your routine, and enhance your well-being throughout your vacation.”"
+        "text":" Enjoy exercising in LAGO’s modern, professionally equipped fitness center, featuring diverse workout options suitable for all fitness levels. Stay energized, maintain your routine, and enhance your well-being throughout your vacation."
        },
 
        "Carousel":{
@@ -1713,7 +1714,7 @@
        "CarouselSection":{
         "subtitle":" Entertainment & Activities",
         "title":" Exciting Events Every Day",
-        "text":" “At LAGO, an exciting array of daily events and activities awaits you. From lively discos, bocce, beach volleyball, and table tennis to beach games, water sports, and spectacular evening shows, we offer endless sporting and leisure opportunities for an unforgettable vacation.”",
+        "text":" At LAGO, an exciting array of daily events and activities awaits you. From lively discos, bocce, beach volleyball, and table tennis to beach games, water sports, and spectacular evening shows, we offer endless sporting and leisure opportunities for an unforgettable vacation.",
         "daytime":"DAYTIME ACTIVITIES",
         "nighttime":" NIGHT-TIME ACTIVITIES",
 
@@ -1758,7 +1759,7 @@
     "InfoSection":{
       "subtitle":" Fun & Safe for All Ages",
       "title":"Unforgettable Memories at Bamboo Kids Club",
-      "text":" “At Bamboo Kids Club, we provide age-appropriate activities, engaging games, and caring professional staff in a safe and joyful environment. Your children will create unforgettable memories while playing, learning, and making new friends.”",
+      "text":" At Bamboo Kids Club, we provide age-appropriate activities, engaging games, and caring professional staff in a safe and joyful environment. Your children will create unforgettable memories while playing, learning, and making new friends.",
       "span":"Opening Hours: 08:00 - 20:00",
       "age1":"Ages 4-7",
       "title1":"Mini Club",
@@ -1817,7 +1818,7 @@
       "cuisines2text":"Our Kids’ Aquapark Pool with 5 slides offers safe fun and unforgettable memories.",
       "cuisines3subtitle":"Bamboo Kids Club ",
       "cuisines3title":"Indoor Kids Pool",   
-      "cuisines3text":"“Enjoy endless fun in any weather at our Indoor Kids Pool, specially designed for our little guests. Kids can safely splash, swim, and play under the attentive supervision of our professional staff. It’s the perfect spot for joyful, year-round entertainment!”"
+      "cuisines3text":"Enjoy endless fun in any weather at our Indoor Kids Pool, specially designed for our little guests. Kids can safely splash, swim, and play under the attentive supervision of our professional staff. It’s the perfect spot for joyful, year-round entertainment!"
     }
   },
 
