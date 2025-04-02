@@ -1996,6 +1996,23 @@
     "spa":"Spa & Wellness",
     "kidsclub":"Kids Club",
     "entertainment":"Entertainment"
+  },
+
+  "CookiePopup":{
+    "cookie": "We Use Cookies: ",
+    "cookieText": "We use our own and third-party cookies to personalize content and to analyze web traffic.",
+    "read": " Read more",
+    "about": "about cookies",
+    "deny": "Deny All Cookies",
+    "manage": "Manage Cookie Preferences",
+    "accept": "Accept All Cookies",
+    "policy": "Cookie Policy",
+    "clarification": "Cookie Clarification Text",
+    "what": "What Are Cookies?",
+    "dropdown1": "Strictly Necessary",
+    "dropdown2": "Performance",
+    "dropdown3": "Functional",
+    "dropdown4": "Targeting"
   }
  
   }

@@ -8,13 +8,11 @@ import OtherOptions from '../familyswimup/components/OtherOptions'
 import backgroundImg from "../familyswimup/images/odafull.webp"
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
 
-import img1 from "../familyroom/images/SRF_3936.jpg";
-import img2 from "../familyroom/images/SRF_3946.jpg";
-import img3 from "../familyroom/images/SRF_3953.jpg";
-import img4 from "../familyroom/images/SRF_3974.jpg";
-import img6 from "./images/SRF_4953.jpg";
-import img7 from "./images/SRF_4971.jpg";
-import img8 from "./images/SRF_4978.jpg";
+import img1 from "./images/SRF_2131.jpg";
+import img2 from "./images/SRF_2136.jpg";
+import img3 from "./images/SRF_2163.jpg";
+import img4 from "./images/SRF_2167.jpg";
+
 import {useTranslations} from 'next-intl';
 
 const page = () => {
@@ -27,12 +25,12 @@ const page = () => {
 
   const subroomBannerText=[t("text1"),t("text2"),t("text3")]
   const iconTexts=[t2("list1"),t2("list2"),t2("list3")];
-  const carouselImages = [img1,,img6,img7,img8,img4,img2,img3];
+  const carouselImages = [img1,,img2,img3,img4,img1,img2,img3,img4];
 
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
      <div className='flex flex-col'>
-     <SubRoomBanner img={img6} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
+     <SubRoomBanner img={img3} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
       <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("title2")} header3={t2("title3")}  text2={t2("text2")} iconsTexts={iconTexts}  roomName="SwimupRoom" pool={true}/>

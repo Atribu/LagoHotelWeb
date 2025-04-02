@@ -65,6 +65,8 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
   const incrementChildren = () => setChildren(children + 1)
   const decrementChildren = () => children > 0 && setChildren(children - 1)
 
+  const filteredItems = pool ? items : items.slice(1);
+
   return (
     <div className="flex w-screen h-auto items-center justify-center bg-[#fbfbfb] max-w-[1440px]">
       <div className="flex flex-col md:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center md:items-start justify-center gap-[35px] md:gap-[4.5%] ">
@@ -132,7 +134,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-[15px] md:gap-[25px] lg:gap-[35px] items-start justify-start w-full">
-            {items.map((item, index) => (
+            {filteredItems.map((item, index) => (
               <div
                 key={index}
                 className="flex gap-[14px] items-center justify-start"

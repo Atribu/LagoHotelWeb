@@ -1870,6 +1870,23 @@
     "spa": "Spa & Wellness",
     "kidsclub": "Kids Club",
     "entertainment": "Eğlence"
+  },
+
+  "CookiePopup":{
+    "cookie": "Çerez Kullanıyoruz: ",
+    "cookieText": "İçeriği kişiselleştirmek ve web trafiğini analiz etmek için kendi ve üçüncü taraf çerezlerini kullanıyoruz.",
+    "read": " Daha fazlasını oku",
+    "about": "çerezler hakkında",
+    "deny": "Tüm Çerezleri Reddet",
+    "manage": "Çerez Tercihlerini Yönet",
+    "accept": "Tüm Çerezleri Kabul Et",
+    "policy": "Çerez Politikası",
+    "clarification": "Çerez Açıklama Metni",
+    "what": "Çerezler Nedir?",
+    "dropdown1": "Kesinlikle Gerekli",
+    "dropdown2": "Performans",
+    "dropdown3": "Fonksiyonel",
+    "dropdown4": "Hedefleme"
   }
   
 }
