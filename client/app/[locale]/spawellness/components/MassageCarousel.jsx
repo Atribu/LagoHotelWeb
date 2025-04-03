@@ -47,7 +47,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
     <div className="flex flex-col w-screen items-center justify-center gap-[30px] lg:gap-[50px]">
       <div className="flex flex-col items-start justify-start gap-[35px] text-black font-jost w-[87.79%] md:w-[91.4%] lg:w-[76.8%]">
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-          {span}
+          {span} 
         </span>
         <h3 className="text-[28px] md:text-[32px] leading-normal lg:text-[48px] font-marcellus font-normal lg:leading-[57.6px] capsizedText2">
           {header}
@@ -57,7 +57,7 @@ const MassageCarousel = ({ span, header, text, headers = [], images = [] }) => {
         </p>
       </div>
 
-      <div className="flex flex-col w-[100%] justify-start items-start">
+      <div className="flex flex-col w-[100%] justify-start items-start overflow-hidden">
         {/* Carousel */}
         <div
           ref={emblaRef}

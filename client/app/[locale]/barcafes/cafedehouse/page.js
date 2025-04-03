@@ -74,7 +74,6 @@ const otherOptions = [
      <BannerDark img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>
-      <RoomTour span={t3("subtitle")} header={t3("subtitle")} text={t3("text")}/>
       <OtherOptions4 span={t4("subtitle")} header={t4("title")} text={t4("text")} images={otherOptions}/>
       <DiscoverBackground span={t5("subtitle")} header={t5("subtitle")} text={t5("text")} link="/barcafes" img={backgroundImg}/>
       <ContactSection2/>
