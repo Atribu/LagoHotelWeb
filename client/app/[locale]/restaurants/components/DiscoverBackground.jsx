@@ -44,7 +44,7 @@ const DiscoverBackground = ({
 
         {/* Link; gönderilmezse "#" kullanılır */}
         <Link
-            href={link}
+            href="/barcafes"
             className="text-[14px] lg:text-[16px] font-normal leading-normal ml-[4px] font-marcellus uppercase border-b border-white pb-[8px] h-[24px] text-center w-auto items-center justify-center"
           >
            {t("buttonText")}

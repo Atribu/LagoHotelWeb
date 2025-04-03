@@ -106,7 +106,7 @@ const page = () => {
      <Image src={bistro} width={bistro.width} height={bistro.header} className='hidden lg:flex absolute right-0 w-[172px] h-[203px] sm:w-[252px] sm:h-[304px] md:w-[343px] md:h-[407px] top-0 md:-top-[12%]  xl:right-[190px] lg:-top-[30%]' alt='bistro'/>
      <CuisinesCarousel span={t5("subtitle")} header={t5("title")} text={t5("text")} cuisines={cuisines2}/>
      </div>
-      <DiscoverBackground span={t6("subtitle")} header={t6("title")} text={t6("text")} link="/restaurant" img={backgroundImg} buttonText={t6("buttonText")}/>
+      <DiscoverBackground span={t6("subtitle")} header={t6("title")} text={t6("text")} link="/barcafes" img={backgroundImg} buttonText={t6("buttonText")}/>
       <ContactSection2/>
     </div>
   )

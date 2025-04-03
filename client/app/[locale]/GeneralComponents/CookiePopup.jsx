@@ -78,29 +78,29 @@ const CookiePopup = () => {
 
         // Tüm çerezleri kabul et ve popup'ı kapat
         const handleAcceptAll = () => {
-          // const allAccepted = {
-          //   necessary: true,
-          //   performance: true,
-          //   functional: true,
-          //   targeting: true,
-          // };
-          // setCookies(allAccepted);
-          // savePreferences(allAccepted);
-          // console.log("Tüm Çerezler Kabul Edildi:", allAccepted);
+          const allAccepted = {
+            necessary: true,
+            performance: true,
+            functional: true,
+            targeting: true,
+          };
+          setCookies(allAccepted);
+          savePreferences(allAccepted);
+          console.log("Tüm Çerezler Kabul Edildi:", allAccepted);
           setIsVisible(false);
         };
       
         // Tüm çerezleri reddet ve popup'ı kapat
         const handleDenyAll = () => {
-          // const allDenied = {
-          //   necessary: true, // Zorunlu çerezler her zaman aktiftir
-          //   performance: false,
-          //   functional: false,
-          //   targeting: false,
-          // };
-          // setCookies(allDenied);
-          // savePreferences(allDenied);
-          // console.log("Tüm Çerezler Reddedildi:", allDenied);
+          const allDenied = {
+            necessary: true, // Zorunlu çerezler her zaman aktiftir
+            performance: false,
+            functional: false,
+            targeting: false,
+          };
+          setCookies(allDenied);
+          savePreferences(allDenied);
+          console.log("Tüm Çerezler Reddedildi:", allDenied);
           setIsVisible(false);
         }
 
@@ -118,10 +118,12 @@ const CookiePopup = () => {
 
   const setCookie = (name, value, days) => {
     const date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     const expires = "expires=" + date.toUTCString();
-    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    // value'yu encode edip, HTTPS için Secure ve SameSite ayarlarını ekliyoruz.
+    document.cookie = `${name}=${encodeURIComponent(value)}; ${expires}; path=/; Secure; SameSite=Lax`;
   };
+  
   
   // Çerez silme fonksiyonu
   const deleteCookie = (name) => {
@@ -132,18 +134,16 @@ const CookiePopup = () => {
   const getCookie = (name) => {
     const cookieName = name + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
-    const cookieArray = decodedCookie.split(';');
+    const cookieArray = decodedCookie.split(";");
     for (let i = 0; i < cookieArray.length; i++) {
-      let cookie = cookieArray[i];
-      while (cookie.charAt(0) === ' ') {
-        cookie = cookie.substring(1);
-      }
+      let cookie = cookieArray[i].trim();
       if (cookie.indexOf(cookieName) === 0) {
         return cookie.substring(cookieName.length, cookie.length);
       }
     }
     return "";
   };
+  
 
   const savePreferences = (preferences) => {
     // Tercihleri çerez olarak kaydet
