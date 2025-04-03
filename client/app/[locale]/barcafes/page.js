@@ -113,10 +113,10 @@ const backgroundTexts=[t3("text")]
 const backgroundTexts2=[t5("text1") ]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb] overflow-hidden'>
       <RestaurantMainBanner  img={imgBanner} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryInfoSection img1={cafebar1} img2={cafebar2} span={t2("subtitle")} header={t("title")} texts={clinaryTexts}/>
-      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/" img={backgroundImg2} buttonText={t3("title")}/>
+      <BackgroundSection span={t3("subtitle")} header={t3("title")} texts={backgroundTexts} link="/barcafes/mignonbar" img={backgroundImg2} buttonText={t3("title")}/>
       <OtherOptions4 span={t4("subtitle")} header={t4("title")} text={t4("text")} images={otherOptions} />
       <BackgroundSection span={t5("subtitle")}  header={t5("title")}  texts={backgroundTexts2} link="/" img={backgroundImg3}/>
       <OtherOptions4 span={t6("subtitle")} header={t6("title")} text={t6("text")} images={otherOptions2} />
