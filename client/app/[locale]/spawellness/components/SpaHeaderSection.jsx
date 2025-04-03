@@ -43,7 +43,7 @@ const SpaHeaderSection = ({span, header,text,images=[]}) => {
         </p>
       </div>
 
-      <div className="flex flex-col w-full justify-center items-center h-full">
+      <div className="flex flex-col w-full justify-center items-center h-full overflow-hidden">
         {/* carousel */}
         <div
           className="flex overflow-hidden relative w-full flex-col justify-center items-center "
