@@ -72,7 +72,7 @@ const page = () => {
       <KidsMomentCarousel images={images} header="" showheader={false}/>
       <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")}/>
       <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={otherOptions}/>
-      <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/restaurant" img={backgroundImg} buttonText={t5("buttonText")}/>
+      <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/barcafes" img={backgroundImg} buttonText={t5("buttonText")}/>
       <ContactSection2/>
     </div>
   )
