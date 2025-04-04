@@ -145,7 +145,7 @@ export default function Footer() {
             <a href="#" className="hover:underline">
             {t('notice')}
             </a>
-            <a href="#" className="hover:underline">
+            <a href="/sustainability" className="hover:underline">
             {t('sustainability')}
             </a>
           <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
@@ -315,7 +315,7 @@ export default function Footer() {
             <a href="#" className="hover:underline">
             {t('notice')}
             </a>
-            <a href="#" className="hover:underline">
+            <a href="/sustainability" className="hover:underline">
             {t('sustainability')} 
             </a>
             <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
