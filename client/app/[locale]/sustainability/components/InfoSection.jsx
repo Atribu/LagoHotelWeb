@@ -22,7 +22,7 @@ const InfoSection = ({
         <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             {span}
           </span>
-          <h3 className="text-[28px] md:text-[32px] lg:text-[36px] font-normal leading-[120%] lg:leading-[57.6px] font-marcellus lg:capsizedtext2">
+          <h3 className="text-[28px] lg:text-[32px]  font-normal leading-[120%] lg:leading-[57.6px] font-marcellus lg:capsizedtext2">
             {header}
           </h3>
         </div>
@@ -37,7 +37,7 @@ const InfoSection = ({
           <span className="hidden md:flex text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             {span}
           </span>
-          <h3 className="hidden md:flex  text-[28px] md:text-[32px] lg:text-[36px] font-normal leading-[120%] lg:leading-[57.6px] font-marcellus lg:capsizedtext2">
+          <h3 className="hidden md:flex  text-[28px] lg:text-[32px] font-normal leading-[120%] lg:leading-[57.6px] font-marcellus lg:capsizedtext2">
             {header}
           </h3>
           <p className="text-[12px] lg:text-[14px] font-normal leading-[21px]">
