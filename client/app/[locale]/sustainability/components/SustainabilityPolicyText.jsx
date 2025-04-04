@@ -31,7 +31,7 @@ const SustainabilityPolicyText = () => {
           alt="sustainability"
           width={img.width}
           height={img.height}
-          className="w-[40%]"
+          className="w-[40%] shadow-lg transition-shadow duration-300 ease-in-out hover:shadow-xl"
           />
           </div>
 

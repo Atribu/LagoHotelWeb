@@ -14,6 +14,7 @@ import uyumImg from "./images/uyum.png"
 import InfoSection from './components/InfoSection'
 import PolicySection from './components/PolicySection'
 import SustainabilityPolicyText from './components/SustainabilityPolicyText'
+import Certificate from './components/Certificate'
 
 const page = () => {
   return (
@@ -114,6 +115,8 @@ Yerel ve yerli halkla, yerel dernek ve ticaret odasının düzenli toplantılar�
 Misafirler ve çalışanlarımızla düzenli plaj temizliği yaparak, plajlarımızı ve kumullarımızı korumayı amaçlıyoruz.
 Çeşitli yerel hayır kurumlarına yıllık mali katkılarda bulunuyoruz.
 " img={uyumImg}/>
+
+<Certificate/>
   
 </div>
   )
