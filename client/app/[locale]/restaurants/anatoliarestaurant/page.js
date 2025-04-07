@@ -7,7 +7,7 @@ import img4 from "./images/SRF_3521.jpg"
 import img5 from "./images/SRF_3543.jpg"
 import ClinaryReverseInfo from '../components/ClinaryReverseInfo'
 import CuisinesCarousel from '../components/CuisinesCarousel'
-import wasabi from "../Gustorestaurant/images/wasabi2.webp"
+import wasabi from "../gustorestaurant/images/wasabi2.webp"
 import despina from "../images/despina.webp"
 import anatolia from "../images/anatolia.webp"
 import RoomTour from '@/app/[locale]/rooms/familyswimup/components/RoomTour'
@@ -61,7 +61,6 @@ const page = () => {
         <BannerDark img={imgBanner} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={images} header="" showheader={false}/>
-      <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")}/>
       <CuisinesCarousel span={t4("subtitle")} header={t4("title")} text={t4("text")} cuisines={otherOptions}/>
       <DiscoverBackground  span={t5("subtitle")} header={t5("title")} text={t5("text")} link="/barcafes" img={backgroundImg} buttonText={t5("buttonText")}/>
       <ContactSection2/>
