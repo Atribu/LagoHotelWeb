@@ -40,7 +40,7 @@ export default function Form({ isOpen, onClose, color, colorText }) {
   if (!isOpen) return null; // Eğer form açık değilse hiçbir şey render etme!
 
   return (
-<div className={`flex flex-col fixed inset-0 justify-center items-center w-screen lg:w-[420px] z-50  backdrop-blur-[12px]`} style={{ backgroundColor: color }}>
+<div className={`flex flex-col fixed inset-0 justify-center items-center w-screen lg:w-[420px] z-50 backdrop-blur-[12px]`} style={{ backgroundColor: color }}>
 <button
         onClick={onClose}
           className={`absolute lg:flex hidden text-[40px] top-1 right-4 text-stoneLight text-[${colorText}]`} >
@@ -126,9 +126,9 @@ export default function Form({ isOpen, onClose, color, colorText }) {
             name="policyAccepted"
             checked={formData.policyAccepted}
             onChange={handleChange}
-            className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#A6A6A6] bg-transparent focus:outline-none
-               checked:after:content-['✓']  checked:after:text-white checked:after:text-[16px]
-               checked:after:flex checked:after:items-center checked:after:justify-center "
+            className={`w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#A6A6A6] bg-transparent focus:outline-none
+               checked:after:content-['✓']  checked:after:text-[${colorText}] checked:after:text-[16px]
+               checked:after:flex checked:after:items-center checked:after:justify-center`}
           />
           <label className="text-[16px] font-normal leading-[26.667px] text-[#A6A6A6] cursor-pointer underline">
             Contact Form Policy
