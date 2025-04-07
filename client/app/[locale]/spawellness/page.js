@@ -39,17 +39,17 @@ const sliderMassage = [
   {
     src: oriental,
     title: "Oriental Massage",
-    link: "/beachpools",
+    link: "/",
   },
   {
     src: clasmassage,
     title: "Classic Massage",
-    link: "/entertainment",
+    link: "/",
   },
   {
     src: facial,
     title: "FacialSpecai Massage",
-    link: "/restaurants",
+    link: "/",
   }
 ];
 

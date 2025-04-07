@@ -206,15 +206,15 @@
       },
       "RoomSection5":{
         "title":"Duplex Family Room",
-        "subtitle":" This Duplex Family Room, measuring 70-80 m², has two floors. The lower floor features two single beds, one sofa, a bathroom, and a balcony, while the upper floor has one double bed, another bathroom, and balcony. Maximum capacity: 4 adults + 1 child.",
-        "m":"70-80 m²",
+        "subtitle":" This Duplex Family Room, measuring 45-49 m², has two floors. The lower floor features two single beds, one sofa, a bathroom, and a balcony, while the upper floor has one double bed, another bathroom, and balcony. Maximum capacity: 4 adults + 1 child.",
+        "m":"45-49 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       },
        "RoomSection6":{
         "title":"Tiny Villa",
-        "subtitle":" Our Tiny Villa (90 m²), located within the garden, features two bedrooms with a connecting door (one double bed, two single beds), two bathrooms, and a terrace. Max capacity: 4 adults + 1 child.",
-        "m":"90 m²",
+        "subtitle":" Our Tiny Villa (100 m²), located within the garden, features two bedrooms with a connecting door (one double bed, two single beds), two bathrooms, and a terrace. Max capacity: 4 adults + 1 child.",
+        "m":"50 m²",
         "view":"Land/Sea View",
         "buttonText":"Explore"
       }

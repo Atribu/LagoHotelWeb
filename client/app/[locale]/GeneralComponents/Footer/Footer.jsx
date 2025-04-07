@@ -38,7 +38,7 @@ export default function Footer() {
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/superiorroom">{t('superior')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">{t('family')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/swimuproom">{t('swimup')}</Link></li>
-                <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('familyswimup')}</Link></li>
+                <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyswimup">{t('familyswimup')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('tinyvilla')}</Link></li>
              
               </ul>
@@ -51,7 +51,7 @@ export default function Footer() {
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
                 <li className="hover:text-white cursor-pointer">
-                <Link href="/mainrestaurant">{t('mainrestaurant')}</Link>
+                <Link href="/restaurants/mainrestaurant">{t('mainrestaurant')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
                <Link href="/restaurants/gustorestaurant"> {t('gusto')}</Link>
@@ -86,7 +86,7 @@ export default function Footer() {
                   <Link href="/entertainment">{t('stageshow')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                <Link href="/spa">{t('spa')}</Link>
+                <Link href="/spawellness">{t('spa')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer"><Link href="/special">{t('special')}</Link></li>
               </ul>
@@ -239,7 +239,7 @@ export default function Footer() {
                <li className="hover:text-white cursor-pointer"><Link href="/rooms/superiorroom">{t('superior')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">{t('family')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/swimuproom">{t('swimup')}</Link></li>
-                <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('familyswimup')}</Link></li>
+                <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyswimup">{t('familyswimup')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('tinyvilla')}</Link></li>
 
             </ul>
@@ -252,7 +252,7 @@ export default function Footer() {
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
             <li className="hover:text-white cursor-pointer">
-                <Link href="/mainrestaurant">{t('mainrestaurant')}</Link>
+                <Link href="/restaurants/mainrestaurant">{t('mainrestaurant')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
                <Link href="/restaurants/gustorestaurant"> {t('gusto')}</Link>
@@ -287,7 +287,7 @@ export default function Footer() {
                   <Link href="/entertainment">{t('stageshow')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
-                <Link href="/spa">{t('spa')}</Link>
+                <Link href="/spawellness">{t('spa')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer"><Link href="/special">{t('special')}</Link></li>
             </ul>

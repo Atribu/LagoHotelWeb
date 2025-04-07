@@ -370,7 +370,7 @@ export default function HeaderWhite() {
           {t("letuscallyou")}
           </button>
 
-          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} color={'#fff'} colorText={'#1D1D1B'}/>
 
           {/* Sosyal İkonlar */}
           <div className="flex items-center justify-center gap-4 mt-[18.79px]">

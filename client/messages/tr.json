@@ -150,7 +150,7 @@
     "phone":"Tel: +90 242 756 99 00",
     "email":"E-posta: info@lagohotels.com",
     "address":" Adres: Titreyengöl Mevkii Sorgun Manavgat/ Antalya / TR",
-    "termsuse":"Terms of Use",
+    "termsuse":"Kullanım Şartları",
     "notice":"Privacy Notice",
     "sustainability":"Sürdürülebilirlik",
     "accommodation":"Konaklama",
@@ -202,15 +202,15 @@
       },
       "RoomSection5":{
         "title":"Dubleks Aile Odası",
-        "subtitle":" 70-80 m² büyüklüğündeki Dublex Aile Odası iki katlıdır. Alt katta iki tek kişilik yatak, bir sofa, banyo ve balkon; üst katta ise bir çift kişilik yatak, ayrı banyo ve balkon bulunur. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
-        "m":"70-80 m²",
+        "subtitle":" 45-49 m² büyüklüğündeki Dublex Aile Odası iki katlıdır. Alt katta iki tek kişilik yatak, bir sofa, banyo ve balkon; üst katta ise bir çift kişilik yatak, ayrı banyo ve balkon bulunur. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"45-49 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       },
        "RoomSection6":{
         "title":"Tiny Villa",
-        "subtitle":" Bahçe içerisinde bulunan Tiny Villa (90 m²), ara kapılı iki yatak odası (1 çift kişilik yatak, 2 tek kişilik yatak), iki banyo ve terasa sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
-        "m":"90 m²",
+        "subtitle":" Bahçe içerisinde bulunan Tiny Villa (100 m²), ara kapılı iki yatak odası (1 çift kişilik yatak, 2 tek kişilik yatak), iki banyo ve terasa sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+        "m":"50 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
       }

@@ -24,10 +24,10 @@ const SpecialTypesSection = () => {
       t("text2"),
       image: proposal,
     },
-    [t("key3")]: {
-      title: t("title3"),
+    [t("key5")]: {
+      title: t("title5"),
       description:
-      t("text3"),
+      t("text5"),
       image: wedding,
     },
     [t("key4")]: {
@@ -36,10 +36,10 @@ const SpecialTypesSection = () => {
       t("text4"),
       image: birthday,
     },
-    [t("key5")]: {
-      title: t("title5"),
+    [t("key3")]: {
+      title: t("title3"),
       description:
-      t("text5"),
+      t("text3"),
       image: pavilion,
     },
     [t("key6")]: {

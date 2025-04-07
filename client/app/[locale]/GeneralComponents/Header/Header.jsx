@@ -361,16 +361,13 @@ export default function Header() {
               0242 524 57 87
               </p>
             </div>
-
-
-
             <span
                 onClick={() => setIsFormOpen(true)}
               className="
              flex justify-center
              items-center
               mt-[20px]
-              w-[253px]
+              min-w-[253px]
               h-[42px]
               bg-[#181818]
               text-white
@@ -380,13 +377,11 @@ export default function Header() {
               hover:bg-gray-800
               leading-[24px]
               py-[15px]
-              px-[19px]
-            "
-            >
+              px-[19px]">
              {t("letuscallyou")}
             </span>
               {/* Contact Form bileşeni burada çağrılıyor */}
-          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} color="rgba(29, 29, 27, 0.85)" colorText={'#ffffff'}/>
 
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">

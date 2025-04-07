@@ -6,14 +6,14 @@
 
   "Header": {
     "contact": "Kontakt",
-    "booknow": "Jetzt buchen",
+    "booknow": "Jetzt Buchen",
     "accommodation": "Unterkunft",
     "restaurants": "Restaurants",
     "beachPools": "Strand & Pools",
     "experiences": "Erlebnisse",
     "kids": "Kinder",
-    "spa": "SPA & WELLNESS",
-    "special": "Besonderes",
+    "spa": "Spa & Wellness",
+    "special": "Spezial",
     "gallery": "Galerie",
     "barsandcafes": "Bars und Cafés",
     "ourhotel": "Unser Hotel",
@@ -23,21 +23,23 @@
     "swimup": "Swim-up Zimmer",
     "familyswimup": "Familien Swim-up Zimmer",
     "duplex": "Duplex Familienzimmer",
-    "tinyvilla": "Tiny Villa",
-    "letuscallyou": "Lass uns dich anrufen"
+    "tinyvilla": "Kleine Villa",
+    "letuscallyou": "Lassen Sie sich von uns anrufen"
   },
   "Reservation": {
     "text": "Buchen Sie Ihren Traumaufenthalt",
     "checkin": "Check-in",
     "checkout": "Check-out",
     "guests": "Gäste",
-    "search": "Suchen"
+    "search": "Suchen",
+    "adult":"Erwachsene",
+    "kid":"Kind(er)"
   },
   "HomePage": {
     "subtitle": "Erleben Sie Komfort, Qualität und tadellosen Service",
     "title": "Willkommen im Lago Hotel",
-    "text": "Unsere Zimmer, gestaltet für vielfältige Geschmäcker und Bedürfnisse, bieten ein erholsames Urlaubserlebnis, bei dem Komfort auf Eleganz trifft und Sie sich wie zu Hause fühlen. Genießen Sie das Abkühlen in unseren Pools in verschiedenen Größen in der tiefblauen Welt von LAGO. Bei LAGO ist alles möglich.",
-    "discovermore": "Mehr entdecken",
+    "text": "Unsere Zimmer sind so gestaltet, dass sie unterschiedlichen Geschmäckern und Bedürfnissen gerecht werden. Sie bieten ein entspannendes Urlaubserlebnis, in dem Komfort auf Eleganz trifft und Sie sich wie zu Hause fühlen. Genießen Sie eine erfrischende Abkühlung in unseren Pools verschiedener Größen in der tiefblauen Welt von LAGO. Im LAGO ist alles möglich.",
+    "discovermore": "Mehr Entdecken",
     "EmblaCarousel": {
       "accommodation": "Unterkunft",
       "restaurants": "Restaurants",
@@ -46,10 +48,10 @@
       "kids": "Kinder"
     },
     "TwoAnimationSection": {
-      "subtitle": "Die Ruhe von Blau und Grün",
+      "subtitle": "Die Gelassenheit von Blau und Grün",
       "title": "Lassen Sie sich von LAGO verzaubern",
       "text": "Mit goldenen Stränden und tiefblauem Wasser vereint LAGO die Schönheit der Natur perfekt mit luxuriösem Komfort.",
-      "text2": "Erfrischen Sie sich in Pools verschiedener Größen und beleben Sie Ihre Sinne inmitten üppiger Vegetation. Mit beheizten Innenpools, einem Außenpool und ruhigen Entspannungsbereichen verspricht LAGO unvergessliche Urlaubserlebnisse das ganze Jahr über.",
+      "text2": " Erfrischen Sie sich in Pools verschiedener Größen und beleben Sie Ihre Sinne inmitten üppiger Vegetation. Mit beheizten Innenpools, einem Außenpool und ruhigen Entspannungsbereichen verspricht LAGO das ganze Jahr über unvergessliche Urlaubserlebnisse.",
       "buttonText": "Zur Galerie"
     },
     "Accommodation": {
@@ -73,26 +75,26 @@
     },
     "Essentials": {
       "subtitle": "Entdecken Sie unsere außergewöhnlichen Services",
-      "title": "Alles, was Sie für höchsten Komfort brauchen",
-      "title1": "Privater Strand & Pavillons",
-      "text1": "Entspannen Sie an unserem 350 Meter langen Privatstrand oder genießen Sie unseren exklusiven Pier mit privaten Lounges und bequemen Liegen.",
+      "title": "Alles, was Sie für ultimativen Komfort brauchen",
+      "title1": "Privatstrand & Pavillons",
+      "text1": " Entspannen Sie sich an unserem 350 Meter langen Privatstrand oder genießen Sie unseren exklusiven Steg mit privaten Lodges und bequemen Liegestühlen.",
       "title2": "Pools für jeden Moment",
-      "text2": "Genießen Sie unsere Außenpools, den beheizten Innenpool und den Aqua Park mit 9 Rutschen, sowie spezielle Kinderpools mit 5 Rutschen.",
-      "title3": "Gastronomie auf Weltklasse-Niveau",
-      "text3": "Erleben Sie unsere Ultra All-Inclusive Buffets und À-la-carte-Restaurants, die türkische und internationale Küche bieten.",
-      "title4": "Paradies für Kinder",
-      "text4": "Der Bamboo Kids Club (für Kinder von 4 bis 12 Jahren) bietet Spielplätze, Spielzimmer und ein Kinderbuffet im Magna Kids Restaurant.",
-      "title5": "Entertainment & Aktivitäten",
-      "text5": "Von Live-Shows über Pool-Spiele bis hin zu Strandspaß – für jeden ist etwas dabei. Genießen Sie Tischtennis und Volleyball!",
+      "text2": " Genießen Sie unsere Außenpools, den beheizten Innenpool und den Aqua-Park mit 9 Rutschen sowie spezielle Kinderpools mit 5 Rutschen.",
+      "title3": "Gastronomie der Spitzenklasse",
+      "text3": "Genießen Sie unsere Ultra All-Inclusive Buffets und À-la-carte-Restaurants mit türkischer und internationaler Küche.",
+      "title4": "Kinderparadies",
+      "text4": "Der Bamboo Kids Club (4-12 Jahre) bietet Spielplätze, Spielzimmer und ein spezielles Kinderbuffet im Magna Kids Restaurant.",
+      "title5": "Unterhaltung & Aktivitäten",
+      "text5": " Von Live-Shows über Pool-Spiele bis hin zu Strandaktivitäten – hier ist für jeden etwas dabei. Genießen Sie Tischtennis und Volleyball!",
       "title6": "Spa & Wellness",
-      "text6": "Entspannen Sie mit unseren Spa-Angeboten, einschließlich Hamam, Sauna, Dampfbad und Massagen. Ein Fitnesscenter steht ebenfalls zur Verfügung.",
+      "text6": " Entspannen Sie sich mit unseren Spa-Angeboten, einschließlich Hamam, Sauna, Dampfbad und Massagen. Ein Fitnesscenter steht ebenfalls zur Verfügung.",
       "buttonText": "Mehr entdecken"
     },
     "Banner": {
-      "subtitle": "Ihr Tor zum Mittelmeerblau",
+      "subtitle": "Ihr Tor zum mediterranen Blau",
       "title": "Unvergessliche Momente in Blau und Grün",
-      "text": "Tauchen Sie ein in die bezaubernde Welt der LAGO Hotels. Mit üppiger Natur, endlosen Meerblicken und tadellosem Service versprechen wir Ihnen ein unvergessliches Urlaubserlebnis.",
-      "discovermore": "Mehr entdecken"
+      "text": "Tauchen Sie ein in die zauberhafte Welt der LAGO Hotels. Mit üppiger Natur, endlosen Meerblicken und tadellosem Service versprechen wir Ihnen ein unvergessliches Urlaubserlebnis.",
+      "discovermore": "Mehr Entdecken"
     }
   },
   "ContactSection": {
@@ -108,7 +110,7 @@
     "swimup": "Swim-up Zimmer",
     "familyswimup": "Familien Swim-up Zimmer",
     "duplex": "Duplex Familienzimmer",
-    "tinyvilla": "Tiny Villa",
+    "tinyvilla": "Kleine Villa",
     "category2": "Küche",
     "mainrestaurant": "Hauptrestaurant",
     "gusto": "Gusto Restaurant",
@@ -121,7 +123,7 @@
     "stageshow": "Bühnenshow",
     "spa": "Spa",
     "special": "Spezial",
-   
+   "contact":"Kontakt",
     "home": "Startseite",
     "service": "Service",
     "portfolio": "Portfolio",
@@ -143,6 +145,8 @@
     "accommodation": "Unterkunft",
     "experiences": "Erlebnisse"
   },
+
+
   "Accommodation": {
     "header": "Zimmertypen",
     "buttonText1": "Superior Zimmer",
@@ -150,12 +154,12 @@
     "buttonText3": "Swim-up Zimmer",
     "buttonText4": "Familien Swim-up Zimmer",
     "buttonText5": "Duplex Familienzimmer",
-    "buttonText6": "Tiny Villa",
+    "buttonText6": "Kleine Villa",
     "subtitle": "Ein komfortabler Aufenthalt für Sie und Ihre Familie",
     "title": "Entdecken Sie unsere eleganten Unterkünfte und finden Sie Ihren perfekten Aufenthalt.",
-    "text": "Im Lago Hotel bieten wir komfortable Zimmer mit atemberaubendem Meer- oder Landblick. Wählen Sie aus stilvollen Swim-up Zimmern und großzügigen Familiensuiten, die all Ihren Bedürfnissen gerecht werden. Mit modernem Design und luxuriösem Komfort ist das Lago Hotel der perfekte Ort für einen unvergesslichen Urlaub.",
-    "checkin": "CHECK-IN: 14:00",
-    "checkout": "CHECK-OUT: 12:00",
+    "text": " Im Lago Hotel bieten wir komfortable Zimmer mit atemberaubendem Meer- oder Landschaftsblick. Wählen Sie zwischen stilvollen Swim-up Zimmern und geräumigen Familiensuiten, die all Ihren Bedürfnissen gerecht werden. Mit modernem Design und luxuriösem Komfort ist das Lago Hotel der perfekte Ort für einen unvergesslichen Urlaub.",
+    "checkin": "CHECK-IN: 14:00 Uhr",
+    "checkout": "CHECK-OUT: 12:00 Uhr",
     "RoomSection1": {
       "title": "Superior Zimmer",
       "subtitle": "Dieses elegante Zimmer im Hauptgebäude misst 30-32 m² und bietet Land- oder Meerblick. Es verfügt über ein Doppelbett, ein Einzelbett und ein komfortables Sofa. Zudem beinhalten die Zimmer einen Balkon, Zugang per Chip-Schlüsselarmband, eine täglich aufgefüllte Minibar, hochwertige Badezimmereinrichtungen und ein Tee-Kaffee-Set.",
@@ -187,31 +191,31 @@
     },
     "RoomSection5": {
       "title": "Duplex Familienzimmer",
-      "subtitle": "Dieses Duplex Familienzimmer, 70-80 m² groß, erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein weiteres Badezimmer und ein Balkon vorhanden sind. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
-      "m": "70-80 m²",
+      "subtitle": "Dieses Duplex Familienzimmer, 45-49 m² groß, erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein weiteres Badezimmer und ein Balkon vorhanden sind. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+      "m": "45-49 m²",
       "view": "Land-/Meerblick",
       "buttonText": "Erkunden"
     },
     "RoomSection6": {
       "title": "Tiny Villa",
-      "subtitle": "Unsere Tiny Villa (90 m²), im Garten gelegen, verfügt über zwei Schlafzimmer mit Verbindungstür (ein Doppelbett, zwei Einzelbetten), zwei Badezimmer und eine Terrasse. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
-      "m": "90 m²",
+      "subtitle": "Unsere Tiny Villa (100 m²), im Garten gelegen, verfügt über zwei Schlafzimmer mit Verbindungstür (ein Doppelbett, zwei Einzelbetten), zwei Badezimmer und eine Terrasse. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+      "m": "50 m²",
       "view": "Land-/Meerblick",
       "buttonText": "Erkunden"
     }
   },
   "RoomsParallax": {
-    "subtitle": "Wesentliche Annehmlichkeiten im Zimmer",
-    "title": "Unsere Zimmer bieten alle Annehmlichkeiten für einen komfortablen Aufenthalt.",
-    "text": "Erleben Sie einen reibungslosen Aufenthalt mit allen notwendigen Annehmlichkeiten. Von täglich aufgefüllter Minibar und hochwertigen Badezimmereinrichtungen bis hin zu sicherem Zutritt, LED-TV und 24-Stunden-WLAN – Ihr Komfort ist unser Anliegen.",
+    "subtitle": "Wesentliche Zimmerausstattung",
+    "title": "Unsere Zimmer bieten alle Wesentliche für einen komfortablen Aufenthalt.",
+    "text": "Genießen Sie einen reibungslosen Aufenthalt mit allen wichtigen Annehmlichkeiten stets griffbereit. Von der täglichen Minibar-Auffüllung und hochwertigen Badeartikeln bis hin zum sicheren Zimmerzugang, LED-TV und 24-Stunden-WLAN – wir sorgen für Ihren Komfort zu jeder Zeit.",
     "feature1": "Minibar",
-    "desc1": "Tägliche Auffüllung beinhaltet Wasser, Erfrischungsgetränke, Bier, Fruchtmilch, Schokolade und Cracker.",
-    "feature2": "Kosmetik",
-    "desc2": "Badezimmer-Essentials umfassen Shampoo, Conditioner, Duschgel, Seife, Badeschwamm und Körpercreme.",
-    "feature3": "Chip-Key Zugang",
-    "desc3": "Alle Zimmertüren sind mit einem sicheren und praktischen Chip-Key-Armband-Zugangssystem ausgestattet.",
+    "desc1": "Tägliche Auffüllungen beinhalten Wasser, Softdrinks, Bier, Milch mit Fruchtgeschmack, Schokolade und Cracker.",
+    "feature2": "Kosmetikartikel",
+    "desc2": "Zur wesentlichen Badausstattung gehören Shampoo, Haarspülung, Duschgel, Seife, Badeschwamm und Körpercreme.",
+    "feature3": " Zugang mit Chipkarte",
+    "desc3": " Alle Zimmertüren verfügen über ein sicheres und praktisches Chip-Armband-System für einfachen Zugang.",
     "feature4": "WLAN & LED-TV",
-    "desc4": "LED-TV mit nationalen und internationalen Satellitenkanälen, Radio und 24-Stunden-WLAN."
+    "desc4": "LED-TV mit nationalen und internationalen Satellitenkanälen, Radio und 24-Stunden-WLAN-Zugang."
   },
   "ContactSection2": {
     "subtitle": "KONTAKTIEREN SIE UNS FÜR MEHR",
@@ -1079,22 +1083,22 @@
     "RoomInfo": {
       "subtitle": "Entspannen Sie in superiorem Komfort",
       "title": "Superior Zimmer",
-      "text": "Im Hauptgebäude gelegen, messen unsere stilvollen Superior Zimmer 30-32 m² und bieten einen atemberaubenden Blick auf Meer oder Land. Jedes Zimmer verfügt über ein Doppelbett, ein Einzelbett, ein Sofa, einen Balkon, einen LED-TV mit Satellitenkanälen, eine täglich aufgefüllte Minibar, kostenloses WLAN, hochwertige Badezimmereinrichtungen und Tee-Kaffee-Anlagen. Der Zugang erfolgt über ein Chip-Schlüsselarmband, das sicheren und bequemen Zutritt gewährleistet. Maximale Belegung: 3 Erwachsene + 1 Kind.",
-      "title2": "Superior Zimmer Ausstattung",
+      "text": " Unsere stilvollen Superior Zimmer befinden sich im Hauptgebäude, sind 30–32 m² groß und bieten einen atemberaubenden Blick auf das Meer oder die Landschaft. Jedes Zimmer verfügt über ein Doppelbett, ein Einzelbett, ein Sofa, einen Balkon, LED-TV mit Satellitenempfang, tägliche Minibar-Auffüllung, kostenfreies WLAN, hochwertige Badezimmerartikel sowie Tee- und Kaffeezubehör. Zugang per Chip-Armband sorgt für sicheren und einfachen Zutritt. Maximale Belegung: 3 Erwachsene + 1 Kind.",
+      "title2": "Ausstattung Superior Zimmer ",
       "list1": " ----",
       "list2": " 1 Doppelbett",
-      "list3": " Extra Babybett",
-      "title3": "Zimmermerkmale",
-      "text2": "Alle Superior Zimmer bieten sicheren und bequemen Zugang über ein Chip-Schlüsselarmband. Genießen Sie die tägliche Auffüllung Ihrer Minibar mit erfrischenden Getränken und Snacks. Unsere Zimmer verfügen außerdem über hochwertige Badezimmereinrichtungen für Ihren Komfort, sowie kostenlose Tee- und Kaffeeanlagen. Zusätzlich ist jedes Zimmer mit einem LED-TV ausgestattet, der nationale und internationale Kanäle bietet, einem Balkon, um den atemberaubenden Blick zu genießen, und kostenlosem 24-Stunden-WLAN, um einen reibungslosen Aufenthalt zu gewährleisten.",
+      "list3": " Zusätzliches Babybett",
+      "title3": "Zimmerausstattung",
+      "text2": " Alle Superior Zimmer bieten sicheren und bequemen Zugang durch ein Chip-Armband-System. Genießen Sie die tägliche Auffüllung Ihrer Minibar mit erfrischenden Getränken und Snacks. Unsere Zimmer verfügen zudem über hochwertige Badezimmerartikel sowie kostenfreie Tee- und Kaffeezubereitungsmöglichkeiten. Darüber hinaus ist jedes Zimmer mit einem LED-TV mit nationalen und internationalen Kanälen, einem Balkon mit atemberaubendem Meer- oder Landschaftsblick und kostenlosem 24-Stunden-WLAN ausgestattet, um Ihnen einen rundum angenehmen Aufenthalt zu ermöglichen.",
       "madde1": "----",
       "madde2": "30-32 m²",
-      "madde3": "Frisiertisch",
-      "madde4": "Nichtraucherzimmer",
+      "madde3": "Schminktisch",
+      "madde4": "Nichtraucher",
       "madde5": "Minibar",
       "madde6": "Safe",
       "madde7": "Haartrockner",
-      "madde8": "Badezimmerutensilien",
-      "madde9": "Tee- & Kaffeeausstattung",
+      "madde8": "Badeartikel",
+      "madde9": " Tee- und Kaffeezubereitung",
       "madde10": "LED-TV & WLAN",
       "madde11": "Balkon",
       "madde12": "Dusche"
@@ -1138,24 +1142,24 @@
   },
 
   "FamilyRoom": {
-    "subtitle": "Geräumiger und komfortabler Aufenthalt für die ganze Familie",
+    "subtitle": "Exklusiver und komfortabler Familienaufenthalt",
     "title": "Familienzimmer",
     "text1": "Land-/Meerblick",
-    "text2": "2 Erwachsene + 2 Kinder",
+    "text2": "1-4 Erwachsene + 1-3 Kinder",
     "text3": "2 Schlafzimmer / 3 Betten",
     "RoomInfo": {
-      "subtitle": "Fühlen Sie sich wie zu Hause",
+      "subtitle": "SPASS FÜR ALLE ALTERSGRUPPEN",
       "title": "Familienzimmer",
-      "text": "Im Hauptgebäude gelegen, verfügt unser Familienzimmer (38-41 m²) über zwei Schlafzimmer mit Verbindungstür, bestehend aus einem Doppelbett und zwei Einzelbetten, ein Badezimmer und einen Balkon. Maximale Belegung: 4 Erwachsene + 1 Kind.",
-      "title2": "Ausstattung des Familienzimmers",
+      "text": "Die Familienzimmer befinden sich im Hauptgebäude, sind 38–41 m² groß und bieten Meer- oder Waldblick. Sie bestehen aus zwei separaten Schlafzimmern mit Verbindungstür: Ein Schlafzimmer verfügt über ein Doppelbett für 2 Erwachsene, das andere über zwei Einzelbetten für 2 Erwachsene. Es gibt ein gemeinsames Badezimmer und einen Balkon. Maximale Belegung: 4 Erwachsene.",
+      "title2": "Ausstattung Familienzimmer",
       "list1": "----",
-      "list2": "1 Doppelbett",
+      "list2": "1 Zusätzliches Babybett",
       "list3": "2 Einzelbetten",
-      "title3": "Zimmermerkmale",
-      "text2": "Genießen Sie ein großzügiges Layout mit separaten Schlafbereichen, einem komfortablen Wohnbereich und allen notwendigen Annehmlichkeiten wie Balkon, täglich aufgefüllter Minibar, LED-TV und kostenlosem WLAN.",
+      "title3": "Zimmerausstattung",
+      "text2": "Alle Familienzimmer bieten sicheren und bequemen Zugang durch ein Chip-Armband-System. Genießen Sie die tägliche Auffüllung Ihrer Minibar mit erfrischenden Getränken und Snacks. Unsere Zimmer verfügen zudem über hochwertige Badezimmerartikel sowie kostenfreie Tee- und Kaffeezubereitungsmöglichkeiten. Darüber hinaus ist jedes Zimmer mit einem LED-TV mit nationalen und internationalen Kanälen, einem Balkon mit atemberaubendem Meer- oder Landschaftsblick und kostenlosem 24-Stunden-WLAN ausgestattet, um Ihnen einen rundum angenehmen Aufenthalt zu ermöglichen.",
       "madde1": "----",
       "madde2": "38-41 m²",
-      "madde3": "2 Schlafzimmer",
+      "madde3": "Schminktisch",
       "madde4": "Nichtraucher",
       "madde5": "Minibar",
       "madde6": "Safe",
@@ -1205,41 +1209,41 @@
   },
 
   "SwimupRoom": {
-    "subtitle": "Erfrischender Luxus direkt am Pool",
+    "subtitle": "Exklusiver Aufenthalt mit direktem Poolzugang",
     "title": "Swim-up Zimmer",
     "text1": "Land-/Meerblick",
-    "text2": "2 Erwachsene + 1 Kind",
+    "text2": "1–3 Erwachsene + 1–2 Kinder",
     "text3": "1 Schlafzimmer / 2 Betten",
     "RoomInfo": {
-      "subtitle": "Schwimmen Sie direkt zu Ihrem Zimmer",
+      "subtitle": "Swim-Up Komfort & Luxus",
       "title": "Swim-up Zimmer",
-      "text": "Im Hauptgebäude gelegen, misst unser Swim-up Zimmer 40-43 m² und bietet einen spektakulären Blick auf Land oder Meer. Es ist ausgestattet mit einem Doppelbett und einem Einzelbett sowie einem komfortablen Sofa oder Sitzbereich. Beide Varianten bieten direkten Poolzugang und eine Terrasse – Swim-up Zimmer mit Meerblick verfügen zusätzlich über einen privaten Pool. Maximale Belegung: 2 Erwachsene + 1 Kind.",
-      "title2": "Ausstattung des Swim-up Zimmers",
-      "list1": "----",
-      "list2": "1 Doppelbett",
-      "list3": "1 Einzelbett",
-      "title3": "Zimmermerkmale",
-      "text2": "Erleben Sie den Luxus des direkten Poolzugangs, tägliche Minibar-Auffüllungen, erstklassige Badezimmereinrichtungen, kostenlosen Tee und Kaffee sowie LED-TV und WLAN in jedem Swim-up Zimmer.",
-      "madde1": "----",
+      "text": "Die Swim-up Zimmer befinden sich im Hauptgebäude, haben eine Größe von 40–43 m² und bieten Meer- oder Waldblick. Diese Zimmer verfügen über ein Doppelbett, ein Einzelbett und ein Sofa. Von jeder privaten Terrasse mit Sitzbereich besteht direkter Zugang zu einem gemeinsamen Pool.",
+      "title2": "Ausstattung Swim-up Zimmer",
+      "list1": "Privater Pool",
+      "list2": "1 Zusätzliches Babybett",
+      "list3": "2 Einzelbetten",
+      "title3": "Zimmerausstattung",
+      "text2": "Alle Swim-up-Zimmer verfügen über Zugang per Chip-Armband, tägliche Minibar-Auffüllung, hochwertige Badezimmerartikel sowie Tee- und Kaffeezubereitungsmöglichkeiten. Bitte beachten Sie, dass die Pools der Swim-up-Zimmer nicht beheizt sind. Unsere Swim-up-Zimmer mit Meerblick verfügen über einen privaten Pool, während bei Zimmern mit Landblick der Pool gemeinsam genutzt wird.",
+      "madde1": "Privater Pool",
       "madde2": "40-43 m²",
-      "madde3": "1 Schlafzimmer",
+      "madde3": "Schminktisch",
       "madde4": "Nichtraucher",
       "madde5": "Minibar",
       "madde6": "Safe",
       "madde7": "Haartrockner",
-      "madde8": "Badezimmerutensilien",
+      "madde8": "Badeartikel",
       "madde9": "Tee- & Kaffeeausstattung",
       "madde10": "LED-TV & WLAN",
-      "madde11": "Terrasse",
-      "madde12": "Privater Pool (bei Meerblick)"
+      "madde11": "Balkon",
+      "madde12": "Dusche"
     },
 
     "BackgroundSection": {
-      "subtitle": "EXKLUSIVE PRIVILEGIEN",
-      "title": "Swim-up Zimmer VIP-Vorteile",
-      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
-      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
-      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+      "subtitle": "EXKLUSIVE Vorteile",
+      "title": "Exklusive Vorteile Swim-up Zimmer",
+      "text1": "Gäste der Swim-up Zimmer werden mit einem speziellen VIP-Arrangement begrüßt, bestehend aus einem sorgfältig zubereiteten Obstteller und köstlichen Macarons bei der Ankunft.",
+      "text2": "À-la-carte-Restaurants: Genießen Sie einen kostenlosen Besuch bei einem Aufenthalt von 7 Nächten oder mehr.",
+      "text3": "Pavillon-Rabatt: Erhalten Sie 15 % Rabatt auf unsere exklusiven Pavillon-Services."
     },
 
   "ReservationWidget": {
@@ -1253,7 +1257,7 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 123 456 78 90"
     },
-    "RoomTour": {
+  "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
       "title": "Schauen Sie sich um",
       "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
@@ -1298,23 +1302,23 @@
       "text2": "Genießen Sie den exklusiven Poolzugang, tägliche Minibar-Auffüllung, hochwertige Badezimmereinrichtungen, kostenfreies WLAN und LED-TV in diesem familienfreundlichen Swim-up Zimmer.",
       "madde1": "----",
       "madde2": "50-55 m²",
-      "madde3": "2 Schlafzimmer",
+      "madde3": "Schminktisch",
       "madde4": "Nichtraucher",
       "madde5": "Minibar",
       "madde6": "Safe",
       "madde7": "Haartrockner",
-      "madde8": "Badezimmerutensilien",
+      "madde8": "Badeartikel",
       "madde9": "Tee- & Kaffeeausstattung",
       "madde10": "LED-TV & WLAN",
-      "madde11": "Privater Poolzugang",
-      "madde12": "Terrasse"
+      "madde11": "Balkon",
+      "madde12": "Dusche"
     },
     "BackgroundSection": {
-      "subtitle": "EXKLUSIVE PRIVILEGIEN",
-      "title": "Familien-Swim-up Zimmer VIP-Vorteile",
-      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
-      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
-      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+      "subtitle": "EXKLUSIVE Vorteile",
+      "title": "Exklusive Vorteile Swim-up Zimmer",
+      "text1": "Gäste der Swim-up Zimmer werden mit einem speziellen VIP-Arrangement begrüßt, bestehend aus einem sorgfältig zubereiteten Obstteller und köstlichen Macarons bei der Ankunft.",
+      "text2": "À-la-carte-Restaurants: Genießen Sie einen kostenlosen Besuch bei einem Aufenthalt von 7 Nächten oder mehr.",
+      "text3": "Pavillon-Rabatt: Erhalten Sie 15 % Rabatt auf unsere exklusiven Pavillon-Services."
     },
 
  "ReservationWidget": {
@@ -1328,7 +1332,7 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 123 456 78 90"
     },
-    "RoomTour": {
+   "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
       "title": "Schauen Sie sich um",
       "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
@@ -1364,7 +1368,7 @@
     "RoomInfo": {
       "subtitle": "Erleben Sie doppelten Komfort",
       "title": "Duplex Familienzimmer",
-      "text": "Unser Duplex Familienzimmer misst 70-80 m² und erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein zusätzliches Badezimmer und ein Balkon vorhanden sind. Maximale Belegung: 4 Erwachsene + 1 Kind.",
+      "text": "Unser Duplex Familienzimmer misst 45-49 m² und erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein zusätzliches Badezimmer und ein Balkon vorhanden sind. Maximale Belegung: 4 Erwachsene + 1 Kind.",
       "title2": "Ausstattung des Duplex Familienzimmers",
       "list1": "----",
       "list2": "2 Einzelbetten (EG)",
@@ -1372,24 +1376,24 @@
       "title3": "Zimmermerkmale",
       "text2": "Freuen Sie sich auf zwei separate Etagen mit gemütlichen Schlafbereichen, komfortablen Wohnräumen, täglicher Minibar-Auffüllung, hochwertigen Badezimmereinrichtungen, kostenlosem WLAN, LED-TV, Balkon und sicherem Zugang über ein Chip-Schlüsselarmband.",
       "madde1": "----",
-      "madde2": "70-80 m²",
-      "madde3": "2 Schlafzimmer (EG)",
-      "madde4": "1 Schlafzimmer (OG)",
-      "madde5": "Nichtraucher",
-      "madde6": "Minibar",
-      "madde7": "Safe",
-      "madde8": "Haartrockner",
-      "madde9": "Badezimmerutensilien",
-      "madde10": "Tee- & Kaffeeausstattung",
-      "madde11": "LED-TV & WLAN",
-      "madde12": "Balkon"
+      "madde2": "45-49 m²",
+      "madde3": "Schminktisch",
+      "madde4": "Nichtraucher",
+      "madde5": "Minibar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Badeartikel",
+      "madde9": "Tee- & Kaffeeausstattung",
+      "madde10": "LED-TV & WLAN",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
     },
     "BackgroundSection": {
-      "subtitle": "EXKLUSIVE PRIVILEGIEN",
-      "title": "Duplex FamilienZimmer VIP-Vorteile",
-      "text1": "Gäste, die in Duplex FamilienZimmer übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
-      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
-      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+      "subtitle": "EXKLUSIVE Vorteile",
+      "title": "Exklusive Vorteile Swim-up Zimmer",
+      "text1": "Gäste der Swim-up Zimmer werden mit einem speziellen VIP-Arrangement begrüßt, bestehend aus einem sorgfältig zubereiteten Obstteller und köstlichen Macarons bei der Ankunft.",
+      "text2": "À-la-carte-Restaurants: Genießen Sie einen kostenlosen Besuch bei einem Aufenthalt von 7 Nächten oder mehr.",
+      "text3": "Pavillon-Rabatt: Erhalten Sie 15 % Rabatt auf unsere exklusiven Pavillon-Services."
     },
 
     "ReservationWidget": {
@@ -1403,7 +1407,7 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 123 456 78 90"
     },
-    "RoomTour": {
+   "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
       "title": "Schauen Sie sich um",
       "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
@@ -1448,23 +1452,23 @@
       "text2": "Erleben Sie privaten, kompakten Luxus mit allen notwendigen Annehmlichkeiten, einschließlich einer Terrasse, täglich aufgefüllter Minibar, LED-TV, kostenlosem WLAN und hochwertigen Badezimmereinrichtungen.",
       "madde1": "----",
       "madde2": "90 m²",
-      "madde3": "2 Schlafzimmer",
+      "madde3": "Schminktisch",
       "madde4": "Nichtraucher",
       "madde5": "Minibar",
       "madde6": "Safe",
       "madde7": "Haartrockner",
-      "madde8": "Badezimmerutensilien",
+      "madde8": "Badeartikel",
       "madde9": "Tee- & Kaffeeausstattung",
       "madde10": "LED-TV & WLAN",
-      "madde11": "Terrasse",
+      "madde11": "Balkon",
       "madde12": "Dusche"
     },
     "BackgroundSection": {
-      "subtitle": "EXKLUSIVE PRIVILEGIEN",
-      "title": "Kleine Villa VIP-Vorteile",
-      "text1": "Gäste, die in Swim-Up-Zimmern übernachten, werden mit einem VIP-Setup begrüßt, das ein sorgfältig zubereitetes Obsttablett und feine Macarons beim Check-in beinhaltet.",
-      "text2": "À-la-carte Dining: Ein kostenloser Besuch bei Aufenthalten von 7+ Nächten.",
-      "text3": "Pavillon-Rabatt: Genießen Sie 15% Rabatt auf exklusive Pavillon-Dienstleistungen."
+      "subtitle": "EXKLUSIVE Vorteile",
+      "title": "Exklusive Vorteile Swim-up Zimmer",
+      "text1": "Gäste der Swim-up Zimmer werden mit einem speziellen VIP-Arrangement begrüßt, bestehend aus einem sorgfältig zubereiteten Obstteller und köstlichen Macarons bei der Ankunft.",
+      "text2": "À-la-carte-Restaurants: Genießen Sie einen kostenlosen Besuch bei einem Aufenthalt von 7 Nächten oder mehr.",
+      "text3": "Pavillon-Rabatt: Erhalten Sie 15 % Rabatt auf unsere exklusiven Pavillon-Services."
     },
 
     "ReservationWidget": {
@@ -1478,7 +1482,7 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 123 456 78 90"
     },
-    "RoomTour": {
+  "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
       "title": "Schauen Sie sich um",
       "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
@@ -1662,13 +1666,13 @@
   "Special": {
     "subtitle": "GLÜCKLICHE MOMENTE, UNVERGESSLICHE ERINNERUNGEN",
     "title": "Besondere Anlässe",
-    "text": "Das LAGO-Team arbeitet daran, dass Sie mit Ihren Liebsten unvergessliche Erinnerungen an Ihre besonderen Anlässe schaffen.",
-    "gallerytitle": "Ein Paradies im Herzen des Mittelmeers",
+    "text": "Das LAGO-Team arbeitet daran, dass Sie unvergessliche Erinnerungen mit Ihren Lieben bei Ihren besonderen Anlässen schaffen.",
+    "gallerytitle": "Unsere exklusiven Dienstleistungen",
 
     "InfoSection": {
-      "subtitle": "besondere Anlässe",
+      "subtitle": "Besondere Anlässe",
       "title": "Unsere exklusiven Services",
-      "text": "Im LAGO Hotel bieten wir eine Vielzahl von Optionen, damit Ihre besonderen Anlässe wirklich unvergesslich werden. Mit unseren sorgfältig kuratierten Services helfen wir Ihnen, bleibende Erinnerungen zu schaffen.",
+      "text": "Im LAGO Hotel bieten wir eine Vielzahl von Optionen, um Ihre besonderen Anlässe wirklich unvergesslich zu machen. Mit unseren sorgfältig ausgewählten Dienstleistungen helfen wir Ihnen, bleibende Erinnerungen zu schaffen.",
       "subtitle1": "Besondere Anlässe",
       
       "key1":"Flitterwochen",
@@ -1683,15 +1687,15 @@
       "title3": "Pavillon-Erlebnis",
       "text3": "Genießen Sie ein exklusives Pavillon-Erlebnis im LAGO. Verbringen Sie Ihren besonderen Tag in Privatsphäre und Luxus, ergänzt durch makellosen Service und atemberaubende Aussichten.",
      
-      "key4":"Geburtstagspakete",
+      "key4":"Geburtstag",
       "title4": "Geburtstagspakete",
       "text4": "Feiern Sie Ihren Geburtstag stilvoll mit unseren personalisierten Geburtstagspaketen. Von Dekorationen bis zu speziellen Menüs – wir machen Ihren Tag wirklich unvergesslich.",
      
-      "key5":"Hochzeitsservices",
+      "key5":"Hochzeit",
       "title5": "Hochzeitsservices",
       "text5": "Das LAGO Hotel bietet umfassende Hochzeitsservices, um sicherzustellen, dass Ihr besonderer Tag in jeder Hinsicht perfekt wird. Überlassen Sie unser erfahrenes Team allen Details.",
       
-      "key6":"Blumenbestellungen",
+      "key6":"Blume",
       "title6": "Individuelle Blumenbestellungen",
       "text6": "Bereichern Sie Ihre besonderen Anlässe mit maßgeschneiderten Blumenarrangements von LAGO. Wir kreieren einzigartige florale Designs, die speziell auf Ihre Wünsche abgestimmt sind."
     },
@@ -1730,20 +1734,20 @@
     "title": "Über Unser Hotel",
     "InfoSection": {
       "subtitle": "Hotel LAGO",
-      "title": "Der exakte Ort",
-      "text": "Wir bieten Ihnen ein unvergessliches Urlaubserlebnis in Zimmern, die so gestaltet sind, dass sie unterschiedlichen Geschmäckern und Bedürfnissen gerecht werden, wobei Ästhetik mit Komfort durch auffällige Designs und praktische Grundrisse verbunden wird. Unser Hotel verfügt zudem über beheizte Innenpools, die separat für Erwachsene und Kinder konzipiert sind. Dank der einzigartigen Lage des Hotels bieten die meisten unserer Zimmer atemberaubende Ausblicke auf das Meer und den Pool sowie auf Seen, Flüsse oder Wälder.",
+      "title": "Der genaue Ort",
+      "text": "Wir bieten Ihnen ein unvergessliches Urlaubserlebnis in Zimmern, die auf unterschiedliche Geschmäcker und Bedürfnisse abgestimmt sind – eine gelungene Verbindung aus Ästhetik und Komfort durch auffällige Designs und durchdachte Raumgestaltung. Unser Hotel verfügt außerdem über beheizte Innenpools, die getrennt für Erwachsene und Kinder konzipiert wurden. Dank der einzigartigen Lage unseres Hotels bieten die meisten Zimmer einen atemberaubenden Ausblick auf das Meer und den Pool sowie auf Seen-, Fluss- oder Landschaftspanoramen.",
       "buttonText": "MEHR DARÜBER"
     },
     "MissinonVision": {
       "subtitle": "Hotel LAGO",
       "title": "Unsere Mission & Vision",
-      "text": "Unsere Mission ist es, unvergleichliche Gastfreundschaft zu bieten und unvergessliche Erinnerungen für unsere Gäste zu schaffen. Wir verpflichten uns zu Exzellenz in jedem Aspekt Ihres Aufenthalts – von personalisierten Dienstleistungen bis hin zu nachhaltigen Praktiken. Unsere Vision ist es, ein führendes Unternehmen in der Gastgewerbebranche zu werden, bekannt für außergewöhnliche Erlebnisse bei gleichzeitiger Wahrung der Umwelt.",
-      "clubsubtitle1": "Hotel LAGO",
+      "text": "Unsere Mission ist es, unvergleichliche Gastfreundschaft zu bieten und unvergessliche Erinnerungen für unsere Gäste zu schaffen. Wir setzen uns für Exzellenz in jedem Aspekt Ihres Aufenthalts ein – von personalisierten Services bis hin zu nachhaltigen Praktiken. Unsere Vision ist es, eine führende Rolle in der Hotelbranche einzunehmen und für außergewöhnliche Erlebnisse bekannt zu sein, während wir gleichzeitig die Umwelt schützen.",
+      "clubsubtitle1": "Отель Лаго",
       "clubtitle1": "Warum Lago Hotel wählen?",
       "clubtext1": "Zudem bietet unser Hotel köstliche Mahlzeiten, die von professionellen Köchen zubereitet werden, einzigartige Bars mit charakteristischen Aromen und Restaurants, die Küchen aus aller Welt präsentieren. Erwachen Sie mit den beruhigenden Klängen von Nachtigallen und anderen Vögeln und genießen Sie unseren funkelnden Pool und das kristallklare Meer. Für Ihren Komfort stellt LAGO zudem eine Vielzahl von Annehmlichkeiten bereit, darunter Sauna, Spa, Fitnesscenter, Herren- und Damenuhren-Salons, Boutique, Juwelier, Fotostudio, Spielzentrum und Einkaufszentrum.",
       "clubsubtitle2": "Hotel LAGO",
-      "clubtitle2": "ein besonderer Urlaub",
-      "clubtext2": "Unser Hotel liegt nur 50 Meter vom See und 300 Meter vom Fluss entfernt, was hervorragende Möglichkeiten zum Spazierengehen, Joggen, Angeln, Vogelbeobachten von Arten aus aller Welt und zum Erleben der Natur aus nächster Nähe bietet. Zudem befinden wir uns nur 4 km vom Stadtzentrum Manavgats und 6 km vom schönen Manavgat-Wasserfall entfernt. Die antike Stadt Side ist nur 9 km entfernt, wo Sie historische Sehenswürdigkeiten wie das antike Amphitheater, den Apollon-Tempel, das Side-Museum und die weltweit erste Sonnenuhr erkunden können. Entfernungen: Side Stadtzentrum: 9 km, Manavgat Stadtzentrum: 4 km, Flughafen Antalya: 63 km",
+      "clubtitle2": "Ein besonderer Urlaub",
+      "clubtext2": "Unser Hotel liegt nur 50 Meter vom See und 300 Meter vom Fluss entfernt und bietet ausgezeichnete Möglichkeiten für Spaziergänge, Joggen, Angeln, Vogelbeobachtungen von Arten aus der ganzen Welt und ein intensives Naturerlebnis. Darüber hinaus befinden wir uns nur 4 km vom Stadtzentrum von Manavgat und 6 km vom schönen Manavgat-Wasserfall entfernt. Die antike Stadt Side ist nur 9 km entfernt, wo Sie historische Sehenswürdigkeiten wie das Antike Amphitheater, den Apollotempel, das Side-Museum und den weltweit ersten Sonnenuhr entdecken können. Entfernungen: Side Stadtzentrum: 9 km, Manavgat Stadtzentrum: 4 km, Flughafen Antalya: 63 km.",
       "buttonText":"Mehr entdecken"
     }
   },
@@ -1796,29 +1800,29 @@
 
   "Contact": {
     "subtitle": "LAGO HOTEL KONTAKT",
-    "title": "Verbinden Sie sich mit uns",
+    "title": "Kontaktieren Sie uns",
     "contact1": "Unsere Adresse:",
     "contact2": "Telefonnummer:",
     "contact3": "E-Mail-Adresse:",
     "Form": {
-      "title": "Schreiben Sie uns gerne eine Nachricht",
-      "text": "Haben Sie etwas auf dem Herzen? Zögern Sie nicht, uns über unser Kontaktformular zu erreichen.",
+      "title": "Fühlen Sie sich frei, uns eine Nachricht zu hinterlassen",
+      "text": "Haben Sie etwas, das Sie uns mitteilen möchten? Zögern Sie bitte nicht, uns über unser Kontaktformular zu erreichen.",
       "name": "Vollständiger Name",
       "address": "E-Mail-Adresse",
       "message": "Ihre Nachricht",
-      "save": "Speichern Sie meinen Namen, meine E-Mail und Website in diesem Browser für den nächsten Kommentar.",
+      "save": "Speichern Sie meinen Namen, meine E-Mail-Adresse und meine Website in diesem Browser für das nächste Mal, wenn ich einen Kommentar hinterlasse.",
       "send": "Nachricht senden"
     }
   },
 
   "Gallery": {
-    "subtitle": "Entdecken Sie das Hotel",
+    "subtitle": "Erkunden Sie das Hotel",
     "title": "Lago Galerie",
     "general": "Gesamtansicht",
     "rooms": "Zimmer",
     "villa": "Villa",
     "pool": "Pool & Strand",
-    "flavours": "Geschmäcker",
+    "flavours": "Aromen",
     "spa": "Spa & Wellness",
     "kidsclub": "Kinderclub",
     "entertainment": "Entertainment"
