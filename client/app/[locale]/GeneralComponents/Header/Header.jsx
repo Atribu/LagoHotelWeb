@@ -381,7 +381,7 @@ export default function Header() {
              {t("letuscallyou")}
             </span>
               {/* Contact Form bileşeni burada çağrılıyor */}
-          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+          <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} color="rgba(29, 29, 27, 0.85)" colorText={'#ffffff'}/>
 
             {/* Sosyal İkonlar */}
             <div className="flex items-center justify-center gap-4 mt-[18.79px]">

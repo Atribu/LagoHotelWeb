@@ -191,15 +191,15 @@
     },
     "RoomSection5": {
       "title": "Duplex Familienzimmer",
-      "subtitle": "Dieses Duplex Familienzimmer, 70-80 m² groß, erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein weiteres Badezimmer und ein Balkon vorhanden sind. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
-      "m": "70-80 m²",
+      "subtitle": "Dieses Duplex Familienzimmer, 45-49 m² groß, erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein weiteres Badezimmer und ein Balkon vorhanden sind. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+      "m": "45-49 m²",
       "view": "Land-/Meerblick",
       "buttonText": "Erkunden"
     },
     "RoomSection6": {
       "title": "Tiny Villa",
-      "subtitle": "Unsere Tiny Villa (90 m²), im Garten gelegen, verfügt über zwei Schlafzimmer mit Verbindungstür (ein Doppelbett, zwei Einzelbetten), zwei Badezimmer und eine Terrasse. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
-      "m": "90 m²",
+      "subtitle": "Unsere Tiny Villa (100 m²), im Garten gelegen, verfügt über zwei Schlafzimmer mit Verbindungstür (ein Doppelbett, zwei Einzelbetten), zwei Badezimmer und eine Terrasse. Maximale Kapazität: 4 Erwachsene + 1 Kind.",
+      "m": "50 m²",
       "view": "Land-/Meerblick",
       "buttonText": "Erkunden"
     }
@@ -1368,7 +1368,7 @@
     "RoomInfo": {
       "subtitle": "Erleben Sie doppelten Komfort",
       "title": "Duplex Familienzimmer",
-      "text": "Unser Duplex Familienzimmer misst 70-80 m² und erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein zusätzliches Badezimmer und ein Balkon vorhanden sind. Maximale Belegung: 4 Erwachsene + 1 Kind.",
+      "text": "Unser Duplex Familienzimmer misst 45-49 m² und erstreckt sich über zwei Etagen. Im Erdgeschoss befinden sich zwei Einzelbetten, ein Sofa, ein Badezimmer und ein Balkon, während im Obergeschoss ein Doppelbett, ein zusätzliches Badezimmer und ein Balkon vorhanden sind. Maximale Belegung: 4 Erwachsene + 1 Kind.",
       "title2": "Ausstattung des Duplex Familienzimmers",
       "list1": "----",
       "list2": "2 Einzelbetten (EG)",
@@ -1376,7 +1376,7 @@
       "title3": "Zimmermerkmale",
       "text2": "Freuen Sie sich auf zwei separate Etagen mit gemütlichen Schlafbereichen, komfortablen Wohnräumen, täglicher Minibar-Auffüllung, hochwertigen Badezimmereinrichtungen, kostenlosem WLAN, LED-TV, Balkon und sicherem Zugang über ein Chip-Schlüsselarmband.",
       "madde1": "----",
-      "madde2": "70-80 m²",
+      "madde2": "45-49 m²",
       "madde3": "Schminktisch",
       "madde4": "Nichtraucher",
       "madde5": "Minibar",
