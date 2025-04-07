@@ -1,80 +1,80 @@
 "use client"
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import {useTranslations} from 'next-intl';
+import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 import Image from "next/image"
-import img1 from "../images/genel/DJI_0017.webp"
-import img2 from "../images/genel/DJI_0020.webp"
-import img3 from "../images/genel/DJI_0029.webp"
-import img4 from "../images/genel/SRF_2279.webp"
-import img5 from "../images/genel/SRF_2283.webp"
-import img6 from "../images/genel/SRF_2288.webp"
-import img7 from "../images/genel/SRF_2289.webp"
-import img8 from "../images/genel/SRF_2294.webp"
-import img9 from "../images/genel/SRF_2300.webp"
-import img10 from "../images/genel/SRF_2813.webp"
-import img11 from "../images/genel/SRF_2852.webp"
-import img12 from "../images/genel/SRF_2941.webp"
-import img13 from "../images/genel/SRF_2946.webp"
-import img14 from "../images/genel/SRF_2952.webp"
-import img15 from "../images/genel/SRF_2957.webp"
-import img16 from "../images/genel/SRF_2974.webp"
-import img17 from "../images/genel/SRF_2989.webp"
-import img18 from "../images/genel/SRF_3048.webp"
-import img19 from "../images/genel/SRF_3563.webp"
-import img20 from "../images/genel/SRF_3839.webp"
-import img21 from "../images/genel/SRF_4270.webp"
-import img22 from "../images/genel/SRF_4397.webp"
-import img23 from "../images/genel/SRF_5773-1-1.webp"
-import img24 from "../images/genel/SRF_57731.webp"
-import img25 from "../images/genel/SRF_5774.webp"
-import img26 from "../images/genel/SRF_6331.webp"
-import img27 from "../images/genel/SRF_6687.webp"
-import img28 from "../images/genel/SRF_6706.webp"
-import img29 from "../images/genel/SRF_7557.webp"
-import img30 from "../images/genel/SRF_7571.webp"
-import img31 from "../images/genel/SRF_7633.webp"
-import img32 from "../images/genel/SRF_7677-min.webp"
-import img33 from "../images/genel/SRF_7759-min.webp"
-import img34 from "../images/genel/SRF_7853-min.webp"
-import img35 from "../images/genel/SRF_7941-min.webp"
-import img36 from "../images/genel/SRF_7955.webp"
-import img37 from "../images/genel/SRF_7996-min.webp"
-import img38 from "../images/genel/SRF_8095-min.webp"
-import img39 from "../images/genel/SRF_8148-min.webp"
-import img40 from "../images/genel/SRF_8188-min.webp"
-import img41 from "../images/genel/SRF_8358-min.webp"
-import img42 from "../images/genel/SRF_8394-min.webp"
-import img43 from "../images/genel/SRF_8488-min.webp"
-import img44 from "../images/genel/SRF_9592.webp"
-import img45 from "../images/genel/SRF_9631.webp"
+import img1 from "../images/genel/img-01.jpg"
+import img2 from "../images/genel/img-02.jpg"
+import img3 from "../images/genel/img-03.jpg"
+import img4 from "../images/genel/img-04.jpg"
+import img5 from "../images/genel/img-05.jpg"
+import img6 from "../images/genel/img-06.jpg"
+import img7 from "../images/genel/img-07.jpg"
+import img8 from "../images/genel/img-08.jpg"
+import img9 from "../images/genel/img-09.jpg"
+import img10 from "../images/genel/img-10.jpg"
+import img11 from "../images/genel/img-11.jpg"
+import img12 from "../images/genel/img-12.jpg"
+import img13 from "../images/genel/img-13.jpg"
+import img14 from "../images/genel/img-14.jpg"
+import img15 from "../images/genel/img-15.jpg"
+import img16 from "../images/genel/img-16.jpg"
+import img17 from "../images/genel/img-17.jpg"
+import img18 from "../images/genel/img-18.jpg"
+import img19 from "../images/genel/img-19.jpg"
+import img20 from "../images/genel/img-20.jpg"
+import img21 from "../images/genel/img-21.jpg"
+import img22 from "../images/genel/img-22.jpg"
+import img23 from "../images/genel/img-23.jpg"
+import img24 from "../images/genel/img-24.jpg"
+import img25 from "../images/genel/img-25.jpg"
+import img26 from "../images/genel/img-26.jpg"
+import img27 from "../images/genel/img-27.jpg"
+import img28 from "../images/genel/img-28.jpg"
+import img29 from "../images/genel/img-29.jpg"
+import img30 from "../images/genel/img-30.jpg"
+import img31 from "../images/genel/img-31.jpg"
+import img32 from "../images/genel/img-32.jpg"
+import img33 from "../images/genel/img-33.jpg"
+import img34 from "../images/genel/img-34.jpg"
+import img35 from "../images/genel/img-35.jpg"
+import img36 from "../images/genel/img-36.jpg"
+import img37 from "../images/genel/img-37.jpg"
+import img38 from "../images/genel/img-38.jpg"
+import img39 from "../images/genel/img-39.jpg"
+import img40 from "../images/genel/img-40.jpg"
+import img41 from "../images/genel/img-41.jpg"
+import img42 from "../images/genel/img-42.jpg"
+import img43 from "../images/genel/img-43.jpg"
+import img44 from "../images/genel/img-44.jpg"
+import img45 from "../images/genel/img-45.jpg"
 
-import rooms1 from "../images/rooms/DJI_0020.webp"
-import rooms2 from "../images/rooms/DJI_0138.webp"
-import rooms3 from "../images/rooms/DJI_0139.webp"
-import rooms4 from "../images/rooms/DJI_0147.webp"
-import rooms5 from "../images/rooms/SRF_2044.webp"
-import rooms6 from "../images/rooms/SRF_2049.webp"
-import rooms7 from "../images/rooms/SRF_2069.webp"
-import rooms8 from "../images/rooms/SRF_2086.webp"
-import rooms9 from "../images/rooms/SRF_2119.webp"
-import rooms10 from "../images/rooms/SRF_3176.webp"
-import rooms11 from "../images/rooms/SRF_3204.webp"
-import rooms12 from "../images/rooms/SRF_3211.webp"
-import rooms13 from "../images/rooms/SRF_3239.webp"
-import rooms14 from "../images/rooms/SRF_3249.webp"
-import rooms15 from "../images/rooms/SRF_3254.webp"
-import rooms16 from "../images/rooms/SRF_3259.webp"
-import rooms17 from "../images/rooms/SRF_3265.webp"
-import rooms18 from "../images/rooms/SRF_3789.webp"
-import rooms19 from "../images/rooms/SRF_3792.webp"
-import rooms20 from "../images/rooms/SRF_3799.webp"
-import rooms21 from "../images/rooms/SRF_3801.webp"
-import rooms22 from "../images/rooms/SRF_3912.webp"
-import rooms23 from "../images/rooms/SRF_3979 1.webp"
-import rooms24 from "../images/rooms/SRF_4397.webp"
-import rooms25 from "../images/rooms/SRF_4405.webp"
-import rooms26 from "../images/rooms/SRF_4424.webp"
+import rooms1 from "../images/rooms/img-01.jpg"
+import rooms2 from "../images/rooms/img-02.jpg"
+import rooms3 from "../images/rooms/img-03.jpg"
+import rooms4 from "../images/rooms/img-04.jpg"
+import rooms5 from "../images/rooms/img-05.jpg"
+import rooms6 from "../images/rooms/img-06.jpg"
+import rooms7 from "../images/rooms/img-07.jpg"
+import rooms8 from "../images/rooms/img-08.jpg"
+import rooms9 from "../images/rooms/img-09.jpg"
+import rooms10 from "../images/rooms/img-10.jpg"
+import rooms11 from "../images/rooms/img-11.jpg"
+import rooms12 from "../images/rooms/img-12.jpg"
+import rooms13 from "../images/rooms/img-13.jpg"
+import rooms14 from "../images/rooms/img-14.jpg"
+import rooms15 from "../images/rooms/img-15.jpg"
+import rooms16 from "../images/rooms/img-16.jpg"
+import rooms17 from "../images/rooms/img-17.jpg"
+import rooms18 from "../images/rooms/img-18.jpg"
+import rooms19 from "../images/rooms/img-19.jpg"
+import rooms20 from "../images/rooms/img-20.jpg"
+import rooms21 from "../images/rooms/img-21.jpg"
+import rooms22 from "../images/rooms/img-22.jpg"
+import rooms23 from "../images/rooms/img-23.jpg"
+import rooms24 from "../images/rooms/img-24.jpg"
+import rooms25 from "../images/rooms/img-25.jpg"
 
 import entertainment1 from "../images/entertainment/SRF_2537.webp"
 import entertainment2 from "../images/entertainment/SRF_2542.webp"
@@ -170,26 +170,30 @@ import spa3 from "../images/spa/SRF_3128.webp"
 import spa4 from "../images/spa/SRF_3148.webp"
 import spa5 from "../images/spa/SRF_3163.webp"
 
-import villa1 from "../images/villa/SRF_2169.webp"
-import villa2 from "../images/villa/SRF_2192.webp"
-import villa3 from "../images/villa/SRF_2205.webp"
-import villa4 from "../images/villa/SRF_2216.webp"
-import villa5 from "../images/villa/SRF_2220.webp"
-import villa6 from "../images/villa/SRF_2231.webp"
-import villa7 from "../images/villa/SRF_2246.webp"
-import villa8 from "../images/villa/SRF_2251.webp"
-import villa9 from "../images/villa/SRF_2253.webp"
-import villa10 from "../images/villa/SRF_2266.webp"
-import villa11 from "../images/villa/SRF_2276.webp"
+import villa1 from "../images/villa/img-01.jpg"
+import villa2 from "../images/villa/img-02.jpg"
+import villa3 from "../images/villa/img-03.jpg"
+import villa4 from "../images/villa/img-04.jpg"
+import villa5 from "../images/villa/img-05.jpg"
+import villa6 from "../images/villa/img-06.jpg"
+import villa7 from "../images/villa/img-07.jpg"
+import villa8 from "../images/villa/img-08.jpg"
+import villa9 from "../images/villa/img-09.jpg"
+import villa10 from "../images/villa/img-10.jpg"
+import villa11 from "../images/villa/img-11.jpg"
+import villa12 from "../images/villa/img-12.jpg"
+import villa13 from "../images/villa/img-13.jpg"
 
 const GalleryScrollSection = () => {
+  const [modalIndex, setModalIndex] = useState(null);
   const t = useTranslations('Gallery');
+  
 
   // Kategorilere göre resimler
 const imageCategories = {
   [t("general")]: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img39, img40, img41, img42, img43, img44, img45],
-  [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25,rooms26],
-  [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11],
+  [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
+  [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20],
   [t("flavours")]: [flavours1, flavours2, flavours3, flavours4, flavours5,flavours6,flavours7,flavours8,flavours9,flavours10,flavours11,flavours12,flavours13,flavours14,flavours15,flavours16,flavours17,flavours18,flavours19,flavours20,flavours21,flavours22,flavours23,flavours24,flavours25,flavours26,flavours27,flavours28,flavours29],
   [t("spa")]: [spa1, spa2, spa3, spa4, spa5],
@@ -200,12 +204,48 @@ const imageCategories = {
 const categories = Object.keys(imageCategories)
   // Seçili kategori (başlangıçta "GENERAL VIEW")
   const [selectedCategory, setSelectedCategory] = useState(categories[0])
-  const [modalImage, setModalImage] = useState(null) // Seçilen resmi tutacak state
+  const [modalImage, setModalImage] = useState(null) 
+
+  const openModal = (img, index) => {
+    setModalImage(img);
+    setModalIndex(index);
+  };
+
+  const scrollPrev = () => {
+    const images = imageCategories[selectedCategory];
+    const newIndex = modalIndex === 0 ? images.length - 1 : modalIndex - 1;
+    setModalIndex(newIndex);
+    setModalImage(images[newIndex]);
+  };
+
+  // Sağ ok: index'i artır, wrap-around uygulayarak ilk elemana geçsin
+  const scrollNext = () => {
+    const images = imageCategories[selectedCategory];
+    const newIndex = modalIndex === images.length - 1 ? 0 : modalIndex + 1;
+    setModalIndex(newIndex);
+    setModalImage(images[newIndex]);
+  };
+
+  useEffect(() => {
+    if (!modalImage) return; // Modal kapalıysa listener ekleme
+    
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowLeft") {
+        scrollPrev();
+      } else if (e.key === "ArrowRight") {
+        scrollNext();
+      } else if (e.key === "Escape") {
+        setModalImage(null);
+      }
+    };
+  
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [modalImage, scrollPrev, scrollNext]);
 
   return (
     <div className="flex w-screen items-center justify-center mt-[50px] max-w-[1440px]">
       <div className="flex flex-col items-center justify-between w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[40px]">
-        
         {/* Butonlar */}
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:flex items-center justify-center xl:justify-between gap-[10px] w-full max-w-[1008px]">
           {Object.keys(imageCategories).map((category) => (
@@ -229,7 +269,7 @@ const categories = Object.keys(imageCategories)
                 <div
                   className="mb-[19.16px] transition-all duration-[350ms] ease-in-out cursor-pointer"
                   key={index}
-                  onClick={() => setModalImage(imgSrc)} // Resme tıklandığında modal açılır
+                  onClick={() => openModal(imgSrc,index)} // Resme tıklandığında modal açılır
                 >
                   <Image src={imgSrc} alt="gallery" className="lg:w-[322px] h-full" />
                 </div>
@@ -244,15 +284,30 @@ const categories = Object.keys(imageCategories)
             className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
             onClick={() => setModalImage(null)} // Modal dışına tıklandığında kapanır
           >
-            <div className="relative w-[80%] max-w-4xl" onClick={(e) => e.stopPropagation()}>
-              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain" />
+            <div className="relative w-[40%] " onClick={(e) => e.stopPropagation()}>
+              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain max-h-[750px]" />
               <button
-                className="absolute top-4 right-4 text-white text-2xl"
+                className="absolute left-0 top-1/2 -translate-y-1/2 p-2 bg-gray-700 bg-opacity-50 hover:bg-opacity-75 text-white"
+                onClick={scrollPrev}
+                aria-label="Previous"
+              >
+                <MdArrowBackIosNew size={32} />
+              </button>
+              {/* Sağ Ok */}
+              <button
+                className="absolute right-0 top-1/2 -translate-y-1/2 p-2 bg-gray-700 bg-opacity-50 hover:bg-opacity-75 text-white"
+                onClick={scrollNext}
+                aria-label="Next"
+              >
+                <MdArrowForwardIos size={32} />
+              </button>
+            </div>
+            <button
+                className="absolute top-6 right-4 text-white text-4xl"
                 onClick={() => setModalImage(null)}
               >
                 &times;
               </button>
-            </div>
           </div>
         )}
 

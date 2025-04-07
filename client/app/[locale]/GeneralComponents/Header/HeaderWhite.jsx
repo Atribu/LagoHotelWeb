@@ -354,7 +354,7 @@ export default function HeaderWhite() {
              flex justify-center
              items-center
               mt-[20px]
-              w-[253px]
+              min-w-[253px]
               h-[42px]
               bg-[#181818]
               text-white

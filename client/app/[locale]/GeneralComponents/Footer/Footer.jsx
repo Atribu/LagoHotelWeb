@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
             {/* QUICK MENU */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
-              <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase ">
+              <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase">
               <Link href="/rooms"> {t('category1')}</Link>
               </h4>
               <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
@@ -138,7 +138,7 @@ export default function Footer() {
           </div>
 
           {/* Alt linkler */}
-          <div className="flex flex-col xl:flex-row items-center gap-6 whitespace-nowrap text-lagoGray2">
+          <div className="flex flex-col xl:grid xl:grid-cols-3 items-center gap-6 whitespace-nowrap text-lagoGray2">
             <a href="#" className="hover:underline">
             {t('termsuse')}
             </a>
@@ -147,6 +147,9 @@ export default function Footer() {
             </a>
             <a href="/sustainability" className="hover:underline">
             {t('sustainability')}
+            </a>
+            <a href="/certificates" className="hover:underline">
+            Certificate
             </a>
           <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
 
@@ -300,7 +303,7 @@ export default function Footer() {
           <Link rel="norefferer nofollower"
                   target="_blank" href="https://www.instagram.com/lagohotels/"><FaInstagram className="w-[30px] h-[32px]" /></Link>
           <Link rel="norefferer nofollower"
-                  target="_blank" href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ" > <FaYoutube className="w-6 h-6" color='#fff'/></Link>
+                  target="_blank" href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ"> <FaYoutube className="w-6 h-6" color='#fff'/></Link>
           <Link rel="norefferer nofollower"
                   target="_blank" href="https://www.facebook.com/lagohotels"><FaFacebook className="w-[30px] h-[32px]" /></Link>
           <Link  rel="norefferer nofollower"
@@ -309,15 +312,18 @@ export default function Footer() {
 
           {/* Alt linkler */}
           <div className="flex items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
-            <a href="#" className="hover:underline">
+            <Link href="#" className="hover:underline">
             {t('termsuse')}
-            </a>
-            <a href="#" className="hover:underline">
+            </Link>
+            <Link href="#" className="hover:underline">
             {t('notice')}
-            </a>
-            <a href="/sustainability" className="hover:underline">
+            </Link>
+            <Link href="/sustainability" className="hover:underline">
             {t('sustainability')} 
-            </a>
+            </Link>
+            <Link href="/certificates" className="hover:underline">
+            Certificate
+            </Link>
             <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
           </div>
         </div>
