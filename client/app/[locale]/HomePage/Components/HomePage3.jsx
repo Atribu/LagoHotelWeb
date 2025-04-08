@@ -158,7 +158,7 @@ export default function HomePage3() {
                   className="
                     hidden
                     lg:flex
-                    w-1/3
+                    min-w-1/3
                     ml-6 lg:ml-16
                     border
                     border-white
@@ -172,7 +172,7 @@ export default function HomePage3() {
                     tracking-wider
                     hover:bg-black hover:text-white hover:underline hover:underline-offset-2
                     transition">
-                  {t("buttonText1")}
+                  {t("buttonText1")} 
                 </Link>
               </div>
             </div>
