@@ -170,7 +170,7 @@ const Connect2 = () => {
             type="submit"
             disabled={loading}
             className="
-              md:w-1/2
+              md:min-w-1/2
               mx-auto
               border
               border-[#472C10]

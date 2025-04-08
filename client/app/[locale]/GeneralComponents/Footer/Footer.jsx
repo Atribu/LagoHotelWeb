@@ -138,7 +138,7 @@ export default function Footer() {
           </div>
 
           {/* Alt linkler */}
-          <div className="flex flex-col xl:grid xl:grid-cols-3 items-center gap-6 whitespace-nowrap text-lagoGray2">
+          <div className="flex flex-col xl:grid xl:grid-cols-2 items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
             <a href="#" className="hover:underline">
             {t('termsuse')}
             </a>
@@ -316,7 +316,7 @@ export default function Footer() {
             {t('termsuse')}
             </Link>
             <Link href="#" className="hover:underline">
-            {t('notice')}
+            {t('notice')} 
             </Link>
             <Link href="/sustainability" className="hover:underline">
             {t('sustainability')} 
