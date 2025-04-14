@@ -13,11 +13,8 @@ import img2 from "./images/SRF_3204.jpg";
 import img3 from "./images/SRF_3211.jpg";
 import img4 from "./images/SRF_3219.jpg";
 import img5 from "./images/SRF_3230.jpg";
-import img6 from "./images/SRF_3239.jpg";
-import img7 from "./images/SRF_3249.jpg";
 import img8 from "./images/SRF_3254.jpg";
-import img9 from "./images/SRF_3259.jpg";
-import img10 from "./images/SRF_3265.jpg";
+
 import {useTranslations} from 'next-intl';
 
 const page = () => {
@@ -30,7 +27,7 @@ const page = () => {
   const iconTexts=[t2("list1"),t2("list2"),t2("list3")];
   const backgroundTexts=[t4("text1"),t4("text2"),t4("text3")]
 
-  const carouselImages = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10];
+  const carouselImages = [img1,img2,img3,img4,img5,img8];
 
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
