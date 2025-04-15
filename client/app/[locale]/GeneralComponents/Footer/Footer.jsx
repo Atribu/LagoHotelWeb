@@ -138,7 +138,7 @@ export default function Footer() {
           </div>
 
           {/* Alt linkler */}
-          <div className="flex flex-col xl:grid xl:grid-cols-2 items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
+          <div className="grid-cols-2 grid  items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
             <a href="#" className="hover:underline">
             {t('termsuse')}
             </a>
@@ -148,6 +148,9 @@ export default function Footer() {
             <a href="/sustainability" className="hover:underline">
             {t('sustainability')}
             </a>
+            <Link href="/ourpolicies" className="hover:underline">
+            {t('ourpolicies')} 
+            </Link>
             <a href="/certificates" className="hover:underline">
             Certificate
             </a>
@@ -311,7 +314,7 @@ export default function Footer() {
           </div>
 
           {/* Alt linkler */}
-          <div className="flex items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
+          <div className="grid grid-cols-3 items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
             <Link href="#" className="hover:underline">
             {t('termsuse')}
             </Link>
@@ -320,6 +323,9 @@ export default function Footer() {
             </Link>
             <Link href="/sustainability" className="hover:underline">
             {t('sustainability')} 
+            </Link>
+            <Link href="/ourpolicies" className="hover:underline">
+            {t('ourpolicies')} 
             </Link>
             <Link href="/certificates" className="hover:underline">
             Certificate

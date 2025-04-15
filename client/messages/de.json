@@ -134,7 +134,7 @@
     "policy": "Datenschutzerklärung",
     "bookings": "Buchungen & Stornierungen",
     "terms": "Webseitenbedingungen",
-    
+    "ourpolicies":"Unsere Richtlinien",
     "aboutcompany": "Über das Unternehmen",
     "phone": "Telefon: +90 242 756 99 00",
     "email": "E-Mail: info@lagohotels.com",
@@ -367,14 +367,14 @@
       }
   },
   "JoieBar": {
-    "subtitle": "Frische Getränke und Musik",
+    "subtitle": "FRISCHE GETRÄNKE UND MUSIK",
     "title": "Joie Bar",
-    "text": "In der Joie Bar können Sie sich bei entspannter Musik köstliche Getränke, erfrischende Cocktails und leckere Snacks in einer warmen und einladenden Atmosphäre gönnen.",
+    "text": "Genießen Sie erfrischende Getränke, Spezialcocktails und leckere Snacks in der Joie Bar, begleitet von entspannender Musik in einer gemütlichen und einladenden Atmosphäre.",
     "ClinaryInfoSection": {
-      "subtitle": "Entspannen und Auftanken in der Joie Bar",
-      "title": "Erfrischende Getränke am Pool",
-      "text1": "In der Joie Bar genießen Sie am Pool erfrischende Getränke, kunstvoll zubereitete Cocktails und leckere Snacks – der ideale Ort für entspannte und genussvolle Momente.",
-      "text2": "Unsere Servicezeiten variieren: vom 28.03. bis 30.04. sowie vom 01.10. bis 07.11. sind wir von 10:00 bis 18:00 Uhr für Sie da, in den übrigen Monaten von 10:00 bis 23:00 Uhr."
+      "subtitle": "Relax & Refresh at Joie Bar",
+      "title": "Frische Getränke am Pool",
+      "text1": "Genießen Sie erfrischende Getränke, kunstvoll gemixte Cocktails und köstliche Snacks an der Poolbar in der Joie Bar. Erleben Sie entspannte und fröhliche Momente in der einladenden Atmosphäre unserer Poolbar während Ihres gesamten Aufenthalts.",
+      "text2": "In der Zeit vom 28. März bis zum 30. April und vom 1. Oktober bis zum 7. November bieten wir unseren Service von 10:00 bis 18:00 Uhr an, während in den übrigen Monaten unsere Servicezeiten von 10:00 bis 23:00 Uhr gelten."
     },
     "RoomTour": {
       "subtitle": "Erkunden Sie LAGO virtuell",
@@ -382,9 +382,9 @@
       "text": "Machen Sie eine 360-Grad-Tour und entdecken Sie das einzigartige Ambiente unserer Restaurants, Bars und Highlights – planen Sie Ihren Traumurlaub im Voraus."
     },
     "CuisinesCarousel": {
-      "subtitle": "Entspannen und Auftanken in LAGO",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
       "title": "Bars und Cafés",
-      "text": "In der Joie Bar genießen Sie zu jeder Tageszeit besondere Cocktails, erlesene Getränke und leichte Snacks – der perfekte Ort für eine entspannte Kaffeepause, ruhige Momente am Pool oder farbenfrohe Abende.",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 18:00",
       "cuisines1title": "Mignon Bar",
       "cuisines1text": "In der Mignon Bar erwarten Sie den ganzen Tag über leckere Getränke, frisch zubereitete Cocktails und leichte Snacks in einer entspannenden Atmosphäre am Pool.",
@@ -407,14 +407,14 @@
     }
   },
   "MaldivaBar": {
-    "subtitle": "Erfrischende Getränke und Musik",
+    "subtitle": "FRISCHE GETRÄNKE UND MUSIK",
     "title": "Maldiva Bar",
-    "text": "In der Maldiva Bar genießen Sie in entspannter Atmosphäre erfrischende Getränke, tropische Cocktails und leichte Snacks – der perfekte Ort, um am Pool den Tag ausklingen zu lassen.",
+    "text": "Entspannen Sie an der Maldiva Bar mit erfrischenden Getränken, tropischen Cocktails und leckeren Snacks in einer ruhigen Umgebung. Erholen Sie sich am Pool, begleitet von angenehmer Musik den ganzen Tag über.",
     "ClinaryInfoSection": {
-      "subtitle": "Perfekte Fine Dining Erlebnisse",
-      "title": "Erfrischende Getränke am Pool",
-      "text1": "In der Maldiva Bar erwarten Sie am Pool erfrischende Getränke, tropische Cocktails und delikate Snacks, die Ihnen einen entspannten und unvergesslichen Aufenthalt garantieren.",
-      "text2": "Unsere Servicezeiten: Vom 28.03. bis 30.04. und vom 01.10. bis 07.11. sind wir von 10:00 bis 18:00 Uhr für Sie da, in den übrigen Monaten von 10:00 bis 23:00 Uhr."
+      "subtitle": "Frische Getränke am Pool",
+      "title": "Frische Getränke am Pool",
+      "text1": "Entspannen und erfrischen Sie sich in der Maldiva Bar, die sich bequem am Pool befindet. Genießen Sie den ganzen Tag über köstliche Getränke, tropische Cocktails und leckere Snacks in einer ruhigen und einladenden Atmosphäre.",
+      "text2": "In der Zeit vom 28. März bis zum 30. April und vom 1. Oktober bis zum 7. November bieten wir unseren Service von 10:00 bis 18:00 Uhr an, während in den übrigen Monaten unsere Servicezeiten von 10:00 bis 23:00 Uhr gelten."
     },
     "RoomTour": {
       "subtitle": "Erkunden Sie LAGO virtuell",
@@ -422,9 +422,9 @@
       "text": "Entdecken Sie das einzigartige Ambiente des Lago Hotels mit einer 360-Grad-Tour durch unsere Restaurants, Bars und Highlights – planen Sie Ihren Traumurlaub im Voraus."
     },
     "CuisinesCarousel": {
-      "subtitle": "Entspannen und Auftanken in LAGO",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
       "title": "Bars und Cafés",
-      "text": "In der Maldiva Bar genießen Sie zu jeder Tageszeit spezielle Cocktails, erlesene Getränke und leichte Snacks – der perfekte Ort für eine entspannte Kaffeepause oder ruhige Momente am Pool.",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 18:00",
       "cuisines1title": "Mignon Bar",
       "cuisines1text": "Die Mignon Bar bietet Ihnen den ganzen Tag über leckere Getränke, frisch zubereitete Cocktails und leichte Snacks in entspannter Atmosphäre am Pool.",
@@ -448,14 +448,14 @@
   },
 
   "MignonBar": {
-    "subtitle": " Frische Getränke und Musik",
+    "subtitle": " FRISCHE GETRÄNKE UND MUSIK",
     "title": "Mignon Bar",
-    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "text": " Genießen Sie in der Mignon Bar eine Vielfalt an erfrischenden Getränken, Spezialcocktails und leckeren Snacks in einer entspannten Atmosphäre, begleitet von angenehmer Musik.",
     "ClinaryInfoSection": {
-      "subtitle": "  Perfekte Gourmet-Erlebnisse",
+      "subtitle": "  FRISCHE GETRÄNKE AM POOL",
       "title": " Frische Getränke am Pool",
-      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
-      "text2": ""
+      "text1": "   Entspannen und erfrischen Sie sich an der Mignon Bar, die eine Vielzahl an erfrischenden Getränken, Spezialcocktails und leckeren Snacks direkt am Pool serviert. Genießen Sie den perfekten Mix aus Erholung und Erfrischung den ganzen Tag über.",
+      "text2": "Unsere Dienstleistungen stehen Ihnen jährlich vom 1. Juni bis zum 30. September zur Verfügung."
     },
     "RoomTour": {
       "subtitle": "Perfekte Gourmet-Erlebnisse",
@@ -463,9 +463,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
     },
     "CuisinesCarousel": {
-      "subtitle": "Perfekte Gourmet-Erlebnisse",
-      "title": "LAGO’s Weltküchen",
-      "text": "In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 18:00",
       "cuisines1title": "Mignon Bar",
       "cuisines1text": "Erleben wir gemeinsam die Freude daran, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO hat die Ehre, Ihre Träume mit dem einzigartigen Geschmack des Mittelmeers zu verbinden.",
@@ -489,14 +489,14 @@
   },
 
   "PianoBar": {
-    "subtitle": " Frische Getränke und Musik",
+    "subtitle": " FRISCHE GETRÄNKE UND MUSIK",
     "title": "Piano Bar",
-    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "text": "  Entspannen Sie und genießen Sie frisch zubereitete Cocktails, Premium-Getränke und köstliche Snacks in der Piano Bar, begleitet von sanfter Live-Klaviermusik. Hier finden Sie den idealen Rahmen für entspannte Abende und unvergessliche Momente.",
     "ClinaryInfoSection": {
-      "subtitle": "  Perfekte Gourmet-Erlebnisse",
-      "title": " Frische Getränke am Pool",
-      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
-      "text2": ""
+      "subtitle": "Entspannte Abende & Premium-Getränke",
+      "title": "Frische Getränke am Pool",
+      "text1": "Gönnen Sie sich frisch zubereitete Cocktails, Premium-Getränke und köstliche Snacks in der Piano Bar, während Sie den beruhigenden Klängen der Live-Klaviermusik lauschen. Das elegante und entspannende Ambiente bietet den perfekten Rahmen für unvergessliche Abende.",
+      "text2": "Unser Service steht Ihnen vom 28. März bis zum 7. November zur Verfügung. In der Zeit vom 28. März bis zum 30. April sowie vom 1. Oktober bis zum 7. November bieten wir einen 24-Stunden-Service an, während wir in den übrigen Monaten von 10:00 Uhr bis Mitternacht für Sie da sind."
     },
     "RoomTour": {
       "subtitle": "Perfekte Gourmet-Erlebnisse",
@@ -504,9 +504,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
     },
     "CuisinesCarousel": {
-      "subtitle": "Perfekte Gourmet-Erlebnisse",
-      "title": "LAGO’s Weltküchen",
-      "text": "In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 18:00",
       "cuisines1title": "Mignon Bar",
       "cuisines1text": "Erleben wir gemeinsam die Freude daran, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO hat die Ehre, Ihre Träume mit dem einzigartigen Geschmack des Mittelmeers zu verbinden.",
@@ -530,14 +530,14 @@
   },
 
   "VagoBar": {
-    "subtitle": " Frische Getränke und Musik",
+    "subtitle": " FRISCHE GETRÄNKE UND MUSIK",
     "title": "Vago Bar",
-    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "text": "  Die Vago Bar lädt Sie ein, zu jeder Tageszeit erfrischende Getränke, Spezialcocktails und leckere Snacks zu genießen. Entspannen Sie bei großartiger Musik und lehnen Sie sich in der einladenden Atmosphäre der Vago Bar zurück.",
     "ClinaryInfoSection": {
-      "subtitle": "  Perfekte Gourmet-Erlebnisse",
-      "title": " Frische Getränke am Pool",
-      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
-      "text2": ""
+      "subtitle": "Erfrischen & Entspannen in der Vago Bar",
+      "title": "Frische Getränke, zu jeder Zeit",
+      "text1": "Die Vago Bar lädt Sie ein, zu jeder gewünschten Zeit erfrischende Getränke, kunstvoll gemixte Cocktails und köstliche Snacks zu genießen. Entspannen Sie in unserer einladenden Atmosphäre, die sowohl für lebhafte Abende als auch für ruhige Momente während Ihres Aufenthalts perfekt geeignet ist.",
+      "text2": "In der Zeit vom 28. März bis zum 30. April und vom 1. Oktober bis zum 7. November sind wir von 10:00 bis 18:00 Uhr für Sie da. In den restlichen Monaten haben wir rund um die Uhr geöffnet."
     },
     "RoomTour": {
       "subtitle": "Perfekte Gourmet-Erlebnisse",
@@ -545,9 +545,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
     },
     "CuisinesCarousel": {
-      "subtitle": "Perfekte Gourmet-Erlebnisse",
-      "title": "LAGO’s Weltküchen",
-      "text": "In unseren À-la-carte-Restaurants warten die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche, auf Sie. Während Ihres Urlaubs laden wir Sie herzlich zu einem wunderbaren Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants ein!",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 18:00",
       "cuisines1title": "Mignon Bar",
       "cuisines1text": "Erleben wir gemeinsam die Freude daran, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO hat die Ehre, Ihre Träume mit dem einzigartigen Geschmack des Mittelmeers zu verbinden.",
@@ -586,9 +586,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erleben? Mit unserer 360‑Grad‑Tour entdecken Sie jedes Detail unserer exquisiten Restaurants, Bars und Veranstaltungsorte."
     },
     "CuisinesCarousel": {
-      "subtitle": "Erholsame Momente erwarten Sie",
-      "title": "LAGO’s Lobby Bars und Cafés",
-      "text": "Genießen Sie in unseren Lobby Bars und Cafés entspannte Momente mit erlesenen Getränken, Spezialitätenkaffees und leckeren Snacks in einem eleganten Ambiente.",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 00:00 / 7/24",
       "cuisines1title": "Piano Bar",
       "cuisines1text": "Entspannen Sie in der Piano Bar, wo kunstvoll kreierte Cocktails, Premium-Getränke und köstliche Snacks durch Live-Pianomusik abgerundet werden.",
@@ -612,13 +612,13 @@
   },
 
  "Cafedehouse": {
-    "subtitle": "Süße Momente erwarten Sie",
+    "subtitle": "SÜSSE MOMENTE ERWARTEN SIE",
     "title": "Cafe de House",
-    "text": "Entspannen Sie sich im Cafe de House bei köstlichem Kaffee, frischen Getränken, leckeren Desserts und schmackhaften Snacks. Genießen Sie das behagliche Ambiente, ideal für erholsame Pausen und ruhige Momente während des Tages.",
+    "text": "Entspannen Sie im Cafe de House bei köstlichem Kaffee, erfrischenden Getränken, leckeren Desserts und schmackhaften Snacks. Genießen Sie das gemütliche Ambiente, das sich perfekt für erfrischende Pausen und ruhige Momente über den Tag hinweg eignet.",
     "ClinaryInfoSection": {
       "subtitle": "Süße Momente & Gemütliche Atmosphäre",
       "title": "Cafe de House",
-      "text1": "Cafe de House lädt Sie ein, köstlichen Kaffee, erfrischende Getränke, verführerische Desserts und frisch zubereitete Snacks zu genießen. Unser warmes, einladendes Ambiente ist der perfekte Ort für entspannte Pausen und angenehme Momente.",
+      "text1": "Das Cafe de House lädt Sie ein, köstlichen Kaffee, erfrischende Getränke, verführerische Desserts und frisch zubereitete Snacks zu genießen. Unsere warme und einladende Atmosphäre bietet den perfekten Rahmen für entspannende Pausen und angenehme Momente über den ganzen Tag hinweg.",
       "text2": "Geöffnet von 28. März bis 7. November, mit einer Kapazität von 200 Personen."
     },
     "RoomTour": {
@@ -627,9 +627,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erleben? Mit unserer 360‑Grad‑Tour entdecken Sie jedes Detail unserer exquisiten Restaurants, Bars und besonderen Veranstaltungsorte. Stellen Sie sich Ihren Traumurlaub vor, bevor Sie anreisen."
     },
     "CuisinesCarousel": {
-      "subtitle": "Erholsame Momente erwarten Sie",
-      "title": "LAGO’s Lobby Bars und Cafés",
-      "text": "Entspannen Sie in den Lobby Bars und Cafés von LAGO, wo köstliche Getränke, besondere Kaffees und leckere Snacks in einem eleganten und entspannten Ambiente serviert werden – ideal für Treffen mit Freunden oder ruhige Pausen.",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 00:00 / 7/24",
       "cuisines1title": "Piano Bar",
       "cuisines1text": "Genießen Sie in der Piano Bar kunstvoll kreierte Cocktails, Premium-Getränke und schmackhafte Snacks, begleitet von Live-Pianomusik – der perfekte Ort, um nach einem erlebnisreichen Tag abzuschalten.",
@@ -653,14 +653,14 @@
   },
 
   "Cafedelago": {
-    "subtitle": " Frische Getränke und Musik",
+    "subtitle": " SÜSSE MOMENTE ERWARTEN SIE",
     "title": "Cafe de Lago",
-    "text": "  Genießen Sie eine Vielzahl an Speiseoptionen aus aller Welt",
+    "text": "  Entspannen Sie sich und genießen Sie köstlichen Kaffee, frische Getränke, verführerische Desserts und leckere Snacks im Cafe de Lago. Gönnen Sie sich eine Auszeit in unserer gemütlichen Atmosphäre und erleben Sie entspannte Momente im Laufe des Tages.",
     "ClinaryInfoSection": {
-      "subtitle": "  Perfekte Gourmet-Erlebnisse",
-      "title": " Frische Getränke am Pool",
-      "text1": "   Die italienische Küche wurde von unseren Experten für Sie als kulinarisches Fest kreiert. In unserem Hauptrestaurant ist unser italienisches À-la-carte-Restaurant bereit, Ihnen die unverwechselbaren Aromen der italienischen Küche zu servieren. Genießen Sie die authentischen Geschmäcker und Aromen sorgfältig ausgewählter Gerichte, die jeweils darauf ausgelegt sind, ein außergewöhnliches kulinarisches Erlebnis zu bieten. Lassen Sie sich während Ihres Aufenthalts von Gourmet-Genüssen und unvergesslichen Momenten verwöhnen.",
-      "text2": ""
+      "subtitle": "Entspannende Momente & Köstliche Genüsse",
+      "title": "Cafe de Lago",
+      "text1": "Gönnen Sie sich eine entspannende Auszeit im Cafe de Lago, wo Sie köstlichen Kaffee, erfrischende Getränke, verführerische Desserts und leckere Snacks genießen können. Die gemütliche und einladende Atmosphäre macht diesen Ort zum perfekten Rückzugsort, um neue Energie zu tanken und angenehme Momente während des Tages zu erleben.",
+      "text2": "Es ist vom 15. Mai bis zum 30. September geöffnet und bietet Platz für 143 Personen."
     },
     "RoomTour": {
       "subtitle": "Perfekte Gourmet-Erlebnisse",
@@ -668,9 +668,9 @@
       "text": "Sind Sie bereit, die einzigartige Atmosphäre von LAGO zu erkunden? Erleben Sie unsere Restaurants, Bars und besondere Bereiche mit einer 360-Grad-Virtual-Tour, die es Ihnen ermöglicht, jedes Detail Ihres Urlaubs vor Ihrem Besuch visuell zu entdecken."
     },
     "CuisinesCarousel": {
-      "subtitle": " Perfekte Gourmet-Erlebnisse",
-      "title": " LAGO’s Exklusive Pool-Bars",
-      "text": " In unseren À-la-carte-Restaurants erwarten Sie die exquisiten Aromen der internationalen Küche, kreiert von den meisterhaften Händen unserer preisgekrönten Köche. Während Ihres Urlaubs freuen wir uns, Sie zu einem wunderbaren kulinarischen Abenteuer in unseren unverwechselbaren À-la-carte-Restaurants einzuladen!",
+      "subtitle": "Entspannen & Erfrischen im LAGO",
+      "title": "Bars und Cafés",
+      "text": "Unsere Bars und Cafés laden Sie den ganzen Tag über ein, bei kunstvoll gemixten Cocktails, köstlichen Getränken und leckeren Snacks abzuschalten. Ob Sie eine ruhige Kaffeepause genießen, am Pool entspannen oder lebhafte Abende mit Live-Unterhaltung verbringen – jeder Moment in den Bars und Cafés des LAGO verspricht Entspannung und Genuss.",
       "cuisines1subtitle": "Öffnungszeiten: 10:00 - 19:00",
       "cuisines1title": "Piano Bar",
       "cuisines1text": "Erleben wir gemeinsam die Freude, die unverwechselbaren Aromen und kulinarischen Traditionen der türkischen Küche auf dem Teller zu bewahren. LAGO ist geehrt, Ihre Träume mit den einzigartigen Geschmäckern des Mittelmeers zu verbinden.",

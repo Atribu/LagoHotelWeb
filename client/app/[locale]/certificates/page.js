@@ -7,7 +7,7 @@ import Certificate from './components/Certificate'
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[50px] md:gap-[75px] lg:gap-[100px] overflow-hiddenz'>
+    <div className='flex flex-col items-center justify-center gap-[50px] md:gap-[75px] lg:gap-[100px] overflow-hidden'>
       <MainBanner2 img={imgBanner} span="" header="Certificate" opacity={true}/>
       <CertificateSection1/>
       <Certificate/>
