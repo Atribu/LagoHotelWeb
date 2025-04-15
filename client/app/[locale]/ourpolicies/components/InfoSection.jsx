@@ -31,7 +31,7 @@ const InfoSection = ({
           <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
             {span}
           </span>
-          <h3 className="flex text-[28px] lg:text-[32px] font-normal leading-[120%] lg:leading-[57.6px] font-marcellus capitalize lg:capsizedtext2 w-full justify-between border-b">
+          <h3 className="flex text-[24px] lg:text-[28px] font-normal leading-[120%] lg:leading-[57.6px] font-marcellus capitalize lg:capsizedtext2 w-full justify-between border-b">
             {header} <DownArrow
                   className="flex items-center justify-center"
                   width={20}
