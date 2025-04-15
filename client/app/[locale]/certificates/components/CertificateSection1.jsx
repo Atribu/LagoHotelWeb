@@ -24,7 +24,7 @@ const CertificateSection1 = () => {
           </h2>
           
           <p className="text-[14px] md:text-[13.943px] lg:text-[16.03px] font-normal leading-[130%] lg:leading-[24.045px] leading-trim-both text-edge-cap capsizedText4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias nesciunt facere eos, omnis laboriosam mollitia rem eligendi modi, incidunt unde iste autem repellendus, dolorem quae. Perferendis, dolorum obcaecati.ü
+        
           </p>
             </div>
         </div>

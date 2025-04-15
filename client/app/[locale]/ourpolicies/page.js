@@ -15,8 +15,10 @@ import InfoSection from "./components/InfoSection";
 import PolicySection from "./components/PolicySection";
 import SustainabilityPolicyText from "./components/SustainabilityPolicyText";
 import EgitimSection from "./components/EgitimSection";
+import {useTranslations} from 'next-intl';
 
 const page = () => {
+  const t = useTranslations('Footer');
   const [activeTab, setActiveTab] = useState("politikalar");
 
   return (
@@ -24,9 +26,9 @@ const page = () => {
       <Banner
         img={mainImg}
         span="Harmony with Nature"
-        header="Politikalarımız"
+        header={t('ourpolicies')}
       />
-      <div className="flex w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[20px] md:gap-[30px] lg:gap-[50px] mb-8">
+      <div className="flex w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[20px] md:gap-[30px] lg:gap-[50px] mb-8 font-jost">
         <button onClick={() => setActiveTab("politikalar")} className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer ${
             activeTab === "politikalar" ? "border-b border-[#676766]" : ""
           }`}>
