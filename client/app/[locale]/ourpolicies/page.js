@@ -1,5 +1,4 @@
 import React from 'react'
-import MainSection from './components/MainSection'
 import mainImg from "../HomePage/Components/Images/GreenAndBlueFull2.webp"
 import Banner from './components/Banner'
 import cevreImg from "./images/cevre.png"
@@ -18,7 +17,7 @@ import SustainabilityPolicyText from './components/SustainabilityPolicyText'
 const page = () => {
   return (
     <div className='flex flex-col gap-[50px] md:gap-[75px] lg:gap-[100px] overflow-hidden bg-[#f5f5f5] items-center justify-center mb-16'>
-      <Banner img={mainImg} span="Harmony with Nature " header="Sustainability"/>
+      <Banner img={mainImg} span="Harmony with Nature" header="Politikalarımız"/>
       <SustainabilityPolicyText/>
       <PolicySection/>
       <InfoSection isImageLeft={false} showLink={false} span="" header=" ÇEVRE POLİTİKAMIZ" text="Tesisimiz, kurulduğu günden bu yana çevreye duyarlı bir tesis olmuştur. Bu duyarlılığı devam ettirebilmek için yürürlükte bulunan çevre yasal yükümlülükler mevzuat ve idari düzenlemelere uymayı taahhüt ederiz.

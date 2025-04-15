@@ -5,14 +5,15 @@ import Image from 'next/image'
 const CertificateSection1 = () => {
   return (
     <div className='flex w-screen items-center justify-center'>
-        <div className='flex flex-col-reverse lg:flex-row w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[15px] md:gap-[25px] lg:gap-[50px]'>
+        <div className='flex flex-col-reverse lg:flex-row w-[80%] sm:w-[60.4%] md:w-[55%] lg:w-[76.8%] items-center justify-center gap-[15px] md:gap-[25px] lg:gap-[50px] '>
             <Image
             src={img}
             alt='certificate'
             width={img.width}
             height={img.height}
-            className='w-[100%] lg:w-auto max-h-[664px] object-cover shadow-lg transition-shadow duration-300 ease-in-out hover:shadow-xl'
+            className='w-[100%] lg:w-auto max-h-[694px] object-cover shadow-lg transition-shadow duration-300 ease-in-out hover:shadow-xl'
             />
+          
 
             <div className='flex flex-col items-start justify-start w-[100%] lg:w-[35%] lg:max-w-[450px] gap-[10px] lg:gap-[25px] text-lagoBlack font-jost text-start'>
             <span className="text-[12px] font-medium leading-[14.026px] tracking-[0.481px] uppercase">
