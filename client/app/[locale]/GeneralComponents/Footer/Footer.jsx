@@ -26,11 +26,57 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col bg-[#1A1A16] text-gray-200 text-sm justify-center items-center z-10">
       <div className="hidden lg:flex w-[91.1%] max-w-[1440px] items-start justify-center text-start gap-[4%] mt-[60px]">
+      <div className="w-[30%] flex flex-col items-start border-l border-gray-400 pl-16 gap-[40px]">
+          {/* Logo */}
+          <div className="mb-10">
+            <Image
+              src={Logo}
+              alt="Lago Logo"
+              width={69}
+              height={51}
+              className="object-contain"
+            />
+          </div>
+
+          {/* Sosyal ikonlar */}
+          <div className="grid grid-cols-2 lg:flex items-center gap-[32px]">
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.instagram.com/lagohotels/"><FaInstagram className="w-[30px] h-[32px]" color="#fff"/></Link>
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ" > <FaYoutube className="w-[30px] h-[32px]" color='#fff'/></Link>
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.facebook.com/lagohotels"><FaFacebook className="w-[30px] h-[32px]" color="#fff" /></Link>
+            <Link rel="norefferer nofollower"
+                  target="_blank" href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html" ><FaTripadvisor className="w-[30px] h-[32px]" color="##ffffff"/></Link>
+          </div>
+
+          {/* Alt linkler */}
+          <div className="grid-cols-2 grid  items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
+            <a href="#" className="hover:underline">
+            {t('termsuse')}
+            </a>
+            <a href="#" className="hover:underline">
+            {t('notice')}
+            </a>
+            <a href="/sustainability" className="hover:underline">
+            {t('sustainability')}
+            </a>
+            <Link href="/ourpolicies" className="hover:underline">
+            {t('ourpolicies')} 
+            </Link>
+            <a href="/certificates" className="hover:underline">
+            Certificate
+            </a>
+          <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
+
+          </div>
+        </div>
+
         <div className="flex w-[66%] items-start text-start">
           {/* SOL: 4 SÜTUN (QUICK MENU, TERMS, COMPANY, CONTACT) */}
-          <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-8">
             {/* QUICK MENU */}
-            <div className="flex flex-col items-start justify-start text-start gap-[40px]">
+            {/* <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase">
               <Link href="/rooms"> {t('category1')}</Link>
               </h4>
@@ -42,7 +88,7 @@ export default function Footer() {
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('tinyvilla')}</Link></li>
              
               </ul>
-            </div>
+            </div> */}
 
             {/* TERM & CONDITIONS */}
             <div className="flex flex-col items-start justify-start text-start gap-[40px]">
@@ -113,51 +159,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-[30%] flex flex-col items-start border-l border-gray-400 pl-16 gap-[40px]">
-          {/* Logo */}
-          <div className="mb-10">
-            <Image
-              src={Logo}
-              alt="Lago Logo"
-              width={69}
-              height={51}
-              className="object-contain"
-            />
-          </div>
-
-          {/* Sosyal ikonlar */}
-          <div className="grid grid-cols-2 lg:flex items-center gap-[32px]">
-            <Link rel="norefferer nofollower"
-                  target="_blank" href="https://www.instagram.com/lagohotels/"><FaInstagram className="w-[30px] h-[32px]" color="#fff"/></Link>
-            <Link rel="norefferer nofollower"
-                  target="_blank" href="https://www.youtube.com/channel/UCjbL19l36uYQEdy2EEw1nLQ" > <FaYoutube className="w-[30px] h-[32px]" color='#fff'/></Link>
-            <Link rel="norefferer nofollower"
-                  target="_blank" href="https://www.facebook.com/lagohotels"><FaFacebook className="w-[30px] h-[32px]" color="#fff" /></Link>
-            <Link rel="norefferer nofollower"
-                  target="_blank" href="https://www.tripadvisor.com.tr/Hotel_Review-g1192102-d545626-Reviews-Lago_Hotel-Sorgun_Manavgat_Turkish_Mediterranean_Coast.html" ><FaTripadvisor className="w-[30px] h-[32px]" color="##ffffff"/></Link>
-          </div>
-
-          {/* Alt linkler */}
-          <div className="grid-cols-2 grid  items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
-            <a href="#" className="hover:underline">
-            {t('termsuse')}
-            </a>
-            <a href="#" className="hover:underline">
-            {t('notice')}
-            </a>
-            <a href="/sustainability" className="hover:underline">
-            {t('sustainability')}
-            </a>
-            <Link href="/ourpolicies" className="hover:underline">
-            {t('ourpolicies')} 
-            </Link>
-            <a href="/certificates" className="hover:underline">
-            Certificate
-            </a>
-          <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
-
-          </div>
-        </div>
+      
       </div>
 
       {/* tablet */}

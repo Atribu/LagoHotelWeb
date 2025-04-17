@@ -4,8 +4,6 @@ import {useTranslations} from 'next-intl';
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 import Image from "next/image"
-import img1 from "../images/genel/img-01.jpg"
-import img2 from "../images/genel/img-02.jpg"
 import img3 from "../images/genel/img-03.jpg"
 import img4 from "../images/genel/img-04.jpg"
 import img5 from "../images/genel/img-05.jpg"
@@ -34,17 +32,13 @@ import img27 from "../images/genel/img-27.jpg"
 import img28 from "../images/genel/img-28.jpg"
 import img29 from "../images/genel/img-29.jpg"
 import img30 from "../images/genel/img-30.jpg"
-import img31 from "../images/genel/img-31.jpg"
 import img32 from "../images/genel/img-32.jpg"
 import img33 from "../images/genel/img-33.jpg"
 import img34 from "../images/genel/img-34.jpg"
 import img35 from "../images/genel/img-35.jpg"
 import img36 from "../images/genel/img-36.jpg"
-import img37 from "../images/genel/img-37.jpg"
 import img38 from "../images/genel/img-38.jpg"
 import img39 from "../images/genel/img-39.jpg"
-import img40 from "../images/genel/img-40.jpg"
-import img41 from "../images/genel/img-41.jpg"
 import img42 from "../images/genel/img-42.jpg"
 import img43 from "../images/genel/img-43.jpg"
 import img44 from "../images/genel/img-44.jpg"
@@ -113,7 +107,7 @@ import flavours17 from "../images/flavours/img-17.jpg"
 import flavours18 from "../images/flavours/img-18.jpg"
 import flavours19 from "../images/flavours/img-19.jpg"
 import flavours20 from "../images/flavours/img-20.jpg"
-import flavours21 from "../images/flavour/img-21.jpg"
+import flavours21 from "../images/flavours/img-21.jpg"
 import flavours22 from "../images/flavours/img-22.jpg"
 import flavours23 from "../images/flavours/img-23.jpg"
 import flavours24 from "../images/flavours/img-24.jpg"
@@ -216,7 +210,7 @@ const GalleryScrollSection = () => {
 
   // Kategorilere göre resimler
 const imageCategories = {
-  [t("general")]: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img39, img40, img41, img42, img43, img44, img45],
+  [t("general")]: [ img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img32, img33, img34, img35, img36, img38, img39, img42, img43, img44, img45],
   [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
   [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20,pool21,pool22,pool23,pool24,pool25,pool26,pool27,pool28,pool29],
