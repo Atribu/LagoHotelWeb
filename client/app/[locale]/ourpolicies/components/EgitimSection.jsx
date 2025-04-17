@@ -1,32 +1,42 @@
-import Link from 'next/link'
+"use client"
 import React from 'react'
 
+const trainings = [
+  { href: "/documents/YanginEgitimi.pptx", label: "Yangın Eğitimi" },
+  { href: "/documents/TEHLiKELiMADDEEGiTiMi.pptx", label: "Tehlikeli Madde Eğitimi" },
+  { href: "/documents/KimyasalEgitimi.pptx", label: "Kimyasal Eğitimi" },
+  { href: "/documents/GdaGuvenligiEgitimi.pptx", label: "Gıda Güvenliği Eğitimi" },
+  { href: "/documents/EngelliBireylerileiletisimEgitimi.pptx", label: "Engelli Bireyler İle İletişim Eğitimi" },
+  { href: "/documents/cocukistismariegitimi.pptx", label: "Çocuk İstismarı Eğitimi" },
+  { href: "/documents/Alkol-MaddeEgitimi.pptx", label: "Alkol Madde Eğitimi" },
+];
+
 const EgitimSection = () => {
+  const handleDownload = (e, href, label) => {
+    e.preventDefault();
+    if (window.confirm(`“${label}” dosyasını indirmek istediğinize emin misiniz?`)) {
+      window.open(href, "_blank");
+    }
+  };
+
   return (
-    <div className='flex flex-col h-[40vh] gap-10 items-center justify-start'>
-      <h4 className='text-[28px] lg:text-[40px]'>Eğitimlerimiz</h4>
-      <div className='grid grid-cols-3 lg:grid-cols-5'>
-      <Link href="/documents/YanginEgitimi.pptx"  className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-          Yangın Eğitimi
-        </Link>
-        <Link href="/documents/TEHLiKELiMADDEEGiTiMi.pptx"  className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-        Tehlikeli Madde Eğitimi
-        </Link>
-        <Link href="/documents/KimyasalEgitimi.pptx" className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-         Kimyasal Eğitimi
-        </Link>
-        <Link  href="/documents/GdaGuvenligiEgitimi.pptx" className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-         Gıda Güvenliği Eğitimi
-        </Link>
-        <Link  href="/documents/EngelliBireylerileiletisimEgitimi.pptx" className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-         Engelli Bireyler İle İletişim Eğitimi
-        </Link>
-        <Link  href="/documents/CocukistismariEgitimi.pptx" className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-        Çocuk İstismarı Eğitimi
-        </Link>
-        <Link href="/documents/Alkol-MaddeEgitimi.pptx" className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b`}>
-         Alkol Madde Eğitimi
-        </Link>
+    <div className='flex flex-col h-[65vh] gap-10 items-center justify-start'>
+      <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[80%] items-center justify-center text-center gap-[50px]'>
+        <h4 className='text-[28px] lg:text-[40px]'>Eğitimlerimiz</h4>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-8 text-lagoGray'>
+          {trainings.map(({ href, label }) => (
+            <a
+              key={href}
+              href={href}
+              onClick={(e) => handleDownload(e, href, label)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b hover:text-lagoBlack2 hover:border-lagoBlack2 hover:font-medium"
+            >
+              {label}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   )
