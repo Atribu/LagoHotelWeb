@@ -26,9 +26,9 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col bg-[#1A1A16] text-gray-200 text-sm justify-center items-center z-10">
       <div className="hidden lg:flex w-[91.1%] max-w-[1440px] items-start justify-center text-start gap-[4%] mt-[60px]">
-      <div className="w-[30%] flex flex-col items-start border-l border-gray-400 pl-16 gap-[40px]">
+      <div className="w-[30%] flex flex-col items-start border-r border-gray-400 pl-10 gap-[40px]">
           {/* Logo */}
-          <div className="mb-10">
+          <div className="mb-3">
             <Image
               src={Logo}
               alt="Lago Logo"
@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="flex w-[66%] items-start text-start">
           {/* SOL: 4 SÜTUN (QUICK MENU, TERMS, COMPANY, CONTACT) */}
-          <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="w-full ml-0 xl:w-[90%] xl:ml-[9%] grid grid-cols-2 lg:grid-cols-3 gap-8">
             {/* QUICK MENU */}
             {/* <div className="flex flex-col items-start justify-start text-start gap-[40px]">
               <h4 className="text-[15px] text-white font-marcellus font-normal leading-[26px] tracking-[0.6px] uppercase">
