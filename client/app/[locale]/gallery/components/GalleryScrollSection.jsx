@@ -4,6 +4,8 @@ import {useTranslations} from 'next-intl';
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 import Image from "next/image"
+import img1 from "../images/genel/img-01.jpg"
+import img2 from "../images/genel/img-02.jpg"
 import img3 from "../images/genel/img-03.jpg"
 import img4 from "../images/genel/img-04.jpg"
 import img5 from "../images/genel/img-05.jpg"
@@ -210,7 +212,7 @@ const GalleryScrollSection = () => {
 
   // Kategorilere göre resimler
 const imageCategories = {
-  [t("general")]: [ img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img32, img33, img34, img35, img36, img38, img39, img42, img43, img44, img45],
+  [t("general")]: [img1,img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img32, img33, img34, img35, img36, img38, img39, img42, img43, img44, img45],
   [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
   [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20,pool21,pool22,pool23,pool24,pool25,pool26,pool27,pool28,pool29],
