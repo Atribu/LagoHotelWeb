@@ -79,7 +79,7 @@ const otherOptions = [
 ];
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[100px] bg-[#fbfbfb] overflow-hidden'>
       <RestaurantMainBanner img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>

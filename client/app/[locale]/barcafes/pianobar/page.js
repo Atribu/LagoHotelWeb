@@ -2,7 +2,6 @@ import React from 'react'
 import mainImg from "./images/img-1.jpg"
 import img1 from "./images/img-4.jpg"
 import img2 from "./images/img-5.jpg"
-import RoomTour from '@/app/[locale]/rooms/familyswimup/components/RoomTour'
 import KidsMomentCarousel from '@/app/[locale]/kidsclub/components/KidsMomentCarousel'
 import gallery2 from "./images/img-1.jpg"
 import gallery1 from "./images/img-5.jpg"
@@ -37,7 +36,7 @@ const page = () => {
       title: t4("cuisines1title"),
       description: t4("cuisines1subtitle"),
       text: t4("cuisines1text"),
-      link:"/barcafes/piano",
+      link:"/barcafes/mignonbar",
       buttonText:t4("buttonText")
     },
   {
@@ -46,7 +45,7 @@ const page = () => {
       title: t4("cuisines2title"),
       description: t4("cuisines2subtitle"),
       text: t4("cuisines2text"),
-      link:"/barcafes/abellapatisserie",
+      link:"/barcafes/joiebar",
       buttonText:t4("buttonText")
     },
     {
@@ -55,7 +54,7 @@ const page = () => {
       title: t4("cuisines3title"),
       description: t4("cuisines3subtitle"),
       text: t4("cuisines3text"),
-       link:"/barcafes/cafedelago",
+       link:"/barcafes/maldivabar",
        buttonText:t4("buttonText")
     },
     {
@@ -64,13 +63,13 @@ const page = () => {
       title: t4("cuisines4title"),
       description: t4("cuisines4subtitle"),
       text: t4("cuisines3text"),
-       link:"/barcafes/cafedehouse",
+       link:"/barcafes/vagobar",
        buttonText:t4("buttonText")
     }
     ];
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[50px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[50px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb] overflow-hidden'>
        <BannerDark img={mainImg} span={t("subtitle")} header={t("title")} text={t("text")}/>
       <ClinaryReverseInfo img1={img1} img2={img2} span={t2("subtitle")} header={t2("title")} text1={t2("text1")} text2={t2("text2")}/>
       <KidsMomentCarousel images={galleryImages} header="" showheader={false}/>

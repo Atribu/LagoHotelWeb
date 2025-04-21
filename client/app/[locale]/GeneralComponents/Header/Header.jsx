@@ -70,8 +70,9 @@ export default function Header() {
               src={gradient4}
               width={gradient4.width}
               height={gradient4.header}
-              className="w-full h-[110px] "
+              className="w-full h-[110px]"
               alt="header"
+              priority 
             />
           </div>
 
@@ -79,6 +80,7 @@ export default function Header() {
             <div className="flex flex-row-reverse md:flex-row items-center mb-[2%] md:mb-[0.5%] lg:mb-[0.5%] h-full justify-center ml-[73%] sm:ml-[80%] md:ml-[4%] ">
               <button className="flex z-20 h-full items-center justify-center" onClick={toggleMenu}>
                 <Hamburger
+                  alt="menu"
                   width={30}
                   height={30}
                   color="white"
