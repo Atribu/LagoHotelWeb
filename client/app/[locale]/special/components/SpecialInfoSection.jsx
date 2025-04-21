@@ -9,26 +9,25 @@ import {useTranslations} from 'next-intl';
 
 const SpecialInfoSection = () => {
   const t = useTranslations('Special.TwoImageSection');
-  const [animate, setAnimate] = useState(false);
+  const [visible, setVisible] = useState(false);
   const sectionRef = useRef(null); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
+      ([entry], obs) => {
         if (entry.isIntersecting) {
-          setAnimate(true); 
-          observer.disconnect(); 
+          setVisible(true);
+          obs.disconnect();
         }
       },
-      { threshold: 0.5 } 
+      { threshold: 0.5 }
     );
-
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
-
-    return () => observer.disconnect(); 
+    return () => observer.disconnect();
   }, []);
+
 
   return (
     <div
@@ -50,10 +49,10 @@ const SpecialInfoSection = () => {
 
         <div className="flex min-w-[310px] w-[89%] sm:w-[50%] lg:w-[49%] md:w-[49%] items-end justify-end relative h-full">
             <Image src={img1} alt="art" width={300} height={450} className={`z-[40] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] transition-all duration-1000 ease-in-out ${
-              animate ? "-translate-y-4 opacity-100" : "translate-y-4 opacity-0"
+              visible ? "-translate-y-4 opacity-100" : "translate-y-4 opacity-0"
             }`}/>
             <Image src={img2} alt="art" width={300} height={450} className={`absolute lg:bottom-[105px] lg:right-[215px] z-[20] bottom-[100px] right-[130px] w-[175px] h-[260px] md:w-[186.60px] md:h-[279.91px] lg:w-[300px] lg:h-[450px] transition-all duration-1000 ease-in-out ${
-              animate ? "-translate-y-3 opacity-100" : "-translate-y-8 opacity-0"
+              visible ? "-translate-y-3 opacity-100" : "-translate-y-8 opacity-0"
             }`}/>
         </div>
 

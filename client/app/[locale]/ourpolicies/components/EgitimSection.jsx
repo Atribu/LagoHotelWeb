@@ -22,7 +22,7 @@ const EgitimSection = () => {
   return (
     <div className='flex flex-col h-[65vh] gap-10 items-center justify-start'>
       <div className='flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[80%] items-center justify-center text-center gap-[50px]'>
-        <h4 className='text-[28px] lg:text-[40px]'>Eğitimlerimiz</h4>
+        <h4 className='text-[28px] lg:text-[36px] font-marcellus'>Eğitimlerimiz</h4>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-8 text-lagoGray'>
           {trainings.map(({ href, label }) => (
             <a
@@ -31,7 +31,7 @@ const EgitimSection = () => {
               onClick={(e) => handleDownload(e, href, label)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b hover:text-lagoBlack2 hover:border-lagoBlack2 hover:font-medium"
+              className="flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b hover:text-lagoBlack2 hover:border-lagoBlack2 hover:font-medium whitespace-nowrap font-jost"
             >
               {label}
             </a>

@@ -83,8 +83,8 @@ const SubroomCarousel = ({images}) => {
               src={selectedImage}
               alt="Selected Image"
               className=" w-[90vw] h-[80vh] object-contain shadow-lg transition-transform duration-300 ease-in-out scale-100 hover:scale-105"
-              width={800}
-              height={600}
+              width={selectedImage.width}
+              height={selectedImage.height}
             />
           </div>
 

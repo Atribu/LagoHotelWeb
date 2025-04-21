@@ -71,7 +71,7 @@ const page = () => {
   const massageHeaders=[t4("massage1"),t4("massage2"),t4("massage3"),t4("massage4")]
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb] overflow-hidden'>
       <RestaurantMainBanner span={t("subtitle")} header={t("title")} text={t("text")} img={mainImg}  />
       <SpaInfoSection img1={img1} img2={img2} texts={spaTextsInfo1} texts2={spaTextsInfo2} texts3={spaTextsInfo3}/> 
       <SpaHeaderSection span={t3("subtitle")} header={t3("title")} text={t3("text")}  images={galleryImages}/>

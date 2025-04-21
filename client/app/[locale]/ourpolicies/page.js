@@ -22,7 +22,7 @@ const page = () => {
   const [activeTab, setActiveTab] = useState("politikalar");
 
   return (
-    <div className="flex flex-col gap-[15px] md:gap-[22px] lg:gap-[30px] overflow-hidden bg-[#f5f5f5] items-center justify-center mb-16">
+    <div className="flex flex-col gap-[15px] md:gap-[22px] lg:gap-[30px] overflow-hidden bg-[#ffffff] items-center justify-center mb-16">
       <Banner
         img={mainImg}
         span="Harmony with Nature"

@@ -7,7 +7,7 @@ import HomePage6 from "../HomePage/Components/HomePage5.jsx"
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]'>
+    <div className='flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb] overflow-hidden'>
       <Connect1 />
       <Connect2 />
       <Connect3 />
