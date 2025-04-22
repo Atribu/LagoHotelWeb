@@ -305,8 +305,8 @@ const categories = Object.keys(imageCategories)
             className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
             onClick={() => setModalImage(null)} // Modal dışına tıklandığında kapanır
           >
-            <div className="relative w-[40%] " onClick={(e) => e.stopPropagation()}>
-              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-contain max-h-[750px]" />
+            <div className="relative w-[80%] " onClick={(e) => e.stopPropagation()}>
+              <Image src={modalImage} alt="Enlarged gallery" className="w-full h-auto object-cover max-h-[890px]" />
               <button
                 className="absolute left-0 top-1/2 -translate-y-1/2 p-2 bg-gray-700 bg-opacity-50 hover:bg-opacity-75 text-white"
                 onClick={scrollPrev}

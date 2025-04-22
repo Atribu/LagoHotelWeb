@@ -4,7 +4,6 @@ import Link from 'next/link';
 
 export default function HomePage1() {
   const t = useTranslations('HomePage');
-
   return (
     <div className='flex flex-col w-full items-center justify-center my-[50px]'>
       <div className="flex flex-col w-[87.79%] md:w-[91.4%] lg:w-[76.8%] gap-[15px] md:gap-[25px] lg:gap-[35px] items-center justify-center text-center text-[#000] font-jost">
