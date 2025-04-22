@@ -52,7 +52,7 @@ export default function Footer() {
 
           {/* Alt linkler */}
           <div className="grid-cols-2 grid  items-center gap-6 whitespace-nowrap text-lagoGray2 w-full">
-            <a href="#" className="hover:underline">
+            <a href="/terms-of-use" className="hover:underline">
             {t('termsuse')}
             </a>
             <a href="#" className="hover:underline">
@@ -317,7 +317,7 @@ export default function Footer() {
 
           {/* Alt linkler */}
           <div className="grid grid-cols-3 items-center gap-6 font-jost whitespace-nowrap font-normal leading-[20px] text-[16px] text-lagoGray2">
-            <Link href="#" className="hover:underline">
+            <Link href="/terms-of-use" className="hover:underline">
             {t('termsuse')}
             </Link>
             <Link href="#" className="hover:underline">
