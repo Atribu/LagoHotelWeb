@@ -89,6 +89,12 @@ import img87 from "../images/genel/img-87.jpg"
 import img88 from "../images/genel/img-88.jpg"
 import img89 from "../images/genel/img-89.jpg"
 import img90 from "../images/genel/img-90.jpg"
+import img91 from "../images/genel/img91.jpg"
+import img92 from "../images/genel/img92.jpg"
+import img93 from "../images/genel/img93.jpg"
+import img94 from "../images/genel/img94.jpg"
+import img95 from "../images/genel/img95.jpg"
+import img96 from "../images/genel/img96.jpg"
 
 import rooms1 from "../images/rooms/img-01.jpg"
 import rooms2 from "../images/rooms/img-02.jpg"
@@ -246,7 +252,7 @@ const GalleryScrollSection = () => {
 
   // Kategorilere göre resimler
 const imageCategories = {
-  [t("general")]: [img1,img2, img3, img7, img10, img11, img12, img17, img18, img19, img20, img21, img22, img25, img26, img27, img28, img29, img30, img32, img33, img34, img35, img39, img42, img44, img45,img46,img47,img48,img49,img50,img53,img54,img55,img56,img57,img58,img59,img60,img61,img62,img63,img64,img65,img66,img71,img72,img73,img74,img75,img76,img77,img78,img79,img80,img81,img82,img85,img86,img87,img88,img89,img90],
+  [t("general")]: [img1,img2, img3, img7, img11, img12, img19, img25, img26, img27, img28, img29, img30, img32, img35, img39, img42, img44, img45,img46,img47,img60,img61,img62,img63,img64,img65,img66,img72,img73,img91, img92, img93,img94,img95,img96,img74,img75,img76,img77,img78,img79,img82,img85,img86,img87,img88,img89,img90],
   [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
   [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20,pool21,pool22,pool23,pool24,pool25,pool26,pool27,pool28,pool29],
