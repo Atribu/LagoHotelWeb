@@ -252,7 +252,7 @@ const GalleryScrollSection = () => {
 
   // Kategorilere göre resimler
 const imageCategories = {
-  [t("general")]: [img1,img2, img3, img7, img11, img12, img19, img25, img26, img27, img28, img29, img30, img32, img35, img39, img42, img44, img45,img46,img47,img60,img61,img62,img63,img64,img65,img66,img72,img73,img91, img92, img93,img94,img95,img96,img74,img75,img76,img77,img78,img79,img82,img85,img86,img87,img88,img89,img90],
+  [t("general")]: [img1,img2, img3, img7, img11, img12, img19, img25, img26, img27, img28, img29, img30, img32, img35, img39, img42, img44, img45,img46,img47,img65,img66,img72,img91, img92, img93,img94,img95,img96,img77,img78,img79,img89,img90],
   [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
   [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20,pool21,pool22,pool23,pool24,pool25,pool26,pool27,pool28,pool29],
