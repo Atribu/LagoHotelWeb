@@ -527,6 +527,26 @@ export default function Footer() {
             <Link rel="norefferer nofollower"
                   target="_blank" href="https://www.instagram.com/lagohotels/" className="flex bg-white rounded-[4px] shadow-divCustom w-[42.412px] h-[42.412px] items-center justify-center"><FaInstagram className="w-6 h-6" color='#A7ABAD'/></Link>
           </div>
+
+          <div className="grid-cols-2 grid items-center justify-center text-center gap-[10px] whitespace-nowrap text-lagoGray2 w-full text-[14px]">
+            <a href="/terms-of-use" >
+            {t('termsuse')}
+            </a>
+            <a href="#" >
+            {t('notice')}
+            </a>
+            <a href="/sustainability" >
+            {t('sustainability')}
+            </a>
+            <Link href="/ourpolicies" >
+            {t('ourpolicies')} 
+            </Link>
+            <a href="/certificates" >
+            Certificate
+            </a>
+          <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
+
+          </div>
         </div>
       </div>
 
