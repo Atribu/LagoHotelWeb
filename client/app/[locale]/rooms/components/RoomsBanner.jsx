@@ -16,7 +16,7 @@ const RoomsBanner = () => {
         <Link href="/rooms#swimuproom" className='flex py-[10px] px-[40px] border-2 border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[14px] lg:text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] xl:w-[45%] lg:min-w-[337px]'>{t('buttonText3')}</Link>
         <Link href="/rooms#familyswimup" className='flex py-[10px] px-[40px] border-[2px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[14px] lg:text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] xl:w-[45%] lg:min-w-[337px]'>{t('buttonText4')}</Link>
         <Link href="/rooms#duplexfamilyroom" className='flex py-[10px] px-[40px] border-[2px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[14px] lg:text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] xl:w-[45%] md:w-[50%] lg:min-w-[337px]'>{t('buttonText5')}</Link>
-        <Link href="/rooms#tinyvilla" className='flex py-[10px] px-[40px] border-[2px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[14px] lg:text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] xl:w-[45%] lg:min-w-[337px]'>{t('buttonText6')}</Link>
+        {/* <Link href="/rooms#tinyvilla" className='flex py-[10px] px-[40px] border-[2px] border-white justify-center items-center shadow-buttonCustom gap-[65px] font-jost uppercase text-[14px] lg:text-[16px] font-medium leading-[30px] text-center bg-transparent w-[90%] md:w-[50%] xl:w-[45%] lg:min-w-[337px]'>{t('buttonText6')}</Link> */}
       </div>
       </div>
     </div>

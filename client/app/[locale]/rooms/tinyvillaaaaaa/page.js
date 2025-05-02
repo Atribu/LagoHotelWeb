@@ -41,7 +41,7 @@ const page = () => {
 
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
-     <div className='flex flex-col'>
+     {/* <div className='flex flex-col'>
      <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
@@ -49,7 +49,7 @@ const page = () => {
        <BackgroundSection span={t4("subtitle")} header={t4("title")} texts={backgroundTexts} link="/" img={backgroundImg}/>
        <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")} link="https://kuula.co/share/collection/7bQNW?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
       <OtherOptions/>
-      <ContactSection2/>
+      <ContactSection2/> */}
     </div>
   )
 }
