@@ -248,7 +248,7 @@ export default function Footer() {
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyroom">{t('family')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/swimuproom">{t('swimup')}</Link></li>
                 <li className="hover:text-white cursor-pointer"><Link href="/rooms/familyswimup">{t('familyswimup')}</Link></li>
-                <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('tinyvilla')}</Link></li>
+                {/* <li className="hover:text-white cursor-pointer"><Link href="/rooms/tinyvilla">{t('tinyvilla')}</Link></li> */}
 
             </ul>
           </div>
@@ -460,12 +460,12 @@ export default function Footer() {
                 >
                  {t("duplex")}
                 </Link>
-                <Link
+                {/* <Link
                   href="/rooms/tinyvilla"
                   className="block text-[14px] text-[#A6A6A6] leading-[29.639px] uppercase"
                 >
                  {t("tinyvilla")}
-                </Link>
+                </Link> */}
               </div>
             </div>
 
