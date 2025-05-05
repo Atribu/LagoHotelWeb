@@ -1852,6 +1852,23 @@
     "dropdown2": "Leistung",
     "dropdown3": "Funktional",
     "dropdown4": "Targeting"
+  },
+
+  "Explore":{
+    "header":"Çevrede Gezilecek Yerler",
+    "title1":"Manavgat-Wasserfall",
+    "text1":"Nur 5 km von Titreyengöl entfernt liegt der Manavgat-Wasserfall, ein ruhiger Ort, an dem kühles Wasser auf üppiges Grün trifft. Ideal für Picknicks und entspannte Spaziergänge.",
+    "distance":"Entfernung" ,
+    "title2":"Antike Stadt Side",
+    "text2":"Etwa 7 km entfernt bietet die antike Stadt Side mit dem Apollon-Tempel und dem antiken Theater ein einzigartiges Erlebnis. Die Ruinen in Kombination mit dem Mittelmeerblick sind wirklich faszinierend.",
+    "title3":"Antikes Theater von Aspendos ",
+    "text3":"Rund 35 km von Titreyengöl entfernt befindet sich Aspendos mit einem der am besten erhaltenen römischen Theater der Welt. Die beeindruckende Architektur und Akustik machen es zu einem Muss für Geschichtsliebhaber.",
+    "title4":"Köprülü-Schlucht",
+    "text4":"Ungefähr 50 km entfernt ist die Köprülü-Schlucht perfekt für Rafting und Naturwanderungen. Dieser Nationalpark bietet Möglichkeiten zum Campen und Picknicken inmitten atemberaubender Natur.",
+    "title5":"Oymapınar-Stausee",
+    "text5":"Der 20 km entfernte Oymapınar-Stausee ist bekannt für seine atemberaubenden Ausblicke und Bootstouren. Besucher können Spaziergänge rund um den See genießen oder in lokalen Cafés entspannen.",
+    "title6":"Antike Stadt Seleukeia  ",
+    "text6":"Eingebettet in die Sorgun-Wälder, etwa 15 km von Titreyengöl entfernt, bietet Seleukeia eine ruhige historische Atmosphäre. Ideal für diejenigen, die eine friedliche Erkundung abseits der Massen suchen."
   }
   
 
