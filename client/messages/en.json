@@ -2033,6 +2033,23 @@
     "dropdown2": "Performance",
     "dropdown3": "Functional",
     "dropdown4": "Targeting"
+  },
+
+  "Explore":{
+    "header":"Routes to Enrich Your Vacation",
+    "title1":"Manavgat Waterfall ",
+    "text1":"Located just 5 km from Titreyengöl, Manavgat Waterfall is a serene natural spot where cool waters meet lush greenery. It's an ideal place for picnics and peaceful walks.",
+    "distance":"distance" ,
+    "title2":"Side Ancient City ",
+    "text2":"Approximately 7 km away, the ancient city of Side offers a unique experience with its Temple of Apollo and ancient theater. These ruins, combined with the Mediterranean view, are truly captivating.",
+    "title3":"Aspendos Ancient Theater",
+    "text3":"About 35 km from Titreyengöl, Aspendos boasts one of the best-preserved Roman theaters in the world. Its impressive architecture and acoustics make it a must-see for history enthusiasts.",
+    "title4":"Köprülü Canyon",
+    "text4":"Located approximately 50 km away, Köprülü Canyon is perfect for rafting and nature walks. This national park offers opportunities for camping and picnicking amidst stunning natural beauty.",
+    "title5":"Oymapınar Dam Lake",
+    "text5":"Situated 20 km away, Oymapınar Dam Lake is known for its breathtaking views and boat tours. Visitors can enjoy walks around the lake or relax at local cafes.",
+    "title6":"Seleukeia Ancient City ",
+    "text6":"Nestled within the Sorgun forests, about 15 km from Titreyengöl, Seleukeia offers a tranquil historical atmosphere. It's an ideal spot for those seeking a peaceful exploration away from the crowds."
   }
  
   }

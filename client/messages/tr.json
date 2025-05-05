@@ -1906,6 +1906,23 @@
     "dropdown2": "Performans",
     "dropdown3": "Fonksiyonel",
     "dropdown4": "Hedefleme"
+  },
+
+  "Explore":{
+   "header":"Tatilinizi Zenginleştirecek Rotalar",
+    "title1":"Manavgat Şelalesi",
+    "text1":"Titreyengöl’e yalnızca 5 km mesafedeki Manavgat Şelalesi, serin suların ağaçlarla buluştuğu huzurlu bir doğa köşesidir. Piknik alanları ve yürüyüş yollarıyla ziyaretçilere keyifli bir kaçış sunar.",
+    "distance":"uzaklık" ,
+    "title2":"Side Antik Kenti",
+    "text2":"Yaklaşık 7 km uzaklıkta bulunan Side Antik Kenti, Apollon Tapınağı ve antik tiyatrosuyla tarih tutkunları için eşsiz bir deneyim sunar. Akdeniz’in eşsiz manzarasıyla birleşen bu antik kalıntılar büyüleyicidir.",
+    "title3":"Aspendos Antik Tiyatrosu",
+    "text3":"Titreyengöl’den yaklaşık 35 km mesafedeki Aspendos, dünyanın en iyi korunmuş Roma tiyatrolarından biridir. Mimarisi ve akustiğiyle büyüleyici bu yapı, tarih severler için mutlaka görülmelidir.",
+    "title4":"Köprülü Kanyon",
+    "text4":"Yaklaşık 50 km uzaklıktaki Köprülü Kanyon, rafting tutkunları ve doğa yürüyüşçüleri için mükemmel bir kaçış noktasıdır. Milli park sınırları içerisindeki bu alan, kamp ve piknik için de idealdir.",
+    "title5":"Oymapınar Baraj Gölü",
+    "text5":"20 km uzaklıktaki Oymapınar Baraj Gölü, etkileyici manzaralar ve tekne turlarıyla doğa severlerin uğrak noktasıdır. Göl çevresinde yürüyüş yapabilir ya da yerel kafelerde manzaranın tadını çıkarabilirsiniz.",
+    "title6":"Seleukeia Antik Kenti",
+    "text6":"Sorgun ormanları içinde, yaklaşık 15 km mesafede yer alan Seleukeia, sessizliği ve tarihi atmosferiyle dikkat çeker. Doğa ile tarihin iç içe geçtiği bu bölge, kalabalıktan uzak bir keşif imkanı sunar."
   }
   
 }
