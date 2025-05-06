@@ -22,7 +22,6 @@ import BalconySvg from "./BalconySvg";
 import {useTranslations} from 'next-intl';
 import Link from "next/link"
 
-
 const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, roomName, pool}) => {
   const t = useTranslations(`${roomName}.RoomInfo`);
   const t2 = useTranslations(`SuperiorRoom.ReservationWidget`);

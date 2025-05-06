@@ -6,7 +6,7 @@ import BedSvg from './BedSvg'
 import SeaSvg from './SeaSvg'
 import ParentsSvg from './ParentsSvg'
 
-const SubRoomBanner = ({img,span,header,texts=[]}) => {
+const SubRoomBanner = ({img,span,header,texts=[], baby}) => {
 
 
   return (
@@ -31,7 +31,11 @@ const SubRoomBanner = ({img,span,header,texts=[]}) => {
                 <div className='flex flex-col gap-[18px] items-center justify-center'>
                 <div className='flex  gap-[20px] items-center justify-center'>
                 <ParentsSvg className="flex" width={43} height={35}/>
-                <BabySvg className="flex" width={35} height={36}/>
+                { baby && (
+                  <BabySvg className="flex" width={35} height={36}/>
+                )
+
+                }
                     </div>
                     <p className='text-[14px] lg:text-[16px] font-medium leading-normal'>{texts[1]}</p>
                 </div>

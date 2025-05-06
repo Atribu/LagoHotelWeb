@@ -110,6 +110,16 @@ export default function Slider1({ slides }) {
       title: t("kids"),
       link: "/kidsclub",
     },
+    {
+      src: require("../../../spawellness/images/img-12.jpg"),
+      title: t("spa"),
+      link: "/spawellness",
+    },
+    {
+      src: require("../../../special/images/marriage1.webp"),
+      title: t("special"),
+      link: "/special",
+    },
   ];
   const slidesOriginal = slides || DEFAULT_SLIDES;
   const slidesCombined = [...slidesOriginal, ...slidesOriginal];

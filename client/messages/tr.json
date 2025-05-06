@@ -25,6 +25,7 @@
     "familyswimup": "Aile Swim-up Odası",
     "duplex": "Dubleks Aile Odası",
     "tinyvilla":"Tiny Villa",
+    "disableroom":"Engelli Odası",
     "letuscallyou":"Sizi Arayalım"
 
 },
@@ -49,7 +50,9 @@
   "restaurants":"Restoranlar",
   "beachPools":"Plaj ve Havuzlar",
    "experiences":"Deneyimler",
-    "kids":"Çocuklar"
+    "kids":"Çocuklar",
+      "spa": "Spa ve Wellness",
+  "special": "Özel"
     },
 
     "TwoAnimationSection":{
@@ -1129,6 +1132,74 @@
     }
   },
 
+  "DisabledRoom": {
+  "subtitle": "Herkes İçin Tasarlanan Rahatlık",
+  "title": "Engelli Odası",
+  "text1": "Kolay Erişim",
+  "text2": "1-2 Yetişkin",
+  "text3": "Geniş İç Mekan",
+
+  "RoomInfo": {
+    "subtitle": "Engelsiz Bir Tatil İçin Her Detay Düşünüldü",
+    "title": "Engelli Odası",
+    "text": "Misafirlerimizin rahatlığı için özel olarak tasarlanan Engelli Odalarımız geniş ve ferah iç mekanlarıyla, 112 cm kapı genişliğiyle tekerlekli sandalye kullanımına uygundur. Odalarda özel tasarım banyo ve tuvalet, merkezi klima sistemi, LED TV, ücretsiz Wi-Fi ve balkon bulunmaktadır.",
+    "title2": "Engelli Odası Olanaklar",
+    "list1": "----",
+    "list2": "2 Yatak",
+    "list3": "Ekstra Bebek Yatağı",
+    "title3": "Oda Özellikleri",
+    "text2": "Engelli misafirlerimizin konforu için her detayın düşünüldüğü odalarımızda kolay erişim sağlayan geniş kapılar, özel tasarlanmış banyolar, günlük yenilenen minibar, LED TV ve ücretsiz Wi-Fi gibi imkanlar sunulmaktadır.",
+    "madde1": "----",
+    "madde2": "30-32 m²",
+    "madde3": "112 cm Kapı Genişliği",
+    "madde4": "Sigara İçilmez",
+    "madde5": "Mini Bar",
+    "madde6": "Kasa",
+    "madde7": "Saç Kurutma Makinesi",
+    "madde8": "Özel Banyo",
+    "madde9": "Çay & Kahve Seti",
+    "madde10": "LED TV & WiFi",
+    "madde11": "Balkon",
+    "madde12": "Duş"
+  },
+  "ReservationWidget": {
+      "title": "Rezervasyon Tarihleri",
+      "text": "Konaklamanız için Tarihleri Seçin",
+      "checkin": "Giriş",
+      "checkout": "Çıkış",
+      "adult": "Yetişkinler ",
+      "kids":"Çocuklar",
+      "booknow": "REZERVASYON YAPIN",
+      "contact": "Bizimle İletişime Geçin",
+      "phone": "+90 242 524 57 87"
+    },
+    "RoomTour": {
+      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Bir Göz Atın",
+      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+    },
+    "OtherOptions": {
+      "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+      "title": "Diğer Seçenekler",
+      "subtitle1": "Tüm Aile Üyeleri İçin Oda",
+      "title1": "Aile Odası",
+      "m1": "38-41 m²",
+      "capacity1": "2 Yetişkin + 1 Çocuk",
+      "text1": " Ana binada bulunan Aile Odası (38-41 m²), ara kapılı iki yatak odası (bir çift kişilik yatak, iki tek kişilik yatak), ortak banyo ve balkona sahiptir. Maksimum kapasite: 4 yetişkin + 1 çocuk.",
+      "buttonText": "Daha Fazlasını Öğrenin",
+      "subtitle2": "ODANIZI TERK ETMEDEN FERAHLAYIN",
+      "title2": "Swim-Up Odası",
+      "m2": "40-43 m²",
+      "capacity2": "2 Yetişkin + 1 Çocuk",
+      "text2": " Ana binada bulunan bu şık oda tipi, 40-43 m² büyüklüğünde olup kara veya deniz manzarası sunmaktadır. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir oturma alanı veya sofa mevcuttur. Hem deniz hem de kara manzaralı odalar havuza erişim imkânı ve terasa sahipken, deniz manzaralı Swim-up odalar ayrıca özel bir havuz sunmaktadır.",
+      "subtitle3": "İYİ FİYATLA KONFOR",
+      "title3": "Superior Oda",
+      "m3": "30-32 m²",
+      "capacity3": "2 Yetişkin + 1 Çocuk",
+      "text3": "Ana binada bulunan bu zarif oda tipi 30-32 m² büyüklüğünde olup, deniz veya kara manzarası seçeneklerine sahiptir. Odalarda bir çift kişilik yatak, bir tek kişilik yatak ve konforlu bir sofa bulunmaktadır. Ayrıca odalarda balkon, çipli bileklikle giriş sistemi, günlük yenilenen minibar, zengin banyo ürünleri ve çay-kahve seti yer almaktadır."
+    }
+},
+
   "SuperiorRoom": {
     "subtitle": "Ayrıcalıklı ve Konforlu Konaklama",
     "title": "Superior Oda",
@@ -1171,9 +1242,12 @@
       "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
-      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
-      "title": "Bir Göz Atın",
-      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+     "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+    "title": "Bir Göz Atın – Kara Manzaralı",
+    "text": "Muhteşem 360° sanal tur ile kara manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın.",
+    "subtitle2": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+    "title2": "Bir Göz Atın – Deniz Manzaralı",
+    "text2": "Muhteşem 360° sanal tur ile deniz manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
     },
     "OtherOptions": {
       "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1239,9 +1313,12 @@
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
-      "title": "Bir Göz Atın",
-      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
-    },
+     "title": "Bir Göz Atın – Kara Manzaralı",
+     "text": "Muhteşem 360° sanal tur ile kara manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın.",
+     "subtitle2": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+     "title2": "Bir Göz Atın – Deniz Manzaralı",
+     "text2": "Muhteşem 360° sanal tur ile deniz manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+     },
     "OtherOptions": {
       "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
       "title": "Diğer Seçenekler",
@@ -1315,9 +1392,13 @@
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
-      "title": "Bir Göz Atın",
-      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
-    },
+     "title": "Bir Göz Atın – Kara Manzaralı",
+     "text": "Muhteşem 360° sanal tur ile kara manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın.",
+     "subtitle2": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+     "title2": "Bir Göz Atın – Deniz Manzaralı",
+     "text2": "Muhteşem 360° sanal tur ile deniz manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+     },
+
     "OtherOptions": {
       "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
       "title": "Diğer Seçenekler",
@@ -1389,10 +1470,13 @@
       "contact": "Bizimle iletişime geçin",
       "phone": "+90 242 524 57 87"
     },
-    "RoomTour": {
-      "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
-      "title": "Bir Göz Atın",
-      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+       "RoomTour": {
+     "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+    "title": "Bir Göz Atın – Kara Manzaralı",
+    "text": "Muhteşem 360° sanal tur ile kara manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın.",
+    "subtitle2": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+    "title2": "Bir Göz Atın – Deniz Manzaralı",
+    "text2": "Muhteşem 360° sanal tur ile deniz manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
     },
     "OtherOptions": {
       "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1467,9 +1551,12 @@
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
-      "title": "Bir Göz Atın",
-      "text": "Muhteşem 360° sanal tur ile odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
-    },
+     "title": "Bir Göz Atın – Kara Manzaralı",
+     "text": "Muhteşem 360° sanal tur ile kara manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın.",
+     "subtitle2": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
+     "title2": "Bir Göz Atın – Deniz Manzaralı",
+     "text2": "Muhteşem 360° sanal tur ile deniz manzaralı odalarımızı keşfedin. Her detayı yakından inceleyin, mükemmel konaklamanızı bulun ve hayalinizdeki tatile hemen burada başlayın."
+     },
     "OtherOptions": {
       "span": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
       "title": "Diğer Seçenekler",
@@ -1889,7 +1976,8 @@
     "spa": "Spa & Wellness",
     "kidsclub": "Kids Club",
     "entertainment": "Eğlence",
-    "bar":"Barlar"
+    "bar":"Barlar",
+    "lobby":"Lobi"
   },
 
   "CookiePopup":{

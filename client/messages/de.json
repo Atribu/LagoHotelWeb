@@ -24,6 +24,7 @@
     "familyswimup": "Familien Swim-up Zimmer",
     "duplex": "Duplex Familienzimmer",
     "tinyvilla": "Kleine Villa",
+    "disableroom": "Behindertenzimmer",
     "letuscallyou": "Lassen Sie sich von uns anrufen"
   },
   "Reservation": {
@@ -45,7 +46,9 @@
       "restaurants": "Restaurants",
       "beachPools": "Strand & Pools",
       "experiences": "Erlebnisse",
-      "kids": "Kinder"
+      "kids": "Kinder",
+        "spa": "Spa ve Wellness",
+  "special": "Özel"
     },
     "TwoAnimationSection": {
       "subtitle": "Die Gelassenheit von Blau und Grün",
@@ -1084,6 +1087,74 @@
     }
   },
 
+  "DisabledRoom": {
+    "subtitle": "Komfort für Jeden Gast",
+    "title": "Barrierefreies Zimmer",
+    "text1": "Leichter Zugang",
+    "text2": "1-2 Erwachsene",
+    "text3": "Geräumiges Interieur",
+    "RoomInfo": {
+      "subtitle": "Jedes Detail für barrierefreien Urlaub bedacht",
+      "title": "Barrierefreies Zimmer",
+      "text": "Unsere barrierefreien Zimmer bieten großzügige Innenräume und 112 cm breite Türen, geeignet für Rollstuhlfahrer. Die Zimmer verfügen über speziell gestaltete Badezimmer, zentrale Klimaanlage, LED-TV, kostenloses WLAN und einen Balkon.",
+      "title2": "Ausstattung barrierefreies Zimmer",
+      "list1": "----",
+      "list2": "2 Einzelbetten",
+      "list3": "Zusätzliches Babybett",
+      "title3": "Zimmermerkmale",
+      "text2": "Jedes Detail ist auf Komfort ausgelegt und bietet breite Türen für einfachen Zugang, speziell gestaltete Badezimmer, täglich aufgefüllte Minibar, LED-TV und kostenloses WLAN.",
+      "madde1": "----",
+      "madde2": "Geräumiges Interieur",
+      "madde3": "112 cm Türbreite",
+      "madde4": "Nichtraucher",
+      "madde5": "Mini Bar",
+      "madde6": "Safe",
+      "madde7": "Haartrockner",
+      "madde8": "Privates Badezimmer",
+      "madde9": "Tee & Kaffee Set",
+      "madde10": "LED TV & WiFi",
+      "madde11": "Balkon",
+      "madde12": "Dusche"
+    },
+
+    "ReservationWidget": {
+      "title": "Reservierungsdaten",
+      "text": "Wählen Sie die Daten für Ihren Aufenthalt",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adult": "Erwachsene",
+      "kids": "Kinder",
+      "booknow": "JETZT BUCHEN",
+      "contact": "Kontaktieren Sie uns jetzt",
+      "phone": "+90 242 524 57 87"
+    },
+    "RoomTour": {
+      "subtitle": "Wählen Sie das beste Zimmer für sich",
+      "title": "Schauen Sie sich um",
+      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
+    },
+    "OtherOptions": {
+      "span": "Wählen Sie das beste Zimmer für sich",
+      "title": "Weitere Optionen",
+      "subtitle1": "Zimmer für die ganze Familie",
+      "title1": "Familienzimmer",
+      "m1": "38-41 m²",
+      "capacity1": "2 Erwachsene + 2 Kinder",
+      "text1": "Dieses Familienzimmer im Hauptgebäude (38-41 m²) verfügt über zwei Schlafzimmer mit Verbindungstür (ein Doppelbett, zwei Einzelbetten), ein Badezimmer und einen Balkon. Maximale Belegung: 4 Erwachsene + 1 Kind.",
+      "buttonText": "Mehr erfahren",
+      "subtitle2": "Frisch bleiben, ohne das Zimmer zu verlassen",
+      "title2": "Swim-up Zimmer",
+      "m2": "40-43 m²",
+      "capacity2": "2 Erwachsene + 1 Kind",
+      "text2": "Dieser stilvolle Zimmertyp im Hauptgebäude misst 40-43 m² und bietet Land- oder Meerblick. Er verfügt über ein Doppelbett und ein Einzelbett sowie ein komfortables Sofa oder einen Sitzbereich. Beide Varianten bieten direkten Poolzugang und eine Terrasse, während Swim-up Zimmer mit Meerblick zusätzlich einen privaten Pool haben.",
+      "subtitle3": "Komfort zu einem guten Preis",
+      "title3": "Superior Zimmer",
+      "m3": "30-32 m²",
+      "capacity3": "2 Erwachsene + 1 Kind",
+      "text3": "Im Hauptgebäude gelegen, misst dieser elegante Zimmertyp 30-32 m² und bietet Land- oder Meerblick. Jedes Zimmer verfügt über ein Doppelbett, ein Einzelbett und ein komfortables Sofa. Zudem sind die Zimmer mit einem Balkon, einem Chip-Schlüsselarmband, einer täglich aufgefüllten Minibar, hochwertiger Badezimmereinrichtung und einem Tee-Kaffee-Set ausgestattet."
+    }
+  },
+
   "SuperiorRoom": {
     "subtitle": "Exklusiver und komfortabler Aufenthalt",
     "title": "Superior Zimmer",
@@ -1125,10 +1196,14 @@
       "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
-      "subtitle": "Wählen Sie das beste Zimmer für sich",
-      "title": "Schauen Sie sich um",
-      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Werfen Sie einen Blick – Landblick",
+      "text": "Entdecken Sie unsere Zimmer mit Landblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume.",
+      "subtitle2": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title2": "Werfen Sie einen Blick – Meerblick",
+      "text2": "Entdecken Sie unsere Zimmer mit Meerblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume."
     },
+
     "OtherOptions": {
       "span": "Wählen Sie das beste Zimmer für sich",
       "title": "Weitere Optionen",
@@ -1191,11 +1266,14 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 242 524 57 87"
     },
-    "RoomTour": {
-      "subtitle": "Wählen Sie das beste Zimmer für sich",
-      "title": "Schauen Sie sich um",
-      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
-    },
+      "RoomTour": {
+    "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+    "title": "Werfen Sie einen Blick – Landblick",
+    "text": "Entdecken Sie unsere Zimmer mit Landblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume.",
+    "subtitle2": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+    "title2": "Werfen Sie einen Blick – Meerblick",
+    "text2": "Entdecken Sie unsere Zimmer mit Meerblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume."
+  },
     "OtherOptions": {
       "span": "Wählen Sie das beste Zimmer für sich",
       "title": "Weitere Optionen",
@@ -1267,10 +1345,13 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 242 524 57 87"
     },
-  "RoomTour": {
-      "subtitle": "Wählen Sie das beste Zimmer für sich",
-      "title": "Schauen Sie sich um",
-      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Werfen Sie einen Blick – Landblick",
+      "text": "Entdecken Sie unsere Zimmer mit Landblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume.",
+      "subtitle2": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title2": "Werfen Sie einen Blick – Meerblick",
+      "text2": "Entdecken Sie unsere Zimmer mit Meerblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume."
     },
     "OtherOptions": {
       "span": "Wählen Sie das beste Zimmer für sich",
@@ -1342,10 +1423,13 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 242 524 57 87"
     },
-   "RoomTour": {
-      "subtitle": "Wählen Sie das beste Zimmer für sich",
-      "title": "Schauen Sie sich um",
-      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Werfen Sie einen Blick – Landblick",
+      "text": "Entdecken Sie unsere Zimmer mit Landblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume.",
+      "subtitle2": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title2": "Werfen Sie einen Blick – Meerblick",
+      "text2": "Entdecken Sie unsere Zimmer mit Meerblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume."
     },
     "OtherOptions": {
       "span": "Wählen Sie das beste Zimmer für sich",
@@ -1417,10 +1501,13 @@
       "contact": "Kontaktieren Sie uns jetzt",
       "phone": "+90 242 524 57 87"
     },
-   "RoomTour": {
-      "subtitle": "Wählen Sie das beste Zimmer für sich",
-      "title": "Schauen Sie sich um",
-      "text": "Entdecken Sie unsere Zimmer mit einem beeindruckenden 360°-Virtuellen Rundgang. Sehen Sie sich jedes Detail genau an, finden Sie Ihre perfekte Unterkunft und starten Sie hier Ihren Traumurlaub."
+    "RoomTour": {
+      "subtitle": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title": "Werfen Sie einen Blick – Landblick",
+      "text": "Entdecken Sie unsere Zimmer mit Landblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume.",
+      "subtitle2": "WÄHLEN SIE DAS BESTE ZIMMER FÜR SIE",
+      "title2": "Werfen Sie einen Blick – Meerblick",
+      "text2": "Entdecken Sie unsere Zimmer mit Meerblick in einer beeindruckenden 360°-Virtuellen Tour. Untersuchen Sie jedes Detail aus der Nähe, finden Sie Ihren perfekten Aufenthalt und starten Sie hier den Urlaub Ihrer Träume."
     },
     "OtherOptions": {
       "span": "Wählen Sie das beste Zimmer für sich",

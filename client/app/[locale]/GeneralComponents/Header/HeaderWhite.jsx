@@ -291,6 +291,12 @@ export default function HeaderWhite() {
                   >
                      {t("duplex")}
                   </Link>
+                  <Link
+                    href="/rooms/disableroom"
+                    className="block text-[14px] leading-[29.639px] uppercase"
+                  >
+                       {t("disableroom")}
+                  </Link>
                   {/* <Link
                     href="/rooms/tinyvilla"
                     className="block text-[14px] leading-[29.639px] uppercase"

@@ -24,6 +24,7 @@
   "familyswimup":"Family Swim-up Room",
   "duplex":"Duplex Family Room",
   "tinyvilla":"Tiny Villa",
+  "disableroom":"Disable Room",
   "letuscallyou":"Let Us Call You"
 
 },
@@ -49,7 +50,9 @@
       "restaurants":"Restaurants",
       "beachPools":"Beach & Pools",
        "experiences":"Experiences",
-        "kids":"Kids"
+        "kids":"Kids",
+        "spa":"Spa & Wellness",
+        "special":"Special"
     },
 
     "TwoAnimationSection":{
@@ -1192,6 +1195,78 @@
        }
     },
 
+    "DisabledRoom": {
+      "subtitle": "Comfort Designed for Everyone",
+      "title": "Accessible Room",
+      "text1": "Easy Access",
+      "text2": "1-2 Adults",
+      "text3": "Spacious Interior",
+      "RoomInfo": {
+        "subtitle": "Every Detail Considered for a Barrier-Free Vacation",
+        "title": "Accessible Room",
+        "text": "Our Accessible Rooms are specially designed with spacious interiors and doors of 112 cm width, suitable for wheelchair use. Rooms feature specially designed bathrooms, central air conditioning, LED TV, free Wi-Fi, and a balcony.",
+        "title2": "Accessible Room Facilities",
+        "list1": "----",
+        "list2": "2 Bed",
+        "list3": "Extra Baby Bed",
+        "title3": "Room Features",
+        "text2": "Every detail is considered for comfort, offering wide doors for easy access, specially designed bathrooms, daily refreshed minibar, LED TV, and free Wi-Fi.",
+        "madde1": "----",
+        "madde2": "Spacious Interior",
+        "madde3": "112 cm Door Width",
+        "madde4": "Non-Smoking",
+        "madde5": "Mini Bar",
+        "madde6": "Safe Box",
+        "madde7": "Hair Dryer",
+        "madde8": "Private Bathroom",
+        "madde9": "Tea & Coffee Set",
+        "madde10": "LED TV & WiFi",
+        "madde11": "Balcony",
+        "madde12": "Shower"
+      },
+
+      "ReservationWidget":{
+        "title":"Reservation Dates",
+        "text":" Pick the Dates for Your Stay",
+        "checkin":"Check-in",
+        "checkout":"Check-out",
+        "adult":"Adults",
+        "kids":"Kids",
+        "booknow":"BOOK NOW",
+        "contact":"Contact us now ",
+        "phone":"+90 242 524 57 87"
+      },
+
+      "RoomTour":{
+        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
+        "title":"Have a Look Around",
+        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      },
+
+      "OtherOptions":{
+        "span":" CHOOSE THE BEST ROOM FOR YOU",
+        "title":" Other Options",
+        "subtitle1":" Room for All the Family Members",
+        "title1":"Family Room",
+        "m1":"38-41 m²",
+        "capacity1":"2 Adults + 2 Child",
+        "text1":"This Family Room in the main building (38-41 m²) features two bedrooms with a connecting door (one double bed, two single beds), a bathroom, and a balcony. Max capacity: 4 adults + 1 child.",
+        "buttonText":" Learn More",
+
+        "subtitle2":"FRESHEN UP WITHOUT LEAVING YOUR ROOM",
+        "title2":" Swim-Up Room",
+        "m2":"40-43 m²",
+        "capacity2":"2 Adults + 1 Child",
+        "text2":" This stylish room type, located in the main building, is 40-43 m² and offers either land or sea views. It features one double bed and one single bed, along with a comfortable sofa or seating area. Both sea and land view rooms include direct pool access and a terrace, while sea-view Swim-up rooms additionally feature a private pool.",
+
+        "subtitle3":"  COMFORT FOR A GOOD PRICE",
+        "title3":"Superior Room",
+        "m3":" 30-32 m²",
+        "capacity3":"2 Adults + 1 Child",
+        "text3":" Located in the main building, this elegant room type measures 30-32 m², offering land or sea views. Each room features one double bed, one single bed, and a comfortable sofa. Rooms also include a balcony, chip-key wristband access, daily replenished minibar, premium bathroom amenities, and a tea-coffee set."
+      }
+    },
+
     "SuperiorRoom":{
       "subtitle":"Exclusive and Comfortable Stay",
       "title":"Superior Room",
@@ -1235,10 +1310,13 @@
         "phone":"+90 242 524 57 87"
       },
 
-      "RoomTour":{
-        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
-        "title":"Have a Look Around",
-        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      "RoomTour": {
+        "subtitle": "CHOOSE THE BEST ROOM FOR YOU",
+        "title": "Take a Look – Land View",
+        "text": "Discover our land-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here.",
+        "subtitle2": "CHOOSE THE BEST ROOM FOR YOU",
+        "title2": "Take a Look – Sea View",
+        "text2": "Discover our sea-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here."
       },
 
       "OtherOptions":{
@@ -1307,10 +1385,13 @@
         "phone":"+90 242 524 57 87"
       },
 
-      "RoomTour":{
-        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
-        "title":"Have a Look Around",
-        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      "RoomTour": {
+        "subtitle": "CHOOSE THE BEST ROOM FOR YOU",
+        "title": "Take a Look – Land View",
+        "text": "Discover our land-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here.",
+        "subtitle2": "CHOOSE THE BEST ROOM FOR YOU",
+        "title2": "Take a Look – Sea View",
+        "text2": "Discover our sea-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here."
       },
 
       "OtherOptions":{
@@ -1387,10 +1468,13 @@
         "phone":"+90 242 524 57 87"
       },
 
-      "RoomTour":{
-        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
-        "title":"Have a Look Around",
-        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      "RoomTour": {
+        "subtitle": "CHOOSE THE BEST ROOM FOR YOU",
+        "title": "Take a Look – Land View",
+        "text": "Discover our land-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here.",
+        "subtitle2": "CHOOSE THE BEST ROOM FOR YOU",
+        "title2": "Take a Look – Sea View",
+        "text2": "Discover our sea-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here."
       },
 
       "OtherOptions":{
@@ -1468,10 +1552,13 @@
         "phone":"+90 242 524 57 87"
       },
 
-      "RoomTour":{
-        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
-        "title":"Have a Look Around",
-        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      "RoomTour": {
+        "subtitle": "CHOOSE THE BEST ROOM FOR YOU",
+        "title": "Take a Look – Land View",
+        "text": "Discover our land-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here.",
+        "subtitle2": "CHOOSE THE BEST ROOM FOR YOU",
+        "title2": "Take a Look – Sea View",
+        "text2": "Discover our sea-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here."
       },
 
       "OtherOptions":{
@@ -1540,10 +1627,13 @@
         "phone":"+90 242 524 57 87"
       },
 
-      "RoomTour":{
-        "subtitle":" CHOOSE THE BEST ROOM FOR YOU",
-        "title":"Have a Look Around",
-        "text":" Explore our rooms with a stunning 360° virtual tour. Take a closer look at every detail, find your perfect accommodation, and begin your dream vacation right here."
+      "RoomTour": {
+        "subtitle": "CHOOSE THE BEST ROOM FOR YOU",
+        "title": "Take a Look – Land View",
+        "text": "Discover our land-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here.",
+        "subtitle2": "CHOOSE THE BEST ROOM FOR YOU",
+        "title2": "Take a Look – Sea View",
+        "text2": "Discover our sea-view rooms with an amazing 360° virtual tour. Examine every detail up close, find your perfect stay, and start the holiday of your dreams right here."
       },
 
 
