@@ -1168,7 +1168,7 @@
       "kids":"Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle İletişime Geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1235,7 +1235,7 @@
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle iletişime geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1311,7 +1311,7 @@
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle iletişime geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1387,7 +1387,7 @@
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle iletişime geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1463,7 +1463,7 @@
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle iletişime geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1539,7 +1539,7 @@
       "adult": "Yetişkinler / Çocuklar",
       "booknow": "REZERVASYON YAPIN",
       "contact": "Bizimle iletişime geçin",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "SİZİN İÇİN EN İYİ ODAYI SEÇİN",
@@ -1888,7 +1888,8 @@
     "flavours": "Lezzetler",
     "spa": "Spa & Wellness",
     "kidsclub": "Kids Club",
-    "entertainment": "Eğlence"
+    "entertainment": "Eğlence",
+    "bar":"Barlar"
   },
 
   "CookiePopup":{

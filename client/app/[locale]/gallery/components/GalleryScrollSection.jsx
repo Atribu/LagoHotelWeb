@@ -246,6 +246,36 @@ import villa11 from "../images/villa/img-11.jpg"
 import villa12 from "../images/villa/img-12.jpg"
 import villa13 from "../images/villa/img-13.jpg"
 
+import bar1 from "../images/bar/bar1.jpg"
+import bar2 from "../images/bar/bar2.jpg"
+import bar3 from "../images/bar/bar3.jpg"
+import bar4 from "../images/bar/bar4.jpg"
+import bar5 from "../images/bar/bar5.jpg"
+import bar6 from "../images/bar/bar6.jpg"
+import bar7 from "../images/bar/bar7.jpg"
+import bar8 from "../images/bar/bar8.jpg"
+import bar9 from "../images/bar/bar9.jpg"
+import bar10 from "../images/bar/bar10.jpg"
+import bar11 from "../images/bar/bar11.jpg"
+import bar12 from "../images/bar/bar12.jpg"
+import bar13 from "../images/bar/bar13.jpg"
+import bar14 from "../images/bar/bar14.jpg"
+import bar15 from "../images/bar/bar15.jpg"
+import bar16 from "../images/bar/bar16.jpg"
+import bar17 from "../images/bar/bar17.jpg"
+import bar18 from "../images/bar/bar18.jpg"
+
+import lobby1 from "../images/lobby/Lobby1.jpg"
+import lobby2 from "../images/lobby/Lobby2.jpg"
+import lobby3 from "../images/lobby/Lobby3.jpg"
+import lobby4 from "../images/lobby/Lobby4.jpg"
+import lobby5 from "../images/lobby/Lobby5.jpg"
+import lobby6 from "../images/lobby/Lobby6.jpg"
+import lobby7 from "../images/lobby/Lobby7.jpg"
+import lobby8 from "../images/lobby/Lobby8.jpg"
+import lobby9 from "../images/lobby/Lobby9.jpg"
+import lobby10 from "../images/lobby/Lobby10.jpg"
+
 const GalleryScrollSection = () => {
   const [modalIndex, setModalIndex] = useState(null);
   const t = useTranslations('Gallery');
@@ -260,6 +290,8 @@ const imageCategories = {
   [t("spa")]: [spa1, spa2, spa3, spa4, spa5,spa6,spa7,spa8,spa9,spa10,spa11,spa12,spa13,spa14,spa15],
   [t("kidsclub")]: [kidsclub1, kidsclub2, kidsclub3, kidsclub4, kidsclub5,kidsclub6,kidsclub7,kidsclub8,kidsclub9,kidsclub10,kidsclub11,kidsclub12,kidsclub13,kidsclub14,kidsclub15,kidsclub16,kidsclub17,kidsclub18,kidsclub19,kidsclub20],
   [t("entertainment")]: [entertainment1, entertainment2, entertainment3, entertainment4, entertainment5,entertainment6,entertainment7],
+  [t("bar")]: [bar1, bar2, bar3, bar4, bar5, bar6, bar7, bar8, bar9, bar10, bar11, bar12, bar13, bar14, bar15, bar16, bar17, bar18],
+  [t("lobby")]: [lobby1, lobby2, lobby3, lobby4, lobby5, lobby6, lobby7, lobby8, lobby9, lobby10]
 }
 
 const categories = Object.keys(imageCategories)

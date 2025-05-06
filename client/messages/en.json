@@ -1232,7 +1232,7 @@
         "kids":"Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -1304,7 +1304,7 @@
         "adult":"Adults / Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -1384,7 +1384,7 @@
         "adult":"Adults / Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -1465,7 +1465,7 @@
         "adult":"Adults / Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -1537,7 +1537,7 @@
         "adult":"Adults / Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -1628,7 +1628,7 @@
         "adult":"Adults / Kids",
         "booknow":"BOOK NOW",
         "contact":"Contact us now ",
-        "phone":"+90 123 456 78 90"
+        "phone":"+90 242 524 57 87"
       },
 
       "RoomTour":{
@@ -2015,7 +2015,9 @@
     "flavours":"Flavours",
     "spa":"Spa & Wellness",
     "kidsclub":"Kids Club",
-    "entertainment":"Entertainment"
+    "entertainment":"Entertainment",
+    "bar":"Bars",
+    "lobby":"Lobby"
   },
 
   "CookiePopup":{

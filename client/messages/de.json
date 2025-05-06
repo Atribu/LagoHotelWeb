@@ -1122,7 +1122,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1189,7 +1189,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
     "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1265,7 +1265,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
   "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1340,7 +1340,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
    "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1415,7 +1415,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
    "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1490,7 +1490,7 @@
       "kids": "Kinder",
       "booknow": "JETZT BUCHEN",
       "contact": "Kontaktieren Sie uns jetzt",
-      "phone": "+90 123 456 78 90"
+      "phone": "+90 242 524 57 87"
     },
   "RoomTour": {
       "subtitle": "Wählen Sie das beste Zimmer für sich",
@@ -1834,7 +1834,9 @@
     "flavours": "Aromen",
     "spa": "Spa & Wellness",
     "kidsclub": "Kinderclub",
-    "entertainment": "Entertainment"
+    "entertainment": "Entertainment",
+    "bar":"Bar",
+    "lobby":"Lobby"
   },
 
   "CookiePopup": {
