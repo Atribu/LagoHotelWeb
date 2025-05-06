@@ -43,13 +43,13 @@ const gridData = [
     t("text4"),
     image: wedding,
   },
-  {
-    title: t("title5"),
-    span: t("subtitle5"),
-    description:
-    t("text5"),
-    image: flower,
-  },
+  // {
+  //   title: t("title5"),
+  //   span: t("subtitle5"),
+  //   description:
+  //   t("text5"),
+  //   image: flower,
+  // },
   {
     title: t("title6"),
     span: t("subtitle6"),

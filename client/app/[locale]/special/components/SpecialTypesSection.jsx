@@ -24,12 +24,12 @@ const SpecialTypesSection = () => {
       t("text2"),
       image: proposal,
     },
-    [t("key5")]: {
-      title: t("title5"),
-      description:
-      t("text5"),
-      image: wedding,
-    },
+    // [t("key5")]: {
+    //   title: t("title5"),
+    //   description:
+    //   t("text5"),
+    //   image: wedding,
+    // },
     [t("key4")]: {
       title: t("title4"),
       description:
