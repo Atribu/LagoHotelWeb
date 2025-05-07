@@ -19,6 +19,9 @@ import imgFamilySwim2 from "./images/oda4-2.webp";
 import imgTinyvilla from "./images/oda5-1.webp";
 import imgTinyvilla2 from "./images/oda5-2.webp";
 
+import imgDisable from "./disableroom/images/lago-engl1.webp"
+import imgDisable2 from "./disableroom/images/lago-engl2.webp"
+
 import imgDuplex from "./images/oda6-1.webp";
 import imgDuplex2 from "./images/odalar6-2.webp";
 import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
@@ -31,6 +34,7 @@ const page = () => {
   const room4 = useTranslations('Accommodation.RoomSection4');
   const room5 = useTranslations('Accommodation.RoomSection5');
   const room6 = useTranslations('Accommodation.RoomSection6');
+  const room7 = useTranslations('Accommodation.RoomSection7');
 
   return (
     <div className="overflow-hidden flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]">
@@ -93,6 +97,19 @@ const page = () => {
         buttonText={room5('buttonText')}
         link="/rooms/duplexfamilyroom" 
       />
+
+      <RoomsSectionReverse
+      id="disableroom"
+        img={imgDisable}
+        img2={imgDisable2}
+        header={room7('title')}
+        text={room7('subtitle')}
+         span={room7('m')}
+        span2={room7('view')}
+        buttonText={room7('buttonText')}
+        link="/rooms/disableroom" 
+      /> 
+
       {/* <RoomsSectionReverse
       id="tinyvilla"
         img={imgTinyvilla}

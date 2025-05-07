@@ -52,7 +52,8 @@
    "experiences":"Deneyimler",
     "kids":"Çocuklar",
       "spa": "Spa ve Wellness",
-  "special": "Özel"
+  "special": "Özel",
+  "bars":"Barlar ve Kafeler"
     },
 
     "TwoAnimationSection":{
@@ -171,6 +172,7 @@
   "buttonText4": "Aile Swım-up Odası",
   "buttonText5": "Dubleks Aile Odası",
   "buttonText6": "Tıny Villa",
+  "buttonText7":"Engelli Odası",
       "subtitle":"  Sizin ve Aileniz İçin Konforlu Bir Konaklama",
       "title":"Şık konaklama seçeneklerimizi keşfedin ve size en uygun ortamı bulun.",
       "text":" Lago Hotel’de deniz veya kara manzaralı konforlu odalar sunuyoruz. Her ihtiyaca hitap eden şık Swim-up odalar ve geniş Aile Suitleri arasından seçim yapabilirsiniz. Modern tasarımı lüks konforla buluşturan Lago Hotel, unutulmaz bir tatil için doğru adres.",
@@ -218,6 +220,13 @@
         "m":"50 m²",
         "view":"Kara/Deniz Manzarası",
         "buttonText":"Keşfet"
+      },
+      "RoomSection7": {
+        "title": "Engelli Odası",
+        "subtitle": "Engelli odalarımız, geniş iç mekanları ve 112 cm genişliğindeki kapılarıyla tekerlekli sandalye kullanımına uygundur. Odalarda özel tasarımlı banyolar, merkezi klima, LED TV, ücretsiz Wi-Fi ve balkon bulunmaktadır.",
+        "m": "30–32 m²",
+        "view": "Kara Manzarası",
+        "buttonText": "Keşfet"
       }
 
 

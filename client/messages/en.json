@@ -52,7 +52,8 @@
        "experiences":"Experiences",
         "kids":"Kids",
         "spa":"Spa & Wellness",
-        "special":"Special"
+        "special":"Special",
+         "bars":"Bars and Cafes"
     },
 
     "TwoAnimationSection":{
@@ -173,6 +174,7 @@
       "buttonText4":"Family Swim-up Room",
       "buttonText5":"Duplex Family Room",
       "buttonText6":"Tiny Villa",
+      "buttonText7":"Disable Room",
       "subtitle":" A Comfortable Stay for You and Your Family",
       "title":"Explore our elegant accommodations and find your perfect stay.",
       "text":"At Lago Hotel, we offer comfortable rooms with stunning sea or land views. Choose from stylish Swim-up Rooms and spacious Family Suites designed to cater to your every need. Combining modern design with luxurious comfort, Lago Hotel is the perfect place for an unforgettable holiday.",
@@ -220,6 +222,14 @@
         "subtitle":" Our Tiny Villa (100 m²), located within the garden, features two bedrooms with a connecting door (one double bed, two single beds), two bathrooms, and a terrace. Max capacity: 4 adults + 1 child.",
         "m":"50 m²",
         "view":"Land/Sea View",
+        "buttonText":"Explore"
+      },
+
+      "RoomSection7":{
+        "title":"Disable Room",
+        "subtitle":" Our Disable Rooms are specially designed with spacious interiors and doors of 112 cm width, suitable for wheelchair use. Rooms feature specially designed bathrooms, central air conditioning, LED TV, free Wi-Fi, and a balcony.",
+        "m":"30-32 m²",
+        "view":"Land View",
         "buttonText":"Explore"
       }
 
@@ -1197,15 +1207,15 @@
 
     "DisabledRoom": {
       "subtitle": "Comfort Designed for Everyone",
-      "title": "Accessible Room",
+      "title": "Disable Room",
       "text1": "Easy Access",
       "text2": "1-2 Adults",
       "text3": "Spacious Interior",
       "RoomInfo": {
         "subtitle": "Every Detail Considered for a Barrier-Free Vacation",
-        "title": "Accessible Room",
-        "text": "Our Accessible Rooms are specially designed with spacious interiors and doors of 112 cm width, suitable for wheelchair use. Rooms feature specially designed bathrooms, central air conditioning, LED TV, free Wi-Fi, and a balcony.",
-        "title2": "Accessible Room Facilities",
+        "title": "Disable Room",
+        "text": "Our Disable Rooms are specially designed with spacious interiors and doors of 112 cm width, suitable for wheelchair use. Rooms feature specially designed bathrooms, central air conditioning, LED TV, free Wi-Fi, and a balcony.",
+        "title2": "Disable Room Facilities",
         "list1": "----",
         "list2": "2 Bed",
         "list3": "Extra Baby Bed",

@@ -48,7 +48,8 @@
       "experiences": "Erlebnisse",
       "kids": "Kinder",
         "spa": "Spa ve Wellness",
-  "special": "Özel"
+  "special": "Özel", 
+"bars": "Bars und Cafés"
     },
     "TwoAnimationSection": {
       "subtitle": "Die Gelassenheit von Blau und Grün",
@@ -158,6 +159,7 @@
     "buttonText4": "Familien Swim-up Zimmer",
     "buttonText5": "Duplex Familienzimmer",
     "buttonText6": "Kleine Villa",
+    "buttonText7":"Barrierefreies Zimmer",
     "subtitle": "Ein komfortabler Aufenthalt für Sie und Ihre Familie",
     "title": "Entdecken Sie unsere eleganten Unterkünfte und finden Sie Ihren perfekten Aufenthalt.",
     "text": " Im Lago Hotel bieten wir komfortable Zimmer mit atemberaubendem Meer- oder Landschaftsblick. Wählen Sie zwischen stilvollen Swim-up Zimmern und geräumigen Familiensuiten, die all Ihren Bedürfnissen gerecht werden. Mit modernem Design und luxuriösem Komfort ist das Lago Hotel der perfekte Ort für einen unvergesslichen Urlaub.",
@@ -205,6 +207,13 @@
       "m": "50 m²",
       "view": "Land-/Meerblick",
       "buttonText": "Erkunden"
+    },
+    "RoomSection7": {
+      "title": "Barrierefreies Zimmer",
+      "subtitle": "Unsere barrierefreien Zimmer sind mit großzügigen Innenräumen und 112 cm breiten Türen für Rollstuhlfahrer ausgestattet. Die Zimmer verfügen über speziell gestaltete Bäder, zentrale Klimaanlage, LED-TV, kostenfreies WLAN und einen Balkon.",
+      "m": "30–32 m²",
+      "view": "Landschaftsblick",
+      "buttonText": "Entdecken"
     }
   },
   "RoomsParallax": {

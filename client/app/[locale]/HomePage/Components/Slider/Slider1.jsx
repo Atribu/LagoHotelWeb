@@ -111,14 +111,14 @@ export default function Slider1({ slides }) {
       link: "/kidsclub",
     },
     {
-      src: require("../../../spawellness/images/img-12.jpg"),
+      src: require("./Images/img-12K.webp"),
       title: t("spa"),
       link: "/spawellness",
     },
     {
-      src: require("../../../special/images/marriage1.webp"),
-      title: t("special"),
-      link: "/special",
+      src: require("./Images/fresh1K.webp"),
+      title: t("bars"),
+      link: "/barcafes",
     },
   ];
   const slidesOriginal = slides || DEFAULT_SLIDES;

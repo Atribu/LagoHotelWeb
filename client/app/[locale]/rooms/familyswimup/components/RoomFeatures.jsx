@@ -282,7 +282,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
                   htmlFor="adultCounter"
                   id="adultCounterLabel"
                   className="whitespace-nowrap">
-                  Adult(s)
+                  {t2("adult")}
                 </label>
                 <div className="flex items-center gap-1 lg:gap-2" id="adultCounter">
                   <button
@@ -335,7 +335,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
                   id="childrenCounterLabel"
                   className="whitespace-nowrap"
                 >
-                  Child(ren)
+                  {t2("kids")}
                 </label>
                 <div className="flex items-center gap-1 lg:gap-2" id="childrenCounter">
                   <button
@@ -400,7 +400,7 @@ const RoomFeatures = ({span, header, text, header2, header3, text2, iconsTexts, 
           <h4 className="text-[28px] font-marcellus font-normal text-lagoBlack leading-[120%] -tracking-[0.56px] leading-trim-both">{t2("contact")}</h4>
           <div className="flex gap-[11px] items-center justify-center w-full">
             <DarkPhoneSvg className="flex" width={20} height={20} />
-          <p className="text-[16px] text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]"> {t2("phone")}</p>
+          <a href="tel:+902425245787" className="text-[16px] cursor-pointer text-lagoBlack font-medium font-jost leading-[120%] -tracking-[0.32px]"> {t2("phone")}</a>
           </div>
         </div>
         </div>
