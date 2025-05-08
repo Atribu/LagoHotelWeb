@@ -98,7 +98,19 @@ const page = () => {
         link="/rooms/duplexfamilyroom" 
       />
 
-      <RoomsSectionReverse
+<RoomsSectionReverse
+      id="tinyvilla"
+        img={imgTinyvilla}
+        img2={imgTinyvilla2}
+        header={room6('title')}
+        text={room6('subtitle')}
+         span={room6('m')}
+        span2={room6('view')}
+        buttonText={room6('buttonText')}
+        link="/rooms/tinyvilla" 
+      />
+
+      <RoomsSection
       id="disableroom"
         img={imgDisable}
         img2={imgDisable2}
@@ -110,17 +122,7 @@ const page = () => {
         link="/rooms/disableroom" 
       /> 
 
-      {/* <RoomsSectionReverse
-      id="tinyvilla"
-        img={imgTinyvilla}
-        img2={imgTinyvilla2}
-        header={room6('title')}
-        text={room6('subtitle')}
-         span={room6('m')}
-        span2={room6('view')}
-        buttonText={room6('buttonText')}
-        link="/rooms/tinyvilla" 
-      /> */}
+     
 
       <RoomsParallaxSection />
       <ContactSection2/>
