@@ -29,6 +29,7 @@ const page = () => {
   return (
     <div className=' overflow-hidden flex flex-col items-center justify-center gap-[60px] md:gap-[80px] lg:gap-[100px] bg-[#fbfbfb]'>
      <div className='flex flex-col'>
+      ahmet
      <SubRoomBanner img={img1} span={t("subtitle")} header={t("title")} texts={subroomBannerText} baby={false}/>
      <SubroomCarousel images={carouselImages}/>
      </div>
