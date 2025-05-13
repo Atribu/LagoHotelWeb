@@ -66,28 +66,33 @@ export default function DashboardPage() {
   }, []);
 
   if (error) return <p className="text-red-500 p-6">{error}</p>;
-  if (!stats) return <p className="p-6">Yükleniyor...</p>;
 
-  return (
-    <div className="p-6 space-y-6">
-      <h1 className="text-2xl font-bold">👋 Hoş geldin, {user?.name || "Admin"}!</h1>
+return (
+  <div className="p-6 space-y-6">
+    <h1 className="text-2xl font-bold">👋 Hoş geldin, {user?.name || "Kullanıcı"}!</h1>
 
+    {!stats ? (
+      <p className="text-gray-600">İstatistikler yükleniyor...</p>
+    ) : (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <StatCard title="👥 Toplam Kullanıcı" value={stats.total} />
         <StatCard title="🧑‍💼 Admin Sayısı" value={stats.admins} />
         <StatCard title="👷‍♂️ Personel Sayısı" value={stats.personnel || 0} />
       </div>
+    )}
 
-      {latestUser && (
-        <div className="bg-white border rounded-lg shadow p-6 mt-6">
-          <h2 className="text-xl font-semibold mb-2">🆕 Son Eklenen Kullanıcı</h2>
-          <p><strong>Ad:</strong> {latestUser.name}</p>
-          <p><strong>Email:</strong> {latestUser.email}</p>
-          <p><strong>Rol:</strong> {latestUser.role}</p>
-        </div>
-      )}
-    </div>
-  );
+    {latestUser ? (
+      <div className="bg-white border rounded-lg shadow p-6 mt-6">
+        <h2 className="text-xl font-semibold mb-2">🆕 Son Eklenen Kullanıcı</h2>
+        <p><strong>Ad:</strong> {latestUser.name}</p>
+        <p><strong>Email:</strong> {latestUser.email}</p>
+        <p><strong>Rol:</strong> {latestUser.role}</p>
+      </div>
+    ) : (
+      <p className="text-gray-600">Son kullanıcı bilgisi yükleniyor...</p>
+    )}
+  </div>
+);
 }
 
 function StatCard({ title, value }) {

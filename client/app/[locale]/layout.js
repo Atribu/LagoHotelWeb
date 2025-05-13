@@ -4,7 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
-import ClientLayoutWrapper from "./ClientLayoutWrapper"
+import ClientLayoutWrapper from "./ClientLayoutWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,14 +24,15 @@ export const metadata = {
   },
 };
 
+// ✅ async function tanımlanıyor
 export default async function RootLayout({ children, params }) {
-  const locale = await params?.locale;
+  const locale = params.locale;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  setRequestLocale(locale);
+  await setRequestLocale(locale);
 
   return (
     <html lang={locale}>

@@ -19,6 +19,7 @@ app.use(express.json());
 const authRoutes = require('./routes/authRoutes');
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
+app.use('/uploads', express.static('public/uploads'));
 
 
 // MongoDB bağlantısı
