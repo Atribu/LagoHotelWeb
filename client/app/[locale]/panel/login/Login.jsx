@@ -36,7 +36,7 @@ export default function LoginForm() {
       setSuccess("Giriş başarılı!");
 
       // 🔹 Yönlendirme burada olmalı
-      router.push("/panel");
+      router.push("/panel/dashboard");
 
     } catch (err) {
       setError(err.message);
