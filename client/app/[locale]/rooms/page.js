@@ -98,7 +98,7 @@ const page = () => {
         link="/rooms/duplexfamilyroom" 
       />
 
-<RoomsSectionReverse
+{/* <RoomsSectionReverse
       id="tinyvilla"
         img={imgTinyvilla}
         img2={imgTinyvilla2}
@@ -108,9 +108,9 @@ const page = () => {
         span2={room6('view')}
         buttonText={room6('buttonText')}
         link="/rooms/tinyvilla" 
-      />
+      /> */}
 
-      <RoomsSection
+      <RoomsSectionReverse
       id="disableroom"
         img={imgDisable}
         img2={imgDisable2}
