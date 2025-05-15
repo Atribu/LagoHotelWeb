@@ -289,12 +289,12 @@ export default function Header() {
                   >
                        {t("disableroom")}
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/rooms/tinyvilla"
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                        {t("tinyvilla")}
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
