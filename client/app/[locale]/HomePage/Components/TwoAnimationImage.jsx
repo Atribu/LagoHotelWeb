@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import img1 from "./Images/sag3.jpg";
 import img2 from "./Images/sol3.jpg";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import {useTranslations} from 'next-intl';
 
 const TwoAnimationImage = () => {

@@ -8,7 +8,7 @@ import ClinaryInfoSection from "@/app/[locale]/restaurants/components/ClinaryInf
 import img1 from "../Images/beach1.webp";
 import img2 from "../Images/beach2.webp";
 import {useTranslations} from 'next-intl';
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import BeachClinary from "./BeachClinary";
 
 export default function Beach1() {

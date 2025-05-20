@@ -1,31 +1,28 @@
-import { useTransition, useEffect, useRef } from "react";
-import { useRouter, usePathname } from "next/navigation";
-import React, { useState } from "react";
+"use client"
+import React, { useTransition, useEffect, useState } from "react";
+import { usePathname,redirect } from "next/navigation";
 
 export default function LocaleSwitcherSelect({ children, defaultValue, label }) {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
   const [isPending, startTransition] = useTransition();
-  const pathname = usePathname();
+  const routeKey = usePathname();
 
-  // Sayfa yüklendiğinde scroll konumunu sessionStorage’dan oku
   useEffect(() => {
-    const savedScroll = sessionStorage.getItem("scrollPosition");
-    if (savedScroll) {
-      window.scrollTo(0, Number(savedScroll));
+    const saved = sessionStorage.getItem("scrollPosition");
+    if (saved) {
+      window.scrollTo(0, Number(saved));
       sessionStorage.removeItem("scrollPosition");
     }
-  }, [pathname]);
+  }, [routeKey]);
 
   function handleLangChange(lang) {
-    // Mevcut scroll pozisyonunu sessionStorage’da sakla
+    // scroll pozisyonunu sakla
     sessionStorage.setItem("scrollPosition", window.scrollY);
-    
     setIsOpen(false);
+
     startTransition(() => {
-      const currentLocale = pathname.split('/')[1];
-      const newPathname = pathname.replace(`/${currentLocale}`, `/${lang}`);
-      router.replace(newPathname);
+      // Next-Intl’in redirect’i ile doğru URL’e (ör: "/de/uber-uns") yönlendirir
+      redirect({ href: routeKey, locale: lang });
     });
   }
 
@@ -34,7 +31,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-row items-center justify-center gap-2 rounded-md px-[10px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-darkB uppercase w-full text-[16px]">
-        {defaultValue}
+        {label}
       </button>
       {isOpen && (
         <div className="absolute z-50 mt-0 rounded bg-darkB shadow-lg left-2 w-full ">

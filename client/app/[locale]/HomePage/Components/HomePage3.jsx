@@ -8,7 +8,7 @@ import SuperiorRoom from "./Images/Superior.webp";
 import Area from "./Icons/Area";
 import Tree from "./Icons/Tree";
 import Sea from "./Icons/Sea";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import {useTranslations} from 'next-intl';
 
 export default function HomePage3() {

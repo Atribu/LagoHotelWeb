@@ -3,7 +3,7 @@ import React from "react";
 import Banner from "../ourpolicies/components/Banner";
 import mainImg from "../HomePage/Components/Images/GreenAndBlueFull2.webp";
 import mainImg2 from "../gallery/images/genel/img-01.jpg";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import ExploreManavgat from "./components/ExploreManavgat";
 

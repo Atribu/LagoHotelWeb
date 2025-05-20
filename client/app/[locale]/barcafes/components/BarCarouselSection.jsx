@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
 import useCarousel from "embla-carousel-react";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 

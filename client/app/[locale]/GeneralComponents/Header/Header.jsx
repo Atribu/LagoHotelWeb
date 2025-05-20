@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Hamburger from "./Icons/Hamburger";
 import Phone from "./Icons/Phone";
 import TripAdvisor from "./Icons/SocialMedia/TripAdvisor";

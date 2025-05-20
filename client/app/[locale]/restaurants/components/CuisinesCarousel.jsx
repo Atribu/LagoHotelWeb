@@ -2,7 +2,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from 'next/image'
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import {useTranslations} from 'next-intl';
 
 const CuisinesCarousel = ({span,header,text, cuisines}) => {
