@@ -1,5 +1,5 @@
 "use client"; // Next.js App Router'da useState için gerekli
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import React, { useState } from "react";
 import honeymoon from "../images/honeymoon.webp";
 import proposal from "../images/proposal.webp";

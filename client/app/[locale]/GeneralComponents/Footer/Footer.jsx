@@ -8,7 +8,7 @@ import {
   FaTripadvisor
 } from "react-icons/fa";
 import Logo from "../Header/Icons/Logo.png";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import logosvg from "../Header/Icons/Asset2.svg";
 import Phone from "../Header/Icons/Phone";
 import LocationSvg from "./LocationSvg";

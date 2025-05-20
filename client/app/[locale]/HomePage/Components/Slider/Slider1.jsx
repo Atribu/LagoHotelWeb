@@ -6,7 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import {useTranslations} from 'next-intl';
 import { MdArrowBackIosNew,MdArrowForwardIos } from "react-icons/md";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 // Varsayılan slaytlar
 const DEFAULT_SLIDES = [

@@ -2,7 +2,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 // Tekrarlanan sütun yapısını modüler hale getiren bileşen
 const MissionColumn = ({

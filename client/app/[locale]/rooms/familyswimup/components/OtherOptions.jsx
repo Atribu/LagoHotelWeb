@@ -5,7 +5,7 @@ import options1 from "../images/option1.webp";
 import options2 from "../images/option2.webp";
 import options3 from "../images/option3.webp";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { BiArea, BiGroup } from "react-icons/bi";
 import {useTranslations} from 'next-intl';
 

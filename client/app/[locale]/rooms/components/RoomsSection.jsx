@@ -4,7 +4,7 @@ import TreeSvg from "./svg/TreeSvg";
 import ViewSvg from "./svg/ViewSvg";
 import Image from "next/image";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 const RoomsSection = ({img,img2, header,text,span,span2,link,id, buttonText}) => {
   return (
