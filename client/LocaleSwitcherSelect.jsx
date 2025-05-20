@@ -1,10 +1,14 @@
-"use client"
-import React, { useTransition, useEffect, useState } from "react";
-import { usePathname,redirect } from "next/navigation";
+"use client";
+
+import React, { useState, useEffect, useTransition } from "react";
+// ⭐️ next/navigation yerine navigation.ts’den alıyoruz:
+import { redirect, usePathname } from "@/i18n/navigation";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function LocaleSwitcherSelect({ children, defaultValue, label }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
+  // 🔑 burada internal rota anahtarını (ör: "/aboutus") alır
   const routeKey = usePathname();
 
   useEffect(() => {
@@ -32,9 +36,10 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         onClick={() => setIsOpen(!isOpen)}
         className="flex flex-row items-center justify-center gap-2 rounded-md px-[10px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-darkB uppercase w-full text-[16px]">
         {label}
+   
       </button>
       {isOpen && (
-        <div className="absolute z-50 mt-0 rounded bg-darkB shadow-lg left-2 w-full ">
+          <div className="absolute z-50 mt-0 rounded bg-darkB shadow-lg left-2 w-full ">
           <ul className="py-0">
             {React.Children.map(children, (child) => {
               if (child.props.value === defaultValue) return null;
@@ -45,7 +50,6 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
                   onClick={() => handleLangChange(child.props.value)}
                 >
                   {child.props.value}
-                  
                 </li>
               );
             })}
