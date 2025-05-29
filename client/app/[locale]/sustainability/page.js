@@ -6,8 +6,11 @@ import mainImg2 from "../gallery/images/genel/img-01.jpg";
 import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import ExploreManavgat from "./components/ExploreManavgat";
+import {useTranslations} from 'next-intl';
 
 const page = () => {
+  const t = useTranslations('Footer');
+
   const handleClick = (e) => {
     e.preventDefault();
     if (window.confirm("Sunumu indirmek istediğinize emin misiniz?")) {
@@ -20,7 +23,7 @@ const page = () => {
 
   return (
     <div className="flex flex-col w-screen min-h-screen items-center justify-start">
-      <Banner img={mainImg2} span="" header="Sustainability" />
+      <Banner img={mainImg2} span="" header={t("sustainability")} />
       <a
         href="/documents/SürdürülebilirlikRaporu2024-2025.pptx"
         onClick={handleClick}

@@ -288,7 +288,7 @@ export default function Footer() {
             </h4>
             <ul className="text-lagoGray2 font-jost text-[16px] font-normal leading-[20px] space-y-6">
               <li className="hover:text-white cursor-pointer">
-              <Link href="/spor"> {t('spor')}</Link>
+              <Link href="/sport"> {t('spor')}</Link>
                 </li>
                 <li className="hover:text-white cursor-pointer">
                 <Link href="/kidsclub">{t('kidsclub')}</Link> 
