@@ -17,7 +17,7 @@ import Beach5 from '../beachpools/Components/Beach5'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import {useTranslations} from 'next-intl';
 
-const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/spor", "/special","/restaurants", "/restaurants","/restaurants"]
+const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/sport", "/special","/restaurants", "/restaurants","/restaurants"]
 
 const page = () => {
   const t = useTranslations('BlogNews');

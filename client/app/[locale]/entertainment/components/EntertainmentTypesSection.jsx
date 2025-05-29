@@ -21,7 +21,7 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("description1"),
       image: fitness,
-      link:"/spor"
+      link:"/sport"
     },
     {
       title:t("title2"),
@@ -35,14 +35,14 @@ const EntertainmentTypesSection = () => {
       category: t("daytime"),
       description: t("description3"),
       image: water,
-      link:"/spor"
+      link:"/sport"
     },
     {
       title:t("title4"),
       category: t("daytime"),
       description: t("description4"),
       image: beachvoley,
-      link:"/spor"
+      link:"/sport"
     },
 
     {
@@ -50,7 +50,7 @@ const EntertainmentTypesSection = () => {
       category: t("nighttime"),
       description: t("description5"),
       image: sunset,
-      link:"/spor"
+      link:"/sport"
     },
     {
       title:t("title6"),
@@ -64,7 +64,7 @@ const EntertainmentTypesSection = () => {
       category: t("nighttime"),
       description: t("description7"),
       image: themed,
-      link:"/spor"
+      link:"/sport"
     }
   ];
 
