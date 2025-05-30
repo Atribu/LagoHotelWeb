@@ -14,7 +14,7 @@ const page = () => {
         span="Harmony with Nature"
         header="KVKK"/>
 
-<div className="flex w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[20px] md:gap-[30px] lg:gap-[50px] mb-8 font-jost">
+{/* <div className="flex w-[87.79%] md:w-[91.4%] lg:w-[76.8%] items-center justify-center gap-[20px] md:gap-[30px] lg:gap-[50px] mb-8 font-jost">
         <button onClick={() => setActiveTab("politikalar")} className={`flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer ${
             activeTab === "aydinlatma" ? "border-b border-[#676766]" : ""
           }`}>
@@ -33,7 +33,9 @@ const page = () => {
 
      <AydinlatmaMetni/>
       </>
-      )}
+      )} */}
+
+<AydinlatmaMetni/>
     </div>
   )
 }

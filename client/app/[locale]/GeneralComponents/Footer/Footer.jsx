@@ -68,6 +68,7 @@ export default function Footer() {
             Certificate
             </a>
           <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
+          <Link className="hover:text-white cursor-pointer" href="/kvkk">KVKK</Link>
 
           </div>
         </div>
@@ -335,6 +336,7 @@ export default function Footer() {
             Certificate
             </Link>
             <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
+            <Link className="hover:text-white cursor-pointer" href="/kvkk">KVKK</Link>
           </div>
         </div>
       </div>
@@ -547,6 +549,7 @@ export default function Footer() {
             Certificate
             </a>
           <Link className="hover:text-white cursor-pointer" href="/news">{t('blog')}</Link>
+          <Link className="hover:text-white cursor-pointer" href="/kvkk">KVKK</Link>
 
           </div>
         </div>

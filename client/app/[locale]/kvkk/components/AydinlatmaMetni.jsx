@@ -2,9 +2,9 @@ import React from 'react'
 
 const AydinlatmaMetni = () => {
   return (
-    <div className='flex w-screen items-center justify-center my-8 lg:my-16'>
+    <div className='flex w-screen items-center justify-center my-8 lg:my-10'>
     <div className='flex flex-col items-start justify-start w-[87.79%] md:w-[91.4%] lg:w-[76.8%] text-start gap-[10px] lg:gap-[20px]'>
-      <h3 className='text-[28px] md:text-[32px] lg:text-[36px] font-marcellus font-semibold mb-[30px]'>  WEB SİTESİ AYDINLATMA METNİ  </h3>
+      <h3 className='text-[28px] md:text-[32px] lg:text-[36px] font-marcellus font-semibold mb-[15px]'>  WEB SİTESİ AYDINLATMA METNİ  </h3>
       <h4 className='text-[24px] lg:text-[30px] font-jost font-medium mb-[15px]'>Veri Sorumlusu:</h4>
       <p className='text-[12px] lg:text-[14px] leading-normal font-jost'>Cebeci Group A.Ş.</p>
       <p className='text-[12px] lg:text-[14px] leading-normal font-jost'>Tebligat Adresi: Sorgun, Titreyengöl Mevkii, Manavgat / ANTALYA</p>
@@ -14,8 +14,8 @@ const AydinlatmaMetni = () => {
       <p className='text-[12px] lg:text-[14px] leading-normal font-jost'>LAGO HOTEL olarak, kişisel verilerinizin korunmasına büyük önem veriyoruz. 6698 sayılı Kişisel Verilerin Korunması Kanunu  ve ilgili diğer mevzuat çerçevesinde, kişisel verilerinizin hukuka uygun şekilde işlenmesi, saklanması ve güvenliğinin sağlanması amacıyla gerekli tüm idari ve teknik tedbirleri almaktayız.  </p>
       <p className='text-[14px] lg:text-[16px] leading-normal font-jost'>Bu metin, veri sorumlusu sıfatıyla Cebeci Group A.Ş. tarafından, KVKK’nın 10. maddesi uyarınca aydınlatma yükümlülüğünün yerine getirilmesi amacıyla hazırlanmıştır. </p>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>1. Kişisel Verilerinizin Hangi Amaçlarla İşleneceği</span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>1. Kişisel Verilerinizin Hangi Amaçlarla İşleneceği</span>
+      <ul className="font-jost">
         <li>Konaklama hizmetlerinin yürütülmesi ve rezervasyon işlemlerinin gerçekleştirilmesi </li>
         <li>Kimlik doğrulama işlemlerinin yerine getirilmesi        </li>
         <li>Misafir memnuniyetine yönelik süreçlerin yürütülmesi</li>
@@ -27,8 +27,8 @@ const AydinlatmaMetni = () => {
         <li>Bilgi güvenliği süreçlerinin denetimi ve geliştirilmesi        </li>
       </ul>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>2.İşlenen Kişisel Veri Kategorileri</span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>2.İşlenen Kişisel Veri Kategorileri</span>
+      <ul className="font-jost">
         <li>Kimlik Bilgileri: Ad-soyad, T.C. kimlik no, uyruk, doğum tarihi        </li>
         <li>İletişim Bilgileri: Telefon, e-posta, adres        </li>
         <li>Konaklama Bilgileri: Rezervasyon, giriş-çıkış tarihleri, şikayet ve talepler        </li>
@@ -38,8 +38,8 @@ const AydinlatmaMetni = () => {
       </ul>
 
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>3. Kişisel Verilerin Toplanma Yöntemi ve Hukuki Sebepleri      </span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>3. Kişisel Verilerin Toplanma Yöntemi ve Hukuki Sebepleri      </span>
+      <ul className="font-jost">
         <li>Verileriniz; rezervasyon formları, yazılı/sözlü bildirimler, web formları, çağrı merkezi, acente talepleri ve kamera sistemleri gibi kanallardan toplanır.        </li>
         <li>Kanunlarda açıkça öngörülmesi (Kimlik Bildirme Kanunu, Vergi Usul Kanunu vb.)        </li>
         <li>Bir sözleşmenin kurulması ve ifasıyla doğrudan ilgili olması        </li>
@@ -48,26 +48,26 @@ const AydinlatmaMetni = () => {
         <li>Açık rıza bulunması halinde sağlık ve özel nitelikli verilerin işlenmesi        </li>
       </ul>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>4. Kişisel Verilerin Aktarılabileceği Taraflar ve Amaçları      </span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>4. Kişisel Verilerin Aktarılabileceği Taraflar ve Amaçları      </span>
+      <ul className="font-jost">
         <li>Yetkili kamu kurum ve kuruluşları (Nüfus İdaresi, Emniyet, Vergi Daireleri vb.)        </li>
         <li>Grup şirketimize bağlı iştiraklerimiz        </li>
         <li>Tedarikçiler ve hizmet sağlayıcılar (ör. rezervasyon yazılım firmaları)        </li>
         <li>Açık rıza alınması halinde yurt dışındaki hizmet sağlayıcı firmalar         </li>
       </ul>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>5. Yurt Dışına Veri Aktarımı     </span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>5. Yurt Dışına Veri Aktarımı     </span>
+      <ul className="font-jost">
         <li>Kişisel verileriniz yalnızca açık rızanızın bulunması veya Kurul tarafından yeterli koruma sağlandığı ilan edilen ülkelere aktarım şartlarının sağlanması durumunda yurt dışına aktarılabilecektir.</li>
       </ul>
     
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>6. Kişisel Verilerin Saklanma Süresi     </span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>6. Kişisel Verilerin Saklanma Süresi     </span>
+      <ul className="font-jost">
         <li>İlgili mevzuata belirtilen sürelere riayet edilir.     </li>
       </ul>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>7. Veri Sahibi Olarak Haklarınız   </span>
-      <ul>
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>7. Veri Sahibi Olarak Haklarınız   </span>
+      <ul className="font-jost">
         <li>Verinizin işlenip işlenmediğini öğrenme       </li>
         <li>İşlenmişse buna ilişkin bilgi talep etme    </li>
         <li>İşlenme amacını öğrenme ve uygun kullanılıp kullanılmadığını sorgulama   </li>
@@ -79,11 +79,11 @@ const AydinlatmaMetni = () => {
         <li>Kanuna aykırı işlem nedeniyle zararın giderilmesini talep etme   </li>
       </ul>
 
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>8. Başvuru Yolları     Veri sorumlsuna başvuru formumuzu doldurmanıza istinaden;
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>8. Başvuru Yolları     Veri sorumlsuna başvuru formumuzu doldurmanıza istinaden;
       </span>
-      <span className='text-[12px] lg:text-[14px] leading-normal font-jost font-bold'>Veri sorumlsuna başvuru formumuzu doldurmanıza istinaden;
+      <span className='text-[14px] lg:text-[16px] leading-normal font-jost font-bold'>Veri sorumlsuna başvuru formumuzu doldurmanıza istinaden;
       </span>
-      <ul>
+      <ul className="font-jost">
         <li>Yazılı olarak,  Cebeci Group A.Ş. - Sorgun, Titreyengöl Mevkii, Manavgat / ANTALYA      </li>
         <li>E-posta: kvkk@lagohotel.com e-posta seçeneğini kullanabilmeniz için, tarafımıza daha önceden bildirmiş olduğunuz e-posta ile işlem yapmanız gerekmektedir.  </li>
         <li>KEP adresi: cebecigroup@hs01.kep.tr
