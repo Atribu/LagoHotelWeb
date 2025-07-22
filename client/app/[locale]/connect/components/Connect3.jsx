@@ -3,7 +3,7 @@ import React from 'react'
 import {useTranslations} from 'next-intl';
 
 const Connect3 = () => {
-  const t = useTranslations('Contact.Form');
+  const t = useTranslations('Contact');
 
   return (
     <div className="flex flex-col items-center w-full px-4 py-8">
@@ -11,7 +11,7 @@ const Connect3 = () => {
 
       {/* Başlık */}
       <h2 className="text-[32px] lg:text-[40px] font-marcellus font-normal text-center mt-5 mb-5">
-        {t("address")}
+        {t("contact1")}
       </h2>
 
       {/* Yatay çizgi: Başlığın hemen altında */}
