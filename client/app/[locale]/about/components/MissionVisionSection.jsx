@@ -2,7 +2,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import { Link } from '@/i18n/navigation';
+import { Link } from "@/i18n/navigation";
+import imgVizyonMission from "../images/vizyonmisyon.png"
 
 // Tekrarlanan sütun yapısını modüler hale getiren bileşen
 const MissionColumn = ({
@@ -36,7 +37,7 @@ const MissionColumn = ({
         href={link}
         className="flex w-[170.585px] whitespace-nowrap py-[16px] px-[32px] font-jost text-[14px] lg:text-[16px] text-lagoBrown font-medium leading-[30px] max-h-[41px] items-center justify-center border border-lagoBrown shadow-buttonCustom uppercase"
       >
-      {buttonText}
+        {buttonText}
       </Link>
     )}
   </div>
@@ -53,7 +54,6 @@ const MissionVisionSection = ({
   link2,
   buttonText
 }) => {
-  // embla carousel hook'u (mobilde kullanılacak)
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "start",
@@ -62,12 +62,19 @@ const MissionVisionSection = ({
 
   const [selectedIndex, setSelectedIndex] = useState(0);
 
+  const handleDownload = (e, href, label) => {
+    e.preventDefault();
+    if (window.confirm(`“${label}” dosyasını indirmek istediğinize emin misiniz?`)) {
+      window.open(href, "_blank");
+    }
+  };
+
   const scrollPrev = useCallback(() => {
-    if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
+    emblaApi?.scrollPrev();
   }, [emblaApi]);
 
   const scrollNext = useCallback(() => {
-    if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
+    emblaApi?.scrollNext();
   }, [emblaApi]);
 
   useEffect(() => {
@@ -101,7 +108,7 @@ const MissionVisionSection = ({
             img={leftImg}
             spanText={texts2[0]}
             heading={texts2[1]}
-            paragraph={texts[2]}
+            paragraph={texts2[2]}
             showLink={showLink}
             link={link1}
             buttonText={buttonText}
@@ -117,6 +124,23 @@ const MissionVisionSection = ({
           />
         </div>
 
+        {/* PDF indirme linki */}
+        <div className="flex flex-col items-center justify-center w-full gap-2 gap-4">
+          <a
+            href="/documents/Vizyonmisyon.pdf"
+            onClick={(e) =>
+              handleDownload(e, "/documents/Vizyonmisyon.pdf", "Vizyon Misyon")
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b hover:text-lagoBlack2 hover:border-lagoBlack2 hover:font-medium whitespace-nowrap font-jost"
+          >
+            Vizyon & Misyon
+          </a>
+
+          <Image src={imgVizyonMission} alt="vizyonmisyon" width={imgVizyonMission.width} height={imgVizyonMission.height}/>
+        </div>
+
         {/* Mobil görünüm: Carousel (md:hidden) */}
         <div className="md:hidden w-full overflow-hidden" ref={emblaRef}>
           <div className="flex">
@@ -125,7 +149,7 @@ const MissionVisionSection = ({
                 img={leftImg}
                 spanText={texts2[0]}
                 heading={texts2[1]}
-                paragraph={texts[2]}
+                paragraph={texts2[2]}
                 showLink={showLink}
                 link={link1}
                 buttonText={buttonText}
@@ -134,8 +158,8 @@ const MissionVisionSection = ({
             <div className="flex-[0_0_100%]">
               <MissionColumn
                 img={rightImg}
-                spanText={texts2[0]}
-                heading={texts2[1]}
+                spanText={texts3[0]}
+                heading={texts3[1]}
                 paragraph={texts3[2]}
                 showLink={showLink}
                 link={link2}
@@ -144,8 +168,6 @@ const MissionVisionSection = ({
             </div>
           </div>
         </div>
-
-        {/* (İsteğe bağlı) Mobil Carousel kontrol butonları veya oklar ekleyebilirsiniz */}
       </div>
     </div>
   );
