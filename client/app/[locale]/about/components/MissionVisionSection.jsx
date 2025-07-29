@@ -126,18 +126,7 @@ const MissionVisionSection = ({
 
         {/* PDF indirme linki */}
         <div className="flex flex-col items-center justify-center w-full gap-2 gap-4">
-          <a
-            href="/documents/Vizyonmisyon.pdf"
-            onClick={(e) =>
-              handleDownload(e, "/documents/Vizyonmisyon.pdf", "Vizyon Misyon")
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center py-[10px] px-[20px] text-[20px] cursor-pointer border-b hover:text-lagoBlack2 hover:border-lagoBlack2 hover:font-medium whitespace-nowrap font-jost"
-          >
-            Vizyon & Misyon
-          </a>
-
+        
           <Image src={imgVizyonMission} alt="vizyonmisyon" width={imgVizyonMission.width} height={imgVizyonMission.height}/>
         </div>
 
