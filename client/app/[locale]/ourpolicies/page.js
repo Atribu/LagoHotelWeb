@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import cevreImg from "./images/cevre.png";
 import enerjiImg from "./images/enerji.png";
 import peopleImg from "./images/people.png";
+import entegre from "./images/entegre.png"
 import workImg from "./images/work.png";
 import childImg from "./images/child.png";
 import people2Img from "./images/people2.png";
@@ -210,6 +211,24 @@ Misafirler ve çalışanlarımızla düzenli plaj temizliği yaparak, plajlarım
 Çeşitli yerel hayır kurumlarına yıllık mali katkılarda bulunuyoruz.
 "
         img={uyumImg}
+      />
+
+      <InfoSection
+        isImageLeft={true}
+        showLink={false}
+        span=""
+        header=" ENTEGRE YÖNETİM SİSTEMLERİ POLİTİKAMIZ"
+        text="Misafir Şartları, Yasal Şartlar, Kurumsal Gereklilikler ve Standartlarla ilgili uygunluk yükümlülüklerine bağlı kalmak,
+Yönetim sistemleri proseslerini ve hizmet kalitesini, beklentiler doğrultusunda sürekli iyileştirmek,
+Gıda güvenliği standartlarına uygun yiyecek, içecek hazırlamak ve sunmak,
+Hizmetlerimizde Çevresel kirliliği önlemek, iklim değişikliğini azaltmak, biyo çeşitliliği korumak, sürdürebilir kaynak kullanımını desteklemek ve iklim değişikliğini önlemek,
+Misafirlerimizin şikâyet ve taleplerine hızlı çözümler üreterek memnuniyeti arttırmak, şikayetlerin tekrarını önleyecek aksiyonlar uygulamak,"
+        text2="Hizmet konseptimiz dahilinde Geleneksel Türk konukseverliğini en iyi şekilde sunarak misafir beklentilerini yerine getirmek,
+Tesisimizin çalışanlarımız açısından cazibe merkezi olmasını sağlayarak, eğitim ve gelişimlerini sağlanmak,
+İş arkadaşlarımızın çalışma koşullarını öneri ve beklentilerini değerlendirerek sürekli iyileştirmek, Tehlikeleri ortadan kaldırarak İSG risklerini azaltarak güvenli ve sağlıklı bir iş ortamı sağlamak, 
+Teknoloji ve dijital dönüşüme önem vererek tesisin, misafirlerin ve paydaşların bilgi ve verilerinin güvenliğini sağlamak,
+Lago Ailesi üyelerinin sorumluluğundadır."
+        img={entegre}
       />
        </>
       )}
