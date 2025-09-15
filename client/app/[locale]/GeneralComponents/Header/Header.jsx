@@ -54,7 +54,7 @@ export default function Header() {
 
   return (
     <div className="flex w-screen">
-      <header className="absolute right-0  left-0 w-full z-[99] items-center justify-center">
+      <header className="absolute right-0 left-0 w-full z-[99] items-center justify-center">
         <div
           className="
             relative

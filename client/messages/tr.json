@@ -2021,6 +2021,50 @@
     "text5":"20 km uzaklıktaki Oymapınar Baraj Gölü, etkileyici manzaralar ve tekne turlarıyla doğa severlerin uğrak noktasıdır. Göl çevresinde yürüyüş yapabilir ya da yerel kafelerde manzaranın tadını çıkarabilirsiniz.",
     "title6":"Seleukeia Antik Kenti",
     "text6":"Sorgun ormanları içinde, yaklaşık 15 km mesafede yer alan Seleukeia, sessizliği ve tarihi atmosferiyle dikkat çeker. Doğa ile tarihin iç içe geçtiği bu bölge, kalabalıktan uzak bir keşif imkanı sunar."
+  },
+
+  "IconSection":{
+    "Dikkat": "DİKKAT EDİLMESİ GEREKEN HUSUSLAR",
+   "Icon1":{
+     "header1":"İBADETHANELER",
+    "list1":"Ziyaretçilerin uygun bir şekilde giyinmesi önemlidir, bu genellikle omuz ve dizleri kapatan kıyafetleri içerir",
+    "list2":"Kadınlar başlarını örterek girmelidir",
+    "list3":"Ayakkabı ile girilmemelidir",
+    "list4":"Yüksek sesle konuşulmamalı ve ibadet eden insanlar rahatsız edilmemelidir.",
+    "list5":"Genellikle fotoğraf çekme konusunda bir yasak olmamakla beraber gerekli izinler alınmalıdır."
+   },
+
+     "Icon2":{
+     "header1":"MÜZELER",
+    "list1":"Diğer ziyaretçileri rahatsız etmemek için sesiz olunmalıdır.",
+    "list2":"Müzelerin fotoğraf çekme kuralları müze girişlerinde kontrol edilmelidir.Bazı eserlerin fotoğraflarının çekilmesi yasak olabilir.",
+    "list3":"Eserlere dokunulmamalıdır",
+    "list4":"Yiyecek ve içecek tüketmek yasaktır.",
+    "list5":"Çocuklarınızı kontrol altında tutun."
+   },
+
+     "Icon3":{
+     "header1":"DOĞAL ALANLAR",
+    "list1":"Bitki ve hayvan örtüsüne zarar vermemek için doğayı koruma bilinciyle hareket edilmelidir.",
+    "list2":"Çöpler toplanmalı ve doğaya zarar verecek herhangi bir eşya bırakılmamalıdır.",
+    "list3":"Ateş yakma izni yoksa kesinlikle ateş yakılmamalıdır.",
+    "list4":"Kamp yapmak için belirlenmiş kamp alanlarını kullanın."
+   },
+
+     "Icon4":{
+     "header1":"AVCILIK",
+    "list1":"Avcılık için gerekli olan lisans ve izinler alınmalıdır.",
+    "list2":"Avlanma sezonuna uyulmalıdır",
+    "list3":"Bir günde avlayabileceğiniz maksimum hayvan sayısı aşılmamalıdır.",
+    "list4":"Koruma altındaki hayvanlar kesinlikle avlanmamalıdır."
+   },
+
+     "Icon5":{
+     "header1":"GÜNEŞTEN KORUNUN",
+    "list1":"Antalya’nın yüksek sıcaklarından vücudunuzu kesinlikle korumanız gerekmektedir.",
+    "list2":"UV ışınlarından korunmak için en az 50 faktöriyel güneş kremleri kullanılmalıdır.",
+    "list3":"Güneş kremi kullanmamak ciddi rahatsızlıklara sebebiyet verebilir."
+   }
   }
   
 }

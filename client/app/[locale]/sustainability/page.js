@@ -7,6 +7,7 @@ import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import ExploreManavgat from "./components/ExploreManavgat";
 import {useTranslations} from 'next-intl';
+import IconSection from "./components/IconSection";
 
 const page = () => {
   const t = useTranslations('Footer');
@@ -34,6 +35,7 @@ const page = () => {
         Sürdürülebilirlik Raporu 2024-2025
       </a>
       <ExploreManavgat/>
+      <IconSection/>
     </div>
   );
 };

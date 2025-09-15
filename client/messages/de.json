@@ -1967,7 +1967,47 @@
     "text5":"Der 20 km entfernte Oymapınar-Stausee ist bekannt für seine atemberaubenden Ausblicke und Bootstouren. Besucher können Spaziergänge rund um den See genießen oder in lokalen Cafés entspannen.",
     "title6":"Antike Stadt Seleukeia  ",
     "text6":"Eingebettet in die Sorgun-Wälder, etwa 15 km von Titreyengöl entfernt, bietet Seleukeia eine ruhige historische Atmosphäre. Ideal für diejenigen, die eine friedliche Erkundung abseits der Massen suchen."
+  },
+
+  "IconSection": {
+    "Dikkat": "WICHTIGE HINWEISE ZU BEACHTEN",
+  "Icon1": {
+    "header1": "GOTTESHÄUSER",
+    "list1": "Es ist wichtig, dass Besucher angemessen gekleidet sind, in der Regel sollten Schultern und Knie bedeckt sein.",
+    "list2": "Frauen sollten beim Betreten ihr Haupt bedecken.",
+    "list3": "Das Betreten mit Schuhen ist nicht erlaubt.",
+    "list4": "Lautes Sprechen sollte vermieden werden und betende Menschen dürfen nicht gestört werden.",
+    "list5": "Obwohl Fotografieren in der Regel nicht verboten ist, sollten die erforderlichen Genehmigungen eingeholt werden."
+  },
+  "Icon2": {
+    "header1": "MUSEEN",
+    "list1": "Seien Sie leise, um andere Besucher nicht zu stören.",
+    "list2": "Überprüfen Sie die Fotoregeln des Museums am Eingang. Manche Exponate dürfen nicht fotografiert werden.",
+    "list3": "Artefakte dürfen nicht berührt werden.",
+    "list4": "Essen und Trinken ist verboten.",
+    "list5": "Behalten Sie Ihre Kinder unter Kontrolle."
+  },
+  "Icon3": {
+    "header1": "NATURGEBIETE",
+    "list1": "Handeln Sie mit Umweltbewusstsein, um Pflanzen und Tiere nicht zu schädigen.",
+    "list2": "Müll sollte eingesammelt und nichts Schädliches in der Natur zurückgelassen werden.",
+    "list3": "Feuer darf nur entzündet werden, wenn es ausdrücklich erlaubt ist.",
+    "list4": "Nutzen Sie ausgewiesene Campingplätze."
+  },
+  "Icon4": {
+    "header1": "JAGD",
+    "list1": "Erforderliche Lizenzen und Genehmigungen für die Jagd müssen eingeholt werden.",
+    "list2": "Die Jagdsaison muss eingehalten werden.",
+    "list3": "Die maximal erlaubte Anzahl von Tieren pro Tag darf nicht überschritten werden.",
+    "list4": "Geschützte Tiere dürfen keinesfalls gejagt werden."
+  },
+  "Icon5": {
+    "header1": "SCHUTZ VOR DER SONNE",
+    "list1": "Sie müssen Ihren Körper vor den hohen Temperaturen Antalyas schützen.",
+    "list2": "Verwenden Sie Sonnencreme mit mindestens LSF 50 zum Schutz vor UV-Strahlen.",
+    "list3": "Die Nichtverwendung von Sonnencreme kann ernsthafte Gesundheitsprobleme verursachen."
   }
+}
   
 
   }
