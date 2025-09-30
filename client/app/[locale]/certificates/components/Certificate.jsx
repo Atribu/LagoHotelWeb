@@ -6,8 +6,11 @@ import img1 from "../images/certificate1tr.png"
 import img2 from "../images/certificate1en.png"
 import img3 from "../images/certificate2.png"
 import img4 from "../images/certificate3.png"
+import img5 from "../images/certificate4.jpeg"
+import img6 from "../images/certificate5.jpeg"
+import img7 from "../images/certificate6.jpeg"
 
-const images = [img1,img2,img3,img4];
+const images = [img1,img2,img3,img4,img5,img6,img7];
 
 const Certificate = () => {
   const [modalImage, setModalImage] = useState(null) 
@@ -37,7 +40,7 @@ const Certificate = () => {
 
   return (
     <div className="flex w-screen h-auto items-center justify-center  max-w-[1440px] mt-[50px] mb-[100px]">
-      <div className="flex flex-col w-[93.89%] ml-[6.1%] md:ml-[4.3%] md:mr-[4.3%] md:w-[91.4%] lg:ml-0 lg:mr-0 xl:w-[76.8%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
+      <div className="flex flex-col w-[93.89%] ml-[6.1%] md:ml-[4.3%] md:mr-[4.3%] md:w-[91.4%] lg:ml-0 lg:mr-0 xl:w-[89.8%] items-center justify-center gap-[30px] lg:gap-[50px] lg:min-w-[960px]">
     
       {/* <span className="text-[12px] font-medium uppercase tracking-[0.48px] leading-[14px] font-jost"></span> */}
     <h2 className="text-[28px] md:text-[32px] lg:text-[48px] font-marcellus font-normal leading-[120%] lg:leading-[57.6px] lg:capsizedText2">
@@ -48,7 +51,7 @@ const Certificate = () => {
         <div className="overflow-hidden w-full" ref={emblaRef}>
           <div  className="flex">
             {images.map((image,index) => (
-              <div key={index} className="flex-[0_0_80%] md:flex-[0_0_50%] lg:flex-[0_0_25%] xl:flex-[0_0_23.5%] min-w-0 mr-[3%] md:mr-[1.5%]">
+              <div key={index} className="flex-[0_0_80%] md:flex-[0_0_35%] lg:flex-[0_0_20%] xl:flex-[0_0_16.5%] min-w-0 mr-[3%] md:mr-[1.5%]">
               <div className="flex flex-col w-full items-start justify-center gap-[15px] md:gap-[25px] font-jost text-black "  onClick={() => setModalImage(image)} >
                 <Image 
                   src={image} 
