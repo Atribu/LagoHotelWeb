@@ -316,11 +316,12 @@ export default function Header() {
             >
             {t('barsandcafes')}
             </Link>
-            <Link
-              href="/entertainment"
-              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+          
+               <Link
+              href="/gallery"
+              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              {t('experiences')}
+              {t('gallery')}
             </Link>
             <Link
               href="/kidsclub"
@@ -341,11 +342,11 @@ export default function Header() {
             >
              {t('special')}
             </Link>
-            <Link
-              href="/gallery"
-              className="block text-white  font-normal leading-normal w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
+           <Link
+              href="/entertainment"
+              className="block font-normal leading-[26.667px] w-[70%]  md:w-[90%] lg:max-w-[360.114px] py-[11px] border-b border-b-[#A6A6A6] lg:border-none"
             >
-              {t('gallery')}
+              {t('experiences')}
             </Link>
             <Link
               href="/about"
