@@ -284,6 +284,7 @@ const GalleryScrollSection = () => {
 const imageCategories = {
   [t("general")]: [img1,img2, img3, img7, img11, img12, img19, img25, img26, img27, img28, img29, img30, img32, img35, img39, img42, img44, img45,img46,img47,img65,img66,img72,img91, img92, img93,img94,img95,img96,img77,img78,img79,img89,img90],
   [t("rooms")]: [rooms1, rooms2, rooms3, rooms4, rooms5,rooms6,rooms7,rooms8,rooms9,rooms10,rooms11,rooms12,rooms13,rooms14,rooms15,rooms16,rooms17,rooms18,rooms19,rooms20,rooms21,rooms22,rooms23,rooms24,rooms25],
+  // [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],
   [t("pool")]: [pool1, pool2, pool3, pool4, pool5,pool6,pool7,pool8,pool9,pool10,pool11,pool12,pool13,pool14,pool15,pool16,pool17,pool18,pool19,pool20,pool21,pool22,pool23,pool24,pool25,pool26,pool27,pool28,pool29],
   [t("flavours")]: [flavours1, flavours2, flavours3, flavours4, flavours5,flavours6,flavours7,flavours8,flavours9,flavours10,flavours11,flavours12,flavours13,flavours14,flavours15,flavours16,flavours17,flavours18,flavours19,flavours20,flavours21,flavours22,flavours23,flavours24,flavours25,flavours26,flavours27,flavours28,flavours29,flavours30,flavours31,flavours32,flavours33,flavours34],
   [t("spa")]: [spa1, spa2, spa3, spa4, spa5,spa6,spa7,spa8,spa9,spa10,spa11,spa12,spa13,spa14,spa15],
@@ -409,6 +410,3 @@ const categories = Object.keys(imageCategories)
 }
 
 export default GalleryScrollSection
-
-
-//  [t("villa")]: [villa1, villa2, villa3, villa4, villa5,villa6,villa7,villa8,villa9,villa10,villa11,villa12,villa13],

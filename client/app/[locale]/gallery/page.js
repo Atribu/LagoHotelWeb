@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import MainBanner2 from '../GeneralComponents/MainBanner2'
 import mainImg from "./images/maingallery.webp"
