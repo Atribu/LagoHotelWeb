@@ -16,6 +16,7 @@ const page = () => {
      <GalleryScrollSection/>
      </div>
       <ContactSection2/>
+      
     </div>
   )
 }
