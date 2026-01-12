@@ -282,6 +282,7 @@ export default function Header() {
                     className="block text-[14px] text-[#FBFBFB] leading-[29.639px] uppercase"
                   >
                        {t("duplex")}
+                       
                   </Link>
                   <Link
                     href="/rooms/disableroom"
