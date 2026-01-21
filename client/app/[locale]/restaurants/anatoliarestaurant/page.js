@@ -20,7 +20,7 @@ import { useTranslations } from "next-intl";
 
 const images=[img1,img2,img3,img4,img5]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('AnatoliaRestaurants');
   const t2 = useTranslations('AnatoliaRestaurants.ClinaryInfoSection');
   const t3 = useTranslations('AnatoliaRestaurants.RoomTour');
@@ -68,4 +68,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

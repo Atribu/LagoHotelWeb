@@ -20,7 +20,7 @@ import {useTranslations} from 'next-intl';
 
 const momentImages=[img1,img2,img3]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('KidsClub')
   const t2 = useTranslations('KidsClub.CuisinesCarousel');
 
@@ -69,4 +69,4 @@ const kids = [
   )
 }
 
-export default page
+export default Page

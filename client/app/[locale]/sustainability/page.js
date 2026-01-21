@@ -9,7 +9,7 @@ import ExploreManavgat from "./components/ExploreManavgat";
 import {useTranslations} from 'next-intl';
 import IconSection from "./components/IconSection";
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Footer');
 
   const handleClick = (e) => {
@@ -40,4 +40,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

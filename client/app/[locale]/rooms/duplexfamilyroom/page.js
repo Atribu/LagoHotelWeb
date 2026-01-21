@@ -17,7 +17,7 @@ import img8 from "./images/SRF_3254.jpg";
 
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('DuplexFamilyRoom');
   const t2 = useTranslations('DuplexFamilyRoom.RoomInfo');
   const t3 = useTranslations('DuplexFamilyRoom.RoomTour');
@@ -45,4 +45,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

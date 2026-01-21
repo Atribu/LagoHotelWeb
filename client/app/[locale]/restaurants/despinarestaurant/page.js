@@ -28,7 +28,7 @@ import { useTranslations } from "next-intl";
 const images=[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10]
 
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('DespinaRestaurants');
   const t2 = useTranslations('DespinaRestaurants.ClinaryInfoSection');
   const t3 = useTranslations('DespinaRestaurants.RoomTour');
@@ -77,4 +77,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

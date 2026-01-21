@@ -31,7 +31,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,gallery11,gallery12,gallery13];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('JoieBar');
   const t2 = useTranslations('JoieBar.ClinaryInfoSection');
   const t3 = useTranslations('JoieBar.RoomTour');
@@ -90,4 +90,4 @@ const otherOptions = [
   )
 }
 
-export default page
+export default Page

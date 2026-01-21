@@ -23,7 +23,7 @@ import {useTranslations} from 'next-intl';
 const galleryImages =[gallery1,gallery2,gallery3]
 const activitiesImage=[yoga,zumba,hitcardio,step]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Fitness');
   const t2 = useTranslations('Fitness.InfoSection');
   const t3 = useTranslations('Fitness.SpaGallery');
@@ -48,4 +48,4 @@ const activitiesHeaders=[t4("massage1"),t4("massage2"),t4("massage3"),t4("massag
   )
 }
 
-export default page
+export default Page

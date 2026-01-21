@@ -20,7 +20,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery1,gallery2];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('MignonBar');
   const t2 = useTranslations('MignonBar.ClinaryInfoSection');
   const t3 = useTranslations('MignonBar.RoomTour');
@@ -79,4 +79,4 @@ const otherOptions = [
   )
 }
 
-export default page
+export default Page

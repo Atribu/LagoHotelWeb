@@ -25,7 +25,7 @@ import Image from 'next/image'
 import mainBanner from "./images/restaurantMain.webp"
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Restaurants');
   const t2 = useTranslations('Restaurants.ClinaryInfoSection');
   const textsClinary=[t2("text1"),t2("text2"),t2("text3"),t2("text4")]
@@ -112,4 +112,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -30,7 +30,7 @@ import img2 from "./Images/beach2.webp";
 import ClinaryInfoSection from '../restaurants/components/ClinaryInfoSection'
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('BeachPools.ClinaryInfoSection');
   const t2 = useTranslations('BeachPools.PoolList');
 
@@ -135,4 +135,4 @@ const poolItems = [
   )
 }
 
-export default page
+export default Page

@@ -8,7 +8,7 @@ import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import BannerDark from '../GeneralComponents/BannerDark'
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Special');
 
   return (
@@ -23,4 +23,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -22,7 +22,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery4];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Cafedelago');
   const t2 = useTranslations('Cafedelago.ClinaryInfoSection');
   const t3 = useTranslations('Cafedelago.RoomTour');
@@ -79,4 +79,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -27,7 +27,7 @@ import img16 from "./images/SRF_7175.jpg";
 import img17 from "./images/SRF_7207.jpg";
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('TinyVilla');
   const t2 = useTranslations('TinyVilla.RoomInfo');
   const t3 = useTranslations('TinyVilla.RoomTour');
@@ -54,4 +54,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

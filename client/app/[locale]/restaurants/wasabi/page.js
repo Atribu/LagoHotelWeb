@@ -28,7 +28,7 @@ const images=[img2,img3,img4,img5,img6,
   img7,img13,img14,img16
 ]
 
-const page = () => {
+const Page = () => {
 
   const t = useTranslations('WasabiRestaurants');
   const t2 = useTranslations('WasabiRestaurants.ClinaryInfoSection');
@@ -78,4 +78,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -21,7 +21,7 @@ import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import RestaurantMainBanner from '../restaurants/components/RestaurantMainBanner'
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('BarAndCafes');
   const t2 = useTranslations('BarAndCafes.ClinaryInfoSection');
   const t3 = useTranslations('BarAndCafes.BarImageSection');
@@ -127,4 +127,4 @@ const backgroundTexts2=[t5("text1") ]
   )
 }
 
-export default page
+export default Page

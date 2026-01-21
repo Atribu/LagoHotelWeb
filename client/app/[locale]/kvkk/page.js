@@ -5,7 +5,7 @@ import Banner from '../ourpolicies/components/Banner';
 import KvkkSec2 from './components/KvkkSec2';
 import AydinlatmaMetni from './components/AydinlatmaMetni';
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState("aydinlatma");
 
   return (
@@ -40,4 +40,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
