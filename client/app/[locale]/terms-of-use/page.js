@@ -5,7 +5,7 @@ import Banner from '../ourpolicies/components/Banner';
 import AboutSection from './components/AboutSection';
 import WebRuleSection from './components/WebRuleSection';
 
-const page = () => {
+const Page = () => {
     const [activeTab, setActiveTab] = useState("hakkinda");
     
   return (
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

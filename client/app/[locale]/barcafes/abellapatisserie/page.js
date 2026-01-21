@@ -21,7 +21,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery1,gallery2,gallery3];
 
-const page = () => {
+const Page = () => {
 
   const t = useTranslations('Abellapatisserie');
   const t2 = useTranslations('Abellapatisserie.ClinaryInfoSection');
@@ -81,4 +81,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

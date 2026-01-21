@@ -16,7 +16,7 @@ import img7 from  "./images/lago-engl7.webp";
 import RoomsParallaxSection from '../components/RoomsParallaxSection'
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('DisabledRoom');
   const t2 = useTranslations('DisabledRoom.RoomInfo');
   const t3 = useTranslations('DisabledRoom.RoomTour');
@@ -41,4 +41,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

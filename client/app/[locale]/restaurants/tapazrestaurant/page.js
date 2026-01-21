@@ -27,7 +27,7 @@ const images=[img1,img2,img3,img4,img5,img6,
   img7,img8
 ]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('TapazRestaurants');
   const t2 = useTranslations('TapazRestaurants.ClinaryInfoSection');
   const t3 = useTranslations('TapazRestaurants.RoomTour');
@@ -75,4 +75,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

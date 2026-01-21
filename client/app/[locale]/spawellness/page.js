@@ -57,7 +57,7 @@ const galleryImages=[gallery12,gallery3,gallery1,gallery4,gallery5,gallery6,gall
 
 const massageImages=[aromatic, oriental, clasmassage, facial,]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Spa');
   const t2 = useTranslations('Spa.InfoSection');
   const t3 = useTranslations('Spa.SpaGallery');
@@ -85,4 +85,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

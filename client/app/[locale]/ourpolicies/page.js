@@ -18,7 +18,7 @@ import SustainabilityPolicyText from "./components/SustainabilityPolicyText";
 import EgitimSection from "./components/EgitimSection";
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Footer');
   const [activeTab, setActiveTab] = useState("politikalar");
 
@@ -236,4 +236,4 @@ Lago Ailesi üyelerinin sorumluluğundadır."
   );
 };
 
-export default page;
+export default Page;

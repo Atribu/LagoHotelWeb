@@ -22,7 +22,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery4,gallery5];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('PianoBar');
   const t2 = useTranslations('PianoBar.ClinaryInfoSection');
   const t3 = useTranslations('PianoBar.RoomTour');
@@ -80,4 +80,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -27,7 +27,7 @@ import imgDuplex2 from "./images/odalar6-2.webp";
 import ContactSection2 from "../GeneralComponents/Contact/ContactSection2";
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const room1 = useTranslations('Accommodation.RoomSection1');
   const room2 = useTranslations('Accommodation.RoomSection2');
   const room3 = useTranslations('Accommodation.RoomSection3');
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

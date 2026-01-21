@@ -19,7 +19,7 @@ import img11 from "./images/SRF_3176.jpg";
 
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('FamilySwimupRoom');
   const t2 = useTranslations('FamilySwimupRoom.RoomInfo');
   const t3 = useTranslations('FamilySwimupRoom.RoomTour');
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

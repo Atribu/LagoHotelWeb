@@ -19,7 +19,7 @@ import {useTranslations} from 'next-intl';
 
 const newsLinks=["/barcafes", "/spawellness","/kidsclub", "/special","/sport", "/special","/restaurants", "/restaurants","/restaurants"]
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('BlogNews');
   const t2 = useTranslations('BlogNews.InfoSection');
   const t3 = useTranslations('BlogNews.BlogList');
@@ -95,4 +95,4 @@ const newsItems = [
   )
 }
 
-export default page
+export default Page

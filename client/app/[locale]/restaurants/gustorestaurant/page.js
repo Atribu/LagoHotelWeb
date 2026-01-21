@@ -18,7 +18,7 @@ import KidsMomentCarousel from '../../kidsclub/components/KidsMomentCarousel'
 const images=[img1,img2,img1,img2,imgBanner]
 
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('GustoRestaurants');
   const t2 = useTranslations('GustoRestaurants.ClinaryInfoSection');
   const t3 = useTranslations('GustoRestaurants.RoomTour');
@@ -67,4 +67,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

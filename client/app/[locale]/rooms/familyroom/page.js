@@ -13,7 +13,7 @@ import img4 from "./images/SRF_3974.jpg";
 import RoomsParallaxSection from '../components/RoomsParallaxSection'
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const carouselImages = [img1,img2,img3,img4,img1,img2,img3,img4];
   const t = useTranslations('FamilyRoom');
   const t2 = useTranslations('FamilyRoom.RoomInfo');
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

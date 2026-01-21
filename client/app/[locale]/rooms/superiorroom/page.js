@@ -13,7 +13,7 @@ import img4 from "./images/SRF_4016.jpg";
 import RoomsParallaxSection from '../components/RoomsParallaxSection'
 import {useTranslations} from 'next-intl';
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('SuperiorRoom');
   const t2 = useTranslations('SuperiorRoom.RoomInfo');
   const t3 = useTranslations('SuperiorRoom.RoomTour');
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

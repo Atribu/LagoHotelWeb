@@ -22,7 +22,7 @@ import { useTranslations } from "next-intl";
 
 const galleryImages=[gallery1,gallery2,gallery3,gallery4];
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('VagoBar');
   const t2 = useTranslations('VagoBar.ClinaryInfoSection');
   const t3 = useTranslations('VagoBar.RoomTour');
@@ -81,4 +81,4 @@ const otherOptions = [
   )
 }
 
-export default page
+export default Page
