@@ -9,7 +9,7 @@ import ExploreManavgat from "./components/ExploreManavgat";
 import {useTranslations} from 'next-intl';
 import IconSection from "./components/IconSection";
 
-const REPORT_HREF = "/documents/SurdurulebilirlikRaporu2025-2026.pptx";
+const REPORT_HREF = "/documents/SurdurulebilirlikRaporu2025-2026.pdf";
 
 const Page = () => {
   const t = useTranslations('Footer');
