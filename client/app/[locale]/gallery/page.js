@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <div className='flex flex-col items-center justify-center overflow-hidden gap-[100px] bg-[#fbfbfb]'>
      <div className='flex flex-col items-center justify-center'>
-     <MainBanner2 img={mainImg} span={t("subtitle")} header={t("title")}/>
+     <MainBanner2 img={mainImg} header={t("subtitle")}/>
      <GalleryScrollSection/>
      </div>
       <ContactSection2/>
