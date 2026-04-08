@@ -2054,7 +2054,25 @@
       "sectext1":" Step into the epitome of comfort and elegance with our luxurious rooms and suites. Each room is meticulously designed to cater to your every need, featuring modern amenities, stylish furnishings, and breathtaking views. Whether you choose a cozy standard room, a spacious family suite, or an opulent executive suite, you’ll find a sanctuary that feels like your home away from home.",
       "secsubtitle2":"Pools & Beach",
       "sectitle2":" A Splash of Fun",
-      "sectext2":"Immerse yourself in the beauty of crystal-clear waters at our pools, or relax on our serene private beach. With sun loungers, umbrellas, and attentive service, every moment transforms into a slice of paradise. Families can enjoy safe and fun water activities, while those seeking tranquility can unwind to the soothing sound of waves. "
+      "sectext2":"Immerse yourself in the beauty of crystal-clear waters at our pools, or relax on our serene private beach. With sun loungers, umbrellas, and attentive service, every moment transforms into a slice of paradise. Families can enjoy safe and fun water activities, while those seeking tranquility can unwind to the soothing sound of waves. ",
+      "documentSections":[
+        {
+          "title":"OUR VISION",
+          "paragraphs":[
+            "We aim to become a leading brand in the sector with an innovative and high-quality service approach that exceeds our guests' expectations. By integrating comfort, hygiene, and technology into our distinctive accommodation experience, we strive to turn every stay into unforgettable memories. We plan to complete this target by 2025.",
+            "We see sustainability not only as a responsibility but as an essential part of our business model. By 2026, we aim to minimize our environmental impact through nature-conscious practices, energy and water efficiency, waste management, and strategies that reduce our carbon footprint. At the same time, we want to be a brand that supports local communities, protects cultural heritage, and leads social responsibility projects. We plan to realize this vision by 2028.",
+            "In our future investments, we prioritize digitalization, renewable energy use, and smart hotel technologies. We are building a structure that continuously improves guest satisfaction, makes environmentally conscious decisions, and adopts climate-friendly operating models. We aim to put this transformation into practice starting in 2026 and to fully integrate digitalization into all of our operations by 2028.",
+            "The happiness and development of our employees form the foundation of the passionate service we provide to our guests. By 2026, we plan to launch continuous training and development programs for our team and steadily improve employee satisfaction. By 2028, we aim to reach the highest satisfaction levels in the sector through systems that measure employee engagement and loyalty.",
+            "While delivering service at international standards, we are moving toward becoming a hotel chain with strong brand value that also protects local character. By 2028, we plan to obtain international certifications and become a global brand in sustainable tourism. By 2030, our vision is to be an institution that shapes the future of tourism, earns the trust of its guests, takes pride in its employees, and achieves sustainable success in the sector."
+          ]
+        },
+        {
+          "title":"OUR MISSION",
+          "paragraphs":[
+            "Our mission is to provide our guests with an unforgettable accommodation experience and to exceed expectations through luxury, personalized service, and genuine care for each guest's comfort and happiness. With a perfection-oriented approach, we create thoughtfully designed environments that make every moment feel valuable. Our hotel transforms comfort into an art through tailored services, elegant interiors, first-class spa experiences, and gourmet restaurants. Every detail is carefully considered and shaped around personal preferences so that our guests feel special, valued, and consistently surrounded by excellence."
+          ]
+        }
+      ]
     },
     "BlogList":{
       "blogsubtitle1":" GASTRONOMY",

@@ -1870,7 +1870,25 @@
       "sectext1": "Tauchen Sie ein in das Nonplusultra von Komfort und Eleganz mit unseren luxuriösen Zimmern und Suiten. Jedes Zimmer ist sorgfältig gestaltet, um all Ihre Bedürfnisse zu erfüllen, und bietet moderne Annehmlichkeiten, stilvolle Einrichtung und atemberaubende Ausblicke. Ob Sie sich für ein gemütliches Standardzimmer, eine geräumige Familiensuite oder eine opulente Executive-Suite entscheiden – Sie finden eine Oase, die sich wie Ihr Zuhause anfühlt.",
       "secsubtitle2": "Pools & Strand",
       "sectitle2": "Ein Spritzer Spaß",
-      "sectext2": "Tauchen Sie ein in die Schönheit kristallklarer Gewässer in unseren Pools oder entspannen Sie an unserem ruhigen Privatstrand. Mit Liegestühlen, Sonnenschirmen und aufmerksamem Service verwandelt sich jeder Moment in ein Stück Paradies. Familien können sichere und unterhaltsame Wasseraktivitäten genießen, während diejenigen, die Ruhe suchen, sich von den beruhigenden Klängen der Wellen verwöhnen lassen."
+      "sectext2": "Tauchen Sie ein in die Schönheit kristallklarer Gewässer in unseren Pools oder entspannen Sie an unserem ruhigen Privatstrand. Mit Liegestühlen, Sonnenschirmen und aufmerksamem Service verwandelt sich jeder Moment in ein Stück Paradies. Familien können sichere und unterhaltsame Wasseraktivitäten genießen, während diejenigen, die Ruhe suchen, sich von den beruhigenden Klängen der Wellen verwöhnen lassen.",
+      "documentSections": [
+        {
+          "title": "UNSERE VISION",
+          "paragraphs": [
+            "Wir möchten mit einem innovativen und hochwertigen Serviceverständnis, das die Erwartungen unserer Gäste übertrifft, zu einer führenden Marke in der Branche werden. Indem wir Komfort, Hygiene und Technologie in ein einzigartiges Unterkunftserlebnis integrieren, wollen wir jeden Aufenthalt in unvergessliche Erinnerungen verwandeln. Dieses Ziel möchten wir bis 2025 erreichen.",
+            "Nachhaltigkeit betrachten wir nicht nur als Verantwortung, sondern als unverzichtbaren Bestandteil unseres Geschäftsmodells. Bis 2026 wollen wir unsere Umweltauswirkungen durch naturbewusste Anwendungen, Energie- und Wassereffizienz, Abfallmanagement und Strategien zur Verringerung unseres CO2-Fußabdrucks minimieren. Gleichzeitig wollen wir eine Marke sein, die lokale Gemeinschaften unterstützt, das kulturelle Erbe schützt und soziale Verantwortung übernimmt. Diese Vision möchten wir bis 2028 verwirklichen.",
+            "Bei unseren Investitionen in die Zukunft stellen wir Digitalisierung, den Einsatz erneuerbarer Energien und intelligente Hoteltechnologien in den Vordergrund. Wir bauen eine Struktur auf, die die Gästezufriedenheit kontinuierlich verbessert, umweltbewusste Entscheidungen trifft und klimafreundliche Betriebsmodelle übernimmt. Diese Transformation möchten wir ab 2026 umsetzen und bis 2028 die Digitalisierung vollständig in alle unsere Abläufe integrieren.",
+            "Das Glück und die Entwicklung unserer Mitarbeitenden bilden die Grundlage für den leidenschaftlichen Service, den wir unseren Gästen bieten. Bis 2026 planen wir kontinuierliche Schulungs- und Entwicklungsprogramme für unser Team und möchten die Mitarbeiterzufriedenheit stetig steigern. Bis 2028 wollen wir mithilfe von Systemen zur Messung von Zufriedenheit und Bindung die höchsten Zufriedenheitswerte der Branche erreichen.",
+            "Während wir Dienstleistungen nach internationalen Standards anbieten, verfolgen wir den Weg zu einer Hotelkette mit starkem Markenwert, die gleichzeitig den lokalen Charakter bewahrt. Bis 2028 möchten wir internationale Zertifizierungen erhalten und im nachhaltigen Tourismus zu einer globalen Marke werden. Bis 2030 ist es unsere Vision, eine Institution zu sein, die die Zukunft des Tourismus mitgestaltet, das Vertrauen ihrer Gäste gewinnt, stolz auf ihre Mitarbeitenden ist und nachhaltigen Erfolg in der Branche erzielt."
+          ]
+        },
+        {
+          "title": "UNSERE MISSION",
+          "paragraphs": [
+            "Unsere Mission ist es, unseren Gästen ein unvergessliches Unterkunftserlebnis zu bieten und ihre Erwartungen mit luxuriösen, persönlichen Dienstleistungen zu übertreffen, die auf Komfort und Wohlbefinden ausgerichtet sind. Mit einem kompromisslosen Qualitätsanspruch schaffen wir sorgfältig gestaltete Umgebungen, in denen sich jeder Moment wertvoll anfühlt. Unser Hotel macht Komfort durch maßgeschneiderte Services, elegante Innenräume, erstklassige Spa-Erlebnisse und Gourmet-Restaurants zu einer Kunstform. Jedes Detail wird präzise durchdacht und auf persönliche Vorlieben abgestimmt, damit sich unsere Gäste besonders, wertgeschätzt und rundum hervorragend betreut fühlen."
+          ]
+        }
+      ]
     },
     "BlogList": {
       "blogsubtitle1": "GASTRONOMIE",

@@ -27,6 +27,7 @@ const Page = () => {
 const texts=[t2("subtitle"),t2("title"),t2("text")]
 const texts2=[t2("secsubtitle1"),t2("sectitle1"),t2("sectext1")]
 const texts3=[t2("secsubtitle2"),t2("sectitle2"),t2("sectext2")]
+const documentSections = t2.raw("documentSections");
 
 const newsItems = [
   {
@@ -88,7 +89,7 @@ const newsItems = [
   return (
     <div className='flex flex-col items-center justify-center gap-[50px] lg:gap-[100px] bg-[#fbfbfb]'>
      <MainBanner2 img={mainImg} span={t("subtitle")} header={t ("title")}/> 
-     <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/" buttonText={t3("buttonText")}/>
+     <MissionVisionSection leftImg={leftImg} rightImg={rightImg} texts={texts} texts2={texts2} texts3={texts3} showLink={true} link1="/" link2="/" buttonText={t3("buttonText")} documentSections={documentSections}/>
      <Beach5 span="" header="" text="" poolItems={newsItems} showLink={true} links={newsLinks} buttonText={t3("buttonText")}/>
      <ContactSection2/>
     </div>

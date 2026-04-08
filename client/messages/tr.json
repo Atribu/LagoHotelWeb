@@ -1924,7 +1924,25 @@
       "sectext1": "Lüks odalarımız ve süitlerimizle konforun ve zarafetin doruk noktasına adım atın. Her oda, modern olanaklar, şık mobilyalar ve nefes kesici manzaralar sunacak şekilde özenle tasarlanmıştır. İster samimi bir standart oda, ister geniş bir aile süiti ya da görkemli bir executive süit seçin; evinizden uzakta kendinizi evinizde hissedeceksiniz.",
       "secsubtitle2": "Havuzlar & Plaj",
       "sectitle2": "Eğlence Dolu Bir Serinlik",
-      "sectext2": "Kristal berraklığındaki sulara sahip havuzlarımızda dalıp giderken veya sakin özel plajımızda dinlenirken, şezlonglar, şemsiyeler ve özenli hizmet ile her an cennet tadında geçiyor. Aileler güvenli ve eğlenceli su aktivitelerinin keyfini çıkarabilir, huzur arayanlar ise dalgaların sakinleştirici sesleri eşliğinde rahatlayabilir."
+      "sectext2": "Kristal berraklığındaki sulara sahip havuzlarımızda dalıp giderken veya sakin özel plajımızda dinlenirken, şezlonglar, şemsiyeler ve özenli hizmet ile her an cennet tadında geçiyor. Aileler güvenli ve eğlenceli su aktivitelerinin keyfini çıkarabilir, huzur arayanlar ise dalgaların sakinleştirici sesleri eşliğinde rahatlayabilir.",
+      "documentSections": [
+        {
+          "title": "VİZYONUMUZ",
+          "paragraphs": [
+            "Misafirlerimizin beklentilerini aşan, yenilikçi ve kaliteli hizmet anlayışımızla sektörde öncü bir marka olmayı hedefliyoruz. Konfor, hijyen ve teknolojiyi entegre ederek tasarladığımız benzersiz konaklama deneyimleriyle her ziyareti unutulmaz anlara dönüştürmeyi amaçlıyoruz. Bu hedefimizi 2025 yılına kadar tamamlamayı planlıyoruz.",
+            "Sürdürülebilirliği sadece bir sorumluluk değil, iş modelimizin vazgeçilmez bir parçası olarak görüyoruz. 2026 yılına kadar doğaya duyarlı uygulamalar, enerji ve su verimliliği, atık yönetimi ve karbon ayak izini azaltmaya yönelik stratejilerle çevresel etkilerimizi en aza indirmeyi hedefliyoruz. Aynı zamanda yerel toplulukları destekleyen, kültürel mirasa sahip çıkan ve sosyal sorumluluk projelerine öncülük eden bir marka olmak istiyoruz. Bu vizyonumuzu 2028 yılına kadar gerçekleştirmeyi planlıyoruz.",
+            "Geleceğe yönelik yatırımlarımızda dijitalleşme, yenilenebilir enerji kullanımı ve akıllı otel teknolojilerini ön planda tutuyoruz. Misafir memnuniyetini sürekli geliştiren, çevre duyarlı kararlar alırken ilerleyen ve iklim dostu işletme modellerini benimseyen bir yapıyı hedefliyoruz. Bu dönüşümü 2026 yılından itibaren hayata geçirmeyi amaçlıyoruz. 2028 yılına kadar ise tüm operasyonlarımızda dijitalleşmeyi tam anlamıyla entegre etmeyi planlıyoruz.",
+            "Çalışanlarımızın mutluluğu ve gelişimi, misafirlerimize tutkuyla hizmet etmemizin temelini oluşturur. 2026 yılına kadar çalışanlarımız için sürekli eğitim ve gelişim programları başlatmayı, onların memnuniyetini sürekli artırmayı planlıyoruz. 2028 yılına kadar ise çalışan memnuniyeti ve bağlılığını ölçen sistemler ile sektördeki en yüksek memnuniyet oranlarına ulaşmayı hedefliyoruz.",
+            "Uluslararası standartlarda hizmet sunarken yerel dokuyu koruyan, yüksek marka değerine sahip bir oteller zinciri olma yolunda ilerliyoruz. 2028 yılına kadar uluslararası sertifikasyonlar elde ederek, sürdürülebilir turizm alanında global bir marka olmayı planlıyoruz. Geleceğin turizm anlayışına yön veren, misafirlerinin güvenini kazanmış, çalışanlarıyla gurur duyan ve sektörde sürdürülebilir başarıyı yakalamış bir kurum olmayı 2030 yılına kadar vizyon edinmiş bulunuyoruz."
+          ]
+        },
+        {
+          "title": "MİSYONUMUZ",
+          "paragraphs": [
+            "Misafirlerimize unutulmaz bir konaklama deneyimi sunmayı, her birinin rahatlığı ve mutluluğu için lüks ve kişiye özel hizmetlerle beklentilerini aşmayı hedefliyoruz. Mükemmeliyetçi bir yaklaşımı benimseyerek, misafirlerimizin her anını değerli kılmak için özenle tasarlanmış bir ortam sağlıyoruz. Otelimiz; her konuk için tamamen özelleştirilmiş hizmetler, zarif iç mekanlar, birinci sınıf spa deneyimleri ve gurme restoranlarıyla konforu bir sanat haline getiriyor. Misafirlerimizin rahatlığı için tüm detaylar en ince şekilde düşünülüp kişisel tercihlerine göre şekillendirilmektedir. Her adımda, konuklarımızın kendilerini özel ve değerli hissetmeleri için sürekli olarak mükemmelliği arıyoruz."
+          ]
+        }
+      ]
     },
     "BlogList": {
     "blogsubtitle1": "GASTRONOMİ",

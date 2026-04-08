@@ -43,6 +43,29 @@ const MissionColumn = ({
   </div>
 );
 
+const MissionDocument = ({ sections = [] }) => (
+  <div className="flex w-full flex-col gap-[28px] rounded-[24px] border border-[#DED9D1] bg-white px-[24px] py-[28px] shadow-custom md:px-[40px] md:py-[36px] lg:px-[56px] lg:py-[48px]">
+    {sections.map((section) => (
+      <div
+        key={section.title}
+        className="flex flex-col items-start gap-[14px] text-start"
+      >
+        <h4 className="font-marcellus text-[20px] font-normal uppercase leading-[120%] tracking-[0.48px] text-lagoBlack md:text-[24px] lg:text-[28px]">
+          {section.title}
+        </h4>
+        {section.paragraphs.map((paragraph, index) => (
+          <p
+            key={`${section.title}-${index}`}
+            className="font-jost text-[14px] font-normal leading-[24px] text-lagoGray lg:text-[16px]"
+          >
+            {paragraph}
+          </p>
+        ))}
+      </div>
+    ))}
+  </div>
+);
+
 const MissionVisionSection = ({
   texts = [],
   texts2 = [],
@@ -52,7 +75,8 @@ const MissionVisionSection = ({
   showLink,
   link1,
   link2,
-  buttonText
+  buttonText,
+  documentSections = []
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
@@ -85,6 +109,8 @@ const MissionVisionSection = ({
       setSelectedIndex(emblaApi.selectedScrollSnap());
     }
   }, [emblaApi]);
+
+  const hasDocumentSections = documentSections.length > 0;
 
   return (
     <div className="flex w-screen items-center justify-center max-w-[1440px]">
@@ -125,9 +151,17 @@ const MissionVisionSection = ({
         </div>
 
         {/* PDF indirme linki */}
-        <div className="flex flex-col items-center justify-center w-full gap-2 gap-4">
-        
-          <Image src={imgVizyonMission} alt="vizyonmisyon" width={imgVizyonMission.width} height={imgVizyonMission.height}/>
+        <div className="flex w-full flex-col items-center justify-center gap-4">
+          {hasDocumentSections ? (
+            <MissionDocument sections={documentSections} />
+          ) : (
+            <Image
+              src={imgVizyonMission}
+              alt="vizyonmisyon"
+              width={imgVizyonMission.width}
+              height={imgVizyonMission.height}
+            />
+          )}
         </div>
 
         {/* Mobil görünüm: Carousel (md:hidden) */}
