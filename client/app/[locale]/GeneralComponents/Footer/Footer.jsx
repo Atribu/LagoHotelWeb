@@ -563,10 +563,21 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Alt ince çizgi */}
-      <div className="md:flex hidden w-full h-[1px] bg-gray-400 mt-[60px]" />
+      <div className="flex w-full flex-col items-center px-4 pt-[36px] md:pt-[60px]">
+        <div className="h-[1px] w-full max-w-[1178px] bg-[#5A5A5A]" />
+        <Link
+          href="https://www.ktb.gov.tr/genel/searchhotelgenel.aspx?lang=tr"
+          target="_blank"
+          rel="norefferer nofollower"
+          className="py-[18px] text-center font-jost text-[12px] font-normal leading-[20px] tracking-[0.24px] text-[#A6A6A6] transition-colors hover:text-white md:py-[22px] md:text-[16px] md:tracking-[0.32px]"
+        >
+          {t("tourismLicense")}
+        </Link>
+        <div className="h-[1px] w-full max-w-[1178px] bg-[#5A5A5A]" />
+      </div>
+
       <Link href="https://dgtlface.com"   rel="norefferer nofollower"
-                  target="_blank" className="flex w-full text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[80px] md:py-[1.8%] text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
+                  target="_blank" className="flex w-full px-4 pt-[26px] text-[14px] font-normal leading-normal font-jost tracking-[0.56px] mb-2 pb-[80px] md:py-[1.8%] text-center justify-center items-center gap-[9.13px] text-[#A6A6A6]">
             Powered by <DgtlfaceSvg className="flex" width={104} height={27} />
       </Link>
     </footer>
