@@ -2,7 +2,7 @@ import React from 'react'
 import mainImg from "./images/specialMain.webp"
 import SpecialTypesSection from './components/SpecialTypesSection'
 import SpecialGridSection from './components/SpecialGridSection'
-import SpecialInfoSection from './components/SpecialInfoSection'
+// import SpecialInfoSection from './components/SpecialInfoSection'
 import SpecialCarousel from './components/SpecialCarousel'
 import ContactSection2 from '../GeneralComponents/Contact/ContactSection2'
 import BannerDark from '../GeneralComponents/BannerDark'
@@ -16,7 +16,7 @@ const Page = () => {
       <BannerDark span={t("subtitle")} header={t("title")} text={t("text")} img={mainImg}/>
       <SpecialTypesSection/>
       <SpecialGridSection/>
-      <SpecialInfoSection/>
+      {/* <SpecialInfoSection/> */}
       <SpecialCarousel/>
       <ContactSection2/>
     </div>
