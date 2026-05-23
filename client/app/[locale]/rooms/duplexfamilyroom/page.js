@@ -2,10 +2,10 @@ import React from 'react'
 import SubRoomBanner from '../familyswimup/components/SubRoomBanner'
 import SubroomCarousel from '../familyswimup/components/SubroomCarousel'
 import RoomFeatures from '../familyswimup/components/RoomFeatures'
-import BackgroundSection from '../familyswimup/components/BackgroundSection'
+// import BackgroundSection from '../familyswimup/components/BackgroundSection'
 import RoomTour from '../familyswimup/components/RoomTour'
 import OtherOptions from '../familyswimup/components/OtherOptions'
-import backgroundImg from "../familyswimup/images/odafull.webp"
+// import backgroundImg from "../familyswimup/images/odafull.webp"
 import ContactSection2 from '@/app/[locale]/GeneralComponents/Contact/ContactSection2'
 
 import img1 from "./images/SRF_3196.jpg";
@@ -21,11 +21,11 @@ const Page = () => {
   const t = useTranslations('DuplexFamilyRoom');
   const t2 = useTranslations('DuplexFamilyRoom.RoomInfo');
   const t3 = useTranslations('DuplexFamilyRoom.RoomTour');
- const t4 = useTranslations('DuplexFamilyRoom.BackgroundSection');
+ // const t4 = useTranslations('DuplexFamilyRoom.BackgroundSection');
 
   const subroomBannerText=[t("text1"),t("text2"),t("text3")]
   const iconTexts=[t2("list1"),t2("list2"),t2("list3")];
-  const backgroundTexts=[t4("text1"),t4("text2"),t4("text3")]
+  // const backgroundTexts=[t4("text1"),t4("text2"),t4("text3")]
 
   const carouselImages = [img1,img2,img3,img4,img5,img8];
 
@@ -36,7 +36,7 @@ const Page = () => {
      <SubroomCarousel images={carouselImages}/>
      </div>
       <RoomFeatures span={t2("subtitle")} header={t2("title")} text={t2("text")} header2={t2("title2")} header3={t2("title3")}  text2={t2("text2")} iconsTexts={iconTexts}  roomName="DuplexFamilyRoom" pool={false}/>
-       <BackgroundSection span={t4("subtitle")} header={t4("title")} texts={backgroundTexts} link="/" img={backgroundImg}/>
+       {/* <BackgroundSection span={t4("subtitle")} header={t4("title")} texts={backgroundTexts} link="/" img={backgroundImg}/> */}
        <RoomTour span={t3("subtitle")} header={t3("title")} text={t3("text")} link="https://kuula.co/share/collection/7bR3l?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
        <RoomTour span={t3("subtitle2")} header={t3("title2")} text={t3("text2")} link="https://kuula.co/share/collection/7bRjl?logo=1&info=0&fs=1&vr=1&autorotate=0.22&autop=10&autopalt=1&thumbs=4&margin=2&alpha=0.72"/>
       <OtherOptions/>
