@@ -1,70 +1,96 @@
 "use client";
+
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
+
 import honeymoon from "../images/honeymoon1.webp";
-import pavilion from "../images/pavilion1.webp"
-import marriage from "../images/marriage1.webp"
-import wedding from "../images/wedding1.webp"
-import flower from "../images/flower1.webp"
-import birthday from "../images/birthday1.webp"
-import {useTranslations} from 'next-intl';
+import pavilion from "../images/pavilion1.webp";
+import marriage from "../images/marriage1.webp";
+import wedding from "../images/wedding1.webp";
+import flower from "../images/flower1.webp";
+import special from "../images/special.webp";
+import birthday from "../images/birthday1.webp";
+
+import { useTranslations } from "next-intl";
 
 const SpecialGridSection = () => {
-  const t = useTranslations('Special.HoverSection');
+  const t = useTranslations("Special.HoverSection");
+
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const [activeVideo, setActiveVideo] = useState(0);
+
+  const specialVideos = [
+    "/audio/special-1.mp4",
+    "/audio/special-2.mp4",
+  ];
+
+  const openSpecialVideoModal = () => {
+    setActiveVideo(0);
+    setIsVideoOpen(true);
+  };
+
+  const closeSpecialVideoModal = () => {
+    setIsVideoOpen(false);
+    setActiveVideo(0);
+  };
 
   // Kartları tutan dinamik veri dizisi
-const gridData = [
-  {
-    title: t("title1"),
-    span: t("subtitle1"),
-    description:
-    t("text1"),
-    image: honeymoon,
-  },
-  {
-    title: t("title2"),
-    span: t("subtitle2"),
-    description:
-    t("text2"),
-    image: pavilion,
-  },
-  {
-    title: t("title3"),
-    span: t("subtitle3"),
-    description:
-    t("text3"),
-    image: marriage,
-  },
-  {
-    title: t("title4"),
-    span: t("subtitle4"),
-    description:
-    t("text4"),
-    image: wedding,
-  },
-  // {
-  //   title: t("title5"),
-  //   span: t("subtitle5"),
-  //   description:
-  //   t("text5"),
-  //   image: flower,
-  // },
-  {
-    title: t("title6"),
-    span: t("subtitle6"),
-    description:
-    t("text6"),
-    image: birthday,
-  },
-];
+  const gridData = [
+    {
+      title: t("title1"),
+      span: t("subtitle1"),
+      description: t("text1"),
+      image: honeymoon,
+    },
+    {
+      title: t("title2"),
+      span: t("subtitle2"),
+      description: t("text2"),
+      image: pavilion,
+    },
+    {
+      title: t("title3"),
+      span: t("subtitle3"),
+      description: t("text3"),
+      image: marriage,
+    },
+    {
+      title: t("title4"),
+      span: t("subtitle4"),
+      description: t("text4"),
+      image: wedding,
+    },
+    // {
+    //   title: t("title5"),
+    //   span: t("subtitle5"),
+    //   description: t("text5"),
+    //   image: flower,
+    // },
+    {
+      title: t("title6"),
+      span: t("subtitle6"),
+      description: t("text6"),
+      image: birthday,
+    },
+    {
+      title: t("title7"),
+      span: t("subtitle7"),
+      description: t("text7"),
+      image: special,
+      isSpecial: true,
+      videos: specialVideos,
+    },
+  ];
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({  loop: true,
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: true,
     align: "start",
-    startIndex: 0, });
+    startIndex: 0,
+  });
 
   const [selectedIndex, setSelectedIndex] = useState(0);
-    
+
   const scrollPrev = useCallback(() => {
     if (emblaApi && emblaApi.scrollPrev) emblaApi.scrollPrev();
   }, [emblaApi]);
@@ -73,124 +99,241 @@ const gridData = [
     if (emblaApi && emblaApi.scrollNext) emblaApi.scrollNext();
   }, [emblaApi]);
 
+  const handleJump = useCallback(
+    (index) => {
+      if (emblaApi) emblaApi.scrollTo(index);
+    },
+    [emblaApi]
+  );
+
   useEffect(() => {
     if (emblaApi) {
       emblaApi.on("select", () => {
         setSelectedIndex(emblaApi.selectedScrollSnap());
       });
+
       setSelectedIndex(emblaApi.selectedScrollSnap());
     }
   }, [emblaApi]);
 
+  useEffect(() => {
+    if (isVideoOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isVideoOpen]);
+
   return (
-    <div className="flex w-screen items-center justify-center ">
-      <div className="flex flex-col w-[89.79%] md:w-[91.4%] lg:w-[84%] xl:w-[76.8%] items-center justify-center gap-[30px] lg:gap-[50px]">
-        {/* Başlık Alanı */}
-        <div className="flex flex-col w-full md:w-[70%] items-center justify-center text-center text-black font-jost gap-[15px] md:gap-[25px] lg:gap-[34px]">
-          <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
-          {t("subtitle")}
-          </span>
-          <h3 className="text-[28px] lg:text-[36px] font-normal font-marcellus capitalize leading-[120%] lg:leading-[57.6px] lg:capsizedText3">
-          {t("title")}
-          </h3>
-          <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] lg:capsizedText4 lg:max-w-[527px]">
-          {t("text")}
-          </p>
-        </div>
+    <>
+      <div className="flex w-screen items-center justify-center">
+        <div className="flex flex-col w-[89.79%] md:w-[91.4%] lg:w-[84%] xl:w-[76.8%] items-center justify-center gap-[30px] lg:gap-[50px]">
+          {/* Başlık Alanı */}
+          <div className="flex flex-col w-full md:w-[70%] items-center justify-center text-center text-black font-jost gap-[15px] md:gap-[25px] lg:gap-[34px]">
+            <span className="text-[12px] font-medium leading-[14px] tracking-[0.48px] uppercase">
+              {t("subtitle")}
+            </span>
 
-        {/* Dinamik Grid Bölümü */}
-        <div className="hidden md:grid md:grid-cols-3 gap-[27px] w-full xl:w-[1106px]">
-          {gridData.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col w-[100%] items-start justify-end pb-[35px] h-[360px] lg:h-[44vh] xl:h-[500px] bg-center bg-cover relative group"
-              style={{ backgroundImage: `url(${item.image.src})` }}
-            >
-              {/* Hafif karartma (her zaman görünür) */}
-              <div className="absolute bg-black/10 inset-0 z-1"></div>
+            <h3 className="text-[28px] lg:text-[36px] font-normal font-marcellus capitalize leading-[120%] lg:leading-[57.6px] lg:capsizedText3">
+              {t("title")}
+            </h3>
 
-              {/* Normal başlık ve alt yazı (hover'da kaybolacak) */}
-              <div className="flex flex-col ml-[32px] items-start justify-end z-10 gap-[20px] text-white">
-                <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px] transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
-                  {item.span}
-                </span>
-                <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
-                  {item.title}
-                </h4>
-              </div>
+            <p className="text-[14px] lg:text-[16px] font-normal leading-[24px] lg:capsizedText4 lg:max-w-[527px]">
+              {t("text")}
+            </p>
+          </div>
 
-              {/* Tam karartma (hover ile açılacak) */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-              {/* Hover ile aşağıdan kayan içerik */}
-              <div
-                className="absolute bottom-[52.28px] text-white flex flex-col justify-start items-center text-start font-montserrat gap-[20px] 
-                opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out"
-              >
-                <div className="flex flex-col w-5/6 gap-[10px] items-start justify-center">
-                  <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
-                    {item.span}
-                  </span>
-                  <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize lg:capsizedText3">
-                    {item.title}
-                  </h4>
-                  <div className="flex w-full h-[1px] bg-grayLight"></div>
-                  <p className="text-[11px]">{item.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-
-         {/* other options */}
-      <div className="md:hidden flex flex-col gap-6 w-full">
-        <div className="overflow-hidden w-full" ref={emblaRef}>
-          <div className="flex items-start justify-start w-full">
-            {gridData.map((data,index) => (
+          {/* Dinamik Grid Bölümü */}
+          <div className="hidden md:grid md:grid-cols-3 gap-[27px] w-full xl:w-[1106px]">
+            {gridData.map((item, index) => (
               <div
                 key={index}
-                className="flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%]"
+                onClick={item.isSpecial ? openSpecialVideoModal : undefined}
+                className={`flex flex-col w-[100%] items-start justify-end pb-[35px] h-[360px] lg:h-[44vh] xl:h-[500px] bg-center bg-cover relative group ${
+                  item.isSpecial ? "cursor-pointer" : ""
+                }`}
+                style={{ backgroundImage: `url(${item.image.src})` }}
               >
-                <div className="flex flex-col relative w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black ">
-                  <Image
-                    src={data.image}
-                    alt={data.title}
-                    width={data.image.width}
-                    height={data.image.height}
-                     className="flex h-[383px] md:h-[400px] w-auto md:w-full"
-                  />
-                  <div className="absolute inset-0 bg-black/40 z-[1]"></div>
-                  <div className="absolute bottom-[30px] left-[30px] text-white z-20">
-                  <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
-                    {data.span}
-                  </span>
-                  <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
-                  {data.title}
-                </h4>
+                {/* Hafif karartma */}
+                <div className="absolute bg-black/10 inset-0 z-[1]"></div>
+
+                {/* Normal başlık ve alt yazı */}
+                <div
+  className={`flex flex-col ml-[32px] items-start justify-end z-10 gap-[20px] ${
+    item.isSpecial ? "text-transparent" : "text-white"
+  }`}
+>
+  <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px] transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0">
+    {item.span}
+  </span>
+
+  <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
+    {item.title}
+  </h4>
+</div>
+
+                {/* Tam karartma */}
+               <div
+  className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+    item.isSpecial ? "bg-black/60 " : "bg-black/40"
+  }`}
+></div>
+
+                {/* Hover ile aşağıdan kayan içerik */}
+                <div
+                  className="absolute bottom-[52.28px] text-white flex flex-col justify-start items-center text-start font-montserrat gap-[20px]
+                  opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out z-10"
+                >
+                  <div className="flex flex-col w-5/6 gap-[10px] items-start justify-center">
+                    <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
+                      {item.span}
+                    </span>
+
+                    <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize lg:capsizedText3">
+                      {item.title}
+                    </h4>
+
+                    {item.description && (
+                      <>
+                        <div className="flex w-full h-[1px] bg-grayLight"></div>
+                        <p className="text-[11px]">{item.description}</p>
+                      </>
+                    )}
+
+                    {item.isSpecial && (
+                      <span className="text-[12px] uppercase tracking-[0.48px]">
+                         {t("video")}
+                      </span>
+                    )}
                   </div>
-                
                 </div>
               </div>
             ))}
           </div>
-        </div>
 
-        <div className="flex lg:hidden items-end justify-end w-full mt-[0px] md:mt-[20px] xl:mt-[50px] relative">
-  {gridData.map((_, i) => (
-    <div
-      key={i}
-      className={`transition-all w-[33.3%] h-[1px] bg-[#24292C] rounded-full ${
-        selectedIndex === i ? "p-[1px]" : "bg-[#848383] "
-      }`}
-      onClick={() => handleJump(i)}
-    />
-  ))}
-</div>
-        </div>
+          {/* Mobile Carousel */}
+          <div className="md:hidden flex flex-col gap-6 w-full">
+            <div className="overflow-hidden w-full" ref={emblaRef}>
+              <div className="flex items-start justify-start w-full">
+                {gridData.map((data, index) => (
+                  <div
+                    key={index}
+                    onClick={data.isSpecial ? openSpecialVideoModal : undefined}
+                    className={`flex-[0_0_auto] h-[390px] min-w-0 mr-[1.5%] ${
+                      data.isSpecial ? "cursor-pointer" : ""
+                    }`}
+                  >
+                    <div className="flex flex-col relative w-full items-start text-start justify-center gap-[15px] lg:gap-[20px] font-jost text-black">
+                      <Image
+                        src={data.image}
+                        alt={data.title || "special"}
+                        width={data.image.width}
+                        height={data.image.height}
+                        className="flex h-[383px] md:h-[400px] w-auto md:w-full"
+                      />
 
+                      <div className="absolute inset-0 bg-black/40 z-[1]"></div>
+
+                      <div className="absolute bottom-[30px] left-[30px] text-white z-20">
+                        <span className="text-[12px] font-normal uppercase tracking-[0.48px] leading-[14px]">
+                          {data.span}
+                        </span>
+
+                        <h4 className="text-[26px] lg:text-[30px] leading-[120%] lg:leading-[57.6px] font-marcellus font-normal capitalize transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 lg:capsizedText3">
+                          {data.title}
+                        </h4>
+
+                        {data.isSpecial && (
+                          <span className="text-[12px] uppercase tracking-[0.48px]">
+                            {t("video")}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex lg:hidden items-end justify-end w-full mt-[0px] md:mt-[20px] xl:mt-[50px] relative">
+              {gridData.map((_, i) => (
+                <div
+                  key={i}
+                  className={`transition-all w-[33.3%] h-[1px] bg-[#24292C] rounded-full ${
+                    selectedIndex === i ? "p-[1px]" : "bg-[#848383]"
+                  }`}
+                  onClick={() => handleJump(i)}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+
+      {/* Special Video Modal */}
+      {isVideoOpen && (
+        <div
+          className="fixed inset-0 z-[9999] bg-black/85 flex items-center justify-center px-[20px]"
+          onClick={closeSpecialVideoModal}
+        >
+          <div
+            className="relative w-full max-w-[1100px] flex flex-col gap-[18px]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={closeSpecialVideoModal}
+              className="absolute right-0 top-[-44px] text-white text-[32px] leading-none z-20"
+              aria-label="Videoyu kapat"
+            >
+              ×
+            </button>
+
+            <div className="w-full bg-black">
+              <video
+                key={specialVideos[activeVideo]}
+                src={specialVideos[activeVideo]}
+                controls
+                autoPlay
+                playsInline
+                className="w-full max-h-[70vh] object-contain bg-black"
+              />
+            </div>
+
+            <div className="flex items-center justify-center gap-[12px]">
+              {specialVideos.map((video, index) => (
+                <button
+                  key={video}
+                  type="button"
+                  onClick={() => setActiveVideo(index)}
+                  className={`relative w-[120px] md:w-[160px] h-[70px] md:h-[90px] overflow-hidden border transition-all ${
+                    activeVideo === index
+                      ? "border-white opacity-100"
+                      : "border-white/30 opacity-60 hover:opacity-100"
+                  }`}
+                >
+                  <video
+                    src={video}
+                    muted
+                    playsInline
+                    preload="metadata"
+                    className="w-full h-full object-cover"
+                  />
+
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                    <span className="text-white text-[20px]">▶</span>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
