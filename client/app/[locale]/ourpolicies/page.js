@@ -12,6 +12,7 @@ import people2Img from "./images/people2.png";
 import people3Img from "./images/people3.png";
 import qualityImg from "./images/quality.png";
 import uyumImg from "./images/uyum.png";
+import suVerimliligiImg from "./images/su-verimliligi.png";
 import InfoSection from "./components/InfoSection";
 import PolicySection from "./components/PolicySection";
 import SustainabilityPolicyText from "./components/SustainabilityPolicyText";
@@ -229,6 +230,18 @@ Tesisimizin çalışanlarımız açısından cazibe merkezi olmasını sağlayar
 Teknoloji ve dijital dönüşüme önem vererek tesisin, misafirlerin ve paydaşların bilgi ve verilerinin güvenliğini sağlamak,
 Lago Ailesi üyelerinin sorumluluğundadır."
         img={entegre}
+      />
+
+      <InfoSection
+        isImageLeft={false}
+        showLink={false}
+        span=""
+        header=" SU VERİMLİLİĞİ POLİTİKAMIZ"
+        text="Lago Otel, su kaynaklarının korunmasını sürdürülebilir turizm anlayışının temel unsurlarından biri olarak kabul eder ve tüm faaliyetlerinde suyun verimli, sorumlu ve sürdürülebilir kullanımını taahhüt eder.
+Bu kapsamda; konaklama, mutfak, çamaşırhane, peyzaj, havuz ve teknik işletme süreçleri dahil olmak üzere tesis genelindeki tüm su kullanım alanlarını etkin şekilde yönetir, su tüketimini izleyerek ölçülebilir hedefler doğrultusunda performansını sürekli değerlendirir."
+        text2="Kuruluşumuz; yürürlükteki yasal mevzuata tam uyum sağlamayı, su verimli ekipman ve teknolojilerin kullanımını yaygınlaştırmayı, operasyonel süreçleri sürekli iyileştirmeyi, çalışan farkındalığını artırmayı ve doğal kaynakların korunmasına katkı sağlayan uygulamaları desteklemeyi taahhüt eder.
+Su verimliliği yönetim sistemimiz düzenli olarak gözden geçirilmekte ve sürekli iyileştirme anlayışı doğrultusunda geliştirilmektedir. Lago Otel, su kaynaklarının gelecek nesillere aktarılmasına katkı sağlamayı kurumsal sorumluluğunun ayrılmaz bir parçası olarak benimsemektedir."
+        img={suVerimliligiImg}
       />
        </>
       )}
