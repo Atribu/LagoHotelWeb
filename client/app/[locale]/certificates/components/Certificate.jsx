@@ -12,8 +12,11 @@ import img7 from "../images/certificate6.jpeg"
 import img8 from "../images/certificate7.jpeg"
 import img9 from "../images/certificate1enEnvironmental.png"
 import img10 from "../images/certificate1trEnvironmental.png"
+import img11 from "../images/hygine-certificate.jpeg"
+import img12 from "../images/safehotel-certificate.jpeg"
 
-const images = [img1,img2,img9,img10, img3,img4,img5,img6,img7,img8];
+
+const images = [img1,img2,img9,img10, img3,img4,img5,img6,img7,img8, img11, img12];
 
 const Certificate = () => {
   const [modalImage, setModalImage] = useState(null) 
